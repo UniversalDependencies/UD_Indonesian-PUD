@@ -98,7 +98,7 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.1
+Data available since: UD v2.2
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
