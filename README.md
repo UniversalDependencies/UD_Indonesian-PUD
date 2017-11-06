@@ -108,6 +108,6 @@ XPOS: not available
 Features: converted from manual
 Relations: converted from manual
 Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Manurung, Ruli; Shohibussirri, Muh; Popel, Martin; Zeman, Daniel
-Contributing: here
+Contributing: to be adopted
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
