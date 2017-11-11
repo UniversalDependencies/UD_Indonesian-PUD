@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1000</sentences><tokens>25225</tokens><words>25225</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="3833" /><!-- an, ,, ., di, kan, me, yang, nya, dan, ke, ber, -, i, pe, se -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">1361</tag><!-- _ -->
+    <tag name="ADP">2832</tag><!-- _ -->
+    <tag name="ADV">1049</tag><!-- _ -->
+    <tag name="AFFIX">5333</tag><!-- _ -->
+    <tag name="CONJ">612</tag><!-- _ -->
+    <tag name="DET">522</tag><!-- _ -->
+    <tag name="NOUN">7053</tag><!-- _ -->
+    <tag name="NUM">569</tag><!-- _ -->
+    <tag name="PRON">989</tag><!-- _ -->
+    <tag name="PRT">49</tag><!-- _ -->
+    <tag name="PUNCT">2576</tag><!-- _ -->
+    <tag name="VERB">2154</tag><!-- _ -->
+    <tag name="X">126</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="6">
+    <feat name="id/mood" value="imp" upos="AFFIX">1</feat><!-- kan -->
+    <feat name="id/mood" value="inter" upos="PRT">13</feat><!-- kah, kan -->
+    <feat name="id/number" value="plur" upos="AFFIX,NOUN">131</feat><!-- orang, tahun, negara, anak, an, batas, bagi, batu, bulan, kota -->
+    <feat name="id/proper" value="false" upos="ADJ,ADP,ADV,AFFIX,CONJ,DET,NOUN,NUM,PRON,PRT,PUNCT,VERB,X">23156</feat><!-- an, ,, ., di, kan, me, yang, nya, dan, ke -->
+    <feat name="id/proper" value="true" upos="ADJ,ADP,ADV,AFFIX,CONJ,DET,NOUN,NUM,PRON,PUNCT,VERB,X">2069</feat><!-- Amerika, Inggris, an, eropa, of, Tiongkok, Laut, the, Ke, Prancis -->
+    <feat name="id/voice" value="pass" upos="AFFIX">387</feat><!-- di, diper, dipe -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="50">
+    <dep name="ROOT">1000</dep>
+    <dep name="acomp">60</dep>
+    <dep name="advcl">272</dep>
+    <dep name="advmod">259</dep>
+    <dep name="amod">617</dep>
+    <dep name="appos">250</dep>
+    <dep name="attr">151</dep>
+    <dep name="aux">696</dep>
+    <dep name="cc">540</dep>
+    <dep name="ccomp">243</dep>
+    <dep name="conj">672</dep>
+    <dep name="csubj">14</dep>
+    <dep name="csubjpass">8</dep>
+    <dep name="dep">90</dep>
+    <dep name="det">573</dep>
+    <dep name="discourse">5</dep>
+    <dep name="dislocated">9</dep>
+    <dep name="dobj">843</dep>
+    <dep name="foreign">11</dep>
+    <dep name="goeswith">52</dep>
+    <dep name="iobj">5</dep>
+    <dep name="mark">890</dep>
+    <dep name="mes">124</dep>
+    <dep name="mwa">12</dep>
+    <dep name="mwe">185</dep>
+    <dep name="mwn">69</dep>
+    <dep name="mwv">17</dep>
+    <dep name="neg">183</dep>
+    <dep name="nn">2131</dep>
+    <dep name="npadvmod">39</dep>
+    <dep name="nsubj">1276</dep>
+    <dep name="nsubjpass">196</dep>
+    <dep name="num">351</dep>
+    <dep name="number">45</dep>
+    <dep name="oblcomp">35</dep>
+    <dep name="p">2616</dep>
+    <dep name="parataxis">116</dep>
+    <dep name="pcomp">77</dep>
+    <dep name="pobj">1821</dep>
+    <dep name="poss">354</dep>
+    <dep name="preconj">6</dep>
+    <dep name="pref">3268</dep>
+    <dep name="prep">1864</dep>
+    <dep name="prt">49</dep>
+    <dep name="rcmod">614</dep>
+    <dep name="redup">168</dep>
+    <dep name="suff">2062</dep>
+    <dep name="tmod">169</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">117</dep>
+  </deps>
+</treebank>
