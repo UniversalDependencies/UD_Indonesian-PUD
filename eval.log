@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-PUD:
-commit 7db4db2840adf63269d492045801bf10c72a5c3c
-Merge: 8602061 e0ad4c5
+commit 27e716d02db7fbfee84b6657faabd1f09b4aff5d
+Merge: 49a5205 f990ca7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 19900 of 19900 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.98143946346089.
