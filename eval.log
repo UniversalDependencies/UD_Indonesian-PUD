@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-PUD:
-commit 7221cc53b08cb9086bb5f41b5c0d02596b99ad73
+commit cc878cb49990a398a82042cf88c1b7548cba8d85
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:20:54 2019 +0200
+Date:   Tue Nov 12 17:17:38 2019 +0100
 Size: counted 19900 of 19900 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.98143946346089.
 Size: maximum value 13.815511 is for 1000000 words or more.
