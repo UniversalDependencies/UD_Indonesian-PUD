@@ -33,7 +33,21 @@ The entire treebank is labeled as test set (and was used for testing in the
 shared task). If it is used for training in future research, the users should
 employ ten-fold cross-validation.
 
+==================
+README FROM UI
+==================
 
+We, a reseach team from Universitas Indonesia (UI), proposed a revision to Indonesian PUD in 2019 and 2020. 
+
+A description of how the treebanks were manually revised in 2019 can be found in:
+
+   A Gold Standard Dependency Treebank for Indonesian
+  Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany and Heru Suhartanto
+  Proceedings of PACLIC (Pacific Asia Conference on Language, Information and Computation) 2019
+  
+In 2020, we conducted the second revision and decided to share the revised treebank to UD. Tthe short description about the annotation guideline can be found ini [Indonesian PUD Documentation](https://universaldependencies.org/id/index.html).
+
+The original repository of the revised Indonesian PUD can be found [here](https://github.com/ialfina/revised-id-pud).
 
 ==================
 README FROM GOOGLE
@@ -86,7 +100,7 @@ Contact
 =======
 
 slav@google.com
-tbd
+ika.alfina@cs.ui.ac.id 
 
 =======
 Acknowledgements
@@ -98,7 +112,8 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
 
 # Changelog
-
+* 2020-11-01 v2.7
+  * Manual revision from Universitas Indonesia
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
