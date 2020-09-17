@@ -39,7 +39,7 @@ README FROM UI
 
 A reseach team from Universitas Indonesia (UI), proposed a revision to Indonesian PUD in 2019 and 2020. 
 
-A description of how the treebanks were manually revised by UI  in 2019 can be found in:
+A description of how the treebank were manually revised by UI  in 2019 can be found in:
 
   A Gold Standard Dependency Treebank for Indonesian
   Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany and Heru Suhartanto
@@ -110,8 +110,8 @@ We are greatful to the many people who made this dataset possible:
 Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
 Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
-Manual revision by UI was done by:
-Ika Alfina, Arawinda Dinakaramani, Daniel Zeman, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidrasti, Yogi Lesmana Sulestio
+The contributors of the 2020 revision are:
+Ika Alfina, Arawinda Dinakaramani, Daniel Zeman, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
 
 
 # Changelog
