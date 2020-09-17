@@ -37,7 +37,7 @@ employ ten-fold cross-validation.
 README FROM UI
 ==================
 
-A reseach team from Universitas Indonesia (UI), proposed a revision to Indonesian PUD in 2019 and 2020. 
+A reseach team from Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020. 
 
 A description of how the treebank were manually revised by UI  in 2019 can be found in:
 
@@ -111,12 +111,13 @@ Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
 Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
 The contributors of the 2020 revision are:
-Ika Alfina, Arawinda Dinakaramani, Daniel Zeman, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
+* Designing the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
+* Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
 
 
 # Changelog
 * 2020-11-01 v2.7
-  * Manual revision from Universitas Indonesia
+  * Manual revision conducted by a reseach team from Universitas Indonesia
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
