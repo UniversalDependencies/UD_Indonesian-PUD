@@ -37,17 +37,17 @@ employ ten-fold cross-validation.
 README FROM UI
 ==================
 
-We, a reseach team from Universitas Indonesia (UI), proposed a revision to Indonesian PUD in 2019 and 2020. 
+A reseach team from Universitas Indonesia (UI), proposed a revision to Indonesian PUD in 2019 and 2020. 
 
-A description of how the treebanks were manually revised in 2019 can be found in:
+A description of how the treebanks were manually revised by UI  in 2019 can be found in:
 
-   A Gold Standard Dependency Treebank for Indonesian
+  A Gold Standard Dependency Treebank for Indonesian
   Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany and Heru Suhartanto
   Proceedings of PACLIC (Pacific Asia Conference on Language, Information and Computation) 2019
   
-In 2020, we conducted the second revision and decided to share the revised treebank to UD. Tthe short description about the annotation guideline can be found ini [Indonesian PUD Documentation](https://universaldependencies.org/id/index.html).
+In 2020, the same reseach team from UI conducted the second revision and decided to share the revised treebank to UD. The short description about the annotation guidelines can be found in [Indonesian PUD Documentation](https://universaldependencies.org/id/index.html).
 
-The original repository of the revised Indonesian PUD can be found [here](https://github.com/ialfina/revised-id-pud).
+The original repository of the revised Indonesian PUD conducted by UI can be found [here](https://github.com/ialfina/revised-id-pud).
 
 ==================
 README FROM GOOGLE
@@ -109,6 +109,9 @@ Acknowledgements
 We are greatful to the many people who made this dataset possible:
 Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
 Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
+
+Manual revision by UI was done by:
+Ika Alfina, Arawinda Dinakaramani, Daniel Zeman, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidrasti, Yogi Lesmana Sulestio
 
 
 # Changelog
