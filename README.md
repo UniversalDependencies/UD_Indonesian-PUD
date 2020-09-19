@@ -37,14 +37,14 @@ employ ten-fold cross-validation.
 README FROM UI
 ==================
 
-A reseach team from Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020. 
+A reseach team from Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
 
 A description of how the treebank were manually revised by UI  in 2019 can be found in:
 
   A Gold Standard Dependency Treebank for Indonesian
   Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany and Heru Suhartanto
   Proceedings of PACLIC (Pacific Asia Conference on Language, Information and Computation) 2019
-  
+
 In 2020, the same reseach team from UI conducted the second revision and decided to share the revised treebank to UD. The short description about the annotation guidelines can be found in [Indonesian PUD Documentation](https://universaldependencies.org/id/index.html).
 
 The original repository of the revised Indonesian PUD conducted by UI can be found [here](https://github.com/ialfina/revised-id-pud).
@@ -100,7 +100,7 @@ Contact
 =======
 
 slav@google.com
-ika.alfina@cs.ui.ac.id 
+ika.alfina@cs.ui.ac.id
 
 =======
 Acknowledgements
@@ -133,7 +133,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Manurung, Ruli; Shohibussirri, Muh; Popel, Martin; Zeman, Daniel
-Contributing: to be adopted
-Contact: zeman@ufal.mff.cuni.cz
+Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Manurung, Ruli; Shohibussirri, Muh; Popel, Martin; Zeman, Daniel; Alfina, Ika; Dinakaramani, Arawinda; Hanifmuti, Muhammad Yudistira; Arwidarasti, Jessica Naraiswari; Sulestio, Yogi Lesmana
+Contributing: here
+Contact: ika.alfina@cs.ui.ac.id
 ===============================================================================
