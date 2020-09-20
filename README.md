@@ -116,7 +116,7 @@ The contributors of the 2020 revision are:
 
 
 # Changelog
-* 2020-11-01 v2.7
+* 2020-11-15 v2.7
   * Manual revision conducted by a reseach team from Universitas Indonesia
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
@@ -128,11 +128,11 @@ Data available since: UD v2.2
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: not available
-UPOS: converted from manual
-XPOS: not available
-Features: converted from manual
-Relations: converted from manual
+Lemmas: manual native
+UPOS: manual native
+XPOS: manual native
+Features: manual native
+Relations: manual native
 Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Manurung, Ruli; Shohibussirri, Muh; Popel, Martin; Zeman, Daniel; Alfina, Ika; Dinakaramani, Arawinda; Hanifmuti, Muhammad Yudistira; Arwidarasti, Jessica Naraiswari; Sulestio, Yogi Lesmana
 Contributing: here
 Contact: ika.alfina@cs.ui.ac.id
