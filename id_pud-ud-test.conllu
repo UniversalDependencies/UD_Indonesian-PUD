@@ -3584,7 +3584,7 @@
 8	asing	asing	ADJ	_	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	atau	atau	CCONJ	_	_	13	cc	_	_
-11	seharusnya	harus	ADV	_	_	13	advmod	_	_
+11	seharusnya	harus	AUX	_	_	13	aux	_	_
 12	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
 13	asing	asing	ADJ	_	_	8	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	_
@@ -5963,7 +5963,7 @@
 16	bahwa	bahwa	SCONJ	_	_	21	mark	_	_
 17	pasangan	pasang	NOUN	_	Number=Sing	21	nsubj	_	_
 18	tersebut	sebut	DET	_	PronType=Dem	17	det	_	_
-19	seharusnya	harus	ADV	_	_	21	advmod	_	_
+19	seharusnya	harus	AUX	_	_	21	aux	_	_
 20	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
 21	menjabat	jabat	VERB	_	Voice=Act	14	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	14	punct	_	_
@@ -8733,7 +8733,7 @@
 7	di	di	ADP	_	_	8	case	_	_
 8	India	India	PROPN	_	_	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
-10	seharusnya	harus	ADV	_	_	14	advmod	_	_
+10	seharusnya	harus	AUX	_	_	14	aux	_	_
 11	itu	itu	PRON	_	PronType=Dem	14	nsubj	_	_
 12	adalah	adalah	AUX	_	_	14	cop	_	_
 13	sebuah	buah	DET	_	Number=Sing|PronType=Ind	14	det	_	_
