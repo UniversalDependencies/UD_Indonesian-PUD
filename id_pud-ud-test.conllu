@@ -34,7 +34,7 @@
 30	Kori	Kori	PROPN	_	_	25	appos	_	_
 31	Schulman	Schulman	PROPN	_	_	30	flat	_	_
 32	di	di	ADP	_	_	34	case	_	_
-33	sebuah	buah	DET	_	_	34	det	_	_
+33	sebuah	buah	DET	_	PronType=Ind	34	det	_	_
 34	postingan	pos	NOUN	_	_	25	obl	_	_
 35	blog	blog	NOUN	_	_	34	compound	_	_
 36	pada	pada	ADP	_	_	37	case	_	_
@@ -70,7 +70,7 @@
 3	seperti	seperti	ADP	_	_	4	case	_	_
 4-5	retorikanya	_	_	_	_	_	_	_	_
 4	retorika	retorika	NOUN	_	_	14	obl	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	sebelumnya	belum	ADJ	_	_	4	amod	_	_
 7	tentang	tentang	ADP	_	_	8	case	_	_
 8	pembatasan	batas	NOUN	_	_	4	nmod	_	_
@@ -136,7 +136,7 @@
 28	yang	yang	PRON	_	PronType=Rel	29	nsubj	_	_
 29	berkumpul	kumpul	VERB	_	Voice=Act	27	acl:relcl	_	_
 30	di	di	ADP	_	_	32	case	_	_
-31	sebuah	buah	DET	_	_	32	det	_	_
+31	sebuah	buah	DET	_	PronType=Ind	32	det	_	_
 32	lapangan	lapang	NOUN	_	_	29	obl	_	_
 33	olahraga	olahraga	NOUN	_	_	32	compound	_	_
 34	di	di	ADP	_	_	35	case	_	_
@@ -172,7 +172,7 @@
 7	yang	yang	SCONJ	_	_	9	mark	_	_
 8	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	lakukan	laku	VERB	_	Voice=Act	6	acl:relcl	_	_
-10	—	—	PUNCT	HYPH	_	1	punct	_	_
+10	—	—	PUNCT	_	_	1	punct	_	_
 11	sesungguhnya	sungguh	ADV	_	_	14	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	luar	luar	NOUN	_	_	14	compound	_	_
@@ -206,7 +206,7 @@
 11	untuk	untuk	SCONJ	_	_	12	mark	_	_
 12	bertemu	temu	VERB	_	Voice=Act	7	advcl	_	_
 13	dengan	dengan	ADP	_	_	15	case	_	_
-14	para	para	DET	_	_	15	det	_	_
+14	para	para	DET	_	Number=Plur	15	det	_	_
 15	pelobi	lobi	NOUN	_	_	12	obl	_	_
 16	teknologi	teknologi	NOUN	_	_	15	compound	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
@@ -252,7 +252,7 @@
 14	di	di	ADP	_	_	15	case	_	_
 15	H	H	PROPN	_	_	13	obl	_	_
 16	Street	Street	PROPN	_	_	15	flat	_	_
-17	beberapa	berapa	DET	_	PronType=Ind	18	det	_	_
+17	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	blok	blok	NOUN	_	_	6	acl:relcl	_	_
 19-20	jauhnya	_	_	_	_	_	_	_	SpaceAfter=No
 19	jauh	jauh	NOUN	_	_	18	nsubj	_	_
@@ -285,7 +285,7 @@
 9	misalnya	misal	NOUN	_	_	14	obl	_	_
 10	saja	saja	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	para	para	DET	_	_	13	det	_	_
+12	para	para	DET	_	Number=Plur	13	det	_	_
 13	pelajar	ajar	NOUN	_	_	14	nsubj	_	_
 14	belajar	ajar	VERB	_	Voice=Act	0	root	_	_
 15	materi	materi	NOUN	_	_	14	obl	_	_
@@ -417,7 +417,7 @@
 10	pertandingan	tanding	NOUN	_	_	2	nmod	_	_
 11	dan	dan	CCONJ	_	_	12	cc	_	_
 12	kehidupan	hidup	NOUN	_	_	10	conj	_	_
-13	kita	kita	DET	_	Poss=Yes	12	det:poss	_	_
+13	kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	sehari-hari	hari	NOUN	_	_	12	nmod:tmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -431,7 +431,7 @@
 5	stabil	stabil	ADJ	_	_	4	advmod	_	_
 6	selama	lama	ADP	_	_	7	case	_	_
 7	bertahun-tahun	tahun	NOUN	_	_	4	obl	_	_
-8	—	—	PUNCT	HYPH	_	11	punct	_	_
+8	—	—	PUNCT	_	_	11	punct	_	_
 9	hanya	hanya	ADV	_	_	11	advmod	_	_
 10	11	11	NUM	_	NumType=Card	11	nummod	_	_
 11	persen	persen	NOUN	NNB	_	4	parataxis	_	_
@@ -448,7 +448,7 @@
 22	menurut	turut	ADP	_	_	23	case	_	_
 23	Biro	Biro	PROPN	_	_	11	nmod	_	_
 24	Sensus	Sensus	PROPN	_	_	23	flat	_	_
-25	--	--	PUNCT	HYPH	_	11	punct	_	_
+25	--	--	PUNCT	_	_	11	punct	_	_
 26	dan	dan	CCONJ	_	_	29	cc	_	_
 27	sepertinya	seperti	ADV	_	_	29	advmod	_	_
 28	akan	akan	AUX	_	_	29	aux	_	_
@@ -539,7 +539,7 @@
 6	membunuh	bunuh	VERB	_	Voice=Act	5	xcomp	_	_
 7-8	putrinya	_	_	_	_	_	_	_	_
 7	putri	putri	NOUN	_	_	6	obj	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 10	berusia	usia	VERB	_	Voice=Act	7	acl:relcl	_	_
 11	dua	dua	NUM	_	NumType=Card	12	nummod	_	_
@@ -558,7 +558,7 @@
 7	menekan	tekan	VERB	_	Voice=Act	2	advcl	_	_
 8-9	wajahnya	_	_	_	_	_	_	_	_
 8	wajah	wajah	NOUN	_	_	7	obj	_	_
-9	nya	nya	DET	_	Poss=Yes|PronType=Prs	8	det:poss	_	_
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	ke	ke	ADP	_	_	11	case	_	_
 11	matras	matras	NOUN	_	_	7	obl	_	_
 12	udara	udara	NOUN	_	_	11	compound	_	_
@@ -574,7 +574,7 @@
 22	ke	ke	ADP	_	_	23	case	_	_
 23-24	putrinya	_	_	_	_	_	_	_	SpaceAfter=No
 23	putri	putri	NOUN	_	_	18	obl	_	_
-24	nya	nya	DET	_	Poss=Yes|PronType=Prs	23	det:poss	_	_
+24	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	Angel	Angel	PROPN	_	_	23	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	2	punct	_	_
@@ -603,7 +603,7 @@
 # text_en = First one of the Yazidi women started crying, then one of her friends.
 1	Satu	satu	NUM	_	NumType=Card	7	nsubj	_	_
 2	dari	dari	ADP	_	_	4	case	_	_
-3	para	para	DET	_	_	4	det	_	_
+3	para	para	DET	_	Number=Plur	4	det	_	_
 4	wanita	wanita	NOUN	_	_	1	nmod	_	_
 5	Yazidi	Yazidi	PROPN	_	_	4	nmod	_	_
 6	itu	itu	DET	_	PronType=Dem	4	det	_	_
@@ -614,7 +614,7 @@
 11	satu	satu	NUM	_	NumType=Card	12	nummod	_	_
 12-13	temannya	_	_	_	_	_	_	_	SpaceAfter=No
 12	teman	teman	NOUN	_	_	10	obl:agent	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01013005
@@ -691,7 +691,7 @@
 2	nyata	nyata	ADJ	_	_	0	root	_	_
 3	saat	saat	SCONJ	_	_	9	mark	_	_
 4	nama	nama	NOUN	_	_	9	nsubj	_	_
-5	seorang	orang	DET	_	_	6	det	_	_
+5	seorang	orang	DET	_	PronType=Ind	6	det	_	_
 6	selebriti	selebritas	NOUN	_	_	4	nmod:poss	_	_
 7	awalnya	awal	ADV	_	_	9	advmod	_	_
 8	cukup	cukup	ADV	_	_	9	advmod	_	_
@@ -710,15 +710,15 @@
 7	puncak	puncak	NOUN	_	_	21	obl	_	_
 8-9	ketenarannya	_	_	_	_	_	_	_	_
 8	ketenaran	tenar	NOUN	_	_	7	compound	_	_
-9	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
-10	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
+10	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 11	dan	dan	CCONJ	_	_	15	cc	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	mungkin	mungkin	ADV	_	_	15	advmod	_	_
 14	saja	saja	ADV	_	_	13	advmod	_	_
 15	ketenaran	tenar	NOUN	_	_	8	conj	_	_
 16	Knightley	Knightley	PROPN	_	_	15	nmod:poss	_	SpaceAfter=No
-17	)	)	PUNCT	)	_	15	punct	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	7	punct	_	_
 19	nama	nama	NOUN	_	_	21	nsubj	_	_
 20	itu	itu	DET	_	PronType=Dem	19	det	_	_
@@ -757,7 +757,7 @@
 12	mengganti	ganti	VERB	_	Voice=Act	6	conj	_	_
 13-14	komponennya	_	_	_	_	_	_	_	_
 13	komponen	komponen	NOUN	_	_	12	obj	_	_
-14	nya	nya	DET	_	Poss=Yes	13	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 15	sendiri	sendiri	DET	_	PronType=Emp	13	nmod	_	_
 16	dengan	dengan	ADP	_	_	17	case	_	_
 17	baterai	baterai	NOUN	_	_	12	obl	_	_
@@ -810,7 +810,7 @@
 # text_en = But one travel expert warned in-flight internet was often unreliable and was unlikely to influence travellers' airline choices.
 1	Namun	namun	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	seorang	orang	DET	_	_	4	det	_	_
+3	seorang	orang	DET	_	PronType=Ind	4	det	_	_
 4	ahli	ahli	NOUN	_	_	6	nsubj	_	_
 5	perjalanan	jalan	NOUN	_	_	4	compound	_	_
 6	mengingatkan	ingat	VERB	_	Voice=Act	0	root	_	_
@@ -958,7 +958,7 @@
 # text_en = But some security experts raised questions about the need for the course and the intent behind it.
 1	Namun	namun	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	beberapa	berapa	DET	_	PronType=Ind	4	det	_	_
+3	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	4	det	_	_
 4	pakar	pakar	NOUN	_	_	6	nsubj	_	_
 5	keamanan	aman	NOUN	_	_	4	compound	_	_
 6	mengajukan	aju	VERB	_	Voice=Act	0	root	_	_
@@ -1040,7 +1040,7 @@
 22	mendemonstrasikan	demonstrasi	VERB	_	Voice=Act	18	acl	_	_
 23-24	ambisinya	_	_	_	_	_	_	_	_
 23	ambisi	ambisi	NOUN	_	_	22	obj	_	_
-24	nya	nya	DET	_	Poss=Yes	23	det:poss	_	_
+24	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 25	dalam	dalam	ADP	_	_	26	case	_	_
 26	penerbangan	terbang	NOUN	_	_	23	nmod	_	_
 27	sipil	sipil	ADJ	_	_	26	amod	_	_
@@ -1073,7 +1073,7 @@
 19	Forums	Forums	PROPN	_	_	18	flat	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	dalam	dalam	ADP	_	_	23	case	_	_
-22	sebuah	buah	DET	_	_	23	det	_	_
+22	sebuah	buah	DET	_	PronType=Ind	23	det	_	_
 23	pesan	pesan	NOUN	_	_	13	obl	_	_
 24	yang	yang	PRON	_	PronType=Rel	25	nsubj	_	_
 25	menjelaskan	jelas	VERB	_	Voice=Act	23	acl:relcl	_	_
@@ -1254,7 +1254,7 @@
 7	Paris	Paris	PROPN	_	_	6	nmod	_	_
 8	namun	namun	CCONJ	_	_	13	cc	_	_
 9	kontribusi	kontribusi	NOUN	_	_	13	nsubj	_	_
-10	mereka	mereka	DET	_	Poss=Yes	9	det:poss	_	_
+10	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	saat	saat	NOUN	_	_	13	obl:tmod	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	_
 13	jauh	jauh	ADJ	_	_	2	conj	_	_
@@ -1305,11 +1305,11 @@
 16	begitu	begitu	ADV	_	_	17	advmod	_	_
 17	banyak	banyak	DET	_	_	18	det	_	_
 18	spesies	spesies	NOUN	_	_	15	obj	_	_
-19	-	-	PUNCT	HYPH	_	22	punct	_	_
+19	-	-	PUNCT	_	_	22	punct	_	_
 20	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
 21	hanya	hanya	ADV	_	_	22	advmod	_	_
 22	dinosaurus	dinosaurus	NOUN	_	_	18	nmod	_	_
-23	-	-	PUNCT	HYPH	_	22	punct	_	_
+23	-	-	PUNCT	_	_	22	punct	_	_
 24	masuk	masuk	VERB	_	Voice=Act	15	advcl	_	_
 25	ke	ke	ADP	_	_	27	case	_	_
 26	dalam	dalam	NOUN	_	_	27	nmod	_	_
@@ -1353,7 +1353,7 @@
 16	setelah	telah	ADP	_	_	18	case	_	_
 17	17	17	NUM	_	NumType=Card	18	nummod	_	_
 18	hari	hari	NOUN	_	_	15	obl	_	_
-19	-	-	PUNCT	HYPH	_	22	punct	_	_
+19	-	-	PUNCT	_	_	22	punct	_	_
 20	sedikit	sedikit	ADJ	_	_	22	advmod	_	_
 21	lebih	lebih	ADV	_	_	22	advmod	_	_
 22	besar	besar	ADJ	_	_	5	parataxis	_	_
@@ -1366,7 +1366,7 @@
 29	dari	dari	ADP	_	_	31	case	_	_
 30	luar	luar	NOUN	_	_	31	nmod	_	_
 31	angkasa	angkasa	NOUN	_	_	28	nmod	_	_
-32	-	-	PUNCT	HYPH	_	37	punct	_	_
+32	-	-	PUNCT	_	_	37	punct	_	_
 33	hanya	hanya	ADV	_	_	37	advmod	_	_
 34	lebih	lebih	ADV	_	_	37	advmod	_	_
 35	dari	dari	ADP	_	_	34	fixed	_	_
@@ -1408,7 +1408,7 @@
 29	terhadap	hadap	ADP	_	_	30	case	_	_
 30-31	kemampuannya	_	_	_	_	_	_	_	_
 30	kemampuan	mampu	NOUN	_	_	27	nmod	_	_
-31	nya	nya	DET	_	Poss=Yes	30	det:poss	_	_
+31	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 32	untuk	untuk	SCONJ	_	_	33	mark	_	_
 33	bertunas	tunas	VERB	_	Voice=Act	30	acl	_	_
 34	dan	dan	CCONJ	_	_	35	cc	_	_
@@ -1481,7 +1481,7 @@
 11	menghilangkan	hilang	VERB	_	Voice=Act	6	advcl	_	_
 12-13	kutikulanya	_	_	_	_	_	_	_	_
 12	kutikula	kutikula	NOUN	_	_	11	obj	_	_
-13	nya	nya	DET	_	Poss=Yes	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	sepenuhnya	penuh	ADV	_	_	11	advmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	6	punct	_	_
 16	jelas	jelas	VERB	_	Voice=Act	6	parataxis	_	_
@@ -1673,7 +1673,7 @@
 5	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	bermain	main	VERB	_	Voice=Act	0	root	_	_
 7	di	di	ADP	_	_	9	case	_	_
-8	sebuah	buah	DET	_	_	9	det	_	_
+8	sebuah	buah	DET	_	PronType=Ind	9	det	_	_
 9	konser	konser	NOUN	_	_	6	obl	_	_
 10	di	di	ADP	_	_	11	case	_	_
 11	sana	sana	PRON	_	PronType=Dem	6	obl	_	_
@@ -1691,7 +1691,7 @@
 3	yang	yang	SCONJ	_	_	6	mark	_	_
 4-5	neneknya	_	_	_	_	_	_	_	_
 4	nenek	nenek	NOUN	_	_	6	nsubj	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	berasal	asal	VERB	_	Voice=Act	1	acl:relcl	_	_
 7	dari	dari	ADP	_	_	8	case	_	_
 8	Vladivostok	Vladivostok	PROPN	_	_	6	obl	_	_
@@ -1706,7 +1706,7 @@
 17	ke	ke	ADP	_	_	18	case	_	_
 18	Rusia	Rusia	PROPN	_	_	16	nmod	_	_
 19	dalam	dalam	ADP	_	_	21	case	_	_
-20	beberapa	berapa	DET	_	PronType=Ind	21	det	_	_
+20	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	21	det	_	_
 21	tahun	tahun	NOUN	_	_	15	obl	_	_
 22	terakhir	akhir	ADJ	_	Degree=Sup	21	amod	_	_
 23	dan	dan	CCONJ	_	_	24	cc	_	_
@@ -1740,7 +1740,7 @@
 16	ibu	ibu	NOUN	_	_	11	obl	_	_
 17-18	kotanya	_	_	_	_	_	_	_	SpaceAfter=No
 17	kota	kota	NOUN	_	_	16	compound	_	_
-18	nya	nya	DET	_	_	16	det	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	Beograd	Beograd	PROPN	_	_	16	appos	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
@@ -1785,7 +1785,7 @@
 4	film	film	NOUN	_	_	8	nsubj	_	_
 5-6	terakhirnya	_	_	_	_	_	_	_	_
 5	terakhir	akhir	ADJ	_	Degree=Sup	4	amod	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 7	adalah	adalah	AUX	_	_	8	cop	_	_
 8	Gravity	Gravity	PROPN	_	_	1	acl:relcl	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
@@ -1825,8 +1825,8 @@
 14	...	...	PUNCT	_	_	13	punct	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj	_	_
 16	menyatakan	nyata	VERB	_	Voice=Act	11	acl:relcl	_	_
-17	diri	diri	PRON	_	Reflex=Yes	16	obj	_	_
-18	mereka	mereka	DET	_	Poss=Yes	17	det:poss	_	_
+17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	16	obj	_	_
+18	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 19	sebagai	bagai	ADP	_	_	20	case	_	_
 20	otoritas	otoritas	NOUN	_	_	16	obl	_	_
 21	distrik	distrik	NOUN	_	_	20	compound	_	SpaceAfter=No
@@ -1843,7 +1843,7 @@
 # sent_id = n01031005
 # text = Para peneliti telah menyelidiki potensi untuk kontrasepsi hormonal pria selama sekitar 20 tahun.
 # text_en = Researchers have been investigating potential for male hormonal contraceptives for around 20 years.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	peneliti	teliti	NOUN	_	_	4	nsubj	_	_
 3	telah	telah	AUX	_	_	4	aux	_	_
 4	menyelidiki	selidik	VERB	_	Voice=Act	0	root	_	_
@@ -1907,7 +1907,7 @@
 # sent_id = n01033005
 # text = Para peneliti mengatakan menganalisis DNA tumor dapat membantu menjelaskan penyebab dasar kanker lain.
 # text_en = Researchers say analysing tumour DNA may help explain the underlying causes of other cancers.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	peneliti	teliti	NOUN	_	_	3	nsubj	_	_
 3	mengatakan	kata	VERB	_	Voice=Act	0	root	_	_
 4	menganalisis	analisis	VERB	_	Voice=Act	8	csubj	_	_
@@ -2104,14 +2104,14 @@
 28	kasus	kasus	NOUN	_	_	26	obl	_	_
 29	penusukan	tusuk	NOUN	_	_	28	compound	_	_
 30	fatal	fatal	ADJ	_	_	29	amod	_	_
-31	seorang	orang	DET	_	_	32	det	_	_
+31	seorang	orang	DET	_	PronType=Ind	32	det	_	_
 32	gadis	gadis	NOUN	_	_	28	nmod	_	_
 33	remaja	remaja	ADJ	_	_	32	amod	_	_
 34	di	di	ADP	_	_	35	case	_	_
 35	sekolah	sekolah	NOUN	_	_	28	nmod	_	_
 36-37	menengahnya	_	_	_	_	_	_	_	_
 36	menengah	tengah	ADJ	_	_	35	amod	_	_
-37	nya	nya	DET	_	Poss=Yes|PronType=Prs	35	det:poss	_	_
+37	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	det:poss	_	_
 38	di	di	ADP	_	_	39	case	_	_
 39	Abbotsford	Abbotsford	PROPN	_	_	35	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	12	punct	_	_
@@ -2136,7 +2136,7 @@
 15	tentang	tentang	ADP	_	_	16	case	_	_
 16-17	keberadaannya	_	_	_	_	_	_	_	_
 16	keberadaan	ada	NOUN	_	_	13	nmod	_	_
-17	nya	nya	DET	_	Poss=Yes|PronType=Prs	16	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	belakangan	belakang	NOUN	_	_	16	nmod:tmod	_	_
 19	ini	ini	DET	_	PronType=Dem	18	det	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
@@ -2194,7 +2194,7 @@
 17	dari	dari	ADP	_	_	18	case	_	_
 18-19	selnya	_	_	_	_	_	_	_	_
 18	sel	sel	NOUN	_	_	16	obl	_	_
-19	nya	nya	DET	_	Poss=Yes|PronType=Prs	18	det:poss	_	_
+19	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	di	di	ADP	_	_	22	case	_	_
 21	bawah	bawah	NOUN	_	_	22	nmod	_	_
 22	gedung	gedung	NOUN	_	_	18	nmod	_	_
@@ -2203,7 +2203,7 @@
 25	menghadiri	hadir	VERB	_	Voice=Act	16	advcl	_	_
 26-27	pemeriksaannya	_	_	_	_	_	_	_	SpaceAfter=No
 26	pemeriksaan	periksa	NOUN	_	_	25	obj	_	_
-27	nya	nya	DET	_	Poss=Yes|PronType=Prs	26	det:poss	_	_
+27	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 28	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = n01036002
@@ -2212,7 +2212,7 @@
 1	Asosiasi	asosiasi	NOUN	_	_	10	nsubj	_	_
 2	yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
 3	mewakili	wakil	VERB	_	Voice=Act	1	acl:relcl	_	_
-4	para	para	DET	_	_	5	det	_	_
+4	para	para	DET	_	Number=Plur	5	det	_	_
 5	agen	agen	NOUN	_	_	3	obj	_	_
 6	real	real	X	_	Foreign=Yes	5	nmod	_	_
 7	estate	estate	X	_	Foreign=Yes	6	flat:foreign	_	_
@@ -2260,9 +2260,9 @@
 15	Council	Council	PROPN	_	_	13	flat	_	_
 16	of	of	PROPN	_	_	13	flat	_	_
 17	Ontario	Ontario	PROPN	_	_	13	flat	_	_
-18	(	(	PUNCT	(	_	19	punct	_	SpaceAfter=No
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	RECO	RECO	PROPN	_	Abbr=Yes	13	appos	_	SpaceAfter=No
-20	)	)	PUNCT	)	_	19	punct	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	yang	yang	PRON	_	PronType=Rel	23	nsubj	_	_
 23	mengatur	atur	VERB	_	Voice=Act	13	acl:relcl	_	_
@@ -2352,7 +2352,7 @@
 24	meningkatkan	tingkat	VERB	_	Voice=Act	21	advcl	_	_
 25-26	perannya	_	_	_	_	_	_	_	_
 25	peran	peran	NOUN	_	_	24	obj	_	_
-26	nya	nya	DET	_	Poss=Yes	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	dalam	dalam	SCONJ	_	_	28	mark	_	_
 28	mengurangi	kurang	VERB	_	Voice=Act	25	acl	_	_
 29	emisi	emisi	NOUN	_	_	28	obj	_	SpaceAfter=No
@@ -2374,10 +2374,10 @@
 7	masa	masa	NOUN	_	_	4	obl	_	_
 8-9	jabatannya	_	_	_	_	_	_	_	_
 8	jabatan	jabat	NOUN	_	_	7	compound	_	_
-9	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 10	untuk	untuk	SCONJ	_	_	11	mark	_	_
 11	menggunakan	guna	VERB	_	Voice=Act	4	advcl	_	_
-12	sebuah	buah	DET	_	_	13	det	_	_
+12	sebuah	buah	DET	_	PronType=Ind	13	det	_	_
 13	ketentuan	tentu	NOUN	_	_	11	obj	_	_
 14	dalam	dalam	ADP	_	_	15	case	_	_
 15	Perjanjian	Perjanjian	PROPN	_	_	13	nmod	_	_
@@ -2399,7 +2399,7 @@
 5	dan	dan	CCONJ	_	_	6	cc	_	_
 6-7	sekutunya	_	_	_	_	_	_	_	SpaceAfter=No
 6	sekutu	sekutu	NOUN	_	_	4	conj	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	ingin	ingin	VERB	_	Voice=Act	0	root	_	_
 10	agar	agar	SCONJ	_	_	13	mark	_	_
@@ -2411,7 +2411,7 @@
 16	bahwa	bahwa	SCONJ	_	_	30	mark	_	_
 17-18	komentarnya	_	_	_	_	_	_	_	_
 17	komentar	komentar	NOUN	_	_	30	nsubj	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	17	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 19	yang	yang	PRON	_	PronType=Rel	20	nsubj	_	_
 20	meremehkan	remeh	VERB	_	Voice=Act	17	acl:relcl	_	_
 21	tentang	tentang	ADP	_	_	22	case	_	_
@@ -2422,7 +2422,7 @@
 26	serta	serta	CCONJ	_	_	27	cc	_	_
 27-28	temperamennya	_	_	_	_	_	_	_	_
 27	temperamen	temperamen	NOUN	_	_	17	conj	_	_
-28	nya	nya	DET	_	Poss=Yes|PronType=Prs	27	det:poss	_	_
+28	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 29	akan	akan	AUX	_	_	30	aux	_	_
 30-31	membuatnya	_	_	_	_	_	_	_	_
 30	membuat	buat	VERB	_	Voice=Act	15	ccomp	_	_
@@ -2480,7 +2480,7 @@
 5	mengadakan	ada	VERB	_	Voice=Act	0	root	_	_
 6	pertemuan	temu	NOUN	_	_	5	obj	_	_
 7	dengan	dengan	ADP	_	_	9	case	_	_
-8	para	para	DET	_	_	9	det	_	_
+8	para	para	DET	_	Number=Plur	9	det	_	_
 9	konselor	konselor	NOUN	_	_	6	nmod	_	_
 10	di	di	ADP	_	_	11	case	_	_
 11	sekolah	sekolah	NOUN	_	_	6	nmod	_	_
@@ -2502,7 +2502,7 @@
 26	dengan	dengan	ADP	_	_	27	case	_	_
 27-28	teman-temannya	_	_	_	_	_	_	_	SpaceAfter=No
 27	teman-teman	teman	NOUN	_	Number=Plur	25	obl	_	_
-28	nya	nya	DET	_	Poss=Yes|PronType=Prs	27	det:poss	_	_
+28	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = n01041006
@@ -2522,7 +2522,7 @@
 12	ujar	ujar	VERB	_	Voice=Act	4	parataxis	_	_
 13	Mailis	Mailis	PROPN	_	_	12	nsubj	_	_
 14	dalam	dalam	ADP	_	_	16	case	_	_
-15	sebuah	buah	DET	_	_	16	det	_	_
+15	sebuah	buah	DET	_	PronType=Ind	16	det	_	_
 16	wawancara	wawancara	NOUN	_	_	12	obl	_	_
 17	pada	pada	ADP	_	_	18	case	_	_
 18	hari	hari	NOUN	_	_	16	nmod	_	_
@@ -2572,7 +2572,7 @@
 12	untuk	untuk	ADP	_	_	13	case	_	_
 13-14	kajiannya	_	_	_	_	_	_	_	_
 13	kajian	kaji	NOUN	_	_	11	nmod	_	_
-14	nya	nya	DET	_	Poss=Yes|PronType=Prs	13	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 15	minggu	minggu	NOUN	_	_	10	obl:tmod	_	_
 16	ini	ini	DET	_	PronType=Dem	15	det	_	_
 17	setelah	telah	SCONJ	_	_	23	mark	_	_
@@ -2610,7 +2610,7 @@
 14	diduga	duga	VERB	_	Voice=Pass	5	acl:relcl	_	_
 15	berasal	asal	VERB	_	Voice=Act	14	xcomp	_	_
 16	dari	dari	ADP	_	_	18	case	_	_
-17	seorang	orang	DET	_	_	18	det	_	_
+17	seorang	orang	DET	_	PronType=Ind	18	det	_	_
 18	polisi	polisi	NOUN	_	_	15	obl	_	_
 19	di	di	ADP	_	_	22	case	_	_
 20	bagian	bagi	NOUN	_	_	22	nmod	_	_
@@ -2622,7 +2622,7 @@
 # sent_id = n01043005
 # text = Para eksekutif juga menerima apa yang disebut “gaji kinerja” atas keberhasilan mencapai atau melampaui ekspektasi, berbagi $1,5 juta di antara mereka, atau perkiraan rata-rata masing-masing $15.000.
 # text_en = The executives also received so-called "performance pay" for succeeding or surpassing expectations, sharing a pot of $1.5 million among them, or an estimated $15,000 each on average.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	eksekutif	eksekutif	NOUN	_	_	4	nsubj	_	_
 3	juga	juga	ADV	_	_	4	advmod	_	_
 4	menerima	terima	VERB	_	Voice=Act	0	root	_	_
@@ -2662,7 +2662,7 @@
 1	Anggaran	anggar	NOUN	_	_	7	nsubj	_	_
 2-3	tahunannya	_	_	_	_	_	_	_	_
 2	tahunan	tahun	NOUN	_	_	1	compound	_	_
-3	nya	nya	DET	_	Poss=Yes	1	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 4	adalah	adalah	AUX	_	_	7	cop	_	_
 5	lebih	lebih	ADV	_	_	7	advmod	_	_
 6	dari	dari	ADP	_	_	5	fixed	_	_
@@ -2701,9 +2701,9 @@
 18	adalah	adalah	AUX	_	_	20	cop	_	_
 19	untuk	untuk	ADP	_	_	20	case	_	_
 20	2013	2013	NUM	_	NumType=Card	5	conj	_	SpaceAfter=No
-21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	2014	2014	NUM	_	NumType=Card	20	flat:range	_	_
-23	—	—	PUNCT	HYPH	_	28	punct	_	_
+23	—	—	PUNCT	_	_	28	punct	_	_
 24	atau	atau	CCONJ	_	_	28	cc	_	_
 25	sudah	sudah	AUX	_	_	28	aux	_	_
 26	dua	dua	NUM	_	NumType=Card	27	nummod	_	_
@@ -2734,7 +2734,7 @@
 17	nya	nya	DET	_	_	16	det	_	_
 18	untuk	untuk	ADP	_	_	19	case	_	_
 19	2015	2015	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
-20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	2016	2016	NUM	_	NumType=Card	19	flat:range	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -2872,7 +2872,7 @@
 # text_en = Our cellphones are so much more than phones these days.
 1	Telepon	telepon	NOUN	_	_	4	nsubj	_	_
 2	seluler	seluler	NOUN	_	_	1	compound	_	_
-3	kita	kita	DET	_	Poss=Yes	1	det:poss	_	_
+3	kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	1	det:poss	_	_
 4	berfungsi	fungsi	VERB	_	Voice=Act	0	root	_	_
 5	jauh	jauh	ADJ	_	_	4	advcl	_	_
 6	lebih	lebih	ADV	_	_	9	advmod	_	_
@@ -2925,7 +2925,7 @@
 16	penggunaan	guna	NOUN	_	_	15	obj	_	_
 17	paket	paket	NOUN	_	_	16	compound	_	_
 18	data	data	NOUN	_	_	17	compound	_	_
-19	mereka	mereka	DET	_	Poss=Yes	17	det:poss	_	SpaceAfter=No
+19	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = n01047048
@@ -2969,9 +2969,9 @@
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj:pass	_	_
 21	dimainkan	main	VERB	_	Voice=Pass	18	acl:relcl	_	_
 22	investor	investor	NOUN	_	_	21	obl:agent	_	_
-23	(	(	PUNCT	(	_	24	punct	_	SpaceAfter=No
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	domestik	domestik	ADJ	_	_	22	amod	_	SpaceAfter=No
-25	)	)	PUNCT	)	_	24	punct	_	_
+25	)	)	PUNCT	_	_	24	punct	_	_
 26	dalam	dalam	ADP	_	_	27	case	_	_
 27	pasar	pasar	NOUN	_	_	21	obl	_	_
 28	perumahan	rumah	NOUN	_	_	27	compound	_	_
@@ -3114,9 +3114,9 @@
 18	Canadian	Canadian	PROPN	_	_	17	nsubj	_	_
 19	Blood	Blood	PROPN	_	_	18	flat	_	_
 20	Services	Services	PROPN	_	_	18	flat	_	_
-21	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	CBS	CBS	PROPN	_	Abbr=Yes	18	appos	_	SpaceAfter=No
-23	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = n01050019
@@ -3161,7 +3161,7 @@
 24	dalam	dalam	ADP	_	_	25	case	_	_
 25-26	kandungannya	_	_	_	_	_	_	_	_
 25	kandungan	kandung	NOUN	_	_	23	nmod	_	_
-26	nya	nya	DET	_	Poss=Yes|PronType=Prs	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	menderita	derita	VERB	_	Voice=Act	20	ccomp	_	_
 28	kondisi	kondisi	NOUN	_	_	27	obj	_	_
 29	langka	langka	ADJ	_	_	28	amod	_	_
@@ -3251,14 +3251,14 @@
 19	meninggalkan	tinggal	VERB	_	Voice=Act	17	acl:relcl	_	_
 20-21	jejaknya	_	_	_	_	_	_	_	_
 20	jejak	jejak	NOUN	_	_	19	obj	_	_
-21	nya	nya	DET	_	Poss=Yes|PronType=Prs	20	det:poss	_	_
+21	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 22	dalam	dalam	ADP	_	_	23	case	_	_
 23	dunia	dunia	NOUN	_	_	19	obl	_	_
 24	sastra	sastra	NOUN	_	_	23	compound	_	_
 25	dengan	dengan	ADP	_	_	26	case	_	_
 26-27	cerita-ceritanya	_	_	_	_	_	_	_	SpaceAfter=No
 26	cerita-cerita	cerita	NOUN	_	Number=Plur	19	obl	_	_
-27	nya	nya	DET	_	Poss=Yes|PronType=Prs	26	det:poss	_	_
+27	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	_
 28	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01053008
@@ -3281,7 +3281,7 @@
 15	kata	kata	VERB	_	Voice=Act	4	parataxis	_	_
 16	Leive	Leive	PROPN	_	_	15	nsubj	_	_
 17	dalam	dalam	ADP	_	_	19	case	_	_
-18	sebuah	buah	DET	_	_	19	det	_	_
+18	sebuah	buah	DET	_	PronType=Ind	19	det	_	_
 19	wawancara	wawancara	NOUN	_	_	15	obl	_	_
 20	baru-baru	baru	NOUN	_	_	19	nmod:tmod	_	_
 21	ini	ini	DET	_	PronType=Dem	20	det	_	SpaceAfter=No
@@ -3312,7 +3312,7 @@
 20	menyelami	selam	VERB	_	Voice=Act	18	xcomp	_	_
 21	standar	standar	NOUN	_	_	20	obj	_	_
 22	kecantikan	cantik	NOUN	_	_	21	compound	_	_
-23	mereka	mereka	DET	_	Poss=Yes	21	det:poss	_	_
+23	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 24	sendiri	sendiri	DET	_	PronType=Emp	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3322,7 +3322,7 @@
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2-3	Suaranya	_	_	_	_	_	_	_	_
 2	Suara	suara	NOUN	_	_	4	nsubj	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	menjangkau	jangkau	VERB	_	Voice=Act	0	root	_	_
 5	seluruh	seluruh	DET	_	_	6	det	_	_
 6	dunia	dunia	NOUN	_	_	4	obj	_	SpaceAfter=No
@@ -3347,7 +3347,7 @@
 10	dipenuhi	penuh	VERB	_	Voice=Pass	0	root	_	_
 11	dengan	dengan	ADP	_	_	12	case	_	_
 12	komentar-komentar	komentar	NOUN	_	Number=Plur	10	obl	_	_
-13	—	—	PUNCT	HYPH	_	18	punct	_	_
+13	—	—	PUNCT	_	_	18	punct	_	_
 14	dan	dan	CCONJ	_	_	18	cc	_	_
 15	komentar	komentar	NOUN	_	_	18	nsubj	_	_
 16	itu	itu	DET	_	PronType=Dem	15	det	_	_
@@ -3452,7 +3452,7 @@
 1	Serpihan-serpihan	serpih	NOUN	_	Number=Plur	3	nsubj	_	_
 2	itu	itu	DET	_	PronType=Dem	1	det	_	_
 3	membentuk	bentuk	VERB	_	Voice=Act	0	root	_	_
-4	sebuah	buah	DET	_	_	5	det	_	_
+4	sebuah	buah	DET	_	PronType=Ind	5	det	_	_
 5	cincin	cincin	NOUN	_	_	3	obj	_	_
 6	di	di	ADP	_	_	8	case	_	_
 7	sekitar	kitar	NOUN	_	_	8	nmod	_	_
@@ -3537,7 +3537,7 @@
 25	tantangan	tantang	NOUN	_	_	24	obj	_	_
 26	dalam	dalam	ADP	_	_	27	case	_	_
 27	pendaftaran	daftar	NOUN	_	_	25	nmod	_	_
-28	mereka	mereka	DET	_	Poss=Yes	27	det:poss	_	SpaceAfter=No
+28	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = n01058064
@@ -3592,7 +3592,7 @@
 # sent_id = n01059019
 # text = Para ekonom Republican berhati-hati dalam mengambil data ini sebagai bukti bahwa partai mereka payah dalam kebijakan ekonomi.
 # text_en = Republican economists caution against taking this data as proof that their party is lousy at economic policy.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	ekonom	ekonom	NOUN	_	_	4	nsubj	_	_
 3	Republican	Republican	PROPN	_	_	2	nmod	_	_
 4	berhati-hati	hati	VERB	_	Voice=Act	0	root	_	_
@@ -3604,7 +3604,7 @@
 10	bukti	bukti	NOUN	_	_	6	obl	_	_
 11	bahwa	bahwa	SCONJ	_	_	14	mark	_	_
 12	partai	partai	NOUN	_	_	14	nsubj	_	_
-13	mereka	mereka	DET	_	Poss=Yes	12	det:poss	_	_
+13	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	payah	payah	ADJ	_	_	10	acl	_	_
 15	dalam	dalam	ADP	_	_	16	case	_	_
 16	kebijakan	bijak	NOUN	_	_	14	obl	_	_
@@ -3695,7 +3695,7 @@
 18	sesuatu	suatu	PRON	_	PronType=Ind	17	obj	_	_
 19	yang	yang	PRON	_	PronType=Rel	20	nsubj	_	_
 20	berbeda	beda	VERB	_	Voice=Act	18	acl:relcl	_	_
-21	—	—	PUNCT	HYPH	_	24	punct	_	_
+21	—	—	PUNCT	_	_	24	punct	_	_
 22	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 23	bisa	bisa	AUX	_	_	24	aux	_	_
 24	melakukan	laku	VERB	_	Voice=Act	17	parataxis	_	_
@@ -3703,7 +3703,7 @@
 26	yang	yang	PRON	_	PronType=Rel	28	nsubj	_	_
 27	lebih	lebih	ADV	_	_	28	advmod	_	_
 28	baik	baik	ADJ	_	_	25	acl:relcl	_	_
-29	—	—	PUNCT	HYPH	_	24	punct	_	_
+29	—	—	PUNCT	_	_	24	punct	_	_
 30	dan	dan	CCONJ	_	_	34	cc	_	_
 31	di	di	SCONJ	_	_	34	mark	_	_
 32	mana	mana	PRON	_	_	31	fixed	_	_
@@ -3820,17 +3820,17 @@
 6	seni	seni	NOUN	_	_	4	obj	_	_
 7	menggoyangkan	goyang	VERB	_	Voice=Act	6	acl	_	_
 8	pantat	pantat	NOUN	_	_	7	obj	_	_
-9	—	—	PUNCT	HYPH	_	10	punct	_	_
+9	—	—	PUNCT	_	_	10	punct	_	_
 10	keprihatinan	prihatin	NOUN	_	_	6	nmod	_	_
 11	utama	utama	ADJ	_	_	10	amod	_	_
-12	mereka	mereka	DET	_	Poss=Yes	10	det:poss	_	SpaceAfter=No
+12	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01063043
 # text = Dalam sebuah wawancara baru-baru ini, Zay dan Zayion menjelaskan merekam versi “Knuck If You Buck” mereka di laptop di rumah.
 # text_en = In a recent interview, Zay and Zayion described recording their version of “Knuck If You Buck” on a home laptop.
 1	Dalam	dalam	ADP	_	_	3	case	_	_
-2	sebuah	buah	DET	_	_	3	det	_	_
+2	sebuah	buah	DET	_	PronType=Ind	3	det	_	_
 3	wawancara	wawancara	NOUN	_	_	10	obl	_	_
 4	baru-baru	baru	NOUN	_	_	3	nmod:tmod	_	_
 5	ini	ini	DET	_	PronType=Dem	4	det	_	SpaceAfter=No
@@ -3847,7 +3847,7 @@
 16	You	You	PROPN	_	_	14	flat	_	_
 17	Buck	Buck	PROPN	_	_	14	flat	_	SpaceAfter=No
 18	”	”	PUNCT	_	_	14	punct	_	_
-19	mereka	mereka	DET	_	Poss=Yes	12	det:poss	_	_
+19	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 20	di	di	ADP	_	_	21	case	_	_
 21	laptop	laptop	NOUN	_	_	11	obl	_	_
 22	di	di	ADP	_	_	23	case	_	_
@@ -3888,7 +3888,7 @@
 # text = Kebangkitan mereka menggarisbawahi daya tarik tantangan yang baik, artistik atau sebaliknya: ketidaknyamanan, pertumbuhan, dan koneksi yang bermakna.
 # text_en = Their revivals underscore the appeal of a good challenge, artistic or otherwise: discomfort, growth, and a meaningful connection.
 1	Kebangkitan	bangkit	NOUN	_	_	3	nsubj	_	_
-2	mereka	mereka	DET	_	Poss=Yes	1	det:poss	_	_
+2	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	menggarisbawahi	garis-bawah	VERB	_	Voice=Act	0	root	_	_
 4	daya	daya	NOUN	_	_	3	obj	_	_
 5	tarik	tarik	NOUN	_	_	4	compound	_	_
@@ -3927,7 +3927,7 @@
 12	secara	cara	ADP	_	_	13	case:adv	_	_
 13	hati-hati	hati	ADJ	_	_	10	advmod	_	_
 14	kepada	kepada	ADP	_	_	16	case	_	_
-15	para	para	DET	_	_	16	det	_	_
+15	para	para	DET	_	Number=Plur	16	det	_	_
 16	wali	wali	NOUN	_	_	10	obl	_	_
 17	yang	yang	PRON	_	PronType=Rel	18	nsubj	_	_
 18	berpendidikan	didik	VERB	_	Voice=Act	16	acl:relcl	_	SpaceAfter=No
@@ -3946,7 +3946,7 @@
 8	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 9	telah	telah	AUX	_	_	10	aux	_	_
 10	menghabiskan	habis	VERB	_	Voice=Act	0	root	_	_
-11	beberapa	berapa	DET	_	PronType=Ind	12	det	_	_
+11	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	12	det	_	_
 12	bulan	bulan	NOUN	_	_	10	obj	_	_
 13	terakhir	akhir	ADJ	_	Degree=Sup	12	amod	_	_
 14	ini	ini	DET	_	PronType=Dem	12	det	_	_
@@ -4006,7 +4006,7 @@
 11	dalam	dalam	ADP	_	_	12	case	_	_
 12-13	perilakunya	_	_	_	_	_	_	_	_
 12	perilaku	perilaku	NOUN	_	_	4	nmod	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	terhadap	hadap	ADP	_	_	15	case	_	_
 15	orang	orang	NOUN	_	_	12	nmod	_	_
 16	lain	lain	ADJ	_	_	15	amod	_	SpaceAfter=No
@@ -4022,7 +4022,7 @@
 5	yayasan	yayasan	NOUN	_	_	7	nsubj	_	_
 6	itu	itu	DET	_	PronType=Dem	5	det	_	_
 7	merilis	rilis	VERB	_	Voice=Act	0	root	_	_
-8	sebuah	buah	DET	_	_	9	det	_	_
+8	sebuah	buah	DET	_	PronType=Ind	9	det	_	_
 9	edisi	edisi	NOUN	_	_	7	obj	_	_
 10	typeset	typeset	X	_	Foreign=Yes	9	nmod	_	_
 11	“	“	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -4059,7 +4059,7 @@
 7	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	mencoba	coba	VERB	_	Voice=Act	0	root	_	_
 9	menyingkap	singkap	VERB	_	Voice=Act	8	xcomp	_	_
-10	sebuah	buah	DET	_	_	11	det	_	_
+10	sebuah	buah	DET	_	PronType=Ind	11	det	_	_
 11	etimologi	etimologi	NOUN	_	_	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -4072,7 +4072,7 @@
 4	terhadap	hadap	ADP	_	_	5	case	_	_
 5-6	kesehatannya	_	_	_	_	_	_	_	SpaceAfter=No
 5	kesehatan	sehat	NOUN	_	_	2	nmod	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 8	”	”	PUNCT	_	_	2	punct	_	_
 9	lapor	lapor	VERB	_	Voice=Act	2	parataxis	_	_
@@ -4080,7 +4080,7 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12-13	istrinya	_	_	_	_	_	_	_	SpaceAfter=No
 12	istri	istri	NOUN	_	_	10	appos	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01067014
@@ -4094,7 +4094,7 @@
 6	menceritakan	cerita	VERB	_	Voice=Act	0	root	_	_
 7-8	kisahnya	_	_	_	_	_	_	_	_
 7	kisah	kisah	NOUN	_	_	6	obj	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	sendiri	sendiri	DET	_	PronType=Emp	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
@@ -4161,12 +4161,12 @@
 # text_en = His skill in getting answers for taxpayers will be sorely missed.
 1-2	Keterampilannya	_	_	_	_	_	_	_	_
 1	Keterampilan	terampil	NOUN	_	_	12	nsubj:pass	_	_
-2	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	dalam	dalam	SCONJ	_	_	4	mark	_	_
 4	mendapatkan	dapat	VERB	_	Voice=Act	1	acl	_	_
 5	jawaban	jawab	NOUN	_	_	4	obj	_	_
 6	untuk	untuk	ADP	_	_	8	case	_	_
-7	para	para	DET	_	_	8	det	_	_
+7	para	para	DET	_	Number=Plur	8	det	_	_
 8	wajib	wajib	NOUN	_	_	5	nmod	_	_
 9	pajak	pajak	NOUN	_	_	8	compound	_	_
 10	akan	akan	AUX	_	_	12	aux	_	_
@@ -4219,7 +4219,7 @@
 16	kembali	kembali	ADV	_	_	14	advmod	_	_
 17	dengan	dengan	ADP	_	_	18	case	_	_
 18	kandidat	kandidat	NOUN	_	_	14	obl	_	_
-19	mereka	mereka	DET	_	Poss=Yes	18	det:poss	_	_
+19	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	Sarah	Sarah	PROPN	_	_	18	appos	_	_
 21	Olney	Olney	PROPN	_	_	20	flat	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	13	punct	_	_
@@ -4232,7 +4232,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mantan	mantan	ADJ	_	_	5	amod	_	_
 5	istri	istri	NOUN	_	_	11	nsubj	_	_
-6	seorang	orang	DET	_	_	7	det	_	_
+6	seorang	orang	DET	_	PronType=Ind	7	det	_	_
 7	tokoh	tokoh	NOUN	_	_	5	nmod	_	_
 8	politik	politik	NOUN	_	_	7	compound	_	_
 9	pemerintah	perintah	NOUN	_	_	7	compound	_	_
@@ -4240,7 +4240,7 @@
 11	meluncurkan	luncur	VERB	_	Voice=Act	0	root	_	_
 12-13	kampanyenya	_	_	_	_	_	_	_	_
 12	kampanye	kampanye	NOUN	_	_	11	obj	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	untuk	untuk	SCONJ	_	_	15	mark	_	_
 15	merebut	rebut	VERB	_	Voice=Act	11	advcl	_	_
 16	kursi	kursi	NOUN	_	_	15	obj	_	_
@@ -4259,7 +4259,7 @@
 6	menerima	terima	VERB	_	Voice=Act	3	conj	_	_
 7	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 8	seperti	seperti	ADP	_	_	10	case	_	_
-9	seorang	orang	DET	_	_	10	det	_	_
+9	seorang	orang	DET	_	PronType=Ind	10	det	_	_
 10	pria	pria	NOUN	_	_	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
@@ -4290,7 +4290,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	karena	karena	ADP	_	_	6	case	_	_
 6	usia	usia	NOUN	_	_	9	obl	_	_
-7	mereka	mereka	DET	_	Poss=Yes	6	det:poss	_	SpaceAfter=No
+7	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	banyak	banyak	ADJ	_	_	2	ccomp	_	_
 10	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
@@ -4299,7 +4299,7 @@
 13	tentang	tentang	ADP	_	_	14	case	_	_
 14-15	sejarahnya	_	_	_	_	_	_	_	SpaceAfter=No
 14	sejarah	sejarah	NOUN	_	_	12	obl	_	_
-15	nya	nya	DET	_	Poss=Yes	14	det:poss	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01070020
@@ -4423,7 +4423,7 @@
 2	kah	kah	PART	_	_	1	advmod:emph	_	_
 3	hak	hak	NOUN	_	_	15	nsubj:pass	_	_
 4	ilahi	ilahi	NOUN	_	_	3	compound	_	_
-5	mereka	mereka	DET	_	Poss=Yes	3	det:poss	_	_
+5	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 6	atas	atas	ADP	_	_	7	case	_	_
 7	mantel	mantel	NOUN	_	_	3	nmod	_	_
 8	sebagai	bagai	ADP	_	_	9	case	_	_
@@ -4468,7 +4468,7 @@
 13	dapat	dapat	AUX	_	_	14	aux	_	_
 14	menyamai	sama	VERB	_	Voice=Act	4	conj	_	_
 15	keinginan	ingin	NOUN	_	_	14	obj	_	_
-16	mereka	mereka	DET	_	Poss=Yes	15	det:poss	_	SpaceAfter=No
+16	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01074020
@@ -4481,7 +4481,7 @@
 5	dalam	dalam	ADP	_	_	6	case	_	_
 6-7	permainannya	_	_	_	_	_	_	_	_
 6	permainan	main	NOUN	_	_	3	nmod	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	tapi	tetapi	CCONJ	_	_	10	cc	_	_
 9	juga	juga	ADV	_	_	10	advmod	_	_
 10	tangan	tangan	NOUN	_	_	3	conj	_	_
@@ -4556,7 +4556,7 @@
 3	ditempa	tempa	VERB	_	Voice=Pass	1	acl	_	_
 4	oleh	oleh	ADP	_	_	5	case	_	_
 5	pertandingan	tanding	NOUN	_	_	3	obl	_	_
-6	mereka	mereka	DET	_	Poss=Yes	5	det:poss	_	_
+6	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	baru-baru	baru	NOUN	_	_	5	nmod:tmod	_	_
 8	ini	ini	DET	_	PronType=Dem	7	det	_	_
 9	di	di	ADP	_	_	10	case	_	_
@@ -4687,7 +4687,7 @@
 1	Di	di	ADP	_	_	2	case	_	_
 2	sudut	sudut	NOUN	_	_	3	obl	_	_
 3	ada	ada	VERB	_	Voice=Act	0	root	_	_
-4	seorang	orang	DET	_	_	5	det	_	_
+4	seorang	orang	DET	_	PronType=Ind	5	det	_	_
 5	gadis	gadis	NOUN	_	_	3	nsubj	_	_
 6	dengan	dengan	ADP	_	_	7	case	_	_
 7	jilbab	jilbab	NOUN	_	_	5	nmod	_	_
@@ -4701,7 +4701,7 @@
 15	rasa	rasa	VERB	_	Voice=Act	3	parataxis	_	_
 16	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 17	juga	juga	ADV	_	_	19	advmod	_	_
-18	seorang	orang	DET	_	_	19	det	_	_
+18	seorang	orang	DET	_	PronType=Ind	19	det	_	_
 19	asisten	asisten	NOUN	_	_	15	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4713,7 +4713,7 @@
 3	orang-orang	orang	NOUN	_	Number=Plur	2	obj	_	_
 4	di	di	ADP	_	_	5	case	_	_
 5	hati	hati	NOUN	_	_	2	obl	_	_
-6	mereka	mereka	DET	_	Poss=Yes	5	det:poss	_	SpaceAfter=No
+6	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
 7	;	;	PUNCT	_	_	8	punct	_	_
 8-9	itulah	_	_	_	_	_	_	_	_
 8	itu	itu	PRON	_	PronType=Dem	12	nsubj	_	_
@@ -4730,7 +4730,7 @@
 18	dan	dan	CCONJ	_	_	19	cc	_	_
 19	menyisihkan	sisih	VERB	_	Voice=Act	14	conj	_	_
 20	perbedaan	beda	NOUN	_	_	19	obj	_	_
-21	kami	kami	DET	_	Poss=Yes	20	det:poss	_	SpaceAfter=No
+21	kami	kami	DET	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01079069
@@ -4738,7 +4738,7 @@
 # text_en = His more unusual accolades include global ambassador for New York City Health and Hospitals Corporation, and a place at Harvard Business School.
 1-2	Penghargaannya	_	_	_	_	_	_	_	_
 1	Penghargaan	harga	NOUN	_	_	9	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
 4	lebih	lebih	ADV	_	_	6	advmod	_	_
 5	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
@@ -4774,7 +4774,7 @@
 4	itu	itu	PRON	_	PronType=Dem	3	obj	_	_
 5	dengan	dengan	ADP	_	_	6	case	_	_
 6	hidup	hidup	NOUN	_	_	3	obl	_	_
-7	saya	saya	DET	_	Poss=Yes	6	det:poss	_	SpaceAfter=No
+7	saya	saya	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = n01080042
@@ -4868,7 +4868,7 @@
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
 1-2	Alasannya	_	_	_	_	_	_	_	_
 1	Alasan	alas	NOUN	_	_	3	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	adalah	adalah	AUX	_	_	0	root	_	_
 4	hal	hal	NOUN	_	_	6	nsubj	_	_
 5	itu	itu	DET	_	PronType=Dem	4	det	_	_
@@ -4885,7 +4885,7 @@
 16	standar	standar	NOUN	_	_	14	conj	_	_
 17-18	hidupnya	_	_	_	_	_	_	_	_
 17	hidup	hidup	NOUN	_	_	16	compound	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 19	mungkin	mungkin	AUX	_	_	20	aux	_	_
 20	dicederai	cedera	VERB	_	Voice=Pass	11	acl	_	_
 21	oleh	oleh	ADP	_	_	22	case	_	_
@@ -4927,7 +4927,7 @@
 15	atas	atas	ADP	_	_	16	case	_	_
 16	£	£	SYM	_	_	14	nmod	_	SpaceAfter=No
 17	12.000	12.000	NUM	_	NumType=Card	16	nummod	_	_
-18	–	–	PUNCT	HYPH	_	19	punct	_	_
+18	–	–	PUNCT	_	_	19	punct	_	_
 19	£	£	SYM	_	_	16	flat:range	_	SpaceAfter=No
 20	360	360	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
@@ -4950,7 +4950,7 @@
 13	sebesar	besar	NOUN	_	_	12	nmod	_	_
 14	£	£	SYM	_	_	13	nmod	_	_
 15	3.000	3.000	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	£	£	SYM	_	_	14	flat:range	_	_
 18	5.000	5.000	NUM	_	NumType=Card	17	nummod	_	_
 19	saat	saat	SCONJ	_	_	21	mark	_	_
@@ -4961,7 +4961,7 @@
 24	gratis	gratis	ADJ	_	_	22	amod	_	_
 25	ke	ke	ADP	_	_	26	case	_	_
 26	rekening	rekening	NOUN	_	_	21	obl	_	_
-27	mereka	mereka	DET	_	Poss=Yes	26	det:poss	_	SpaceAfter=No
+27	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = n01084036
@@ -4977,7 +4977,7 @@
 7	dapat	dapat	AUX	_	_	8	aux	_	_
 8	mengakses	akses	VERB	_	Voice=Act	0	root	_	_
 9	uang	uang	NOUN	_	_	8	obj	_	_
-10	Anda	anda	DET	_	Poss=Yes	9	det:poss	_	_
+10	Anda	anda	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	kapan	kapan	ADV	WRB	PronType=Rel	8	advmod	_	_
 12	pun	pun	PART	_	_	11	advmod:emph	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	_
@@ -5001,7 +5001,7 @@
 14	antara	antara	ADP	_	_	15	case	_	_
 15	£	£	SYM	_	_	13	obl	_	SpaceAfter=No
 16	15.001	15.001	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
-17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	£	£	SYM	_	_	15	flat:range	_	SpaceAfter=No
 19	19.999	19.999	NUM	_	NumType=Card	18	nummod	_	_
 20	selama	lama	ADP	_	_	21	case	_	_
@@ -5082,7 +5082,7 @@
 5	kemarahan	marah	NOUN	_	_	4	obj	_	_
 6	dan	dan	CCONJ	_	_	7	cc	_	_
 7	konyol	konyol	ADJ	_	_	4	conj	_	_
-8	–	–	PUNCT	HYPH	_	12	punct	_	_
+8	–	–	PUNCT	_	_	12	punct	_	_
 9	tapi	tetapi	CCONJ	_	_	12	cc	_	_
 10	setidaknya	tidak	ADV	_	_	12	advmod	_	_
 11	seseorang	orang	PRON	_	PronType=Ind	12	nsubj	_	_
@@ -5090,7 +5090,7 @@
 13	rasa	rasa	NOUN	_	_	12	obj	_	_
 14	hormat	hormat	ADJ	_	_	13	amod	_	_
 15	pada	pada	ADP	_	_	16	case	_	_
-16	diri	diri	PRON	_	Reflex=Yes	13	nmod	_	_
+16	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	13	nmod	_	_
 17	sendiri	sendiri	DET	_	PronType=Emp	16	nmod	_	_
 18	untuk	untuk	SCONJ	_	_	20	mark	_	_
 19	terus	terus	ADV	_	_	20	advmod	_	_
@@ -5156,7 +5156,7 @@
 5	nya	nya	DET	_	_	4	det	_	_
 6	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 7	menenggelamkan	tenggelam	VERB	_	Voice=Act	4	acl	_	_
-8	diri	diri	PRON	_	Reflex=Yes	7	obj	_	_
+8	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	7	obj	_	_
 9	dalam	dalam	ADP	_	_	10	case	_	_
 10	pola	pola	NOUN	_	_	7	obl	_	_
 11	dan	dan	CCONJ	_	_	12	cc	_	_
@@ -5242,7 +5242,7 @@
 8	menjadi	jadi	VERB	_	Voice=Act	5	ccomp	_	_
 9-10	modelnya	_	_	_	_	_	_	_	SpaceAfter=No
 9	model	model	NOUN	_	_	8	obl	_	_
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
 13	tertawa	tawa	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
@@ -5278,7 +5278,7 @@
 8	memakai	pakai	VERB	_	Voice=Act	7	xcomp	_	_
 9-10	kacamatanya	_	_	_	_	_	_	_	_
 9	kacamata	kacamata	NOUN	_	_	8	obj	_	_
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	sebelum	belum	SCONJ	_	_	12	mark	_	_
 12	diwawancara	wawancara	VERB	_	Voice=Pass	8	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
@@ -5361,7 +5361,7 @@
 1	Kepala	kepala	NOUN	_	_	9	nsubj	_	_
 2	kebijakan	bijak	NOUN	_	_	1	compound	_	_
 3	alam	alam	NOUN	_	_	2	compound	_	_
-4	mereka	mereka	DET	_	Poss=Yes	1	det:poss	_	SpaceAfter=No
+4	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Jeff	Jeff	PROPN	_	_	1	appos	_	_
 7	Knott	Knott	PROPN	_	_	6	flat	_	SpaceAfter=No
@@ -5465,7 +5465,7 @@
 22	rencana	rencana	NOUN	_	_	21	obj	_	_
 23	dan	dan	CCONJ	_	_	24	cc	_	_
 24	ambisi	ambisi	NOUN	_	_	22	conj	_	_
-25	mereka	mereka	DET	_	Poss=Yes	22	det:poss	_	SpaceAfter=No
+25	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = n01092040
@@ -5490,7 +5490,7 @@
 17	posisi	posisi	NOUN	_	_	15	nmod	_	_
 18	nyata	nyata	ADJ	_	_	17	amod	_	_
 19	dalam	dalam	ADP	_	_	21	case	_	_
-20	sebuah	buah	DET	_	_	21	det	_	_
+20	sebuah	buah	DET	_	PronType=Ind	21	det	_	_
 21	proyek	proyek	NOUN	_	_	17	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
 23	”	”	PUNCT	_	_	5	punct	_	_
@@ -5558,7 +5558,7 @@
 # sent_id = n01093025
 # text = Para konservasionis menyambut baik pengumuman komisi itu.
 # text_en = Conservationists welcomed the commission’s announcement.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	konservasionis	konservasionis	NOUN	_	_	3	nsubj	_	_
 3	menyambut	sambut	VERB	_	Voice=Act	0	root	_	_
 4	baik	baik	ADV	_	_	3	advmod	_	_
@@ -5617,7 +5617,7 @@
 4	nya	nya	PRON	_	Number=Sing	3	obj	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
 6	masa	masa	NOUN	_	_	3	obl	_	_
-7	kita	kita	DET	_	Poss=Yes	6	det:poss	_	SpaceAfter=No
+7	kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	16	punct	_	_
 9	dan	dan	CCONJ	_	_	16	cc	_	_
 10	banyak	banyak	DET	_	_	11	det	_	_
@@ -5629,7 +5629,7 @@
 16	mengekspresikan	ekspresi	VERB	_	Voice=Act	3	conj	_	_
 17	melalui	lalu	ADP	_	_	18	case	_	_
 18	ketidaksetujuan	setuju	NOUN	_	_	16	obl	_	_
-19	mereka	mereka	DET	_	Poss=Yes	18	det:poss	_	_
+19	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	semua	semua	DET	_	PronType=Tot	21	det	_	_
 21	kebencian	benci	NOUN	_	_	16	obj	_	_
 22	terhadap	hadap	ADP	_	_	23	case	_	_
@@ -5669,11 +5669,11 @@
 # text = Dunia – dan khususnya Inggris – sedang menghadapi kekurangan orang dengan keterampilan yang diperlukan untuk memasang pertahanan yang efektif.
 # text_en = The world – and by extension the UK – is facing a shortage of people with the skills needed to mount an effective defence.
 1	Dunia	dunia	NOUN	_	_	8	nsubj	_	_
-2	–	–	PUNCT	HYPH	_	5	punct	_	_
+2	–	–	PUNCT	_	_	5	punct	_	_
 3	dan	dan	CCONJ	_	_	5	cc	_	_
 4	khususnya	khusus	ADV	_	_	5	advmod	_	_
 5	Inggris	Inggris	PROPN	_	_	1	conj	_	_
-6	–	–	PUNCT	HYPH	_	5	punct	_	_
+6	–	–	PUNCT	_	_	5	punct	_	_
 7	sedang	sedang	AUX	_	_	8	aux	_	_
 8	menghadapi	hadap	VERB	_	Voice=Act	0	root	_	_
 9	kekurangan	kurang	NOUN	_	_	8	obj	_	_
@@ -5725,8 +5725,8 @@
 9	membingungkan	bingung	VERB	_	Voice=Act	5	advcl	_	_
 10	dan	dan	CCONJ	_	_	11	cc	_	_
 11	menghalangi	halang	VERB	_	Voice=Act	9	conj	_	_
-12	–	–	PUNCT	HYPH	_	14	punct	_	_
-13	sebuah	buah	DET	_	_	14	det	_	_
+12	–	–	PUNCT	_	_	14	punct	_	_
+13	sebuah	buah	DET	_	PronType=Ind	14	det	_	_
 14	konsep	konsep	NOUN	_	_	5	parataxis	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 16	dikenal	kenal	VERB	_	Voice=Pass	14	acl:relcl	_	_
@@ -5781,7 +5781,7 @@
 # text = Perhentian saya berikutnya adalah Bellingham, persis dekat perbatasan Kanada.
 # text_en = My next stop was Bellingham, right up near the Canadian border.
 1	Perhentian	henti	NOUN	_	_	5	nsubj	_	_
-2	saya	saya	DET	_	Poss=Yes	1	det:poss	_	_
+2	saya	saya	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	berikutnya	ikut	ADJ	_	_	1	amod	_	_
 4	adalah	adalah	AUX	_	_	5	cop	_	_
 5	Bellingham	Bellingham	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -5858,19 +5858,19 @@
 4	menelusuri	telusur	VERB	_	Voice=Act	0	root	_	_
 5	pasar	pasar	NOUN	_	_	4	obj	_	_
 6	pagi	pagi	NOUN	_	_	5	compound	_	_
-7	(	(	PUNCT	(	_	5	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	6.30	6.30	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	10	10	NUM	_	NumType=Card	8	flat:range	_	_
 11	pagi	pagi	NOUN	_	_	5	parataxis	_	SpaceAfter=No
-12	)	)	PUNCT	)	_	5	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	14	punct	_	_
 14	lolipop	lolipop	NOUN	_	_	4	parataxis	_	_
 15	beras	beras	NOUN	_	_	14	compound	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	kepompong	kepompong	NOUN	_	_	14	conj	_	_
 18	tawon	tawon	NOUN	_	_	17	compound	_	_
-19	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 20-21	kepompongnya	_	_	_	_	_	_	_	_
 20	kepompong	kepompong	NOUN	_	_	22	nsubj:pass	_	_
 21	nya	nya	DET	_	_	20	det	_	_
@@ -5878,7 +5878,7 @@
 23	sebagai	bagai	ADP	_	_	24	case	_	_
 24	makanan	makan	NOUN	_	_	22	obl	_	_
 25	lezat	lezat	ADJ	_	_	24	amod	_	SpaceAfter=No
-26	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	paru-paru	paru	NOUN	_	_	14	conj	_	_
 29	kerbau	kerbau	NOUN	_	_	28	compound	_	SpaceAfter=No
@@ -5926,7 +5926,7 @@
 1	Sumpah	sumpah	NOUN	_	_	3	nsubj	_	_
 2	ini	ini	DET	_	PronType=Dem	1	det	_	_
 3	melibatkan	libat	VERB	_	Voice=Act	0	root	_	_
-4	para	para	DET	_	_	5	det	_	_
+4	para	para	DET	_	Number=Plur	5	det	_	_
 5	pembuat	buat	NOUN	_	_	3	obj	_	_
 6	undang-undang	undang	NOUN	_	_	5	compound	_	_
 7	menyatakan	nyata	VERB	_	Voice=Act	5	acl	_	_
@@ -5976,7 +5976,7 @@
 3	percaya	percaya	VERB	_	Voice=Act	0	root	_	_
 4-5	intervensinya	_	_	_	_	_	_	_	_
 4	intervensi	intervensi	NOUN	_	_	6	nsubj	_	_
-5	nya	nya	DET	_	Poss=Yes	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	perlu	perlu	ADJ	_	_	3	ccomp	_	_
 7	untuk	untuk	SCONJ	_	_	8	mark	_	_
 8	mencegah	cegah	VERB	_	Voice=Act	6	advcl	_	_
@@ -6042,13 +6042,13 @@
 1	Mengakhiri	akhir	VERB	_	Voice=Act	7	csubj	_	_
 2-3	kariernya	_	_	_	_	_	_	_	_
 2	karier	karier	NOUN	_	_	1	obj	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	di	di	ADP	_	_	5	case	_	_
 5	sini	sini	PRON	_	PronType=Dem	1	obl	_	_
 6	adalah	adalah	AUX	_	_	7	cop	_	_
 7-8	mimpinya	_	_	_	_	_	_	_	SpaceAfter=No
 7	mimpi	mimpi	NOUN	_	_	0	root	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01104011
@@ -6198,13 +6198,13 @@
 2	tentang	tentang	ADP	_	_	3	case	_	_
 3	penipuan	tipu	NOUN	_	_	1	nmod	_	_
 4	perusahaan	usaha	NOUN	_	_	3	compound	_	_
-5	-	-	PUNCT	HYPH	_	8	punct	_	_
+5	-	-	PUNCT	_	_	8	punct	_	_
 6	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
 7	telah	telah	AUX	_	_	8	aux	_	_
 8	berjalan	jalan	VERB	_	Voice=Act	3	acl:relcl	_	_
 9	selama	lama	ADP	_	_	10	case	_	_
 10	bertahun-tahun	tahun	NOUN	_	_	8	obl	_	_
-11	-	-	PUNCT	HYPH	_	8	punct	_	_
+11	-	-	PUNCT	_	_	8	punct	_	_
 12	merontokkan	rontok	VERB	_	Voice=Act	0	root	_	_
 13	miliaran	miliar	NUM	_	NumType=Card	14	nummod	_	_
 14	euro	euro	NOUN	NNB	_	12	obj	_	_
@@ -6220,7 +6220,7 @@
 24	kehilangan	hilang	VERB	_	Voice=Act	19	xcomp	_	_
 25-26	pekerjaannya	_	_	_	_	_	_	_	SpaceAfter=No
 25	pekerjaan	kerja	NOUN	_	_	24	obl	_	_
-26	nya	nya	DET	_	Poss=Yes|PronType=Prs	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = n01107006
@@ -6359,7 +6359,7 @@
 5	pada	pada	ADP	_	_	6	case	_	_
 6-7	kemampuannya	_	_	_	_	_	_	_	_
 6	kemampuan	mampu	NOUN	_	_	4	nmod	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	untuk	untuk	SCONJ	_	_	9	mark	_	_
 9	belanja	belanja	VERB	_	Voice=Act	6	acl	_	_
 10	seiring	iring	SCONJ	_	_	13	mark	_	_
@@ -6423,8 +6423,8 @@
 19	Simple	Simple	PROPN	_	_	18	nmod	_	_
 20	and	and	PROPN	_	_	19	flat	_	_
 21	Select	Select	PROPN	_	_	19	flat	_	SpaceAfter=No
-22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
-23	nya	nya	DET	_	Poss=Yes	18	det:poss	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n01109022
@@ -6520,7 +6520,7 @@
 6	memasukkan	masuk	VERB	_	Voice=Act	5	xcomp	_	_
 7-8	uangnya	_	_	_	_	_	_	_	_
 7	uang	uang	NOUN	_	_	6	obj	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	ke	ke	ADP	_	_	10	case	_	_
 10	dana	dana	NOUN	_	_	6	obl	_	_
 11	tersebut	sebut	DET	_	_	10	det	_	SpaceAfter=No
@@ -6652,7 +6652,7 @@
 # text = Setelah beberapa bedah jenius dan banyak rehabilitasi yang sangat keras, saya sudah pulih sepenuhnya.
 # text_en = After some genius surgery and a lot of very tough rehab, I have made a full recovery.
 1	Setelah	telah	ADP	_	_	3	case	_	_
-2	beberapa	berapa	DET	_	PronType=Ind	3	det	_	_
+2	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	3	det	_	_
 3	bedah	bedah	NOUN	_	_	14	obl	_	_
 4	jenius	jenius	ADJ	_	_	3	amod	_	_
 5	dan	dan	CCONJ	_	_	7	cc	_	_
@@ -6696,7 +6696,7 @@
 23	jawab	jawab	NOUN	_	_	22	compound	_	_
 24	untuk	untuk	ADP	_	_	25	case	_	_
 25	kesehatan	sehat	NOUN	_	_	22	nmod	_	_
-26	mereka	mereka	DET	_	Poss=Yes	25	det:poss	_	_
+26	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	sendiri	sendiri	DET	_	PronType=Emp	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -6774,7 +6774,7 @@
 2	memulai	mulai	VERB	_	Voice=Act	0	root	_	_
 3-4	kariernya	_	_	_	_	_	_	_	_
 3	karier	karier	NOUN	_	_	2	obj	_	_
-4	nya	nya	DET	_	Poss=Yes|PronType=Prs	3	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 5	di	di	ADP	_	_	6	case	_	_
 6	RSC	RSC	PROPN	_	Abbr=Yes	2	obl	_	_
 7	di	di	ADP	_	_	9	case	_	_
@@ -6788,7 +6788,7 @@
 15	suaka	suaka	NOUN	_	_	14	compound	_	_
 16	di	di	ADP	_	_	17	case	_	_
 17	Marat	Marat	PROPN	_	_	12	obl	_	SpaceAfter=No
-18	/	/	PUNCT	/	_	19	punct	_	SpaceAfter=No
+18	/	/	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	Sade	Sade	PROPN	_	_	17	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6809,7 +6809,7 @@
 4	semua	semua	DET	_	PronType=Tot	5	det	_	_
 5-6	energinya	_	_	_	_	_	_	_	SpaceAfter=No
 5	energi	energi	NOUN	_	_	3	nsubj	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	?	?	PUNCT	_	_	3	punct	_	_
 8	Atau	atau	CCONJ	_	_	9	cc	_	_
 9	suara	suara	NOUN	_	_	3	parataxis	_	_
@@ -6832,7 +6832,7 @@
 # text_en = Her neck pushes forward in vein-accentuating confrontation, her hands shake.
 1-2	Lehernya	_	_	_	_	_	_	_	_
 1	Leher	leher	NOUN	_	_	3	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	bergerak	gerak	VERB	_	Voice=Act	0	root	_	_
 4	maju	maju	VERB	_	Voice=Act	3	xcomp	_	_
 5	dalam	dalam	ADP	_	_	6	case	_	_
@@ -6841,11 +6841,11 @@
 8	menonjolkan	tonjol	VERB	_	Voice=Act	6	acl:relcl	_	_
 9-10	urat-uratnya	_	_	_	_	_	_	_	SpaceAfter=No
 9	urat-urat	urat	NOUN	_	Number=Plur	8	obj	_	_
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	,	,	PUNCT	_	_	14	punct	_	_
 12-13	tangannya	_	_	_	_	_	_	_	_
 12	tangan	tangan	NOUN	_	_	14	nsubj	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	bergetar	getar	VERB	_	Voice=Act	3	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6881,7 +6881,7 @@
 10	dan	dan	CCONJ	_	_	11	cc	_	_
 11	TV	tv	NOUN	_	Abbr=Yes|Number=Sing	9	conj	_	_
 12	selama	lama	ADP	_	_	14	case	_	_
-13	beberapa	berapa	DET	_	PronType=Ind	14	det	_	_
+13	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	14	det	_	_
 14	dekade	dekade	NOUN	_	_	2	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6960,7 +6960,7 @@
 6	film	film	NOUN	_	_	10	nsubj	_	_
 7	ini	ini	DET	_	PronType=Dem	6	det	_	_
 8	adalah	adalah	AUX	_	_	10	cop	_	_
-9	sebuah	buah	DET	_	_	10	det	_	_
+9	sebuah	buah	DET	_	PronType=Ind	10	det	_	_
 10	tindakan	tindak	NOUN	_	_	0	root	_	_
 11	penyeimbang	imbang	NOUN	_	_	10	compound	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
@@ -7080,7 +7080,7 @@
 7	bisa	bisa	AUX	_	_	8	aux	_	_
 8	diprediksi	prediksi	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	sebuah	buah	DET	_	_	11	det	_	_
+10	sebuah	buah	DET	_	PronType=Ind	11	det	_	_
 11	karakteristik	karakteristik	NOUN	_	_	8	parataxis	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13-14	membuatnya	_	_	_	_	_	_	_	_
@@ -7115,7 +7115,7 @@
 8	itu	itu	PRON	_	PronType=Dem	10	nsubj	_	_
 9	juga	juga	ADV	_	_	10	advmod	_	_
 10	pertemuan	temu	NOUN	_	_	6	ccomp	_	_
-11	kami	kami	DET	_	Poss=Yes	10	det:poss	_	_
+11	kami	kami	DET	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	terakhir	akhir	ADJ	_	Degree=Sup	10	acl:relcl	_	_
 14	dengan	dengan	ADP	_	_	16	case	_	_
@@ -7145,7 +7145,7 @@
 # text = “ Para pahlawan super beraksi di luar pengalaman manusia biasa, persis seperti cerita ini, itu sebabnya saya menanganinya sebagai sebuah drama”, kata Zimmer.
 # text_en = “Superheroes are outside of human experience and so is this, so I treated it like a drama,” Zimmer says.
 1	“	“	PUNCT	_	_	5	punct	_	_
-2	Para	para	DET	_	_	3	det	_	_
+2	Para	para	DET	_	Number=Plur	3	det	_	_
 3	pahlawan	pahlawan	NOUN	_	_	5	nsubj	_	_
 4	super	super	ADJ	_	_	3	amod	_	_
 5	beraksi	aksi	VERB	_	Voice=Act	0	root	_	_
@@ -7169,7 +7169,7 @@
 21	menangani	tangan	VERB	_	Voice=Act	18	ccomp	_	_
 22	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 23	sebagai	bagai	ADP	_	_	25	case	_	_
-24	sebuah	buah	DET	_	_	25	det	_	_
+24	sebuah	buah	DET	_	PronType=Ind	25	det	_	_
 25	drama	drama	NOUN	_	_	21	obl	_	SpaceAfter=No
 26	”	”	PUNCT	_	_	5	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	5	punct	_	_
@@ -7206,7 +7206,7 @@
 6	Oktober	Oktober	PROPN	_	_	5	flat	_	_
 7	1832	1832	NUM	_	NumType=Card	5	flat	_	_
 8	di	di	ADP	_	_	10	case	_	_
-9	sebuah	buah	DET	_	_	10	det	_	_
+9	sebuah	buah	DET	_	PronType=Ind	10	det	_	_
 10	desa	desa	NOUN	_	_	2	obl	_	_
 11	dekat	dekat	ADJ	_	_	12	amod	_	_
 12	Sunderland	Sunderland	PROPN	_	_	10	nmod	_	SpaceAfter=No
@@ -7223,7 +7223,7 @@
 6	masalah	masalah	NOUN	_	_	5	obl	_	_
 7	karena	karena	SCONJ	_	_	12	mark	_	_
 8	kebingungan	bingung	NOUN	_	_	12	nsubj	_	_
-9	saya	saya	DET	_	Poss=Yes	8	det:poss	_	_
+9	saya	saya	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
 11	akan	akan	AUX	_	_	12	aux	_	_
 12	berlangsung	langsung	VERB	_	Voice=Act	5	advcl	_	_
@@ -7243,14 +7243,14 @@
 8	70-an	70	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	flock	flock	NOUN	_	_	19	nsubj	_	_
-11	–	–	PUNCT	HYPH	_	16	punct	_	_
+11	–	–	PUNCT	_	_	16	punct	_	_
 12	atau	atau	CCONJ	_	_	16	cc	_	_
 13	melapisi	lapis	VERB	_	Voice=Act	16	csubj	_	_
 14	permukaan	muka	NOUN	_	_	13	obj	_	_
 15	adalah	adalah	AUX	_	_	16	cop	_	_
 16	hal	hal	NOUN	_	_	10	conj	_	_
 17	utama	utama	ADJ	_	_	16	amod	_	_
-18	–	–	PUNCT	HYPH	_	16	punct	_	_
+18	–	–	PUNCT	_	_	16	punct	_	_
 19	berkibar	kibar	VERB	_	Voice=Act	0	root	_	_
 20	lagi	lagi	ADV	_	_	19	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	19	punct	_	_
@@ -7298,7 +7298,7 @@
 14	berkembang	kembang	NOUN	_	_	10	obl	_	_
 15	nya	nya	DET	_	_	14	det	_	_
 16	obsesi	obsesi	NOUN	_	_	14	nmod	_	_
-17	kita	kita	DET	_	Poss=Yes	16	det:poss	_	_
+17	kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	membuat	buat	VERB	_	Voice=Act	16	acl	_	_
 20	berbagai	bagai	DET	NN	_	21	det	_	_
@@ -7379,7 +7379,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	kinerja	kinerja	NOUN	_	_	8	nsubj:pass	_	_
 5	organisasi	organisasi	NOUN	_	_	4	compound	_	_
-6	kita	kita	DET	_	Poss=Yes	4	det:poss	_	_
+6	kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
 7	jarang	jarang	ADV	_	_	8	advmod	_	_
 8	diukur	ukur	VERB	_	Voice=Pass	0	root	_	_
 9	dalam	dalam	ADP	_	_	10	case	_	_
@@ -7437,8 +7437,8 @@
 7	tentang	tentang	ADP	_	_	8	case	_	_
 8	cara	cara	NOUN	_	_	5	obl	_	_
 9	melindungi	lindung	VERB	_	Voice=Act	8	acl	_	_
-10	diri	diri	PRON	_	Reflex=Yes	9	obj	_	_
-11	mereka	mereka	DET	_	Poss=Yes	10	det:poss	_	_
+10	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	9	obj	_	_
+11	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	dengan	dengan	ADP	_	_	14	case:adv	_	_
 13	lebih	lebih	ADV	_	_	14	advmod	_	_
 14	baik	baik	ADV	_	_	9	advmod	_	_
@@ -7578,14 +7578,14 @@
 14	peduli	peduli	VERB	_	Voice=Act	4	acl:relcl	_	_
 15	pada	pada	ADP	_	_	16	case	_	_
 16-17	dirinya	_	_	_	_	_	_	_	_
-16	diri	diri	PRON	_	Reflex=Yes	14	obl	_	_
-17	nya	nya	DET	_	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	14	obl	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	sendiri	sendiri	DET	_	PronType=Emp	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	dan	dan	CCONJ	_	_	24	cc	_	_
 21-22	temperamennya	_	_	_	_	_	_	_	_
 21	temperamen	temperamen	NOUN	_	_	24	nsubj	_	_
-22	nya	nya	DET	_	Poss=Yes|PronType=Prs	21	det:poss	_	_
+22	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 23	adalah	adalah	AUX	_	_	24	cop	_	_
 24	racun	racun	NOUN	_	_	4	conj	_	_
 25	bagi	bagi	ADP	_	_	26	case	_	_
@@ -7639,7 +7639,7 @@
 18	dan	dan	CCONJ	_	_	24	cc	_	_
 19	keunggulan	unggul	NOUN	_	_	24	nsubj	_	_
 20	keseluruhan	seluruh	NOUN	_	_	19	compound	_	_
-21	mereka	mereka	DET	_	Poss=Yes	19	det:poss	_	_
+21	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 22	adalah	adalah	AUX	_	_	24	cop	_	_
 23	sekitar	kitar	ADV	_	_	24	advmod	_	_
 24	16.500	16.500	NUM	_	NumType=Card	3	conj	_	_
@@ -7676,7 +7676,7 @@
 7	dalam	dalam	ADP	_	_	8	case	_	_
 8-9	serinya	_	_	_	_	_	_	_	_
 8	seri	seri	NOUN	_	_	4	nmod	_	_
-9	nya	nya	DET	_	Poss=Yes|PronType=Prs	8	det:poss	_	_
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj:pass	_	_
 11	disambut	sambut	VERB	_	Voice=Pass	8	acl:relcl	_	_
 12	antusias	antusias	ADJ	_	_	11	advmod	_	_
@@ -7706,7 +7706,7 @@
 # sent_id = n01133014
 # text = Para siswa Belanda itu belum memutuskan apakah mereka akan mengkomersilkan motor listrik mereka.
 # text_en = The Dutch students have yet to decide if they will be commercializing their electric motorcycle.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	siswa	siswa	NOUN	_	_	6	nsubj	_	_
 3	Belanda	Belanda	PROPN	_	_	2	nmod	_	_
 4	itu	itu	DET	_	PronType=Dem	2	det	_	_
@@ -7720,7 +7720,7 @@
 11	mengkomersilkan	komersial	VERB	_	Voice=Act	6	ccomp	_	_
 12	motor	motor	NOUN	_	_	11	obj	_	_
 13	listrik	listrik	NOUN	_	_	12	compound	_	_
-14	mereka	mereka	DET	_	Poss=Yes	12	det:poss	_	SpaceAfter=No
+14	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n01133022
@@ -7738,11 +7738,11 @@
 10	luas	luas	ADJ	_	_	9	advmod	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	media	media	NOUN	_	_	9	obl	_	_
-13	--	--	PUNCT	HYPH	_	14	punct	_	_
+13	--	--	PUNCT	_	_	14	punct	_	_
 14	2017	2017	NUM	_	NumType=Card	7	appos	_	_
 15	atau	atau	CCONJ	_	_	16	cc	_	_
 16	2020	2020	NUM	_	NumType=Card	14	conj	_	_
-17	--	--	PUNCT	HYPH	_	14	punct	_	_
+17	--	--	PUNCT	_	_	14	punct	_	_
 18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
 19	akurat	akurat	ADJ	_	_	5	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
@@ -7768,7 +7768,7 @@
 # sent_id = n01134007
 # text = Para investor menjual surat obligasi pemerintah, dengan surat obligasi A.S. dan Australia yang merasakan dampak terbesar.
 # text_en = Investors are selling out of government bonds, with U.S. and Australian bonds feeling the biggest impact.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	investor	investor	NOUN	_	_	3	nsubj	_	_
 3	menjual	jual	VERB	_	Voice=Act	0	root	_	_
 4	surat	surat	NOUN	_	_	3	obj	_	_
@@ -7796,7 +7796,7 @@
 4	atas	atas	ADP	_	_	5	case	_	_
 5-6	upayanya	_	_	_	_	_	_	_	_
 5	upaya	upaya	NOUN	_	_	2	obl	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	membantu	bantu	VERB	_	Voice=Act	5	acl	_	_
 8	mengatasi	atas	VERB	_	Voice=Act	7	xcomp	_	_
 9	tumpukan	tumpuk	NOUN	_	_	8	obj	_	_
@@ -7847,7 +7847,7 @@
 12	alasan	alas	NOUN	_	_	11	obl	_	_
 13	besar	besar	ADJ	_	_	12	amod	_	_
 14	mengapa	apa	SCONJ	_	_	17	mark	_	_
-15	para	para	DET	_	_	16	det	_	_
+15	para	para	DET	_	Number=Plur	16	det	_	_
 16	investor	investor	NOUN	_	_	17	nsubj	_	_
 17	mencintai	cinta	VERB	_	Voice=Act	12	acl	_	_
 18	induk	induk	NOUN	_	_	17	obj	_	_
@@ -7875,7 +7875,7 @@
 13	bagian	bagi	NOUN	_	_	12	compound	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	dalam	dalam	ADP	_	_	17	case	_	_
-16	sebuah	buah	DET	_	_	17	det	_	_
+16	sebuah	buah	DET	_	PronType=Ind	17	det	_	_
 17	kasus	kasus	NOUN	_	_	11	obl	_	_
 18	yang	yang	PRON	_	PronType=Rel	20	nsubj	_	_
 19	akhirnya	akhir	ADV	_	_	20	advmod	_	_
@@ -7900,11 +7900,11 @@
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	keluarga	keluarga	NOUN	_	_	18	nsubj	_	_
 11	Lovings	Lovings	PROPN	_	_	10	nmod	_	_
-12	--	--	PUNCT	HYPH	_	15	punct	_	_
+12	--	--	PUNCT	_	_	15	punct	_	_
 13	dan	dan	CCONJ	_	_	15	cc	_	_
 14	khususnya	khusus	ADV	_	_	15	advmod	_	_
 15	Richard	Richard	PROPN	_	_	10	conj	_	_
-16	--	--	PUNCT	HYPH	_	15	punct	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
 17	adalah	adalah	AUX	_	_	18	cop	_	_
 18	peserta	serta	NOUN	_	_	0	root	_	_
 19	yang	yang	PRON	_	PronType=Rel	20	nsubj	_	_
@@ -7975,7 +7975,7 @@
 6	dan	dan	CCONJ	_	_	10	cc	_	_
 7	kemudian	kemudian	ADV	_	_	10	advmod	_	_
 8	telepon	telepon	NOUN	_	_	10	nsubj	_	SpaceAfter=No
-9	ku	ku	DET	_	Poss=Yes|PronType=Prs	8	det:poss	_	_
+9	ku	ku	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	mulai	mulai	VERB	_	Voice=Act	3	conj	_	_
 11	menyala	nyala	VERB	_	Voice=Act	10	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -7989,11 +7989,11 @@
 4	orang	orang	NOUN	_	_	14	obl	_	_
 5	teratas	atas	ADJ	_	Degree=Sup	4	amod	_	_
 6	Negan	Negan	PROPN	_	_	4	nmod:poss	_	_
-7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Jeffrey	Jeffrey	PROPN	_	_	4	appos	_	_
 9	Dean	Dean	PROPN	_	_	8	flat	_	_
 10	Morgan	Morgan	PROPN	_	_	8	flat	_	SpaceAfter=No
-11	)	)	PUNCT	)	_	8	punct	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	mendapatkan	dapat	VERB	_	Voice=Act	0	root	_	_
@@ -8010,7 +8010,7 @@
 4	satu	satu	NUM	_	NumType=Card	5	nummod	_	_
 5	teman	teman	NOUN	_	_	0	root	_	_
 6	baik	baik	ADJ	_	_	5	amod	_	SpaceAfter=No
-7	ku	ku	DET	_	Poss=Yes	5	det:poss	_	SpaceAfter=No
+7	ku	ku	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	jadi	jadi	ADV	_	_	11	advmod	_	_
 10	sangat	sangat	ADV	_	_	11	advmod	_	_
@@ -8057,7 +8057,7 @@
 13	pembangunan	bangun	NOUN	_	_	7	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	pekerjaan	kerja	NOUN	_	_	19	nsubj	_	_
-16	kami	kami	DET	_	Poss=Yes	15	det:poss	_	_
+16	kami	kami	DET	_	Clusivity=Ex|Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
 17	akan	akan	AUX	_	_	19	aux	_	_
 18	terus	terus	ADV	_	_	19	advmod	_	_
 19	berlanjut	lanjut	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
@@ -8171,7 +8171,7 @@
 19	menghubungkan	hubung	VERB	_	Voice=Act	5	conj	_	_
 20	feed	feed	X	_	Foreign=Yes	19	obj	_	_
 21	Twitter	Twitter	PROPN	_	_	20	nmod	_	_
-22	Anda	anda	DET	_	Poss=Yes	21	det:poss	_	SpaceAfter=No
+22	Anda	anda	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	21	det:poss	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = n01141020
@@ -8188,7 +8188,7 @@
 9	memikirkan	pikir	VERB	_	Voice=Act	8	xcomp	_	_
 10-11	produknya	_	_	_	_	_	_	_	_
 10	produk	produk	NOUN	_	_	9	obj	_	_
-11	nya	nya	DET	_	Poss=Yes	10	det:poss	_	_
+11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	sebagai	bagai	ADP	_	_	16	case	_	_
 13	lebih	lebih	ADV	_	_	16	advmod	_	_
 14	dari	dari	ADP	_	_	13	fixed	_	_
@@ -8204,7 +8204,7 @@
 2	upaya	upaya	NOUN	_	_	12	nsubj	_	_
 3-4	terakhirnya	_	_	_	_	_	_	_	_
 3	terakhir	akhir	ADJ	_	Degree=Sup	2	amod	_	_
-4	nya	nya	DET	_	Poss=Yes	2	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 5	ke	ke	ADP	_	_	7	case	_	_
 6	dalam	dalam	NOUN	_	_	7	nmod	_	_
 7	game	game	NOUN	_	_	2	nmod	_	_
@@ -8230,11 +8230,11 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj	_	_
 4	menghasilkan	hasil	VERB	_	Voice=Act	1	acl:relcl	_	_
-5	beberapa	berapa	DET	_	PronType=Ind	6	det	_	_
+5	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	6	det	_	_
 6	tenis	tenis	NOUN	_	_	4	obj	_	_
 7-8	terbaiknya	_	_	_	_	_	_	_	_
 7	terbaik	baik	ADJ	_	Degree=Sup	6	amod	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 9	saat	saat	SCONJ	_	_	11	mark	_	_
 10	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	mengimbangi	imbang	VERB	_	Voice=Act	4	advcl	_	_
@@ -8260,7 +8260,7 @@
 5	selamat	selamat	NOUN	_	_	4	obj	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
 7	Andy	Andy	PROPN	_	_	4	obl	_	_
-8	--	--	PUNCT	HYPH	_	4	punct	_	_
+8	--	--	PUNCT	_	_	4	punct	_	_
 9	menjadi	jadi	VERB	_	Voice=Act	16	csubj	_	_
 10	No.	no.	NOUN	_	Abbr=Yes	9	obl	_	_
 11	1	1	NUM	_	NumType=Card	10	nummod	_	_
@@ -8361,7 +8361,7 @@
 3	muncul	muncul	VERB	_	Voice=Act	0	root	_	_
 4	di	di	ADP	_	_	5	case	_	_
 5	lumbung	lumbung	NOUN	_	_	3	obl	_	SpaceAfter=No
-6	ku	ku	DET	_	Poss=Yes	5	det:poss	_	_
+6	ku	ku	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	dan	dan	CCONJ	_	_	9	cc	_	_
 8	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	berkelakar	kelakar	VERB	_	Voice=Act	3	conj	_	_
@@ -8406,7 +8406,7 @@
 # text_en = I was just a boy with muddy shoes.
 1	Aku	aku	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	hanya	hanya	ADV	_	_	4	advmod	_	_
-3	seorang	orang	DET	_	_	4	det	_	_
+3	seorang	orang	DET	_	PronType=Ind	4	det	_	_
 4	anak	anak	NOUN	_	_	0	root	_	_
 5	laki-laki	laki	NOUN	_	_	4	compound	_	_
 6	dengan	dengan	ADP	_	_	7	case	_	_
@@ -8453,7 +8453,7 @@
 3	Anaya	Anaya	PROPN	_	_	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	salah	salah	ADJ	_	_	6	compound	_	_
-6	seorang	orang	DET	_	_	7	det	_	_
+6	seorang	orang	DET	_	PronType=Ind	7	det	_	_
 7	direktur	direktur	NOUN	_	_	1	appos	_	_
 8	kreatif	kreatif	ADJ	_	_	7	amod	_	_
 9	parade	parade	NOUN	_	_	7	compound	_	_
@@ -8592,7 +8592,7 @@
 11	segala	segala	DET	_	_	12	det	_	_
 12-13	kemegahannya	_	_	_	_	_	_	_	SpaceAfter=No
 12	kemegahan	megah	NOUN	_	_	7	nmod	_	_
-13	nya	nya	DET	_	Poss=Yes	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	,	,	PUNCT	_	_	2	punct	_	_
 15	bulan	bulan	NOUN	_	_	18	nsubj	_	_
 16	November	November	PROPN	_	_	15	nmod	_	_
@@ -8615,7 +8615,7 @@
 6	gedung-gedung	gedung	NOUN	_	Number=Plur	5	compound	_	_
 7	tinggi	tinggi	ADJ	_	_	6	amod	_	_
 8	modern	modern	ADJ	_	_	6	amod	_	_
-9	--	--	PUNCT	HYPH	_	11	punct	_	_
+9	--	--	PUNCT	_	_	11	punct	_	_
 10	seperti	seperti	ADP	_	_	11	case	_	_
 11	MahaNakhon	MahaNakhon	PROPN	_	_	6	nmod	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
@@ -8646,10 +8646,10 @@
 2	sedalam	dalam	NOUN	_	_	1	obl	_	_
 3	100	100	NUM	_	NumType=Card	4	nummod	_	_
 4	meter	meter	NOUN	NNB	_	2	nmod	_	_
-5	(	(	PUNCT	(	_	7	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	328	328	NUM	_	NumType=Card	7	nummod	_	_
 7	kaki	kaki	NOUN	NNB	_	4	appos	_	SpaceAfter=No
-8	)	)	PUNCT	)	_	7	punct	_	_
+8	)	)	PUNCT	_	_	7	punct	_	_
 9	di	di	ADP	_	_	11	case	_	_
 10	bawah	bawah	NOUN	_	_	11	nmod	_	_
 11	tanah	tanah	NOUN	_	_	4	nmod	_	SpaceAfter=No
@@ -8688,7 +8688,7 @@
 4	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	memang	memang	ADV	_	_	6	advmod	_	_
 6	melihat	lihat	VERB	_	Voice=Act	0	root	_	_
-7	beberapa	berapa	DET	_	PronType=Ind	8	det	_	_
+7	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	8	det	_	_
 8	orang	orang	NOUN	_	_	9	nsubj	_	_
 9	menggunakan	guna	VERB	_	Voice=Act	6	ccomp	_	_
 10	smartphone	smartphone	NOUN	_	_	9	obj	_	SpaceAfter=No
@@ -8722,7 +8722,7 @@
 18	mengaburkan	kabur	VERB	_	Voice=Act	4	conj	_	_
 19-20	batas-batasnya	_	_	_	_	_	_	_	SpaceAfter=No
 19	batas-batas	batas	NOUN	_	Number=Plur	18	obj	_	_
-20	nya	nya	DET	_	Poss=Yes	19	det:poss	_	_
+20	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01150031
@@ -8740,7 +8740,7 @@
 10	seharusnya	harus	ADV	_	_	14	advmod	_	_
 11	itu	itu	PRON	_	PronType=Dem	14	nsubj	_	_
 12	adalah	adalah	AUX	_	_	14	cop	_	_
-13	sebuah	buah	DET	_	_	14	det	_	_
+13	sebuah	buah	DET	_	PronType=Ind	14	det	_	_
 14	perayaan	raya	NOUN	_	_	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -8759,7 +8759,7 @@
 10	ini	ini	DET	_	PronType=Dem	7	det	_	_
 11-12	tampilannya	_	_	_	_	_	_	_	_
 11	tampilan	tampil	NOUN	_	_	14	nsubj	_	_
-12	nya	nya	DET	_	Poss=Yes	11	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 13	seperti	seperti	ADP	_	_	14	case	_	_
 14	pahatan	pahat	NOUN	_	_	0	root	_	_
 15	dan	dan	CCONJ	_	_	18	cc	_	_
@@ -8786,7 +8786,7 @@
 12	menjaga	jaga	VERB	_	Voice=Act	10	xcomp	_	_
 13	agar	agar	SCONJ	_	_	17	mark	_	_
 14	kenangan	kenang	NOUN	_	_	17	nsubj	_	_
-15	mereka	mereka	DET	_	Poss=Yes	14	det:poss	_	_
+15	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 16	tetap	tetap	ADV	_	_	17	advmod	_	_
 17	hidup	hidup	VERB	_	Voice=Act	12	advcl	_	_
 18	di	di	SCONJ	_	_	21	mark	_	_
@@ -9024,7 +9024,7 @@
 3	sekitar	kitar	ADV	_	_	4	advmod	_	_
 4	tahun	tahun	NOUN	_	_	14	obl:tmod	_	_
 5	512	512	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
-6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	511	511	NUM	_	NumType=Card	5	flat:range	_	_
 8	SM	sm	NOUN	_	Abbr=Yes	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
@@ -9039,7 +9039,7 @@
 18	menyerahkan	serah	VERB	_	Voice=Act	14	conj	_	_
 19-20	negaranya	_	_	_	_	_	_	_	_
 19	negara	negara	NOUN	_	_	18	obj	_	_
-20	nya	nya	DET	_	Poss=Yes|PronType=Prs	19	det:poss	_	_
+20	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 21	sebagai	bagai	ADP	_	_	22	case	_	_
 22	negara	negara	NOUN	_	_	18	obl	_	_
 23	bawahan	bawah	NOUN	_	_	22	compound	_	_
@@ -9089,10 +9089,10 @@
 5	perusahaan	usaha	NOUN	_	_	4	nsubj:pass	_	_
 6	film	film	NOUN	_	_	5	compound	_	_
 7	pertama	pertama	ADJ	_	NumType=Ord	5	amod	_	_
-8	(	(	PUNCT	(	_	9	punct	_	SpaceAfter=No
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	Athina	Athina	PROPN	_	_	5	appos	_	_
 10	Film	Film	PROPN	_	_	9	flat	_	SpaceAfter=No
-11	)	)	PUNCT	)	_	9	punct	_	_
+11	)	)	PUNCT	_	_	9	punct	_	_
 12	dan	dan	CCONJ	_	_	14	cc	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
 14	tahun	tahun	NOUN	_	_	4	conj	_	_
@@ -9172,9 +9172,9 @@
 # text_en = Its police includes a special unit which operates patrol and surveillance boats.
 1-2	Polisinya	_	_	_	_	_	_	_	_
 1	Polisi	polisi	NOUN	_	_	3	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	mencakup	cakup	VERB	_	Voice=Act	0	root	_	_
-4	sebuah	buah	DET	_	_	5	det	_	_
+4	sebuah	buah	DET	_	PronType=Ind	5	det	_	_
 5	unit	unit	NOUN	_	_	3	obj	_	_
 6	khusus	khusus	ADJ	_	_	5	amod	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
@@ -9277,7 +9277,7 @@
 5	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
 6	berlangsung	langsung	VERB	_	Voice=Act	3	acl:relcl	_	_
 7	selama	lama	ADP	_	_	9	case	_	_
-8	beberapa	berapa	DET	_	PronType=Ind	9	det	_	_
+8	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	9	det	_	_
 9	bulan	bulan	NOUN	_	_	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	menyambut	sambut	VERB	_	Voice=Act	6	conj	_	_
@@ -9307,8 +9307,8 @@
 15	Slav	Slav	PROPN	_	_	14	nmod	_	_
 16	membentuk	bentuk	VERB	_	Voice=Act	8	advcl	_	_
 17-18	dirinya	_	_	_	_	_	_	_	_
-17	diri	diri	PRON	_	Reflex=Yes	16	obj	_	_
-18	nya	nya	DET	_	Poss=Yes	17	det:poss	_	_
+17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	16	obj	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 19	pada	pada	ADP	_	_	20	case	_	_
 20	abad	abad	NOUN	_	_	16	obl	_	_
 21	ke-6	6	ADJ	_	NumType=Ord	20	amod	_	_
@@ -9362,11 +9362,11 @@
 13	penaklukan	takluk	NOUN	_	_	7	obl	_	_
 14	Kota	Kota	PROPN	_	_	13	nmod	_	_
 15	Nitra	Nitra	PROPN	_	_	14	flat	_	_
-16	(	(	PUNCT	(	_	17	punct	_	SpaceAfter=No
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	Slowakia	Slowakia	PROPN	_	_	14	appos	_	_
 18	masa	masa	NOUN	_	_	17	nmod:tmod	_	_
 19	kini	kini	NOUN	_	_	18	compound	_	SpaceAfter=No
-20	)	)	PUNCT	)	_	17	punct	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01010047
@@ -9375,16 +9375,16 @@
 1	Raja	raja	NOUN	_	_	5	nsubj	_	_
 2-3	pertamanya	_	_	_	_	_	_	_	_
 2	pertama	pertama	ADJ	_	NumType=Ord	1	amod	_	_
-3	nya	nya	DET	_	Poss=Yes	1	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 4	adalah	adalah	AUX	_	_	5	cop	_	_
 5	Mojmír	Mojmír	PROPN	_	_	0	root	_	_
 6	I	i	ADJ	_	NumType=Ord	5	amod	_	_
-7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	berkuasa	kuasa	VERB	_	Voice=Act	5	parataxis	_	_
 9	830	830	NUM	_	NumType=Card	8	obl:tmod	_	_
-10	–	–	PUNCT	HYPH	_	11	punct	_	_
+10	–	–	PUNCT	_	_	11	punct	_	_
 11	846	846	NUM	_	NumType=Card	9	flat:range	_	SpaceAfter=No
-12	)	)	PUNCT	)	_	8	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = w01010048
@@ -9402,7 +9402,7 @@
 10	dengan	dengan	ADP	_	_	11	case	_	_
 11-12	keponakannya	_	_	_	_	_	_	_	_
 11	keponakan	keponakan	NOUN	_	_	7	obl	_	_
-12	nya	nya	DET	_	Poss=Yes|PronType=Prs	11	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 13	Rastiz	Rastiz	PROPN	_	_	11	appos	_	_
 14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 15	menjadi	jadi	VERB	_	Voice=Act	11	acl:relcl	_	_
@@ -9444,9 +9444,9 @@
 11	jauh	jauh	ADJ	_	_	12	amod	_	_
 12	hari	hari	NOUN	_	_	4	obl	_	_
 13	kemudian	kemudian	ADV	_	_	11	advmod	_	_
-14	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	1918	1918	NUM	_	NumType=Card	11	appos	_	SpaceAfter=No
-16	)	)	PUNCT	)	_	15	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	4	punct	_	_
 18	sangat	sangat	ADV	_	_	19	advmod	_	_
 19	sedikit	sedikit	ADJ	_	_	0	root	_	_
@@ -9814,7 +9814,7 @@
 11	oleh	oleh	ADP	_	_	12	case	_	_
 12-13	posisinya	_	_	_	_	_	_	_	_
 12	posisi	posisi	NOUN	_	_	10	obl	_	_
-13	nya	nya	DET	_	Poss=Yes	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 15	dekat	dekat	ADJ	_	_	12	acl:relcl	_	_
 16	dengan	dengan	ADP	_	_	17	case	_	_
@@ -9837,7 +9837,7 @@
 11	perang	perang	NOUN	_	_	6	conj	_	_
 12	serta	serta	CCONJ	_	_	13	cc	_	_
 13	makanan	makan	NOUN	_	_	6	conj	_	_
-14	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	mulai	mulai	VERB	_	Voice=Act	13	acl	_	_
 16	dari	dari	ADP	_	_	17	case	_	_
 17	memancing	pancing	VERB	_	Voice=Act	15	obl	_	_
@@ -9848,7 +9848,7 @@
 22-23	lainnya	_	_	_	_	_	_	_	SpaceAfter=No
 22	lain	lain	ADJ	_	_	20	amod	_	_
 23	nya	nya	DET	_	_	20	det	_	_
-24	)	)	PUNCT	)	_	15	punct	_	_
+24	)	)	PUNCT	_	_	15	punct	_	_
 25	untuk	untuk	ADP	_	_	27	case	_	_
 26	banyak	banyak	DET	_	_	27	det	_	_
 27	masyarakat	masyarakat	NOUN	_	_	3	obl	_	_
@@ -9937,12 +9937,12 @@
 15	sebagai	bagai	ADP	_	_	16	case	_	_
 16	Mare	Mare	PROPN	_	_	13	obl	_	_
 17	Nostrum	Nostrum	PROPN	_	_	16	flat	_	_
-18	(	(	PUNCT	(	_	20	punct	_	SpaceAfter=No
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 19	“	“	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	Laut	laut	NOUN	_	_	16	appos	_	_
-21	Kita	kita	DET	_	Poss=Yes	20	det:poss	_	SpaceAfter=No
+21	Kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	SpaceAfter=No
 22	”	”	PUNCT	_	_	20	punct	_	SpaceAfter=No
-23	)	)	PUNCT	)	_	20	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = w01022033
@@ -10014,12 +10014,12 @@
 6	mead	mead	NOUN	_	_	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	bjórr	bjórr	NOUN	_	_	4	conj	_	_
-9	(	(	PUNCT	(	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	anggur	anggur	NOUN	_	_	8	appos	_	_
 11	buah	buah	NOUN	_	_	10	compound	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	keras	keras	ADJ	_	_	10	acl:relcl	_	SpaceAfter=No
-14	)	)	PUNCT	)	_	10	punct	_	_
+14	)	)	PUNCT	_	_	10	punct	_	_
 15	dan	dan	CCONJ	_	_	20	cc	_	_
 16	untuk	untuk	ADP	_	_	17	case	_	_
 17	orang	orang	NOUN	_	_	20	nmod	_	_
@@ -10167,7 +10167,7 @@
 22	dari	dari	ADP	_	_	23	case	_	_
 23-24	komandonya	_	_	_	_	_	_	_	SpaceAfter=No
 23	komando	komando	NOUN	_	_	21	obl	_	_
-24	nya	nya	DET	_	Poss=Yes|PronType=Prs	23	det:poss	_	_
+24	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	_
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = w01025087
@@ -10214,16 +10214,16 @@
 6	terletak	letak	VERB	_	Voice=Pass	0	root	_	_
 7	di	di	ADP	_	_	8	case	_	_
 8	Rumania	Rumania	PROPN	_	_	6	obl	_	_
-9	(	(	PUNCT	(	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	daerah	daerah	NOUN	_	_	8	appos	_	_
 11	Tulcea	Tulcea	PROPN	_	_	10	nmod	_	SpaceAfter=No
-12	)	)	PUNCT	)	_	10	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	27	punct	_	_
 14	sedangkan	sedang	SCONJ	_	_	27	mark	_	_
 15	bagian	bagi	NOUN	_	_	27	nsubj:pass	_	_
 16-17	utaranya	_	_	_	_	_	_	_	SpaceAfter=No
 16	utara	utara	NOUN	_	_	15	compound	_	_
-17	nya	nya	DET	_	Poss=Yes	15	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	di	di	ADP	_	_	20	case	_	_
 20	sebelah	belah	NOUN	_	_	15	nmod	_	_
@@ -10236,10 +10236,10 @@
 27	terletak	letak	VERB	_	Voice=Pass	6	conj	_	_
 28	di	di	ADP	_	_	29	case	_	_
 29	Ukraina	Ukraina	PROPN	_	_	27	obl	_	_
-30	(	(	PUNCT	(	_	31	punct	_	SpaceAfter=No
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	Odessa	Odessa	PROPN	_	_	29	appos	_	_
 32	Oblast	Oblast	PROPN	_	_	31	flat	_	SpaceAfter=No
-33	)	)	PUNCT	)	_	31	punct	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w01027007
@@ -10273,7 +10273,7 @@
 8	fitur	fitur	NOUN	_	_	14	nsubj	_	_
 9-10	topografinya	_	_	_	_	_	_	_	_
 9	topografi	topografi	NOUN	_	_	8	compound	_	_
-10	nya	nya	DET	_	Poss=Yes	8	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	menonjol	tonjol	VERB	_	Voice=Act	8	acl:relcl	_	_
 13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
@@ -10370,7 +10370,7 @@
 1	Dari	dari	ADP	_	_	2	case	_	_
 2-3	warnanya	_	_	_	_	_	_	_	SpaceAfter=No
 2	warna	warna	NOUN	_	_	7	obl	_	_
-3	nya	nya	DET	_	Poss=Yes	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	dedaunan	daun	NOUN	_	Number=Plur	7	nsubj	_	_
 6	itu	itu	DET	_	PronType=Dem	5	det	_	_
@@ -10402,7 +10402,7 @@
 11	pokok	pokok	NOUN	_	_	7	obl	_	_
 12	perawatan	rawat	NOUN	_	_	11	compound	_	_
 13	medis	medis	ADJ	_	_	12	amod	_	_
-14	mereka	mereka	DET	_	Poss=Yes	11	det:poss	_	SpaceAfter=No
+14	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01029083
@@ -10612,7 +10612,7 @@
 9	kandungan	kandung	NOUN	_	_	7	compound	_	_
 10-11	silikanya	_	_	_	_	_	_	_	SpaceAfter=No
 10	silika	silika	NOUN	_	_	9	compound	_	_
-11	nya	nya	DET	_	Poss=Yes	9	det:poss	_	_
+11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	sehingga	sehingga	SCONJ	_	_	15	mark	_	_
 14	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
@@ -10946,7 +10946,7 @@
 4	karena	karena	ADP	_	_	5	case	_	_
 5-6	lokasinya	_	_	_	_	_	_	_	_
 5	lokasi	lokasi	NOUN	_	_	3	obl	_	_
-6	nya	nya	DET	_	Poss=Yes	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	yang	yang	SCONJ	_	_	11	mark	_	_
 8	sering	sering	ADV	_	_	11	advmod	_	_
 9	kali	kali	NOUN	_	_	8	compound	_	_
@@ -10999,7 +10999,7 @@
 13	siang	siang	NOUN	_	_	9	nmod	_	_
 14-15	harinya	_	_	_	_	_	_	_	_
 14	hari	hari	NOUN	_	_	13	compound	_	_
-15	nya	nya	DET	_	Poss=Yes	9	det	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
 16	di	di	ADP	_	_	17	case	_	_
 17	atas	atas	NOUN	_	_	18	obl	_	_
 18	beku	beku	ADJ	_	_	5	acl:relcl	_	_
@@ -11040,7 +11040,7 @@
 3	lah	lah	PART	_	_	2	advmod:emph	_	_
 4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 5	mencuri	curi	VERB	_	Voice=Act	0	root	_	_
-6	sebuah	buah	DET	_	_	7	det	_	_
+6	sebuah	buah	DET	_	PronType=Ind	7	det	_	_
 7	kano	kano	NOUN	_	_	5	obj	_	_
 8	kecil	kecil	ADJ	_	_	7	amod	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj:pass	_	_
@@ -11066,7 +11066,7 @@
 6	kondisi	kondisi	NOUN	_	_	9	nsubj	_	_
 7-8	sungainya	_	_	_	_	_	_	_	_
 7	sungai	sungai	NOUN	_	_	6	compound	_	_
-8	nya	nya	DET	_	Poss=Yes	6	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 9	memburuk	buruk	VERB	_	Voice=Act	0	root	_	_
 10	hingga	hingga	SCONJ	_	_	11	mark	_	_
 11	mencapai	capai	VERB	_	Voice=Act	7	advcl	_	_
@@ -11466,7 +11466,7 @@
 14	Laut	laut	NOUN	_	_	11	obj	_	_
 15	Selatan	selatan	NOUN	_	_	14	compound	_	SpaceAfter=No
 16	”	”	PUNCT	_	_	14	punct	_	_
-17	(	(	PUNCT	(	_	18	punct	_	SpaceAfter=No
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	Samudra	Samudra	PROPN	_	_	14	appos	_	_
 19	Pasifik	Pasifik	PROPN	_	_	18	flat	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
@@ -11476,14 +11476,14 @@
 24	tanah	tanah	NOUN	_	_	22	nmod	_	_
 25	genting	genting	ADJ	_	_	24	amod	_	_
 26	Panama	Panama	PROPN	_	_	24	nmod	_	SpaceAfter=No
-27	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	bukan	bukan	PART	NEG	Polarity=Neg	31	advmod	_	_
 30	“	“	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	Laut	laut	NOUN	_	_	14	conj	_	_
 32	Utara	utara	NOUN	_	_	31	compound	_	SpaceAfter=No
 33	”	”	PUNCT	_	_	31	punct	_	_
-34	(	(	PUNCT	(	_	35	punct	_	SpaceAfter=No
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	Laut	laut	NOUN	_	_	31	appos	_	_
 36	Karibia	Karibia	PROPN	_	_	35	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	39	punct	_	_
@@ -11494,7 +11494,7 @@
 42	genting	genting	ADJ	_	_	41	amod	_	_
 43	yang	yang	PRON	_	PronType=Rel	44	nsubj	_	_
 44	sama	sama	ADJ	_	_	41	acl:relcl	_	SpaceAfter=No
-45	)	)	PUNCT	)	_	35	punct	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = w01045006
@@ -11523,7 +11523,7 @@
 21	dalam	dalam	ADP	_	_	22	case	_	_
 22-23	perjalanannya	_	_	_	_	_	_	_	_
 22	perjalanan	jalan	NOUN	_	_	17	obl	_	_
-23	nya	nya	DET	_	Poss=Yes|PronType=Prs	22	det:poss	_	_
+23	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 24	mencari	cari	VERB	_	Voice=Act	22	acl	_	_
 25	rute	rute	NOUN	_	_	24	obj	_	_
 26	laut	laut	NOUN	_	_	25	compound	_	_
@@ -11571,7 +11571,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 11	merupakan	rupa	VERB	_	_	6	acl:relcl	_	_
-12	sebuah	buah	DET	_	_	13	det	_	_
+12	sebuah	buah	DET	_	PronType=Ind	13	det	_	_
 13	kota	kota	NOUN	_	_	11	obl	_	_
 14	metropolitan	metropolitan	NOUN	_	_	13	compound	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
@@ -11588,7 +11588,7 @@
 7	Undersea	Undersea	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	merupakan	rupa	VERB	_	_	0	root	_	_
-10	sebuah	buah	DET	_	_	11	det	_	_
+10	sebuah	buah	DET	_	PronType=Ind	11	det	_	_
 11	narasi	narasi	NOUN	_	_	9	obl	_	_
 12	jelas	jelas	ADJ	_	_	11	amod	_	_
 13	tentang	tentang	ADP	_	_	14	case	_	_
@@ -11607,7 +11607,7 @@
 4	hubungan	hubung	NOUN	_	_	3	obj	_	_
 5-6	pribadinya	_	_	_	_	_	_	_	_
 5	pribadi	pribadi	NOUN	_	_	4	compound	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 7	dengan	dengan	ADP	_	_	9	case	_	_
 8	banyak	banyak	DET	_	_	9	det	_	_
 9	ilmuwan	ilmuwan	NOUN	_	_	4	nmod	_	_
@@ -11650,9 +11650,9 @@
 23	mengirimkan	kirim	VERB	_	Voice=Act	16	advcl	_	_
 24-25	manuskripnya	_	_	_	_	_	_	_	_
 24	manuskrip	manuskrip	NOUN	_	_	23	obj	_	_
-25	nya	nya	DET	_	Poss=Yes|PronType=Prs	24	det:poss	_	_
+25	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 26	ke	ke	ADP	_	_	28	case	_	_
-27	beberapa	berapa	DET	_	PronType=Ind	28	det	_	_
+27	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	28	det	_	_
 28	orang	orang	NOUN	_	_	23	obl	_	_
 29	terpilih	pilih	VERB	_	Voice=Pass	28	acl	_	_
 30	untuk	untuk	SCONJ	_	_	31	mark	_	_
@@ -11840,7 +11840,7 @@
 12	dari	dari	ADP	_	_	13	case	_	_
 13-14	wilayahnya	_	_	_	_	_	_	_	SpaceAfter=No
 13	wilayah	wilayah	NOUN	_	_	11	nmod	_	_
-14	nya	nya	DET	_	Poss=Yes	13	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w01050069
@@ -11998,8 +11998,8 @@
 5	itu	itu	DET	_	PronType=Dem	3	det	_	_
 6	mendapati	dapat	VERB	_	Voice=Act	0	root	_	_
 7-8	dirinya	_	_	_	_	_	_	_	_
-7	diri	diri	PRON	_	Reflex=Yes	6	obj	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	6	obj	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	di	di	ADP	_	_	10	case	_	_
 10	Amurru	Amurru	PROPN	_	_	6	obl	_	_
 11	utara	utara	NOUN	_	_	10	nmod	_	SpaceAfter=No
@@ -12071,7 +12071,7 @@
 8	masih	masih	ADV	_	_	9	advmod	_	_
 9	diperdebatkan	debat	VERB	_	Voice=Pass	0	root	_	_
 10	oleh	oleh	ADP	_	_	12	case	_	_
-11	para	para	DET	_	_	12	det	_	_
+11	para	para	DET	_	Number=Plur	12	det	_	_
 12	ilmuwan	ilmuwan	NOUN	_	_	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -12121,7 +12121,7 @@
 18	setelah	telah	ADP	_	_	19	case	_	_
 19-20	pertobatannya	_	_	_	_	_	_	_	SpaceAfter=No
 19	pertobatan	tobat	NOUN	_	_	6	obl	_	_
-20	nya	nya	DET	_	Poss=Yes|PronType=Prs	19	det:poss	_	_
+20	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w01053062
@@ -12257,7 +12257,7 @@
 7	sejarawan	sejarawan	NOUN	_	_	4	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	dan	dan	CCONJ	_	_	11	cc	_	_
-10	para	para	DET	_	_	11	det	_	_
+10	para	para	DET	_	Number=Plur	11	det	_	_
 11	intelektual	intelektual	NOUN	_	_	4	conj	_	_
 12	lain	lain	ADJ	_	_	11	amod	_	_
 13	membuat	buat	VERB	_	Voice=Act	0	root	_	_
@@ -12344,9 +12344,9 @@
 11	dan	dan	CCONJ	_	_	12	cc	_	_
 12-13	kemampuannya	_	_	_	_	_	_	_	_
 12	kemampuan	mampu	NOUN	_	_	10	conj	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 14	sebagai	bagai	ADP	_	_	16	case	_	_
-15	seorang	orang	DET	_	_	16	det	_	_
+15	seorang	orang	DET	_	PronType=Ind	16	det	_	_
 16	administrator	administrator	NOUN	_	_	10	nmod	_	_
 17	dan	dan	CCONJ	_	_	18	cc	_	_
 18	agen	agen	NOUN	_	_	16	conj	_	_
@@ -12435,20 +12435,20 @@
 1	Dinasti	Dinasti	PROPN	_	_	3	nsubj	_	_
 2	Khitan	Khitan	PROPN	_	_	1	flat	_	_
 3	melakukan	laku	VERB	_	Voice=Act	0	root	_	_
-4	beberapa	berapa	DET	_	PronType=Ind	5	det	_	_
+4	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	negosiasi	negosiasi	NOUN	_	_	3	obj	_	_
 6	agresif	agresif	ADJ	_	_	5	amod	_	_
 7	untuk	untuk	SCONJ	_	_	8	mark	_	_
 8	mendorong	dorong	VERB	_	Voice=Act	5	acl	_	_
 9-10	perbatasannya	_	_	_	_	_	_	_	_
 9	perbatasan	batas	NOUN	_	_	8	obj	_	_
-10	nya	nya	DET	_	Poss=Yes	9	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	ke	ke	ADP	_	_	12	case	_	_
 12	selatan	selatan	NOUN	_	_	8	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	sambil	sambil	SCONJ	_	_	15	mark	_	_
 15	memanipulasi	manipulasi	VERB	_	Voice=Act	3	advcl	_	_
-16	beberapa	berapa	DET	_	PronType=Ind	17	det	_	_
+16	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	17	det	_	_
 17	duta	duta	NOUN	_	_	15	obj	_	_
 18	besar	besar	ADJ	_	_	17	amod	_	_
 19	Tiongkok	Tiongkok	PROPN	_	_	17	nmod	_	_
@@ -12493,14 +12493,14 @@
 3	menyesali	sesal	VERB	_	Voice=Act	2	xcomp	_	_
 4-5	keberangkatannya	_	_	_	_	_	_	_	_
 4	keberangkatan	berangkat	NOUN	_	_	3	obj	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	dan	dan	CCONJ	_	_	7	cc	_	_
 7	meminta	minta	VERB	_	Voice=Act	3	conj	_	_
 8	untuk	untuk	SCONJ	_	_	9	mark	_	_
 9	kembali	kembali	VERB	_	Voice=Act	7	xcomp	_	_
 10	ke	ke	ADP	_	_	11	case	_	_
 11	Roma	Roma	PROPN	_	_	9	obl	_	_
-12	beberapa	berapa	DET	_	PronType=Ind	13	det	_	_
+12	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	13	det	_	_
 13	kali	kali	NOUN	NNB	_	7	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	namun	namun	CCONJ	_	_	17	cc	_	_
@@ -12508,7 +12508,7 @@
 17	menolak	tolak	VERB	_	Voice=Act	7	conj	_	_
 18-19	permintaannya	_	_	_	_	_	_	_	_
 18	permintaan	minta	NOUN	_	_	17	obj	_	_
-19	nya	nya	DET	_	Poss=Yes	18	det:poss	_	_
+19	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	setiap	tiap	DET	_	PronType=Tot	21	det	_	_
 21	kali	kali	NOUN	NNB	_	17	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
@@ -12532,7 +12532,7 @@
 13	perintah	perintah	NOUN	_	_	17	nsubj	_	_
 14-15	langsungnya	_	_	_	_	_	_	_	_
 14	langsung	langsung	ADJ	_	_	13	amod	_	_
-15	nya	nya	DET	_	Poss=Yes|PronType=Prs	13	det:poss	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 16	agak	agak	ADV	_	_	17	advmod	_	_
 17	samar	samar	ADJ	_	_	4	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -12549,7 +12549,7 @@
 28	mengeluarkan	keluar	VERB	_	Voice=Act	23	acl	_	_
 29-30	legislasinya	_	_	_	_	_	_	_	SpaceAfter=No
 29	legislasi	legislasi	NOUN	_	_	28	obj	_	_
-30	nya	nya	DET	_	Poss=Yes	29	det:poss	_	_
+30	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w01063048
@@ -12614,14 +12614,14 @@
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 21	berorientasi	orientasi	VERB	_	Voice=Act	9	acl:relcl	_	_
 22	utara	utara	NOUN	_	_	21	obl	_	SpaceAfter=No
-23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	selatan	selatan	NOUN	_	_	22	flat:range	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	batu	batu	NOUN	_	_	28	nsubj	_	_
 27	tertinggi	tinggi	ADJ	_	Degree=Sup	26	amod	_	_
 28-29	tingginya	_	_	_	_	_	_	_	_
 28	tinggi	tinggi	NOUN	_	_	9	nmod	_	_
-29	nya	nya	DET	_	Poss=Yes	28	det:poss	_	_
+29	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det:poss	_	_
 30	3	3	NUM	_	NumType=Card	31	nummod	_	_
 31	meter	meter	NOUN	NNB	_	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
@@ -12704,7 +12704,7 @@
 7	itu	itu	DET	_	PronType=Dem	6	det	_	_
 8	ditemukan	temu	VERB	_	Voice=Pass	0	root	_	_
 9	dalam	dalam	ADP	_	_	11	case	_	_
-10	sebuah	buah	DET	_	_	11	det	_	_
+10	sebuah	buah	DET	_	PronType=Ind	11	det	_	_
 11	prasasti	prasasti	NOUN	_	_	8	obl	_	_
 12	tempat-tempat	tempat	NOUN	_	Number=Plur	11	compound	_	_
 13	penaklukan	takluk	NOUN	_	_	12	compound	_	_
@@ -12776,7 +12776,7 @@
 1	Hewan	hewan	NOUN	_	_	5	nsubj	_	_
 2-3	zodiaknya	_	_	_	_	_	_	_	_
 2	zodiak	zodiak	NOUN	_	_	1	compound	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 4	adalah	adalah	AUX	_	_	5	cop	_	_
 5	Monyet	monyet	NOUN	_	_	0	root	_	_
 6	dan	dan	CCONJ	_	_	14	cc	_	_
@@ -12786,7 +12786,7 @@
 10	penting	penting	ADJ	_	_	7	amod	_	_
 11-12	keenampuluhnya	_	_	_	_	_	_	_	_
 11	keenampuluh	enam	ADJ	_	NumType=Ord	7	amod	_	_
-12	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 13	adalah	adalah	AUX	_	_	14	cop	_	_
 14	tahun	tahun	NOUN	_	_	5	conj	_	_
 15	1992	1992	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
@@ -12899,7 +12899,7 @@
 14	proyek	proyek	NOUN	_	_	12	nmod	_	_
 15-16	konstruksinya	_	_	_	_	_	_	_	_
 15	konstruksi	konstruksi	NOUN	_	_	14	compound	_	_
-16	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+16	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
 18	belum	belum	PART	NEG	Polarity=Neg	19	advmod	_	_
 19	selesai	selesai	VERB	_	Voice=Act	14	acl:relcl	_	SpaceAfter=No
@@ -12937,7 +12937,7 @@
 7	Aldrin	Aldrin	PROPN	_	_	8	nsubj:pass	_	_
 8	dibujuk	bujuk	VERB	_	Voice=Pass	0	root	_	_
 9	ke	ke	ADP	_	_	11	case	_	_
-10	sebuah	buah	DET	_	_	11	det	_	_
+10	sebuah	buah	DET	_	PronType=Ind	11	det	_	_
 11	hotel	hotel	NOUN	_	_	8	obl	_	_
 12	di	di	ADP	_	_	13	case	_	_
 13	Beverly	Beverly	PROPN	_	_	11	nmod	_	_
@@ -12946,7 +12946,7 @@
 16	dalih	dalih	NOUN	_	_	8	obl	_	_
 17	diwawancarai	wawancara	VERB	_	Voice=Pass	16	acl	_	_
 18	untuk	untuk	ADP	_	_	20	case	_	_
-19	sebuah	buah	DET	_	_	20	det	_	_
+19	sebuah	buah	DET	_	PronType=Ind	20	det	_	_
 20	acara	acara	NOUN	_	_	17	obl	_	_
 21	televisi	televisi	NOUN	_	_	20	compound	_	_
 22	anak-anak	anak	NOUN	_	Number=Plur	20	nmod	_	_
@@ -13001,7 +13001,7 @@
 4	pun	pun	PART	_	_	3	advmod:emph	_	_
 5-6	tindakannya	_	_	_	_	_	_	_	_
 5	tindakan	tindak	NOUN	_	_	7	nsubj	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	keras	keras	ADJ	_	_	9	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	dipandang	pandang	VERB	_	Voice=Pass	0	root	_	_
@@ -13021,7 +13021,7 @@
 2	tahun	tahun	NOUN	_	_	13	obl	_	_
 3	1566	1566	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	sebuah	buah	DET	_	_	6	det	_	_
+5	sebuah	buah	DET	_	PronType=Ind	6	det	_	_
 6	liga	liga	NOUN	_	_	13	nsubj	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
 8	terdiri	diri	VERB	_	Voice=Pass	6	acl:relcl	_	_
@@ -13030,7 +13030,7 @@
 11	anggota	anggota	NOUN	_	_	8	obl	_	_
 12	bangsawan	bangsawan	NOUN	_	_	11	compound	_	_
 13	menyampaikan	sampai	VERB	_	Voice=Act	0	root	_	_
-14	sebuah	buah	DET	_	_	15	det	_	_
+14	sebuah	buah	DET	_	PronType=Ind	15	det	_	_
 15	petisi	petisi	NOUN	_	_	13	obj	_	_
 16	kepada	kepada	ADP	_	_	17	case	_	_
 17	gubernur	gubernur	NOUN	_	_	15	nmod	_	_
@@ -13055,7 +13055,7 @@
 # text_en = Its struggle against the Ottoman Empire in the Mediterranean Sea put serious limits on the military power it could deploy against the rebels in the Netherlands.
 1-2	Perjuangannya	_	_	_	_	_	_	_	_
 1	Perjuangan	juang	NOUN	_	_	10	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	melawan	lawan	VERB	_	Voice=Act	1	acl	_	_
 4	Kekaisaran	Kekaisaran	PROPN	_	_	3	obj	_	_
 5	Ottoman	Ottoman	PROPN	_	_	4	flat	_	_
@@ -13071,7 +13071,7 @@
 15	bisa	bisa	AUX	_	_	16	aux	_	_
 16	ditempatkan	tempat	VERB	_	Voice=Pass	12	acl:relcl	_	_
 17	melawan	lawan	VERB	_	Voice=Act	16	xcomp	_	_
-18	para	para	DET	_	_	19	det	_	_
+18	para	para	DET	_	Number=Plur	19	det	_	_
 19	pemberontak	berontak	NOUN	_	_	17	obj	_	_
 20	di	di	ADP	_	_	21	case	_	_
 21	Belanda	Belanda	PROPN	_	_	19	nmod	_	SpaceAfter=No
@@ -13185,7 +13185,7 @@
 # text_en = Its importance resides in two facts.
 1-2	Kepentingannya	_	_	_	_	_	_	_	_
 1	Kepentingan	penting	NOUN	_	_	3	nsubj:pass	_	_
-2	nya	nya	DET	_	Poss=Yes	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	terletak	letak	VERB	_	Voice=Pass	0	root	_	_
 4	dalam	dalam	ADP	_	_	6	case	_	_
 5	dua	dua	NUM	_	NumType=Card	6	nummod	_	_
@@ -13281,7 +13281,7 @@
 4	Kaisar	Kaisar	PROPN	_	_	6	nsubj	_	_
 5	Caracalla	Caracalla	PROPN	_	_	4	nmod	_	_
 6	membuat	buat	VERB	_	Voice=Act	0	root	_	_
-7	sebuah	buah	DET	_	_	8	det	_	_
+7	sebuah	buah	DET	_	PronType=Ind	8	det	_	_
 8	divisi	divisi	NOUN	_	_	6	obj	_	_
 9	baru	baru	ADJ	_	_	8	amod	_	_
 10	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
@@ -13304,7 +13304,7 @@
 9	ketika	ketika	SCONJ	_	_	13	mark	_	_
 10	anak	anak	NOUN	_	_	13	nsubj	_	_
 11	pertama	pertama	ADJ	_	NumType=Ord	10	amod	_	_
-12	mereka	mereka	DET	_	Poss=Yes	10	det:poss	_	_
+12	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 13	lahir	lahir	VERB	_	Voice=Act	15	advcl	_	_
 14	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 15-16	menamainya	_	_	_	_	_	_	_	_
@@ -13322,7 +13322,7 @@
 1	Selama	lama	ADP	_	_	2	case	_	_
 2-3	waktunya	_	_	_	_	_	_	_	_
 2	waktu	waktu	NOUN	_	_	9	obl	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	di	di	ADP	_	_	5	case	_	_
 5	sana	sana	PRON	_	PronType=Dem	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -13342,7 +13342,7 @@
 20	di	di	ADP	_	_	21	case	_	_
 21	Laut	laut	NOUN	_	_	17	obl	_	_
 22	Selatan	selatan	NOUN	_	_	21	compound	_	_
-23	(	(	PUNCT	(	_	28	punct	_	SpaceAfter=No
+23	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 24	yang	yang	SCONJ	_	_	28	mark	_	_
 25	mana	mana	PRON	WDT	_	28	obl	_	_
 26	Trix	Trix	PROPN	_	_	28	nsubj	_	_
@@ -13350,7 +13350,7 @@
 28	kembali	kembali	VERB	_	Voice=Act	21	acl	_	_
 29	ke	ke	ADP	_	_	30	case	_	_
 30	sana	sana	PRON	_	PronType=Dem	28	obl	_	SpaceAfter=No
-31	)	)	PUNCT	)	_	28	punct	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = w01073054
@@ -13555,22 +13555,22 @@
 2	kata	kata	NOUN	_	_	18	obl	_	_
 3	lain	lain	ADJ	_	_	2	amod	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	2	punct	_	_
-5	para	para	DET	_	_	6	det	_	_
+5	para	para	DET	_	Number=Plur	6	det	_	_
 6	pria	pria	NOUN	_	_	17	nsubj	_	_
 7	muda	muda	ADJ	_	_	6	amod	_	_
-8	(	(	PUNCT	(	_	9	punct	_	SpaceAfter=No
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	mayoritas	mayoritas	NOUN	_	_	6	appos	_	_
 10	pejuang	juang	NOUN	_	_	9	compound	_	_
 11	dalam	dalam	ADP	_	_	12	case	_	_
 12	perang	perang	NOUN	_	_	10	nmod	_	_
 13	sipil	sipil	ADJ	_	_	12	amod	_	SpaceAfter=No
-14	)	)	PUNCT	)	_	9	punct	_	_
+14	)	)	PUNCT	_	_	9	punct	_	_
 15	lebih	lebih	ADV	_	_	17	advmod	_	_
 16	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
 17	mungkin	mungkin	ADJ	_	_	0	root	_	_
 18	bergabung	gabung	VERB	_	Voice=Act	17	advcl	_	_
 19	dengan	dengan	ADP	_	_	21	case	_	_
-20	sebuah	buah	DET	_	_	21	det	_	_
+20	sebuah	buah	DET	_	PronType=Ind	21	det	_	_
 21	pemberontakan	berontak	NOUN	_	_	18	obl	_	_
 22	jika	jika	SCONJ	_	_	24	mark	_	_
 23	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
@@ -13619,7 +13619,7 @@
 1	Jaminan	jamin	NOUN	_	_	4	nsubj	_	_
 2-3	kemerdekaannya	_	_	_	_	_	_	_	_
 2	kemerdekaan	merdeka	NOUN	_	_	1	compound	_	_
-3	nya	nya	DET	_	Poss=Yes	1	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 4	menjanjikan	janji	VERB	_	Voice=Act	0	root	_	_
 5	untuk	untuk	SCONJ	_	_	6	mark	_	_
 6	menghilangkan	hilang	VERB	_	Voice=Act	4	xcomp	_	_
@@ -13675,7 +13675,7 @@
 1	Secara	cara	ADP	_	_	2	case:adv	_	_
 2	khusus	khusus	ADJ	_	_	6	advmod	_	_
 3	dalam	dalam	ADP	_	_	5	case	_	_
-4	beberapa	berapa	DET	_	PronType=Ind	5	det	_	_
+4	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	bagian	bagi	NOUN	_	_	6	obl	_	_
 6	membahas	bahas	VERB	_	Voice=Act	0	root	_	_
 7	efek	efek	NOUN	_	_	6	obj	_	_
@@ -13721,7 +13721,7 @@
 6	mengingatkan	ingat	VERB	_	Voice=Act	0	root	_	_
 7-8	anggotanya	_	_	_	_	_	_	_	_
 7	anggota	anggota	NOUN	_	_	6	obj	_	_
-8	nya	nya	DET	_	Poss=Yes	7	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	untuk	untuk	SCONJ	_	_	11	mark	_	_
 10	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
 11	mempercayai	percaya	VERB	_	Voice=Act	6	ccomp	_	_
@@ -13809,9 +13809,9 @@
 8	di	di	ADP	_	_	9	case	_	_
 9	sungai	sungai	NOUN	_	_	7	obl	_	_
 10	Nestus	Nestus	PROPN	_	_	9	nmod	_	_
-11	(	(	PUNCT	(	_	12	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	Mesta	Mesta	PROPN	_	_	10	appos	_	SpaceAfter=No
-13	)	)	PUNCT	)	_	12	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01080129
@@ -13823,7 +13823,7 @@
 4	melawan	lawan	VERB	_	Voice=Act	3	xcomp	_	_
 5-6	musuh-musuhnya	_	_	_	_	_	_	_	_
 5	musuh-musuh	musuh	NOUN	_	Number=Plur	4	obj	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	di	di	ADP	_	_	8	case	_	_
 8	selatan	selatan	NOUN	_	_	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -13838,7 +13838,7 @@
 5	mengalahkan	kalah	VERB	_	Voice=Act	0	root	_	_
 6-7	musuhnya	_	_	_	_	_	_	_	_
 6	musuh	musuh	NOUN	_	_	5	obj	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	dan	dan	CCONJ	_	_	14	cc	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
 10	tahun	tahun	NOUN	_	_	14	obl	_	_
@@ -13956,7 +13956,7 @@
 9	keadaan	ada	NOUN	_	_	6	obl	_	_
 10-11	negaranya	_	_	_	_	_	_	_	_
 10	negara	negara	NOUN	_	_	9	compound	_	_
-11	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	sebenarnya	benar	ADV	_	_	9	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -14100,13 +14100,13 @@
 2	Serikat	Serikat	PROPN	_	_	1	flat	_	_
 3	membebaskan	bebas	VERB	_	Voice=Act	0	root	_	_
 4	Kuba	Kuba	PROPN	_	_	3	obj	_	_
-5	(	(	PUNCT	(	_	7	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	setelah	telah	ADP	_	_	7	case	_	_
 7	pendudukan	duduk	NOUN	_	_	3	obl	_	_
 8	oleh	oleh	ADP	_	_	9	case	_	_
 9	tentara	tentara	NOUN	_	_	7	nmod	_	_
 10	Amerika	Amerika	PROPN	_	_	9	nmod	_	SpaceAfter=No
-11	)	)	PUNCT	)	_	7	punct	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01085008
@@ -14121,7 +14121,7 @@
 7	menyerahkan	serah	VERB	_	Voice=Act	0	root	_	_
 8-9	koloninya	_	_	_	_	_	_	_	_
 8	koloni	koloni	NOUN	_	_	7	obj	_	_
-9	nya	nya	DET	_	Poss=Yes	8	det:poss	_	_
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	Puerto	Puerto	PROPN	_	_	8	appos	_	_
 11	Rico	Rico	PROPN	_	_	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -14219,7 +14219,7 @@
 17	khususnya	khusus	ADV	_	_	19	advmod	_	_
 18	dalam	dalam	ADP	_	_	19	case	_	_
 19	peran	peran	NOUN	_	_	15	nmod	_	_
-20	mereka	mereka	DET	_	Poss=Yes	19	det:poss	_	_
+20	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 21	melahirkan	lahir	VERB	_	Voice=Act	19	acl	_	_
 22	anak	anak	NOUN	_	_	21	obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
@@ -14289,16 +14289,16 @@
 9	Sisilia	Sisilia	PROPN	_	_	8	nmod	_	_
 10	dan	dan	CCONJ	_	_	11	cc	_	_
 11	Italia	Italia	PROPN	_	_	9	conj	_	_
-12	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	Pithekoussae	Pithekoussae	PROPN	_	_	9	appos	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	Cumae	Cumae	PROPN	_	_	13	conj	_	SpaceAfter=No
-16	)	)	PUNCT	)	_	13	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	_
 18	pengaruh	pengaruh	NOUN	_	_	23	nsubj	_	_
 19	alfabet	alfabet	NOUN	_	_	18	compound	_	_
 20	baru	baru	ADJ	_	_	19	amod	_	_
-21	mereka	mereka	DET	_	Poss=Yes	19	det:poss	_	_
+21	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 22	semakin	makin	ADV	_	_	23	advmod	_	_
 23	meluas	luas	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	23	punct	_	_
@@ -14404,8 +14404,8 @@
 6	Sparta	Sparta	PROPN	_	_	7	nsubj	_	_
 7	mengukuhkan	kukuh	VERB	_	Voice=Act	0	root	_	_
 8-9	dirinya	_	_	_	_	_	_	_	_
-8	diri	diri	PRON	_	Reflex=Yes	7	obj	_	_
-9	nya	nya	DET	_	Poss=Yes	8	det:poss	_	_
+8	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	7	obj	_	_
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	sebagai	bagai	ADP	_	_	11	case	_	_
 11	kekuatan	kuat	NOUN	_	_	7	obl	_	_
 12	lokal	lokal	ADJ	_	_	11	amod	_	_
@@ -14541,7 +14541,7 @@
 20	setelah	telah	ADP	_	_	21	case	_	_
 21-22	kematiannya	_	_	_	_	_	_	_	_
 21	kematian	mati	NOUN	_	_	16	obl	_	_
-22	nya	nya	DET	_	Poss=Yes|PronType=Prs	21	det:poss	_	_
+22	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 23	menggunakan	guna	VERB	_	Voice=Act	16	xcomp	_	_
 24	nama	nama	NOUN	_	_	23	obj	_	_
 25	era	era	NOUN	_	_	24	compound	_	_
@@ -14594,7 +14594,7 @@
 14	nama	nama	NOUN	_	_	12	obl	_	_
 15-16	depannya	_	_	_	_	_	_	_	SpaceAfter=No
 15	depan	depan	NOUN	_	_	14	compound	_	_
-16	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+16	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	baik	baik	CCONJ	_	_	21	cc:preconj	_	_
 19	saat	saat	SCONJ	_	_	21	mark	_	_
@@ -14628,11 +14628,11 @@
 18	besar	besar	ADJ	_	_	17	amod	_	_
 19	orang	orang	NOUN	_	_	17	nmod	_	_
 20	Tionghoa	Tionghoa	PROPN	_	_	19	nmod	_	_
-21	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	diperkirakan	kira	VERB	_	Voice=Pass	17	acl	_	_
 23	7,5	7,5	NUM	_	NumType=Card	22	nsubj:pass	_	_
 24	juta	juta	NUM	_	NumType=Card	23	flat	_	SpaceAfter=No
-25	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	terbunuh	bunuh	VERB	_	Voice=Pass	0	root	_	_
 28	selama	lama	ADP	_	_	29	case	_	_
@@ -14729,7 +14729,7 @@
 19	setelah	telah	ADP	_	_	20	case	_	_
 20	penyerangan	serang	NOUN	_	_	14	obl	_	_
 21	pertama	pertama	ADJ	_	NumType=Ord	20	amod	_	_
-22	mereka	mereka	DET	_	Poss=Yes	20	det:poss	_	_
+22	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 23	yang	yang	PRON	_	PronType=Rel	24	nsubj	_	_
 24	epik	epik	ADJ	_	_	20	acl:relcl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
@@ -14933,7 +14933,7 @@
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	berdiskusi	diskusi	VERB	_	Voice=Act	5	acl	_	_
 11	dengan	dengan	ADP	_	_	13	case	_	_
-12	para	para	DET	_	_	13	det	_	_
+12	para	para	DET	_	Number=Plur	13	det	_	_
 13	ilmuwan	ilmuwan	NOUN	_	_	10	obl	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	profesional	profesional	NOUN	_	_	13	conj	_	_
@@ -14976,7 +14976,7 @@
 # text_en = She was offered several scripts, television commercials, and stage projects, but none piqued her interest.
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
 2	ditawari	tawar	VERB	_	Voice=Pass	0	root	_	_
-3	beberapa	berapa	DET	_	PronType=Ind	4	det	_	_
+3	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	4	det	_	_
 4	naskah	naskah	NOUN	_	_	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	iklan	iklan	NOUN	_	_	4	conj	_	_
@@ -14993,7 +14993,7 @@
 17	membangkitkan	bangkit	VERB	_	Voice=Act	14	acl:relcl	_	_
 18-19	minatnya	_	_	_	_	_	_	_	SpaceAfter=No
 18	minat	minat	NOUN	_	_	17	obj	_	_
-19	nya	nya	DET	_	Poss=Yes|PronType=Prs	18	det:poss	_	_
+19	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01102020
@@ -15008,12 +15008,12 @@
 7	SS	SS	PROPN	_	Abbr=Yes	6	nmod	_	_
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	memimpin	pimpin	VERB	_	Voice=Act	5	conj	_	_
-10	para	para	DET	_	_	11	det	_	_
+10	para	para	DET	_	Number=Plur	11	det	_	_
 11	militer	militer	NOUN	_	_	9	obj	_	_
 12	Milice	Milice	PROPN	_	_	11	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
 14	memburu	buru	VERB	_	Voice=Act	11	acl:relcl	_	_
-15	para	para	DET	_	_	16	det	_	_
+15	para	para	DET	_	Number=Plur	16	det	_	_
 16	anggota	anggota	NOUN	_	_	14	obj	_	_
 17	Resistance	Resistance	PROPN	_	_	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	5	punct	_	_
@@ -15049,7 +15049,7 @@
 20	tanpa	tanpa	ADP	_	_	21	case	_	_
 21-22	persetujuannya	_	_	_	_	_	_	_	_
 21	persetujuan	setuju	NOUN	_	_	18	nmod	_	_
-22	nya	nya	DET	_	Poss=Yes|PronType=Prs	21	det:poss	_	_
+22	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 23	sebelumnya	belum	ADV	_	_	17	advmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -15068,7 +15068,7 @@
 10	akibat	akibat	NOUN	_	_	4	nmod	_	_
 11-12	kecanduannya	_	_	_	_	_	_	_	_
 11	kecanduan	candu	NOUN	_	_	10	nmod	_	_
-12	nya	nya	DET	_	Poss=Yes|PronType=Prs	11	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
 14	heroin	heroin	NOUN	_	_	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -15077,7 +15077,7 @@
 18	dan	dan	CCONJ	_	_	19	cc	_	_
 19-20	kematiannya	_	_	_	_	_	_	_	_
 19	kematian	mati	NOUN	_	_	17	conj	_	_
-20	nya	nya	DET	_	Poss=Yes|PronType=Prs	17	det:poss	_	_
+20	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 21	akibat	akibat	ADP	_	_	22	case	_	_
 22	AIDS	aids	NOUN	_	Abbr=Yes	17	nmod	_	_
 23	di	di	ADP	_	_	25	case	_	_
@@ -15144,9 +15144,9 @@
 24	Ground	Ground	PROPN	_	_	0	root	_	_
 25	Controlled	Controlled	PROPN	_	_	24	flat	_	_
 26	Approach	Approach	PROPN	_	_	24	flat	_	_
-27	(	(	PUNCT	(	_	28	punct	_	SpaceAfter=No
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	GCA	GCA	PROPN	_	Abbr=Yes	24	appos	_	SpaceAfter=No
-29	)	)	PUNCT	)	_	28	punct	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = w01105055
@@ -15239,7 +15239,7 @@
 16	masih	masih	ADV	_	_	17	advmod	_	_
 17	digunakan	guna	VERB	_	Voice=Pass	8	conj	_	_
 18	di	di	ADP	_	_	20	case	_	_
-19	beberapa	berapa	DET	_	PronType=Ind	20	det	_	_
+19	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	20	det	_	_
 20	negara	negara	NOUN	_	_	17	obl	_	_
 21	pada	pada	ADP	_	_	22	case	_	_
 22	tahun	tahun	NOUN	_	_	17	obl	_	_
@@ -15263,7 +15263,7 @@
 # sent_id = w01106052
 # text = Para pemberontak Aliansi Pasukan Demokratik untuk Pembebasan Kongo menangkap Lubumbashi di bulan April 1997.
 # text_en = The Alliance of Democratic Forces for the Liberation of Congo rebels captured Lubumbashi in April 1997.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	pemberontak	berontak	NOUN	_	_	9	nsubj	_	_
 3	Aliansi	Aliansi	PROPN	_	_	2	nmod	_	_
 4	Pasukan	Pasukan	PROPN	_	_	3	flat	_	_
@@ -15306,7 +15306,7 @@
 # text_en = Failing health reduced Hitchcock's output during the last two decades of his life.
 1-2	Kesehatannya	_	_	_	_	_	_	_	_
 1	Kesehatan	sehat	NOUN	_	_	5	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj	_	_
 4	menurun	turun	VERB	_	Voice=Act	1	acl:relcl	_	_
 5	mengurangi	kurang	VERB	_	Voice=Act	0	root	_	_
@@ -15318,7 +15318,7 @@
 11	terakhir	akhir	ADJ	_	Degree=Sup	10	amod	_	_
 12-13	kehidupannya	_	_	_	_	_	_	_	SpaceAfter=No
 12	kehidupan	hidup	NOUN	_	_	10	nmod	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = w01107063
@@ -15335,7 +15335,7 @@
 9	hubungan	hubung	NOUN	_	_	8	compound	_	_
 10	dengan	dengan	ADP	_	_	11	case	_	_
 11	ibu	ibu	NOUN	_	_	8	nmod	_	_
-12	mereka	mereka	DET	_	Poss=Yes	11	det:poss	_	SpaceAfter=No
+12	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w01107124
@@ -15351,8 +15351,8 @@
 8	pada	pada	ADP	_	_	9	case	_	_
 9-10	masanya	_	_	_	_	_	_	_	_
 9	masa	masa	NOUN	_	_	6	nmod	_	_
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
-11	—	—	PUNCT	HYPH	_	12	punct	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+11	—	—	PUNCT	_	_	12	punct	_	_
 12	desainer	desainer	NOUN	_	_	6	appos	_	_
 13	poster	poster	NOUN	_	_	12	nmod	_	_
 14	film	film	NOUN	_	_	13	compound	_	_
@@ -15362,7 +15362,7 @@
 18	dan	dan	CCONJ	_	_	19	cc	_	_
 19	Saul	Saul	PROPN	_	_	16	conj	_	_
 20	Bass	Bass	PROPN	_	_	19	flat	_	_
-21	—	—	PUNCT	HYPH	_	12	punct	_	_
+21	—	—	PUNCT	_	_	12	punct	_	_
 22	yang	yang	PRON	_	PronType=Rel	24	nsubj	_	_
 23	akan	akan	AUX	_	_	24	aux	_	_
 24	memproduksi	produksi	VERB	_	Voice=Act	6	acl:relcl	_	_
@@ -15371,7 +15371,7 @@
 27	mewakili	wakil	VERB	_	Voice=Act	25	acl:relcl	_	_
 28-29	filmnya	_	_	_	_	_	_	_	_
 28	film	film	NOUN	_	_	27	obj	_	_
-29	nya	nya	DET	_	Poss=Yes|PronType=Prs	28	det:poss	_	_
+29	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det:poss	_	_
 30	secara	cara	ADP	_	_	31	case:adv	_	_
 31	akurat	akurat	ADJ	_	_	27	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	_
@@ -15465,14 +15465,14 @@
 6	bahwa	bahwa	SCONJ	_	_	10	mark	_	_
 7	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 8	adalah	adalah	AUX	_	_	10	cop	_	_
-9	seorang	orang	DET	_	_	10	det	_	_
+9	seorang	orang	DET	_	PronType=Ind	10	det	_	_
 10	agen	agen	NOUN	_	_	5	advcl	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	menyamar	samar	VERB	_	Voice=Act	10	acl:relcl	_	_
 13	yang	yang	SCONJ	_	_	17	mark	_	_
 14-15	targetnya	_	_	_	_	_	_	_	_
 14	target	target	NOUN	_	_	17	nsubj	_	_
-15	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 16	adalah	adalah	AUX	_	_	17	cop	_	_
 17	Homer	Homer	PROPN	_	_	10	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
@@ -15503,7 +15503,7 @@
 3	dengan	dengan	ADP	_	_	4	case	_	_
 4-5	istrinya	_	_	_	_	_	_	_	SpaceAfter=No
 4	istri	istri	NOUN	_	_	2	obl	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	Elaine	Elaine	PROPN	_	_	4	appos	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -15627,7 +15627,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	saingannya	_	_	_	_	_	_	_	_
 3	saingan	saing	NOUN	_	_	8	nsubj	_	_
-4	nya	nya	DET	_	Poss=Yes|PronType=Prs	3	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 5	Prabowo	Prabowo	PROPN	_	_	3	appos	_	_
 6	Subianto	Subianto	PROPN	_	_	5	flat	_	_
 7	juga	juga	ADV	_	_	8	advmod	_	_
@@ -15655,7 +15655,7 @@
 10	masa	masa	NOUN	_	_	9	nsubj	_	_
 11-12	jabatannya	_	_	_	_	_	_	_	_
 11	jabatan	jabat	NOUN	_	_	10	compound	_	_
-12	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	bertanggung	tanggung	VERB	_	Voice=Act	4	advcl	_	_
 15	jawab	jawab	VERB	_	_	14	compound	_	_
@@ -15681,7 +15681,7 @@
 1	Biografi	biografi	NOUN	_	_	5	nsubj	_	_
 2-3	resminya	_	_	_	_	_	_	_	_
 2	resmi	resmi	ADJ	_	_	1	amod	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 4	juga	juga	ADV	_	_	5	advmod	_	_
 5	mengklaim	klaim	VERB	_	Voice=Act	0	root	_	_
 6	bahwa	bahwa	SCONJ	_	_	8	mark	_	_
@@ -15762,7 +15762,7 @@
 # text_en = Following a job advertisement found by his sister in The Scotsman, he worked for a year and a half as a staff journalist on the Nottingham Journal.
 1	Setelah	telah	SCONJ	_	_	2	mark	_	_
 2	melamar	lamar	VERB	_	Voice=Act	16	advcl	_	_
-3	sebuah	buah	DET	_	_	4	det	_	_
+3	sebuah	buah	DET	_	PronType=Ind	4	det	_	_
 4	lowongan	lowong	NOUN	_	_	2	obj	_	_
 5	pekerjaan	kerja	NOUN	_	_	4	compound	_	_
 6	yang	yang	PRON	_	PronType=Rel	7	nsubj:pass	_	_
@@ -15770,7 +15770,7 @@
 8	oleh	oleh	ADP	_	_	9	case	_	_
 9-10	saudarinya	_	_	_	_	_	_	_	_
 9	saudari	saudari	NOUN	_	_	7	obl	_	_
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	The	The	PROPN	_	_	7	obl	_	_
 13	Scotsman	Scotsman	PROPN	_	_	12	flat	_	SpaceAfter=No
@@ -15872,7 +15872,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	mengelola	kelola	VERB	_	Voice=Act	0	root	_	_
-9	sebuah	buah	DET	_	_	10	det	_	_
+9	sebuah	buah	DET	_	PronType=Ind	10	det	_	_
 10	sekolah	sekolah	NOUN	_	_	8	obj	_	_
 11	untuk	untuk	ADP	_	_	12	case	_	_
 12	anak-anak	anak	NOUN	_	Number=Plur	10	nmod	_	_
@@ -15888,7 +15888,7 @@
 2	nonfiksi	nonfiksi	ADJ	_	_	1	amod	_	_
 3-4	terakhirnya	_	_	_	_	_	_	_	_
 3	terakhir	akhir	ADJ	_	Degree=Sup	1	amod	_	_
-4	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 5	adalah	adalah	AUX	_	_	6	cop	_	_
 6	Margaret	Margaret	PROPN	_	_	0	root	_	_
 7	Douglas	Douglas	PROPN	_	_	6	flat	_	SpaceAfter=No
@@ -15940,7 +15940,7 @@
 5	dengan	dengan	ADP	_	_	6	case	_	_
 6	Jasmine	Jasmine	PROPN	_	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	para	para	DET	_	_	9	det	_	_
+8	para	para	DET	_	Number=Plur	9	det	_	_
 9	pembuat	buat	NOUN	_	_	12	nsubj	_	_
 10	film	film	NOUN	_	_	9	compound	_	_
 11	akhirnya	akhir	ADV	_	_	12	advmod	_	_
@@ -15963,7 +15963,7 @@
 2	finalisasi	finalisasi	NOUN	_	_	7	obl	_	_
 3-4	penampilannya	_	_	_	_	_	_	_	SpaceAfter=No
 3	penampilan	tampil	NOUN	_	_	2	nmod	_	_
-4	nya	nya	DET	_	Poss=Yes|PronType=Prs	3	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	Jasmine	Jasmine	PROPN	_	_	7	nsubj	_	_
 7	menjadi	jadi	VERB	_	Voice=Act	0	root	_	_
@@ -16021,14 +16021,14 @@
 10	daya	daya	NOUN	_	_	5	nmod	_	_
 11-12	tahannya	_	_	_	_	_	_	_	_
 11	tahan	tahan	ADJ	_	_	10	amod	_	_
-12	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 13	semasa	masa	ADP	_	_	14	case	_	_
 14	perang	perang	NOUN	_	_	10	nmod	_	_
 15	dan	dan	CCONJ	_	_	16	cc	_	_
 16	pekerjaan	kerja	NOUN	_	_	10	conj	_	_
 17-18	kemanusiaannya	_	_	_	_	_	_	_	_
 17	kemanusiaan	manusia	NOUN	_	_	16	compound	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	16	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 19	hingga	hingga	ADP	_	_	21	case	_	_
 20	setelah	telah	ADP	_	_	21	case	_	_
 21-22	berakhirnya	_	_	_	_	_	_	_	_
@@ -16064,7 +16064,7 @@
 19	single	single	NOUN	_	_	15	appos	_	_
 20-21	terkaitnya	_	_	_	_	_	_	_	SpaceAfter=No
 20	terkait	kait	VERB	_	Voice=Pass	19	acl	_	_
-21	nya	nya	DET	_	Poss=Yes|PronType=Prs	19	det:poss	_	_
+21	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 22	,	,	PUNCT	_	_	19	punct	_	_
 23	muncul	muncul	VERB	_	Voice=Act	5	parataxis	_	_
 24	pada	pada	ADP	_	_	25	case	_	_
@@ -16089,7 +16089,7 @@
 6	negara	negara	NOUN	_	_	2	obl	_	_
 7-8	asalnya	_	_	_	_	_	_	_	_
 7	asal	asal	NOUN	_	_	6	compound	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 9	Australia	Australia	PROPN	_	_	6	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	Geyer	Geyer	PROPN	_	_	12	nsubj	_	_
@@ -16117,7 +16117,7 @@
 1	Setelah	telah	SCONJ	_	_	4	mark	_	_
 2-3	kemajuannya	_	_	_	_	_	_	_	_
 2	kemajuan	maju	NOUN	_	_	4	nsubj	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	mentok	mentok	VERB	_	Voice=Act	16	advcl	_	_
 5	di	di	ADP	_	_	6	case	_	_
 6	Billboard	Billboard	PROPN	_	_	4	obl	_	_
@@ -16157,7 +16157,7 @@
 1	Setelah	telah	ADP	_	_	2	case	_	_
 2-3	pemecatannya	_	_	_	_	_	_	_	SpaceAfter=No
 2	pemecatan	pecat	NOUN	_	_	6	obl	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Peniston	Peniston	PROPN	_	_	6	nsubj	_	_
 6	bermain	main	VERB	_	Voice=Act	0	root	_	_
@@ -16167,7 +16167,7 @@
 10	Good	Good	PROPN	_	_	8	flat	_	_
 11	Witch	Witch	PROPN	_	_	8	flat	_	_
 12	dalam	dalam	ADP	_	_	14	case	_	_
-13	sebuah	buah	DET	_	_	14	det	_	_
+13	sebuah	buah	DET	_	PronType=Ind	14	det	_	_
 14	produksi	produksi	NOUN	_	_	6	obl	_	_
 15	teater	teater	NOUN	_	_	14	nmod	_	_
 16	drama	drama	NOUN	_	_	15	nmod	_	_
@@ -16196,7 +16196,7 @@
 15	bahwa	bahwa	SCONJ	_	_	19	mark	_	_
 16-17	pencalonannya	_	_	_	_	_	_	_	_
 16	pencalonan	calon	NOUN	_	_	19	nsubj	_	_
-17	nya	nya	DET	_	Poss=Yes|PronType=Prs	16	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
 19	sah	sah	ADJ	_	_	14	ccomp	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
@@ -16248,11 +16248,11 @@
 13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
 14	dimiliki	milik	VERB	_	Voice=Pass	3	conj	_	_
 15	oleh	oleh	ADP	_	_	17	case	_	_
-16	para	para	DET	_	_	17	det	_	_
+16	para	para	DET	_	Number=Plur	17	det	_	_
 17	saudara	saudara	NOUN	_	_	14	obl	_	_
 18-19	laki-lakinya	_	_	_	_	_	_	_	SpaceAfter=No
 18	laki-laki	laki	NOUN	_	_	17	compound	_	_
-19	nya	nya	DET	_	Poss=Yes|PronType=Prs	17	det:poss	_	_
+19	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01125037
@@ -16282,7 +16282,7 @@
 5	saudara	saudara	NOUN	_	_	17	nsubj:pass	_	_
 6-7	laki-lakinya	_	_	_	_	_	_	_	_
 6	laki-laki	laki	NOUN	_	_	5	compound	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 8	Prince	Prince	PROPN	_	_	5	appos	_	_
 9	Henry	Henry	PROPN	_	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -16301,7 +16301,7 @@
 23	berikutnya	ikut	ADJ	_	_	22	amod	_	_
 24	Cumberland	Cumberland	PROPN	_	_	25	nsubj	_	_
 25	menikahi	nikah	VERB	_	Voice=Act	17	conj	_	_
-26	seorang	orang	DET	_	_	27	det	_	_
+26	seorang	orang	DET	_	PronType=Ind	27	det	_	_
 27	janda	janda	NOUN	_	_	25	obj	_	_
 28	muda	muda	ADJ	_	_	27	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
@@ -16317,7 +16317,7 @@
 3	West	West	PROPN	_	_	2	flat	_	_
 4-5	miliknya	_	_	_	_	_	_	_	_
 4	milik	milik	NOUN	_	_	1	nmod	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
 7	tahun	tahun	NOUN	_	_	1	nmod	_	_
 8	1981	1981	NUM	_	NumType=Card	7	nummod	_	_
@@ -16327,7 +16327,7 @@
 12	album	album	NOUN	_	_	9	obl	_	_
 13-14	terlarisnya	_	_	_	_	_	_	_	SpaceAfter=No
 13	terlaris	laris	ADJ	_	Degree=Sup	12	amod	_	_
-14	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = w01127096
@@ -16364,7 +16364,7 @@
 8	Sigur	Sigur	PROPN	_	_	7	flat	_	_
 9	Rós	Rós	PROPN	_	_	7	flat	_	_
 10	merilis	rilis	VERB	_	Voice=Act	0	root	_	_
-11	sebuah	buah	DET	_	_	12	det	_	_
+11	sebuah	buah	DET	_	PronType=Ind	12	det	_	_
 12	video	video	NOUN	_	_	10	obj	_	_
 13	untuk	untuk	ADP	_	_	14	case	_	_
 14	lagu	lagu	NOUN	_	_	12	nmod	_	_
@@ -16405,7 +16405,7 @@
 # text_en = The car burst into flames, and Kenseth walked away.
 1-2	Mobilnya	_	_	_	_	_	_	_	_
 1	Mobil	mobil	NOUN	_	_	3	nsubj	_	_
-2	nya	nya	DET	_	Poss=Yes|PronType=Prs	1	det:poss	_	_
+2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	meledak	ledak	VERB	_	Voice=Act	0	root	_	_
 4	terbakar	bakar	VERB	_	Voice=Pass	3	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
@@ -16424,7 +16424,7 @@
 3	penguburan	kubur	NOUN	_	_	2	obj	_	_
 4-5	ayahnya	_	_	_	_	_	_	_	_
 4	ayah	ayah	NOUN	_	_	3	nmod:poss	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
 7	hari	hari	NOUN	_	_	2	obl	_	_
 8	balapan	balap	NOUN	_	_	7	compound	_	SpaceAfter=No
@@ -16491,8 +16491,8 @@
 20	kembali	kembali	ADV	_	_	19	advmod	_	_
 21	sosok	sosok	NOUN	_	_	19	nmod	_	_
 22-23	dirinya	_	_	_	_	_	_	_	_
-22	diri	diri	PRON	_	Reflex=Yes	21	compound	_	_
-23	nya	nya	DET	_	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	21	compound	_	_
+23	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 24	yang	yang	PRON	_	PronType=Rel	25	nsubj	_	_
 25	besar	besar	ADJ	_	_	21	acl:relcl	_	SpaceAfter=No
 26	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -16507,9 +16507,9 @@
 4	and	and	PROPN	_	_	1	flat	_	_
 5	a	a	PROPN	_	_	1	flat	_	_
 6	Prayer	Prayer	PROPN	_	_	1	flat	_	_
-7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	1992	1992	NUM	_	NumType=Card	1	nmod:tmod	_	SpaceAfter=No
-9	)	)	PUNCT	)	_	8	punct	_	_
+9	)	)	PUNCT	_	_	8	punct	_	_
 10-11	mempertemukannya	_	_	_	_	_	_	_	_
 10	mempertemukan	temu	VERB	_	Voice=Act	0	root	_	_
 11	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obj	_	_
@@ -16517,11 +16517,11 @@
 13	rekan	rekan	NOUN	_	_	10	obl	_	_
 14	Stealers	Stealers	PROPN	_	_	13	nmod	_	_
 15	Wheel	Wheel	PROPN	_	_	14	flat	_	SpaceAfter=No
-16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
-17	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 18	Egan	Egan	PROPN	_	_	13	appos	_	_
 19	dalam	dalam	ADP	_	_	21	case	_	_
-20	beberapa	berapa	DET	_	PronType=Ind	21	det	_	_
+20	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	21	det	_	_
 21	lagu	lagu	NOUN	_	_	10	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -16545,7 +16545,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
 17	juga	juga	ADV	_	_	19	advmod	_	_
-18	seorang	orang	DET	_	_	19	det	_	_
+18	seorang	orang	DET	_	PronType=Ind	19	det	_	_
 19	penyanyi	nyanyi	NOUN	_	_	10	acl:relcl	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
 21	penulis	tulis	NOUN	_	_	19	conj	_	_
@@ -16586,9 +16586,9 @@
 18	Over	Over	PROPN	_	_	17	nmod	_	_
 19	My	My	PROPN	_	_	18	flat	_	_
 20	Head	Head	PROPN	_	_	18	flat	_	_
-21	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	1994	1994	NUM	_	NumType=Card	17	nmod:tmod	_	SpaceAfter=No
-23	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01130103
@@ -16639,7 +16639,7 @@
 7	membentuk	bentuk	VERB	_	Voice=Act	4	advcl	_	_
 8-9	jaringannya	_	_	_	_	_	_	_	_
 8	jaringan	jaring	NOUN	_	_	7	obj	_	_
-9	nya	nya	DET	_	Poss=Yes|PronType=Prs	8	det:poss	_	_
+9	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 10	sendiri	sendiri	DET	_	PronType=Emp	8	nmod	_	_
 11	di	di	ADP	_	_	13	case	_	_
 12	dalam	dalam	NOUN	_	_	13	nmod	_	_
@@ -16779,7 +16779,7 @@
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	Starlin	Starlin	PROPN	_	_	9	nsubj	_	_
 9	menyumbangkan	sumbang	VERB	_	Voice=Act	0	root	_	_
-10	sebuah	buah	DET	_	_	11	det	_	_
+10	sebuah	buah	DET	_	PronType=Ind	11	det	_	_
 11	koleksi	koleksi	NOUN	_	_	9	obj	_	_
 12	cerita	cerita	NOUN	_	_	11	compound	_	_
 13	ke	ke	ADP	_	_	14	case	_	_
@@ -16801,7 +16801,7 @@
 1	Melalui	lalu	ADP	_	_	2	case	_	_
 2-3	neneknya	_	_	_	_	_	_	_	SpaceAfter=No
 2	nenek	nenek	NOUN	_	_	7	nmod	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Mishima	Mishima	PROPN	_	_	7	nsubj	_	_
 6	adalah	adalah	AUX	_	_	7	cop	_	_
@@ -16827,7 +16827,7 @@
 11	olahraga	olahraga	NOUN	_	_	19	nsubj:pass	_	_
 12-13	rutinnya	_	_	_	_	_	_	_	_
 12	rutin	rutin	NOUN	_	_	11	compound	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	11	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
 14	tiga	tiga	NUM	_	NumType=Card	15	nummod	_	_
 15	sesi	sesi	NOUN	_	_	11	nmod	_	_
 16	per	per	ADP	_	_	17	case	_	_
@@ -16840,7 +16840,7 @@
 23	terakhir	akhir	ADJ	_	Degree=Sup	22	amod	_	_
 24-25	hidupnya	_	_	_	_	_	_	_	SpaceAfter=No
 24	hidup	hidup	NOUN	_	_	19	obl	_	_
-25	nya	nya	DET	_	Poss=Yes|PronType=Prs	24	det:poss	_	_
+25	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	det:poss	_	_
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w01134078
@@ -16857,7 +16857,7 @@
 9	akhir	akhir	NOUN	_	_	10	nmod	_	_
 10-11	hayatnya	_	_	_	_	_	_	_	SpaceAfter=No
 10	hayat	hayat	NOUN	_	_	2	obl	_	_
-11	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01135034
@@ -16973,7 +16973,7 @@
 6	Blunt	Blunt	PROPN	_	_	7	nsubj	_	_
 7	mulai	mulai	VERB	_	Voice=Act	0	root	_	_
 8	syuting	syuting	NOUN	_	_	7	obj	_	_
-9	sebuah	buah	DET	_	_	10	det	_	_
+9	sebuah	buah	DET	_	PronType=Ind	10	det	_	_
 10	film	film	NOUN	_	_	8	nmod	_	_
 11	fiksi	fiksi	NOUN	_	_	10	compound	_	_
 12	ilmiah	ilmiah	ADJ	_	_	10	amod	_	_
@@ -17031,7 +17031,7 @@
 5	men-casting	casting	VERB	_	Voice=Act	3	advcl	_	_
 6-7	istrinya	_	_	_	_	_	_	_	SpaceAfter=No
 6	istri	istri	NOUN	_	_	5	obj	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	Norma	Norma	PROPN	_	_	6	appos	_	_
 10	Talmadge	Talmadge	PROPN	_	_	9	flat	_	SpaceAfter=No
@@ -17041,7 +17041,7 @@
 14	main	main	VERB	_	Voice=Act	13	acl	_	_
 15	Valentino	Valentino	PROPN	_	_	13	nmod:poss	_	_
 16	dalam	dalam	ADP	_	_	18	case	_	_
-17	sebuah	buah	DET	_	_	18	det	_	_
+17	sebuah	buah	DET	_	PronType=Ind	18	det	_	_
 18	versi	versi	NOUN	_	_	13	nmod	_	_
 19	Romeo	Romeo	PROPN	_	_	18	nmod	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
@@ -17173,7 +17173,7 @@
 3	novel	novel	NOUN	_	_	1	nmod	_	_
 4	Skylark	Skylark	PROPN	_	_	3	nmod	_	_
 5	melibatkan	libat	VERB	_	Voice=Act	0	root	_	_
-6	para	para	DET	_	_	7	det	_	_
+6	para	para	DET	_	Number=Plur	7	det	_	_
 7	pelopor	pelopor	NOUN	_	_	5	obj	_	_
 8	teknologi	teknologi	NOUN	_	_	7	nmod	_	_
 9	informasi	informasi	NOUN	_	_	8	compound	_	_
@@ -17203,12 +17203,12 @@
 17	bagaimana	bagaimana	ADV	WRB	PronType=Rel	21	advmod	_	_
 18-19	laboratoriumnya	_	_	_	_	_	_	_	_
 18	laboratorium	laboratorium	NOUN	_	_	21	nsubj	_	_
-19	nya	nya	DET	_	Poss=Yes|PronType=Prs	18	det:poss	_	_
+19	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	bisa	bisa	AUX	_	_	21	aux	_	_
 21	membuat	buat	VERB	_	Voice=Act	16	advcl	_	_
 22	sampel	sampel	NOUN	_	_	21	obj	_	_
 23	polonium	polonium	NOUN	_	_	22	compound	_	_
-24	mereka	mereka	DET	_	Poss=Yes	22	det:poss	_	_
+24	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 25	sendiri	sendiri	DET	_	PronType=Emp	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -17364,7 +17364,7 @@
 # text_en = When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.
 1	Ketika	ketika	SCONJ	_	_	5	mark	_	_
 2	putri	putri	NOUN	_	_	5	nsubj	_	_
-3	mereka	mereka	DET	_	Poss=Yes	2	det:poss	_	_
+3	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	Cecily	Cecily	PROPN	_	_	2	appos	_	_
 5	menikahi	nikah	VERB	_	Voice=Act	27	advcl	_	_
 6	Richard	Richard	PROPN	_	_	5	obj	_	_
@@ -17377,7 +17377,7 @@
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	melahirkan	lahir	VERB	_	Voice=Act	5	conj	_	_
-16	beberapa	berapa	DET	_	PronType=Ind	17	det	_	_
+16	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	17	det	_	_
 17	anak	anak	NOUN	_	_	15	obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	termasuk	masuk	VERB	_	Voice=Pass	17	acl	_	_
@@ -17419,7 +17419,7 @@
 4	dan	dan	CCONJ	_	_	7	cc	_	_
 5-6	pengikutnya	_	_	_	_	_	_	_	_
 5	pengikut	ikut	NOUN	_	_	7	nsubj:pass	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	dimasukkan	masuk	VERB	_	Voice=Pass	3	conj	_	_
 8	ke	ke	ADP	_	_	10	case	_	_
 9	dalam	dalam	NOUN	_	_	10	nmod	_	_
@@ -17462,7 +17462,7 @@
 6	Humphrey	Humphrey	PROPN	_	_	4	nmod:poss	_	_
 7	Bogart	Bogart	PROPN	_	_	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	seorang	orang	DET	_	_	10	det	_	_
+9	seorang	orang	DET	_	PronType=Ind	10	det	_	_
 10	playboy	playboy	NOUN	_	_	4	appos	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	riang	riang	ADJ	_	_	10	acl:relcl	_	SpaceAfter=No
@@ -17470,9 +17470,9 @@
 14	dalam	dalam	ADP	_	_	15	case	_	_
 15	film	film	NOUN	_	_	2	obl	_	_
 16	Sabrina	Sabrina	PROPN	_	_	15	nmod	_	_
-17	(	(	PUNCT	(	_	18	punct	_	SpaceAfter=No
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	1954	1954	NUM	_	NumType=Card	15	nmod:tmod	_	SpaceAfter=No
-19	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	dimainkan	main	VERB	_	Voice=Pass	15	acl	_	_
 22	oleh	oleh	ADP	_	_	23	case	_	_
@@ -17594,7 +17594,7 @@
 5	menyelamatkan	selamat	VERB	_	Voice=Act	2	ccomp	_	_
 6-7	hidupnya	_	_	_	_	_	_	_	_
 6	hidup	hidup	NOUN	_	_	5	obj	_	_
-7	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	agar	agar	SCONJ	_	_	12	mark	_	_
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 10	bisa	bisa	AUX	_	_	12	aux	_	_
@@ -17619,8 +17619,8 @@
 6	prinsip	prinsip	NOUN	_	_	3	obl	_	_
 7	pemandu	pandu	NOUN	_	_	6	compound	_	_
 8	Marxisme	marxisme	NOUN	_	_	7	nmod	_	SpaceAfter=No
-9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	6	det:poss	_	_
+9	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 11	dan	dan	CCONJ	_	_	12	cc	_	_
 12	menekankan	tekan	VERB	_	Voice=Act	2	conj	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
@@ -17650,7 +17650,7 @@
 12	masa	masa	NOUN	_	_	11	nmod	_	_
 13-14	depannya	_	_	_	_	_	_	_	SpaceAfter=No
 13	depan	depan	NOUN	_	_	12	compound	_	_
-14	nya	nya	DET	_	Poss=Yes	12	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w01147010
@@ -17660,7 +17660,7 @@
 2	memindahkan	pindah	VERB	_	Voice=Act	0	root	_	_
 3-4	keluarganya	_	_	_	_	_	_	_	_
 3	keluarga	keluarga	NOUN	_	_	2	obj	_	_
-4	nya	nya	DET	_	Poss=Yes|PronType=Prs	3	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 5	ke	ke	ADP	_	_	6	case	_	_
 6	Nashville	Nashville	PROPN	_	_	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -17678,7 +17678,7 @@
 19	penulisan	tulis	NOUN	_	_	15	nmod	_	_
 20-21	lagunya	_	_	_	_	_	_	_	SpaceAfter=No
 20	lagu	lagu	NOUN	_	_	19	compound	_	_
-21	nya	nya	DET	_	Poss=Yes|PronType=Prs	19	det:poss	_	_
+21	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01147018
@@ -17705,7 +17705,7 @@
 19	David	David	PROPN	_	_	18	obj	_	_
 20	Gamson	Gamson	PROPN	_	_	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
-22	seorang	orang	DET	_	_	23	det	_	_
+22	seorang	orang	DET	_	PronType=Ind	23	det	_	_
 23	produser	produser	NOUN	_	_	19	appos	_	_
 24	yang	yang	SCONJ	_	_	26	mark	_	_
 25	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
@@ -17738,7 +17738,7 @@
 11	studio	studio	NOUN	_	_	10	compound	_	_
 12-13	ketiganya	_	_	_	_	_	_	_	_
 12	ketiga	tiga	ADJ	_	NumType=Ord	10	amod	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 14	yang	yang	PRON	_	PronType=Rel	16	nsubj	_	_
 15	akan	akan	AUX	_	_	16	aux	_	_
 16	rilis	rilis	VERB	_	Voice=Act	10	acl:relcl	_	SpaceAfter=No
@@ -17789,7 +17789,7 @@
 12	masa	masa	NOUN	_	_	10	nmod	_	_
 13-14	pertumbuhannya	_	_	_	_	_	_	_	_
 13	pertumbuhan	tumbuh	NOUN	_	_	12	compound	_	_
-14	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 15	di	di	ADP	_	_	16	case	_	_
 16	Wells	Wells	PROPN	_	_	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -17801,7 +17801,7 @@
 # text_en = Wright has a brother, Oscar, who is a comic book artist, contributing storyboards, conceptual art and promotional pictures for Edgar's films.
 1	Wright	Wright	PROPN	_	_	2	nsubj	_	_
 2	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
-3	seorang	orang	DET	_	_	4	det	_	_
+3	seorang	orang	DET	_	PronType=Ind	4	det	_	_
 4	saudara	saudara	NOUN	_	_	2	obj	_	_
 5	laki-laki	laki	NOUN	_	Number=Plur	4	compound	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -17809,7 +17809,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 10	adalah	adalah	AUX	_	_	12	cop	_	_
-11	seorang	orang	DET	_	_	12	det	_	_
+11	seorang	orang	DET	_	PronType=Ind	12	det	_	_
 12	seniman	seniman	NOUN	_	_	4	acl:relcl	_	_
 13	buku	buku	NOUN	_	_	12	nmod	_	_
 14	komik	komik	NOUN	_	_	13	compound	_	SpaceAfter=No
@@ -17845,7 +17845,7 @@
 12	dalam	dalam	ADP	_	_	13	case	_	_
 13-14	filmnya	_	_	_	_	_	_	_	_
 13	film	film	NOUN	_	_	10	obl	_	_
-14	nya	nya	DET	_	Poss=Yes|PronType=Prs	13	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 15	The	The	PROPN	_	_	13	appos	_	_
 16	Hitchhiker	Hitchhiker	PROPN	_	_	15	flat	_	SpaceAfter=No
 17	's	's	PROPN	_	_	15	flat	_	_
@@ -17937,7 +17937,7 @@
 12	hubungan	hubung	NOUN	_	_	10	conj	_	_
 13-14	teritorialnya	_	_	_	_	_	_	_	_
 13	teritorial	teritorial	ADJ	_	_	12	amod	_	_
-14	nya	nya	DET	_	Poss=Yes	12	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 15	dengan	dengan	ADP	_	_	12	case	_	_
 16	Albania	Albania	PROPN	_	_	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	_
@@ -17950,7 +17950,7 @@
 24	mengubah	ubah	VERB	_	Voice=Act	20	ccomp	_	_
 25-26	keputusannya	_	_	_	_	_	_	_	SpaceAfter=No
 25	keputusan	putus	NOUN	_	_	24	obj	_	_
-26	nya	nya	DET	_	Poss=Yes	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = w01150048
@@ -17980,11 +17980,11 @@
 22	komposisi	komposisi	NOUN	_	_	20	obl	_	_
 23-24	etnisnya	_	_	_	_	_	_	_	SpaceAfter=No
 23	etnis	etnis	NOUN	_	_	22	compound	_	_
-24	nya	nya	DET	_	Poss=Yes	22	det:poss	_	_
+24	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	di	di	ADP	_	_	29	case	_	_
 27	antara	antara	NOUN	_	_	29	nmod	_	_
-28	para	para	DET	_	_	29	det	_	_
+28	para	para	DET	_	Number=Plur	29	det	_	_
 29	sekutu	sekutu	NOUN	_	_	11	obl	_	_
 30	Balkan	Balkan	PROPN	_	_	29	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
@@ -17995,7 +17995,7 @@
 36	wilayah	wilayah	NOUN	_	_	32	obl	_	_
 37-38	pusatnya	_	_	_	_	_	_	_	_
 37	pusat	pusat	NOUN	_	_	36	compound	_	_
-38	nya	nya	DET	_	Poss=Yes	36	det:poss	_	_
+38	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	det:poss	_	_
 39	saja	saja	ADV	_	_	36	advmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -18106,7 +18106,7 @@
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	menonton	tonton	VERB	_	Voice=Act	13	conj	_	_
 16	saat	saat	SCONJ	_	_	19	mark	_	_
-17	seorang	orang	DET	_	_	18	det	_	_
+17	seorang	orang	DET	_	PronType=Ind	18	det	_	_
 18	pensiunan	pensiun	NOUN	_	_	19	nsubj	_	_
 19	meninggal	tinggal	VERB	_	Voice=Act	13	advcl	_	_
 20	di	di	ADP	_	_	21	case	_	_
@@ -18270,7 +18270,7 @@
 19	semua	semua	DET	_	PronType=Tot	20	det	_	_
 20-21	pasukannya	_	_	_	_	_	_	_	_
 20	pasukan	pasuk	NOUN	_	_	18	obj	_	_
-21	nya	nya	DET	_	Poss=Yes	20	det:poss	_	_
+21	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 22	dari	dari	ADP	_	_	23	case	_	_
 23	negara-negara	negara	NOUN	_	Number=Plur	18	obl	_	_
 24	yang	yang	PRON	_	PronType=Rel	25	nsubj	_	_
@@ -18304,7 +18304,7 @@
 # text_en = It is a political process and I have decided not to be present, so it was said.
 1	Itu	itu	PRON	_	PronType=Dem	4	nsubj	_	_
 2	adalah	adalah	AUX	_	_	4	cop	_	_
-3	sebuah	buah	DET	_	_	4	det	_	_
+3	sebuah	buah	DET	_	PronType=Ind	4	det	_	_
 4	proses	proses	NOUN	_	_	0	root	_	_
 5	politik	politik	NOUN	_	_	4	compound	_	_
 6	dan	dan	CCONJ	_	_	9	cc	_	_
@@ -18325,7 +18325,7 @@
 # text = Jika seorang karyawan Turki berhenti, maka dewan kerja Turki datang.
 # text_en = If a Turkish employee quits, then the Turkish work councils come.
 1	Jika	jika	SCONJ	_	_	5	mark	_	_
-2	seorang	orang	DET	_	_	3	det	_	_
+2	seorang	orang	DET	_	PronType=Ind	3	det	_	_
 3	karyawan	karyawan	NOUN	_	_	5	nsubj	_	_
 4	Turki	Turki	PROPN	_	_	3	nmod	_	_
 5	berhenti	henti	VERB	_	Voice=Act	11	advcl	_	SpaceAfter=No
@@ -18353,7 +18353,7 @@
 11	elit	elit	NOUN	_	_	6	conj	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	memuaskan	puas	VERB	_	Voice=Act	11	acl:relcl	_	_
-14	diri	diri	PRON	_	Reflex=Yes	13	obj	_	_
+14	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	13	obj	_	_
 15	sendiri	sendiri	DET	_	PronType=Emp	14	nmod	_	_
 16	adalah	adalah	AUX	_	_	17	cop	_	_
 17	alasan	alas	NOUN	_	_	0	root	_	_
@@ -18382,7 +18382,7 @@
 4	menggelengkan	geleng	VERB	_	Voice=Act	0	root	_	_
 5-6	kepalanya	_	_	_	_	_	_	_	SpaceAfter=No
 5	kepala	kepala	NOUN	_	_	4	obj	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n02033113
@@ -18406,7 +18406,7 @@
 16	arus	arus	NOUN	_	_	9	nmod	_	_
 17-18	kasnya	_	_	_	_	_	_	_	_
 17	kas	kas	NOUN	_	_	16	compound	_	_
-18	nya	nya	DET	_	Poss=Yes	16	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 19	yang	yang	PRON	_	PronType=Rel	22	nsubj:pass	_	_
 20	kurang	kurang	ADV	_	_	22	advmod	_	_
 21	dapat	dapat	AUX	_	_	22	aux	_	_
@@ -18595,7 +18595,7 @@
 8	dinyana	nyana	VERB	_	Voice=Pass	0	root	_	_
 9	menandai	tanda	VERB	_	Voice=Act	8	xcomp	_	_
 10	akhir	akhir	NOUN	_	_	9	obj	_	_
-11	sebuah	buah	DET	_	_	12	det	_	_
+11	sebuah	buah	DET	_	PronType=Ind	12	det	_	_
 12	tahun	tahun	NOUN	_	_	10	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 14	luar	luar	NOUN	_	_	15	compound	_	_
@@ -18653,7 +18653,7 @@
 4	dengan	dengan	ADP	_	_	5	case	_	_
 5	jam	jam	NOUN	_	_	3	obl	_	_
 6	alarm	alarm	NOUN	_	_	5	compound	_	_
-7	Anda	anda	DET	_	Poss=Yes	5	det:poss	_	SpaceAfter=No
+7	Anda	anda	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = n02050052
@@ -18712,13 +18712,13 @@
 1	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj:pass	_	_
 2	ditanyai	tanya	VERB	_	Voice=Pass	0	root	_	_
 3	oleh	oleh	ADP	_	_	5	case	_	_
-4	para	para	DET	_	_	5	det	_	_
+4	para	para	DET	_	Number=Plur	5	det	_	_
 5	petugas	tugas	NOUN	_	_	2	obl	_	_
 6	itu	itu	DET	_	PronType=Dem	5	det	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	dengan	dengan	ADP	_	_	9	case	_	_
 9	cara	cara	NOUN	_	_	2	obl	_	_
-10	mereka	mereka	DET	_	Poss=Yes	9	det:poss	_	_
+10	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 12	tentunya	tentu	ADV	_	_	13	advmod	_	_
 13	bodoh	bodoh	ADJ	_	_	9	acl:relcl	_	SpaceAfter=No
@@ -18891,7 +18891,7 @@
 22	terakhir	akhir	ADJ	_	Degree=Sup	21	amod	_	_
 23-24	kepresidenannya	_	_	_	_	_	_	_	SpaceAfter=No
 23	kepresidenan	presiden	NOUN	_	_	21	nmod	_	_
-24	nya	nya	DET	_	Poss=Yes|PronType=Prs	21	det:poss	_	_
+24	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	20	20	NUM	_	NumType=Card	21	appos	_	_
 27	Januari	Januari	PROPN	_	_	26	flat	_	_
@@ -18926,9 +18926,9 @@
 9	for	for	X	_	Foreign=Yes	7	flat:foreign	_	_
 10	Renewable	renewable	X	_	Foreign=Yes	7	flat:foreign	_	_
 11	Energies	energies	X	_	Foreign=Yes	7	flat:foreign	_	_
-12	(	(	PUNCT	(	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	IRENA	IRENA	PROPN	_	Abbr=Yes	7	appos	_	SpaceAfter=No
-14	)	)	PUNCT	)	_	13	punct	_	_
+14	)	)	PUNCT	_	_	13	punct	_	_
 15	yakin	yakin	ADJ	_	_	0	root	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	25	punct	_	_
 17	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -19214,7 +19214,7 @@
 13	dalam	dalam	ADP	_	_	14	case	_	_
 14-15	sejarahnya	_	_	_	_	_	_	_	SpaceAfter=No
 14	sejarah	sejarah	NOUN	_	_	10	nmod	_	_
-15	nya	nya	DET	_	Poss=Yes	14	det:poss	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 16	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n03002010
@@ -19269,10 +19269,10 @@
 7	suara	suara	NOUN	_	_	4	obl	_	_
 8	367	367	NUM	_	NumType=Card	9	nummod	_	_
 9	MP	MP	NOUN	_	Abbr=Yes	7	nmod	_	_
-10	(	(	PUNCT	(	_	12	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 11	dari	dari	ADP	_	_	12	case	_	_
 12	550	550	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No
-13	)	)	PUNCT	)	_	12	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
 15-16	walaupun	_	_	_	_	_	_	_	_
 15	walau	walau	SCONJ	_	_	19	mark	_	_
@@ -19298,11 +19298,11 @@
 8	wali	wali	NOUN	_	_	16	nsubj	_	_
 9	kota	kota	NOUN	_	_	8	compound	_	_
 10	Saint-Gaudens	Saint-Gaudens	PROPN	_	_	8	nmod	_	_
-11	(	(	PUNCT	(	_	10	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	di	di	ADP	_	_	13	case	_	_
 13	wilayah	wilayah	NOUN	_	_	10	nmod	_	_
 14	Haute-Garonne	Haute-Garonne	PROPN	_	_	13	nmod	_	SpaceAfter=No
-15	)	)	PUNCT	)	_	10	punct	_	_
+15	)	)	PUNCT	_	_	10	punct	_	_
 16	memutuskan	putus	VERB	_	Voice=Act	0	root	_	_
 17	untuk	untuk	SCONJ	_	_	18	mark	_	_
 18	menangguhkan	tangguh	VERB	_	Voice=Act	16	xcomp	_	_
@@ -19342,7 +19342,7 @@
 1	Dalam	dalam	ADP	_	_	2	case	_	_
 2-3	pesannya	_	_	_	_	_	_	_	SpaceAfter=No
 2	pesan	pesan	NOUN	_	_	8	obl	_	_
-3	nya	nya	DET	_	Poss=Yes|PronType=Prs	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	mantan	mantan	ADJ	_	_	6	amod	_	_
 6	Menteri	menteri	NOUN	_	_	8	nsubj	_	_
@@ -19350,7 +19350,7 @@
 8	menuduh	tuduh	VERB	_	Voice=Act	0	root	_	_
 9	Brice	Brice	PROPN	_	_	8	obj	_	_
 10	Hortefeux	Hortefeux	PROPN	_	_	9	flat	_	_
-11	seorang	orang	DET	_	_	13	det	_	_
+11	seorang	orang	DET	_	PronType=Ind	13	det	_	_
 12	'	'	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	fascist	fascist	NOUN	_	_	8	obl	_	SpaceAfter=No
 14	'	'	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -19362,7 +19362,7 @@
 20	bodoh	bodoh	ADJ	_	_	17	amod	_	SpaceAfter=No
 21	'	'	PUNCT	_	_	17	punct	_	_
 22	dan	dan	CCONJ	_	_	25	cc	_	_
-23	seorang	orang	DET	_	_	25	det	_	_
+23	seorang	orang	DET	_	PronType=Ind	25	det	_	_
 24	'	'	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	penjahat	jahat	NOUN	_	_	13	conj	_	SpaceAfter=No
 26	'	'	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -19414,7 +19414,7 @@
 7	keagamaan	agama	NOUN	_	_	6	compound	_	_
 8	di	di	ADP	_	_	9	case	_	_
 9	meja	meja	NOUN	_	_	5	obl	_	_
-10	mereka	mereka	DET	_	Poss=Yes	9	det:poss	_	SpaceAfter=No
+10	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n03006028
@@ -19427,7 +19427,7 @@
 5	bahwa	bahwa	SCONJ	_	_	13	mark	_	_
 6-7	ucapannya	_	_	_	_	_	_	_	_
 6	ucapan	ucap	NOUN	_	_	13	nsubj:pass	_	_
-7	nya	nya	DET	_	Poss=Yes	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	tentang	tentang	ADP	_	_	9	case	_	_
 9	isi	isi	NOUN	_	_	6	nmod	_	_
 10	panduan	pandu	NOUN	_	_	9	compound	_	_
@@ -19690,9 +19690,9 @@
 24	terhadap	hadap	ADP	_	_	25	case	_	_
 25-26	ayahnya	_	_	_	_	_	_	_	_
 25	ayah	ayah	NOUN	_	_	23	nmod	_	_
-26	nya	nya	DET	_	Poss=Yes|PronType=Prs	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	yang	yang	SCONJ	_	_	29	mark	_	_
-28	seorang	orang	DET	_	_	29	det	_	_
+28	seorang	orang	DET	_	PronType=Ind	29	det	_	_
 29	sosialis	sosialis	NOUN	_	_	25	acl:relcl	_	_
 30	militan	militan	ADJ	_	_	29	amod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
@@ -19854,7 +19854,7 @@
 3	telah	telah	AUX	_	_	4	aux	_	_
 4	menyatakan	nyata	VERB	_	Voice=Act	0	root	_	_
 5	dalam	dalam	ADP	_	_	7	case	_	_
-6	sebuah	buah	DET	_	_	7	det	_	_
+6	sebuah	buah	DET	_	PronType=Ind	7	det	_	_
 7	catatan	catat	NOUN	_	_	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	bahwa	bahwa	SCONJ	_	_	12	mark	_	_
@@ -20000,7 +20000,7 @@
 20	atas	atas	ADP	_	_	21	case	_	_
 21-22	namanya	_	_	_	_	_	_	_	_
 21	nama	nama	NOUN	_	_	19	obl	_	_
-22	nya	nya	DET	_	Poss=Yes	21	det:poss	_	_
+22	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 23	sendiri	sendiri	DET	_	PronType=Emp	21	nmod	_	_
 24	dengan	dengan	SCONJ	_	_	25	mark	_	_
 25	mengecualikan	kecuali	VERB	_	Voice=Act	19	advcl	_	_
@@ -20021,7 +20021,7 @@
 4	telah	telah	AUX	_	_	5	aux	_	_
 5	ditulis	tulis	VERB	_	Voice=Pass	1	csubj	_	_
 6	dalam	dalam	ADP	_	_	8	case	_	_
-7	sebuah	buah	DET	_	_	8	det	_	_
+7	sebuah	buah	DET	_	PronType=Ind	8	det	_	_
 8	catatan	catat	NOUN	_	_	5	obl	_	_
 9	untuk	untuk	ADP	_	_	10	case	_	_
 10	Mps	Mps	PROPN	_	_	8	nmod	_	_
@@ -20079,7 +20079,7 @@
 9	dan	dan	CCONJ	_	_	10	cc	_	_
 10-11	istrinya	_	_	_	_	_	_	_	_
 10	istri	istri	NOUN	_	_	7	conj	_	_
-11	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	di	di	ADP	_	_	13	case	_	_
 13	Casa	Casa	PROPN	_	_	6	obl	_	_
 14	Santa	Santa	PROPN	_	_	13	flat	_	_
@@ -20210,7 +20210,7 @@
 # sent_id = n04010021
 # text = Para pemimpin perusahaan seperti Spotify, Tesla, Uber, dan Snapchat akan menghadiri sebuah pertemuan pribadi selain dari Mountain View Summit.
 # text_en = Leaders of companies such as Spotify, Tesla, Uber and Snapchat will attend a private event in addition to the Mountain View Summit.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	pemimpin	pimpin	NOUN	_	_	14	nsubj	_	_
 3	perusahaan	usaha	NOUN	_	_	2	nmod	_	_
 4	seperti	seperti	ADP	_	_	5	case	_	_
@@ -20224,7 +20224,7 @@
 12	Snapchat	Snapchat	PROPN	_	_	5	conj	_	_
 13	akan	akan	AUX	_	_	14	aux	_	_
 14	menghadiri	hadir	VERB	_	Voice=Act	0	root	_	_
-15	sebuah	buah	DET	_	_	16	det	_	_
+15	sebuah	buah	DET	_	PronType=Ind	16	det	_	_
 16	pertemuan	temu	NOUN	_	_	14	obj	_	_
 17	pribadi	pribadi	NOUN	_	_	16	compound	_	_
 18	selain	selain	ADP	_	_	20	case	_	_
@@ -20251,7 +20251,7 @@
 12	konservatif	konservatif	ADJ	_	_	10	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	sementara	sementara	SCONJ	_	_	26	cc	_	_
-15	para	para	DET	_	_	16	det	_	_
+15	para	para	DET	_	Number=Plur	16	det	_	_
 16	pemimpin	pimpin	NOUN	_	_	26	nsubj	_	_
 17	partai	partai	NOUN	_	_	16	compound	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
@@ -20325,7 +20325,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	manajemennya	_	_	_	_	_	_	_	_
 3	manajemen	manajemen	NOUN	_	_	9	nsubj	_	_
-4	nya	nya	DET	_	Poss=Yes	3	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 5	belum	belum	PART	NEG	Polarity=Neg	9	advmod	_	_
 6	sama	sama	ADJ	_	_	7	compound	_	_
 7	sekali	kali	ADV	_	_	9	advmod	_	_
@@ -20343,7 +20343,7 @@
 5	agresif	agresif	ADJ	_	_	0	root	_	_
 6	dan	dan	CCONJ	_	_	11	cc	_	_
 7	dalam	dalam	ADP	_	_	9	case	_	_
-8	beberapa	berapa	DET	_	PronType=Ind	9	det	_	_
+8	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	9	det	_	_
 9	kesempatan	sempat	NOUN	_	_	11	obl	_	_
 10	telah	telah	AUX	_	_	11	aux	_	_
 11	meminta	minta	VERB	_	Voice=Act	5	conj	_	_
@@ -20550,8 +20550,8 @@
 15	terbaik	baik	ADJ	_	Degree=Sup	14	acl	_	_
 16	dari	dari	ADP	_	_	17	case	_	_
 17-18	dirinya	_	_	_	_	_	_	_	_
-17	diri	diri	PRON	_	Reflex=Yes	15	nmod	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	15	nmod	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 19	untuk	untuk	SCONJ	_	_	20	mark	_	_
 20	membuat	buat	VERB	_	Voice=Act	13	advcl	_	_
 21	pemirsa	pirsa	NOUN	_	_	20	obj	_	_
@@ -20649,7 +20649,7 @@
 9	membasahi	basah	VERB	_	Voice=Act	4	ccomp	_	_
 10-11	matanya	_	_	_	_	_	_	_	_
 10	mata	mata	NOUN	_	_	9	obj	_	_
-11	nya	nya	DET	_	Poss=Yes|PronType=Prs	10	det:poss	_	_
+11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 12	saat	saat	SCONJ	_	_	16	mark	_	_
 13	suku	suku	NOUN	_	_	16	nsubj	_	_
 14	kata	kata	NOUN	_	_	13	compound	_	_
@@ -20657,12 +20657,12 @@
 16	menggali	gali	VERB	_	Voice=Act	9	advcl	_	_
 17-18	tanamannya	_	_	_	_	_	_	_	_
 17	tanaman	tanam	NOUN	_	_	16	obj	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	17	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 19	dan	dan	CCONJ	_	_	20	cc	_	_
 20	menyerahkan	serah	VERB	_	Voice=Act	16	conj	_	_
 21-22	misterinya	_	_	_	_	_	_	_	_
 21	misteri	misteri	NOUN	_	_	20	obj	_	_
-22	nya	nya	DET	_	Poss=Yes|PronType=Prs	21	det:poss	_	_
+22	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 23	kepada	kepada	ADP	_	_	24	case	_	_
 24	air	air	NOUN	_	_	20	obl	_	_
 25	yang	yang	PRON	_	PronType=Rel	26	nsubj:pass	_	_
@@ -20915,7 +20915,7 @@
 6	salah	salah	ADJ	_	_	7	compound	_	_
 7	satu	satu	NUM	_	NumType=Card	10	nummod	_	_
 8	dari	dari	ADP	_	_	10	case	_	_
-9	beberapa	berapa	DET	_	PronType=Ind	10	det	_	_
+9	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	10	det	_	_
 10	gedung	gedung	NOUN	_	_	3	nmod	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	pusat	pusat	NOUN	_	_	10	nmod	_	_
@@ -21042,7 +21042,7 @@
 5	yang	yang	SCONJ	_	_	9	mark	_	_
 6-7	panjangnya	_	_	_	_	_	_	_	_
 6	panjang	panjang	NOUN	_	_	9	nsubj	_	_
-7	nya	nya	DET	_	Poss=Yes	6	det:poss	_	_
+7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	empat	empat	NUM	_	NumType=Card	9	nummod	_	_
 9	kilometer	kilometer	NOUN	NNB	_	1	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -21072,7 +21072,7 @@
 8	relaksasi	relaksasi	NOUN	_	_	5	conj	_	_
 9	setempat	tempat	NOUN	_	_	5	compound	_	_
 10	untuk	untuk	ADP	_	_	12	case	_	_
-11	para	para	DET	_	_	12	det	_	_
+11	para	para	DET	_	Number=Plur	12	det	_	_
 12	biarawan	biara	NOUN	_	_	5	nmod	_	_
 13	San	San	PROPN	_	_	12	nmod	_	_
 14	Francisco	Francisco	PROPN	_	_	13	flat	_	SpaceAfter=No
@@ -21176,7 +21176,7 @@
 12	rencana	rencana	NOUN	_	_	11	obj	_	_
 13-14	pemerintahannya	_	_	_	_	_	_	_	_
 13	pemerintahan	perintah	NOUN	_	_	12	nmod	_	_
-14	nya	nya	DET	_	Poss=Yes|PronType=Prs	13	det:poss	_	_
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 15	untuk	untuk	SCONJ	_	_	16	mark	_	_
 16	membebaskan	bebas	VERB	_	Voice=Act	12	acl	_	_
 17	Bosphorus	Bosphorus	PROPN	_	_	16	obj	_	_
@@ -21225,7 +21225,7 @@
 10	armada	armada	NOUN	_	_	9	obj	_	_
 11-12	perangnya	_	_	_	_	_	_	_	_
 11	perang	perang	NOUN	_	_	10	compound	_	_
-12	nya	nya	DET	_	Poss=Yes	10	det:poss	_	_
+12	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
 13	di	di	ADP	_	_	14	case	_	_
 14	Laut	laut	NOUN	_	_	9	obl	_	_
 15	Hitam	Hitam	PROPN	_	_	14	nmod	_	SpaceAfter=No
@@ -21237,7 +21237,7 @@
 1	Dalam	dalam	ADP	_	_	2	case	_	_
 2-3	lingkupnya	_	_	_	_	_	_	_	SpaceAfter=No
 2	lingkup	lingkup	NOUN	_	_	6	nmod	_	_
-3	nya	nya	DET	_	Poss=Yes	2	det:poss	_	_
+3	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ini	ini	PRON	_	PronType=Dem	6	nsubj	_	_
 6	merupakan	rupa	VERB	_	_	0	root	_	_
@@ -21252,7 +21252,7 @@
 15	yang	yang	SCONJ	_	_	19	mark	_	_
 16-17	situsnya	_	_	_	_	_	_	_	_
 16	situs	situs	NOUN	_	_	19	nsubj:pass	_	_
-17	nya	nya	DET	_	Poss=Yes	16	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	banyak	banyak	ADV	_	_	19	advmod	_	_
 19	dikenal	kenal	VERB	_	Voice=Pass	7	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
@@ -21381,7 +21381,7 @@
 4	selama	lama	ADP	_	_	5	case	_	_
 5-6	pelariannya	_	_	_	_	_	_	_	_
 5	pelarian	lari	NOUN	_	_	3	obl	_	_
-6	nya	nya	DET	_	Poss=Yes|PronType=Prs	5	det:poss	_	_
+6	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
 7	dan	dan	CCONJ	_	_	12	cc	_	_
 8	pada	pada	ADP	_	_	10	case	_	_
 9	banyak	banyak	DET	_	_	10	det	_	_
@@ -21392,7 +21392,7 @@
 14	masa	masa	NOUN	_	_	12	obl	_	_
 15-16	tinggalnya	_	_	_	_	_	_	_	SpaceAfter=No
 15	tinggal	tinggal	VERB	_	Voice=Act	14	acl	_	_
-16	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+16	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w02011012
@@ -21510,7 +21510,7 @@
 5	tahun	tahun	NOUN	_	_	2	nmod	_	_
 6	1917	1917	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	beberapa	berapa	DET	_	PronType=Ind	9	det	_	_
+8	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	9	det	_	_
 9	negara	negara	NOUN	_	_	20	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	seperti	seperti	ADP	_	_	12	case	_	_
@@ -21524,7 +21524,7 @@
 19	,	,	PUNCT	_	_	12	punct	_	_
 20	memenangkan	menang	VERB	_	Voice=Act	0	root	_	_
 21	kemerdekaan	merdeka	NOUN	_	_	20	obj	_	_
-22	mereka	mereka	DET	_	Poss=Yes	21	det:poss	_	SpaceAfter=No
+22	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = w02014013
@@ -21535,7 +21535,7 @@
 3	alat	alat	NOUN	_	_	12	nsubj	_	_
 4-5	terakhirnya	_	_	_	_	_	_	_	_
 4	terakhir	akhir	ADJ	_	Degree=Sup	3	amod	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	3	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 6	untuk	untuk	SCONJ	_	_	7	mark	_	_
 7	menempatkan	tempat	VERB	_	Voice=Act	3	acl	_	_
 8	tekanan	tekan	NOUN	_	_	7	obj	_	_
@@ -21566,7 +21566,7 @@
 11	kedua	dua	NUM	_	NumType=Card	12	nummod	_	_
 12-13	monarkinya	_	_	_	_	_	_	_	_
 12	monarki	monarki	NOUN	_	_	10	obj	_	_
-13	nya	nya	DET	_	Poss=Yes|PronType=Prs	12	det:poss	_	_
+13	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
 14	dengan	dengan	ADP	_	_	15	case	_	_
 15	setara	tara	NOUN	_	_	10	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	10	punct	_	_
@@ -21623,7 +21623,7 @@
 # sent_id = w02015087
 # text = Para biarawati yang terlantar dipindahkan ke Biara Eibingen.
 # text_en = The displaced nuns were moved to the Eibingen cloister.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	biarawati	biara	NOUN	_	_	5	nsubj:pass	_	_
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj:pass	_	_
 4	terlantar	telantar	VERB	_	Voice=Pass	2	acl:relcl	_	_
@@ -21666,7 +21666,7 @@
 15	bersama	sama	ADP	_	_	16	case	_	_
 16-17	pacarnya	_	_	_	_	_	_	_	_
 16	pacar	pacar	NOUN	_	_	12	obl	_	_
-17	nya	nya	DET	_	Poss=Yes|PronType=Prs	16	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	di	di	ADP	_	_	19	case	_	_
 19	Merdingen	Merdingen	PROPN	_	_	12	obl	_	_
 20	di	di	ADP	_	_	21	case	_	_
@@ -21701,7 +21701,7 @@
 16	mengejar	kejar	VERB	_	Voice=Act	0	root	_	_
 17-18	targetnya	_	_	_	_	_	_	_	_
 17	target	target	NOUN	_	_	16	obj	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	17	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
 19	untuk	untuk	SCONJ	_	_	20	mark	_	_
 20	memenangkan	menang	VERB	_	Voice=Act	17	acl	_	_
 21	medali	medali	NOUN	_	_	20	obj	_	_
@@ -21739,7 +21739,7 @@
 3	di	di	ADP	_	_	4	case	_	_
 4-5	pakaiannya	_	_	_	_	_	_	_	_
 4	pakaian	pakai	NOUN	_	_	1	nmod	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	berbentuk	bentuk	VERB	_	Voice=Act	0	root	_	_
 7	sama	sama	ADJ	_	_	6	xcomp	_	_
 8	dengan	dengan	ADP	_	_	9	case	_	_
@@ -21820,7 +21820,7 @@
 16	ramah	ramah	ADJ	_	_	17	amod	_	_
 17-18	persnya	_	_	_	_	_	_	_	_
 17	pers	pers	NOUN	_	_	15	nmod	_	_
-18	nya	nya	DET	_	Poss=Yes|PronType=Prs	15	det:poss	_	_
+18	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 19	terhadap	hadap	ADP	_	_	20	case	_	_
 20	AS	AS	PROPN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	_
@@ -21845,7 +21845,7 @@
 15	mana	mana	PRON	_	_	14	fixed	_	_
 16-17	populasinya	_	_	_	_	_	_	_	_
 16	populasi	populasi	NOUN	_	_	20	nsubj:pass	_	_
-17	nya	nya	DET	_	Poss=Yes	16	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	sebagian	bagi	NOUN	_	_	16	nmod	_	_
 19	besar	besar	ADJ	_	_	18	amod	_	_
 20	terdiri	diri	VERB	_	Voice=Pass	1	acl:relcl	_	_
@@ -21855,7 +21855,7 @@
 24	yang	yang	PRON	_	PronType=Rel	22	conj	_	_
 25-26	asal-muasalnya	_	_	_	_	_	_	_	_
 25	asal-muasal	asal	NOUN	_	_	24	nmod	_	_
-26	nya	nya	DET	_	Poss=Yes	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	imigran	imigran	NOUN	_	_	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -22096,7 +22096,7 @@
 8	pemerintahan	perintah	NOUN	_	_	5	nmod	_	_
 9	sendiri	sendiri	DET	_	PronType=Emp	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	sebuah	buah	DET	_	_	12	det	_	_
+11	sebuah	buah	DET	_	PronType=Ind	12	det	_	_
 12	pola	pola	NOUN	_	_	5	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 14	sebagian	bagi	NOUN	_	_	16	obl	_	_
@@ -22118,7 +22118,7 @@
 30	dari	dari	ADP	_	_	31	case	_	_
 31-32	tetangganya	_	_	_	_	_	_	_	_
 31	tetangga	tetangga	NOUN	_	_	29	obl	_	_
-32	nya	nya	DET	_	Poss=Yes	31	det:poss	_	_
+32	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det:poss	_	_
 33	oleh	oleh	ADP	_	_	34	case	_	_
 34	laut	laut	NOUN	_	_	29	obl	_	_
 35	atau	atau	CCONJ	_	_	36	cc	_	_
@@ -22148,7 +22148,7 @@
 17	dengan	dengan	ADP	_	_	18	case	_	_
 18	sistem	sistem	NOUN	_	_	12	nmod	_	_
 19	politik	politik	NOUN	_	_	18	compound	_	_
-20	mereka	mereka	DET	_	Poss=Yes	18	det:poss	_	_
+20	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 21	sendiri	sendiri	DET	_	PronType=Emp	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -22171,7 +22171,7 @@
 14	dalam	dalam	ADP	_	_	15	case	_	_
 15	bahasa	bahasa	NOUN	_	_	13	nmod	_	_
 16	ibu	ibu	NOUN	_	_	15	compound	_	_
-17	mereka	mereka	DET	_	Poss=Yes	15	det:poss	_	SpaceAfter=No
+17	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = w03007008
@@ -22207,7 +22207,7 @@
 8	sepanjang	panjang	NOUN	_	_	9	nmod	_	_
 9	Mediterania	Mediterania	PROPN	_	_	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	sebuah	buah	DET	_	_	12	det	_	_
+11	sebuah	buah	DET	_	PronType=Ind	12	det	_	_
 12	teknik	teknik	NOUN	_	_	2	parataxis	_	_
 13	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 14	belum	belum	PART	NEG	Polarity=Neg	16	advmod	_	_
@@ -22231,7 +22231,7 @@
 8	awal	awal	NOUN	_	_	7	compound	_	_
 9-10	kariernya	_	_	_	_	_	_	_	_
 9	karier	karier	NOUN	_	_	7	nmod	_	_
-10	nya	nya	DET	_	Poss=Yes|PronType=Prs	9	det:poss	_	_
+10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 11	sebagai	bagai	ADP	_	_	12	case	_	_
 12	revolusioner	revolusioner	NOUN	_	_	9	nmod	_	_
 13	radikal	radikal	ADJ	_	_	12	amod	_	SpaceAfter=No
@@ -22244,12 +22244,12 @@
 2	Pluviose	Pluviose	PROPN	_	_	19	obl	_	_
 3	tahun	tahun	NOUN	_	_	2	nmod	_	_
 4	III	iii	ADJ	_	NumType=Ord	3	amod	_	_
-5	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Januari	Januari	PROPN	_	_	2	nmod:tmod	_	SpaceAfter=No
-7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Februari	Februari	PROPN	_	_	6	flat:range	_	_
 9	1794	1794	NUM	_	NumType=Card	6	flat	_	SpaceAfter=No
-10	)	)	PUNCT	)	_	6	punct	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
 12	meringankan	ringan	VERB	_	Voice=Act	19	advcl	_	_
 13	tekanan	tekan	NOUN	_	_	12	obj	_	_
@@ -22338,7 +22338,7 @@
 # text = Sekembalinya mereka, mereka menyimpan dalam hati ide untuk tinggal di Amerika Selatan, jauh dari masalah pascaperang di Belgia.
 # text_en = On their return, they entertained the idea of living in South America, far away from the problems of postwar Belgium.
 1	Sekembalinya	kembali	NOUN	_	_	5	obl	_	_
-2	mereka	mereka	DET	_	Poss=Yes	1	det:poss	_	SpaceAfter=No
+2	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 5	menyimpan	simpan	VERB	_	Voice=Act	0	root	_	_
@@ -22388,7 +22388,7 @@
 24	meminta	minta	VERB	_	Voice=Act	16	advcl	_	_
 25-26	dukungannya	_	_	_	_	_	_	_	SpaceAfter=No
 25	dukungan	dukung	NOUN	_	_	24	obj	_	_
-26	nya	nya	DET	_	Poss=Yes|PronType=Prs	25	det:poss	_	_
+26	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
 27	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = w03010099
@@ -22402,7 +22402,7 @@
 6	dan	dan	CCONJ	_	_	7	cc	_	_
 7-8	istrinya	_	_	_	_	_	_	_	_
 7	istri	istri	NOUN	_	_	5	conj	_	_
-8	nya	nya	DET	_	Poss=Yes|PronType=Prs	7	det:poss	_	_
+8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	kembali	kembali	VERB	_	Voice=Act	0	root	_	_
 10	ke	ke	ADP	_	_	11	case	_	_
 11	Swiss	Swiss	PROPN	_	_	9	obl	_	SpaceAfter=No
@@ -22411,7 +22411,7 @@
 14	oleh	oleh	ADP	_	_	15	case	_	_
 15	Rosane	Rosane	PROPN	_	_	13	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	seorang	orang	DET	_	_	18	det	_	_
+17	seorang	orang	DET	_	PronType=Ind	18	det	_	_
 18	gadis	gadis	NOUN	_	_	15	appos	_	_
 19	berusia	usia	VERB	_	Voice=Act	18	acl	_	_
 20	18	18	NUM	_	NumType=Card	21	nummod	_	_
@@ -22477,7 +22477,7 @@
 21	ini	ini	DET	_	PronType=Dem	20	det	_	_
 22	terhadap	hadap	ADP	_	_	23	case	_	_
 23	pulau	pulau	NOUN	_	_	17	nmod	_	_
-24	mereka	mereka	DET	_	Poss=Yes	23	det:poss	_	SpaceAfter=No
+24	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	det:poss	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w04001037
@@ -22553,7 +22553,7 @@
 2	tahun	tahun	NOUN	_	_	10	obl	_	_
 3	1928	1928	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	sebuah	buah	DET	_	_	6	det	_	_
+5	sebuah	buah	DET	_	PronType=Ind	6	det	_	_
 6	lapangan	lapang	NOUN	_	_	10	nsubj:pass	_	_
 7	golf	golf	NOUN	_	_	6	compound	_	_
 8	90	90	NUM	_	NumType=Card	9	nummod	_	_
@@ -22648,12 +22648,12 @@
 6	besar	besar	ADJ	_	_	5	amod	_	_
 7	bersifat	sifat	VERB	_	Voice=Act	0	root	_	_
 8	numismatik	numismatik	ADJ	_	_	7	xcomp	_	_
-9	(	(	PUNCT	(	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	studi	studi	NOUN	_	_	8	appos	_	_
 11	atau	atau	CCONJ	_	_	12	cc	_	_
 12	koleksi	koleksi	NOUN	_	_	10	conj	_	_
 13	uang	uang	NOUN	_	_	12	compound	_	SpaceAfter=No
-14	)	)	PUNCT	)	_	10	punct	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	dengan	dengan	ADP	_	_	17	case	_	_
 17	tujuan	tuju	NOUN	_	_	8	obl	_	_
@@ -22695,7 +22695,7 @@
 4	prasejarah	prasejarah	NOUN	_	_	3	compound	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	termasuk	masuk	VERB	_	Voice=Pass	3	acl	_	_
-7	beberapa	berapa	DET	_	PronType=Ind	8	det	_	_
+7	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	8	det	_	_
 8	menhir	menhir	NOUN	_	_	6	nsubj:pass	_	_
 9	dan	dan	CCONJ	_	_	10	cc	_	_
 10	dolmen	dolmen	NOUN	_	_	8	conj	_	_
@@ -22738,7 +22738,7 @@
 7	Apulia	Apulia	PROPN	_	_	6	nmod:poss	_	_
 8	digunakan	guna	VERB	_	Voice=Pass	0	root	_	_
 9	oleh	oleh	ADP	_	_	11	case	_	_
-10	beberapa	berapa	DET	_	PronType=Ind	11	det	_	_
+10	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	11	det	_	_
 11	penulis	tulis	NOUN	_	_	8	obl	_	_
 12	untuk	untuk	SCONJ	_	_	13	mark	_	_
 13	menandakan	tanda	VERB	_	Voice=Act	8	advcl	_	_
@@ -22778,11 +22778,11 @@
 2	sedikit	sedikit	ADJ	_	_	4	amod	_	_
 3	dari	dari	ADP	_	_	4	case	_	_
 4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
-5	(	(	PUNCT	(	_	7	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	dengan	dengan	ADP	_	_	7	case	_	_
 7	gelar	gelar	NOUN	_	_	4	nmod	_	_
 8	earl	earl	X	_	_	7	nmod	_	SpaceAfter=No
-9	)	)	PUNCT	)	_	7	punct	_	_
+9	)	)	PUNCT	_	_	7	punct	_	_
 10	telah	telah	AUX	SC	_	11	aux	_	_
 11	ada	ada	VERB	_	Voice=Act	0	root	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
@@ -22805,7 +22805,7 @@
 3	Koalisi	koalisi	NOUN	_	_	2	compound	_	_
 4	Pertama	pertama	ADJ	_	NumType=Ord	2	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	seorang	orang	DET	_	_	7	det	_	_
+6	seorang	orang	DET	_	PronType=Ind	7	det	_	_
 7	petugas	tugas	NOUN	_	_	10	nsubj	_	_
 8	artileri	artileri	NOUN	_	_	7	compound	_	_
 9	Korsika	Korsika	PROPN	_	_	7	nmod	_	_
@@ -22896,7 +22896,7 @@
 15	namun	namun	CCONJ	_	_	19	cc	_	_
 16-17	harapannya	_	_	_	_	_	_	_	_
 16	harapan	harap	NOUN	_	_	19	nsubj	_	_
-17	nya	nya	DET	_	Poss=Yes|PronType=Prs	16	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	segera	segera	ADV	_	_	19	advmod	_	_
 19	hancur	hancur	VERB	_	Voice=Act	2	conj	_	SpaceAfter=No
 20	:	:	PUNCT	_	_	27	punct	_	_
@@ -22942,7 +22942,7 @@
 19	sepanjang	panjang	NOUN	_	_	20	nmod	_	_
 20-21	hidupnya	_	_	_	_	_	_	_	SpaceAfter=No
 20	hidup	hidup	NOUN	_	_	15	obl	_	_
-21	nya	nya	DET	_	Poss=Yes|PronType=Prs	20	det:poss	_	_
+21	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 22	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w04009042
@@ -23007,9 +23007,9 @@
 12	di	di	ADP	_	_	13	case	_	_
 13	konservatorium	konservatorium	NOUN	_	_	11	obl	_	_
 14	Santa	Santa	PROPN	_	_	13	nmod	_	_
-15	(	(	PUNCT	(	_	16	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	Saint	Saint	PROPN	_	_	14	appos	_	SpaceAfter=No
-17	)	)	PUNCT	)	_	16	punct	_	_
+17	)	)	PUNCT	_	_	16	punct	_	_
 18	Cecelia	Cecelia	PROPN	_	_	14	flat	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -23100,7 +23100,7 @@
 1	Selama	lama	ADP	_	_	3	case	_	_
 2	berbagai	bagai	DET	NN	_	3	det	_	_
 3	kolaborasi	kolaborasi	NOUN	_	_	7	obl	_	_
-4	mereka	mereka	DET	_	Poss=Yes	3	det:poss	_	SpaceAfter=No
+4	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
 7	jelas	jelas	ADJ	_	_	0	root	_	_
@@ -23111,7 +23111,7 @@
 12	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
 13	awalnya	awal	ADV	_	_	14	advmod	_	_
 14	memikirkan	pikir	VERB	_	Voice=Act	8	acl:relcl	_	_
-15	beberapa	berapa	DET	_	PronType=Ind	16	det	_	_
+15	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	solusi	solusi	NOUN	_	_	14	obj	_	_
 17	bergaya	gaya	VERB	_	Voice=Act	16	acl	_	_
 18	dalam	dalam	ADP	_	_	19	case	_	_
@@ -23170,7 +23170,7 @@
 15	dinding-dinding	dinding	NOUN	_	Number=Plur	12	obl	_	_
 16-17	penopangnya	_	_	_	_	_	_	_	SpaceAfter=No
 16	penopang	topang	NOUN	_	_	15	compound	_	_
-17	nya	nya	DET	_	Poss=Yes	15	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = w05001045
@@ -23214,7 +23214,7 @@
 9	Selatan	Selatan	PROPN	_	_	8	flat	_	_
 10	sudah	sudah	AUX	_	_	11	aux	_	_
 11	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
-12	beberapa	berapa	DET	_	PronType=Ind	13	det	_	_
+12	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	13	det	_	_
 13	rangkaian	rangkai	NOUN	_	_	11	obj	_	_
 14	pegunungan	gunung	NOUN	_	_	13	compound	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
@@ -23282,7 +23282,7 @@
 2	bawah	bawah	NOUN	_	_	3	nmod	_	_
 3-4	pemerintahannya	_	_	_	_	_	_	_	SpaceAfter=No
 3	pemerintahan	perintah	NOUN	_	_	8	obl	_	_
-4	nya	nya	DET	_	Poss=Yes|PronType=Prs	3	det:poss	_	_
+4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	suara	suara	NOUN	_	_	8	nsubj:pass	_	_
 7	perempuan	perempuan	NOUN	_	_	6	compound	_	_
@@ -23299,7 +23299,7 @@
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	kembali	kembali	VERB	_	Voice=Act	17	xcomp	_	_
 20	dan	dan	CCONJ	_	_	26	cc	_	_
-21	para	para	DET	_	_	22	det	_	_
+21	para	para	DET	_	Number=Plur	22	det	_	_
 22	tahanan	tahan	NOUN	_	_	26	nsubj:pass	_	_
 23	politik	politik	NOUN	_	_	22	compound	_	_
 24	yang	yang	PRON	_	PronType=Rel	25	nsubj:pass	_	_
@@ -23407,12 +23407,12 @@
 8	yang	yang	PRON	_	PronType=Rel	9	nsubj:pass	_	_
 9	dibutuhkan	butuh	VERB	_	Voice=Pass	7	acl:relcl	_	_
 10	oleh	oleh	ADP	_	_	12	case	_	_
-11	para	para	DET	_	_	12	det	_	_
+11	para	para	DET	_	Number=Plur	12	det	_	_
 12	pendatang	datang	NOUN	_	_	9	obl	_	_
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	mendapatkan	dapat	VERB	_	Voice=Act	9	advcl	_	_
 15	kemerdekaan	merdeka	NOUN	_	_	14	obj	_	_
-16	mereka	mereka	DET	_	Poss=Yes	15	det:poss	_	SpaceAfter=No
+16	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w05005085
@@ -23434,7 +23434,7 @@
 14	orang	orang	NOUN	_	_	13	obj	_	_
 15	Inggris	Inggris	PROPN	_	_	14	nmod	_	_
 16	karena	karena	SCONJ	_	_	19	mark	_	_
-17	para	para	DET	_	_	18	det	_	_
+17	para	para	DET	_	Number=Plur	18	det	_	_
 18	kolonis	kolonis	NOUN	_	_	19	nsubj	_	_
 19	mengambil	ambil	VERB	_	Voice=Act	13	advcl	_	_
 20	alih	alih	VERB	_	_	19	compound	_	_
@@ -23443,7 +23443,7 @@
 23	dan	dan	CCONJ	_	_	24	cc	_	_
 24	banyak	banyak	ADV	_	_	22	conj	_	_
 25	tanah	tanah	NOUN	_	_	19	obj	_	_
-26	mereka	mereka	DET	_	Poss=Yes	25	det:poss	_	SpaceAfter=No
+26	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w05005086
@@ -23531,7 +23531,7 @@
 15	perubahan-perubahan	ubah	NOUN	_	Number=Plur	10	conj	_	_
 16-17	historisnya	_	_	_	_	_	_	_	SpaceAfter=No
 16	historis	historis	ADJ	_	_	15	amod	_	_
-17	nya	nya	DET	_	Poss=Yes	15	det:poss	_	_
+17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	dan	dan	CCONJ	_	_	20	cc	_	_
 20	penggunaan	guna	NOUN	_	_	10	conj	_	_
@@ -23572,7 +23572,7 @@
 28	di	di	ADP	_	_	30	case	_	_
 29	atas	atas	NOUN	_	_	30	nmod	_	_
 30	tante	tante	NOUN	_	_	21	obl	_	_
-31	mereka	mereka	DET	_	Poss=Yes	30	det:poss	_	_
+31	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	det:poss	_	_
 32	Isabella	Isabella	PROPN	_	_	30	appos	_	_
 33	dari	dari	ADP	_	_	34	case	_	_
 34	Prancis	Prancis	PROPN	_	_	32	nmod	_	SpaceAfter=No
@@ -23596,7 +23596,7 @@
 13	menjalankan	jalan	VERB	_	Voice=Act	11	xcomp	_	_
 14-15	rencananya	_	_	_	_	_	_	_	SpaceAfter=No
 14	rencana	rencana	NOUN	_	_	13	obj	_	_
-15	nya	nya	DET	_	Poss=Yes|PronType=Prs	14	det:poss	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 16	:	:	PUNCT	_	_	17	punct	_	_
 17	invasi	invasi	NOUN	_	_	14	appos	_	_
 18	terhadap	hadap	ADP	_	_	20	case	_	_
@@ -23639,7 +23639,7 @@
 5	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	bertemu	temu	VERB	_	Voice=Act	0	root	_	_
 7	dengan	dengan	ADP	_	_	9	case	_	_
-8	seorang	orang	DET	_	_	9	det	_	_
+8	seorang	orang	DET	_	PronType=Ind	9	det	_	_
 9	teman	teman	NOUN	_	_	6	obl	_	_
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 11	bekerja	kerja	VERB	_	Voice=Act	9	acl:relcl	_	_
@@ -23647,7 +23647,7 @@
 13	label	label	NOUN	_	_	11	obl	_	_
 14-15	rekamannya	_	_	_	_	_	_	_	_
 14	rekaman	rekam	NOUN	_	_	13	compound	_	_
-15	nya	nya	DET	_	Poss=Yes|PronType=Prs	13	det:poss	_	_
+15	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
 16	The	The	PROPN	_	_	13	appos	_	_
 17	Rocket	Rocket	PROPN	_	_	16	flat	_	_
 18	Record	Record	PROPN	_	_	16	flat	_	_
@@ -23696,7 +23696,7 @@
 12	secara	cara	ADP	_	_	13	case:adv	_	_
 13	ilegal	ilegal	ADJ	_	_	10	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	sebuah	buah	DET	_	_	16	det	_	_
+15	sebuah	buah	DET	_	PronType=Ind	16	det	_	_
 16	tindakan	tindak	NOUN	_	_	10	advcl	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj:pass	_	_
 18	dapat	dapat	AUX	_	_	19	aux	_	_
@@ -23705,7 +23705,7 @@
 21	mengambil	ambil	VERB	_	Voice=Act	19	advcl	_	_
 22	keuntungan	untung	NOUN	_	_	21	obj	_	_
 23	dari	dari	ADP	_	_	25	case	_	_
-24	para	para	DET	_	_	25	det	_	_
+24	para	para	DET	_	Number=Plur	25	det	_	_
 25	pendukung	dukung	NOUN	_	_	21	obl	_	_
 26	Caesar	Caesar	PROPN	_	_	25	nmod:poss	_	_
 27	yang	yang	PRON	_	PronType=Rel	28	nsubj	_	_
@@ -23737,7 +23737,7 @@
 18	masa	masa	NOUN	_	_	17	nsubj	_	_
 19-20	jabatannya	_	_	_	_	_	_	_	_
 19	jabatan	jabat	NOUN	_	_	18	compound	_	_
-20	nya	nya	DET	_	Poss=Yes|PronType=Prs	18	det:poss	_	_
+20	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 
 # sent_id = w05010025
 # text = Sementara itu, tempatnya di tribun ditempati oleh Marco Antonio, yang memegang posisi itu hingga Desember.
@@ -23747,7 +23747,7 @@
 3	,	,	PUNCT	_	_	8	punct	_	_
 4-5	tempatnya	_	_	_	_	_	_	_	_
 4	tempat	tempat	NOUN	_	_	8	nsubj:pass	_	_
-5	nya	nya	DET	_	Poss=Yes|PronType=Prs	4	det:poss	_	_
+5	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
 6	di	di	ADP	_	_	7	case	_	_
 7	tribun	tribun	NOUN	_	_	4	nmod	_	_
 8	ditempati	tempat	VERB	_	Voice=Pass	0	root	_	_
@@ -23790,7 +23790,7 @@
 19	menarik	tarik	VERB	_	Voice=Act	17	acl	_	_
 20-21	pasukannya	_	_	_	_	_	_	_	_
 20	pasukan	pasuk	NOUN	_	_	19	obj	_	_
-21	nya	nya	DET	_	Poss=Yes|PronType=Prs	20	det:poss	_	_
+21	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
 22	atau	atau	CCONJ	_	_	23	cc	_	_
 23	menjadi	jadi	VERB	_	Voice=Act	19	conj	_	_
 24	musuh	musuh	NOUN	_	_	23	obl	_	_
@@ -23817,7 +23817,7 @@
 45	lawan-lawan	lawan	NOUN	_	Number=Plur	44	nmod	_	_
 46-47	politiknya	_	_	_	_	_	_	_	SpaceAfter=No
 46	politik	politik	NOUN	_	_	45	compound	_	_
-47	nya	nya	DET	_	Poss=Yes|PronType=Prs	45	det:poss	_	_
+47	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	det:poss	_	_
 48	.	.	PUNCT	_	_	28	punct	_	_
 
 # sent_id = w05010027
@@ -23833,7 +23833,7 @@
 8	Marco	Marco	PROPN	_	_	10	nsubj	_	_
 9	Antonio	Antonio	PROPN	_	_	8	flat	_	_
 10	membaca	baca	VERB	_	Voice=Act	0	root	_	_
-11	sebuah	buah	DET	_	_	12	det	_	_
+11	sebuah	buah	DET	_	PronType=Ind	12	det	_	_
 12	deklarasi	deklarasi	NOUN	_	_	10	obj	_	_
 13	dari	dari	ADP	_	_	14	case	_	_
 14	Caesar	Caesar	PROPN	_	_	12	nmod	_	_
@@ -23844,8 +23844,8 @@
 19	tersebut	sebut	DET	_	_	18	det	_	_
 20	menyatakan	nyata	VERB	_	Voice=Act	12	acl	_	_
 21-22	dirinya	_	_	_	_	_	_	_	_
-21	diri	diri	PRON	_	Reflex=Yes	20	obj	_	_
-22	nya	nya	DET	_	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	20	obj	_	_
+22	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
 23	sebagai	bagai	ADP	_	_	24	case	_	_
 24	teman	teman	NOUN	_	_	20	obl	_	_
 25	damai	damai	ADJ	_	_	24	amod	_	SpaceAfter=No
