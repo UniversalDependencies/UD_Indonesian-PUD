@@ -37,7 +37,7 @@ employ ten-fold cross-validation.
 README FROM UI
 ==================
 
-A reseach team from Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
+A reseach team from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
 
 A description of how the treebank were manually revised by UI  in 2019 can be found in:
 
@@ -130,7 +130,7 @@ Includes text: yes
 Genre: news wiki
 Lemmas: manual native
 UPOS: manual native
-XPOS: manual native
+XPOS: not available
 Features: manual native
 Relations: manual native
 Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Manurung, Ruli; Shohibussirri, Muh; Popel, Martin; Zeman, Daniel; Alfina, Ika; Dinakaramani, Arawinda; Hanifmuti, Muhammad Yudistira; Arwidarasti, Jessica Naraiswari; Sulestio, Yogi Lesmana
