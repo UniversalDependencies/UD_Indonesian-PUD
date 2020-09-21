@@ -117,7 +117,7 @@ The contributors of the 2020 revision are:
 
 # Changelog
 * 2020-11-15 v2.7
-  * Manual revision conducted by a reseach team from Universitas Indonesia
+  * Manual revision conducted by a reseach team from Faculty of Computer Science, Universitas Indonesia (UI)
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
