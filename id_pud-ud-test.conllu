@@ -11,7 +11,7 @@
 8	di	di	ADP	_	_	9	case	_	_
 9	Amerika	Amerika	PROPN	_	_	7	obl	_	_
 10	Serikat	Serikat	PROPN	_	_	9	flat	_	_
-11	belum	belum	PART	NEG	Polarity=Neg	13	advmod	_	_
+11	belum	belum	PART	_	Polarity=Neg	13	advmod	_	_
 12	pernah	pernah	ADV	_	_	13	advmod	_	_
 13	terjadi	jadi	VERB	_	Voice=Pass	22	advcl	_	_
 14	sebelumnya	belum	ADV	_	_	13	advmod	_	SpaceAfter=No
@@ -21,7 +21,7 @@
 18	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
 19	damai	damai	ADJ	_	_	16	acl:relcl	_	_
 20-21	tidaklah	_	_	_	_	_	_	_	_
-20	tidak	tidak	PART	NEG	Polarity=Neg	22	advmod	_	_
+20	tidak	tidak	PART	_	Polarity=Neg	22	advmod	_	_
 21	lah	lah	PART	_	_	20	advmod:emph	_	_
 22	begitu	begitu	PRON	_	PronType=Dem	0	root	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	SpaceAfter=No
@@ -66,7 +66,7 @@
 # text = Namun tidak seperti retorikanya sebelumnya tentang pembatasan imigrasi, kandidat GOP ini menyerukan bahwa sebagai presiden ia akan mengizinkan imigran legal “dalam jumlah yang sangat besar” berdasarkan “sistem merit.”
 # text_en = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
 1	Namun	namun	CCONJ	_	_	4	cc	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 3	seperti	seperti	ADP	_	_	4	case	_	_
 4-5	retorikanya	_	_	_	_	_	_	_	_
 4	retorika	retorika	NOUN	_	Number=Sing	14	obl	_	_
@@ -95,7 +95,7 @@
 27	sangat	sangat	ADV	_	_	28	advmod	_	_
 28	besar	besar	ADJ	_	_	25	acl:relcl	_	SpaceAfter=No
 29	”	”	PUNCT	_	_	25	punct	_	_
-30	berdasarkan	dasar	VERB	IN	Voice=Act	20	advcl	_	_
+30	berdasarkan	dasar	VERB	_	Voice=Act	20	advcl	_	_
 31	“	“	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	sistem	sistem	NOUN	_	Number=Sing	30	obl	_	_
 33	merit	merit	NOUN	_	Number=Sing	32	compound	_	SpaceAfter=No
@@ -109,7 +109,7 @@
 2	Jadi	jadi	ADV	_	_	6	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-5	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
 6	suka	suka	VERB	_	Voice=Act	0	root	_	_
 7	menaruh	taruh	VERB	_	Voice=Act	6	xcomp	_	_
 8	sedikit	sedikit	ADJ	_	_	9	amod	_	_
@@ -125,7 +125,7 @@
 18	ada	ada	VERB	_	Voice=Act	6	conj	_	_
 19	di	di	ADP	_	_	20	case	_	_
 20	pundak	pundak	NOUN	_	Number=Sing	18	obl	_	_
-21	Anda	anda	DET	PRP	Poss=Yes	20	det:poss	_	SpaceAfter=No
+21	Anda	anda	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	20	det:poss	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	6	punct	_	SpaceAfter=No
 23	”	”	PUNCT	_	_	6	punct	_	_
 24-25	ucapnya	_	_	_	_	_	_	_	_
@@ -375,7 +375,7 @@
 8	waktu	waktu	NOUN	_	Number=Sing	7	obj	_	_
 9	sekitar	kitar	ADV	_	_	11	advmod	_	_
 10	empat	empat	NUM	_	NumType=Card	11	nummod	_	_
-11	menit	menit	NOUN	NNB	Number=Sing	8	nmod	_	_
+11	menit	menit	NOUN	_	Number=Sing	8	nmod	_	_
 12	untuk	untuk	SCONJ	_	_	13	mark	_	_
 13	menyeberangi	seberang	VERB	_	Voice=Act	7	advcl	_	_
 14	Potomac	Potomac	PROPN	_	_	13	obj	_	_
@@ -434,7 +434,7 @@
 8	—	—	PUNCT	_	_	11	punct	_	_
 9	hanya	hanya	ADV	_	_	11	advmod	_	_
 10	11	11	NUM	_	NumType=Card	11	nummod	_	_
-11	persen	persen	NOUN	NNB	_	4	parataxis	_	_
+11	persen	persen	NOUN	_	_	4	parataxis	_	_
 12	dari	dari	ADP	_	_	13	case	_	_
 13	total	total	NOUN	_	Number=Sing	11	nmod	_	_
 14	suara	suara	NOUN	_	Number=Sing	13	nmod	_	_
@@ -473,7 +473,7 @@
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	tapi	tetapi	CCONJ	_	_	15	cc	_	_
 12	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 14	selalu	selalu	ADV	_	PronType=Tot	15	advmod	_	_
 15	sendiri	sendiri	ADJ	_	_	7	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
@@ -494,7 +494,7 @@
 11	kebun	kebun	NOUN	_	Number=Sing	10	obj	_	_
 12	binatang	binatang	NOUN	_	Number=Sing	11	compound	_	_
 13	dengan	dengan	ADP	_	_	15	case	_	_
-14	berbagai	bagai	DET	NN	_	15	det	_	_
+14	berbagai	bagai	DET	_	_	15	det	_	_
 15	spesies	spesies	NOUN	_	Number=Sing	10	obl	_	_
 16	binatang	binatang	NOUN	_	Number=Sing	15	compound	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -731,8 +731,8 @@
 27	lebih	lebih	ADV	_	_	30	advmod	_	_
 28	dari	dari	ADP	_	_	27	fixed	_	_
 29	tiga	tiga	NUM	_	NumType=Card	30	nummod	_	_
-30	kali	kali	NOUN	NNB	_	33	obl	_	_
-31	lipat	lipat	NOUN	NNB	_	30	compound	_	_
+30	kali	kali	NOUN	_	Number=Sing	33	obl	_	_
+31	lipat	lipat	NOUN	_	_	30	compound	_	_
 32	bayi	bayi	NOUN	_	Number=Sing	33	nsubj:pass	_	_
 33	dinamai	nama	VERB	_	Voice=Pass	21	parataxis	_	_
 34	Keira	Keira	PROPN	_	_	33	obl	_	_
@@ -791,7 +791,7 @@
 1	Ponsel	ponsel	NOUN	_	Number=Sing	5	nsubj	_	_
 2	Mate	Mate	PROPN	_	_	1	nmod	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 5	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
 6	antarmuka	antarmuka	NOUN	_	Number=Sing	5	obj	_	_
 7	kecerdasan	cerdas	NOUN	_	Number=Sing	6	compound	_	_
@@ -820,12 +820,12 @@
 10	pesawat	pesawat	NOUN	_	Number=Sing	8	nmod	_	_
 11	sering	sering	ADV	_	_	15	advmod	_	_
 12	kali	kali	NOUN	_	Number=Sing	11	compound	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 14	dapat	dapat	AUX	_	_	15	aux	_	_
 15	diandalkan	andal	VERB	_	Voice=Pass	6	ccomp	_	_
 16	dan	dan	CCONJ	_	_	20	cc	_	_
 17	kemungkinan	mungkin	ADV	_	_	20	advmod	_	_
-18	tidak	tidak	PART	NEG	Polarity=Neg	20	advmod	_	_
+18	tidak	tidak	PART	_	Polarity=Neg	20	advmod	_	_
 19	akan	akan	AUX	_	_	20	aux	_	_
 20	mempengaruhi	pengaruh	VERB	_	Voice=Act	15	conj	_	_
 21	pilihan	pilih	NOUN	_	Number=Sing	20	obj	_	_
@@ -1159,7 +1159,7 @@
 18	di	di	ADP	_	_	21	case	_	_
 19	bawah	bawah	NOUN	_	Number=Sing	21	nmod	_	_
 20	2	2	NUM	_	NumType=Card	21	nummod	_	_
-21	C	c	NOUN	NNB	Abbr=Yes	15	nmod	_	SpaceAfter=No
+21	C	c	NOUN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n01022005
@@ -1262,7 +1262,7 @@
 15	target	target	NOUN	_	Number=Sing	13	obl	_	_
 16	sebesar	besar	NOUN	_	Number=Sing	15	nmod	_	_
 17	1,5	1,5	NUM	_	NumType=Card	18	nummod	_	_
-18	derajat	derajat	NOUN	NNB	Number=Sing	16	nmod	_	SpaceAfter=No
+18	derajat	derajat	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01023020
@@ -1306,7 +1306,7 @@
 17	banyak	banyak	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	spesies	spesies	NOUN	_	Number=Sing	15	obj	_	_
 19	-	-	PUNCT	_	_	22	punct	_	_
-20	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
+20	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 21	hanya	hanya	ADV	_	_	22	advmod	_	_
 22	dinosaurus	dinosaurus	NOUN	_	Number=Sing	18	nmod	_	_
 23	-	-	PUNCT	_	_	22	punct	_	_
@@ -1535,7 +1535,7 @@
 5	memilih	pilih	VERB	_	Voice=Act	0	root	_	_
 6	sanksi	sanksi	NOUN	_	Number=Sing	5	obj	_	_
 7	yang	yang	PRON	_	PronType=Rel	9	nsubj	_	_
-8	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 9	biasa	biasa	ADJ	_	_	6	acl:relcl	_	_
 10	sebelumnya	belum	ADV	_	_	5	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -1595,7 +1595,7 @@
 # sent_id = n01027049
 # text = Tak semua orang bisa beranjak melampaui itu.
 # text_en = Not everyone can rise above it.
-1	Tak	tak	PART	NEG	Polarity=Neg	3	advmod	_	_
+1	Tak	tak	PART	_	Polarity=Neg	3	advmod	_	_
 2	semua	semua	DET	_	PronType=Tot	3	det	_	_
 3	orang	orang	NOUN	_	Number=Sing	5	nsubj	_	_
 4	bisa	bisa	AUX	_	_	5	aux	_	_
@@ -1770,7 +1770,7 @@
 20	”	”	PUNCT	_	_	19	punct	_	_
 21	namun	namun	CCONJ	_	_	22	cc	_	_
 22	dilaporkan	lapor	VERB	_	Voice=Pass	10	conj	_	_
-23	tidak	tidak	PART	NEG	Polarity=Neg	24	advmod	_	_
+23	tidak	tidak	PART	_	Polarity=Neg	24	advmod	_	_
 24	ada	ada	VERB	_	Voice=Act	22	ccomp	_	_
 25	yang	yang	PRON	_	PronType=Rel	24	nsubj	_	_
 26	cedera	cedera	ADJ	_	_	25	amod	_	SpaceAfter=No
@@ -1793,7 +1793,7 @@
 11	Oscar	Oscar	PROPN	_	_	10	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	dilaporkan	lapor	VERB	_	Voice=Pass	0	root	_	_
-14	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 15	berada	ada	VERB	_	Voice=Act	13	xcomp	_	_
 16	di	di	ADP	_	_	17	case	_	_
 17	lokasi	lokasi	NOUN	_	Number=Sing	15	obl	_	_
@@ -1855,7 +1855,7 @@
 10	selama	lama	ADP	_	_	13	case	_	_
 11	sekitar	kitar	ADV	_	_	13	advmod	_	_
 12	20	20	NUM	_	NumType=Card	13	nummod	_	_
-13	tahun	tahun	NOUN	NNB	Number=Sing	4	obl	_	SpaceAfter=No
+13	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01031021
@@ -1950,7 +1950,7 @@
 1	Namun	namun	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
 5	bisa	bisa	AUX	_	_	6	aux	_	_
 6	menemukan	temu	VERB	_	Voice=Act	0	root	_	_
 7	pola	pola	NOUN	_	Number=Sing	6	obj	_	_
@@ -1964,7 +1964,7 @@
 15	kemih	kemih	NOUN	_	Number=Sing	14	compound	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj:pass	_	_
-18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
+18	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 19	terpapar	papar	VERB	_	Voice=Pass	12	acl:relcl	_	_
 20	secara	cara	ADP	_	_	21	case:adv	_	_
 21	langsung	langsung	ADJ	_	_	19	advmod	_	SpaceAfter=No
@@ -2125,7 +2125,7 @@
 4	mengatakan	kata	VERB	_	Voice=Act	0	root	_	_
 5	awalnya	awal	ADV	_	_	8	advmod	_	_
 6	Klein	Klein	PROPN	_	_	8	nsubj	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 8	memiliki	milik	VERB	_	Voice=Act	4	ccomp	_	_
 9	catatan	catat	NOUN	_	Number=Sing	8	obj	_	_
 10	kriminal	kriminal	ADJ	_	_	9	amod	_	_
@@ -2146,7 +2146,7 @@
 # text_en = "We do not believe the suspect has ties to this school, or to the two girls, or specifically to the Abbotsford area," she said.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	yakin	yakin	ADJ	_	_	0	root	_	_
 5	tersangka	sangka	NOUN	_	Number=Sing	6	nsubj	_	_
 6	memiliki	milik	VERB	_	Voice=Act	4	ccomp	_	_
@@ -2180,15 +2180,15 @@
 3	mengatakan	kata	VERB	_	Voice=Act	0	root	_	_
 4	bahwa	bahwa	SCONJ	_	_	7	mark	_	_
 5	Klein	Klein	PROPN	_	_	7	nsubj	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	7	advmod	_	_
 7	komunikatif	komunikatif	ADJ	_	_	3	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	tidak	tidak	PART	NEG	Polarity=Neg	10	advmod	_	_
+9	tidak	tidak	PART	_	Polarity=Neg	10	advmod	_	_
 10	bekerja	kerja	VERB	_	Voice=Act	7	conj	_	_
 11	sama	sama	ADJ	_	_	10	compound	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	dan	dan	CCONJ	_	_	15	cc	_	_
-14	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 15	mau	mau	VERB	_	Voice=Act	7	conj	_	_
 16	berjalan	jalan	VERB	_	Voice=Act	15	xcomp	_	_
 17	dari	dari	ADP	_	_	18	case	_	_
@@ -2236,7 +2236,7 @@
 25	dalam	dalam	ADP	_	_	26	case	_	_
 26	perilaku	perilaku	NOUN	_	Number=Sing	24	obl	_	_
 27	yang	yang	PRON	_	PronType=Rel	29	nsubj	_	_
-28	tidak	tidak	PART	NEG	Polarity=Neg	29	advmod	_	_
+28	tidak	tidak	PART	_	Polarity=Neg	29	advmod	_	_
 29	etis	etis	ADJ	_	_	26	acl:relcl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -2299,7 +2299,7 @@
 2	kelas	kelas	NOUN	_	Number=Sing	8	nsubj	_	_
 3	menengah	tengah	ADJ	_	_	2	amod	_	_
 4	Tiongkok	Tiongkok	PROPN	_	_	2	nmod	_	_
-5	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
 6	biasanya	biasa	ADV	_	_	8	advmod	_	_
 7	telah	telah	AUX	_	_	8	aux	_	_
 8	bersikap	sikap	VERB	_	Voice=Act	0	root	_	_
@@ -2427,7 +2427,7 @@
 30-31	membuatnya	_	_	_	_	_	_	_	_
 30	membuat	buat	VERB	_	Voice=Act	15	ccomp	_	_
 31	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	30	obj	_	_
-32	tidak	tidak	PART	NEG	Polarity=Neg	33	advmod	_	_
+32	tidak	tidak	PART	_	Polarity=Neg	33	advmod	_	_
 33	layak	layak	ADJ	_	_	30	xcomp	_	_
 34	untuk	untuk	SCONJ	_	_	35	mark	_	_
 35	menjabat	jabat	VERB	_	Voice=Act	33	advcl	_	SpaceAfter=No
@@ -2436,7 +2436,7 @@
 # sent_id = n01039018
 # text = Bukan itu yang kita butuhkan di negara ini, saudara-saudara.
 # text_en = That's not what we need in our country, folks.
-1	Bukan	bukan	PART	NEG	Polarity=Neg	2	advmod	_	_
+1	Bukan	bukan	PART	_	Polarity=Neg	2	advmod	_	_
 2	itu	itu	PRON	_	PronType=Dem	0	root	_	_
 3	yang	yang	SCONJ	_	_	5	mark	_	_
 4	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
@@ -2460,7 +2460,7 @@
 7	tampil	tampil	VERB	_	Voice=Act	0	root	_	_
 8	pertama	pertama	ADJ	_	NumType=Ord	9	amod	_	_
 9-10	kalinya	_	_	_	_	_	_	_	_
-9	kali	kali	NOUN	NNB	_	7	obl	_	_
+9	kali	kali	NOUN	_	_	7	obl	_	_
 10	nya	nya	DET	_	_	9	det	_	_
 11	sejak	sejak	ADP	_	_	12	case	_	_
 12	konvensi	konvensi	NOUN	_	Number=Sing	7	obl	_	_
@@ -2537,7 +2537,7 @@
 # text_en = "Physicians don't have these tools, they have only a prescription pad and an injection," Mailis said.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Dokter	dokter	NOUN	_	Number=Sing	4	nsubj	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
 5	alat-alat	alat	NOUN	_	Number=Plur	4	obj	_	_
 6	ini	ini	DET	_	PronType=Dem	5	det	_	SpaceAfter=No
@@ -2675,7 +2675,7 @@
 13	lebih	lebih	ADV	_	_	16	advmod	_	_
 14	dari	dari	ADP	_	_	13	fixed	_	_
 15	6.000	6.000	NUM	_	NumType=Card	16	nummod	_	_
-16	orang	orang	NOUN	NNB	Number=Sing	12	obj	_	SpaceAfter=No
+16	orang	orang	NOUN	_	Number=Sing	12	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01043025
@@ -2802,7 +2802,7 @@
 # text = "Tidak boleh ada akses istimewa ke pemerintah, atau kelihatan seperti akses istimewa, yang diberikan kepada individu atau organisasi karena mereka memberikan kontribusi finansial kepada politisi dan partai politik," tulis pedoman tersebut.
 # text_en = "There should be no preferential access to government, or appearance of preferential access, accorded to individuals or organizations because they have made financial contributions to politicians and political parties," the guidelines read.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-2	Tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+2	Tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 3	boleh	boleh	AUX	_	_	4	aux	_	_
 4	ada	ada	VERB	_	Voice=Act	0	root	_	_
 5	akses	akses	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -2894,7 +2894,7 @@
 6	lapor	lapor	VERB	_	Voice=Act	3	parataxis	_	_
 7	pelanggan	langgan	NOUN	_	Number=Sing	6	nsubj	_	_
 8	data	data	NOUN	_	Number=Sing	7	nmod	_	_
-9	tak	tak	PART	NEG	Polarity=Neg	10	advmod	_	_
+9	tak	tak	PART	_	Polarity=Neg	10	advmod	_	_
 10	terbatas	batas	ADJ	_	_	8	acl	_	_
 11	SaskTel	SaskTel	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -3351,14 +3351,14 @@
 14	dan	dan	CCONJ	_	_	18	cc	_	_
 15	komentar	komentar	NOUN	_	Number=Sing	18	nsubj	_	_
 16	itu	itu	DET	_	PronType=Dem	15	det	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	menyenangkan	senang	VERB	_	Voice=Act	10	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = n01054017
 # text = Banyak orang, termasuk kelompok penduduk asli, menentang pengkerdilan budaya Bangsa Pertama.
 # text_en = Many people, including Indigenous groups, argue they trivialize First Nations culture.
-1	Banyak	banyak	DET	DD	_	2	amod	_	_
+1	Banyak	banyak	DET	_	_	2	amod	_	_
 2	orang	orang	NOUN	_	Number=Sing	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	termasuk	masuk	VERB	_	Voice=Pass	2	parataxis	_	_
@@ -3402,7 +3402,7 @@
 # text = Ini tidak saja berlaku untuk konten hiburan, tapi sama juga untuk pendidikan, untuk riset ilmiah, dan mungkin yang terpenting, pada wacana politik.
 # text_en = This would not only apply to entertainment content, but equally to education, to scientific research and, perhaps most importantly, to political discourse.
 1	Ini	ini	PRON	_	PronType=Dem	4	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 3	saja	saja	ADV	_	_	4	advmod	_	_
 4	berlaku	laku	VERB	_	Voice=Act	0	root	_	_
 5	untuk	untuk	ADP	_	_	6	case	_	_
@@ -3436,7 +3436,7 @@
 2	pula	pula	ADV	_	_	1	compound	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	internet	internet	NOUN	_	Number=Sing	6	nsubj	_	_
-5	bukan	bukan	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	bukan	bukan	PART	_	Polarity=Neg	6	advmod	_	_
 6	barang	barang	NOUN	_	Number=Sing	0	root	_	_
 7	mewah	mewah	ADJ	_	_	6	amod	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	11	punct	_	_
@@ -3478,7 +3478,7 @@
 4	ada	ada	VERB	_	Voice=Act	0	root	_	_
 5	pertanyaan	tanya	NOUN	_	Number=Sing	4	nsubj	_	_
 6	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
-7	tak	tak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tak	tak	PART	_	Polarity=Neg	8	advmod	_	_
 8	terjawab	jawab	VERB	_	Voice=Pass	5	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3580,12 +3580,12 @@
 4	dan	dan	CCONJ	_	_	5	cc	_	_
 5	retorika	retorika	NOUN	_	Number=Sing	1	conj	_	_
 6	politik	politik	NOUN	_	Number=Sing	5	compound	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 8	asing	asing	ADJ	_	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	atau	atau	CCONJ	_	_	13	cc	_	_
 11	seharusnya	harus	AUX	_	_	13	aux	_	_
-12	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
+12	tidak	tidak	PART	_	Polarity=Neg	13	advmod	_	_
 13	asing	asing	ADJ	_	_	8	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -3616,7 +3616,7 @@
 # text_en = “I don’t know what G.D.P. growth was during the Washington and Lincoln Administrations, but the institutional developments in those terms had large and long-lasting effects.”
 1	“	“	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	tahu	tahu	VERB	_	Voice=Act	0	root	_	_
 5	pertumbuhan	tumbuh	NOUN	_	Number=Sing	4	obl	_	_
 6	PDB	pdb	NOUN	_	Abbr=Yes	5	nmod	_	_
@@ -3665,7 +3665,7 @@
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	tapi	tetapi	CCONJ	_	_	21	cc	_	_
 19	itu	itu	PRON	_	PronType=Dem	21	nsubj	_	_
-20	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
+20	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 21	mendiskreditkan	diskredit	VERB	_	Voice=Act	1	conj	_	_
 22	kesamaan	sama	NOUN	_	Number=Sing	21	obj	_	_
 23	tersebut	sebut	DET	_	PronType=Dem	22	det	_	SpaceAfter=No
@@ -3976,7 +3976,7 @@
 10	menyebut	sebut	VERB	_	Voice=Act	8	acl:relcl	_	_
 11	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 12	“	“	PUNCT	_	_	15	punct	_	SpaceAfter=No
-13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	lebih	lebih	ADV	_	_	15	advmod	_	_
 15	rasional	rasional	ADJ	_	_	10	xcomp	_	_
 16	dari	dari	SCONJ	_	_	17	mark	_	_
@@ -3985,7 +3985,7 @@
 19	saat	saat	SCONJ	_	_	23	mark	_	_
 20	Sungai	sungai	NOUN	_	Number=Sing	23	nsubj	_	_
 21	Nil	Nil	PROPN	_	_	20	nmod	_	_
-22	tidak	tidak	PART	NEG	Polarity=Neg	23	advmod	_	_
+22	tidak	tidak	PART	_	Polarity=Neg	23	advmod	_	_
 23	banjir	banjir	VERB	_	Voice=Act	17	advcl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 25	”	”	PUNCT	_	_	15	punct	_	_
@@ -3994,7 +3994,7 @@
 # text = Tapi tidak ada hal lain yang nyata-nyata artistik tentang dia dalam perilakunya terhadap orang lain.
 # text_en = But there was nothing else obviously artistic about her or in her behavior with other people.
 1	Tapi	tetapi	CCONJ	_	_	3	cc	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	ada	ada	VERB	_	Voice=Act	0	root	_	_
 4	hal	hal	NOUN	_	Number=Sing	3	nsubj	_	_
 5	lain	lain	ADJ	_	_	4	amod	_	_
@@ -4097,7 +4097,7 @@
 8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	sendiri	sendiri	DET	_	PronType=Emp	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
-11	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+11	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 12-13	semuanya	_	_	_	_	_	_	_	_
 12	semua	semua	DET	_	PronType=Tot	13	det	_	_
 13	nya	nya	PRON	_	Number=Sing	14	nsubj	_	_
@@ -4113,7 +4113,7 @@
 4	untuk	untuk	ADP	_	_	6	case	_	_
 5	pertama	pertama	ADJ	_	NumType=Ord	6	amod	_	_
 6-7	kalinya	_	_	_	_	_	_	_	_
-6	kali	kali	NOUN	NNB	_	3	obl	_	_
+6	kali	kali	NOUN	_	_	3	obl	_	_
 7	nya	nya	DET	_	_	6	det	_	_
 8	adalah	adalah	AUX	_	_	9	cop	_	_
 9	peta	peta	NOUN	_	Number=Sing	0	root	_	_
@@ -4294,7 +4294,7 @@
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	banyak	banyak	ADJ	_	_	2	ccomp	_	_
 10	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
-11	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+11	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 12	tahu	tahu	VERB	_	Voice=Act	9	csubj	_	_
 13	tentang	tentang	ADP	_	_	14	case	_	_
 14-15	sejarahnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -4390,7 +4390,7 @@
 14	:	:	PUNCT	_	_	18	punct	_	_
 15	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	kenal	kenal	VERB	_	Voice=Act	12	parataxis	_	_
 19	seorang	orang	NOUN	_	Number=Sing	18	obl	_	_
 20	pun	pun	PART	_	_	19	advmod:emph	_	SpaceAfter=No
@@ -4431,7 +4431,7 @@
 10	terbaik	baik	ADJ	_	Degree=Sup	9	amod	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	dunia	dunia	NOUN	_	Number=Sing	10	obl	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 14	lagi	lagi	ADV	_	_	15	advmod	_	_
 15	dijamin	jamin	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 16	?	?	PUNCT	_	_	15	punct	_	_
@@ -4459,7 +4459,7 @@
 4	berada	ada	VERB	_	Voice=Act	0	root	_	_
 5	dalam	dalam	ADP	_	_	6	case	_	_
 6	titik	titik	NOUN	_	Number=Sing	4	obl	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 8	bisa	bisa	AUX	_	_	9	aux	_	_
 9	kembali	kembali	VERB	_	Voice=Act	6	acl	_	_
 10	dan	dan	CCONJ	_	_	14	cc	_	_
@@ -4741,7 +4741,7 @@
 2	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	det:poss	_	_
 3	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
 4	lebih	lebih	ADV	_	_	6	advmod	_	_
-5	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
 6	biasa	biasa	ADJ	_	_	1	acl:relcl	_	_
 7	antara	antara	ADP	_	_	9	case	_	_
 8	lain	lain	ADJ	_	_	7	fixed	_	_
@@ -4805,7 +4805,7 @@
 # text = Kita tidak boleh membiarkan kepresidenan dimenangkan Donald Trump, seseorang yang sangat rasis, seksis, dan sangat tidak memenuhi kualifikasi menjadi panglima tertinggi.
 # text_en = We can’t let the presidency go to Donald Trump, someone so racist, sexist and incredibly unqualified to be commander-in-chief.
 1	Kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 3	boleh	boleh	AUX	_	_	4	aux	_	_
 4	membiarkan	biar	VERB	_	Voice=Act	0	root	_	_
 5	kepresidenan	presiden	NOUN	_	Number=Sing	6	nsubj:pass	_	_
@@ -4822,7 +4822,7 @@
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	dan	dan	CCONJ	_	_	20	cc	_	_
 18	sangat	sangat	ADV	_	_	20	advmod	_	_
-19	tidak	tidak	PART	NEG	Polarity=Neg	20	advmod	_	_
+19	tidak	tidak	PART	_	Polarity=Neg	20	advmod	_	_
 20	memenuhi	penuh	VERB	_	Voice=Act	13	conj	_	_
 21	kualifikasi	kualifikasi	NOUN	_	Number=Sing	20	obj	_	_
 22	menjadi	jadi	VERB	_	Voice=Act	21	acl	_	_
@@ -5611,7 +5611,7 @@
 # text = Mereka tidak memilikinya pada masa kita, dan banyak orang yang tak punya anak mengekspresikan melalui ketidaksetujuan mereka semua kebencian terhadap pengasuhan modern.
 # text_en = They didn’t have them in our day, and people without children express through their disapproval all their hatred of modern parenting.
 1	Mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3-4	memilikinya	_	_	_	_	_	_	_	_
 3	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
 4	nya	nya	PRON	_	Number=Sing	3	obj	_	_
@@ -5623,7 +5623,7 @@
 10	banyak	banyak	DET	_	Number=Plur|PronType=Ind	11	det	_	_
 11	orang	orang	NOUN	_	Number=Sing	16	nsubj	_	_
 12	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
-13	tak	tak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tak	tak	PART	_	Polarity=Neg	14	advmod	_	_
 14	punya	punya	VERB	_	Voice=Act	11	acl:relcl	_	_
 15	anak	anak	NOUN	_	Number=Sing	14	obj	_	_
 16	mengekspresikan	ekspresi	VERB	_	Voice=Act	3	conj	_	_
@@ -5641,14 +5641,14 @@
 # text = Saya tidak sekadar menyebutnya binatang dengan tidak sungguh-sungguh.
 # text_en = I don’t call it a beast lightly.
 1	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 3	sekadar	kadar	ADV	_	_	4	advmod	_	_
 4-5	menyebutnya	_	_	_	_	_	_	_	_
 4	menyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
 6	binatang	binatang	NOUN	_	Number=Sing	4	obj	_	_
 7	dengan	dengan	ADP	_	_	9	case:adv	_	_
-8	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 9	sungguh-sungguh	sungguh	ADV	_	_	4	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -5707,7 +5707,7 @@
 13	,	,	PUNCT	_	_	18	punct	_	_
 14	tapi	tetapi	CCONJ	_	_	18	cc	_	_
 15	itu	itu	PRON	_	PronType=Dem	18	nsubj	_	_
-16	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+16	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 17	selalu	selalu	ADV	_	PronType=Tot	18	advmod	_	_
 18	berhasil	hasil	VERB	_	Voice=Act	3	conj	_	_
 
@@ -5964,7 +5964,7 @@
 17	pasangan	pasang	NOUN	_	Number=Sing	21	nsubj	_	_
 18	tersebut	sebut	DET	_	PronType=Dem	17	det	_	_
 19	seharusnya	harus	AUX	_	_	21	aux	_	_
-20	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
+20	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 21	menjabat	jabat	VERB	_	Voice=Act	14	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -6071,7 +6071,7 @@
 14	melakukan	laku	VERB	_	Voice=Act	19	csubj	_	_
 15	nya	nya	PRON	_	Number=Sing	14	obj	_	_
 16	tiga	tiga	NUM	_	NumType=Card	17	nummod	_	_
-17	kali	kali	NOUN	NNB	_	14	obl	_	_
+17	kali	kali	NOUN	_	_	14	obl	_	_
 18	berturut-turut	turut	VERB	_	Voice=Act	17	acl	_	_
 19	menunjukkan	tunjuk	VERB	_	Voice=Act	11	conj	_	_
 20	kelemahan	lemah	NOUN	_	Number=Sing	19	obj	_	SpaceAfter=No
@@ -6183,11 +6183,11 @@
 7	dalam	dalam	ADP	_	_	8	case	_	_
 8	risiko	risiko	NOUN	_	Number=Sing	6	nmod	_	_
 9	politik	politik	NOUN	_	Number=Sing	8	compound	_	_
-10	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+10	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 11	boleh	boleh	AUX	_	_	12	aux	_	_
 12	diabaikan	abai	VERB	_	Voice=Pass	3	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	”	”	PUNCT	SYM	_	12	punct	_	_
+14	”	”	PUNCT	_	_	12	punct	_	_
 
 # sent_id = n01107005
 # text = Berita tentang penipuan perusahaan - yang telah berjalan selama bertahun-tahun - merontokkan miliaran euro dari nilai VW dan membuat chief executive Martin Winterkorn kehilangan pekerjaannya.
@@ -6205,7 +6205,7 @@
 11	-	-	PUNCT	_	_	8	punct	_	_
 12	merontokkan	rontok	VERB	_	Voice=Act	0	root	_	_
 13	miliaran	miliar	NUM	_	NumType=Card	14	nummod	_	_
-14	euro	euro	NOUN	NNB	_	12	obj	_	_
+14	euro	euro	NOUN	_	_	12	obj	_	_
 15	dari	dari	ADP	_	_	16	case	_	_
 16	nilai	nilai	NOUN	_	Number=Sing	14	nmod	_	_
 17	VW	VW	PROPN	_	Abbr=Yes	16	nmod	_	_
@@ -6471,7 +6471,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Premium	Premium	PROPN	_	_	9	nsubj:pass	_	_
 5	Bonds	Bonds	PROPN	_	_	4	flat	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 7	akan	akan	AUX	_	_	9	aux	_	_
 8	dapat	dapat	AUX	_	_	9	aux	_	_
 9	dibedakan	beda	VERB	_	Voice=Pass	0	root	_	_
@@ -6511,7 +6511,7 @@
 # text = Ini belum menghentikan investor beramai-ramai memasukkan uangnya ke dana tersebut.
 # text_en = This has not stopped investors flocking to put their money in the funds.
 1	Ini	ini	PRON	_	PronType=Dem	3	nsubj	_	_
-2	belum	belum	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	belum	belum	PART	_	Polarity=Neg	3	advmod	_	_
 3	menghentikan	henti	VERB	_	Voice=Act	0	root	_	_
 4	investor	investor	NOUN	_	Number=Sing	3	obj	_	_
 5	beramai-ramai	ramai	VERB	_	Voice=Act	3	xcomp	_	_
@@ -6563,7 +6563,7 @@
 3	nya	nya	DET	_	_	2	det	_	_
 4	bahwa	bahwa	SCONJ	_	_	7	mark	_	_
 5	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
-6	belum	belum	PART	NEG	Polarity=Neg	7	advmod	_	_
+6	belum	belum	PART	_	Polarity=Neg	7	advmod	_	_
 7	mendapatkan	dapat	VERB	_	Voice=Act	2	acl	_	_
 8	keuntungan	untung	NOUN	_	Number=Sing	7	obj	_	_
 9	dari	dari	ADP	_	_	10	case	_	_
@@ -6894,7 +6894,7 @@
 6	dengan	dengan	ADP	_	_	7	case:adv	_	_
 7	benar	benar	ADV	_	_	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
+9	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 10	dapat	dapat	AUX	_	_	11	aux	_	_
 11	dideteksi	deteksi	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
@@ -7029,7 +7029,7 @@
 3	nya	nya	DET	_	_	2	det	_	_
 4	sama	sama	ADJ	_	_	5	compound	_	_
 5	sekali	kali	ADV	_	_	8	advmod	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 7	bisa	bisa	AUX	_	_	8	aux	_	_
 8	dikatakan	kata	VERB	_	Voice=Pass	0	root	_	_
 9	istimewa	istimewa	ADJ	_	_	8	xcomp	_	_
@@ -7045,7 +7045,7 @@
 6	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 7	mayoritas	mayoritas	NOUN	_	Number=Sing	11	obl	_	_
 8	pasti	pasti	ADV	_	_	11	advmod	_	_
-9	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
+9	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
 11	punya	punya	VERB	_	Voice=Act	2	acl:relcl	_	_
 12	pengalaman	alam	NOUN	_	Number=Sing	11	obj	_	_
@@ -7060,14 +7060,14 @@
 21	termasuk	masuk	VERB	_	Voice=Pass	0	root	_	_
 22	ranah	ranah	NOUN	_	Number=Sing	21	obl	_	_
 23	yang	yang	PRON	_	PronType=Rel	25	nsubj:pass	_	_
-24	tak	tak	PART	NEG	Polarity=Neg	25	advmod	_	_
+24	tak	tak	PART	_	Polarity=Neg	25	advmod	_	_
 25	terbayangkan	bayang	VERB	_	Voice=Pass	22	acl:relcl	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = n01120010
 # text = Tidak semua hal dalam kisah Doss bisa diprediksi, sebuah karakteristik yang membuatnya semakin memikat.
 # text_en = Doss’s story also has an unlikely quality to it that makes it all the more appealing.
-1	Tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+1	Tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 2	semua	semua	DET	_	PronType=Tot	3	det	_	_
 3	hal	hal	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 4	dalam	dalam	ADP	_	_	5	case	_	_
@@ -7182,7 +7182,7 @@
 4	yang	yang	SCONJ	_	_	6	mark	_	_
 5	Cotton	Cotton	PROPN	_	_	6	nsubj	_	_
 6	lakukan	laku	VERB	_	Voice=Act	2	acl:relcl	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 8	bersumber	sumber	VERB	_	Voice=Act	0	root	_	_
 9	pada	pada	ADP	_	_	11	case	_	_
 10	sejenis	jenis	DET	_	PronType=Ind	11	det	_	_
@@ -7213,14 +7213,14 @@
 # text_en = Perhaps it won’t matter as I won’t be troubled long.
 1	Mungkin	mungkin	ADV	_	_	5	advmod	_	_
 2	itu	itu	PRON	_	PronType=Dem	5	nsubj	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 4	akan	akan	AUX	_	_	5	aux	_	_
 5	menjadi	jadi	VERB	_	Voice=Act	0	root	_	_
 6	masalah	masalah	NOUN	_	Number=Sing	5	obl	_	_
 7	karena	karena	SCONJ	_	_	12	mark	_	_
 8	kebingungan	bingung	NOUN	_	Number=Sing	12	nsubj	_	_
 9	saya	saya	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
-10	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+10	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 11	akan	akan	AUX	_	_	12	aux	_	_
 12	berlangsung	langsung	VERB	_	Voice=Act	5	advcl	_	_
 13	lama	lama	ADJ	_	_	12	advmod	_	SpaceAfter=No
@@ -7229,7 +7229,7 @@
 # sent_id = n01125009
 # text = Tidak lagi merupakan kilas balik ke tahun 70-an, flock – atau melapisi permukaan adalah hal utama – berkibar lagi.
 # text_en = No longer a throwback to the Seventies, flock – or coating a surface is material – is flying again.
-1	Tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+1	Tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 2	lagi	lagi	ADV	_	_	3	advmod	_	_
 3	merupakan	rupa	VERB	_	_	10	acl	_	_
 4	kilas	kilas	NOUN	_	Number=Sing	3	obl	_	_
@@ -7297,7 +7297,7 @@
 17	kita	kita	DET	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	membuat	buat	VERB	_	Voice=Act	16	acl	_	_
-20	berbagai	bagai	DET	NN	_	21	det	_	_
+20	berbagai	bagai	DET	_	_	21	det	_	_
 21	hal	hal	NOUN	_	Number=Sing	19	obj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -7340,7 +7340,7 @@
 # text = Saya tidak tahu mengapa saya memilihnya ...
 # text_en = I don't know why I chose her ...
 1	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	tahu	tahu	VERB	_	Voice=Act	0	root	_	_
 4	mengapa	apa	ADV	_	PronType=Rel	6	advmod	_	_
 5	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -7506,7 +7506,7 @@
 8	suara	suara	NOUN	_	Number=Sing	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	tapi	tetapi	CCONJ	_	_	12	cc	_	_
-11	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+11	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 12	ada	ada	VERB	_	Voice=Act	3	conj	_	_
 13-14	artinya	_	_	_	_	_	_	_	_
 13	arti	arti	NOUN	_	Number=Sing	12	nsubj	_	_
@@ -7514,7 +7514,7 @@
 15	jika	jika	SCONJ	_	_	19	mark	_	_
 16	pemilih	pilih	NOUN	_	Number=Sing	19	nsubj	_	_
 17	terdaftar	daftar	VERB	_	Voice=Pass	16	acl	_	_
-18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
+18	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 19	ada	ada	VERB	_	Voice=Act	12	advcl	_	_
 20	dalam	dalam	ADP	_	_	21	case	_	_
 21	daftar	daftar	NOUN	_	Number=Sing	19	obl	_	SpaceAfter=No
@@ -7604,7 +7604,7 @@
 10	setelah	telah	ADP	_	_	13	case	_	_
 11	sekitar	kitar	ADV	_	_	13	advmod	_	_
 12	dua	dua	NUM	_	NumType=Card	13	nummod	_	_
-13	minggu	minggu	NOUN	NNB	Number=Sing	8	obl	_	_
+13	minggu	minggu	NOUN	_	Number=Sing	8	obl	_	_
 14	pemilihan	pilih	NOUN	_	Number=Sing	13	nmod	_	_
 15	suara	suara	NOUN	_	Number=Sing	14	compound	_	_
 16	awal	awal	NOUN	_	Number=Sing	14	nmod	_	_
@@ -7652,7 +7652,7 @@
 3	pemilihan	pilih	NOUN	_	Number=Sing	0	root	_	_
 4	umum	umum	ADJ	_	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	bukan	bukan	PART	NEG	Polarity=Neg	8	advmod	_	_
+6	bukan	bukan	PART	_	Polarity=Neg	8	advmod	_	_
 7	“	“	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Game	Game	PROPN	_	_	3	conj	_	_
 9	of	of	PROPN	_	_	8	flat	_	_
@@ -7664,7 +7664,7 @@
 # text = Martin belum menyelesaikan sisa dua buku dalam serinya yang disambut antusias oleh publik, yang saat ini diumumkan sebagai “The Winds of Winter” dan “A Dream of Spring.”
 # text_en = Martin has yet to finish two of the remaining books in his acclaimed series, currently billed as "The Winds of Winter" and "A Dream of Spring."
 1	Martin	Martin	PROPN	_	_	3	nsubj	_	_
-2	belum	belum	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	belum	belum	PART	_	Polarity=Neg	3	advmod	_	_
 3	menyelesaikan	selesai	VERB	_	Voice=Act	0	root	_	_
 4	sisa	sisa	NOUN	_	Number=Sing	3	obj	_	_
 5	dua	dua	NUM	_	NumType=Card	6	nummod	_	_
@@ -7706,7 +7706,7 @@
 2	siswa	siswa	NOUN	_	Number=Sing	6	nsubj	_	_
 3	Belanda	Belanda	PROPN	_	_	2	nmod	_	_
 4	itu	itu	DET	_	PronType=Dem	2	det	_	_
-5	belum	belum	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	belum	belum	PART	_	Polarity=Neg	6	advmod	_	_
 6	memutuskan	putus	VERB	_	Voice=Act	0	root	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
 7	apa	apa	SCONJ	_	_	11	mark	_	_
@@ -7739,7 +7739,7 @@
 15	atau	atau	CCONJ	_	_	16	cc	_	_
 16	2020	2020	NUM	_	NumType=Card	14	conj	_	_
 17	--	--	PUNCT	_	_	14	punct	_	_
-18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
+18	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 19	akurat	akurat	ADJ	_	_	5	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -7832,7 +7832,7 @@
 1	Selera	selera	NOUN	_	Number=Sing	11	nsubj	_	_
 2	Tiongkok	Tiongkok	PROPN	_	_	1	nmod	_	_
 3	yang	yang	PRON	_	PronType=Rel	6	nsubj:pass	_	_
-4	tak	tak	PART	NEG	Polarity=Neg	6	advmod	_	_
+4	tak	tak	PART	_	Polarity=Neg	6	advmod	_	_
 5	pernah	pernah	ADV	_	_	6	advmod	_	_
 6	terpuaskan	puas	VERB	_	Voice=Pass	1	acl:relcl	_	_
 7	terhadap	hadap	ADP	_	_	8	case	_	_
@@ -7964,7 +7964,7 @@
 # text = Saya belum menonton banyak episode dan kemudian teleponku mulai menyala.
 # text_en = I hadn't seen a lot of the episodes and then my phone started lighting up.
 1	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	belum	belum	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	belum	belum	PART	_	Polarity=Neg	3	advmod	_	_
 3	menonton	tonton	VERB	_	Voice=Act	0	root	_	_
 4	banyak	banyak	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	episode	episode	NOUN	_	Number=Sing	3	obj	_	_
@@ -8367,7 +8367,7 @@
 13	bahwa	bahwa	SCONJ	_	_	17	mark	_	_
 14	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 15	jelas-jelas	jelas	ADV	_	_	17	advmod	_	_
-16	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tidak	tidak	PART	_	Polarity=Neg	17	advmod	_	_
 17	ingin	ingin	VERB	_	Voice=Act	9	advcl	_	_
 18	dijual	jual	VERB	_	Voice=Pass	17	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -8377,7 +8377,7 @@
 # text_en = "Snowman didn't think anything of Johnny Carson getting a step ladder and sitting back to front on him," he adds.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Snowman	Snowman	PROPN	_	_	4	nsubj	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	berpikir	pikir	VERB	_	Voice=Act	0	root	_	_
 5	bahwa	bahwa	SCONJ	_	_	8	mark	_	_
 6	Johnny	Johnny	PROPN	_	_	8	nsubj	_	_
@@ -8413,11 +8413,11 @@
 # sent_id = n01145008
 # text = Tidak ada parade dan tidak pernah ada.
 # text_en = There is no parade and there never has been.
-1	Tidak	tidak	PART	NEG	Polarity=Neg	2	advmod	_	_
+1	Tidak	tidak	PART	_	Polarity=Neg	2	advmod	_	_
 2	ada	ada	VERB	_	Voice=Act	0	root	_	_
 3	parade	parade	NOUN	_	Number=Sing	2	nsubj	_	_
 4	dan	dan	CCONJ	_	_	7	cc	_	_
-5	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
+5	tidak	tidak	PART	_	Polarity=Neg	7	advmod	_	_
 6	pernah	pernah	ADV	_	_	7	advmod	_	_
 7	ada	ada	VERB	_	Voice=Act	2	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -8626,7 +8626,7 @@
 # sent_id = n01148035
 # text = Tidak semua transformasi di kawasan ini berhasil.
 # text_en = Not all transformations in the region have been successful.
-1	Tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+1	Tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 2	semua	semua	DET	_	PronType=Tot	3	det	_	_
 3	transformasi	transformasi	NOUN	_	Number=Sing	7	nsubj	_	_
 4	di	di	ADP	_	_	5	case	_	_
@@ -8641,10 +8641,10 @@
 1	Terkubur	kubur	VERB	_	Voice=Pass	17	advcl	_	_
 2	sedalam	dalam	NOUN	_	Number=Sing	1	obl	_	_
 3	100	100	NUM	_	NumType=Card	4	nummod	_	_
-4	meter	meter	NOUN	NNB	_	2	nmod	_	_
+4	meter	meter	NOUN	_	_	2	nmod	_	_
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	328	328	NUM	_	NumType=Card	7	nummod	_	_
-7	kaki	kaki	NOUN	NNB	_	4	appos	_	SpaceAfter=No
+7	kaki	kaki	NOUN	_	_	4	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	di	di	ADP	_	_	11	case	_	_
 10	bawah	bawah	NOUN	_	Number=Sing	11	nmod	_	_
@@ -8770,7 +8770,7 @@
 # text_en = "Architecture won't help deceased people, but it helps to keep their memories alive among the living," he says.
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Arsitektur	arsitektur	NOUN	_	Number=Sing	5	nsubj	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 4	akan	akan	AUX	_	_	5	aux	_	_
 5	membantu	bantu	VERB	_	Voice=Act	0	root	_	_
 6	orang	orang	NOUN	_	Number=Sing	5	obj	_	_
@@ -9286,7 +9286,7 @@
 # sent_id = w01010044
 # text = Berbagai suku Jermanis dan suku besar Slavik menyeberangi Moravia selama Periode Migrasi sebelum kaum Slav membentuk dirinya pada abad ke-6 M.
 # text_en = A variety of Germanic and major Slavic tribes crossed through Moravia during the Migration Period before Slavs established themselves in the 6th century AD.
-1	Berbagai	bagai	DET	NN	_	2	det	_	_
+1	Berbagai	bagai	DET	_	_	2	det	_	_
 2	suku	suku	NOUN	_	Number=Sing	8	nsubj	_	_
 3	Jermanis	Jermanis	PROPN	_	_	2	nmod	_	_
 4	dan	dan	CCONJ	_	_	5	cc	_	_
@@ -9502,7 +9502,7 @@
 10	utara	utara	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	tapi	tetapi	CCONJ	_	_	14	cc	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	ada	ada	VERB	_	Voice=Act	3	conj	_	_
 15	di	di	ADP	_	_	16	case	_	_
 16	Sami	Sami	PROPN	_	_	14	obl	_	_
@@ -9651,7 +9651,7 @@
 11	sebagian	bagi	NOUN	_	Number=Sing	16	nsubj	_	_
 12	besar	besar	ADJ	_	_	11	amod	_	_
 13	Bantu	Bantu	PROPN	_	_	11	nmod	_	_
-14	tidak	tidak	PART	NEG	Polarity=Neg	16	advmod	_	_
+14	tidak	tidak	PART	_	Polarity=Neg	16	advmod	_	_
 15	pernah	pernah	ADV	_	_	16	advmod	_	_
 16	bersentuhan	sentuh	VERB	_	Voice=Act	4	conj	_	_
 17	dengan	dengan	ADP	_	_	18	case	_	_
@@ -9767,7 +9767,7 @@
 4	dengan	dengan	ADP	_	_	11	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	tapi	tetapi	CCONJ	_	_	9	cc	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 8	kurang	kurang	ADV	_	_	9	advmod	_	_
 9	ekstrem	ekstrem	ADJ	_	_	3	conj	_	_
 10	dari	dari	ADP	_	_	11	case	_	_
@@ -9995,7 +9995,7 @@
 5	air	air	NOUN	_	Number=Sing	4	compound	_	_
 6	tawar	tawar	NOUN	_	Number=Sing	5	compound	_	_
 7	sering	sering	ADV	_	_	9	advmod	_	_
-8	kali	kali	NOUN	RP	_	7	compound	_	_
+8	kali	kali	NOUN	_	_	7	compound	_	_
 9	dalam	dalam	ADJ	_	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -10126,7 +10126,7 @@
 16	kereta	kereta	NOUN	_	Number=Sing	15	compound	_	_
 17	ke	ke	ADP	_	_	18	case	_	_
 18	Flensburg	Flensburg	PROPN	_	_	15	nmod	_	_
-19	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
+19	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 20	pernah	pernah	ADV	_	_	21	advmod	_	_
 21	digunakan	guna	VERB	_	Voice=Pass	12	ccomp	_	_
 22	sebagaimana	bagaimana	ADP	_	_	23	case:adv	_	_
@@ -10150,11 +10150,11 @@
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 10	menganggap	anggap	VERB	_	Voice=Act	6	acl:relcl	_	_
 11	Danevirke	Danevirke	PROPN	_	_	10	obj	_	_
-12	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
+12	tidak	tidak	PART	_	Polarity=Neg	13	advmod	_	_
 13	terkalahkan	kalah	VERB	_	Voice=Pass	10	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	21	punct	_	_
 15	dan	dan	CCONJ	_	_	21	cc	_	_
-16	tak	tak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tak	tak	PART	_	Polarity=Neg	17	advmod	_	_
 17	lama	lama	ADJ	_	_	21	advmod	_	_
 18	Jenderal	Jenderal	PROPN	_	_	21	nsubj:pass	_	_
 19	de	de	PROPN	_	_	18	nmod	_	_
@@ -10193,7 +10193,7 @@
 10	sekitar	kitar	ADV	_	_	13	advmod	_	_
 11	100	100	NUM	_	NumType=Card	13	nummod	_	_
 12	juta	juta	NUM	_	NumType=Card	11	flat	_	_
-13	ton	ton	NOUN	NNB	_	9	obl	_	_
+13	ton	ton	NOUN	_	_	9	obl	_	_
 14	pada	pada	ADP	_	_	15	case	_	_
 15	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
 16	1987	1987	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
@@ -10272,7 +10272,7 @@
 10	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	menonjol	tonjol	VERB	_	Voice=Act	8	acl:relcl	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	sama	sama	ADJ	_	_	1	advcl	_	_
 15	dengan	dengan	ADP	_	_	16	case	_	_
 16	pesisir	sisir	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
@@ -10455,7 +10455,7 @@
 4	hanya	hanya	ADV	_	_	7	advmod	_	_
 5	sekitar	kitar	ADV	_	_	7	advmod	_	_
 6	11	11	NUM	_	NumType=Card	7	nummod	_	_
-7	persen	persen	NOUN	NNB	_	16	advcl	_	_
+7	persen	persen	NOUN	_	_	16	advcl	_	_
 8	dari	dari	ADP	_	_	9	case	_	_
 9	area	area	NOUN	_	Number=Sing	7	nmod	_	_
 10	permukaan	muka	NOUN	_	Number=Sing	9	nmod	_	_
@@ -10467,7 +10467,7 @@
 16	menyediakan	sedia	VERB	_	Voice=Act	0	root	_	_
 17	hingga	hingga	ADP	_	_	19	case	_	_
 18	90	90	NUM	_	NumType=Card	19	nummod	_	_
-19	persen	persen	NOUN	NNB	_	20	nmod	_	_
+19	persen	persen	NOUN	_	_	20	nmod	_	_
 20	air	air	NOUN	_	Number=Sing	16	obj	_	_
 21	ke	ke	ADP	_	_	22	case	_	_
 22	dataran	datar	NOUN	_	Number=Sing	16	obl	_	_
@@ -10493,7 +10493,7 @@
 4	bergantung	gantung	VERB	_	Voice=Act	0	root	_	_
 5	pada	pada	ADP	_	_	8	case	_	_
 6	80	80	NUM	_	NumType=Card	7	nummod	_	_
-7	persen	persen	NOUN	NNB	_	8	nmod	_	_
+7	persen	persen	NOUN	_	_	8	nmod	_	_
 8	air	air	NOUN	_	Number=Sing	4	obl	_	_
 9	dari	dari	ADP	_	_	10	case	_	_
 10	aliran	alir	NOUN	_	Number=Sing	8	nmod	_	_
@@ -10520,7 +10520,7 @@
 15	listrik	listrik	NOUN	_	Number=Sing	14	obj	_	_
 16	sebanyak	banyak	NOUN	_	Number=Sing	14	obl	_	_
 17	2900	2900	NUM	_	NumType=Card	18	nummod	_	_
-18	kilowatt	kilowatt	NOUN	NNB	_	16	nmod	_	SpaceAfter=No
+18	kilowatt	kilowatt	NOUN	_	_	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w01030096
@@ -10611,7 +10611,7 @@
 11	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	sehingga	sehingga	SCONJ	_	_	15	mark	_	_
-14	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 15	mencapai	capai	VERB	_	Voice=Act	5	advcl	_	_
 16	permukaan	muka	NOUN	_	Number=Sing	15	obj	_	_
 17	melainkan	lain	CCONJ	_	_	18	cc	_	_
@@ -10624,7 +10624,7 @@
 # text = Biasanya tidak meletus membawa bencana
 # text_en = They generally do not explode catastrophically.
 1	Biasanya	biasa	ADV	_	_	3	advmod	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	meletus	letus	VERB	_	Voice=Act	0	root	_	_
 4	membawa	bawa	VERB	_	Voice=Act	3	xcomp	_	_
 5	bencana	bencana	NOUN	_	Number=Sing	4	obj	_	_
@@ -10937,7 +10937,7 @@
 # text = Ini tidak populer karena lokasinya yang sering kali di pedalaman tanpa akses jalan.
 # text_en = These are not very popular due to the often remote and roadless locations.
 1	Ini	ini	PRON	_	PronType=Dem	3	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	populer	populer	ADJ	_	_	0	root	_	_
 4	karena	karena	ADP	_	_	5	case	_	_
 5-6	lokasinya	_	_	_	_	_	_	_	_
@@ -10956,7 +10956,7 @@
 # sent_id = w01038016
 # text = Berbagai kepentingan pribadi memiliki lahan yang tersisa, totalnya sekitar satu persen dari negara bagian itu.
 # text_en = Various private interests own the remaining land, totaling about one percent of the state.
-1	Berbagai	bagai	DET	NN	_	2	det	_	_
+1	Berbagai	bagai	DET	_	_	2	det	_	_
 2	kepentingan	penting	NOUN	_	Number=Sing	4	nsubj	_	_
 3	pribadi	pribadi	NOUN	_	Number=Sing	2	compound	_	_
 4	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
@@ -10969,7 +10969,7 @@
 10	nya	nya	DET	_	_	9	det	_	_
 11	sekitar	kitar	ADV	_	_	13	advmod	_	_
 12	satu	satu	NUM	_	NumType=Card	13	nummod	_	_
-13	persen	persen	NOUN	NNB	_	4	parataxis	_	_
+13	persen	persen	NOUN	_	_	4	parataxis	_	_
 14	dari	dari	ADP	_	_	15	case	_	_
 15	negara	negara	NOUN	_	Number=Sing	13	nmod	_	_
 16	bagian	bagi	NOUN	_	Number=Sing	15	compound	_	_
@@ -11072,7 +11072,7 @@
 15	mana	mana	PRON	_	_	14	fixed	_	_
 16	sungai	sungai	NOUN	_	Number=Sing	19	nsubj	_	_
 17	itu	itu	DET	_	PronType=Dem	16	det	_	_
-18	tak	tak	PART	NEG	Polarity=Neg	17	advmod	_	_
+18	tak	tak	PART	_	Polarity=Neg	17	advmod	_	_
 19	lebih	lebih	ADJ	_	_	12	acl	_	_
 20	dari	dari	ADP	_	_	21	case	_	_
 21	selokan	selokan	NOUN	_	Number=Sing	19	obl	_	_
@@ -11123,7 +11123,7 @@
 14	mana	mana	PRON	_	_	13	fixed	_	_
 15	lahan	lahan	NOUN	_	Number=Sing	18	nsubj:pass	_	_
 16	tersebut	sebut	DET	_	PronType=Dem	15	det	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	dilindungi	lindung	VERB	_	Voice=Pass	11	acl	_	_
 19	oleh	oleh	ADP	_	_	20	case	_	_
 20	vegetasi	vegetasi	NOUN	_	Number=Sing	18	obl	_	_
@@ -11143,7 +11143,7 @@
 7	gurun	gurun	NOUN	_	Number=Sing	6	compound	_	_
 8	pasir	pasir	NOUN	_	Number=Sing	7	compound	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	bukan	bukan	PART	NEG	Polarity=Neg	12	advmod	_	_
+10	bukan	bukan	PART	_	Polarity=Neg	12	advmod	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	gurun	gurun	NOUN	_	Number=Sing	6	conj	_	_
 13	pasir	pasir	NOUN	_	Number=Sing	12	compound	_	_
@@ -11418,7 +11418,7 @@
 37	Karibia	Karibia	PROPN	_	_	36	nmod	_	SpaceAfter=No
 38	”	”	PUNCT	_	_	36	punct	_	_
 39	di	di	ADP	_	_	41	case	_	_
-40	berbagai	bagai	DET	NN	_	41	det	_	_
+40	berbagai	bagai	DET	_	_	41	det	_	_
 41	bahasa	bahasa	NOUN	_	Number=Sing	30	nmod	_	_
 42	Eropa	Eropa	PROPN	_	_	41	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	15	punct	_	_
@@ -11438,7 +11438,7 @@
 10	wilayah	wilayah	NOUN	_	Number=Sing	6	nmod	_	_
 11	ini	ini	DET	_	PronType=Dem	10	det	_	_
 12	tetap	tetap	ADV	_	_	14	advmod	_	_
-13	tak	tak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tak	tak	PART	_	Polarity=Neg	14	advmod	_	_
 14	terbantahkan	bantah	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -11474,7 +11474,7 @@
 26	Panama	Panama	PROPN	_	_	24	nmod	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
-29	bukan	bukan	PART	NEG	Polarity=Neg	31	advmod	_	_
+29	bukan	bukan	PART	_	Polarity=Neg	31	advmod	_	_
 30	“	“	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	Laut	laut	NOUN	_	Number=Sing	14	conj	_	_
 32	Utara	utara	NOUN	_	Number=Sing	31	compound	_	SpaceAfter=No
@@ -11498,7 +11498,7 @@
 # text_en = The Caribbean Sea had been unknown to the populations of Eurasia until 1492, when Christopher Columbus first sailed into Caribbean waters on a quest to find a sea route to Asia.
 1	Laut	laut	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	Karibia	Karibia	PROPN	_	_	1	nmod	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	diketahui	tahu	VERB	_	Voice=Pass	0	root	_	_
 5	oleh	oleh	ADP	_	_	6	case	_	_
 6	penduduk	duduk	NOUN	_	Number=Sing	4	obl	_	_
@@ -11511,7 +11511,7 @@
 13	Christopher	Christopher	PROPN	_	_	17	nsubj	_	_
 14	Columbus	Columbus	PROPN	_	_	13	flat	_	_
 15	pertama	pertama	ADJ	_	NumType=Ord	16	amod	_	_
-16	kali	kali	NOUN	NNB	_	17	obl	_	_
+16	kali	kali	NOUN	_	_	17	obl	_	_
 17	berlayar	layar	VERB	_	Voice=Act	9	acl	_	_
 18	ke	ke	ADP	_	_	19	case	_	_
 19	perairan	air	NOUN	_	Number=Sing	17	obl	_	_
@@ -11541,7 +11541,7 @@
 9	area	area	NOUN	_	Number=Sing	8	compound	_	_
 10	perkotaan	kota	NOUN	_	Number=Sing	9	compound	_	_
 11	yang	yang	PRON	_	PronType=Rel	13	nsubj:pass	_	_
-12	tak	tak	PART	NEG	Polarity=Neg	13	advmod	_	_
+12	tak	tak	PART	_	Polarity=Neg	13	advmod	_	_
 13	terbatas	batas	ADJ	_	_	8	acl:relcl	_	_
 14	telah	telah	AUX	_	_	15	aux	_	_
 15	menutupi	tutup	VERB	_	Voice=Act	0	root	_	_
@@ -11893,7 +11893,7 @@
 29	ke	ke	ADP	_	_	30	case	_	_
 30	Manchu	Manchu	PROPN	_	_	26	nmod	_	_
 31	menjadi	jadi	VERB	_	Voice=Act	10	conj	_	_
-32	tidak	tidak	PART	NEG	Polarity=Neg	33	advmod	_	_
+32	tidak	tidak	PART	_	Polarity=Neg	33	advmod	_	_
 33	sah	sah	ADJ	_	_	31	xcomp	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -11971,7 +11971,7 @@
 3	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
 4	secara	cara	ADP	_	_	5	case:adv	_	_
 5	logistik	logistik	ADJ	_	_	8	advmod	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 7	dapat	dapat	AUX	_	_	8	aux	_	_
 8	bertahan	tahan	VERB	_	Voice=Act	1	acl:relcl	_	_
 9	dalam	dalam	ADP	_	_	10	case	_	_
@@ -12009,7 +12009,7 @@
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	di	di	SCONJ	_	_	24	mark	_	_
 21	mana	mana	PRON	_	_	20	fixed	_	_
-22	tidak	tidak	PART	NEG	Polarity=Neg	24	advmod	_	_
+22	tidak	tidak	PART	_	Polarity=Neg	24	advmod	_	_
 23	pernah	pernah	ADV	_	_	24	advmod	_	_
 24	ada	ada	VERB	_	Voice=Act	18	acl	_	_
 25	terlihat	lihat	VERB	_	Voice=Pass	24	xcomp	_	_
@@ -12166,7 +12166,7 @@
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	lalu	lalu	VERB	_	Voice=Act	11	acl:relcl	_	_
 14	tapi	tapi	CCONJ	_	_	19	cc	_	_
-15	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
+15	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 16-17	apakah	_	_	_	_	_	_	_	_
 16	apa	apa	SCONJ	_	_	20	mark	_	_
 17	kah	kah	PART	_	_	16	advmod:emph	_	_
@@ -12191,7 +12191,7 @@
 7	New	New	PROPN	_	_	5	nmod	_	_
 8	France	France	PROPN	_	_	7	flat	_	_
 9	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
-10	belum	belum	PART	NEG	Polarity=Neg	11	advmod	_	_
+10	belum	belum	PART	_	Polarity=Neg	11	advmod	_	_
 11	selesai	selesai	VERB	_	Voice=Act	5	acl:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -12327,7 +12327,7 @@
 # sent_id = w01060037
 # text = Tak lama Shen Kuo membuat Wang Anshi kagum dengan keterampilan dan kemampuannya sebagai seorang administrator dan agen pemerintah.
 # text_en = Shen Kuo soon impressed Wang Anshi with his skills and abilities as an administrator and government agent.
-1	Tak	tak	PART	NEG	Polarity=Neg	2	advmod	_	_
+1	Tak	tak	PART	_	Polarity=Neg	2	advmod	_	_
 2	lama	lama	ADJ	_	_	5	advmod	_	_
 3	Shen	Shen	PROPN	_	_	5	nsubj	_	_
 4	Kuo	Kuo	PROPN	_	_	3	flat	_	_
@@ -12449,7 +12449,7 @@
 18	besar	besar	ADJ	_	_	17	amod	_	_
 19	Tiongkok	Tiongkok	PROPN	_	_	17	nmod	_	_
 20	yang	yang	PRON	_	PronType=Rel	22	nsubj	_	_
-21	tidak	tidak	PART	NEG	Polarity=Neg	22	advmod	_	_
+21	tidak	tidak	PART	_	Polarity=Neg	22	advmod	_	_
 22	kompeten	kompeten	ADJ	_	_	17	acl:relcl	_	_
 23	yang	yang	PRON	_	PronType=Rel	24	nsubj	_	_
 24	menyerah	serah	VERB	_	Voice=Act	17	acl:relcl	_	_
@@ -12497,7 +12497,7 @@
 10	ke	ke	ADP	_	_	11	case	_	_
 11	Roma	Roma	PROPN	_	_	9	obl	_	_
 12	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	13	det	_	_
-13	kali	kali	NOUN	NNB	_	7	obl	_	SpaceAfter=No
+13	kali	kali	NOUN	_	_	7	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	namun	namun	CCONJ	_	_	17	cc	_	_
 16	Augustus	Augustus	PROPN	_	_	17	nsubj	_	_
@@ -12506,7 +12506,7 @@
 18	permintaan	minta	NOUN	_	Number=Sing	17	obj	_	_
 19	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
 20	setiap	tiap	DET	_	PronType=Tot	21	det	_	_
-21	kali	kali	NOUN	NNB	_	17	obl	_	SpaceAfter=No
+21	kali	kali	NOUN	_	_	17	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01062063
@@ -12616,7 +12616,7 @@
 28	tinggi	tinggi	NOUN	_	Number=Sing	9	nmod	_	_
 29	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	det:poss	_	_
 30	3	3	NUM	_	NumType=Card	31	nummod	_	_
-31	meter	meter	NOUN	NNB	_	28	nmod	_	SpaceAfter=No
+31	meter	meter	NOUN	_	_	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	dengan	dengan	ADP	_	_	34	case	_	_
 34	struktur	struktur	NOUN	_	Number=Sing	9	nmod	_	_
@@ -12844,7 +12844,7 @@
 22	perayaan-perayaan	raya	NOUN	_	Number=Plur	24	nsubj:pass	_	_
 23	tersebut	sebut	DET	_	PronType=Dem	22	det	_	_
 24	dihitung	hitung	VERB	_	Voice=Pass	13	advcl	_	_
-25	berdasarkan	dasar	VERB	IN	Voice=Act	24	xcomp	_	_
+25	berdasarkan	dasar	VERB	_	Voice=Act	24	xcomp	_	_
 26	kalender	kalender	NOUN	_	Number=Sing	24	obl	_	_
 27	Cina	Cina	PROPN	_	_	26	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	13	punct	_	_
@@ -12894,7 +12894,7 @@
 15	konstruksi	konstruksi	NOUN	_	Number=Sing	14	compound	_	_
 16	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
-18	belum	belum	PART	NEG	Polarity=Neg	19	advmod	_	_
+18	belum	belum	PART	_	Polarity=Neg	19	advmod	_	_
 19	selesai	selesai	VERB	_	Voice=Act	14	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -12953,7 +12953,7 @@
 1	Aldrin	Aldrin	PROPN	_	_	5	nsubj	_	_
 2	sudah	sudah	AUX	_	_	5	aux	_	_
 3	tiga	tiga	NUM	_	NumType=Card	4	nummod	_	_
-4	kali	kali	NOUN	NNB	_	5	obl	_	_
+4	kali	kali	NOUN	_	_	5	obl	_	_
 5	menikah	nikah	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -13208,7 +13208,7 @@
 6	dan	dan	CCONJ	_	_	12	cc	_	_
 7	bukti	bukti	NOUN	_	Number=Sing	12	nsubj:pass	_	_
 8	untuk	untuk	ADP	_	_	10	case	_	_
-9	berbagai	bagai	DET	NN	_	10	det	_	_
+9	berbagai	bagai	DET	_	_	10	det	_	_
 10	spekulasi	spekulasi	NOUN	_	Number=Sing	7	nmod	_	_
 11	hanya	hanya	ADV	_	_	12	advmod	_	_
 12	didasarkan	dasar	VERB	_	Voice=Pass	5	conj	_	_
@@ -13276,7 +13276,7 @@
 8	divisi	divisi	NOUN	_	Number=Sing	6	obj	_	_
 9	baru	baru	ADJ	_	_	8	amod	_	_
 10	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
-11	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+11	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 12	lama	lama	ADJ	_	_	13	advmod	_	_
 13	bertahan	tahan	VERB	_	Voice=Act	8	acl:relcl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
@@ -13335,7 +13335,7 @@
 22	Selatan	selatan	NOUN	_	Number=Sing	21	compound	_	_
 23	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 24	yang	yang	SCONJ	_	_	28	mark	_	_
-25	mana	mana	PRON	WDT	_	28	obl	_	_
+25	mana	mana	PRON	_	_	28	obl	_	_
 26	Trix	Trix	PROPN	_	_	28	nsubj	_	_
 27	telah	telah	AUX	_	_	28	aux	_	_
 28	kembali	kembali	VERB	_	Voice=Act	21	acl	_	_
@@ -13362,7 +13362,7 @@
 13	Kipling	Kipling	PROPN	_	_	12	nmod	_	_
 14	untuk	untuk	SCONJ	_	_	15	mark	_	_
 15	menulis	tulis	VERB	_	Voice=Act	12	acl	_	_
-16	tak	tak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tak	tak	PART	_	Polarity=Neg	17	advmod	_	_
 17	terhentikan	henti	VERB	_	Voice=Pass	7	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -13557,7 +13557,7 @@
 13	sipil	sipil	ADJ	_	_	12	amod	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	9	punct	_	_
 15	lebih	lebih	ADV	_	_	17	advmod	_	_
-16	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tidak	tidak	PART	_	Polarity=Neg	17	advmod	_	_
 17	mungkin	mungkin	ADJ	_	_	0	root	_	_
 18	bergabung	gabung	VERB	_	Voice=Act	17	advcl	_	_
 19	dengan	dengan	ADP	_	_	21	case	_	_
@@ -13714,7 +13714,7 @@
 7	anggota	anggota	NOUN	_	Number=Sing	6	obj	_	_
 8	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
 9	untuk	untuk	SCONJ	_	_	11	mark	_	_
-10	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
+10	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 11	mempercayai	percaya	VERB	_	Voice=Act	6	ccomp	_	_
 12	semua	semua	DET	_	PronType=Tot	13	det	_	_
 13	yang	yang	PRON	_	PronType=Rel	11	obj	_	_
@@ -13860,7 +13860,7 @@
 13	bagian	bagi	NOUN	_	Number=Sing	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	namun	namun	CCONJ	_	_	17	cc	_	_
-16	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tidak	tidak	PART	_	Polarity=Neg	17	advmod	_	_
 17	berusaha	usaha	VERB	_	Voice=Act	3	conj	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	merebut	rebut	VERB	_	Voice=Act	17	xcomp	_	_
@@ -13958,7 +13958,7 @@
 2	Rusia	Rusia	PROPN	_	_	1	flat	_	_
 3	merupakan	rupa	VERB	_	_	0	root	_	_
 4	pengelompokan	kelompok	NOUN	_	Number=Sing	3	obl	_	_
-5	berbagai	bagai	DET	NN	_	6	det	_	_
+5	berbagai	bagai	DET	_	_	6	det	_	_
 6	etnis	etnis	NOUN	_	Number=Sing	4	nmod	_	_
 7	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 8	telah	telah	AUX	_	_	10	aux	_	_
@@ -14045,7 +14045,7 @@
 11-12	persiapannya	_	_	_	_	_	_	_	_
 11	persiapan	siap	NOUN	_	Number=Sing	14	nsubj	_	_
 12	nya	nya	DET	_	_	11	det	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	sama	sama	ADJ	_	_	4	conj	_	_
 15-16	baiknya	_	_	_	_	_	_	_	_
 15	baik	baik	NOUN	_	Number=Sing	14	obl	_	_
@@ -14154,7 +14154,7 @@
 8	hingga	hingga	ADP	_	_	11	case	_	_
 9	sekitar	kitar	ADV	_	_	10	advmod	_	_
 10	168.000	168.000	NUM	_	NumType=Card	11	nummod	_	_
-11	orang	orang	NOUN	NNB	Number=Sing	7	obl	_	SpaceAfter=No
+11	orang	orang	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01087052
@@ -14302,7 +14302,7 @@
 3	pisang	pisang	NOUN	_	Number=Sing	1	conj	_	_
 4	raja	raja	NOUN	_	Number=Sing	3	compound	_	_
 5	pertama	pertama	ADJ	_	NumType=Ord	6	amod	_	_
-6	kali	kali	NOUN	NNB	_	7	obl	_	_
+6	kali	kali	NOUN	_	_	7	obl	_	_
 7	dibudidayakan	budidaya	VERB	_	Voice=Pass	0	root	_	_
 8	di	di	ADP	_	_	9	case	_	_
 9	Asia	Asia	PROPN	_	_	7	obl	_	_
@@ -14471,7 +14471,7 @@
 11	kini	kini	ADV	_	_	15	advmod	_	_
 12	masih	masih	ADV	_	_	15	advmod	_	_
 13	tetap	tetap	ADV	_	_	15	advmod	_	_
-14	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 15	disarankan	saran	VERB	_	Voice=Pass	6	conj	_	_
 16	di	di	ADP	_	_	18	case	_	_
 17	antara	antara	NOUN	_	Number=Sing	18	nmod	_	_
@@ -14499,7 +14499,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	dipandang	pandang	VERB	_	Voice=Pass	0	root	_	_
 7	sangat	sangat	ADV	_	_	9	advmod	_	_
-8	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 9	pantas	pantas	ADJ	_	_	6	xcomp	_	_
 10	untuk	untuk	SCONJ	_	_	11	mark	_	_
 11	menggunakan	guna	VERB	_	Voice=Act	9	advcl	_	_
@@ -14977,7 +14977,7 @@
 10	proyek	proyek	NOUN	_	Number=Sing	4	conj	_	_
 11	pementasan	pentas	NOUN	_	Number=Sing	10	compound	_	_
 12	tapi	tapi	CCONJ	_	_	14	cc	_	_
-13	tak	tak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tak	tak	PART	_	Polarity=Neg	14	advmod	_	_
 14	satu	satu	NUM	_	NumType=Card	2	conj	_	_
 15	pun	pun	PART	_	_	14	advmod:emph	_	_
 16	yang	yang	PRON	_	PronType=Rel	17	nsubj	_	_
@@ -15023,7 +15023,7 @@
 3	telah	telah	AUX	_	_	4	aux	_	_
 4	memerintahkan	perintah	VERB	_	Voice=Act	0	root	_	_
 5	agar	agar	SCONJ	_	_	7	mark	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	7	advmod	_	_
 7	ada	ada	VERB	_	Voice=Act	4	ccomp	_	_
 8	penunjukan	tunjuk	NOUN	_	Number=Sing	7	nsubj	_	_
 9	rasa	rasa	NOUN	_	Number=Sing	8	nmod	_	_
@@ -15033,7 +15033,7 @@
 13	terhadap	hadap	ADP	_	_	14	case	_	_
 14	Churchill	Churchill	PROPN	_	_	8	nmod	_	_
 15	dan	dan	CCONJ	_	_	17	cc	_	_
-16	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tidak	tidak	PART	_	Polarity=Neg	17	advmod	_	_
 17	ada	ada	VERB	_	Voice=Act	7	conj	_	_
 18	penghargaan	harga	NOUN	_	Number=Sing	17	nsubj	_	_
 19	resmi	resmi	ADJ	_	_	18	amod	_	_
@@ -15129,7 +15129,7 @@
 18	pengangkutan	angkut	NOUN	_	Number=Sing	11	nmod	_	_
 19	udara	udara	NOUN	_	Number=Sing	18	compound	_	_
 20	Berlin	Berlin	PROPN	_	_	18	nmod	_	_
-21	pascaperang	pascaperang	ADJ	IN	_	20	amod	_	SpaceAfter=No
+21	pascaperang	pascaperang	ADJ	_	_	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	adalah	adalah	AUX	_	_	24	cop	_	_
 24	Ground	Ground	PROPN	_	_	0	root	_	_
@@ -15204,7 +15204,7 @@
 14	pilot	pilot	NOUN	_	Number=Sing	8	obl	_	_
 15	yang	yang	PRON	_	PronType=Rel	18	nsubj	_	_
 16	sebelumnya	belum	ADV	_	_	18	advmod	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	terlatih	latih	ADJ	_	_	14	acl:relcl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -15284,7 +15284,7 @@
 9	,	,	PUNCT	_	_	17	punct	_	_
 10	yang	yang	PRON	_	PronType=Rel	17	nsubj	_	_
 11	jika	jika	SCONJ	_	_	13	mark	_	_
-12	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
+12	tidak	tidak	PART	_	Polarity=Neg	13	advmod	_	_
 13	didinginkan	dingin	VERB	_	Voice=Pass	17	advcl	_	_
 14	tentunya	tentu	ADV	_	_	17	advmod	_	_
 15	akan	akan	AUX	_	_	17	aux	_	_
@@ -15438,7 +15438,7 @@
 3	bujangan	bujang	NOUN	_	Number=Sing	0	root	_	_
 4	gigih	gigih	ADJ	_	_	3	amod	_	_
 5	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	7	advmod	_	_
 7	beruntung	untung	VERB	_	Voice=Act	3	acl:relcl	_	_
 8	dalam	dalam	ADP	_	_	9	case	_	_
 9	urusan	urus	NOUN	_	Number=Sing	7	obl	_	_
@@ -15963,7 +15963,7 @@
 10	pertama	pertama	ADJ	_	NumType=Ord	8	amod	_	_
 11	Disney	Disney	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	bukan	bukan	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	bukan	bukan	PART	_	Polarity=Neg	14	advmod	_	_
 14	keturunan	turun	NOUN	_	Number=Sing	8	nmod	_	_
 15	Eropa	Eropa	PROPN	_	_	14	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
@@ -16002,7 +16002,7 @@
 # text_en = However, there was no further public recognition of her wartime resistance and humanitarian work until after the end of communist rule in Poland.
 1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	ada	ada	VERB	_	Voice=Act	0	root	_	_
 5	pengakuan	aku	NOUN	_	Number=Sing	4	nsubj	_	_
 6	publik	publik	NOUN	_	Number=Sing	5	compound	_	_
@@ -16176,7 +16176,7 @@
 4	dan	dan	CCONJ	_	_	5	cc	_	_
 5	ditendang	tendang	VERB	_	Voice=Pass	2	conj	_	_
 6	dua	dua	NUM	_	NumType=Card	7	nummod	_	_
-7	kali	kali	NOUN	NNB	_	5	obl	_	_
+7	kali	kali	NOUN	_	_	5	obl	_	_
 8	lagi	lagi	ADV	_	_	5	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	sebelum	belum	SCONJ	_	_	14	mark	_	_
@@ -16188,7 +16188,7 @@
 16-17	pencalonannya	_	_	_	_	_	_	_	_
 16	pencalonan	calon	NOUN	_	Number=Sing	19	nsubj	_	_
 17	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
-18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
+18	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 19	sah	sah	ADJ	_	_	14	ccomp	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
 21	mengumumkan	umum	VERB	_	Voice=Act	14	conj	_	_
@@ -16236,7 +16236,7 @@
 10	namun	namun	CCONJ	_	_	14	cc	_	_
 11	kesalehan	saleh	NOUN	_	Number=Sing	14	nsubj:pass	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	_
-13	tidak	tidak	PART	NEG	Polarity=Neg	14	advmod	_	_
+13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	dimiliki	milik	VERB	_	Voice=Pass	3	conj	_	_
 15	oleh	oleh	ADP	_	_	17	case	_	_
 16	para	para	DET	_	Number=Plur	17	det	_	_
@@ -16690,7 +16690,7 @@
 14	"	"	PUNCT	_	_	13	punct	_	_
 15	karena	karena	SCONJ	_	_	19	mark	_	_
 16	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	banyak	banyak	ADV	_	_	19	advmod	_	_
 19	memiliki	milik	VERB	_	Voice=Act	13	advcl	_	_
 20	pertahanan	tahan	NOUN	_	Number=Sing	19	obj	_	SpaceAfter=No
@@ -16700,7 +16700,7 @@
 # text = Layar tidak diwakili dalam ikonografi atau teks Mesoamerika prasejarah, malah diteorikan bahwa kano digunakan sebagai moda transportasi air utama untuk Maya kuno.
 # text_en = Sails are not represented in prehistoric Mesoamerican iconography or texts, instead, it is theorized that canoes were used as a primary mode of water transportation for the ancient Maya.
 1	Layar	layar	NOUN	_	Number=Sing	3	nsubj:pass	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	diwakili	wakil	VERB	_	Voice=Pass	0	root	_	_
 4	dalam	dalam	ADP	_	_	5	case	_	_
 5	ikonografi	ikonografi	NOUN	_	Number=Sing	3	obl	_	_
@@ -16823,7 +16823,7 @@
 15	sesi	sesi	NOUN	_	Number=Sing	11	nmod	_	_
 16	per	per	ADP	_	_	17	case	_	_
 17	minggu	minggu	NOUN	_	Number=Sing	15	nmod	_	_
-18	tidak	tidak	PART	NEG	Polarity=Neg	19	advmod	_	_
+18	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 19	terganggu	ganggu	VERB	_	Voice=Pass	6	conj	_	_
 20	selama	lama	ADP	_	_	24	case	_	_
 21	15	15	NUM	_	NumType=Card	22	nummod	_	_
@@ -17073,7 +17073,7 @@
 2	di	di	ADP	_	_	4	case	_	_
 3	hadapan	hadap	NOUN	_	Number=Sing	4	nmod	_	_
 4	Kabinet	kabinet	NOUN	_	Number=Sing	1	obl	_	_
-5	tak	tak	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	tak	tak	PART	_	Polarity=Neg	6	advmod	_	_
 6	lama	lama	ADJ	_	_	10	advmod	_	_
 7	setelah	telah	SCONJ	_	_	10	mark	_	_
 8	pasukan	pasuk	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -17347,7 +17347,7 @@
 2	mengalami	alam	VERB	_	Voice=Act	0	root	_	_
 3	kekalahan	kalah	NOUN	_	Number=Sing	2	obj	_	_
 4	tiga	tiga	NUM	_	NumType=Card	5	nummod	_	_
-5	set	set	NOUN	NNB	Number=Sing	3	nmod	_	SpaceAfter=No
+5	set	set	NOUN	_	Number=Sing	3	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01142013
@@ -17420,7 +17420,7 @@
 # sent_id = w01143015
 # text = Belum lama ini ia bercerai dari aktris, Gloria Holden, namun tetap mencintainya setelah keretakan pernikahan itu.
 # text_en = Not long ago he was divorced from the actress, Gloria Holden, but carried the torch after the marital rift.
-1	Belum	belum	PART	NEG	Polarity=Neg	2	advmod	_	_
+1	Belum	belum	PART	_	Polarity=Neg	2	advmod	_	_
 2	lama	lama	ADJ	_	_	5	advmod	_	_
 3	ini	ini	DET	_	PronType=Dem	2	det	_	_
 4	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -17477,7 +17477,7 @@
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	memilih	pilih	VERB	_	Voice=Act	0	root	_	_
 3	untuk	untuk	SCONJ	_	_	5	mark	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 5	mengejar	kejar	VERB	_	Voice=Act	2	xcomp	_	_
 6	masa	masa	NOUN	_	Number=Sing	5	obj	_	_
 7	jabatan	jabat	NOUN	_	Number=Sing	6	compound	_	_
@@ -17525,7 +17525,7 @@
 4	untuk	untuk	ADP	_	_	6	case	_	_
 5	pertama	pertama	ADJ	_	NumType=Ord	6	amod	_	_
 6-7	kalinya	_	_	_	_	_	_	_	_
-6	kali	kali	NOUN	NNB	_	2	obl	_	_
+6	kali	kali	NOUN	_	_	2	obl	_	_
 7	nya	nya	DET	_	_	6	det	_	_
 8	sejak	sejak	ADP	_	_	9	case	_	_
 9	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	_
@@ -17753,7 +17753,7 @@
 12	percaya	percaya	VERB	_	Voice=Act	11	xcomp	_	_
 13	bahwa	bahwa	SCONJ	_	_	16	mark	_	_
 14	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-15	tidak	tidak	PART	NEG	Polarity=Neg	16	advmod	_	_
+15	tidak	tidak	PART	_	Polarity=Neg	16	advmod	_	_
 16	mau	mau	VERB	_	Voice=Act	12	ccomp	_	_
 17	lagi	lagi	ADV	_	_	16	advmod	_	_
 18	terikat	ikat	VERB	_	Voice=Pass	16	xcomp	_	_
@@ -17856,7 +17856,7 @@
 1	The	The	PROPN	_	_	5	nsubj	_	_
 2	Great	Great	PROPN	_	_	1	flat	_	_
 3	Powers	Powers	PROPN	_	_	1	flat	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 5	memenuhi	penuh	VERB	_	Voice=Act	0	root	_	_
 6	permintaan	minta	NOUN	_	Number=Sing	5	obj	_	_
 7	akan	akan	ADP	_	_	8	case	_	_
@@ -18111,7 +18111,7 @@
 1	Juru	juru	NOUN	_	Number=Sing	5	nsubj	_	_
 2	bicara	bicara	VERB	_	Voice=Act	1	acl	_	_
 3	itu	itu	DET	_	PronType=Dem	1	det	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 5	mengesampingkan	samping	VERB	_	Voice=Act	0	root	_	_
 6	kemungkinan	mungkin	NOUN	_	Number=Sing	5	obj	_	_
 7	bahwa	bahwa	SCONJ	_	_	12	mark	_	_
@@ -18128,7 +18128,7 @@
 1	Karena	karena	SCONJ	_	_	7	mark	_	_
 2	seri	seri	NOUN	_	Number=Sing	7	nsubj	_	_
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
-4	bukan	bukan	PART	NEG	Polarity=Neg	7	advmod	_	_
+4	bukan	bukan	PART	_	Polarity=Neg	7	advmod	_	_
 5	lagi	lagi	ADV	_	_	7	advmod	_	_
 6	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
 7	lama	lama	ADJ	_	_	9	advcl	_	SpaceAfter=No
@@ -18139,7 +18139,7 @@
 12	bisa	bisa	AUX	_	_	13	aux	_	_
 13	menghemat	hemat	VERB	_	Voice=Act	10	acl:relcl	_	_
 14	100	100	NUM	_	NumType=Card	15	nummod	_	_
-15	euro	euro	NOUN	NNB	_	13	obj	_	SpaceAfter=No
+15	euro	euro	NOUN	_	_	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n02017008
@@ -18167,11 +18167,11 @@
 # text = Orang tidak tahu dengan cara apa kedua penulis drama itu telah bekerja sama.
 # text_en = One doesn't know in which way both dramatists would have worked together.
 1	Orang	orang	NOUN	_	Number=Sing	3	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	tahu	tahu	VERB	_	Voice=Act	0	root	_	_
 4	dengan	dengan	ADP	_	_	5	case	_	_
 5	cara	cara	NOUN	_	Number=Sing	12	obl	_	_
-6	apa	apa	DET	WDT	_	5	det	_	_
+6	apa	apa	PRON	_	_	5	nmod	_	_
 7	kedua	dua	NUM	_	NumType=Card	8	nummod	_	_
 8	penulis	tulis	NOUN	_	Number=Sing	12	nsubj	_	_
 9	drama	drama	NOUN	_	Number=Sing	8	compound	_	_
@@ -18303,7 +18303,7 @@
 8	telah	telah	AUX	_	_	9	aux	_	_
 9	memutuskan	putus	VERB	_	Voice=Act	4	conj	_	_
 10	untuk	untuk	SCONJ	_	_	12	mark	_	_
-11	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+11	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 12	hadir	hadir	VERB	_	Voice=Act	9	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 14-15	katanya	_	_	_	_	_	_	_	_
@@ -18559,7 +18559,7 @@
 7	seni	seni	NOUN	_	Number=Sing	0	root	_	_
 8	dalam	dalam	ADP	_	_	10	case	_	_
 9	enam	enam	NUM	_	NumType=Card	10	nummod	_	_
-10	detik	detik	NOUN	NNB	Number=Sing	7	nmod	_	SpaceAfter=No
+10	detik	detik	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n02043008
@@ -18582,7 +18582,7 @@
 4	final	final	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 5	musim	musim	NOUN	_	Number=Sing	4	nmod	_	_
 6	itu	itu	DET	_	PronType=Dem	5	det	_	_
-7	tak	tak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tak	tak	PART	_	Polarity=Neg	8	advmod	_	_
 8	dinyana	nyana	VERB	_	Voice=Pass	0	root	_	_
 9	menandai	tanda	VERB	_	Voice=Act	8	xcomp	_	_
 10	akhir	akhir	NOUN	_	Number=Sing	9	obj	_	_
@@ -18611,7 +18611,7 @@
 13	untuk	untuk	ADP	_	_	15	case	_	_
 14	pertama	pertama	ADJ	_	NumType=Ord	15	amod	_	_
 15-16	kalinya	_	_	_	_	_	_	_	_
-15	kali	kali	NOUN	NNB	_	12	obl	_	_
+15	kali	kali	NOUN	_	_	12	obl	_	_
 16	nya	nya	DET	_	_	15	det	_	_
 17	di	di	ADP	_	_	18	case	_	_
 18	pertandingan	tanding	NOUN	_	Number=Sing	12	obl	_	_
@@ -18626,7 +18626,7 @@
 # text_en = It is now only unclear, in which one.
 1	Sekarang	sekarang	ADV	_	PronType=Dem	4	advmod	_	_
 2	cuma	cuma	ADV	_	_	4	advmod	_	_
-3	tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	jelas	jelas	ADJ	_	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	di	di	ADP	_	_	8	case	_	_
@@ -18693,7 +18693,7 @@
 4	itu	itu	DET	_	PronType=Dem	3	det	_	_
 5	di	di	ADP	_	_	6	case	_	_
 6	Jerman	Jerman	PROPN	_	_	2	obl	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 8	jelas	jelas	ADJ	_	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -18800,7 +18800,7 @@
 1	Masalah	masalah	NOUN	_	Number=Sing	5	nsubj	_	_
 2	ini	ini	DET	_	PronType=Dem	1	det	_	_
 3	mungkin	mungkin	AUX	_	_	5	aux	_	_
-4	belum	belum	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	belum	belum	PART	_	Polarity=Neg	5	advmod	_	_
 5	selesai	selesai	VERB	_	Voice=Act	0	root	_	_
 6	bagi	bagi	ADP	_	_	7	case	_	_
 7	Barroso	Barroso	PROPN	_	_	5	obl	_	SpaceAfter=No
@@ -19007,7 +19007,7 @@
 6	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
 7	menjengkelkan	jengkel	VERB	_	Voice=Act	5	acl:relcl	_	_
 8	itu	itu	DET	_	PronType=Dem	5	det	_	_
-9	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
+9	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
 11	hilang	hilang	VERB	_	Voice=Act	0	root	_	_
 12	sepenuhnya	penuh	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -19032,12 +19032,12 @@
 31	atau	atau	CCONJ	_	_	32	cc	_	_
 32	label	label	NOUN	_	Number=Sing	30	conj	_	_
 33	rekaman	rekam	NOUN	_	Number=Sing	32	compound	_	_
-34	bukan	bukan	PART	NEG	Polarity=Neg	35	advmod	_	_
+34	bukan	bukan	PART	_	Polarity=Neg	35	advmod	_	_
 35	bagian	bagi	NOUN	_	Number=Sing	24	advcl	_	_
 36	dari	dari	ADP	_	_	37	case	_	_
 37	GEMA	GEMA	PROPN	_	Abbr=Yes	35	nmod	_	_
 38	dan	dan	CCONJ	_	_	40	cc	_	_
-39	tidak	tidak	PART	NEG	Polarity=Neg	40	advmod	_	_
+39	tidak	tidak	PART	_	Polarity=Neg	40	advmod	_	_
 40	memiliki	milik	VERB	_	Voice=Act	35	conj	_	_
 41	perjanjian	janji	NOUN	_	Number=Sing	40	obj	_	_
 42	dengan	dengan	ADP	_	_	43	case	_	_
@@ -19049,13 +19049,13 @@
 # text_en = The contaminants not only attack the undeveloped lungs of the little ones; they can also lead to long-term impairment in the development of the adolescent brain.
 1	Kontaminan	kontaminan	NOUN	_	Number=Sing	5	nsubj	_	_
 2	itu	itu	DET	_	PronType=Dem	1	det	_	_
-3	tak	tak	PART	NEG	Polarity=Neg	5	advmod	_	_
+3	tak	tak	PART	_	Polarity=Neg	5	advmod	_	_
 4	hanya	hanya	ADV	_	_	5	advmod	_	_
 5	menyerang	serang	VERB	_	Voice=Act	0	root	_	_
 6	paru-paru	paru	NOUN	_	Number=Sing	5	obj	_	_
 7	bayi	bayi	NOUN	_	Number=Sing	6	nmod	_	_
 8	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
-9	belum	belum	PART	NEG	Polarity=Neg	10	advmod	_	_
+9	belum	belum	PART	_	Polarity=Neg	10	advmod	_	_
 10	berkembang	kembang	VERB	_	Voice=Act	6	acl:relcl	_	SpaceAfter=No
 11	;	;	PUNCT	_	_	16	punct	_	_
 12	kontaminan	kontaminan	NOUN	_	Number=Sing	16	nsubj	_	_
@@ -19075,7 +19075,7 @@
 # sent_id = n02083054
 # text = Tidak mengejutkan bahwa pemerintah federal dan negara bagian telah menggolongkannya sebagai Warisan Alam Nasional sebagai upaya berprioritas tertinggi di seluruh negara dan telah mendokumentasikannya mulai dari 2005 dalam kontrak koalisi.
 # text_en = It is no surprise that the federal and state governments have classified the National Natural Heritage as a nation-wide endeavor of the highest priority and have documented it starting in 2005 in a coalition contract.
-1	Tidak	tidak	PART	NEG	Polarity=Neg	2	advmod	_	_
+1	Tidak	tidak	PART	_	Polarity=Neg	2	advmod	_	_
 2	mengejutkan	kejut	VERB	_	Voice=Act	0	root	_	_
 3	bahwa	bahwa	SCONJ	_	_	10	mark	_	_
 4	pemerintah	perintah	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -19090,7 +19090,7 @@
 12	sebagai	bagai	ADP	_	_	13	case	_	_
 13	Warisan	Warisan	PROPN	_	_	10	obl	_	_
 14	Alam	Alam	PROPN	_	_	13	flat	_	_
-15	Nasional	Nasional	PROPN	NNO	_	13	flat	_	_
+15	Nasional	Nasional	PROPN	_	_	13	flat	_	_
 16	sebagai	bagai	ADP	_	_	17	case	_	_
 17	upaya	upaya	NOUN	_	Number=Sing	10	obl	_	_
 18	berprioritas	prioritas	VERB	_	Voice=Act	17	acl	_	_
@@ -19114,7 +19114,7 @@
 # sent_id = n03001007
 # text = Tidak seperti pada tanggal 28 Oktober, surat Mr. Comey hampir tidak dikomentari.
 # text_en = Unlike that of the 28th of October, Mr. Comey's letter has hardly been commented upon.
-1	Tidak	tidak	PART	NEG	Polarity=Neg	4	advmod	_	_
+1	Tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 2	seperti	seperti	ADP	_	_	4	case	_	_
 3	pada	pada	ADP	_	_	4	case	_	_
 4	tanggal	tanggal	NOUN	_	Number=Sing	13	obl	_	_
@@ -19125,7 +19125,7 @@
 9	Mr.	Mr.	PROPN	_	_	8	nmod:poss	_	_
 10	Comey	Comey	PROPN	_	_	9	flat	_	_
 11	hampir	hampir	ADV	_	_	13	advmod	_	_
-12	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
+12	tidak	tidak	PART	_	Polarity=Neg	13	advmod	_	_
 13	dikomentari	komentar	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -19155,14 +19155,14 @@
 1	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 2	Jika	jika	SCONJ	_	_	6	mark	_	_
 3	seseorang	orang	PRON	_	PronType=Ind	6	nsubj	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
 5	bisa	bisa	AUX	_	_	6	aux	_	_
 6	menangani	tangan	VERB	_	Voice=Act	13	advcl	_	_
 7	akun	akun	NOUN	_	Number=Sing	6	obj	_	_
 8	Twitter	Twitter	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-11	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
+11	tidak	tidak	PART	_	Polarity=Neg	13	advmod	_	_
 12	bisa	bisa	AUX	_	_	13	aux	_	_
 13	menangani	tangan	VERB	_	Voice=Act	0	root	_	_
 14	kode	kode	NOUN	_	Number=Sing	13	obj	_	_
@@ -19227,7 +19227,7 @@
 14	tahun	tahun	NOUN	_	Number=Sing	5	nmod	_	_
 15	terakhir	akhir	ADJ	_	Degree=Sup	14	amod	_	_
 16	sangat	sangat	ADV	_	_	18	advmod	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	bagus	bagus	ADJ	_	_	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -19256,7 +19256,7 @@
 3	ketiga	tiga	ADJ	_	NumType=Ord	2	amod	_	_
 4	diperlukan	perlu	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	khususnya	khusus	ADV	IN	_	7	advmod	_	_
+6	khususnya	khusus	ADV	_	_	7	advmod	_	_
 7	suara	suara	NOUN	_	Number=Sing	4	obl	_	_
 8	367	367	NUM	_	NumType=Card	9	nummod	_	_
 9	MP	MP	NOUN	_	Abbr=Yes	7	nmod	_	_
@@ -19423,12 +19423,12 @@
 9	isi	isi	NOUN	_	Number=Sing	6	nmod	_	_
 10	panduan	pandu	NOUN	_	Number=Sing	9	compound	_	_
 11	itu	itu	DET	_	PronType=Dem	9	det	_	_
-12	tidak	tidak	PART	NEG	Polarity=Neg	13	advmod	_	_
+12	tidak	tidak	PART	_	Polarity=Neg	13	advmod	_	_
 13	disertakan	serta	VERB	_	Voice=Pass	4	ccomp	_	SpaceAfter=No
 14	:	:	PUNCT	_	_	18	punct	_	_
 15	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	Sebenarnya	benar	ADV	_	_	18	advmod	_	_
-17	tidak	tidak	PART	NEG	Polarity=Neg	18	advmod	_	_
+17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
 18	ada	ada	VERB	_	Voice=Act	13	parataxis	_	_
 19	konsultasi	konsultasi	NOUN	_	Number=Sing	18	nsubj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -19545,7 +19545,7 @@
 10	sama	sama	ADJ	_	_	0	root	_	_
 11	dengan	dengan	ADP	_	_	13	case	_	_
 12	45	45	NUM	_	NumType=Card	13	nummod	_	_
-13	menit	menit	NOUN	NNB	Number=Sing	10	obl	_	SpaceAfter=No
+13	menit	menit	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = n03008011
@@ -19582,7 +19582,7 @@
 12	konsekuensi	konsekuensi	NOUN	_	Number=Sing	10	obl	_	_
 13	yang	yang	PRON	_	PronType=Rel	17	nsubj:pass	_	_
 14	kemungkinan	mungkin	ADV	_	_	17	advmod	_	_
-15	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
+15	tidak	tidak	PART	_	Polarity=Neg	17	advmod	_	_
 16	dapat	dapat	AUX	_	_	17	aux	_	_
 17	diterima	terima	VERB	_	Voice=Pass	12	acl:relcl	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -19595,7 +19595,7 @@
 2	Digital	Digital	PROPN	_	_	1	flat	_	_
 3	Prancis	Prancis	PROPN	_	_	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	yang	yang	SCONJ	PRP	_	6	mark	_	_
+5	yang	yang	PRON	_	_	6	nsubj	_	_
 6	memberi	beri	VERB	_	Voice=Act	1	acl:relcl	_	_
 7	nasihat	nasihat	NOUN	_	Number=Sing	6	obj	_	_
 8	tentang	tentang	ADP	_	_	9	case	_	_
@@ -19629,7 +19629,7 @@
 9	membebaskan	bebas	VERB	_	Voice=Act	0	root	_	_
 10	42	42	NUM	_	NumType=Card	12	nummod	_	_
 11	juta	juta	NUM	_	NumType=Card	10	flat	_	_
-12	euro	euro	NOUN	NNB	_	9	obj	_	SpaceAfter=No
+12	euro	euro	NOUN	_	_	9	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	yang	yang	SCONJ	_	_	19	mark	_	_
 15	15,5	15,5	NUM	_	NumType=Card	19	nsubj	_	_
@@ -19646,7 +19646,7 @@
 # text = Prancis tidak punya reputasi baik.
 # text_en = France doesn't have a good reputation.
 1	Prancis	Prancis	PROPN	_	_	3	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	punya	punya	VERB	_	Voice=Act	0	root	_	_
 4	reputasi	reputasi	NOUN	_	Number=Sing	3	obj	_	_
 5	baik	baik	ADJ	_	_	4	amod	_	SpaceAfter=No
@@ -19721,7 +19721,7 @@
 5	punya	punya	VERB	_	Voice=Act	2	advcl	_	_
 6	lebih	lebih	ADV	_	_	7	advmod	_	_
 7	sedikit	sedikit	ADJ	_	_	8	amod	_	_
-8	km	km	NOUN	NNB	_	5	obj	_	_
+8	km	km	NOUN	_	_	5	obj	_	_
 9	jalur	jalur	NOUN	_	Number=Sing	8	nmod	_	_
 10	bawah	bawah	NOUN	_	Number=Sing	11	nmod	_	_
 11	tanah	tanah	NOUN	_	Number=Sing	9	nmod	_	_
@@ -19739,7 +19739,7 @@
 4	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 5	sama	sama	ADJ	_	_	6	compound	_	_
 6	sekali	kali	ADV	_	_	9	advmod	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 8	bisa	bisa	AUX	_	_	9	aux	_	_
 9	lanjut	lanjut	ADJ	_	_	2	advcl	_	_
 10	dengan	dengan	ADP	_	_	11	case	_	_
@@ -19791,7 +19791,7 @@
 5	akan	akan	AUX	_	_	6	aux	_	_
 6	ditawari	tawar	VERB	_	Voice=Pass	0	root	_	_
 7	500	500	NUM	_	NumType=Card	8	nummod	_	_
-8	euro	euro	NOUN	NNB	_	6	obl	_	_
+8	euro	euro	NOUN	_	_	6	obl	_	_
 9	oleh	oleh	ADP	_	_	10	case	_	_
 10	negara	negara	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -19849,7 +19849,7 @@
 7	catatan	catat	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	bahwa	bahwa	SCONJ	_	_	12	mark	_	_
-10	tidak	tidak	PART	NEG	Polarity=Neg	12	advmod	_	_
+10	tidak	tidak	PART	_	Polarity=Neg	12	advmod	_	_
 11	akan	akan	AUX	_	_	12	aux	_	_
 12	ada	ada	VERB	_	Voice=Act	4	ccomp	_	_
 13	kenaikan	naik	NOUN	_	Number=Sing	12	nsubj	_	_
@@ -19899,9 +19899,9 @@
 16	solar	solar	NOUN	_	Number=Sing	15	nmod	_	_
 17	adalah	adalah	AUX	_	_	19	cop	_	_
 18	1.335	1.335	NUM	_	NumType=Card	19	nummod	_	_
-19	euro	euro	NOUN	NNB	_	11	ccomp	_	_
+19	euro	euro	NOUN	_	_	11	ccomp	_	_
 20	per	per	ADP	_	_	21	case	_	_
-21	liter	liter	NOUN	NNB	Number=Sing	19	nmod	_	SpaceAfter=No
+21	liter	liter	NOUN	_	Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	dibandingkan	banding	VERB	_	Voice=Pass	19	acl	_	_
 24	dengan	dengan	ADP	_	_	25	case	_	_
@@ -19910,7 +19910,7 @@
 27	Eropa	Eropa	PROPN	_	_	26	nmod	_	_
 28	sebesar	besar	NOUN	_	Number=Sing	25	nmod	_	_
 29	1.165	1.165	NUM	_	NumType=Card	30	nummod	_	_
-30	euro	euro	NOUN	NNB	_	28	nmod	_	SpaceAfter=No
+30	euro	euro	NOUN	_	_	28	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = n04006016
@@ -19937,9 +19937,9 @@
 19	setara	tara	NOUN	_	Number=Sing	10	acl:relcl	_	_
 20	dengan	dengan	ADP	_	_	22	case	_	_
 21	1.365	1.365	NUM	_	NumType=Card	22	nummod	_	_
-22	euro	euro	NOUN	NNB	_	19	obl	_	_
+22	euro	euro	NOUN	_	_	19	obl	_	_
 23	per	per	ADP	_	_	24	case	_	_
-24	liter	liter	NOUN	NNB	Number=Sing	22	nmod	_	SpaceAfter=No
+24	liter	liter	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = n04007002
@@ -19982,7 +19982,7 @@
 11	dan	dan	CCONJ	_	_	13	cc	_	_
 12	akan	akan	AUX	_	_	13	aux	_	_
 13	dipandang	pandang	VERB	_	Voice=Pass	8	conj	_	_
-14	tidak	tidak	PART	NEG	Polarity=Neg	15	advmod	_	_
+14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 15	pantas	pantas	ADJ	_	_	13	xcomp	_	_
 16	bagi	bagi	ADP	_	_	17	case	_	_
 17	Bank	bank	NOUN	_	Number=Sing	15	obl	_	_
@@ -20113,7 +20113,7 @@
 4	riset	riset	NOUN	_	Number=Sing	3	nmod	_	_
 5	yang	yang	PRON	_	PronType=Rel	6	nsubj:pass	_	_
 6	dijalankan	jalan	VERB	_	Voice=Pass	3	acl:relcl	_	_
-7	berdasarkan	dasar	VERB	IN	Voice=Act	6	advcl	_	_
+7	berdasarkan	dasar	VERB	_	Voice=Act	6	advcl	_	_
 8	upaya-upaya	upaya	NOUN	_	Number=Plur	7	obl	_	_
 9	keselamatan	selamat	NOUN	_	Number=Sing	8	compound	_	_
 10	ini	ini	DET	_	PronType=Dem	8	det	_	_
@@ -20142,7 +20142,7 @@
 7	investasi	investasi	NOUN	_	Number=Sing	6	obj	_	_
 8	satu	satu	NUM	_	NumType=Card	10	nummod	_	_
 9	miliar	miliar	NUM	_	NumType=Card	8	flat	_	_
-10	dolar	dolar	NOUN	NNB	Number=Sing	7	nmod	_	_
+10	dolar	dolar	NOUN	_	Number=Sing	7	nmod	_	_
 11	dan	dan	CCONJ	_	_	13	cc	_	_
 12	satu	satu	NUM	_	NumType=Card	13	nummod	_	_
 13	kursi	kursi	NOUN	_	Number=Sing	7	conj	_	_
@@ -20280,7 +20280,7 @@
 1	Untuk	untuk	ADP	_	_	3	case	_	_
 2	pertama	pertama	ADJ	_	NumType=Ord	3	amod	_	_
 3-4	kalinya	_	_	_	_	_	_	_	_
-3	kali	kali	NOUN	NNB	_	13	obl	_	_
+3	kali	kali	NOUN	_	_	13	obl	_	_
 4	nya	nya	DET	_	_	3	det	_	_
 5	dalam	dalam	ADP	_	_	7	case	_	_
 6	enam	enam	NUM	_	NumType=Card	7	nummod	_	_
@@ -20317,7 +20317,7 @@
 3-4	manajemennya	_	_	_	_	_	_	_	_
 3	manajemen	manajemen	NOUN	_	Number=Sing	9	nsubj	_	_
 4	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
-5	belum	belum	PART	NEG	Polarity=Neg	9	advmod	_	_
+5	belum	belum	PART	_	Polarity=Neg	9	advmod	_	_
 6	sama	sama	ADJ	_	_	7	compound	_	_
 7	sekali	kali	ADV	_	_	9	advmod	_	_
 8	tanpa	tanpa	ADP	_	_	9	case	_	_
@@ -20420,7 +20420,7 @@
 3	ada	ada	VERB	_	Voice=Act	12	advcl	_	_
 4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	7	advmod	_	_
 7	semua	semua	DET	_	PronType=Tot	8	det	_	_
 8	orang	orang	NOUN	_	Number=Sing	12	nsubj	_	_
 9	di	di	ADP	_	_	11	case	_	_
@@ -20604,7 +20604,7 @@
 27	dan	dan	CCONJ	_	_	31	cc	_	_
 28	komedi	komedi	NOUN	_	Number=Sing	31	nsubj	_	_
 29	dagelan	dagelan	NOUN	_	Number=Sing	28	compound	_	_
-30	tidak	tidak	PART	NEG	Polarity=Neg	31	advmod	_	_
+30	tidak	tidak	PART	_	Polarity=Neg	31	advmod	_	_
 31	pas	pas	ADJ	_	_	16	conj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -20614,7 +20614,7 @@
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	percaya	percaya	VERB	_	Voice=Act	0	root	_	_
 3	bahwa	bahwa	SCONJ	_	_	10	mark	_	_
-4	tak	tak	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	tak	tak	PART	_	Polarity=Neg	5	advmod	_	_
 5	seorang	orang	NOUN	_	Number=Sing	10	nsubj	_	_
 6	pun	pun	PART	_	_	5	advmod:emph	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
@@ -20693,7 +20693,7 @@
 3	nya	nya	DET	_	_	2	det	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Trump	Trump	PROPN	_	_	8	nsubj	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 7	terlalu	lalu	ADV	_	_	8	advmod	_	_
 8	khawatir	khawatir	ADJ	_	_	0	root	_	_
 9	tentang	tentang	ADP	_	_	10	case	_	_
@@ -20728,7 +20728,7 @@
 17	besar	besar	ADJ	_	_	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	namun	namun	CCONJ	_	_	21	cc	_	_
-20	tidak	tidak	PART	NEG	Polarity=Neg	21	advmod	_	_
+20	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 21	jelas	jelas	ADJ	_	_	4	conj	_	_
 22-23	apakah	_	_	_	_	_	_	_	_
 22	apa	apa	SCONJ	_	_	27	mark	_	_
@@ -20792,7 +20792,7 @@
 7	karena	karena	SCONJ	_	_	8	mark	_	_
 8	menghindari	hindar	VERB	_	Voice=Act	3	advcl	_	_
 9	dan	dan	CCONJ	_	_	11	cc	_	_
-10	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
+10	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 11	merespons	respons	VERB	_	Voice=Act	8	conj	_	_
 12	secara	cara	ADP	_	_	13	case:adv	_	_
 13	terbuka	buka	VERB	_	Voice=Pass	11	advcl	_	_
@@ -20912,7 +20912,7 @@
 12	pusat	pusat	NOUN	_	Number=Sing	10	nmod	_	_
 13	kota	kota	NOUN	_	Number=Sing	12	compound	_	_
 14	yang	yang	PRON	_	PronType=Rel	16	nsubj	_	_
-15	tidak	tidak	PART	NEG	Polarity=Neg	16	advmod	_	_
+15	tidak	tidak	PART	_	Polarity=Neg	16	advmod	_	_
 16	hancur	hancur	VERB	_	Voice=Act	10	acl:relcl	_	_
 17	pada	pada	ADP	_	_	19	case	_	_
 18	akhir	akhir	NOUN	_	Number=Sing	19	nmod	_	_
@@ -21035,7 +21035,7 @@
 6	panjang	panjang	NOUN	_	Number=Sing	9	nsubj	_	_
 7	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
 8	empat	empat	NUM	_	NumType=Card	9	nummod	_	_
-9	kilometer	kilometer	NOUN	NNB	_	1	acl:relcl	_	SpaceAfter=No
+9	kilometer	kilometer	NOUN	_	_	1	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
 12	taman	taman	NOUN	_	Number=Sing	11	obj	_	_
@@ -21208,7 +21208,7 @@
 2	Ottoman	Ottoman	PROPN	_	_	1	flat	_	_
 3	dan	dan	CCONJ	_	_	4	cc	_	_
 4	Rusia	Rusia	PROPN	_	_	1	conj	_	_
-5	tidak	tidak	PART	NEG	Polarity=Neg	6	advmod	_	_
+5	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
 6	diberi	beri	VERB	_	Voice=Pass	0	root	_	_
 7	izin	izin	NOUN	_	Number=Sing	6	obl	_	_
 8	untuk	untuk	SCONJ	_	_	9	mark	_	_
@@ -21367,7 +21367,7 @@
 # text = Raja tidak berhati-hati selama pelariannya dan pada banyak waktu ia dikenali selama masa tinggalnya.
 # text_en = The king did not take special precautions during his escape and was recognized multiple times during his stays.
 1	Raja	raja	NOUN	_	Number=Sing	3	nsubj	_	_
-2	tidak	tidak	PART	NEG	Polarity=Neg	3	advmod	_	_
+2	tidak	tidak	PART	_	Polarity=Neg	3	advmod	_	_
 3	berhati-hati	hati	VERB	_	Voice=Act	0	root	_	_
 4	selama	lama	ADP	_	_	5	case	_	_
 5-6	pelariannya	_	_	_	_	_	_	_	_
@@ -21709,7 +21709,7 @@
 4	semua	semua	DET	_	PronType=Tot	5	det	_	_
 5	opini	opini	NOUN	_	Number=Sing	3	obj	_	_
 6	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
-7	tidak	tidak	PART	NEG	Polarity=Neg	8	advmod	_	_
+7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 8	diinginkan	ingin	VERB	_	Voice=Pass	5	acl:relcl	_	SpaceAfter=No
 9	;	;	PUNCT	_	_	14	punct	_	_
 10	partisipasi	partisipasi	NOUN	_	Number=Sing	14	nsubj	_	_
@@ -21718,7 +21718,7 @@
 13	umum	umum	ADJ	_	_	12	amod	_	_
 14	menjadi	jadi	VERB	_	Voice=Act	3	parataxis	_	_
 15	hampir	hampir	ADV	_	_	17	advmod	_	_
-16	tidak	tidak	PART	NEG	Polarity=Neg	17	advmod	_	_
+16	tidak	tidak	PART	_	Polarity=Neg	17	advmod	_	_
 17	mungkin	mungkin	ADJ	_	_	14	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -22154,7 +22154,7 @@
 6	besar	besar	ADJ	_	_	5	amod	_	_
 7	orang	orang	NOUN	_	Number=Sing	5	nmod	_	_
 8	Kristen	Kristen	PROPN	_	_	7	nmod	_	_
-9	tidak	tidak	PART	NEG	Polarity=Neg	10	advmod	_	_
+9	tidak	tidak	PART	_	Polarity=Neg	10	advmod	_	_
 10	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
 11	akses	akses	NOUN	_	Number=Sing	10	obj	_	_
 12	ke	ke	ADP	_	_	13	case	_	_
@@ -22171,7 +22171,7 @@
 1	Namun	namun	CCONJ	_	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-4	tidak	tidak	PART	NEG	Polarity=Neg	5	advmod	_	_
+4	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
 5	melakukan	laku	VERB	_	Voice=Act	0	root	_	_
 6	ekspansi	ekspansi	NOUN	_	Number=Sing	5	obj	_	_
 7	hingga	hingga	SCONJ	_	_	15	mark	_	_
@@ -22201,7 +22201,7 @@
 11	sebuah	buah	DET	_	Number=Sing|PronType=Ind	12	det	_	_
 12	teknik	teknik	NOUN	_	Number=Sing	2	parataxis	_	_
 13	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
-14	belum	belum	PART	NEG	Polarity=Neg	16	advmod	_	_
+14	belum	belum	PART	_	Polarity=Neg	16	advmod	_	_
 15	pernah	pernah	ADV	_	_	16	advmod	_	_
 16	digunakan	guna	VERB	_	Voice=Pass	12	acl:relcl	_	_
 17	hingga	hingga	ADP	_	_	18	case	_	_
@@ -22250,7 +22250,7 @@
 17	,	,	PUNCT	_	_	12	punct	_	_
 18	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	mengambil	ambil	VERB	_	Voice=Act	0	root	_	_
-20	berbagai	bagai	DET	NN	_	21	det	_	_
+20	berbagai	bagai	DET	_	_	21	det	_	_
 21	langkah	langkah	NOUN	_	Number=Sing	19	obj	_	_
 22	untuk	untuk	SCONJ	_	_	23	mark	_	_
 23	membebaskan	bebas	VERB	_	Voice=Act	21	acl	_	_
@@ -22437,7 +22437,7 @@
 16	yang	yang	SCONJ	_	_	18	mark	_	_
 17	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	akui	aku	VERB	_	Voice=Act	6	acl:relcl	_	_
-19	tak	tak	PART	NEG	Polarity=Neg	20	advmod	_	_
+19	tak	tak	PART	_	Polarity=Neg	20	advmod	_	_
 20	lama	lama	ADJ	_	_	18	advmod	_	_
 21	kemudian	kemudian	ADV	_	_	18	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
@@ -22500,7 +22500,7 @@
 4	di	di	ADP	_	_	5	case	_	_
 5	Patahan	Patahan	PROPN	_	_	3	obl	_	_
 6	Indo-Australia	Indo-Australia	PROPN	_	_	5	flat	_	SpaceAfter=No
-7	;	;	PUNCT	;	_	10	punct	_	_
+7	;	;	PUNCT	_	_	10	punct	_	_
 8	patahan	patah	NOUN	_	Number=Sing	10	nsubj	_	_
 9	ini	ini	DET	_	PronType=Dem	8	det	_	_
 10	naik	naik	VERB	_	Voice=Act	3	parataxis	_	_
@@ -22548,7 +22548,7 @@
 6	lapangan	lapang	NOUN	_	Number=Sing	10	nsubj:pass	_	_
 7	golf	golf	NOUN	_	Number=Sing	6	compound	_	_
 8	90	90	NUM	_	NumType=Card	9	nummod	_	_
-9	hektar	hektar	NOUN	NNB	Number=Sing	6	nmod	_	_
+9	hektar	hektar	NOUN	_	Number=Sing	6	nmod	_	_
 10	dibangun	bangun	VERB	_	Voice=Pass	0	root	_	_
 11	di	di	ADP	_	_	15	case	_	_
 12	bagian	bagi	NOUN	_	Number=Sing	15	nmod	_	_
@@ -22574,7 +22574,7 @@
 6	pacuan	pacu	NOUN	_	Number=Sing	5	nmod	_	_
 7	kuda	kuda	NOUN	_	Number=Sing	6	compound	_	_
 8	ini	ini	DET	_	PronType=Dem	5	det	_	_
-9	tidak	tidak	PART	NEG	Polarity=Neg	11	advmod	_	_
+9	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 10	lagi	lagi	ADV	_	_	11	advmod	_	_
 11	digunakan	guna	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	18	punct	_	_
@@ -22735,7 +22735,7 @@
 13	menandakan	tanda	VERB	_	Voice=Act	8	advcl	_	_
 14	bagian	bagi	NOUN	_	Number=Sing	13	obj	_	_
 15	selatan	selatan	NOUN	_	Number=Sing	14	compound	_	_
-16	semenanjung	semenanjung	NOUN	NP	Number=Sing	14	nmod	_	_
+16	semenanjung	semenanjung	NOUN	_	Number=Sing	14	nmod	_	_
 17	Italia	Italia	PROPN	_	_	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -22774,7 +22774,7 @@
 7	gelar	gelar	NOUN	_	Number=Sing	4	nmod	_	_
 8	earl	earl	X	_	_	7	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	7	punct	_	_
-10	telah	telah	AUX	SC	_	11	aux	_	_
+10	telah	telah	AUX	_	_	11	aux	_	_
 11	ada	ada	VERB	_	Voice=Act	0	root	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
 13	masa	masa	NOUN	_	Number=Sing	11	obl	_	_
@@ -22820,7 +22820,7 @@
 # text_en = Although not a resolver of the conflict, the French victory at the Battle of Marengo forced the Austrians to give Italy up for the second time.
 1	Meski	meski	SCONJ	_	_	4	mark	_	_
 2	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	bukan	bukan	PART	NEG	Polarity=Neg	4	advmod	_	_
+3	bukan	bukan	PART	_	Polarity=Neg	4	advmod	_	_
 4	pemecah	pecah	NOUN	_	Number=Sing	14	advcl	_	_
 5	masalah	masalah	NOUN	_	Number=Sing	4	nmod	_	_
 6	konflik	konflik	NOUN	_	Number=Sing	5	compound	_	_
@@ -22839,7 +22839,7 @@
 19	untuk	untuk	ADP	_	_	21	case	_	_
 20	kedua	dua	NUM	_	NumType=Card	21	nummod	_	_
 21-22	kalinya	_	_	_	_	_	_	_	SpaceAfter=No
-21	kali	kali	NOUN	NNB	_	17	obl	_	_
+21	kali	kali	NOUN	_	_	17	obl	_	_
 22	nya	nya	DET	_	_	21	det	_	_
 23	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -23031,7 +23031,7 @@
 1	Nicolai	Nicolai	PROPN	_	_	2	nsubj	_	_
 2	berkolaborasi	kolaborasi	VERB	_	Voice=Act	0	root	_	_
 3	dalam	dalam	ADP	_	_	5	case	_	_
-4	berbagai	bagai	DET	NN	_	5	det	_	_
+4	berbagai	bagai	DET	_	_	5	det	_	_
 5	susunan	susun	NOUN	_	Number=Sing	2	obl	_	_
 6	musik	musik	NOUN	_	Number=Sing	5	compound	_	_
 7	sinematik	sinematik	ADJ	_	_	5	amod	_	_
@@ -23068,7 +23068,7 @@
 5	hancur	hancur	VERB	_	Voice=Act	0	root	_	_
 6	karena	karena	ADP	_	_	7	case	_	_
 7	kolaborasi	kolaborasi	NOUN	_	Number=Sing	5	obl	_	_
-8	tidak	tidak	PART	NEG	Polarity=Neg	9	advmod	_	_
+8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 9	resmi	resmi	ADJ	_	_	7	amod	_	_
 10	di	di	ADP	_	_	13	case	_	_
 11	antara	antara	NOUN	_	Number=Sing	13	nmod	_	_
@@ -23089,11 +23089,11 @@
 # text = Selama berbagai kolaborasi mereka, tidak jelas siapa di antara mereka yang awalnya memikirkan beberapa solusi bergaya dalam aransemen yang kemudian mencirikan gaya kedua seniman tersebut.
 # text_en = During their various collaborations, it is not clear who between the two conceived of some stylistic solutions in the arrangements that later on characterised both artists' style.
 1	Selama	lama	ADP	_	_	3	case	_	_
-2	berbagai	bagai	DET	NN	_	3	det	_	_
+2	berbagai	bagai	DET	_	_	3	det	_	_
 3	kolaborasi	kolaborasi	NOUN	_	Number=Sing	7	obl	_	_
 4	mereka	mereka	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	tidak	tidak	PART	NEG	Polarity=Neg	7	advmod	_	_
+6	tidak	tidak	PART	_	Polarity=Neg	7	advmod	_	_
 7	jelas	jelas	ADJ	_	_	0	root	_	_
 8	siapa	siapa	PRON	_	PronType=Rel	7	nsubj	_	_
 9	di	di	ADP	_	_	11	case	_	_
