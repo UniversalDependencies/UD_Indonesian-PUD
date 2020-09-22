@@ -3969,7 +3969,7 @@
 4	retrospektif	retrospektif	ADJ	_	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	mengutip	kutip	VERB	_	Voice=Act	2	advcl	_	_
-7	sepasang	pasang	DET	_	Number=Dual	8	det	_	_
+7	sepasang	pasang	DET	_	Number=Plur	8	det	_	_
 8	cendekia	cendekia	NOUN	_	Number=Sing	6	obj	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 10-11	menyebutnya	_	_	_	_	_	_	_	_
