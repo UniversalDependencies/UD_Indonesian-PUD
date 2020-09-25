@@ -6134,7 +6134,7 @@
 11	selalu	_	ADV	_	PronType=Tot	12	advmod	_	_
 12	mencari	_	VERB	_	Voice=Act	7	conj	_	_
 13	jawaban	_	NOUN	_	Number=Sing	12	obj	_	SpaceAfter=No
-14	.	_	PUNCT	_	_	7	punct	_	_
+14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01105023
 # text = Saya juga ingin tahu apakah Davis Cup berperan.
@@ -6993,16 +6993,16 @@
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	menyenangkan	senang	VERB	_	Voice=Act	9	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	tampaknya	_	ADV	_	_	16	advmod	_	_
-15	memang	_	ADV	_	_	16	advmod	_	_
-16	dibuat	_	VERB	_	Voice=Pass	6	advcl	_	_
-17	untuk	_	ADP	_	_	18	case	_	_
-18	tontonan	_	NOUN	_	Number=Sing	16	obl	_	_
-19	bioskop	_	NOUN	_	Number=Sing	18	nmod	_	_
-20	pada	_	ADP	_	_	21	case	_	_
-21	Minggu	_	PROPN	_	_	18	nmod	_	_
-22	sore	_	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	_	_	6	punct	_	_
+14	tampaknya	tampak	ADV	_	_	16	advmod	_	_
+15	memang	memang	ADV	_	_	16	advmod	_	_
+16	dibuat	buat	VERB	_	Voice=Pass	6	advcl	_	_
+17	untuk	untuk	ADP	_	_	18	case	_	_
+18	tontonan	tonton	NOUN	_	Number=Sing	16	obl	_	_
+19	bioskop	bioskop	NOUN	_	Number=Sing	18	nmod	_	_
+20	pada	pada	ADP	_	_	21	case	_	_
+21	Minggu	Minggu	PROPN	_	_	18	nmod	_	_
+22	sore	sore	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n01119017
 # text = Dan, tentu saja, ada Bob, sumber tetap hiburan.
@@ -12515,37 +12515,37 @@
 # text = Ia tampaknya berharap Senat dan negara untuk bertindak tanpa dia dan perintah langsungnya agak samar, menimbulkan perdebatan lebih pada apa sebenarnya maksudnya daripada mengeluarkan legislasinya.
 # text_en = He seems to have wished for the Senate and the state to simply act without him and his direct orders were rather vague, inspiring debate more on what he actually meant than on passing his legislation.
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	tampaknya	_	ADV	_	_	3	advmod	_	_
-3	berharap	_	VERB	_	Voice=Act	0	root	_	_
-4	Senat	_	PROPN	_	_	8	nsubj	_	_
-5	dan	_	CCONJ	_	_	6	cc	_	_
-6	negara	_	NOUN	_	Number=Sing	4	conj	_	_
-7	untuk	_	SCONJ	_	_	8	mark	_	_
-8	bertindak	_	VERB	_	Voice=Act	3	xcomp	_	_
-9	tanpa	_	ADP	_	_	10	case	_	_
-10	dia	_	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obl	_	_
-11	dan	_	CCONJ	_	_	16	cc	_	_
-12	perintah	_	NOUN	_	Number=Sing	16	nsubj	_	_
-13	langsung	_	ADJ	_	_	12	amod	_	SpaceAfter=No
-14	nya	_	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-15	agak	_	ADV	_	_	16	advmod	_	_
-16	samar	_	ADJ	_	_	3	conj	_	SpaceAfter=No
-17	,	_	PUNCT	_	_	18	punct	_	_
-18	menimbulkan	_	VERB	_	Voice=Act	16	advcl	_	_
-19	perdebatan	_	NOUN	_	Number=Sing	18	obj	_	_
-20	lebih	_	ADV	_	_	22	advmod	_	_
-21	pada	_	ADP	_	_	22	case	_	_
-22	apa	_	PRON	_	PronType=Rel	19	nmod	_	_
-23	sebenarnya	_	ADV	_	_	24	advmod	_	_
+2	tampaknya	tampak	ADV	_	_	3	advmod	_	_
+3	berharap	harap	VERB	_	Voice=Act	0	root	_	_
+4	Senat	Senat	PROPN	_	_	8	nsubj	_	_
+5	dan	dan	CCONJ	_	_	6	cc	_	_
+6	negara	negara	NOUN	_	Number=Sing	4	conj	_	_
+7	untuk	untuk	SCONJ	_	_	8	mark	_	_
+8	bertindak	tindak	VERB	_	Voice=Act	3	xcomp	_	_
+9	tanpa	tanpa	ADP	_	_	10	case	_	_
+10	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	dan	dan	CCONJ	_	_	16	cc	_	_
+12	perintah	perintah	NOUN	_	Number=Sing	16	nsubj	_	_
+13	langsung	langsung	ADJ	_	_	12	amod	_	SpaceAfter=No
+14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	agak	agak	ADV	_	_	16	advmod	_	_
+16	samar	samar	ADJ	_	_	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	menimbulkan	timbul	VERB	_	Voice=Act	16	advcl	_	_
+19	perdebatan	debat	NOUN	_	Number=Sing	18	obj	_	_
+20	lebih	lebih	ADV	_	_	22	advmod	_	_
+21	pada	pada	ADP	_	_	22	case	_	_
+22	apa	apa	PRON	_	PronType=Rel	19	nmod	_	_
+23	sebenarnya	benar	ADV	_	_	24	advmod	_	_
 24-25	maksudnya	_	_	_	_	_	_	_	_
-24	maksud	_	NOUN	_	Number=Sing	22	nmod	_	_
-25	nya	_	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
-26	daripada	_	SCONJ	_	_	27	mark	_	_
-27	mengeluarkan	_	VERB	_	Voice=Act	22	acl	_	_
+24	maksud	maksud	NOUN	_	Number=Sing	22	nmod	_	_
+25	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+26	daripada	daripada	SCONJ	_	_	27	mark	_	_
+27	mengeluarkan	keluar	VERB	_	Voice=Act	22	acl	_	_
 28-29	legislasinya	_	_	_	_	_	_	_	SpaceAfter=No
-28	legislasi	_	NOUN	_	Number=Sing	27	obj	_	_
-29	nya	_	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
-30	.	_	PUNCT	_	_	3	punct	_	_
+28	legislasi	legislasi	NOUN	_	Number=Sing	27	obj	_	_
+29	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+30	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01063048
 # text = Dewa-dewa mewakili secara jelas kebutuhan praktis kehidupan sehari-hari, dan mereka dengan sangat hati-hati diberi ritual dan persembahan yang dianggap pantas.
@@ -12909,14 +12909,14 @@
 4	setidaknya	tidak	ADV	_	_	8	advmod	_	_
 5	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 6	berdua	dua	NUM	_	NumType=Card	5	nummod	_	_
-7	kelihatannya	_	ADV	_	_	8	advmod	_	_
-8	memegang	_	VERB	_	Voice=Act	0	root	_	_
-9	bagian-bagian	_	NOUN	_	Number=Plur	8	obj	_	_
-10	dari	_	ADP	_	_	11	case	_	_
-11	Mesir	_	PROPN	_	_	9	nmod	_	_
-12	bagian	_	NOUN	_	Number=Sing	11	nmod	_	_
-13	bawah	_	NOUN	_	Number=Sing	12	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	_	_	8	punct	_	_
+7	kelihatannya	lihat	ADV	_	_	8	advmod	_	_
+8	memegang	pegang	VERB	_	Voice=Act	0	root	_	_
+9	bagian-bagian	bagian	NOUN	_	Number=Plur	8	obj	_	_
+10	dari	dari	ADP	_	_	11	case	_	_
+11	Mesir	Mesir	PROPN	_	_	9	nmod	_	_
+12	bagian	bagi	NOUN	_	Number=Sing	11	nmod	_	_
+13	bawah	bawah	NOUN	_	Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w01068027
 # text = Pada tanggal 9 September 2002, Aldrin dibujuk ke sebuah hotel di Beverly Hills dengan dalih diwawancarai untuk sebuah acara televisi anak-anak Jepang tentang ruang angkasa.
