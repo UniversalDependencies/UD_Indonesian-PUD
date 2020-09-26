@@ -206,7 +206,7 @@
 11	untuk	untuk	SCONJ	_	_	12	mark	_	_
 12	bertemu	temu	VERB	_	Voice=Act	7	advcl	_	_
 13	dengan	dengan	ADP	_	_	15	case	_	_
-14	para	para	DET	_	Number=Plur	15	det	_	_
+14	para	para	DET	_	Number=Plur|PronType=Ind	15	det	_	_
 15	pelobi	lobi	NOUN	_	Number=Sing	12	obl	_	_
 16	teknologi	teknologi	NOUN	_	Number=Sing	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
@@ -255,8 +255,8 @@
 17	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	blok	blok	NOUN	_	Number=Sing	6	acl:relcl	_	_
 19-20	jauhnya	_	_	_	_	_	_	_	SpaceAfter=No
-19	jauh	jauh	NOUN	_	Number=Sing	18	nsubj	_	_
-20	nya	nya	DET	_	_	19	det	_	_
+19	jauh	jauh	ADJ	_	_	18	amod	_	_
+20	nya	nya	DET	_	_	19	dep	_	_
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01003013
@@ -265,7 +265,7 @@
 1	Mungkin	mungkin	ADV	_	_	6	advmod	_	_
 2	kode	kode	NOUN	_	Number=Sing	6	nsubj	_	_
 3-4	berpakaiannya	_	_	_	_	_	_	_	_
-3	berpakaian	pakai	ADJ	_	_	2	amod	_	_
+3	berpakaian	pakai	VERB	_	Voice=Act	2	acl	_	_
 4	nya	nya	DET	_	_	2	det	_	_
 5	terlalu	lalu	ADV	_	_	6	advmod	_	_
 6	sesak	sesak	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -285,7 +285,7 @@
 9	misalnya	misal	NOUN	_	Number=Sing	14	obl	_	_
 10	saja	saja	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	para	para	DET	_	Number=Plur	13	det	_	_
+12	para	para	DET	_	Number=Plur|PronType=Ind	13	det	_	_
 13	pelajar	ajar	NOUN	_	Number=Sing	14	nsubj	_	_
 14	belajar	ajar	VERB	_	Voice=Act	0	root	_	_
 15	materi	materi	NOUN	_	Number=Sing	14	obl	_	_
@@ -494,7 +494,7 @@
 11	kebun	kebun	NOUN	_	Number=Sing	10	obj	_	_
 12	binatang	binatang	NOUN	_	Number=Sing	11	nmod	_	_
 13	dengan	dengan	ADP	_	_	15	case	_	_
-14	berbagai	bagai	DET	_	_	15	det	_	_
+14	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	15	det	_	_
 15	spesies	spesies	NOUN	_	Number=Sing	10	obl	_	_
 16	binatang	binatang	NOUN	_	Number=Sing	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -518,7 +518,7 @@
 6	Tn.	Tn.	PROPN	_	Abbr=Yes	5	nsubj	_	_
 7	Panvalkar	Panvalkar	PROPN	_	_	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	ketika	ketika	SCONJ	_	_	11	mark	_	_
+9	ketika	ketika	ADV	_	PronType=Rel	11	advmod	_	_
 10	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	merasa	rasa	VERB	_	Voice=Act	1	advcl	_	_
 12	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
@@ -603,7 +603,7 @@
 # text_en = First one of the Yazidi women started crying, then one of her friends.
 1	Satu	satu	NUM	_	NumType=Card	7	nsubj	_	_
 2	dari	dari	ADP	_	_	4	case	_	_
-3	para	para	DET	_	Number=Plur	4	det	_	_
+3	para	para	DET	_	Number=Plur|PronType=Ind	4	det	_	_
 4	wanita	wanita	NOUN	_	Number=Sing	1	nmod	_	_
 5	Yazidi	Yazidi	PROPN	_	_	4	nmod	_	_
 6	itu	itu	DET	_	PronType=Dem	4	det	_	_
@@ -689,7 +689,7 @@
 # text_en = It's most obvious when a celebrity's name is initially quite rare.
 1	Paling	paling	ADV	_	_	2	advmod	_	_
 2	nyata	nyata	ADJ	_	_	0	root	_	_
-3	saat	saat	SCONJ	_	_	9	mark	_	_
+3	saat	saat	ADV	_	PronType=Rel	9	advmod	_	_
 4	nama	nama	NOUN	_	Number=Sing	9	nsubj	_	_
 5	seorang	orang	DET	_	Number=Sing|PronType=Ind	6	det	_	_
 6	selebriti	selebritas	NOUN	_	Number=Sing	4	nmod:poss	_	_
@@ -878,7 +878,7 @@
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	memutuskan	putus	VERB	_	Voice=Act	8	acl	_	_
 15-16	apakah	_	_	_	_	_	_	_	_
-15	apa	apa	SCONJ	_	_	18	mark	_	_
+15	apa	apa	PRON	_	PronType=Rel	18	obl	_	_
 16	kah	kah	PART	_	_	15	advmod:emph	_	_
 17	akan	akan	AUX	_	_	18	aux	_	_
 18	membebankan	beban	VERB	_	Voice=Act	14	xcomp	_	_
@@ -963,11 +963,11 @@
 5	keamanan	aman	NOUN	_	Number=Sing	4	nmod	_	_
 6	mengajukan	aju	VERB	_	Voice=Act	0	root	_	_
 7	pertanyaan	tanya	NOUN	_	Number=Sing	6	obj	_	_
-8	tentang	tentang	ADP	_	_	9	case	_	_
+8	tentang	tentang	SCONJ	_	_	9	mark	_	_
 9-10	perlunya	_	_	_	_	_	_	_	_
-9	perlu	perlu	VERB	_	Voice=Act	7	nmod	_	_
-10	nya	nya	DET	_	_	9	det	_	_
-11	kursus	kursus	NOUN	_	Number=Sing	10	nmod	_	_
+9	perlu	perlu	VERB	_	Voice=Act	7	acl	_	_
+10	nya	nya	DET	_	_	9	dep	_	_
+11	kursus	kursus	NOUN	_	Number=Sing	10	nsubj	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	_
 13	dan	dan	CCONJ	_	_	14	cc	_	_
 14	maksud	maksud	NOUN	_	Number=Sing	9	conj	_	_
@@ -1581,7 +1581,7 @@
 5	setelah	telah	ADP	_	_	6	case	_	_
 6	itu	itu	PRON	_	PronType=Dem	2	obl	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
-7	apa	apa	SCONJ	_	_	10	mark	_	_
+7	apa	apa	PRON	_	PronType=Rel	10	obl	_	_
 8	kah	kah	PART	_	_	7	advmod:emph	_	_
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	mengerti	arti	VERB	_	Voice=Act	2	ccomp	_	_
@@ -1639,7 +1639,7 @@
 2	menjadi	jadi	VERB	_	Voice=Act	0	root	_	_
 3	berita	berita	NOUN	_	Number=Sing	2	obl	_	_
 4	utama	utama	ADJ	_	_	3	amod	_	_
-5	saat	saat	SCONJ	_	_	7	mark	_	_
+5	saat	saat	ADV	_	PronType=Rel	7	advmod	_	_
 6	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	menggambarkan	gambar	VERB	_	Voice=Act	2	advcl	_	_
 8	tindakan	tindak	NOUN	_	Number=Sing	7	obj	_	_
@@ -1801,9 +1801,9 @@
 19	pada	pada	ADP	_	_	20	case	_	_
 20	saat	saat	NOUN	_	Number=Sing	15	obl	_	_
 21-22	terjadinya	_	_	_	_	_	_	_	_
-21	terjadi	jadi	VERB	_	Voice=Pass	20	nmod	_	_
-22	nya	nya	DET	_	_	21	det	_	_
-23	insiden	insiden	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+21	terjadi	jadi	VERB	_	Voice=Pass	20	acl	_	_
+22	nya	nya	DET	_	_	21	dep	_	_
+23	insiden	insiden	NOUN	_	Number=Sing	21	nsubj:pass	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = n01030008
@@ -1843,7 +1843,7 @@
 # sent_id = n01031005
 # text = Para peneliti telah menyelidiki potensi untuk kontrasepsi hormonal pria selama sekitar 20 tahun.
 # text_en = Researchers have been investigating potential for male hormonal contraceptives for around 20 years.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	peneliti	teliti	NOUN	_	Number=Sing	4	nsubj	_	_
 3	telah	telah	AUX	_	_	4	aux	_	_
 4	menyelidiki	selidik	VERB	_	Voice=Act	0	root	_	_
@@ -1907,7 +1907,7 @@
 # sent_id = n01033005
 # text = Para peneliti mengatakan menganalisis DNA tumor dapat membantu menjelaskan penyebab dasar kanker lain.
 # text_en = Researchers say analysing tumour DNA may help explain the underlying causes of other cancers.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	peneliti	teliti	NOUN	_	Number=Sing	3	nsubj	_	_
 3	mengatakan	kata	VERB	_	Voice=Act	0	root	_	_
 4	menganalisis	analisis	VERB	_	Voice=Act	8	csubj	_	_
@@ -2212,7 +2212,7 @@
 1	Asosiasi	asosiasi	NOUN	_	Number=Sing	10	nsubj	_	_
 2	yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
 3	mewakili	wakil	VERB	_	Voice=Act	1	acl:relcl	_	_
-4	para	para	DET	_	Number=Plur	5	det	_	_
+4	para	para	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	agen	agen	NOUN	_	Number=Sing	3	obj	_	_
 6	real	real	X	_	Foreign=Yes	5	nmod	_	_
 7	estate	estate	X	_	Foreign=Yes	6	flat:foreign	_	_
@@ -2480,7 +2480,7 @@
 5	mengadakan	ada	VERB	_	Voice=Act	0	root	_	_
 6	pertemuan	temu	NOUN	_	Number=Sing	5	obj	_	_
 7	dengan	dengan	ADP	_	_	9	case	_	_
-8	para	para	DET	_	Number=Plur	9	det	_	_
+8	para	para	DET	_	Number=Plur|PronType=Ind	9	det	_	_
 9	konselor	konselor	NOUN	_	Number=Sing	6	nmod	_	_
 10	di	di	ADP	_	_	11	case	_	_
 11	sekolah	sekolah	NOUN	_	Number=Sing	6	nmod	_	_
@@ -2622,7 +2622,7 @@
 # sent_id = n01043005
 # text = Para eksekutif juga menerima apa yang disebut “gaji kinerja” atas keberhasilan mencapai atau melampaui ekspektasi, berbagi $1,5 juta di antara mereka, atau perkiraan rata-rata masing-masing $15.000.
 # text_en = The executives also received so-called "performance pay" for succeeding or surpassing expectations, sharing a pot of $1.5 million among them, or an estimated $15,000 each on average.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	eksekutif	eksekutif	NOUN	_	Number=Sing	4	nsubj	_	_
 3	juga	juga	ADV	_	_	4	advmod	_	_
 4	menerima	terima	VERB	_	Voice=Act	0	root	_	_
@@ -2730,8 +2730,8 @@
 14	kira-kira	kira	ADV	_	_	15	advmod	_	_
 15	sama	sama	ADJ	_	_	10	parataxis	_	_
 16-17	besarnya	_	_	_	_	_	_	_	_
-16	besar	besar	ADJ	_	_	15	nsubj	_	_
-17	nya	nya	DET	_	_	16	det	_	_
+16	besar	besar	ADJ	_	_	15	csubj	_	_
+17	nya	nya	DET	_	_	16	dep	_	_
 18	untuk	untuk	ADP	_	_	19	case	_	_
 19	2015	2015	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
 20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
@@ -2858,7 +2858,7 @@
 14	dalam	dalam	ADP	_	_	15	case	_	_
 15	kekuasaan	kuasa	NOUN	_	Number=Sing	13	obl	_	_
 16	Senat	Senat	PROPN	_	_	15	nmod	_	_
-17	saat	saat	SCONJ	_	_	19	mark	_	_
+17	saat	saat	ADV	_	PronType=Rel	19	advmod	_	_
 18	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	membebaskan	bebas	VERB	_	Voice=Act	13	advcl	_	_
 20	Duffy	Duffy	PROPN	_	_	19	obj	_	_
@@ -3014,7 +3014,7 @@
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	Colorado	Colorado	PROPN	_	_	29	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
-33	di	di	SCONJ	_	_	36	mark	_	_
+33	di	di	ADV	_	PronType=Rel	36	advmod	_	_
 34	mana	mana	PRON	_	PronType=Dem	33	fixed	_	_
 35	ganja	ganja	NOUN	_	Number=Sing	36	nsubj:pass	_	_
 36	dijual	jual	VERB	_	Voice=Pass	29	acl:relcl	_	_
@@ -3143,7 +3143,7 @@
 6	rutin	rutin	NOUN	_	Number=Sing	5	nmod	_	_
 7	menjadi	jadi	VERB	_	Voice=Act	0	root	_	_
 8	rumit	rumit	ADJ	_	_	7	xcomp	_	_
-9	ketika	ketika	SCONJ	_	_	20	mark	_	_
+9	ketika	ketika	ADV	_	PronType=Rel	20	advmod	_	_
 10	ibu	ibu	NOUN	_	Number=Sing	20	nsubj:pass	_	_
 11	hamil	hamil	VERB	_	Voice=Act	10	acl	_	_
 12	Margaret	Margaret	PROPN	_	_	10	appos	_	_
@@ -3177,8 +3177,8 @@
 # sent_id = n01051006
 # text = Sakrokoksigeal teratoma adalah tumor yang berkembang sebelum lahir dan tumbuh dari tulang ekor bayi.
 # text_en = A sacrococcygeal teratoma is a tumour that develops before birth and grows from a baby's tailbone.
-1	Sakrokoksigeal	sakrokoksigeal	X	_	Number=Sing	4	nsubj	_	_
-2	teratoma	teratoma	X	_	Number=Sing	1	flat:foreign	_	_
+1	Sakrokoksigeal	sakrokoksigeal	NOUN	_	Number=Sing	4	nsubj	_	_
+2	teratoma	teratoma	NOUN	_	Number=Sing	1	nmod	_	_
 3	adalah	adalah	AUX	_	_	4	cop	_	_
 4	tumor	tumor	NOUN	_	Number=Sing	0	root	_	_
 5	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
@@ -3358,7 +3358,7 @@
 # sent_id = n01054017
 # text = Banyak orang, termasuk kelompok penduduk asli, menentang pengkerdilan budaya Bangsa Pertama.
 # text_en = Many people, including Indigenous groups, argue they trivialize First Nations culture.
-1	Banyak	banyak	DET	_	_	2	amod	_	_
+1	Banyak	banyak	DET	_	PronType=Ind	2	amod	_	_
 2	orang	orang	NOUN	_	Number=Sing	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	termasuk	masuk	VERB	_	Voice=Pass	2	parataxis	_	_
@@ -3592,7 +3592,7 @@
 # sent_id = n01059019
 # text = Para ekonom Republican berhati-hati dalam mengambil data ini sebagai bukti bahwa partai mereka payah dalam kebijakan ekonomi.
 # text_en = Republican economists caution against taking this data as proof that their party is lousy at economic policy.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	ekonom	ekonom	NOUN	_	Number=Sing	4	nsubj	_	_
 3	Republican	Republican	PROPN	_	_	2	nmod	_	_
 4	berhati-hati	hati	VERB	_	Voice=Act	0	root	_	_
@@ -3684,7 +3684,7 @@
 7	Anda	anda	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 8	harus	harus	AUX	_	_	9	aux	_	_
 9	melihat	lihat	VERB	_	Voice=Act	0	root	_	_
-10	di	di	SCONJ	_	_	13	mark	_	_
+10	di	di	ADV	_	PronType=Rel	13	advmod	_	_
 11	mana	mana	PRON	_	PronType=Dem	10	fixed	_	_
 12	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	mengatakan	kata	VERB	_	Voice=Act	9	ccomp	_	_
@@ -3705,7 +3705,7 @@
 28	baik	baik	ADJ	_	_	25	acl:relcl	_	_
 29	—	—	PUNCT	_	_	24	punct	_	_
 30	dan	dan	CCONJ	_	_	34	cc	_	_
-31	di	di	SCONJ	_	_	34	mark	_	_
+31	di	di	ADV	_	PronType=Rel	34	advmod	_	_
 32	mana	mana	PRON	_	PronType=Dem	31	fixed	_	_
 33	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	mengungkapkan	ungkap	VERB	_	Voice=Act	13	conj	_	_
@@ -3739,7 +3739,7 @@
 # text = “Ketika saya bermain dengan dia, saya merasa kuat,” jelas peniru Donald Trump, John Di Domenico kepada Slate tahun lalu.
 # text_en = “When I’m playing him, I feel powerful,” the Donald Trump impersonator John Di Domenico explained to Slate last year.
 1	“	“	PUNCT	_	_	9	punct	_	SpaceAfter=No
-2	Ketika	ketika	SCONJ	_	_	4	mark	_	_
+2	Ketika	ketika	ADV	_	PronType=Rel	4	advmod	_	_
 3	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	bermain	main	VERB	_	Voice=Act	9	advcl	_	_
 5	dengan	dengan	ADP	_	_	6	case	_	_
@@ -3767,11 +3767,11 @@
 # sent_id = n01061041
 # text = Seiring menguatnya histeria pemilihan Presiden 2016, ancaman yang lebih meresahkan daripada omong kosong memenuhi benak Karel.
 # text_en = As the hysteria of the 2016 Presidential election intensifies, a more troubling threat than bullshit preoccupies Karel.
-1	Seiring	iring	ADP	_	_	2	case	_	_
+1	Seiring	iring	SCONJ	_	_	2	mark	_	_
 2-3	menguatnya	_	_	_	_	_	_	_	_
-2	menguat	kuat	VERB	_	Voice=Act	15	obl	_	_
-3	nya	nya	DET	_	_	2	det	_	_
-4	histeria	histeria	NOUN	_	Number=Sing	2	nmod	_	_
+2	menguat	kuat	VERB	_	Voice=Act	15	advcl	_	_
+3	nya	nya	DET	_	_	2	dep	_	_
+4	histeria	histeria	NOUN	_	Number=Sing	2	obl	_	_
 5	pemilihan	pilih	NOUN	_	Number=Sing	4	nmod	_	_
 6	Presiden	presiden	NOUN	_	Number=Sing	5	nmod	_	_
 7	2016	2016	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
@@ -3868,7 +3868,7 @@
 9	itu	itu	DET	_	PronType=Dem	8	det	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	menambahkan	tambah	VERB	_	Voice=Act	0	root	_	_
-12	suatu	suatu	DET	_	PronType=Ind	13	det	_	_
+12	suatu	suatu	DET	_	Number=Sing|PronType=Ind	13	det	_	_
 13	sistem	sistem	NOUN	_	Number=Sing	11	obj	_	_
 14	saraf	saraf	NOUN	_	Number=Sing	13	nmod	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
@@ -3927,7 +3927,7 @@
 12	secara	cara	ADP	_	_	13	case:adv	_	_
 13	hati-hati	hati	ADJ	_	_	10	advmod	_	_
 14	kepada	kepada	ADP	_	_	16	case	_	_
-15	para	para	DET	_	Number=Plur	16	det	_	_
+15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	wali	wali	NOUN	_	Number=Sing	10	obl	_	_
 17	yang	yang	PRON	_	PronType=Rel	18	nsubj	_	_
 18	berpendidikan	didik	VERB	_	Voice=Act	16	acl:relcl	_	SpaceAfter=No
@@ -3982,7 +3982,7 @@
 16	dari	dari	SCONJ	_	_	17	mark	_	_
 17	membunuh	bunuh	VERB	_	Voice=Act	15	advcl	_	_
 18	Firaun	Firaun	PROPN	_	_	17	obj	_	_
-19	saat	saat	SCONJ	_	_	23	mark	_	_
+19	saat	saat	ADV	_	PronType=Rel	23	advmod	_	_
 20	Sungai	sungai	NOUN	_	Number=Sing	23	nsubj	_	_
 21	Nil	Nil	PROPN	_	_	20	nmod	_	_
 22	tidak	tidak	PART	_	Polarity=Neg	23	advmod	_	_
@@ -4145,7 +4145,7 @@
 7	North	North	PROPN	_	_	6	nmod	_	_
 8	Kesteven	Kesteven	PROPN	_	_	7	flat	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
-10	di	di	SCONJ	_	_	15	mark	_	_
+10	di	di	ADV	_	PronType=Rel	15	advmod	_	_
 11	mana	mana	PRON	_	PronType=Dem	10	fixed	_	_
 12	62	62	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 13	%	%	SYM	_	_	14	nmod	_	_
@@ -4166,7 +4166,7 @@
 4	mendapatkan	dapat	VERB	_	Voice=Act	1	acl	_	_
 5	jawaban	jawab	NOUN	_	Number=Sing	4	obj	_	_
 6	untuk	untuk	ADP	_	_	8	case	_	_
-7	para	para	DET	_	Number=Plur	8	det	_	_
+7	para	para	DET	_	Number=Plur|PronType=Ind	8	det	_	_
 8	wajib	wajib	NOUN	_	Number=Sing	5	nmod	_	_
 9	pajak	pajak	NOUN	_	Number=Sing	8	compound	_	_
 10	akan	akan	AUX	_	_	12	aux	_	_
@@ -4586,7 +4586,7 @@
 13	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 14	sudah	sudah	AUX	_	_	15	aux	_	_
 15	ada	ada	VERB	_	Voice=Act	11	advcl	_	_
-16	sekarang	sekarang	ADV	_	PronType=Dem	15	advmod	_	SpaceAfter=No
+16	sekarang	sekarang	ADV	_	_	15	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n01076017
@@ -4850,7 +4850,7 @@
 14	mungkin	mungkin	AUX	_	_	16	aux	_	_
 15	dapat	dapat	AUX	_	_	16	aux	_	_
 16	dikelola	kelola	VERB	_	Voice=Pass	23	advcl	_	_
-17	sekarang	sekarang	ADV	_	PronType=Dem	16	advmod	_	SpaceAfter=No
+17	sekarang	sekarang	ADV	_	_	16	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	perubahan	ubah	NOUN	_	Number=Sing	23	nsubj	_	_
 20	keadaan	ada	NOUN	_	Number=Sing	19	nmod	_	_
@@ -4953,7 +4953,7 @@
 16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	£	£	SYM	_	_	14	flat:range	_	_
 18	5.000	5.000	NUM	_	NumType=Card	17	nummod	_	_
-19	saat	saat	SCONJ	_	_	21	mark	_	_
+19	saat	saat	ADV	_	PronType=Rel	21	advmod	_	_
 20	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 21	menambahkan	tambah	VERB	_	Voice=Act	8	advcl	_	_
 22	opsi	opsi	NOUN	_	Number=Sing	21	obj	_	_
@@ -5113,7 +5113,7 @@
 8	menjadi	jadi	VERB	_	Voice=Act	4	conj	_	_
 9	semakin	makin	ADV	_	_	10	advmod	_	_
 10	kesal	kesal	ADJ	_	_	8	xcomp	_	_
-11	saat	saat	SCONJ	_	_	14	mark	_	_
+11	saat	saat	ADV	_	PronType=Rel	14	advmod	_	_
 12	hal	hal	NOUN	_	Number=Sing	14	nsubj	_	_
 13	itu	itu	DET	_	PronType=Dem	12	det	_	_
 14	datang	datang	VERB	_	Voice=Act	10	advcl	_	SpaceAfter=No
@@ -5234,7 +5234,7 @@
 # text_en = But, when I suggest that she get Frank to model for her, she laughs.
 1	Tapi	tetapi	CCONJ	_	_	13	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	saat	saat	SCONJ	_	_	5	mark	_	_
+3	saat	saat	ADV	_	PronType=Rel	5	advmod	_	_
 4	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	menyarankan	saran	VERB	_	Voice=Act	13	advcl	_	_
 6	agar	agar	SCONJ	_	_	8	mark	_	_
@@ -5456,7 +5456,7 @@
 13	middle	middle	X	_	_	12	obl	_	_
 14	Saturday	Saturday	PROPN	_	_	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
-16	ketika	ketika	SCONJ	_	_	19	mark	_	_
+16	ketika	ketika	ADV	_	PronType=Rel	19	advmod	_	_
 17	negara-negara	negara	NOUN	_	Number=Plur	19	nsubj	_	_
 18	maju	maju	VERB	_	Voice=Act	17	acl	_	_
 19	berkesempatan	sempat	VERB	_	Voice=Act	12	advcl	_	_
@@ -5558,7 +5558,7 @@
 # sent_id = n01093025
 # text = Para konservasionis menyambut baik pengumuman komisi itu.
 # text_en = Conservationists welcomed the commission’s announcement.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	konservasionis	konservasionis	NOUN	_	Number=Sing	3	nsubj	_	_
 3	menyambut	sambut	VERB	_	Voice=Act	0	root	_	_
 4	baik	baik	ADV	_	_	3	advmod	_	_
@@ -5926,7 +5926,7 @@
 1	Sumpah	sumpah	NOUN	_	Number=Sing	3	nsubj	_	_
 2	ini	ini	DET	_	PronType=Dem	1	det	_	_
 3	melibatkan	libat	VERB	_	Voice=Act	0	root	_	_
-4	para	para	DET	_	Number=Plur	5	det	_	_
+4	para	para	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	pembuat	buat	NOUN	_	Number=Sing	3	obj	_	_
 6	undang-undang	undang	NOUN	_	Number=Sing	5	nmod	_	_
 7	menyatakan	nyata	VERB	_	Voice=Act	5	acl	_	_
@@ -6103,7 +6103,7 @@
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj:pass	_	_
 4	dialami	alam	VERB	_	Voice=Pass	1	csubj	_	_
 5	Andi	Andi	PROPN	_	_	4	obl:agent	_	_
-6	saat	saat	SCONJ	_	_	8	mark	_	_
+6	saat	saat	ADV	_	PronType=Rel	8	advmod	_	_
 7	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	bermain	main	VERB	_	Voice=Act	4	advcl	_	_
 9	melawan	lawan	VERB	_	Voice=Act	8	xcomp	_	_
@@ -6121,7 +6121,7 @@
 # text = Tapi sekarang semuanya di luar keteraturan dan tampaknya ia selalu mencari jawaban.
 # text_en = But right now everything is out of kilter and he seems to be seeking answers all the time.
 1	Tapi	tetapi	CCONJ	_	_	7	cc	_	_
-2	sekarang	sekarang	ADV	_	PronType=Dem	7	advmod	_	_
+2	sekarang	sekarang	ADV	_	_	7	advmod	_	_
 3-4	semuanya	_	_	_	_	_	_	_	_
 3	semua	semua	DET	_	PronType=Tot	4	det	_	_
 4	nya	nya	PRON	_	Number=Sing	7	nsubj	_	_
@@ -6144,7 +6144,7 @@
 3	ingin	ingin	VERB	_	Voice=Act	0	root	_	_
 4	tahu	tahu	VERB	_	Voice=Act	3	xcomp	_	_
 5-6	apakah	_	_	_	_	_	_	_	_
-5	apa	apa	SCONJ	_	_	9	mark	_	_
+5	apa	apa	PRON	_	PronType=Rel	9	obl	_	_
 6	kah	kah	PART	_	_	5	advmod:emph	_	_
 7	Davis	Davis	PROPN	_	_	9	nsubj	_	_
 8	Cup	Cup	PROPN	_	_	7	flat	_	_
@@ -6389,11 +6389,11 @@
 12	pada	pada	ADP	_	_	13	case	_	_
 13	musim	musim	NOUN	_	Number=Sing	11	obl	_	_
 14	dingin	dingin	ADJ	_	_	13	amod	_	_
-15	seiring	iring	ADP	_	_	16	case	_	_
+15	seiring	iring	SCONJ	_	_	16	mark	_	_
 16-17	meningkatnya	_	_	_	_	_	_	_	_
-16	meningkat	tingkat	VERB	_	Voice=Act	11	obl	_	_
-17	nya	nya	DET	_	_	16	det	_	_
-18	penggunaan	guna	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
+16	meningkat	tingkat	VERB	_	Voice=Act	11	advcl	_	_
+17	nya	nya	DET	_	_	16	dep	_	_
+18	penggunaan	guna	NOUN	_	Number=Sing	16	nsubj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01109012
@@ -6672,7 +6672,7 @@
 1	Mengingatkan	ingat	VERB	_	Voice=Act	15	advcl	_	_
 2	bahwa	bahwa	SCONJ	_	_	6	mark	_	_
 3	NHS	NHS	PROPN	_	Abbr=Yes	6	nsubj	_	_
-4	sekarang	sekarang	ADV	_	PronType=Dem	6	advmod	_	_
+4	sekarang	sekarang	ADV	_	_	6	advmod	_	_
 5	ini	ini	DET	_	PronType=Dem	4	det	_	_
 6	berada	ada	VERB	_	Voice=Act	1	ccomp	_	_
 7	di	di	ADP	_	_	10	case	_	_
@@ -7101,7 +7101,7 @@
 # sent_id = n01121032
 # text = Ketika Millican meninggal, kami kira bahwa itu juga pertemuan kami yang terakhir dengan si gugup, Odi.
 # text_en = When Millican died, we assumed that was the last we’d see of glitchy, twitchy Odi too.
-1	Ketika	ketika	SCONJ	_	_	3	mark	_	_
+1	Ketika	ketika	ADV	_	PronType=Rel	3	advmod	_	_
 2	Millican	Millican	PROPN	_	_	3	nsubj	_	_
 3	meninggal	tinggal	VERB	_	Voice=Act	6	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -7141,7 +7141,7 @@
 # text = “ Para pahlawan super beraksi di luar pengalaman manusia biasa, persis seperti cerita ini, itu sebabnya saya menanganinya sebagai sebuah drama”, kata Zimmer.
 # text_en = “Superheroes are outside of human experience and so is this, so I treated it like a drama,” Zimmer says.
 1	“	“	PUNCT	_	_	5	punct	_	_
-2	Para	para	DET	_	Number=Plur	3	det	_	_
+2	Para	para	DET	_	Number=Plur|PronType=Ind	3	det	_	_
 3	pahlawan	pahlawan	NOUN	_	Number=Sing	5	nsubj	_	_
 4	super	super	ADJ	_	_	3	amod	_	_
 5	beraksi	aksi	VERB	_	Voice=Act	0	root	_	_
@@ -7289,15 +7289,15 @@
 11-12	kaitannya	_	_	_	_	_	_	_	_
 11	kaitan	kait	NOUN	_	Number=Sing	10	nsubj	_	_
 12	nya	nya	DET	_	_	11	det	_	_
-13	dengan	dengan	ADP	_	_	14	case	_	_
+13	dengan	dengan	SCONJ	_	_	14	mark	_	_
 14-15	berkembangnya	_	_	_	_	_	_	_	_
-14	berkembang	kembang	VERB	_	Voice=Act	10	obl	_	_
-15	nya	nya	DET	_	_	14	det	_	_
-16	obsesi	obsesi	NOUN	_	Number=Sing	14	nmod	_	_
+14	berkembang	kembang	VERB	_	Voice=Act	10	advcl	_	_
+15	nya	nya	DET	_	_	14	dep	_	_
+16	obsesi	obsesi	NOUN	_	Number=Sing	14	nsubj	_	_
 17	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	membuat	buat	VERB	_	Voice=Act	16	acl	_	_
-20	berbagai	bagai	DET	_	_	21	det	_	_
+20	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	21	det	_	_
 21	hal	hal	NOUN	_	Number=Sing	19	obj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -7310,7 +7310,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Jutting	Jutting	PROPN	_	_	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	sekarang	sekarang	ADV	_	PronType=Dem	9	advmod	_	_
+7	sekarang	sekarang	ADV	_	_	9	advmod	_	_
 8	31	31	NUM	_	NumType=Card	9	nummod	_	_
 9	tahun	tahun	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -7702,14 +7702,14 @@
 # sent_id = n01133014
 # text = Para siswa Belanda itu belum memutuskan apakah mereka akan mengkomersilkan motor listrik mereka.
 # text_en = The Dutch students have yet to decide if they will be commercializing their electric motorcycle.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	siswa	siswa	NOUN	_	Number=Sing	6	nsubj	_	_
 3	Belanda	Belanda	PROPN	_	_	2	nmod	_	_
 4	itu	itu	DET	_	PronType=Dem	2	det	_	_
 5	belum	belum	PART	_	Polarity=Neg	6	advmod	_	_
 6	memutuskan	putus	VERB	_	Voice=Act	0	root	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
-7	apa	apa	SCONJ	_	_	11	mark	_	_
+7	apa	apa	PRON	_	PronType=Rel	11	obl	_	_
 8	kah	kah	PART	_	_	7	advmod:emph	_	_
 9	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
@@ -7764,7 +7764,7 @@
 # sent_id = n01134007
 # text = Para investor menjual surat obligasi pemerintah, dengan surat obligasi A.S. dan Australia yang merasakan dampak terbesar.
 # text_en = Investors are selling out of government bonds, with U.S. and Australian bonds feeling the biggest impact.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	investor	investor	NOUN	_	Number=Sing	3	nsubj	_	_
 3	menjual	jual	VERB	_	Voice=Act	0	root	_	_
 4	surat	surat	NOUN	_	Number=Sing	3	obj	_	_
@@ -7843,7 +7843,7 @@
 12	alasan	alas	NOUN	_	Number=Sing	11	obl	_	_
 13	besar	besar	ADJ	_	_	12	amod	_	_
 14	mengapa	apa	ADV	_	PronType=Rel	17	mark	_	_
-15	para	para	DET	_	Number=Plur	16	det	_	_
+15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	investor	investor	NOUN	_	Number=Sing	17	nsubj	_	_
 17	mencintai	cinta	VERB	_	Voice=Act	12	acl	_	_
 18	induk	induk	NOUN	_	Number=Sing	17	obj	_	_
@@ -8263,7 +8263,7 @@
 12	di	di	ADP	_	_	13	case	_	_
 13	dunia	dunia	NOUN	_	Number=Sing	10	nmod	_	_
 14	adalah	adalah	AUX	_	_	16	cop	_	_
-15	suatu	suatu	DET	_	PronType=Ind	16	det	_	_
+15	suatu	suatu	DET	_	Number=Sing|PronType=Ind	16	det	_	_
 16	prestasi	prestasi	NOUN	_	Number=Sing	4	parataxis	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
 18	luar	luar	NOUN	_	Number=Sing	19	compound	_	_
@@ -8341,7 +8341,7 @@
 12	kembali	kembali	VERB	_	Voice=Act	3	conj	_	_
 13	ke	ke	ADP	_	_	14	case	_	_
 14	properti	properti	NOUN	_	Number=Sing	12	obl	_	_
-15	yang	yang	SCONJ	_	_	19	mark	_	_
+15	yang	yang	PRON	_	_	19	nsubj	_	_
 16-17	menurutnya	_	_	_	_	_	_	_	_
 16	menurut	turut	ADP	_	_	17	case	_	_
 17	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
@@ -8724,7 +8724,7 @@
 # sent_id = n01150031
 # text = Ketika orang meninggal karena usia tua di India, seharusnya itu adalah sebuah perayaan.
 # text_en = When people die of old age in India, it is supposed to be a celebration.
-1	Ketika	ketika	SCONJ	_	_	3	mark	_	_
+1	Ketika	ketika	ADV	_	PronType=Rel	3	advmod	_	_
 2	orang	orang	NOUN	_	Number=Sing	3	nsubj	_	_
 3	meninggal	tinggal	VERB	_	Voice=Act	14	advcl	_	_
 4	karena	karena	ADP	_	_	5	case	_	_
@@ -8785,10 +8785,10 @@
 15	mereka	mereka	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 16	tetap	tetap	ADV	_	_	17	advmod	_	_
 17	hidup	hidup	VERB	_	Voice=Act	12	advcl	_	_
-18	di	di	SCONJ	_	_	21	mark	_	_
-19	antara	antara	NOUN	_	Number=Sing	18	fixed	_	_
-20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
-21	hidup	hidup	VERB	_	Voice=Act	17	advcl	_	SpaceAfter=No
+18	di	di	ADP	_	_	20	case	_	_
+19	antara	antara	NOUN	_	Number=Sing	20	nmod:npmod	_	_
+20	yang	yang	PRON	_	PronType=Rel	17	obl	_	_
+21	hidup	hidup	VERB	_	Voice=Act	20	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	5	punct	_	_
 24-25	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9286,7 +9286,7 @@
 # sent_id = w01010044
 # text = Berbagai suku Jermanis dan suku besar Slavik menyeberangi Moravia selama Periode Migrasi sebelum kaum Slav membentuk dirinya pada abad ke-6 M.
 # text_en = A variety of Germanic and major Slavic tribes crossed through Moravia during the Migration Period before Slavs established themselves in the 6th century AD.
-1	Berbagai	bagai	DET	_	_	2	det	_	_
+1	Berbagai	bagai	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	suku	suku	NOUN	_	Number=Sing	8	nsubj	_	_
 3	Jermanis	Jermanis	PROPN	_	_	2	nmod	_	_
 4	dan	dan	CCONJ	_	_	5	cc	_	_
@@ -9920,7 +9920,7 @@
 2	kemudian	kemudian	ADV	_	_	3	advmod	_	_
 3	hari	hari	NOUN	_	Number=Sing	13	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	ketika	ketika	SCONJ	_	_	7	mark	_	_
+5	ketika	ketika	ADV	_	PronType=Rel	7	advmod	_	_
 6	Augustus	Augustus	PROPN	_	_	7	nsubj	_	_
 7	mendirikan	diri	VERB	_	Voice=Act	13	advcl	_	_
 8	Kekaisaran	Kekaisaran	PROPN	_	_	7	obj	_	_
@@ -10111,9 +10111,9 @@
 1	Namun	namun	CCONJ	_	_	2	cc	_	_
 2	mengakibatkan	akibat	VERB	_	Voice=Act	0	root	_	_
 3-4	ditinggalkannya	_	_	_	_	_	_	_	_
-3	ditinggalkan	tinggal	VERB	_	Voice=Pass	2	obl	_	_
-4	nya	nya	DET	_	_	3	det	_	_
-5	barang-barang	barang	NOUN	_	Number=Plur	3	nmod	_	_
+3	ditinggalkan	tinggal	VERB	_	Voice=Pass	2	advcl	_	_
+4	nya	nya	DET	_	_	3	dep	_	_
+5	barang-barang	barang	NOUN	_	Number=Plur	3	nsubj:pass	_	_
 6	penting	penting	ADJ	_	_	5	amod	_	_
 7	artileri	artileri	NOUN	_	Number=Sing	5	nmod	_	_
 8	berat	berat	ADJ	_	_	7	amod	_	SpaceAfter=No
@@ -10324,7 +10324,7 @@
 5	adalah	adalah	AUX	_	_	6	cop	_	_
 6	pertanyaan	tanya	NOUN	_	Number=Sing	0	root	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
-7	apa	apa	SCONJ	_	_	11	mark	_	_
+7	apa	apa	PRON	_	PronType=Rel	11	obl	_	_
 8	kah	kah	PART	_	_	7	advmod:emph	_	_
 9	Kansas	Kansas	PROPN	_	_	11	nsubj	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
@@ -10357,7 +10357,7 @@
 10	sudah	sudah	AUX	_	_	11	aux	_	_
 11-12	terpecahnya	_	_	_	_	_	_	_	_
 11	terpecah	pecah	VERB	_	Voice=Pass	8	ccomp	_	_
-12	nya	nya	DET	_	_	11	det	_	_
+12	nya	nya	DET	_	_	11	dep	_	_
 13	negara	negara	NOUN	_	Number=Sing	11	nsubj:pass	_	_
 14	ini	ini	DET	_	PronType=Dem	13	det	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
@@ -10603,11 +10603,11 @@
 3	cenderung	cenderung	ADJ	_	_	5	advmod	_	_
 4	sangat	sangat	ADV	_	_	5	advmod	_	_
 5	kental	kental	ADJ	_	_	0	root	_	_
-6	karena	karena	ADP	_	_	7	case	_	_
+6	karena	karena	SCONJ	_	_	7	mark	_	_
 7-8	tingginya	_	_	_	_	_	_	_	_
-7	tinggi	tinggi	NOUN	_	Number=Sing	5	obl	_	_
-8	nya	nya	DET	_	_	7	det	_	_
-9	kandungan	kandung	NOUN	_	Number=Sing	7	nmod	_	_
+7	tinggi	tinggi	ADJ	_	_	5	advcl	_	_
+8	nya	nya	DET	_	_	7	dep	_	_
+9	kandungan	kandung	NOUN	_	Number=Sing	7	nsubj	_	_
 10-11	silikanya	_	_	_	_	_	_	_	SpaceAfter=No
 10	silika	silika	NOUN	_	Number=Sing	9	nmod	_	_
 11	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
@@ -10694,7 +10694,7 @@
 8	1000	1000	NUM	_	NumType=Card	7	nummod	_	_
 9	SM	sm	NOUN	_	Abbr=Yes	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
-11	ketika	ketika	SCONJ	_	_	15	mark	_	_
+11	ketika	ketika	ADV	_	PronType=Rel	15	advmod	_	_
 12	orang-orang	orang	NOUN	_	Number=Plur	15	nsubj	_	_
 13	Melanesia	Melanesia	PROPN	_	_	12	nmod	_	_
 14	timur	timur	NOUN	_	Number=Sing	13	nmod	_	_
@@ -10778,9 +10778,9 @@
 14	mengurangi	kurang	VERB	_	Voice=Act	0	root	_	_
 15	peluang	luang	NOUN	_	Number=Sing	14	obj	_	_
 16-17	terjadinya	_	_	_	_	_	_	_	_
-16	terjadi	jadi	VERB	_	Voice=Pass	15	nmod	_	_
-17	nya	nya	DET	_	_	16	det	_	_
-18	peristiwa	peristiwa	NOUN	_	Number=Sing	16	nmod	_	_
+16	terjadi	jadi	VERB	_	Voice=Pass	15	acl	_	_
+17	nya	nya	DET	_	_	16	dep	_	_
+18	peristiwa	peristiwa	NOUN	_	Number=Sing	16	nsubj:pass	_	_
 19	ini	ini	DET	_	PronType=Dem	18	det	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	atau	atau	CCONJ	_	_	23	cc	_	_
@@ -10945,7 +10945,7 @@
 5-6	lokasinya	_	_	_	_	_	_	_	_
 5	lokasi	lokasi	NOUN	_	Number=Sing	3	obl	_	_
 6	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
-7	yang	yang	SCONJ	_	_	11	mark	_	_
+7	yang	yang	PRON	_	_	11	nsubj	_	_
 8	sering	sering	ADV	_	_	11	advmod	_	_
 9	kali	kali	NOUN	_	Number=Sing	8	compound	_	_
 10	di	di	ADP	_	_	11	case	_	_
@@ -10958,7 +10958,7 @@
 # sent_id = w01038016
 # text = Berbagai kepentingan pribadi memiliki lahan yang tersisa, totalnya sekitar satu persen dari negara bagian itu.
 # text_en = Various private interests own the remaining land, totaling about one percent of the state.
-1	Berbagai	bagai	DET	_	_	2	det	_	_
+1	Berbagai	bagai	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	kepentingan	penting	NOUN	_	Number=Sing	4	nsubj	_	_
 3	pribadi	pribadi	NOUN	_	Number=Sing	2	nmod	_	_
 4	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
@@ -11018,14 +11018,14 @@
 6	selama	lama	ADP	_	_	8	case	_	_
 7	ribuan	ribu	NUM	_	NumType=Card	8	nummod	_	_
 8	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
-9	sebelum	belum	ADP	_	_	10	case	_	_
+9	sebelum	belum	SCONJ	_	_	10	mark	_	_
 10-11	datangnya	_	_	_	_	_	_	_	_
-10	datang	datang	NOUN	_	Number=Sing	4	obl	_	_
-11	nya	nya	DET	_	_	10	det	_	_
-12	orang	orang	NOUN	_	Number=Sing	10	nmod	_	_
+10	datang	datang	VERB	_	Voice=Act	4	advcl	_	_
+11	nya	nya	DET	_	_	10	dep	_	_
+12	orang	orang	NOUN	_	Number=Sing	10	nsubj	_	_
 13	Eropa	Eropa	PROPN	_	_	12	nmod	_	_
 14	ke	ke	ADP	_	_	15	case	_	_
-15	daerah	daerah	NOUN	_	Number=Sing	10	nmod	_	_
+15	daerah	daerah	NOUN	_	Number=Sing	10	obl	_	_
 16	ini	ini	DET	_	PronType=Dem	15	det	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11055,11 +11055,11 @@
 # sent_id = w01039058
 # text = Seiring berkembangnya Brisbane, kondisi sungainya memburuk hingga mencapai titik terburuk di mana sungai itu tak lebih dari selokan terbuka dan pembuangan limbah.
 # text_en = As Brisbane grew, the condition of the river worsened until at its worst it was no more than an open sewer and waste dump.
-1	Seiring	iring	ADP	_	_	2	case	_	_
+1	Seiring	iring	SCONJ	_	_	2	mark	_	_
 2-3	berkembangnya	_	_	_	_	_	_	_	_
-2	berkembang	kembang	NOUN	_	Number=Sing	8	obl	_	_
-3	nya	nya	DET	_	_	2	det	_	_
-4	Brisbane	Brisbane	PROPN	_	_	2	nmod	_	SpaceAfter=No
+2	berkembang	kembang	VERB	_	Voice=Act	9	advcl	_	_
+3	nya	nya	DET	_	_	2	dep	_	_
+4	Brisbane	Brisbane	PROPN	_	_	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	kondisi	kondisi	NOUN	_	Number=Sing	9	nsubj	_	_
 7-8	sungainya	_	_	_	_	_	_	_	_
@@ -11070,7 +11070,7 @@
 11	mencapai	capai	VERB	_	Voice=Act	7	advcl	_	_
 12	titik	titik	NOUN	_	Number=Sing	11	obj	_	_
 13	terburuk	buruk	ADJ	_	Degree=Sup	12	amod	_	_
-14	di	di	SCONJ	_	_	19	mark	_	_
+14	di	di	ADV	_	PronType=Rel	19	advmod	_	_
 15	mana	mana	PRON	_	PronType=Dem	14	fixed	_	_
 16	sungai	sungai	NOUN	_	Number=Sing	19	nsubj	_	_
 17	itu	itu	DET	_	PronType=Dem	16	det	_	_
@@ -11121,7 +11121,7 @@
 10	di	di	ADP	_	_	11	case	_	_
 11	wilayah	wilayah	NOUN	_	Number=Sing	9	obl	_	_
 12	kering	kering	ADJ	_	_	11	amod	_	_
-13	di	di	SCONJ	_	_	18	mark	_	_
+13	di	di	ADV	_	PronType=Rel	18	advmod	_	_
 14	mana	mana	PRON	_	PronType=Dem	13	fixed	_	_
 15	lahan	lahan	NOUN	_	Number=Sing	18	nsubj:pass	_	_
 16	tersebut	sebut	DET	_	PronType=Dem	15	det	_	_
@@ -11152,7 +11152,7 @@
 14	itu	itu	DET	_	PronType=Dem	12	det	_	_
 15	sendiri	sendiri	DET	_	PronType=Emp	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	24	punct	_	_
-17	di	di	SCONJ	_	_	24	mark	_	_
+17	di	di	ADV	_	PronType=Rel	24	advmod	_	_
 18	mana	mana	PRON	_	PronType=Dem	17	fixed	_	_
 19	materi-materi	materi	NOUN	_	Number=Plur	24	nsubj:pass	_	_
 20	yang	yang	PRON	_	PronType=Rel	22	nsubj	_	_
@@ -11165,7 +11165,7 @@
 # sent_id = w01040102
 # text = Saat angin stabil mulai berhembus, partikel-partikel yang halus yang terletak di atas tanah yang terbuka itu mulai bergetar.
 # text_en = As a steady wind begins to blow, fine particles lying on the exposed ground begin to vibrate.
-1	Saat	saat	SCONJ	_	_	4	mark	_	_
+1	Saat	saat	ADV	_	PronType=Rel	4	advmod	_	_
 2	angin	angin	NOUN	_	Number=Sing	4	nsubj	_	_
 3	stabil	stabil	ADJ	_	_	2	amod	_	_
 4	mulai	mulai	VERB	_	Voice=Act	18	advcl	_	_
@@ -11207,7 +11207,7 @@
 # sent_id = w01040104
 # text = Ketika mendarat, partikel-partikel tersebut saling bertabrakan, yang dapat tersentak ke udara pada gilirannya, memulai adanya reaksi berantai.
 # text_en = When they land, they strike other particles which may be jerked into the air in their turn, starting a chain reaction.
-1	Ketika	ketika	SCONJ	_	_	2	mark	_	_
+1	Ketika	ketika	ADV	_	PronType=Rel	2	advmod	_	_
 2	mendarat	darat	VERB	_	Voice=Act	7	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	partikel-partikel	partikel	NOUN	_	Number=Plur	7	nsubj	_	_
@@ -11227,9 +11227,9 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	memulai	mulai	VERB	_	Voice=Act	7	conj	_	_
 19-20	adanya	_	_	_	_	_	_	_	_
-19	ada	ada	NOUN	_	Number=Sing	18	obj	_	_
-20	nya	nya	DET	_	_	19	det	_	_
-21	reaksi	reaksi	NOUN	_	Number=Sing	19	nmod	_	_
+19	ada	ada	VERB	_	Voice=Act	18	ccomp	_	_
+20	nya	nya	DET	_	_	19	dep	_	_
+21	reaksi	reaksi	NOUN	_	Number=Sing	19	nsubj	_	_
 22	berantai	rantai	VERB	_	Voice=Act	21	acl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -11420,7 +11420,7 @@
 37	Karibia	Karibia	PROPN	_	_	36	nmod	_	SpaceAfter=No
 38	”	”	PUNCT	_	_	36	punct	_	_
 39	di	di	ADP	_	_	41	case	_	_
-40	berbagai	bagai	DET	_	_	41	det	_	_
+40	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	41	det	_	_
 41	bahasa	bahasa	NOUN	_	Number=Sing	30	nmod	_	_
 42	Eropa	Eropa	PROPN	_	_	41	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	15	punct	_	_
@@ -11509,7 +11509,7 @@
 9	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
 10	1492	1492	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	_
-12	saat	saat	SCONJ	_	_	17	mark	_	_
+12	saat	saat	ADV	_	PronType=Rel	17	advmod	_	_
 13	Christopher	Christopher	PROPN	_	_	17	nsubj	_	_
 14	Columbus	Columbus	PROPN	_	_	13	flat	_	_
 15	pertama	pertama	ADJ	_	NumType=Ord	16	amod	_	_
@@ -11698,7 +11698,7 @@
 10	mereformasi	reformasi	VERB	_	Voice=Act	8	advcl	_	_
 11	pemerintahan	perintah	NOUN	_	Number=Sing	10	obj	_	_
 12	Goryeo	Goryeo	PROPN	_	_	11	nmod	_	_
-13	saat	saat	SCONJ	_	_	16	mark	_	_
+13	saat	saat	ADV	_	PronType=Rel	16	advmod	_	_
 14	dinasti	dinasti	NOUN	_	Number=Sing	16	nsubj	_	_
 15	Yuan	Yuan	PROPN	_	_	14	nmod	_	_
 16	mulai	mulai	VERB	_	Voice=Act	10	advcl	_	_
@@ -12009,7 +12009,7 @@
 17	di	di	ADP	_	_	18	case	_	_
 18	Tunip	Tunip	PROPN	_	_	10	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	_
-20	di	di	SCONJ	_	_	24	mark	_	_
+20	di	di	ADV	_	PronType=Rel	24	advmod	_	_
 21	mana	mana	PRON	_	PronType=Dem	20	fixed	_	_
 22	tidak	tidak	PART	_	Polarity=Neg	24	advmod	_	_
 23	pernah	pernah	ADV	_	_	24	advmod	_	_
@@ -12069,7 +12069,7 @@
 8	masih	masih	ADV	_	_	9	advmod	_	_
 9	diperdebatkan	debat	VERB	_	Voice=Pass	0	root	_	_
 10	oleh	oleh	ADP	_	_	12	case	_	_
-11	para	para	DET	_	Number=Plur	12	det	_	_
+11	para	para	DET	_	Number=Plur|PronType=Ind	12	det	_	_
 12	ilmuwan	ilmuwan	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -12170,7 +12170,7 @@
 14	tapi	tapi	CCONJ	_	_	19	cc	_	_
 15	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 16-17	apakah	_	_	_	_	_	_	_	_
-16	apa	apa	SCONJ	_	_	20	mark	_	_
+16	apa	apa	PRON	_	PronType=Rel	20	obl	_	_
 17	kah	kah	PART	_	_	16	advmod:emph	_	_
 18	bulan	bulan	NOUN	_	Number=Sing	20	nsubj:pass	_	_
 19	itu	itu	DET	_	PronType=Dem	18	det	_	_
@@ -12205,7 +12205,7 @@
 3	dasar	dasar	NOUN	_	Number=Sing	2	obj	_	_
 4	untuk	untuk	ADP	_	_	5	case	_	_
 5	integrasi	integrasi	NOUN	_	Number=Sing	3	nmod	_	_
-6	di	di	SCONJ	_	_	15	mark	_	_
+6	di	di	ADV	_	PronType=Rel	15	advmod	_	_
 7	mana	mana	PRON	_	PronType=Dem	6	fixed	_	_
 8	mekanisme	mekanisme	NOUN	_	Number=Sing	15	nsubj:pass	_	_
 9	ekonomi	ekonomi	NOUN	_	Number=Sing	8	nmod	_	_
@@ -12255,7 +12255,7 @@
 7	sejarawan	sejarawan	NOUN	_	Number=Sing	4	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	dan	dan	CCONJ	_	_	11	cc	_	_
-10	para	para	DET	_	Number=Plur	11	det	_	_
+10	para	para	DET	_	Number=Plur|PronType=Ind	11	det	_	_
 11	intelektual	intelektual	NOUN	_	Number=Sing	4	conj	_	_
 12	lain	lain	ADJ	_	_	11	amod	_	_
 13	membuat	buat	VERB	_	Voice=Act	0	root	_	_
@@ -12303,7 +12303,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ini	ini	PRON	_	PronType=Dem	4	nsubj:pass	_	_
 4	dimundurkan	mundur	VERB	_	Voice=Pass	0	root	_	_
-5	ketika	ketika	SCONJ	_	_	7	mark	_	_
+5	ketika	ketika	ADV	_	PronType=Rel	7	advmod	_	_
 6	Julian	Julian	PROPN	_	_	7	nsubj:pass	_	_
 7	terbunuh	bunuh	VERB	_	Voice=Pass	4	advcl	_	_
 8	dalam	dalam	ADP	_	_	9	case	_	_
@@ -12412,7 +12412,7 @@
 5	lanjut	lanjut	ADJ	_	_	3	amod	_	_
 6	di	di	ADP	_	_	7	case	_	_
 7	istana	istana	NOUN	_	Number=Sing	2	obl	_	_
-8	saat	saat	SCONJ	_	_	10	mark	_	_
+8	saat	saat	ADV	_	PronType=Rel	10	advmod	_	_
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
 10	dikirim	kirim	VERB	_	Voice=Pass	2	advcl	_	_
 11	sebagai	bagai	ADP	_	_	12	case	_	_
@@ -12473,7 +12473,7 @@
 7	selatan	selatan	NOUN	_	Number=Sing	8	nmod:npmod	_	_
 8	Italia	Italia	PROPN	_	_	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	di	di	SCONJ	_	_	14	mark	_	_
+10	di	di	ADV	_	PronType=Rel	14	advmod	_	_
 11	mana	mana	PRON	_	PronType=Dem	10	fixed	_	_
 12	kedokteran	dokter	NOUN	_	Number=Sing	14	nsubj	_	_
 13	Islam	Islam	PROPN	_	_	12	nmod	_	_
@@ -12527,7 +12527,7 @@
 11	dan	dan	CCONJ	_	_	16	cc	_	_
 12	perintah	perintah	NOUN	_	Number=Sing	16	nsubj	_	_
 13	langsung	langsung	ADJ	_	_	12	amod	_	SpaceAfter=No
-14	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+14	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 15	agak	agak	ADV	_	_	16	advmod	_	_
 16	samar	samar	ADJ	_	_	3	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -12539,12 +12539,12 @@
 23	sebenarnya	benar	ADV	_	_	24	advmod	_	_
 24-25	maksudnya	_	_	_	_	_	_	_	_
 24	maksud	maksud	NOUN	_	Number=Sing	22	nmod	_	_
-25	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+25	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
 26	daripada	daripada	SCONJ	_	_	27	mark	_	_
 27	mengeluarkan	keluar	VERB	_	Voice=Act	22	acl	_	_
 28-29	legislasinya	_	_	_	_	_	_	_	SpaceAfter=No
 28	legislasi	legislasi	NOUN	_	Number=Sing	27	obj	_	_
-29	nya	nya	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+29	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01063048
@@ -12887,11 +12887,11 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj:pass	_	_
 10	ditandai	tanda	VERB	_	Voice=Pass	2	advcl	_	_
-11	dengan	dengan	ADP	_	_	12	case	_	_
+11	dengan	dengan	SCONJ	_	_	12	mark	_	_
 12-13	banyaknya	_	_	_	_	_	_	_	_
-12	banyak	banyak	ADJ	_	_	10	obl	_	_
-13	nya	nya	DET	_	_	12	det	_	_
-14	proyek	proyek	NOUN	_	Number=Sing	12	nmod	_	_
+12	banyak	banyak	ADJ	_	_	10	advcl	_	_
+13	nya	nya	DET	_	_	12	dep	_	_
+14	proyek	proyek	NOUN	_	Number=Sing	12	nsubj	_	_
 15-16	konstruksinya	_	_	_	_	_	_	_	_
 15	konstruksi	konstruksi	NOUN	_	Number=Sing	14	nmod	_	_
 16	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
@@ -13064,7 +13064,7 @@
 15	bisa	bisa	AUX	_	_	16	aux	_	_
 16	ditempatkan	tempat	VERB	_	Voice=Pass	12	acl:relcl	_	_
 17	melawan	lawan	VERB	_	Voice=Act	16	xcomp	_	_
-18	para	para	DET	_	Number=Plur	19	det	_	_
+18	para	para	DET	_	Number=Plur|PronType=Ind	19	det	_	_
 19	pemberontak	berontak	NOUN	_	Number=Sing	17	obj	_	_
 20	di	di	ADP	_	_	21	case	_	_
 21	Belanda	Belanda	PROPN	_	_	19	nmod	_	SpaceAfter=No
@@ -13166,9 +13166,9 @@
 1	Dua	dua	NUM	_	NumType=Card	2	nsubj	_	_
 2	mengukur	ukur	VERB	_	Voice=Act	0	root	_	_
 3-4	lamanya	_	_	_	_	_	_	_	_
-3	lama	lama	ADJ	_	_	2	obj	_	_
-4	nya	nya	DET	_	_	3	det	_	_
-5	bulan-bulan	bulan	NOUN	_	Number=Plur	4	nmod	_	_
+3	lama	lama	ADJ	_	_	2	ccomp	_	_
+4	nya	nya	DET	_	_	3	dep	_	_
+5	bulan-bulan	bulan	NOUN	_	Number=Plur	4	nsubj	_	_
 6	kalender	kalender	NOUN	_	Number=Sing	5	nmod	_	_
 7	Cina	Cina	PROPN	_	_	6	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -13210,7 +13210,7 @@
 6	dan	dan	CCONJ	_	_	12	cc	_	_
 7	bukti	bukti	NOUN	_	Number=Sing	12	nsubj:pass	_	_
 8	untuk	untuk	ADP	_	_	10	case	_	_
-9	berbagai	bagai	DET	_	_	10	det	_	_
+9	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	10	det	_	_
 10	spekulasi	spekulasi	NOUN	_	Number=Sing	7	nmod	_	_
 11	hanya	hanya	ADV	_	_	12	advmod	_	_
 12	didasarkan	dasar	VERB	_	Voice=Pass	5	conj	_	_
@@ -13294,7 +13294,7 @@
 6	Danau	Danau	PROPN	_	_	5	nmod	_	_
 7	Rudyard	Rudyard	PROPN	_	_	6	flat	_	_
 8	sehingga	sehingga	SCONJ	_	_	15	mark	_	_
-9	ketika	ketika	SCONJ	_	_	13	mark	_	_
+9	ketika	ketika	ADV	_	PronType=Rel	13	advmod	_	_
 10	anak	anak	NOUN	_	Number=Sing	13	nsubj	_	_
 11	pertama	pertama	ADJ	_	NumType=Ord	10	amod	_	_
 12	mereka	mereka	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
@@ -13548,7 +13548,7 @@
 2	kata	kata	NOUN	_	Number=Sing	18	obl	_	_
 3	lain	lain	ADJ	_	_	2	amod	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	2	punct	_	_
-5	para	para	DET	_	Number=Plur	6	det	_	_
+5	para	para	DET	_	Number=Plur|PronType=Ind	6	det	_	_
 6	pria	pria	NOUN	_	Number=Sing	17	nsubj	_	_
 7	muda	muda	ADJ	_	_	6	amod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -13649,7 +13649,7 @@
 15	Timur	Timur	PROPN	_	_	11	obl	_	_
 16	Tengah	Tengah	PROPN	_	_	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
-18	di	di	SCONJ	_	_	22	mark	_	_
+18	di	di	ADV	_	PronType=Rel	22	advmod	_	_
 19	mana	mana	PRON	_	PronType=Dem	18	fixed	_	_
 20	awalnya	awal	ADV	_	_	22	advmod	_	_
 21	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
@@ -13960,7 +13960,7 @@
 2	Rusia	Rusia	PROPN	_	_	1	flat	_	_
 3	merupakan	rupa	VERB	_	Voice=Act	0	root	_	_
 4	pengelompokan	kelompok	NOUN	_	Number=Sing	3	obl	_	_
-5	berbagai	bagai	DET	_	_	6	det	_	_
+5	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	6	det	_	_
 6	etnis	etnis	NOUN	_	Number=Sing	4	nmod	_	_
 7	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 8	telah	telah	AUX	_	_	10	aux	_	_
@@ -14008,11 +14008,11 @@
 12	ekonomi	ekonomi	NOUN	_	Number=Sing	11	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
 14	besar	besar	ADJ	_	_	11	acl:relcl	_	_
-15	seiring	iring	ADP	_	_	16	case	_	_
+15	seiring	iring	SCONJ	_	_	16	mark	_	_
 16-17	dibangunnya	_	_	_	_	_	_	_	_
-16	dibangun	bangun	VERB	_	Voice=Pass	14	obl	_	_
-17	nya	nya	DET	_	_	16	det	_	_
-18	rute	rute	NOUN	_	Number=Sing	16	nmod	_	_
+16	dibangun	bangun	VERB	_	Voice=Pass	14	advcl	_	_
+17	nya	nya	DET	_	_	16	dep	_	_
+18	rute	rute	NOUN	_	Number=Sing	16	nsubj:pass	_	_
 19	perdagangan	dagang	NOUN	_	Number=Sing	18	nmod	_	_
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 21	menguntungkan	untung	VERB	_	Voice=Act	18	acl:relcl	_	SpaceAfter=No
@@ -14050,8 +14050,8 @@
 13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	sama	sama	ADJ	_	_	4	conj	_	_
 15-16	baiknya	_	_	_	_	_	_	_	_
-15	baik	baik	ADJ	_	_	14	obl	_	_
-16	nya	nya	DET	_	_	15	det	_	_
+15	baik	baik	ADJ	_	_	14	advcl	_	_
+16	nya	nya	DET	_	_	15	dep	_	_
 17	untuk	untuk	ADP	_	_	18	case	_	_
 18	konflik	konflik	NOUN	_	Number=Sing	11	nmod	_	_
 19	di	di	ADP	_	_	21	case	_	_
@@ -14590,7 +14590,7 @@
 16	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	baik	baik	CCONJ	_	_	21	cc:preconj	_	_
-19	saat	saat	SCONJ	_	_	21	mark	_	_
+19	saat	saat	ADV	_	PronType=Rel	21	advmod	_	_
 20	masih	masih	ADV	_	_	21	advmod	_	_
 21	hidup	hidup	VERB	_	Voice=Act	12	advcl	_	_
 22	maupun	maupun	CCONJ	_	_	24	cc	_	_
@@ -14639,13 +14639,13 @@
 # text = Di Eropa, sebelum pecahnya perang, Sekutu memiliki keunggulan signifikan baik dalam hal populasi maupun ekonomi.
 # text_en = In Europe, before the outbreak of the war, the Allies had significant advantages in both population and economics.
 1	Di	di	ADP	_	_	2	case	_	_
-2	Eropa	Eropa	PROPN	_	_	9	obl	_	SpaceAfter=No
+2	Eropa	Eropa	PROPN	_	_	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	sebelum	belum	ADP	_	_	5	case	_	_
+4	sebelum	belum	SCONJ	_	_	5	mark	_	_
 5-6	pecahnya	_	_	_	_	_	_	_	_
-5	pecah	pecah	VERB	_	Voice=Act	9	obl	_	_
-6	nya	nya	DET	_	_	5	det	_	_
-7	perang	perang	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
+5	pecah	pecah	VERB	_	Voice=Act	10	advcl	_	_
+6	nya	nya	DET	_	_	5	dep	_	_
+7	perang	perang	NOUN	_	Number=Sing	5	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	Sekutu	sekutu	NOUN	_	Number=Sing	10	nsubj	_	_
 10	memiliki	milik	VERB	_	Voice=Act	0	root	_	_
@@ -14921,12 +14921,12 @@
 4	ke	ke	ADP	_	_	5	case	_	_
 5	pertemuan-pertemuan	temu	NOUN	_	Number=Plur	2	obl	_	_
 6	bisnis	bisnis	NOUN	_	Number=Sing	5	nmod	_	_
-7	di	di	SCONJ	_	_	10	mark	_	_
+7	di	di	ADV	_	PronType=Rel	10	advmod	_	_
 8	mana	mana	PRON	_	PronType=Dem	7	fixed	_	_
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	berdiskusi	diskusi	VERB	_	Voice=Act	5	acl	_	_
 11	dengan	dengan	ADP	_	_	13	case	_	_
-12	para	para	DET	_	Number=Plur	13	det	_	_
+12	para	para	DET	_	Number=Plur|PronType=Ind	13	det	_	_
 13	ilmuwan	ilmuwan	NOUN	_	Number=Sing	10	obl	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	profesional	profesional	NOUN	_	Number=Sing	13	conj	_	_
@@ -15001,12 +15001,12 @@
 7	SS	SS	PROPN	_	Abbr=Yes	6	nmod	_	_
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	memimpin	pimpin	VERB	_	Voice=Act	5	conj	_	_
-10	para	para	DET	_	Number=Plur	11	det	_	_
+10	para	para	DET	_	Number=Plur|PronType=Ind	11	det	_	_
 11	militer	militer	NOUN	_	Number=Sing	9	obj	_	_
 12	Milice	Milice	PROPN	_	_	11	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
 14	memburu	buru	VERB	_	Voice=Act	11	acl:relcl	_	_
-15	para	para	DET	_	Number=Plur	16	det	_	_
+15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	anggota	anggota	NOUN	_	Number=Sing	14	obj	_	_
 17	Resistance	Resistance	PROPN	_	_	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	5	punct	_	_
@@ -15256,7 +15256,7 @@
 # sent_id = w01106052
 # text = Para pemberontak Aliansi Pasukan Demokratik untuk Pembebasan Kongo menangkap Lubumbashi di bulan April 1997.
 # text_en = The Alliance of Democratic Forces for the Liberation of Congo rebels captured Lubumbashi in April 1997.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	pemberontak	berontak	NOUN	_	Number=Sing	9	nsubj	_	_
 3	Aliansi	Aliansi	PROPN	_	_	2	nmod	_	_
 4	Pasukan	Pasukan	PROPN	_	_	3	flat	_	_
@@ -15933,7 +15933,7 @@
 5	dengan	dengan	ADP	_	_	6	case	_	_
 6	Jasmine	Jasmine	PROPN	_	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	para	para	DET	_	Number=Plur	9	det	_	_
+8	para	para	DET	_	Number=Plur|PronType=Ind	9	det	_	_
 9	pembuat	buat	NOUN	_	Number=Sing	12	nsubj	_	_
 10	film	film	NOUN	_	Number=Sing	9	nmod	_	_
 11	akhirnya	akhir	ADV	_	_	12	advmod	_	_
@@ -16022,12 +16022,12 @@
 17-18	kemanusiaannya	_	_	_	_	_	_	_	_
 17	kemanusiaan	manusia	NOUN	_	Number=Sing	16	nmod	_	_
 18	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
-19	hingga	hingga	ADP	_	_	21	case	_	_
-20	setelah	telah	ADP	_	_	21	case	_	_
+19	hingga	hingga	SCONJ	_	_	21	mark	_	_
+20	setelah	telah	SCONJ	_	_	21	mark	_	_
 21-22	berakhirnya	_	_	_	_	_	_	_	_
-21	berakhir	akhir	VERB	_	Voice=Act	4	obl	_	_
-22	nya	nya	DET	_	_	21	det	_	_
-23	pemerintahan	perintah	NOUN	_	Number=Sing	21	nmod	_	_
+21	berakhir	akhir	VERB	_	Voice=Act	4	advcl	_	_
+22	nya	nya	DET	_	_	21	dep	_	_
+23	pemerintahan	perintah	NOUN	_	Number=Sing	21	nsubj	_	_
 24	komunis	komunis	NOUN	_	Number=Sing	23	nmod	_	_
 25	di	di	ADP	_	_	26	case	_	_
 26	Polandia	Polandia	PROPN	_	_	23	nmod	_	SpaceAfter=No
@@ -16241,7 +16241,7 @@
 13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
 14	dimiliki	milik	VERB	_	Voice=Pass	3	conj	_	_
 15	oleh	oleh	ADP	_	_	17	case	_	_
-16	para	para	DET	_	Number=Plur	17	det	_	_
+16	para	para	DET	_	Number=Plur|PronType=Ind	17	det	_	_
 17	saudara	saudara	NOUN	_	Number=Sing	14	obl	_	_
 18-19	laki-lakinya	_	_	_	_	_	_	_	SpaceAfter=No
 18	laki-laki	laki	NOUN	_	Number=Sing	17	nmod	_	_
@@ -16370,7 +16370,7 @@
 21	dibintangi	bintang	VERB	_	Voice=Pass	12	acl:relcl	_	_
 22	LaBeouf	LaBeouf	PROPN	_	_	21	obl:agent	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
-24	di	di	SCONJ	_	_	27	mark	_	_
+24	di	di	ADV	_	PronType=Rel	27	advmod	_	_
 25	mana	mana	PRON	_	PronType=Dem	24	fixed	_	_
 26	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 27	tampil	tampil	VERB	_	Voice=Act	12	acl:relcl	_	_
@@ -17166,7 +17166,7 @@
 3	novel	novel	NOUN	_	Number=Sing	1	nmod	_	_
 4	Skylark	Skylark	PROPN	_	_	3	nmod	_	_
 5	melibatkan	libat	VERB	_	Voice=Act	0	root	_	_
-6	para	para	DET	_	Number=Plur	7	det	_	_
+6	para	para	DET	_	Number=Plur|PronType=Ind	7	det	_	_
 7	pelopor	pelopor	NOUN	_	Number=Sing	5	obj	_	_
 8	teknologi	teknologi	NOUN	_	Number=Sing	7	nmod	_	_
 9	informasi	informasi	NOUN	_	Number=Sing	8	nmod	_	_
@@ -17355,7 +17355,7 @@
 # sent_id = w01142013
 # text = Ketika putri mereka Cecily menikahi Richard Plantagenet, Duke of York ke-3, dan melahirkan beberapa anak, termasuk Edward IV dan Richard III, Joan menjadi nenek dari dua raja Inggris dari York.
 # text_en = When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.
-1	Ketika	ketika	SCONJ	_	_	5	mark	_	_
+1	Ketika	ketika	ADV	_	PronType=Rel	5	advmod	_	_
 2	putri	putri	NOUN	_	Number=Sing	5	nsubj	_	_
 3	mereka	mereka	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	Cecily	Cecily	PROPN	_	_	2	appos	_	_
@@ -17686,7 +17686,7 @@
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Stephen	Stephen	PROPN	_	_	6	nmod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	_
-10	saat	saat	SCONJ	_	_	12	mark	_	_
+10	saat	saat	ADV	_	PronType=Rel	12	advmod	_	_
 11	Kesha	Kesha	PROPN	_	_	12	nsubj	_	_
 12	berusia	usia	VERB	_	Voice=Act	5	advcl	_	_
 13	16	16	NUM	_	NumType=Card	14	nummod	_	_
@@ -17977,7 +17977,7 @@
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	di	di	ADP	_	_	29	case	_	_
 27	antara	antara	NOUN	_	Number=Sing	29	nmod:npmod	_	_
-28	para	para	DET	_	Number=Plur	29	det	_	_
+28	para	para	DET	_	Number=Plur|PronType=Ind	29	det	_	_
 29	sekutu	sekutu	NOUN	_	Number=Sing	11	obl	_	_
 30	Balkan	Balkan	PROPN	_	_	29	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
@@ -18048,7 +18048,7 @@
 12	daya	daya	NOUN	_	Number=Sing	11	nmod	_	_
 13	alami	alami	ADJ	_	_	11	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
-15	di	di	SCONJ	_	_	19	mark	_	_
+15	di	di	ADV	_	PronType=Rel	19	advmod	_	_
 16	mana	mana	PRON	_	PronType=Dem	15	fixed	_	_
 17	banyak	banyak	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	investor	investor	NOUN	_	Number=Sing	19	nsubj	_	_
@@ -18098,7 +18098,7 @@
 13	berdiri	diri	VERB	_	Voice=Act	11	acl:relcl	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	menonton	tonton	VERB	_	Voice=Act	13	conj	_	_
-16	saat	saat	SCONJ	_	_	19	mark	_	_
+16	saat	saat	ADV	_	PronType=Rel	19	advmod	_	_
 17	seorang	orang	DET	_	Number=Sing|PronType=Ind	18	det	_	_
 18	pensiunan	pensiun	NOUN	_	Number=Sing	19	nsubj	_	_
 19	meninggal	tinggal	VERB	_	Voice=Act	13	advcl	_	_
@@ -18448,11 +18448,11 @@
 4	peningkatan	tingkat	NOUN	_	Number=Sing	3	obj	_	_
 5	biaya	biaya	NOUN	_	Number=Sing	4	nmod	_	_
 6	itu	itu	DET	_	PronType=Dem	4	det	_	_
-7	sebagai	bagai	ADP	_	_	8	case	_	_
+7	sebagai	bagai	SCONJ	_	_	8	mark	_	_
 8-9	kurangnya	_	_	_	_	_	_	_	_
-8	kurang	kurang	ADJ	_	_	4	nmod	_	_
-9	nya	nya	DET	_	_	8	det	_	_
-10	perencanaan	rencana	NOUN	_	Number=Sing	8	nmod	_	_
+8	kurang	kurang	ADJ	_	_	3	advcl	_	_
+9	nya	nya	DET	_	_	8	dep	_	_
+10	perencanaan	rencana	NOUN	_	Number=Sing	8	nsubj	_	_
 11	terperinci	perinci	VERB	_	Voice=Pass	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -18511,7 +18511,7 @@
 4	Agustus	Agustus	PROPN	_	_	3	flat	_	_
 5	2015	2015	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
-7	saat	saat	SCONJ	_	_	11	mark	_	_
+7	saat	saat	ADV	_	PronType=Rel	11	advmod	_	_
 8	satu	satu	NUM	_	NumType=Card	9	nummod	_	_
 9	pasukan	pasuk	NOUN	_	Number=Sing	11	nsubj	_	_
 10	bebek	bebek	NOUN	_	Number=Sing	9	nmod	_	_
@@ -18534,7 +18534,7 @@
 9	dimiliki	milik	VERB	_	Voice=Pass	8	xcomp	_	_
 10	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl:agent	_	_
 11	,	,	PUNCT	_	_	22	punct	_	_
-12	di	di	SCONJ	_	_	22	mark	_	_
+12	di	di	ADV	_	PronType=Rel	22	advmod	_	_
 13	mana	mana	PRON	_	PronType=Dem	12	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	12	punct	_	_
 15	dalam	dalam	ADP	_	_	16	case	_	_
@@ -18568,7 +18568,7 @@
 # text = Dan sekarang dia adalah juara dunia.
 # text_en = And now he is also world champion.
 1	Dan	dan	CCONJ	_	_	5	cc	_	_
-2	sekarang	sekarang	ADV	_	PronType=Dem	5	advmod	_	_
+2	sekarang	sekarang	ADV	_	_	5	advmod	_	_
 3	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	adalah	adalah	AUX	_	_	5	cop	_	_
 5	juara	juara	NOUN	_	Number=Sing	0	root	_	_
@@ -18626,7 +18626,7 @@
 # sent_id = n02046037
 # text = Sekarang cuma tidak jelas, di dalam yang mana.
 # text_en = It is now only unclear, in which one.
-1	Sekarang	sekarang	ADV	_	PronType=Dem	4	advmod	_	_
+1	Sekarang	sekarang	ADV	_	_	4	advmod	_	_
 2	cuma	cuma	ADV	_	_	4	advmod	_	_
 3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	jelas	jelas	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -18705,7 +18705,7 @@
 1	Saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj:pass	_	_
 2	ditanyai	tanya	VERB	_	Voice=Pass	0	root	_	_
 3	oleh	oleh	ADP	_	_	5	case	_	_
-4	para	para	DET	_	Number=Plur	5	det	_	_
+4	para	para	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	petugas	tugas	NOUN	_	Number=Sing	2	obl	_	_
 6	itu	itu	DET	_	PronType=Dem	5	det	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
@@ -18717,7 +18717,7 @@
 13	bodoh	bodoh	ADJ	_	_	9	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15-16	apakah	_	_	_	_	_	_	_	_
-15	apa	apa	SCONJ	_	_	17	mark	_	_
+15	apa	apa	PRON	_	PronType=Rel	17	obl	_	_
 16	kah	kah	PART	_	_	15	advmod:emph	_	_
 17	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 18	mengenal	kenal	VERB	_	Voice=Act	2	advcl	_	_
@@ -18727,7 +18727,7 @@
 22	Bruyn	Bruyn	PROPN	_	_	20	flat	_	_
 23	dan	dan	CCONJ	_	_	27	cc	_	_
 24-25	apakah	_	_	_	_	_	_	_	_
-24	apa	apa	SCONJ	_	_	27	mark	_	_
+24	apa	apa	PRON	_	PronType=Rel	27	obl	_	_
 25	kah	kah	PART	_	_	24	advmod:emph	_	_
 26	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 27	bersaudara	saudara	VERB	_	Voice=Act	18	conj	_	_
@@ -19319,7 +19319,7 @@
 4	pemilihan	pilih	NOUN	_	Number=Sing	3	obj	_	_
 5	pendahuluan	dahulu	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
-7	di	di	SCONJ	_	_	11	mark	_	_
+7	di	di	ADV	_	PronType=Rel	11	advmod	_	_
 8	mana	mana	PRON	_	PronType=Dem	7	fixed	_	_
 9	Rachida	Rachida	PROPN	_	_	11	nsubj	_	_
 10	Dati	Dati	PROPN	_	_	9	flat	_	_
@@ -19758,7 +19758,7 @@
 1	Kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	akan	akan	AUX	_	_	3	aux	_	_
 3	mengevaluasi	evaluasi	VERB	_	Voice=Act	0	root	_	_
-4	apa	apa	SCONJ	_	_	6	mark	_	_
+4	apa	apa	PRON	_	PronType=Rel	6	obl	_	_
 5	akan	akan	AUX	_	_	6	aux	_	_
 6	lanjut	lanjut	ADJ	_	_	3	ccomp	_	_
 7	dan	dan	CCONJ	_	_	9	cc	_	_
@@ -19866,7 +19866,7 @@
 # sent_id = n04006010
 # text = Suatu level yang dalam kedua kasus ini berada di bagian teratas UE.
 # text_en = A level that in both cases is at the top of the EU.
-1	Suatu	suatu	DET	_	PronType=Ind	2	det	_	_
+1	Suatu	suatu	DET	_	Number=Sing|PronType=Ind	2	det	_	_
 2	level	level	NOUN	_	Number=Sing	0	root	_	_
 3	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
 4	dalam	dalam	ADP	_	_	6	case	_	_
@@ -20047,11 +20047,11 @@
 4	University	University	PROPN	_	_	3	flat	_	_
 5	diberi	beri	VERB	_	Voice=Pass	0	root	_	_
 6	tahu	tahu	VERB	_	Voice=Act	5	compound	_	_
-7	selama	lama	ADP	_	_	8	case	_	_
+7	selama	lama	SCONJ	_	_	8	mark	_	_
 8-9	berlangsungnya	_	_	_	_	_	_	_	_
-8	berlangsung	langsung	VERB	_	Voice=Act	5	obl	_	_
-9	nya	nya	DET	_	_	8	det	_	_
-10	pertemuan	temu	NOUN	_	Number=Sing	8	nmod	_	_
+8	berlangsung	langsung	VERB	_	Voice=Act	5	advcl	_	_
+9	nya	nya	DET	_	_	8	dep	_	_
+10	pertemuan	temu	NOUN	_	Number=Sing	8	nsubj	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	bertempat	tempat	VERB	_	Voice=Act	10	acl:relcl	_	_
 13	di	di	ADP	_	_	14	case	_	_
@@ -20203,7 +20203,7 @@
 # sent_id = n04010021
 # text = Para pemimpin perusahaan seperti Spotify, Tesla, Uber, dan Snapchat akan menghadiri sebuah pertemuan pribadi selain dari Mountain View Summit.
 # text_en = Leaders of companies such as Spotify, Tesla, Uber and Snapchat will attend a private event in addition to the Mountain View Summit.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	pemimpin	pimpin	NOUN	_	Number=Sing	14	nsubj	_	_
 3	perusahaan	usaha	NOUN	_	Number=Sing	2	nmod	_	_
 4	seperti	seperti	ADP	_	_	5	case	_	_
@@ -20244,7 +20244,7 @@
 12	konservatif	konservatif	ADJ	_	_	10	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	sementara	sementara	SCONJ	_	_	26	cc	_	_
-15	para	para	DET	_	Number=Plur	16	det	_	_
+15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	pemimpin	pimpin	NOUN	_	Number=Sing	26	nsubj	_	_
 17	partai	partai	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
@@ -20392,7 +20392,7 @@
 9	Sekretaris	sekretaris	NOUN	_	Number=Sing	8	obl	_	_
 10	Jenderal	jenderal	NOUN	_	Number=Sing	9	nmod	_	_
 11	partai	partai	NOUN	_	Number=Sing	9	nmod	_	_
-12	sekarang	sekarang	ADV	_	PronType=Dem	8	advmod	_	SpaceAfter=No
+12	sekarang	sekarang	ADV	_	_	8	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n05003010
@@ -20733,7 +20733,7 @@
 20	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 21	jelas	jelas	ADJ	_	_	4	conj	_	_
 22-23	apakah	_	_	_	_	_	_	_	_
-22	apa	apa	SCONJ	_	_	27	mark	_	_
+22	apa	apa	PRON	_	PronType=Rel	27	obl	_	_
 23	kah	kah	PART	_	_	22	advmod:emph	_	_
 24	peningkatan	tingkat	NOUN	_	Number=Sing	27	nsubj	_	_
 25	ini	ini	DET	_	PronType=Dem	24	det	_	_
@@ -21065,7 +21065,7 @@
 8	relaksasi	relaksasi	NOUN	_	Number=Sing	5	conj	_	_
 9	setempat	tempat	NOUN	_	Number=Sing	5	nmod	_	_
 10	untuk	untuk	ADP	_	_	12	case	_	_
-11	para	para	DET	_	Number=Plur	12	det	_	_
+11	para	para	DET	_	Number=Plur|PronType=Ind	12	det	_	_
 12	biarawan	biara	NOUN	_	Number=Sing	5	nmod	_	_
 13	San	San	PROPN	_	_	12	nmod	_	_
 14	Francisco	Francisco	PROPN	_	_	13	flat	_	SpaceAfter=No
@@ -21360,9 +21360,9 @@
 18	tinggi	tinggi	ADJ	_	_	14	acl:relcl	_	_
 19	serta	serta	CCONJ	_	_	20	cc	_	_
 20-21	kurangnya	_	_	_	_	_	_	_	_
-20	kurang	kurang	NOUN	_	Number=Sing	14	conj	_	_
-21	nya	nya	DET	_	_	20	det	_	_
-22	persediaan	sedia	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+20	kurang	kurang	ADJ	_	_	14	conj	_	_
+21	nya	nya	DET	_	_	20	dep	_	_
+22	persediaan	sedia	NOUN	_	Number=Sing	20	nsubj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w02009087
@@ -21616,7 +21616,7 @@
 # sent_id = w02015087
 # text = Para biarawati yang terlantar dipindahkan ke Biara Eibingen.
 # text_en = The displaced nuns were moved to the Eibingen cloister.
-1	Para	para	DET	_	Number=Plur	2	det	_	_
+1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	biarawati	biara	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj:pass	_	_
 4	terlantar	telantar	VERB	_	Voice=Pass	2	acl:relcl	_	_
@@ -21834,7 +21834,7 @@
 11	kota	kota	NOUN	_	Number=Sing	8	nmod:poss	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	_
-14	di	di	SCONJ	_	_	20	mark	_	_
+14	di	di	ADV	_	PronType=Rel	20	advmod	_	_
 15	mana	mana	PRON	_	PronType=Dem	14	fixed	_	_
 16-17	populasinya	_	_	_	_	_	_	_	_
 16	populasi	populasi	NOUN	_	Number=Sing	20	nsubj:pass	_	_
@@ -22025,11 +22025,11 @@
 11	Kegelapan	Kegelapan	PROPN	_	_	10	flat	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj:pass	_	_
 13	diikuti	ikut	VERB	_	Voice=Pass	7	advcl	_	_
-14	oleh	oleh	ADP	_	_	15	case	_	_
+14	oleh	oleh	SCONJ	_	_	15	mark	_	_
 15-16	jatuhnya	_	_	_	_	_	_	_	_
-15	jatuh	jatuh	VERB	_	Voice=Act	13	obl	_	_
-16	nya	nya	DET	_	_	15	det	_	_
-17	peradaban	adab	NOUN	_	Number=Sing	15	nmod	_	_
+15	jatuh	jatuh	VERB	_	Voice=Act	13	advcl	_	_
+16	nya	nya	DET	_	_	15	dep	_	_
+17	peradaban	adab	NOUN	_	Number=Sing	15	nsubj	_	_
 18	Mycenaean	Mycenaean	PROPN	_	_	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -22252,7 +22252,7 @@
 17	,	,	PUNCT	_	_	12	punct	_	_
 18	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	mengambil	ambil	VERB	_	Voice=Act	0	root	_	_
-20	berbagai	bagai	DET	_	_	21	det	_	_
+20	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	21	det	_	_
 21	langkah	langkah	NOUN	_	Number=Sing	19	obj	_	_
 22	untuk	untuk	SCONJ	_	_	23	mark	_	_
 23	membebaskan	bebas	VERB	_	Voice=Act	21	acl	_	_
@@ -22276,7 +22276,7 @@
 12	pada	pada	ADP	_	_	13	case	_	_
 13	tahun	tahun	NOUN	_	Number=Sing	11	obl	_	_
 14	1994	1994	NUM	_	NumType=Card	13	nummod	_	_
-15	ketika	ketika	SCONJ	_	_	17	mark	_	_
+15	ketika	ketika	ADV	_	PronType=Rel	17	advmod	_	_
 16	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 17	dinyatakan	nyata	VERB	_	Voice=Pass	13	acl	_	_
 18	bangkrut	bangkrut	VERB	_	Voice=Act	17	xcomp	_	SpaceAfter=No
@@ -22309,7 +22309,7 @@
 # text_en = To get away from it all, the Remis resided in Switzerland for most of summer 1947.
 1	Untuk	untuk	SCONJ	_	_	2	mark	_	_
 2	melarikan	lari	VERB	_	Voice=Act	10	advcl	_	_
-3	diri	diri	PRON	_	_	2	compound	_	_
+3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound	_	_
 4	dari	dari	ADP	_	_	6	case	_	_
 5	semua	semua	DET	_	PronType=Tot	6	det	_	_
 6	itu	itu	PRON	_	PronType=Dem	2	obl	_	SpaceAfter=No
@@ -22480,9 +22480,9 @@
 2	itu	itu	PRON	_	PronType=Dem	11	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	terjadinya	_	_	_	_	_	_	_	_
-4	terjadi	jadi	VERB	_	Voice=Pass	11	nsubj:pass	_	_
-5	nya	nya	DET	_	_	4	det	_	_
-6	badai	badai	NOUN	_	Number=Sing	4	nmod	_	_
+4	terjadi	jadi	VERB	_	Voice=Pass	11	csubj:pass	_	_
+5	nya	nya	DET	_	_	4	dep	_	_
+6	badai	badai	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 7	di	di	ADP	_	_	8	case	_	_
 8	pulau	pulau	NOUN	_	Number=Sing	6	nmod	_	_
 9	ini	ini	DET	_	PronType=Dem	8	det	_	_
@@ -22633,11 +22633,11 @@
 # text = Diterbitkannya mata uang sebagian besar bersifat numismatik (studi atau koleksi uang), dengan tujuan dijual terutama ke kolektor.
 # text_en = The issuing of coinage is predominantly numismatic in nature, with the intention of being sold mainly to collectors.
 1-2	Diterbitkannya	_	_	_	_	_	_	_	_
-1	Diterbitkan	terbit	NOUN	_	Number=Sing	7	nsubj	_	_
-2	nya	nya	DET	_	_	1	det	_	_
-3	mata	mata	NOUN	_	Number=Sing	1	nmod	_	_
-4	uang	uang	NOUN	_	Number=Sing	3	nmod	_	_
-5	sebagian	bagi	NOUN	_	Number=Sing	1	nmod	_	_
+1	Diterbitkan	terbit	NOUN	_	Number=Sing	7	csubj	_	_
+2	nya	nya	DET	_	_	1	dep	_	_
+3	mata	mata	NOUN	_	Number=Sing	1	nsubj:pass	_	_
+4	uang	uang	NOUN	_	Number=Sing	3	compound	_	_
+5	sebagian	bagi	NOUN	_	Number=Sing	7	obl	_	_
 6	besar	besar	ADJ	_	_	5	amod	_	_
 7	bersifat	sifat	VERB	_	Voice=Act	0	root	_	_
 8	numismatik	numismatik	ADJ	_	_	7	xcomp	_	_
@@ -22806,11 +22806,11 @@
 11	mendapat	dapat	VERB	_	Voice=Act	10	xcomp	_	_
 12	pencerahan	cerah	NOUN	_	Number=Sing	11	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
-14	setelah	telah	ADP	_	_	15	case	_	_
+14	setelah	telah	SCONJ	_	_	15	mark	_	_
 15-16	terjadinya	_	_	_	_	_	_	_	_
-15	terjadi	jadi	VERB	_	Voice=Pass	11	obl	_	_
-16	nya	nya	DET	_	_	15	det	_	_
-17	Revolusi	revolusi	NOUN	_	Number=Sing	15	nmod	_	_
+15	terjadi	jadi	VERB	_	Voice=Pass	11	advcl	_	_
+16	nya	nya	DET	_	_	15	dep	_	_
+17	Revolusi	revolusi	NOUN	_	Number=Sing	15	nsubj:pass	_	_
 18	Prancis	Prancis	PROPN	_	_	17	nmod	_	SpaceAfter=No
 19	:	:	PUNCT	_	_	20	punct	_	_
 20	Napoleon	Napoleon	PROPN	_	_	7	appos	_	_
@@ -22874,7 +22874,7 @@
 # text_en = Napoleon was confident that the clear success of Austerlitz could lead to a general peace treaty, but his hopes were soon dashed: the new British Prime Minister Lord Grenville refused any agreement, and so did Tsar Alexander.
 1	Napoleon	Napoleon	PROPN	_	_	2	nsubj	_	_
 2	percaya	percaya	VERB	_	Voice=Act	0	root	_	_
-3	diri	diri	PRON	_	_	2	compound	_	_
+3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound	_	_
 4	bahwa	bahwa	SCONJ	_	_	9	mark	_	_
 5	keberhasilan	hasil	NOUN	_	Number=Sing	9	nsubj	_	_
 6	jelas	jelas	ADJ	_	_	5	amod	_	_
@@ -23033,7 +23033,7 @@
 1	Nicolai	Nicolai	PROPN	_	_	2	nsubj	_	_
 2	berkolaborasi	kolaborasi	VERB	_	Voice=Act	0	root	_	_
 3	dalam	dalam	ADP	_	_	5	case	_	_
-4	berbagai	bagai	DET	_	_	5	det	_	_
+4	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	susunan	susun	NOUN	_	Number=Sing	2	obl	_	_
 6	musik	musik	NOUN	_	Number=Sing	5	nmod	_	_
 7	sinematik	sinematik	ADJ	_	_	5	amod	_	_
@@ -23042,7 +23042,7 @@
 10	sebagai	bagai	ADP	_	_	11	case	_	_
 11	Metti	Metti	PROPN	_	_	5	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	suatu	suatu	DET	_	PronType=Ind	14	det	_	_
+13	suatu	suatu	DET	_	Number=Sing|PronType=Ind	14	det	_	_
 14	malam	malam	NOUN	_	Number=Sing	2	obl:tmod	_	_
 15	saat	saat	ADP	_	_	16	case	_	_
 16	makan	makan	NOUN	_	Number=Sing	14	nmod	_	_
@@ -23091,7 +23091,7 @@
 # text = Selama berbagai kolaborasi mereka, tidak jelas siapa di antara mereka yang awalnya memikirkan beberapa solusi bergaya dalam aransemen yang kemudian mencirikan gaya kedua seniman tersebut.
 # text_en = During their various collaborations, it is not clear who between the two conceived of some stylistic solutions in the arrangements that later on characterised both artists' style.
 1	Selama	lama	ADP	_	_	3	case	_	_
-2	berbagai	bagai	DET	_	_	3	det	_	_
+2	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	3	det	_	_
 3	kolaborasi	kolaborasi	NOUN	_	Number=Sing	7	obl	_	_
 4	mereka	mereka	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -23177,11 +23177,11 @@
 6	dipilih	pilih	VERB	_	Voice=Pass	2	advcl	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
 8	sengaja	sengaja	ADV	_	_	6	advmod	_	_
-9	karena	karena	ADP	_	_	10	case	_	_
+9	karena	karena	SCONJ	_	_	10	mark	_	_
 10-11	banyaknya	_	_	_	_	_	_	_	_
-10	banyak	banyak	NOUN	_	Number=Sing	6	obl	_	_
-11	nya	nya	DET	_	_	10	det	_	_
-12	jumlah	jumlah	NOUN	_	Number=Sing	11	nmod	_	_
+10	banyak	banyak	ADJ	_	_	6	advcl	_	_
+11	nya	nya	DET	_	_	10	dep	_	_
+12	jumlah	jumlah	NOUN	_	Number=Sing	11	nsubj	_	_
 13	orang	orang	NOUN	_	Number=Sing	12	nmod	_	_
 14	Yahudi	Yahudi	PROPN	_	_	13	nmod	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj	_	_
@@ -23292,7 +23292,7 @@
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	kembali	kembali	VERB	_	Voice=Act	17	xcomp	_	_
 20	dan	dan	CCONJ	_	_	26	cc	_	_
-21	para	para	DET	_	Number=Plur	22	det	_	_
+21	para	para	DET	_	Number=Plur|PronType=Ind	22	det	_	_
 22	tahanan	tahan	NOUN	_	Number=Sing	26	nsubj:pass	_	_
 23	politik	politik	NOUN	_	Number=Sing	22	nmod	_	_
 24	yang	yang	PRON	_	PronType=Rel	25	nsubj:pass	_	_
@@ -23304,8 +23304,8 @@
 # text = Ambruknya dan intervensi puluhan bank mengakibatkan pelarian modal, membuat banyak usaha menjadi bangkrut.
 # text_en = The collapse of and intervention in dozens of banks lead to a flight of capital, causing businesses to go bankrupt.
 1-2	Ambruknya	_	_	_	_	_	_	_	_
-1	Ambruk	ambruk	VERB	_	Voice=Act	7	nsubj	_	_
-2	nya	nya	DET	_	_	1	det	_	_
+1	Ambruk	ambruk	VERB	_	Voice=Act	7	csubj	_	_
+2	nya	nya	DET	_	_	1	dep	_	_
 3	dan	dan	CCONJ	_	_	4	cc	_	_
 4	intervensi	intervensi	NOUN	_	Number=Sing	1	conj	_	_
 5	puluhan	puluh	NUM	_	NumType=Card	6	nummod	_	_
@@ -23366,7 +23366,7 @@
 5	bulan	bulan	NOUN	_	Number=Sing	3	obl	_	_
 6	Oktober	Oktober	PROPN	_	_	5	nmod	_	_
 7	1777	1777	NUM	_	NumType=Card	6	flat	_	_
-8	saat	saat	SCONJ	_	_	17	mark	_	_
+8	saat	saat	ADV	_	PronType=Rel	17	advmod	_	_
 9	tentara	tentara	NOUN	_	Number=Sing	17	nsubj	_	_
 10	Inggris	Inggris	PROPN	_	_	9	nmod	_	_
 11	di	di	ADP	_	_	13	case	_	_
@@ -23400,7 +23400,7 @@
 8	yang	yang	PRON	_	PronType=Rel	9	nsubj:pass	_	_
 9	dibutuhkan	butuh	VERB	_	Voice=Pass	7	acl:relcl	_	_
 10	oleh	oleh	ADP	_	_	12	case	_	_
-11	para	para	DET	_	Number=Plur	12	det	_	_
+11	para	para	DET	_	Number=Plur|PronType=Ind	12	det	_	_
 12	pendatang	datang	NOUN	_	Number=Sing	9	obl	_	_
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	mendapatkan	dapat	VERB	_	Voice=Act	9	advcl	_	_
@@ -23427,7 +23427,7 @@
 14	orang	orang	NOUN	_	Number=Sing	13	obj	_	_
 15	Inggris	Inggris	PROPN	_	_	14	nmod	_	_
 16	karena	karena	SCONJ	_	_	19	mark	_	_
-17	para	para	DET	_	Number=Plur	18	det	_	_
+17	para	para	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	kolonis	kolonis	NOUN	_	Number=Sing	19	nsubj	_	_
 19	mengambil	ambil	VERB	_	Voice=Act	13	advcl	_	_
 20	alih	alih	VERB	_	Voice=Act	19	compound	_	_
@@ -23698,7 +23698,7 @@
 21	mengambil	ambil	VERB	_	Voice=Act	19	advcl	_	_
 22	keuntungan	untung	NOUN	_	Number=Sing	21	obj	_	_
 23	dari	dari	ADP	_	_	25	case	_	_
-24	para	para	DET	_	Number=Plur	25	det	_	_
+24	para	para	DET	_	Number=Plur|PronType=Ind	25	det	_	_
 25	pendukung	dukung	NOUN	_	Number=Sing	21	obl	_	_
 26	Caesar	Caesar	PROPN	_	_	25	nmod:poss	_	_
 27	yang	yang	PRON	_	PronType=Rel	28	nsubj	_	_
@@ -23760,7 +23760,7 @@
 # text = Tapi ketika Senat menjawabnya secara definitif dengan melarangnya bersaing di konsulate dan memberinya pilihan untuk menarik pasukannya atau menjadi musuh publik, ia memahami bahwa, apa pun alternatif yang ia pilih, ia akan menyerah tanpa senjata ke tangan lawan-lawan politiknya.
 # text_en = But when the Senate answered him definitively by prohibiting him from competing at the consolate and giving him the option of either withdrawing his troops or becoming a public enemy, he understood that, whatever alternative he chose, he would surrender unarmed into the hands of his political enemies.
 1	Tapi	tapi	CCONJ	_	_	28	cc	_	_
-2	ketika	ketika	SCONJ	_	_	4	mark	_	_
+2	ketika	ketika	ADV	_	PronType=Rel	4	advmod	_	_
 3	Senat	Senat	PROPN	_	_	4	nsubj	_	_
 4-5	menjawabnya	_	_	_	_	_	_	_	_
 4	menjawab	jawab	VERB	_	Voice=Act	28	advcl	_	_
@@ -23830,7 +23830,7 @@
 12	deklarasi	deklarasi	NOUN	_	Number=Sing	10	obj	_	_
 13	dari	dari	ADP	_	_	14	case	_	_
 14	Caesar	Caesar	PROPN	_	_	12	nmod	_	_
-15	di	di	SCONJ	_	_	20	mark	_	_
+15	di	di	ADV	_	PronType=Rel	20	advmod	_	_
 16	mana	mana	PRON	_	PronType=Dem	15	fixed	_	_
 17	sang	sang	DET	_	PronType=Dem	18	det	_	_
 18	prokonsul	prokonsul	NOUN	_	Number=Sing	20	nsubj	_	_
