@@ -39,7 +39,7 @@ README FROM UI
 
 A reseach team from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
 
-A description of how the treebank were manually revised by UI  in 2019 can be found in:
+A description of how the Indonesian PUD was manually revised by UI  in 2019 can be found in:
 
   A Gold Standard Dependency Treebank for Indonesian
   Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany and Heru Suhartanto
