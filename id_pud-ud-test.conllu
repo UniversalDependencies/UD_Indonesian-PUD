@@ -175,7 +175,7 @@
 10	—	—	PUNCT	_	_	1	punct	_	_
 11	sesungguhnya	sungguh	ADV	_	_	14	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	luar	luar	NOUN	_	Number=Sing	14	compound	_	_
+13	luar	luar	NOUN	_	Number=Sing	14	compound:a	_	_
 14	biasa	biasa	ADJ	_	_	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -194,8 +194,8 @@
 # text = Di awal Oktober, tim transisi menggunakan tempat yang sama untuk bertemu dengan para pelobi teknologi, dengan mengundang perwakilan dari Uber, Motion Picture Association of America, Consumer Technology Association, dan grup lainnya.
 # text_en = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1	Di	di	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	3	nmod	_	_
-3	Oktober	Oktober	PROPN	_	_	7	obl	_	SpaceAfter=No
+2	awal	awal	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+3	Oktober	Oktober	PROPN	_	_	7	obl:tmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	tim	tim	NOUN	_	Number=Sing	7	nsubj	_	_
 6	transisi	transisi	NOUN	_	Number=Sing	5	nmod	_	_
@@ -442,7 +442,7 @@
 16	diberikan	beri	VERB	_	Voice=Pass	13	acl:relcl	_	_
 17	sebelum	belum	ADP	_	_	18	case	_	_
 18	Pemilu	pemilu	NOUN	_	Abbr=Yes|Number=Sing	16	obl	_	_
-19	tahun	tahun	NOUN	_	Number=Sing	18	nmod	_	_
+19	tahun	tahun	NOUN	_	Number=Sing	18	nmod:tmod	_	_
 20	1996	1996	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	menurut	turut	ADP	_	_	23	case	_	_
@@ -680,7 +680,7 @@
 16	kemerdekaan	merdeka	NOUN	_	Number=Sing	15	nmod	_	_
 17	Skotlandia	Skotlandia	PROPN	_	_	16	nmod	_	_
 18	di	di	ADP	_	_	19	case	_	_
-19	tahun	tahun	NOUN	_	Number=Sing	15	nmod	_	_
+19	tahun	tahun	NOUN	_	Number=Sing	15	nmod:tmod	_	_
 20	2014	2014	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -703,7 +703,7 @@
 # text_en = And by 2007, at the height of its popularity (and, perhaps, Knightley's) it was a top 50 name, with three times more babies named Keira than Kiera.
 1	Dan	dan	CCONJ	_	_	21	cc	_	_
 2	pada	pada	ADP	_	_	3	case	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	21	obl	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	21	obl:tmod	_	_
 4	2007	2007	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	di	di	ADP	_	_	7	case	_	_
@@ -819,7 +819,7 @@
 9	di	di	ADP	_	_	10	case	_	_
 10	pesawat	pesawat	NOUN	_	Number=Sing	8	nmod	_	_
 11	sering	sering	ADV	_	_	15	advmod	_	_
-12	kali	kali	NOUN	_	Number=Sing	11	compound	_	_
+12	kali	kali	NOUN	_	Number=Sing	11	fixed	_	_
 13	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 14	dapat	dapat	AUX	_	_	15	aux	_	_
 15	diandalkan	andal	VERB	_	Voice=Pass	6	ccomp	_	_
@@ -841,7 +841,7 @@
 2	Namun	namun	CCONJ	_	_	10	cc	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mungkin	mungkin	ADV	_	_	10	advmod	_	_
-5	saja	saja	ADV	_	_	4	compound	_	_
+5	saja	saja	ADV	_	_	4	advmod	_	_
 6	BA	BA	PROPN	_	Abbr=Yes	10	nsubj	_	_
 7	dan	dan	CCONJ	_	_	8	cc	_	_
 8	IAG	IAG	PROPN	_	Abbr=Yes	6	conj	_	_
@@ -871,7 +871,7 @@
 6	bahwa	bahwa	SCONJ	_	_	7	mark	_	_
 7	menjadi	jadi	VERB	_	Voice=Act	3	xcomp	_	_
 8	tanggung	tanggung	NOUN	_	Number=Sing	7	obl	_	_
-9	jawab	jawab	NOUN	_	Number=Sing	8	compound	_	_
+9	jawab	jawab	NOUN	_	Number=Sing	8	compound:v	_	_
 10	merek	merek	NOUN	_	Number=Sing	8	nmod	_	_
 11	maskapai	maskapai	NOUN	_	Number=Sing	10	nmod	_	_
 12	penerbangan	terbang	NOUN	_	Number=Sing	11	nmod	_	_
@@ -914,7 +914,7 @@
 # text = Kadang kala seperti kekuatan super.
 # text_en = It's like a super power sometimes.
 1	Kadang	kadang	ADV	_	PronType=Ind	4	advmod	_	_
-2	kala	kala	NOUN	_	Number=Sing	1	compound	_	_
+2	kala	kala	NOUN	_	Number=Sing	1	fixed	_	_
 3	seperti	seperti	ADP	_	_	4	case	_	_
 4	kekuatan	kuat	NOUN	_	Number=Sing	0	root	_	_
 5	super	super	ADJ	_	_	4	amod	_	SpaceAfter=No
@@ -973,7 +973,7 @@
 14	maksud	maksud	NOUN	_	Number=Sing	9	conj	_	_
 15	di	di	ADP	_	_	16	case	_	_
 16-17	belakangnya	_	_	_	_	_	_	_	SpaceAfter=No
-16	belakang	belakang	NOUN	_	Number=Sing	17	nmod	_	_
+16	belakang	belakang	NOUN	_	Number=Sing	17	nmod:npmod	_	_
 17	nya	nya	PRON	_	Number=Sing	14	nmod	_	_
 18	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1127,7 +1127,7 @@
 5	digunakan	guna	VERB	_	Voice=Pass	2	xcomp	_	_
 6	data	data	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 7	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
-8	luar	luar	NOUN	_	Number=Sing	9	compound	_	_
+8	luar	luar	NOUN	_	Number=Sing	9	compound:a	_	_
 9	biasa	biasa	ADJ	_	_	10	advmod	_	_
 10	besar	besar	ADJ	_	_	6	acl:relcl	_	_
 11	untuk	untuk	SCONJ	_	_	12	mark	_	_
@@ -1235,7 +1235,7 @@
 6	6	6	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 7	%	%	SYM	_	_	5	obl	_	_
 8	pada	pada	ADP	_	_	9	case	_	_
-9	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+9	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 10	2015	2015	NUM	_	NumType=Card	9	nummod	_	_
 11	menjadi	jadi	VERB	_	Voice=Act	5	advcl	_	_
 12	$	$	SYM	_	_	11	obl	_	SpaceAfter=No
@@ -1298,7 +1298,7 @@
 9	lingkungan	lingkung	NOUN	_	Number=Sing	8	nmod	_	_
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 11	mengambil	ambil	VERB	_	Voice=Act	7	acl:relcl	_	_
-12	alih	alih	VERB	_	Voice=Act	11	compound	_	_
+12	alih	alih	VERB	_	Voice=Act	11	compound:v	_	_
 13	bumi	bumi	NOUN	_	Number=Sing	11	obj	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	mengirim	kirim	VERB	_	Voice=Act	11	conj	_	_
@@ -1312,7 +1312,7 @@
 23	-	-	PUNCT	_	_	22	punct	_	_
 24	masuk	masuk	VERB	_	Voice=Act	15	advcl	_	_
 25	ke	ke	ADP	_	_	27	case	_	_
-26	dalam	dalam	NOUN	_	Number=Sing	27	nmod	_	_
+26	dalam	dalam	NOUN	_	Number=Sing	27	nmod:npmod	_	_
 27	kepunahan	punah	NOUN	_	Number=Sing	24	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1364,7 +1364,7 @@
 27	dari	dari	ADP	_	_	28	case	_	_
 28	biji-biji	biji	NOUN	_	Number=Plur	26	obl	_	_
 29	dari	dari	ADP	_	_	31	case	_	_
-30	luar	luar	NOUN	_	Number=Sing	31	nmod	_	_
+30	luar	luar	NOUN	_	Number=Sing	31	nmod:npmod	_	_
 31	angkasa	angkasa	NOUN	_	Number=Sing	28	nmod	_	_
 32	-	-	PUNCT	_	_	37	punct	_	_
 33	hanya	hanya	ADV	_	_	37	advmod	_	_
@@ -1491,7 +1491,7 @@
 # sent_id = n01025045
 # text = Sepanjang sejarah, pasar rambut internasional selalu memiliki dimensi politis, ujar Tarlo.
 # text_en = Throughout history, the international hair market has always had a political dimension, says Tarlo.
-1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod	_	_
+1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod:npmod	_	_
 2	sejarah	sejarah	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	pasar	pasar	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -1652,14 +1652,14 @@
 14	dicaplok	caplok	VERB	_	Voice=Pass	11	acl:relcl	_	_
 15	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	14	obl:agent	_	_
 16	pada	pada	ADP	_	_	17	case	_	_
-17	tahun	tahun	NOUN	_	Number=Sing	14	obl	_	_
+17	tahun	tahun	NOUN	_	Number=Sing	14	obl:tmod	_	_
 18	2014	2014	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
 20	sebagai	bagai	SCONJ	_	_	23	mark	_	_
 21	“	“	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	sangat	sangat	ADV	_	_	23	advmod	_	_
 23	masuk	masuk	VERB	_	Voice=Act	7	advcl	_	_
-24	akal	akal	NOUN	_	Number=Sing	23	compound	_	SpaceAfter=No
+24	akal	akal	NOUN	_	Number=Sing	23	compound:v	_	SpaceAfter=No
 25	”	”	PUNCT	_	_	23	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1678,7 +1678,7 @@
 10	di	di	ADP	_	_	11	case	_	_
 11	sana	sana	PRON	_	PronType=Dem	6	obl	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+13	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 15	sama	sama	ADJ	_	_	13	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
@@ -1707,7 +1707,7 @@
 18	Rusia	Rusia	PROPN	_	_	16	nmod	_	_
 19	dalam	dalam	ADP	_	_	21	case	_	_
 20	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	21	det	_	_
-21	tahun	tahun	NOUN	_	Number=Sing	15	obl	_	_
+21	tahun	tahun	NOUN	_	Number=Sing	15	obl:tmod	_	_
 22	terakhir	akhir	ADJ	_	Degree=Sup	21	amod	_	_
 23	dan	dan	CCONJ	_	_	24	cc	_	_
 24	mengunjungi	kunjung	VERB	_	Voice=Act	15	conj	_	_
@@ -1723,8 +1723,8 @@
 # text = Di awal tahun ini Seagal diberi kebangsaan Serbia setelah menawarkan mendirikan sekolah bela diri di ibu kotanya, Beograd.
 # text_en = Earlier this year Seagal was given Serbian nationality after offering to set up a martial arts school in the capital Belgrade.
 1	Di	di	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	3	nmod	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	awal	awal	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 4	ini	ini	DET	_	PronType=Dem	3	det	_	_
 5	Seagal	Seagal	PROPN	_	_	6	nsubj:pass	_	_
 6	diberi	beri	VERB	_	Voice=Pass	0	root	_	_
@@ -1735,7 +1735,7 @@
 11	mendirikan	diri	VERB	_	Voice=Act	10	xcomp	_	_
 12	sekolah	sekolah	NOUN	_	Number=Sing	11	obj	_	_
 13	bela	bela	NOUN	_	Number=Sing	12	nmod	_	_
-14	diri	diri	PRON	_	Number=Sing	13	compound	_	_
+14	diri	diri	PRON	_	Number=Sing	13	nmod	_	_
 15	di	di	ADP	_	_	16	case	_	_
 16	ibu	ibu	NOUN	_	Number=Sing	11	obl	_	_
 17-18	kotanya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1760,7 +1760,7 @@
 10	terjadi	jadi	VERB	_	Voice=Pass	5	ccomp	_	_
 11	“	“	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	adu	adu	VERB	_	Voice=Act	10	nsubj:pass	_	_
-13	mulut	mulut	NOUN	_	Number=Sing	12	compound	_	SpaceAfter=No
+13	mulut	mulut	NOUN	_	Number=Sing	12	compound:v	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	12	punct	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 16	diikuti	ikut	VERB	_	Voice=Pass	12	advcl	_	_
@@ -1855,7 +1855,7 @@
 10	selama	lama	ADP	_	_	13	case	_	_
 11	sekitar	kitar	ADV	_	_	13	advmod	_	_
 12	20	20	NUM	_	NumType=Card	13	nummod	_	_
-13	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
+13	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01031021
@@ -1961,7 +1961,7 @@
 12	jaringan	jaring	NOUN	_	Number=Sing	6	obl	_	_
 13	seperti	seperti	ADP	_	_	14	case	_	_
 14	kandung	kandung	NOUN	_	Number=Sing	12	nmod	_	_
-15	kemih	kemih	NOUN	_	Number=Sing	14	compound	_	SpaceAfter=No
+15	kemih	kemih	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj:pass	_	_
 18	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
@@ -2185,7 +2185,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	tidak	tidak	PART	_	Polarity=Neg	10	advmod	_	_
 10	bekerja	kerja	VERB	_	Voice=Act	7	conj	_	_
-11	sama	sama	ADJ	_	_	10	compound	_	SpaceAfter=No
+11	sama	sama	ADJ	_	_	10	compound:v	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	dan	dan	CCONJ	_	_	15	cc	_	_
 14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
@@ -2370,7 +2370,7 @@
 3	bisa	bisa	AUX	_	_	4	aux	_	_
 4	menunggu	tunggu	VERB	_	Voice=Act	0	root	_	_
 5	hingga	hingga	ADP	_	_	7	case	_	_
-6	akhir	akhir	NOUN	_	Number=Sing	7	nmod	_	_
+6	akhir	akhir	NOUN	_	Number=Sing	7	nmod:npmod	_	_
 7	masa	masa	NOUN	_	Number=Sing	4	obl	_	_
 8-9	jabatannya	_	_	_	_	_	_	_	_
 8	jabatan	jabat	NOUN	_	Number=Sing	7	nmod	_	_
@@ -2613,7 +2613,7 @@
 17	seorang	orang	DET	_	Number=Sing|PronType=Ind	18	det	_	_
 18	polisi	polisi	NOUN	_	Number=Sing	15	obl	_	_
 19	di	di	ADP	_	_	22	case	_	_
-20	bagian	bagi	NOUN	_	Number=Sing	22	nmod	_	_
+20	bagian	bagi	NOUN	_	Number=Sing	22	nmod:npmod	_	_
 21	utara	utara	NOUN	_	Number=Sing	20	nmod	_	_
 22	kota	kota	NOUN	_	Number=Sing	18	nmod	_	_
 23	Ontario	Ontario	PROPN	_	_	22	nmod	_	SpaceAfter=No
@@ -2702,7 +2702,7 @@
 19	untuk	untuk	ADP	_	_	20	case	_	_
 20	2013	2013	NUM	_	NumType=Card	5	conj	_	SpaceAfter=No
 21	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	2014	2014	NUM	_	NumType=Card	20	flat:range	_	_
+22	2014	2014	NUM	_	NumType=Card	20	flat	_	_
 23	—	—	PUNCT	_	_	28	punct	_	_
 24	atau	atau	CCONJ	_	_	28	cc	_	_
 25	sudah	sudah	AUX	_	_	28	aux	_	_
@@ -2720,7 +2720,7 @@
 4	bonus	bonus	NOUN	_	Number=Sing	2	conj	_	_
 5	kinerja	kinerja	NOUN	_	Number=Sing	4	nmod	_	_
 6	untuk	untuk	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	1	nmod	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 8	itu	itu	DET	_	PronType=Dem	7	det	_	_
 9	adalah	adalah	AUX	_	_	10	cop	_	_
 10	$	$	SYM	_	_	0	root	_	SpaceAfter=No
@@ -2735,7 +2735,7 @@
 18	untuk	untuk	ADP	_	_	19	case	_	_
 19	2015	2015	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
 20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	2016	2016	NUM	_	NumType=Card	19	flat:range	_	SpaceAfter=No
+21	2016	2016	NUM	_	NumType=Card	19	flat	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = n01044004
@@ -2753,7 +2753,7 @@
 10	sponsor	sponsor	NOUN	_	Number=Sing	9	nmod	_	_
 11	federal	federal	ADJ	_	_	9	amod	_	_
 12	antara	antara	ADP	_	_	13	case	_	_
-13	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+13	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 14	2004	2004	NUM	_	NumType=Card	13	nummod	_	_
 15	dan	dan	CCONJ	_	_	16	cc	_	_
 16	2006	2006	NUM	_	NumType=Card	14	conj	_	SpaceAfter=No
@@ -2887,7 +2887,7 @@
 # text = "Luar biasa," lapor pelanggan data tak terbatas SaskTel, Lindsay Gay bulan lalu.
 # text_en = "It is amazing," reported SaskTel unlimited data customer Lindsay Gay last month.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Luar	luar	NOUN	_	Number=Sing	3	compound	_	_
+2	Luar	luar	NOUN	_	Number=Sing	3	compound:a	_	_
 3	biasa	biasa	ADJ	_	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	3	punct	_	_
@@ -2999,7 +2999,7 @@
 15	Anda	anda	PRON	_	Number=Sing|Person=2|PronType=Prs	14	obj	_	_
 16	tidur	tidur	VERB	_	Voice=Act	14	xcomp	_	_
 17	lelap	lelap	ADV	_	_	16	advmod	_	_
-18	sepanjang	panjang	NOUN	_	Number=Sing	19	nmod	_	_
+18	sepanjang	panjang	NOUN	_	Number=Sing	19	nmod:npmod	_	_
 19	malam	malam	NOUN	_	Number=Sing	16	obl:tmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	3	punct	_	_
@@ -3068,7 +3068,7 @@
 19	merah	merah	ADJ	_	_	18	amod	_	_
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 21	bertanggung	tanggung	VERB	_	Voice=Act	17	acl:relcl	_	_
-22	jawab	jawab	NOUN	_	Number=Sing	21	compound	_	_
+22	jawab	jawab	NOUN	_	Number=Sing	21	compound:v	_	_
 23	untuk	untuk	SCONJ	_	_	24	mark	_	_
 24	mengangkut	angkut	VERB	_	Voice=Act	21	advcl	_	_
 25	oksigen	oksigen	NOUN	_	Number=Sing	24	obj	_	_
@@ -3155,7 +3155,7 @@
 18	Texas	Texas	PROPN	_	_	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_
 20	diberi	beri	VERB	_	Voice=Pass	8	advcl	_	_
-21	tahu	tahu	VERB	_	Voice=Act	20	compound	_	_
+21	tahu	tahu	VERB	_	Voice=Act	20	compound:v	_	_
 22	bahwa	bahwa	SCONJ	_	_	27	mark	_	_
 23	bayi	bayi	NOUN	_	Number=Sing	27	nsubj	_	_
 24	dalam	dalam	ADP	_	_	25	case	_	_
@@ -3221,7 +3221,7 @@
 # text_en = She was 84 years old.
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tutup	tutup	VERB	_	Voice=Act	0	root	_	_
-3	usia	usia	NOUN	_	Number=Sing	2	compound	_	_
+3	usia	usia	NOUN	_	Number=Sing	2	compound:v	_	_
 4	84	84	NUM	_	NumType=Card	5	nummod	_	_
 5	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -3237,7 +3237,7 @@
 5	perempuan	perempuan	NOUN	_	Number=Sing	2	obl	_	_
 6	yang	yang	PRON	_	PronType=Rel	9	nsubj	_	_
 7	“	“	PUNCT	_	_	9	punct	_	SpaceAfter=No
-8	luar	luar	NOUN	_	Number=Sing	9	compound	_	_
+8	luar	luar	NOUN	_	Number=Sing	9	compound:a	_	_
 9	biasa	biasa	ADJ	_	_	5	acl:relcl	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	9	punct	_	_
 11	dan	dan	CCONJ	_	_	13	cc	_	_
@@ -3271,7 +3271,7 @@
 5	dan	dan	CCONJ	_	_	9	cc	_	_
 6	Bono	Bono	PROPN	_	_	9	nsubj	_	_
 7	adalah	adalah	AUX	_	_	9	cop	_	_
-8	salah	salah	ADJ	_	_	9	compound	_	_
+8	salah	salah	ADJ	_	_	9	compound:n	_	_
 9	satu	satu	NUM	_	NumType=Card	4	conj	_	_
 10	dari	dari	ADP	_	_	11	case	_	_
 11	orang	orang	NOUN	_	Number=Sing	9	nmod	_	_
@@ -3380,7 +3380,7 @@
 2	dari	dari	ADP	_	_	3	case	_	_
 3	acara	acara	NOUN	_	Number=Sing	1	nmod	_	_
 4	dengar	dengar	VERB	_	Voice=Act	3	acl	_	_
-5	pendapat	dapat	NOUN	_	Number=Sing	4	compound	_	_
+5	pendapat	dapat	NOUN	_	Number=Sing	4	compound:v	_	_
 6	CRTC	CRTC	PROPN	_	Abbr=Yes	3	nmod	_	_
 7	adalah	adalah	AUX	_	_	0	root	_	_
 8	untuk	untuk	SCONJ	_	_	9	mark	_	_
@@ -3433,7 +3433,7 @@
 # text = Lagi pula, internet bukan barang mewah; internet adalah alat penting.
 # text_en = After all, the internet is not a luxury; it is an essential tool.
 1	Lagi	lagi	ADV	_	_	6	advmod	_	_
-2	pula	pula	ADV	_	_	1	compound	_	SpaceAfter=No
+2	pula	pula	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	internet	internet	NOUN	_	Number=Sing	6	nsubj	_	_
 5	bukan	bukan	PART	_	Polarity=Neg	6	advmod	_	_
@@ -3455,7 +3455,7 @@
 4	sebuah	buah	DET	_	Number=Sing|PronType=Ind	5	det	_	_
 5	cincin	cincin	NOUN	_	Number=Sing	3	obj	_	_
 6	di	di	ADP	_	_	8	case	_	_
-7	sekitar	kitar	NOUN	_	Number=Sing	8	nmod	_	_
+7	sekitar	kitar	NOUN	_	Number=Sing	8	nmod:npmod	_	_
 8	khatulistiwa	khatulistiwa	NOUN	_	Number=Sing	5	nmod	_	_
 9	Bumi	Bumi	PROPN	_	_	8	nmod:poss	_	_
 10	dan	dan	CCONJ	_	_	12	cc	_	_
@@ -3520,7 +3520,7 @@
 8	yang	yang	PRON	_	PronType=Rel	9	nsubj	_	_
 9	membatasi	batas	VERB	_	Voice=Act	5	acl:relcl	_	_
 10	pada	pada	ADP	_	_	11	case	_	_
-11	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+11	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 12	2013	2013	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 14	Campbell	Campbell	PROPN	_	_	15	nsubj	_	_
@@ -3551,7 +3551,7 @@
 6	umum	umum	ADJ	_	_	5	amod	_	_
 7	di	di	ADP	_	_	9	case	_	_
 8-9	sekitarnya	_	_	_	_	_	_	_	SpaceAfter=No
-8	sekitar	kitar	NOUN	_	Number=Sing	9	nmod	_	_
+8	sekitar	kitar	NOUN	_	Number=Sing	9	nmod:npmod	_	_
 9	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	dalam	dalam	ADP	_	_	12	case	_	_
@@ -3782,7 +3782,7 @@
 12	meresahkan	resah	VERB	_	Voice=Act	9	acl:relcl	_	_
 13	daripada	daripada	ADP	_	_	14	case	_	_
 14	omong	omong	NOUN	_	Number=Sing	12	obl	_	_
-15	kosong	kosong	NOUN	_	Number=Sing	14	compound	_	_
+15	kosong	kosong	ADJ	_	_	14	amod	_	_
 16	memenuhi	penuh	VERB	_	Voice=Act	0	root	_	_
 17	benak	benak	NOUN	_	Number=Sing	16	obj	_	_
 18	Karel	Karel	PROPN	_	_	17	nmod:poss	_	SpaceAfter=No
@@ -4016,7 +4016,7 @@
 # text = Pada tahun 2010, yayasan itu merilis sebuah edisi typeset “Zettel’s Traum,” menghilangkan halangan masuk bagi mereka yang menolak keras nuansa seperti draf offset foto tersebut.
 # text_en = In 2010, the foundation released a typeset edition of “Zettel’s Traum,” removing the bar to entry for those who balked at the draft-like feel of the photo-offset.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	2010	2010	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	yayasan	yayasan	NOUN	_	Number=Sing	7	nsubj	_	_
@@ -4148,8 +4148,8 @@
 10	di	di	ADV	_	PronType=Rel	15	advmod	_	_
 11	mana	mana	PRON	_	PronType=Dem	10	fixed	_	_
 12	62	62	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
-13	%	%	SYM	_	_	14	nmod	_	_
-14	pemilih	pilih	NOUN	_	Number=Sing	15	nsubj	_	_
+13	%	%	SYM	_	_	15	nsubj	_	_
+14	pemilih	pilih	NOUN	_	Number=Sing	13	nmod	_	_
 15	mendukung	dukung	VERB	_	Voice=Act	5	acl:relcl	_	_
 16	meninggalkan	tinggal	VERB	_	Voice=Act	15	xcomp	_	_
 17	Uni	Uni	PROPN	_	_	16	obj	_	_
@@ -4165,10 +4165,10 @@
 3	dalam	dalam	SCONJ	_	_	4	mark	_	_
 4	mendapatkan	dapat	VERB	_	Voice=Act	1	acl	_	_
 5	jawaban	jawab	NOUN	_	Number=Sing	4	obj	_	_
-6	untuk	untuk	ADP	_	_	8	case	_	_
-7	para	para	DET	_	Number=Plur|PronType=Ind	8	det	_	_
-8	wajib	wajib	NOUN	_	Number=Sing	5	nmod	_	_
-9	pajak	pajak	NOUN	_	Number=Sing	8	compound	_	_
+6	untuk	untuk	ADP	_	_	9	case	_	_
+7	para	para	DET	_	Number=Plur|PronType=Ind	9	det	_	_
+8	wajib	wajib	ADJ	_	_	9	compound:n	_	_
+9	pajak	pajak	NOUN	_	Number=Sing	4	obl	_	_
 10	akan	akan	AUX	_	_	12	aux	_	_
 11	sangat	sangat	ADV	_	_	12	advmod	_	_
 12	dirindukan	rindu	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
@@ -4253,7 +4253,7 @@
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	sangat	sangat	ADV	_	_	3	advmod	_	_
 3	besar	besar	ADJ	_	_	0	root	_	_
-4	hati	hati	NOUN	_	Number=Sing	3	compound	_	_
+4	hati	hati	NOUN	_	Number=Sing	3	compound:a	_	_
 5	dan	dan	CCONJ	_	_	6	cc	_	_
 6-7	menerimanya	_	_	_	_	_	_	_	_
 6	menerima	terima	VERB	_	Voice=Act	3	conj	_	_
@@ -4324,7 +4324,7 @@
 8	Badarpur	Badarpur	PROPN	_	_	2	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	di	di	ADP	_	_	12	case	_	_
-11	tenggara	tenggara	NOUN	_	Number=Sing	12	nmod	_	_
+11	tenggara	tenggara	NOUN	_	Number=Sing	12	nmod:npmod	_	_
 12	Delhi	Delhi	PROPN	_	_	8	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	akan	akan	AUX	_	_	15	aux	_	_
@@ -4349,7 +4349,7 @@
 2	lalu	lalu	SCONJ	_	_	3	mark	_	_
 3	bekerja	kerja	VERB	_	Voice=Act	0	root	_	_
 4	empat	empat	NUM	_	NumType=Card	5	nummod	_	_
-5	tahun	tahun	NOUN	_	Number=Sing	3	obl	_	_
+5	tahun	tahun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 6	di	di	ADP	_	_	7	case	_	_
 7	BBC	BBC	PROPN	_	Abbr=Yes	3	obl	_	_
 8	World	World	PROPN	_	_	7	flat	_	_
@@ -4374,7 +4374,7 @@
 # sent_id = n01072021
 # text = Salah satu dari banyak postingan belasungkawa di Facebook pasti akan sangat menggembirakan Chris: "Saya tidak kenal seorang pun, yang lebih Afrika dari kamu. “
 # text_en = One of their many grieving Facebook posts has a line which would have delighted Chris: “More African than you, I have not known.”
-1	Salah	salah	ADJ	_	_	2	compound	_	_
+1	Salah	salah	ADJ	_	_	2	compound:n	_	_
 2	satu	satu	NUM	_	NumType=Card	12	nsubj	_	_
 3	dari	dari	ADP	_	_	5	case	_	_
 4	banyak	banyak	DET	_	Number=Plur|PronType=Ind	5	det	_	_
@@ -4904,7 +4904,7 @@
 6	menentang	tentang	VERB	_	Voice=Act	5	acl	_	_
 7	perdagangan	dagang	NOUN	_	Number=Sing	6	obj	_	_
 8	masuk	masuk	VERB	_	Voice=Act	0	root	_	_
-9	akal	akal	NOUN	_	Number=Sing	8	compound	_	SpaceAfter=No
+9	akal	akal	NOUN	_	Number=Sing	8	compound:v	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = n01084008
@@ -4928,7 +4928,7 @@
 16	£	£	SYM	_	_	14	nmod	_	SpaceAfter=No
 17	12.000	12.000	NUM	_	NumType=Card	16	nummod	_	_
 18	–	–	PUNCT	_	_	19	punct	_	_
-19	£	£	SYM	_	_	16	flat:range	_	SpaceAfter=No
+19	£	£	SYM	_	_	16	flat	_	SpaceAfter=No
 20	360	360	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -4951,7 +4951,7 @@
 14	£	£	SYM	_	_	13	nmod	_	_
 15	3.000	3.000	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
-17	£	£	SYM	_	_	14	flat:range	_	_
+17	£	£	SYM	_	_	14	flat	_	_
 18	5.000	5.000	NUM	_	NumType=Card	17	nummod	_	_
 19	saat	saat	ADV	_	PronType=Rel	21	advmod	_	_
 20	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
@@ -5002,7 +5002,7 @@
 15	£	£	SYM	_	_	13	obl	_	SpaceAfter=No
 16	15.001	15.001	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 17	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	£	£	SYM	_	_	15	flat:range	_	SpaceAfter=No
+18	£	£	SYM	_	_	15	flat	_	SpaceAfter=No
 19	19.999	19.999	NUM	_	NumType=Card	18	nummod	_	_
 20	selama	lama	ADP	_	_	21	case	_	_
 21	periode	periode	NOUN	_	Number=Sing	13	obl	_	_
@@ -5010,7 +5010,7 @@
 23	dua	dua	NUM	_	NumType=Card	26	nummod	_	_
 24	dan	dan	CCONJ	_	_	25	cc	_	_
 25	tiga	tiga	NUM	_	NumType=Card	23	conj	_	_
-26	tahun	tahun	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+26	tahun	tahun	NOUN	_	Number=Sing	21	nmod:tmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n01085006
@@ -5306,7 +5306,7 @@
 18	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 19	seolah-olah	olah	ADV	_	_	21	advmod	_	_
 20	dari	dari	ADP	_	_	21	case	_	_
-21	tahun	tahun	NOUN	_	Number=Sing	17	acl:relcl	_	_
+21	tahun	tahun	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 22	1970-an	1970	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5379,7 +5379,7 @@
 19	akan	akan	AUX	_	_	20	aux	_	_
 20	diperkenalkan	kenal	VERB	_	Voice=Pass	14	advcl	_	_
 21	di	di	ADP	_	_	23	case	_	_
-22	belakang	belakang	NOUN	_	Number=Sing	23	nmod	_	_
+22	belakang	belakang	NOUN	_	Number=Sing	23	nmod:npmod	_	_
 23	hal	hal	NOUN	_	Number=Sing	20	obl	_	_
 24	itu	itu	DET	_	PronType=Dem	23	det	_	SpaceAfter=No
 25	”	”	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -5396,7 +5396,7 @@
 5	membawa	bawa	VERB	_	Voice=Act	0	root	_	_
 6	nya	nya	PRON	_	Number=Sing	5	obj	_	_
 7	ke	ke	ADP	_	_	9	case	_	_
-8	dalam	dalam	NOUN	_	Number=Sing	9	nmod	_	_
+8	dalam	dalam	NOUN	_	Number=Sing	9	nmod:npmod	_	_
 9	konflik	konflik	NOUN	_	Number=Sing	5	obl	_	_
 10	dengan	dengan	ADP	_	_	12	case	_	_
 11	banyak	banyak	DET	_	Number=Plur|PronType=Ind	12	det	_	_
@@ -5442,7 +5442,7 @@
 # text = Tentang hal ini, satu titik buku harian di Maroko akan menjadi middle Saturday, ketika negara-negara maju berkesempatan saling mempertanyakan rencana dan ambisi mereka.
 # text_en = On this, one diary point in Morocco will be the middle Saturday, when developed countries get to publicly question each other about their plans and ambitions.
 1	Tentang	tentang	ADP	_	_	2	case	_	_
-2	hal	hal	NOUN	_	Number=Sing	12	nmod	_	_
+2	hal	hal	NOUN	_	Number=Sing	12	obl	_	_
 3	ini	ini	DET	_	PronType=Dem	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	satu	satu	NUM	_	NumType=Card	6	nummod	_	_
@@ -5519,7 +5519,7 @@
 13	diusulkan	usul	VERB	_	Voice=Pass	11	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	7	punct	_	_
 15	ujar	ujar	VERB	_	Voice=Act	7	parataxis	_	_
-16	salah	salah	ADJ	_	_	17	compound	_	_
+16	salah	salah	ADJ	_	_	17	compound:n	_	_
 17	satu	satu	NUM	_	NumType=Card	18	nummod	_	_
 18	pejabat	jabat	NOUN	_	Number=Sing	15	nsubj	_	_
 19	Uni	Uni	PROPN	_	_	18	nmod	_	_
@@ -5756,7 +5756,7 @@
 14	saya	saya	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 15	sudah	sudah	AUX	_	_	16	aux	_	_
 16	berkembang	kembang	VERB	_	Voice=Act	0	root	_	_
-17	menjadi	jadi	VERB	_	Voice=Act	19	xcomp	_	_
+17	menjadi	jadi	VERB	_	Voice=Act	16	xcomp	_	_
 18	sangat	sangat	ADV	_	_	19	advmod	_	_
 19	panjang	panjang	ADJ	_	_	16	xcomp	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
@@ -5861,7 +5861,7 @@
 7	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	6.30	6.30	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 9	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	10	10	NUM	_	NumType=Card	8	flat:range	_	_
+10	10	10	NUM	_	NumType=Card	8	flat	_	_
 11	pagi	pagi	NOUN	_	Number=Sing	5	parataxis	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	14	punct	_	_
@@ -5916,7 +5916,7 @@
 16	dari	dari	ADP	_	_	17	case	_	_
 17	Inggris	Inggris	PROPN	_	_	13	nmod	_	_
 18	pada	pada	ADP	_	_	19	case	_	_
-19	tahun	tahun	NOUN	_	Number=Sing	13	nmod	_	_
+19	tahun	tahun	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 20	1997	1997	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6449,10 +6449,10 @@
 3	dengan	dengan	ADP	_	_	4	case	_	_
 4	keberuntungan	untung	NOUN	_	Number=Sing	2	nmod	_	_
 5	rata-rata	rata	ADJ	_	_	4	amod	_	_
-6	dan	dan	CCONJ	_	_	9	cc	_	_
-7	£	£	SYM	_	_	9	nmod	_	_
+6	dan	dan	CCONJ	_	_	7	cc	_	_
+7	£	£	SYM	_	_	4	conj	_	_
 8	10.000	10.000	NUM	_	NumType=Card	7	nummod	_	_
-9	surat	surat	NOUN	_	Number=Sing	4	conj	_	_
+9	surat	surat	NOUN	_	Number=Sing	7	nmod	_	_
 10	obligasi	obligasi	NOUN	_	Number=Sing	9	nmod	_	_
 11	bisa	bisa	AUX	_	_	12	aux	_	_
 12	mengharapkan	harap	VERB	_	Voice=Act	0	root	_	_
@@ -6540,7 +6540,7 @@
 11	yang	yang	SCONJ	_	_	16	mark	_	_
 12	ke	ke	ADP	_	_	14	case	_	_
 13-14	dalamnya	_	_	_	_	_	_	_	_
-13	dalam	dalam	NOUN	_	Number=Sing	14	nmod	_	_
+13	dalam	dalam	NOUN	_	Number=Sing	14	nmod:npmod	_	_
 14	nya	nya	PRON	_	Number=Sing	16	obl	_	_
 15	investor	investor	NOUN	_	Number=Sing	16	nsubj	_	_
 16	memasukkan	masuk	VERB	_	Voice=Act	3	acl:relcl	_	_
@@ -6576,7 +6576,7 @@
 16	sterling	sterling	NOUN	_	Number=Sing	15	nmod	_	_
 17	ke	ke	ADP	_	_	18	case	_	_
 18	aset	aset	NOUN	_	Number=Sing	13	obl	_	_
-19	luar	luar	NOUN	_	Number=Sing	20	nmod	_	_
+19	luar	luar	NOUN	_	Number=Sing	20	nmod:npmod	_	_
 20	negeri	negeri	NOUN	_	Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6631,7 +6631,7 @@
 15	daripada	daripada	ADP	_	_	16	case	_	_
 16	ikan	ikan	NOUN	_	Number=Sing	14	nmod	_	_
 17	pada	pada	ADP	_	_	18	case	_	_
-18	tahun	tahun	NOUN	_	Number=Sing	11	obl	_	_
+18	tahun	tahun	NOUN	_	Number=Sing	11	obl:tmod	_	_
 19	2050	2050	NUM	_	NumType=Card	18	nummod	_	_
 20	kecuali	kecuali	SCONJ	_	_	22	mark	_	_
 21	dunia	dunia	NOUN	_	Number=Sing	22	nsubj	_	_
@@ -6750,7 +6750,7 @@
 3	adalah	adalah	AUX	_	_	4	cop	_	_
 4	tahun	tahun	NOUN	_	Number=Sing	0	root	_	_
 5	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
-6	luar	luar	NOUN	_	Number=Sing	7	compound	_	_
+6	luar	luar	NOUN	_	Number=Sing	7	compound:a	_	_
 7	biasa	biasa	ADJ	_	_	4	acl:relcl	_	_
 8	dan	dan	CCONJ	_	_	10	cc	_	_
 9	saya	saya	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
@@ -6761,7 +6761,7 @@
 14	semakin	makin	ADV	_	_	15	advmod	_	_
 15	baik	baik	ADJ	_	_	13	xcomp	_	_
 16	di	di	ADP	_	_	17	case	_	_
-17	tahun	tahun	NOUN	_	Number=Sing	15	obl	_	_
+17	tahun	tahun	NOUN	_	Number=Sing	15	obl:tmod	_	_
 18	2017	2017	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -6776,8 +6776,8 @@
 5	di	di	ADP	_	_	6	case	_	_
 6	RSC	RSC	PROPN	_	Abbr=Yes	2	obl	_	_
 7	di	di	ADP	_	_	9	case	_	_
-8	pertengahan	tengah	NOUN	_	Number=Sing	9	nmod	_	_
-9	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	_
+8	pertengahan	tengah	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+9	tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	_
 10	60-an	60	NUM	_	NumType=Card	9	nummod	_	_
 11	dengan	dengan	SCONJ	_	_	12	mark	_	_
 12	memainkan	main	VERB	_	Voice=Act	2	advcl	_	_
@@ -6952,7 +6952,7 @@
 # text_en = From the director's point of view, the film is a precarious balancing act, between cheery family hijinks and hard-hitting social drama.
 1	Dari	dari	ADP	_	_	2	case	_	_
 2	sudut	sudut	NOUN	_	Number=Sing	10	nmod	_	_
-3	pandang	pandang	NOUN	_	Number=Sing	2	compound	_	_
+3	pandang	pandang	VERB	_	Voice=Act	2	acl	_	_
 4	sutradara	sutradara	NOUN	_	Number=Sing	2	nmod:poss	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	film	film	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -7027,8 +7027,8 @@
 2-3	hasilnya	_	_	_	_	_	_	_	_
 2	hasil	hasil	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 3	nya	nya	DET	_	_	2	det	_	_
-4	sama	sama	ADJ	_	_	5	compound	_	_
-5	sekali	kali	ADV	_	_	8	advmod	_	_
+4	sama	sama	ADJ	_	_	8	advmod	_	_
+5	sekali	kali	ADV	_	_	4	fixed	_	_
 6	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
 7	bisa	bisa	AUX	_	_	8	aux	_	_
 8	dikatakan	kata	VERB	_	Voice=Pass	0	root	_	_
@@ -7235,7 +7235,7 @@
 4	kilas	kilas	NOUN	_	Number=Sing	3	obl	_	_
 5	balik	balik	NOUN	_	Number=Sing	4	compound	_	_
 6	ke	ke	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	4	nmod	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 8	70-an	70	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	flock	flock	NOUN	_	Number=Sing	19	nsubj	_	_
@@ -7279,15 +7279,15 @@
 1	Tentu	tentu	ADV	_	_	10	advmod	_	_
 2	saja	saja	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	tren	tren	NOUN	_	Number=Sing	10	dislocated	_	_
-5	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
+4	tren	tren	NOUN	_	Number=Sing	10	nsubj	_	_
+5	yang	yang	SCONJ	_	_	6	mark	_	_
 6	berhubungan	hubung	VERB	_	Voice=Act	4	acl:relcl	_	_
 7	dengan	dengan	ADP	_	_	8	case	_	_
 8	sentuhan	sentuh	NOUN	_	Number=Sing	6	obl	_	_
 9	ini	ini	DET	_	PronType=Dem	4	det	_	_
 10	erat	erat	ADJ	_	_	0	root	_	_
 11-12	kaitannya	_	_	_	_	_	_	_	_
-11	kaitan	kait	NOUN	_	Number=Sing	10	nsubj	_	_
+11	kaitan	kait	NOUN	_	Number=Sing	10	dislocated	_	_
 12	nya	nya	DET	_	_	11	det	_	_
 13	dengan	dengan	SCONJ	_	_	14	mark	_	_
 14-15	berkembangnya	_	_	_	_	_	_	_	_
@@ -7371,7 +7371,7 @@
 # text = Lagi pula, kinerja organisasi kita jarang diukur dalam hal seberapa aman kita atau berapa aturan yang kita ikuti.
 # text_en = After all, our organizational performance is seldom measured in terms of how safe we are or how many rules we follow.
 1	Lagi	lagi	ADV	_	_	8	advmod	_	_
-2	pula	pula	ADV	_	_	1	compound	_	SpaceAfter=No
+2	pula	pula	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	kinerja	kinerja	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 5	organisasi	organisasi	NOUN	_	Number=Sing	4	nmod	_	_
@@ -7639,7 +7639,7 @@
 22	adalah	adalah	AUX	_	_	24	cop	_	_
 23	sekitar	kitar	ADV	_	_	24	advmod	_	_
 24	16.500	16.500	NUM	_	NumType=Card	3	conj	_	_
-25	awal	awal	NOUN	_	Number=Sing	26	nmod	_	_
+25	awal	awal	NOUN	_	Number=Sing	26	nmod:npmod	_	_
 26	minggu	minggu	NOUN	_	Number=Sing	24	nmod:tmod	_	_
 27	ini	ini	DET	_	PronType=Dem	26	det	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
@@ -7819,7 +7819,7 @@
 8	Protection	Protection	PROPN	_	_	6	flat	_	_
 9	Agency	Agency	PROPN	_	_	6	flat	_	_
 10	memberi	beri	VERB	_	Voice=Act	4	advcl	_	_
-11	tahu	tahu	VERB	_	Voice=Act	10	compound	_	_
+11	tahu	tahu	VERB	_	Voice=Act	10	compound:v	_	_
 12	dunia	dunia	NOUN	_	Number=Sing	10	obj	_	_
 13	tentang	tentang	ADP	_	_	14	case	_	_
 14	masalah	masalah	NOUN	_	Number=Sing	10	obl	_	_
@@ -7980,7 +7980,7 @@
 # text = Sebagai salah satu orang teratas Negan (Jeffrey Dean Morgan), dia mendapatkan kebebasan tertentu.
 # text_en = As one of Negan's (Jeffrey Dean Morgan) top guys, he's afforded certain freedoms.
 1	Sebagai	bagai	ADP	_	_	4	case	_	_
-2	salah	salah	ADJ	_	_	3	compound	_	_
+2	salah	salah	ADJ	_	_	3	compound:n	_	_
 3	satu	satu	NUM	_	NumType=Card	4	nummod	_	_
 4	orang	orang	NOUN	_	Number=Sing	14	obl	_	_
 5	teratas	atas	ADJ	_	Degree=Sup	4	amod	_	_
@@ -8002,7 +8002,7 @@
 # text_en = "Norman is one of my good buddies, so it totally sucked to see him in that emotional state."
 1	Norman	Norman	PROPN	_	_	5	nsubj	_	_
 2	adalah	adalah	AUX	_	_	5	cop	_	_
-3	salah	salah	ADJ	_	_	4	compound	_	_
+3	salah	salah	ADJ	_	_	4	compound:n	_	_
 4	satu	satu	NUM	_	NumType=Card	5	nummod	_	_
 5	teman	teman	NOUN	_	Number=Sing	0	root	_	_
 6	baik	baik	ADJ	_	_	5	amod	_	SpaceAfter=No
@@ -8202,7 +8202,7 @@
 3	terakhir	akhir	ADJ	_	Degree=Sup	2	amod	_	_
 4	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 5	ke	ke	ADP	_	_	7	case	_	_
-6	dalam	dalam	NOUN	_	Number=Sing	7	nmod	_	_
+6	dalam	dalam	NOUN	_	Number=Sing	7	nmod:npmod	_	_
 7	game	game	NOUN	_	Number=Sing	2	nmod	_	_
 8	obrolan	obrol	NOUN	_	Number=Sing	7	nmod	_	_
 9	tempat	tempat	NOUN	_	Number=Sing	8	nmod	_	_
@@ -8266,7 +8266,7 @@
 15	suatu	suatu	DET	_	Number=Sing|PronType=Ind	16	det	_	_
 16	prestasi	prestasi	NOUN	_	Number=Sing	4	parataxis	_	_
 17	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
-18	luar	luar	NOUN	_	Number=Sing	19	compound	_	_
+18	luar	luar	NOUN	_	Number=Sing	19	compound:a	_	_
 19	biasa	biasa	ADJ	_	_	16	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	4	punct	_	_
@@ -8448,7 +8448,7 @@
 2	González	González	PROPN	_	_	1	flat	_	_
 3	Anaya	Anaya	PROPN	_	_	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	salah	salah	ADJ	_	_	6	compound	_	_
+5	salah	salah	ADJ	_	_	6	compound:n	_	_
 6	seorang	orang	DET	_	Number=Sing|PronType=Ind	7	det	_	_
 7	direktur	direktur	NOUN	_	Number=Sing	1	appos	_	_
 8	kreatif	kreatif	ADJ	_	_	7	amod	_	_
@@ -8653,7 +8653,7 @@
 13	Pyongyang	Pyongyang	PROPN	_	_	17	nsubj	_	_
 14	Metro	Metro	PROPN	_	_	13	flat	_	_
 15	adalah	adalah	AUX	_	_	17	cop	_	_
-16	salah	salah	ADJ	_	_	17	compound	_	_
+16	salah	salah	ADJ	_	_	17	compound:n	_	_
 17	satu	satu	NUM	_	NumType=Card	18	nummod	_	_
 18	sistem	sistem	NOUN	_	Number=Sing	0	root	_	_
 19	komuter	komuter	NOUN	_	Number=Sing	18	nmod	_	_
@@ -8749,7 +8749,7 @@
 4	Carlos	Carlos	PROPN	_	_	3	flat	_	_
 5	Salas	Salas	PROPN	_	_	3	flat	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	gedung	gedung	NOUN	_	Number=Sing	14	dislocated	_	_
+7	gedung	gedung	NOUN	_	Number=Sing	11	dislocated	_	_
 8	pemenang	menang	NOUN	_	Number=Sing	7	nmod	_	_
 9	penghargaan	harga	NOUN	_	Number=Sing	8	nmod	_	_
 10	ini	ini	DET	_	PronType=Dem	7	det	_	_
@@ -8857,7 +8857,7 @@
 # text = Di luar ujung barat laut, taiga dominan, mencakup bagian besar dari seluruh Siberia.
 # text_en = Outside the extreme northwest, the taiga is dominant, covering a significant fraction of the entirety of Siberia.
 1	Di	di	ADP	_	_	3	case	_	_
-2	luar	luar	NOUN	_	Number=Sing	3	nmod	_	_
+2	luar	luar	NOUN	_	Number=Sing	3	nmod:npmod	_	_
 3	ujung	ujung	NOUN	_	Number=Sing	8	obl	_	_
 4	barat	barat	NOUN	_	Number=Sing	3	nmod	_	_
 5	laut	laut	NOUN	_	Number=Sing	4	compound	_	SpaceAfter=No
@@ -8988,7 +8988,7 @@
 7	Megabazuz	Megabazuz	PROPN	_	_	1	appos	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	bertanggung	tanggung	VERB	_	Voice=Act	0	root	_	_
-10	jawab	jawab	VERB	_	Voice=Act	9	compound	_	_
+10	jawab	jawab	VERB	_	Voice=Act	9	compound:v	_	_
 11	untuk	untuk	SCONJ	_	_	12	mark	_	_
 12	memenuhi	penuh	VERB	_	Voice=Act	9	advcl	_	_
 13	penaklukan	takluk	NOUN	_	Number=Sing	12	obj	_	_
@@ -9021,7 +9021,7 @@
 4	tahun	tahun	NOUN	_	Number=Sing	14	obl:tmod	_	_
 5	512	512	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	511	511	NUM	_	NumType=Card	5	flat:range	_	_
+7	511	511	NUM	_	NumType=Card	5	flat	_	_
 8	SM	sm	NOUN	_	Abbr=Yes	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	raja	raja	NOUN	_	Number=Sing	14	nsubj	_	_
@@ -9079,7 +9079,7 @@
 # text = Pada tahun 1912 didirikan perusahaan film pertama (Athina Film) dan pada tahun 1916 Asty Film.
 # text_en = In 1912 was founded the first film company (Athina Film) and in 1916 the Asty Film.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 3	1912	1912	NUM	_	NumType=Card	2	nummod	_	_
 4	didirikan	diri	VERB	_	Voice=Pass	0	root	_	_
 5	perusahaan	usaha	NOUN	_	Number=Sing	4	nsubj:pass	_	_
@@ -9101,7 +9101,7 @@
 # text = Pada tahun 2007, film yang paling sukses adalah El Greco, yang disutradarai oleh Yannis Smaragdis.
 # text_en = In 2007 the most successful film was El Greco, directed by Yannis Smaragdis.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	10	nmod	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	10	nmod:tmod	_	_
 3	2007	2007	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	film	film	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -9245,7 +9245,7 @@
 8	ramalan	ramal	NOUN	_	Number=Sing	6	obl	_	_
 9	cuaca	cuaca	NOUN	_	Number=Sing	8	nmod	_	_
 10	selama	lama	ADP	_	_	11	case	_	_
-11	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+11	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 12	1950-an	1950	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	ahli	ahli	NOUN	_	Number=Sing	16	nsubj	_	_
@@ -9259,7 +9259,7 @@
 22	ide	ide	NOUN	_	Number=Sing	20	obl	_	_
 23	ini	ini	DET	_	PronType=Dem	22	det	_	_
 24	pada	pada	ADP	_	_	25	case	_	_
-25	tahun	tahun	NOUN	_	Number=Sing	17	obl	_	_
+25	tahun	tahun	NOUN	_	Number=Sing	17	obl:tmod	_	_
 26	1973	1973	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -9315,22 +9315,22 @@
 # text = Di akhir abad ke-8, Kota Moravia terbentuk di tenggara Moravia sekarang ini, Záhorie di barat daya Slowakia dan bagian-bagian dari Lower Austria.
 # text_en = At the end of the 8th century, the Moravian Principality came into being in present-day south-eastern Moravia, Záhorie in south-western Slovakia and parts of Lower Austria.
 1	Di	di	ADP	_	_	3	case	_	_
-2	akhir	akhir	NOUN	_	Number=Sing	3	nmod	_	_
-3	abad	abad	NOUN	_	Number=Sing	8	obl	_	_
+2	akhir	akhir	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+3	abad	abad	NOUN	_	Number=Sing	8	obl:tmod	_	_
 4	ke-8	8	ADJ	_	NumType=Ord	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	Kota	Kota	PROPN	_	_	8	nsubj:pass	_	_
 7	Moravia	Moravia	PROPN	_	_	6	flat	_	_
 8	terbentuk	bentuk	VERB	_	Voice=Pass	0	root	_	_
 9	di	di	ADP	_	_	11	case	_	_
-10	tenggara	tenggara	NOUN	_	Number=Sing	11	nmod	_	_
+10	tenggara	tenggara	NOUN	_	Number=Sing	11	nmod:npmod	_	_
 11	Moravia	Moravia	PROPN	_	_	8	obl	_	_
 12	sekarang	sekarang	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 13	ini	ini	DET	_	PronType=Dem	12	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	Záhorie	Záhorie	PROPN	_	_	10	conj	_	_
 16	di	di	ADP	_	_	19	case	_	_
-17	barat	barat	NOUN	_	Number=Sing	19	nmod	_	_
+17	barat	barat	NOUN	_	Number=Sing	19	nmod:npmod	_	_
 18	daya	daya	NOUN	_	Number=Sing	17	compound	_	_
 19	Slowakia	Slowakia	PROPN	_	_	15	nmod	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
@@ -9344,7 +9344,7 @@
 # text = Pada tahun 833 M, ini menjadi negara bagian Great Moravia dengan penaklukan Kota Nitra (Slowakia masa kini).
 # text_en = In 833 AD, this became the state of Great Moravia with the conquest of the Principality of Nitra (present-day Slovakia).
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	833	833	NUM	_	NumType=Card	2	nummod	_	_
 4	M	M	PROPN	_	Abbr=Yes	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -9379,7 +9379,7 @@
 8	berkuasa	kuasa	VERB	_	Voice=Act	5	parataxis	_	_
 9	830	830	NUM	_	NumType=Card	8	obl:tmod	_	_
 10	–	–	PUNCT	_	_	11	punct	_	_
-11	846	846	NUM	_	NumType=Card	9	flat:range	_	SpaceAfter=No
+11	846	846	NUM	_	NumType=Card	9	flat	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9544,23 +9544,23 @@
 5	kacau	kacau	ADJ	_	_	3	acl:relcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	14	punct	_	_
 7	sehingga	sehingga	SCONJ	_	_	14	mark	_	_
-8	perubahan	ubah	NOUN	_	Number=Sing	14	dislocated	_	_
+8	perubahan	ubah	NOUN	_	Number=Sing	14	nsubj	_	_
 9	kecil	kecil	ADJ	_	_	8	amod	_	_
 10	pada	pada	ADP	_	_	12	case	_	_
 11	satu	satu	NUM	_	NumType=Card	12	nummod	_	_
 12	bagian	bagi	NOUN	_	Number=Sing	8	nmod	_	_
 13	bisa	bisa	AUX	_	_	14	aux	_	_
 14	berkembang	kembang	VERB	_	Voice=Act	3	acl	_	_
-15	menjadi	jadi	VERB	_	Voice=Act	16	xcomp	_	_
-16	besar	besar	ADJ	_	_	14	xcomp	_	_
+15	menjadi	jadi	VERB	_	Voice=Act	14	xcomp	_	_
+16	besar	besar	ADJ	_	_	15	xcomp	_	_
 17-18	efeknya	_	_	_	_	_	_	_	_
-17	efek	efek	NOUN	_	Number=Sing	14	nsubj	_	_
+17	efek	efek	NOUN	_	Number=Sing	14	dislocated	_	_
 18	nya	nya	DET	_	_	17	det	_	_
 19	pada	pada	ADP	_	_	20	case	_	_
-20	sistem	sistem	NOUN	_	Number=Sing	17	nmod	_	_
+20	sistem	sistem	NOUN	_	Number=Sing	14	nmod	_	_
 21	itu	itu	DET	_	PronType=Dem	20	det	_	_
 22	secara	cara	ADP	_	_	23	case:adv	_	_
-23	keseluruhan	seluruh	NOUN	_	Number=Sing	16	obl	_	SpaceAfter=No
+23	keseluruhan	seluruh	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01016034
@@ -9576,7 +9576,7 @@
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	melarutkan	larut	VERB	_	Voice=Act	7	conj	_	_
 10	karbon	karbon	NOUN	_	Number=Sing	7	obj	_	_
-11	dioksida	dioksida	NOUN	_	Number=Sing	10	compound	_	_
+11	dioksida	dioksida	NOUN	_	Number=Sing	10	nmod	_	_
 12	dari	dari	ADP	_	_	13	case	_	_
 13	udara	udara	NOUN	_	Number=Sing	7	obl	_	_
 14	sekitar	kitar	NOUN	_	Number=Sing	13	nmod	_	SpaceAfter=No
@@ -9731,8 +9731,8 @@
 11	melaporkan	lapor	VERB	_	Voice=Act	0	root	_	_
 12	bahwa	bahwa	SCONJ	_	_	22	mark	_	_
 13	56	56	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-14	%	%	SYM	_	_	15	nmod	_	_
-15	anak-anak	anak	NOUN	_	Number=Plur	22	nsubj	_	_
+14	%	%	SYM	_	_	22	nsubj	_	_
+15	anak-anak	anak	NOUN	_	Number=Plur	14	nmod	_	_
 16	berusia	usia	VERB	_	Voice=Act	15	acl	_	_
 17	5	5	NUM	_	NumType=Card	20	nummod	_	_
 18	hingga	hingga	ADP	_	_	19	case	_	_
@@ -9745,8 +9745,8 @@
 25	bahwa	bahwa	SCONJ	_	_	35	mark	_	_
 26	hampir	hampir	ADV	_	_	27	advmod	_	_
 27	53	53	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
-28	%	%	SYM	_	_	29	nmod	_	_
-29	anak	anak	NOUN	_	Number=Sing	35	nsubj	_	_
+28	%	%	SYM	_	_	35	nsubj	_	_
+29	anak	anak	NOUN	_	Number=Sing	28	nmod	_	_
 30	berusia	usia	VERB	_	Voice=Act	29	acl	_	_
 31	7	7	NUM	_	NumType=Card	34	nummod	_	_
 32	hingga	hingga	ADP	_	_	33	case	_	_
@@ -9802,7 +9802,7 @@
 3	kuno	kuno	ADJ	_	_	2	amod	_	_
 4	terletak	letak	VERB	_	Voice=Pass	0	root	_	_
 5	di	di	ADP	_	_	7	case	_	_
-6	sekitar	kitar	NOUN	_	Number=Sing	7	nmod	_	_
+6	sekitar	kitar	NOUN	_	Number=Sing	7	nmod:npmod	_	_
 7	pesisir	sisir	NOUN	_	Number=Sing	4	obl	_	_
 8	dan	dan	CCONJ	_	_	10	cc	_	_
 9	sangat	sangat	ADV	_	_	10	advmod	_	_
@@ -9848,7 +9848,7 @@
 25	untuk	untuk	ADP	_	_	27	case	_	_
 26	banyak	banyak	DET	_	Number=Plur|PronType=Ind	27	det	_	_
 27	masyarakat	masyarakat	NOUN	_	Number=Sing	3	obl	_	_
-28	sepanjang	panjang	NOUN	_	Number=Sing	29	nmod	_	_
+28	sepanjang	panjang	NOUN	_	Number=Sing	29	nmod:npmod	_	_
 29	masa	masa	NOUN	_	Number=Sing	3	obl:tmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9893,9 +9893,9 @@
 6	paling	paling	ADV	_	_	7	advmod	_	_
 7	terkemuka	terkemuka	ADJ	_	_	3	acl:relcl	_	_
 8	di	di	ADP	_	_	9	case	_	_
-9	zaman	zaman	NOUN	_	Number=Sing	7	obl	_	_
+9	zaman	zaman	NOUN	_	Number=Sing	7	obl:tmod	_	_
 10	dahulu	dahulu	NOUN	_	Number=Sing	9	nmod	_	_
-11	kala	kala	NOUN	_	Number=Sing	10	compound	_	_
+11	kala	kala	NOUN	_	Number=Sing	10	nmod	_	_
 12	adalah	adalah	AUX	_	_	13	cop	_	_
 13	negara	negara	NOUN	_	Number=Sing	0	root	_	_
 14	kota	kota	NOUN	_	Number=Sing	13	nmod	_	_
@@ -9995,7 +9995,7 @@
 5	air	air	NOUN	_	Number=Sing	4	nmod	_	_
 6	tawar	tawar	NOUN	_	Number=Sing	5	nmod	_	_
 7	sering	sering	ADV	_	_	9	advmod	_	_
-8	kali	kali	NOUN	_	Number=Sing	7	compound	_	_
+8	kali	kali	NOUN	_	Number=Sing	7	fixed	_	_
 9	dalam	dalam	ADJ	_	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -10037,11 +10037,11 @@
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	pertarungan	tarung	NOUN	_	Number=Sing	9	nsubj	_	_
 7	sering	sering	ADV	_	_	9	advmod	_	_
-8	kali	kali	NOUN	_	Number=Sing	7	compound	_	_
+8	kali	kali	NOUN	_	Number=Sing	7	fixed	_	_
 9	berakhir	akhir	VERB	_	Voice=Act	0	root	_	_
 10	dengan	dengan	ADP	_	_	11	case	_	_
 11	kematian	mati	NOUN	_	Number=Sing	9	obl	_	_
-12	salah	salah	ADJ	_	_	13	compound	_	_
+12	salah	salah	ADJ	_	_	13	compound:n	_	_
 13	satu	satu	NUM	_	NumType=Card	14	nummod	_	_
 14	kuda	kuda	NOUN	_	Number=Sing	11	nmod	_	_
 15	jantan	jantan	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
@@ -10197,7 +10197,7 @@
 12	juta	juta	NUM	_	NumType=Card	11	flat	_	_
 13	ton	ton	NOUN	_	Number=Sing	9	obl	_	_
 14	pada	pada	ADP	_	_	15	case	_	_
-15	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+15	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 16	1987	1987	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -10409,7 +10409,7 @@
 1	Gereja-gereja	gereja	NOUN	_	Number=Plur	10	nsubj	_	_
 2	Kristen	Kristen	PROPN	_	_	1	nmod	_	_
 3	di	di	ADP	_	_	6	case	_	_
-4	barat	barat	NOUN	_	Number=Sing	6	nmod	_	_
+4	barat	barat	NOUN	_	Number=Sing	6	nmod:npmod	_	_
 5	laut	laut	NOUN	_	Number=Sing	4	compound	_	_
 6	Eropa	Eropa	PROPN	_	_	1	nmod	_	_
 7	dan	dan	CCONJ	_	_	8	cc	_	_
@@ -10469,8 +10469,8 @@
 16	menyediakan	sedia	VERB	_	Voice=Act	0	root	_	_
 17	hingga	hingga	ADP	_	_	19	case	_	_
 18	90	90	NUM	_	NumType=Card	19	nummod	_	_
-19	persen	persen	NOUN	_	Number=Sing	20	nmod	_	_
-20	air	air	NOUN	_	Number=Sing	16	obj	_	_
+19	persen	persen	NOUN	_	Number=Sing	16	obj	_	_
+20	air	air	NOUN	_	Number=Sing	19	nmod	_	_
 21	ke	ke	ADP	_	_	22	case	_	_
 22	dataran	datar	NOUN	_	Number=Sing	16	obl	_	_
 23	rendah	rendah	ADJ	_	_	22	amod	_	_
@@ -10495,8 +10495,8 @@
 4	bergantung	gantung	VERB	_	Voice=Act	0	root	_	_
 5	pada	pada	ADP	_	_	8	case	_	_
 6	80	80	NUM	_	NumType=Card	7	nummod	_	_
-7	persen	persen	NOUN	_	Number=Sing	8	nmod	_	_
-8	air	air	NOUN	_	Number=Sing	4	obl	_	_
+7	persen	persen	NOUN	_	Number=Sing	4	obl	_	_
+8	air	air	NOUN	_	Number=Sing	7	nmod	_	_
 9	dari	dari	ADP	_	_	10	case	_	_
 10	aliran	alir	NOUN	_	Number=Sing	8	nmod	_	_
 11	Alpen	Alpen	PROPN	_	_	10	nmod	_	SpaceAfter=No
@@ -10665,7 +10665,7 @@
 3	cagar	cagar	NOUN	_	Number=Sing	1	obl	_	_
 4	alam	alam	NOUN	_	Number=Sing	3	nmod	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	tahun	tahun	NOUN	_	Number=Sing	1	obl	_	_
+6	tahun	tahun	NOUN	_	Number=Sing	1	obl:tmod	_	_
 7	1975	1975	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10690,7 +10690,7 @@
 4	mungkin	mungkin	AUX	_	_	5	aux	_	_
 5	dimulai	mulai	VERB	_	Voice=Pass	0	root	_	_
 6	sekitar	kitar	ADV	_	_	7	advmod	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 8	1000	1000	NUM	_	NumType=Card	7	nummod	_	_
 9	SM	sm	NOUN	_	Abbr=Yes	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
@@ -10707,7 +10707,7 @@
 # text = Selama tahun-tahun keluarga ini berada di Kentucky dan Indiana, Thomas Lincoln bekerja sebagai petani, pembuat lemari, dan tukang kayu.
 # text_en = During the family's years in Kentucky and Indiana, Thomas Lincoln worked as a farmer, cabinetmaker, and carpenter.
 1	Selama	lama	ADP	_	_	2	case	_	_
-2	tahun-tahun	tahun	NOUN	_	Number=Plur	13	obl	_	_
+2	tahun-tahun	tahun	NOUN	_	Number=Plur	13	obl:tmod	_	_
 3	keluarga	keluarga	NOUN	_	Number=Sing	5	nsubj	_	_
 4	ini	ini	DET	_	PronType=Dem	3	det	_	_
 5	berada	ada	VERB	_	Voice=Act	2	acl	_	_
@@ -10802,7 +10802,7 @@
 7	lanskap	lanskap	NOUN	_	Number=Sing	6	nmod	_	_
 8	di	di	ADP	_	_	10	case	_	_
 9-10	sekitarnya	_	_	_	_	_	_	_	SpaceAfter=No
-9	sekitar	kitar	NOUN	_	Number=Sing	10	nmod	_	_
+9	sekitar	kitar	NOUN	_	Number=Sing	10	nmod:npmod	_	_
 10	nya	nya	PRON	_	Number=Sing	7	nmod	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -10811,7 +10811,7 @@
 # text_en = Over the past 50 years, the destruction of habitat surrounding agricultural land has degraded approximately 40% of agricultural land worldwide via erosion, salinization, compaction, nutrient depletion, pollution, and urbanization.
 1	Selama	lama	ADP	_	_	3	case	_	_
 2	50	50	NUM	_	NumType=Card	3	nummod	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	11	obl	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	11	obl:tmod	_	_
 4	terakhir	akhir	ADJ	_	Degree=Sup	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	kehancuran	hancur	NOUN	_	Number=Sing	11	nsubj	_	_
@@ -10866,7 +10866,7 @@
 1	Papua	Papua	PROPN	_	_	5	nsubj:pass	_	_
 2	Nugini	Nugini	PROPN	_	_	1	flat	_	_
 3	sering	sering	ADV	_	_	5	advmod	_	_
-4	kali	kali	NOUN	_	Number=Sing	3	compound	_	_
+4	kali	kali	NOUN	_	Number=Sing	3	fixed	_	_
 5	dijuluki	juluk	VERB	_	Voice=Pass	0	root	_	_
 6	sebagai	bagai	ADP	_	_	7	case	_	_
 7	tempat	tempat	NOUN	_	Number=Sing	5	obl	_	_
@@ -10923,7 +10923,7 @@
 8	Hindia	Hindia	PROPN	_	_	3	obl	_	_
 9	Barat	Barat	PROPN	_	_	8	flat	_	_
 10	pada	pada	ADP	_	_	11	case	_	_
-11	tahun	tahun	NOUN	_	Number=Sing	3	obl	_	_
+11	tahun	tahun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 12	1492	1492	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	menyulut	sulut	VERB	_	Voice=Act	3	conj	_	_
@@ -10947,7 +10947,7 @@
 6	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7	yang	yang	PRON	_	_	11	nsubj	_	_
 8	sering	sering	ADV	_	_	11	advmod	_	_
-9	kali	kali	NOUN	_	Number=Sing	8	compound	_	_
+9	kali	kali	NOUN	_	Number=Sing	8	fixed	_	_
 10	di	di	ADP	_	_	11	case	_	_
 11	pedalaman	dalam	NOUN	_	Number=Sing	5	acl:relcl	_	_
 12	tanpa	tanpa	ADP	_	_	13	case	_	_
@@ -11017,7 +11017,7 @@
 5	Alaska	Alaska	PROPN	_	_	4	obj	_	_
 6	selama	lama	ADP	_	_	8	case	_	_
 7	ribuan	ribu	NUM	_	NumType=Card	8	nummod	_	_
-8	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+8	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 9	sebelum	belum	SCONJ	_	_	10	mark	_	_
 10-11	datangnya	_	_	_	_	_	_	_	_
 10	datang	datang	VERB	_	Voice=Act	4	advcl	_	_
@@ -11264,8 +11264,8 @@
 8	melaporkan	lapor	VERB	_	Voice=Act	3	advcl	_	_
 9	hanya	hanya	ADV	_	_	10	advmod	_	_
 10	tujuh	tujuh	NUM	_	NumType=Card	11	nummod	_	_
-11	hari	hari	NOUN	_	Number=Sing	12	nmod	_	_
-12	hujan	hujan	NOUN	_	Number=Sing	8	obj	_	_
+11	hari	hari	NOUN	_	Number=Sing	8	obl	_	_
+12	hujan	hujan	NOUN	_	Number=Sing	8	obl	_	_
 13	badai	badai	NOUN	_	Number=Sing	12	nmod	_	_
 14	per	per	ADP	_	_	15	case	_	_
 15	tahun	tahun	NOUN	_	Number=Sing	12	nmod	_	SpaceAfter=No
@@ -11275,7 +11275,7 @@
 # text = Pada tahun 1340, Kairo memiliki populasi mendekati setengah juta, menjadikannya kota terbesar di barat Tiongkok.
 # text_en = By 1340, Cairo had a population of close to half a million, making it the largest city west of China.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1340	1340	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Kairo	Kairo	PROPN	_	_	6	nsubj	_	_
@@ -11356,7 +11356,7 @@
 7	kaum	kaum	NOUN	_	Number=Sing	5	obl	_	_
 8	Carib	Carib	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	salah	salah	ADJ	_	_	11	compound	_	_
+10	salah	salah	ADJ	_	_	11	compound:n	_	_
 11	satu	satu	NUM	_	NumType=Card	12	nummod	_	_
 12	kelompok	kelompok	NOUN	_	Number=Sing	7	appos	_	_
 13	dominan	dominan	ADJ	_	_	12	amod	_	_
@@ -11373,7 +11373,7 @@
 24	orang	orang	NOUN	_	Number=Sing	22	obl	_	_
 25	Eropa	Eropa	PROPN	_	_	24	nmod	_	_
 26	selama	lama	ADP	_	_	28	case	_	_
-27	akhir	akhir	NOUN	_	Number=Sing	28	nmod	_	_
+27	akhir	akhir	NOUN	_	Number=Sing	28	nmod:npmod	_	_
 28	abad	abad	NOUN	_	Number=Sing	22	obl	_	_
 29	ke-15	15	ADJ	_	NumType=Ord	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
@@ -11388,7 +11388,7 @@
 5	Christopher	Christopher	PROPN	_	_	2	nmod	_	_
 6	Columbus	Columbus	PROPN	_	_	5	flat	_	_
 7	pada	pada	ADP	_	_	8	case	_	_
-8	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+8	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 9	1492	1492	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	istilah	istilah	NOUN	_	Number=Sing	15	nsubj:pass	_	_
@@ -11421,7 +11421,7 @@
 38	”	”	PUNCT	_	_	36	punct	_	_
 39	di	di	ADP	_	_	41	case	_	_
 40	berbagai	bagai	DET	_	Number=Plur|PronType=Ind	41	det	_	_
-41	bahasa	bahasa	NOUN	_	Number=Sing	30	nmod	_	_
+41	bahasa	bahasa	NOUN	_	Number=Sing	29	obl	_	_
 42	Eropa	Eropa	PROPN	_	_	41	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -11506,7 +11506,7 @@
 6	penduduk	duduk	NOUN	_	Number=Sing	4	obl	_	_
 7	Eurasia	Eurasia	PROPN	_	_	6	nmod	_	_
 8	hingga	hingga	ADP	_	_	9	case	_	_
-9	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+9	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 10	1492	1492	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	_
 12	saat	saat	ADV	_	PronType=Rel	17	advmod	_	_
@@ -11624,8 +11624,8 @@
 # text = Pada pertengahan tahun 1962, Brooks dan Carson telah menyelesaikan sebagian besar penyuntingan, dan meletakkan dasar untuk mempromosikan buku tersebut dengan mengirimkan manuskripnya ke beberapa orang terpilih untuk mendapatkan saran akhir.
 # text_en = By mid-1962, Brooks and Carson had largely finished the editing, and were laying the groundwork for promoting the book by sending the manuscript out to select individuals for final suggestions.
 1	Pada	pada	ADP	_	_	3	case	_	_
-2	pertengahan	tengah	NOUN	_	Number=Sing	3	nmod	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	10	obl	_	_
+2	pertengahan	tengah	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	10	obl:tmod	_	_
 4	1962	1962	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	Brooks	Brooks	PROPN	_	_	10	nsubj	_	_
@@ -11687,7 +11687,7 @@
 # text = Pada tahun 1350-an, Raja Gongmin akhirnya bebas untuk mereformasi pemerintahan Goryeo saat dinasti Yuan mulai runtuh.
 # text_en = In the 1350s, King Gongmin was free at last to reform the Goryeo government when the Yuan dynasty began to crumble.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	1350-an	1350	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Raja	Raja	PROPN	_	_	8	nsubj	_	_
@@ -11709,7 +11709,7 @@
 # text = Sejak tahun 1960-an, perekonomian Korea Selatan telah berkembang pesat dan struktur perekonomian ditransformasi secara radikal.
 # text_en = Since the 1960s, the South Korean economy has grown enormously and the economic structure was radically transformed.
 1	Sejak	sejak	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	9	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	9	obl:tmod	_	_
 3	1960-an	1960	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	perekonomian	ekonomi	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -11760,7 +11760,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	didirikan	diri	VERB	_	Voice=Pass	1	acl	_	_
 7	pada	pada	ADP	_	_	8	case	_	_
-8	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+8	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 9	1879	1879	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	adalah	adalah	AUX	_	_	12	cop	_	_
@@ -11809,7 +11809,7 @@
 3	Dinasti	Dinasti	PROPN	_	_	2	nmod	_	_
 4	Qing	Qing	PROPN	_	_	3	flat	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+6	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 7	1911	1911	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	Mongolia	Mongolia	PROPN	_	_	14	nsubj	_	_
@@ -11886,7 +11886,7 @@
 20	Dinasti	Dinasti	PROPN	_	_	19	nmod	_	_
 21	Qing	Qing	PROPN	_	_	20	flat	_	_
 22	pada	pada	ADP	_	_	23	case	_	_
-23	tahun	tahun	NOUN	_	Number=Sing	19	nmod	_	_
+23	tahun	tahun	NOUN	_	Number=Sing	19	nmod:tmod	_	_
 24	1911	1911	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	31	punct	_	_
 26	kontrak	kontrak	NOUN	_	Number=Sing	31	nsubj	_	_
@@ -11951,7 +11951,7 @@
 10	Henry	Henry	PROPN	_	_	9	flat	_	_
 11	Breasted	Breasted	PROPN	_	_	9	flat	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	tahun	tahun	NOUN	_	Number=Sing	1	nmod	_	_
+13	tahun	tahun	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 14	1903	1903	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	memuji	puji	VERB	_	Voice=Act	0	root	_	_
@@ -12026,7 +12026,7 @@
 34	,	,	PUNCT	_	_	37	punct	_	_
 35	hampir	hampir	ADV	_	_	36	advmod	_	_
 36	120	120	NUM	_	NumType=Card	37	nummod	_	_
-37	tahun	tahun	NOUN	_	Number=Sing	31	nmod	_	_
+37	tahun	tahun	NOUN	_	Number=Sing	31	nmod:tmod	_	_
 38	sebelumnya	belum	ADJ	_	_	37	amod	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -12108,17 +12108,17 @@
 7	waktu	waktu	NOUN	_	Number=Sing	6	obj	_	_
 8	delapan	delapan	NUM	_	NumType=Card	10	nummod	_	_
 9	belas	belas	NUM	_	NumType=Card	8	flat	_	_
-10	bulan	bulan	NOUN	_	Number=Sing	7	nmod	_	_
+10	bulan	bulan	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	Korintus	Korintus	PROPN	_	_	6	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	sekitar	kitar	ADV	_	_	15	advmod	_	_
 15	tujuh	tujuh	NUM	_	NumType=Card	17	nummod	_	_
 16	belas	belas	NUM	_	NumType=Card	15	flat	_	_
-17	tahun	tahun	NOUN	_	Number=Sing	19	nmod	_	_
+17	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 18	setelah	telah	ADP	_	_	19	case	_	_
 19-20	pertobatannya	_	_	_	_	_	_	_	SpaceAfter=No
-19	pertobatan	tobat	NOUN	_	Number=Sing	6	obl	_	_
+19	pertobatan	tobat	NOUN	_	Number=Sing	17	nmod	_	_
 20	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
 21	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -12132,7 +12132,7 @@
 5	jatuh	jatuh	VERB	_	Voice=Act	0	root	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
 7	hari	hari	NOUN	_	Number=Sing	5	obl	_	_
-8	Jumat	Jumat	PROPN	_	_	7	nmod	_	_
+8	Jumat	Jumat	PROPN	_	_	7	nmod:tmod	_	_
 9	jika	jika	SCONJ	_	_	16	mark	_	_
 10	bulan	bulan	NOUN	_	Number=Sing	16	nsubj:pass	_	_
 11	kabisat	kabisat	NOUN	_	Number=Sing	10	nmod	_	_
@@ -12164,7 +12164,7 @@
 8	tertentu	tentu	ADJ	_	_	7	amod	_	_
 9	dua	dua	NUM	_	NumType=Card	11	nummod	_	_
 10	ribu	ribu	NUM	_	NumType=Card	9	flat	_	_
-11	tahun	tahun	NOUN	_	Number=Sing	4	nmod	_	_
+11	tahun	tahun	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	lalu	lalu	VERB	_	Voice=Act	11	acl:relcl	_	_
 14	tapi	tapi	CCONJ	_	_	19	cc	_	_
@@ -12309,7 +12309,7 @@
 8	dalam	dalam	ADP	_	_	9	case	_	_
 9	pertempuran	tempur	NOUN	_	Number=Sing	7	obl	_	_
 10	pada	pada	ADP	_	_	11	case	_	_
-11	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+11	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 12	363	363	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -12322,7 +12322,7 @@
 4	diyakini	yakin	VERB	_	Voice=Pass	0	root	_	_
 5	diadakan	ada	VERB	_	Voice=Pass	4	xcomp	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 8	393	393	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -12355,7 +12355,7 @@
 # text = Pada tahun 1072, Shen dikirim untuk mengawasi program Wang untuk menyurvei endapan lumpur gedung itu di Kanal Bian di luar ibu kota.
 # text_en = In 1072, Shen was sent to supervise Wang's program of surveying the building of silt deposits in the Bian Canal outside the capital city.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1072	1072	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Shen	Shen	PROPN	_	_	6	nsubj:pass	_	_
@@ -12610,12 +12610,12 @@
 21	berorientasi	orientasi	VERB	_	Voice=Act	9	acl:relcl	_	_
 22	utara	utara	NOUN	_	Number=Sing	21	obl	_	SpaceAfter=No
 23	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	selatan	selatan	NOUN	_	Number=Sing	22	flat:range	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	_
-26	batu	batu	NOUN	_	Number=Sing	28	nsubj	_	_
+24	selatan	selatan	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	21	punct	_	_
+26	batu	batu	NOUN	_	Number=Sing	16	obl	_	_
 27	tertinggi	tinggi	ADJ	_	Degree=Sup	26	amod	_	_
 28-29	tingginya	_	_	_	_	_	_	_	_
-28	tinggi	tinggi	NOUN	_	Number=Sing	9	nmod	_	_
+28	tinggi	tinggi	NOUN	_	Number=Sing	26	nmod	_	_
 29	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
 30	3	3	NUM	_	NumType=Card	31	nummod	_	_
 31	meter	meter	NOUN	_	Number=Sing	28	nmod	_	SpaceAfter=No
@@ -12662,7 +12662,7 @@
 23	Pertengahan	Pertengahan	PROPN	_	_	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	kira-kira	kira	ADV	_	_	26	advmod	_	_
-26	tahun	tahun	NOUN	_	Number=Sing	21	nmod	_	_
+26	tahun	tahun	NOUN	_	Number=Sing	21	nmod:tmod	_	_
 27	1600	1600	NUM	_	NumType=Card	26	nummod	_	_
 28	SM	SM	NOUN	_	Abbr=Yes	27	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	7	punct	_	_
@@ -12718,7 +12718,7 @@
 3	Amarna	Amarna	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	dari	dari	ADP	_	_	6	case	_	_
-6	abad	abad	NOUN	_	Number=Sing	1	nmod	_	_
+6	abad	abad	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 7	ke-14	14	ADJ	_	NumType=Ord	6	amod	_	_
 8	SM	SM	NOUN	_	Abbr=Yes	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
@@ -12815,7 +12815,7 @@
 22	untuk	untuk	ADP	_	_	24	case	_	_
 23	setiap	tiap	DET	_	PronType=Tot	24	det	_	_
 24	hari	hari	NOUN	_	Number=Sing	18	nmod	_	_
-25	dalam	dalam	ADP	_	_	24	case	_	_
+25	dalam	dalam	ADP	_	_	26	case	_	_
 26	seminggu	minggu	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -12883,7 +12883,7 @@
 4	selama	lama	ADP	_	_	7	case	_	_
 5	lima	lima	NUM	_	NumType=Card	7	nummod	_	_
 6	belas	belas	NUM	_	NumType=Card	5	flat	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
+7	tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj:pass	_	_
 10	ditandai	tanda	VERB	_	Voice=Pass	2	advcl	_	_
@@ -12963,7 +12963,7 @@
 # text = Pada tahun 1519, ia menjadi penguasa kekaisaran Habsburg, dan ia mendapatkan gelar Kaisar Suci Romawi pada tahun 1530.
 # text_en = In 1519, he became ruler of the Habsburg empire, and he gained the title Holy Roman Emperor in 1530.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1519	1519	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -12980,7 +12980,7 @@
 16	Suci	suci	ADJ	_	_	15	amod	_	_
 17	Romawi	Romawi	PROPN	_	_	15	nmod	_	_
 18	pada	pada	ADP	_	_	19	case	_	_
-19	tahun	tahun	NOUN	_	Number=Sing	13	obl	_	_
+19	tahun	tahun	NOUN	_	Number=Sing	13	obl:tmod	_	_
 20	1530	1530	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -13011,7 +13011,7 @@
 # text = Pada tahun 1566, sebuah liga yang terdiri dari 400 anggota bangsawan menyampaikan sebuah petisi kepada gubernur Margaret dari Parma, untuk menangguhkan hukuman hingga yang lainnya sudah kembali.
 # text_en = In 1566, a league of about 400 members of the nobility presented a petition to the governor Margaret of Parma, to suspend persecution until the rest had returned.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	13	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	13	obl:tmod	_	_
 3	1566	1566	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	sebuah	buah	DET	_	Number=Sing|PronType=Ind	6	det	_	_
@@ -13081,7 +13081,7 @@
 6	di	di	ADP	_	_	7	case	_	_
 7	sana	sana	PRON	_	PronType=Dem	5	obl	_	_
 8	sekitar	kitar	ADV	_	_	9	advmod	_	_
-9	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+9	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 10	1900	1900	NUM	_	NumType=Card	9	nummod	_	_
 11	SM	SM	NOUN	_	Abbr=Yes	10	nmod	_	_
 12	dan	dan	CCONJ	_	_	14	cc	_	_
@@ -13094,7 +13094,7 @@
 19	sana	sana	PRON	_	PronType=Dem	17	obl	_	_
 20	hingga	hingga	ADP	_	_	22	case	_	_
 21	sekitar	kitar	ADV	_	_	22	advmod	_	_
-22	tahun	tahun	NOUN	_	Number=Sing	14	obl	_	_
+22	tahun	tahun	NOUN	_	Number=Sing	14	obl:tmod	_	_
 23	700	700	NUM	_	NumType=Card	22	nummod	_	_
 24	SM	SM	NOUN	_	Abbr=Yes	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
@@ -13314,7 +13314,7 @@
 # text_en = During his time there, Kipling also met and fell in love with Florence Garrard who was boarding with Trix at Southsea (to which Trix had returned).
 1	Selama	lama	ADP	_	_	2	case	_	_
 2-3	waktunya	_	_	_	_	_	_	_	_
-2	waktu	waktu	NOUN	_	Number=Sing	9	obl	_	_
+2	waktu	waktu	NOUN	_	Number=Sing	9	obl:tmod	_	_
 3	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	di	di	ADP	_	_	5	case	_	_
 5	sana	sana	PRON	_	PronType=Dem	2	nmod	_	SpaceAfter=No
@@ -13417,7 +13417,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	diterbitkan	terbit	VERB	_	Voice=Pass	1	acl	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 8	1610	1610	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	meski	meski	SCONJ	_	_	11	mark	_	_
@@ -13637,7 +13637,7 @@
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj:pass	_	_
 4	dimulai	mulai	VERB	_	Voice=Pass	1	acl:relcl	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+6	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 7	1916	1916	NUM	_	NumType=Card	6	nummod	_	_
 8	membuat	buat	VERB	_	Voice=Act	0	root	_	_
 9	keadaan	ada	NOUN	_	Number=Sing	8	obj	_	_
@@ -13657,7 +13657,7 @@
 23	mendominasi	dominasi	VERB	_	Voice=Act	22	xcomp	_	_
 24	selama	lama	ADP	_	_	26	case	_	_
 25	dua	dua	NUM	_	NumType=Card	26	nummod	_	_
-26	tahun	tahun	NOUN	_	Number=Sing	22	obl	_	_
+26	tahun	tahun	NOUN	_	Number=Sing	22	obl:tmod	_	_
 27	pertama	pertama	ADJ	_	NumType=Ord	26	amod	_	_
 28	perang	perang	NOUN	_	Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
@@ -13707,7 +13707,7 @@
 # text = Pada tahun 1538 Penyelidikan Spanyol mengingatkan anggotanya untuk tidak mempercayai semua yang dikatakan oleh Malleus.
 # text_en = In 1538 the Spanish Inquisition cautioned its members not to believe everything the Malleus said.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1538	1538	NUM	_	NumType=Card	2	nummod	_	_
 4	Penyelidikan	selidik	NOUN	_	Number=Sing	6	nsubj	_	_
 5	Spanyol	Spanyol	PROPN	_	_	4	nmod	_	_
@@ -13762,7 +13762,7 @@
 4	populasi	populasi	NOUN	_	Number=Sing	3	obj	_	_
 5	Sephardic	Sephardic	PROPN	_	_	4	nmod	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	3	obl	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 8	1492	1492	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	;	;	PUNCT	_	_	10	punct	_	_
 10	banyak	banyak	ADJ	_	_	3	parataxis	_	_
@@ -13779,7 +13779,7 @@
 21	namun	namun	CCONJ	_	_	29	cc	_	_
 22	pada	pada	ADP	_	_	24	case	_	_
 23-24	akhirnya	_	_	_	_	_	_	_	_
-23	akhir	akhir	NOUN	_	Number=Sing	24	nmod	_	_
+23	akhir	akhir	NOUN	_	Number=Sing	24	nmod:npmod	_	_
 24	nya	nya	PRON	_	Number=Sing	29	obl	_	_
 25	di	di	ADP	_	_	26	case	_	_
 26	sana	sana	PRON	_	PronType=Dem	29	obl	_	_
@@ -13834,7 +13834,7 @@
 7	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 8	dan	dan	CCONJ	_	_	14	cc	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
-10	tahun	tahun	NOUN	_	Number=Sing	14	obl	_	_
+10	tahun	tahun	NOUN	_	Number=Sing	14	obl:tmod	_	_
 11	352	352	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -13922,7 +13922,7 @@
 # sent_id = w01082055
 # text = Sepanjang perang, Pearl Harbor sering digunakan dalam propaganda Amerika.
 # text_en = Throughout the war, Pearl Harbor was frequently used in American propaganda.
-1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod	_	_
+1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod:npmod	_	_
 2	perang	perang	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	Pearl	Pearl	PROPN	_	_	7	nsubj:pass	_	_
@@ -13969,7 +13969,7 @@
 11	tanda-tanda	tanda	NOUN	_	Number=Plur	10	obj	_	_
 12	perpecahan	pecah	NOUN	_	Number=Sing	11	nmod	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
-14	tahun-tahun	tahun	NOUN	_	Number=Plur	10	obl	_	_
+14	tahun-tahun	tahun	NOUN	_	Number=Plur	10	obl:tmod	_	_
 15	sebelum	belum	ADP	_	_	16	case	_	_
 16	Perang	perang	NOUN	_	Number=Sing	14	nmod	_	_
 17	Dunia	dunia	NOUN	_	Number=Sing	16	nmod	_	_
@@ -14147,7 +14147,7 @@
 # text = Pada tahun 1563, populasi Venesia merosot hingga sekitar 168.000 orang.
 # text_en = By 1563, the population of Venice had dropped to about 168,000 people.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	1563	1563	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	populasi	populasi	NOUN	_	Number=Sing	7	nsubj	_	_
@@ -14237,8 +14237,8 @@
 15	ada	ada	VERB	_	Voice=Act	12	acl:relcl	_	_
 16	di	di	ADP	_	_	18	case	_	_
 17-18	dalamnya	_	_	_	_	_	_	_	SpaceAfter=No
-17	dalam	dalam	NOUN	_	Number=Sing	15	nmod	_	_
-18	nya	nya	PRON	_	Number=Sing	17	nmod	_	_
+17	dalam	dalam	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+18	nya	nya	PRON	_	Number=Sing	15	obl	_	_
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = w01089040
@@ -14453,7 +14453,7 @@
 19	lebih	lebih	ADV	_	_	20	advmod	_	_
 20	kecil	kecil	ADJ	_	_	18	amod	_	_
 21	pada	pada	ADP	_	_	22	case	_	_
-22	tahun	tahun	NOUN	_	Number=Sing	15	obl	_	_
+22	tahun	tahun	NOUN	_	Number=Sing	15	obl:tmod	_	_
 23	1960	1960	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -14572,7 +14572,7 @@
 # text = Di luar Jepang, mulai dengan Kaisar Shōwa, Kaisar sering disebut dengan nama depannya, baik saat masih hidup maupun setelah wafat.
 # text_en = Outside Japan, beginning with Emperor Shōwa, the Emperors are often referred to by their given names, both whilst alive and posthumously.
 1	Di	di	ADP	_	_	3	case	_	_
-2	luar	luar	NOUN	_	Number=Sing	3	nmod	_	_
+2	luar	luar	NOUN	_	Number=Sing	3	nmod:npmod	_	_
 3	Jepang	Jepang	PROPN	_	_	12	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	mulai	mulai	VERB	_	Voice=Act	12	advcl	_	_
@@ -14792,7 +14792,7 @@
 # text = Pada tahun 1839, Tiongkok mendapati melawan Perang Opium Pertama dengan Inggris setelah Gubernur Jenderal Hunan dan Hubei, Lin Zexu, melarang perdagangan asing opium.
 # text_en = In 1839, China found itself fighting the First Opium War with Great Britain after the Governor-General of Hunan and Hubei, Lin Zexu, banned the foreign trade of opium.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1839	1839	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Tiongkok	Tiongkok	PROPN	_	_	6	nsubj	_	_
@@ -14805,7 +14805,7 @@
 12	Inggris	Inggris	PROPN	_	_	8	nmod	_	_
 13	setelah	telah	SCONJ	_	_	23	mark	_	_
 14	Gubernur	gubernur	NOUN	_	Number=Sing	23	nsubj	_	_
-15	Jenderal	jenderal	NOUN	_	Number=Sing	14	compound	_	_
+15	Jenderal	jenderal	NOUN	_	Number=Sing	14	nmod	_	_
 16	Hunan	Hunan	PROPN	_	_	14	nmod	_	_
 17	dan	dan	CCONJ	_	_	18	cc	_	_
 18	Hubei	Hubei	PROPN	_	_	16	conj	_	SpaceAfter=No
@@ -14826,7 +14826,7 @@
 2	kalah	kalah	VERB	_	Voice=Act	0	root	_	_
 3	dan	dan	CCONJ	_	_	7	cc	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+5	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 6	1842	1842	NUM	_	NumType=Card	5	nummod	_	_
 7	menyetujui	setuju	VERB	_	Voice=Act	2	conj	_	_
 8	ketentuan	tentu	NOUN	_	Number=Sing	7	obj	_	_
@@ -14865,7 +14865,7 @@
 # text = Pada tahun 1856, pecah Perang Opium Kedua; bangsa Tionghoa kalah lagi dan terpaksa menyetujui ketentuan Perjanjian Tientsin 1858 dan Konvensi Peking 1860.
 # text_en = In 1856, the Second Opium War broke out; the Chinese were again defeated and forced to the terms of the 1858 Treaty of Tientsin and the 1860 Convention of Peking.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	1856	1856	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	pecah	pecah	VERB	_	Voice=Act	0	root	_	_
@@ -15074,8 +15074,8 @@
 21	akibat	akibat	ADP	_	_	22	case	_	_
 22	AIDS	aids	NOUN	_	Abbr=Yes	17	nmod	_	_
 23	di	di	ADP	_	_	25	case	_	_
-24	pertengahan	tengah	NOUN	_	Number=Sing	25	nmod	_	_
-25	tahun	tahun	NOUN	_	Number=Sing	17	nmod	_	_
+24	pertengahan	tengah	NOUN	_	Number=Sing	25	nmod:npmod	_	_
+25	tahun	tahun	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 26	1980-an	1980	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -15224,7 +15224,7 @@
 8	menggunakan	guna	VERB	_	Voice=Act	4	advcl	_	_
 9	nya	nya	PRON	_	Number=Sing	8	obj	_	_
 10	selama	lama	ADP	_	_	11	case	_	_
-11	bertahun-tahun	tahun	NOUN	_	Number=Plur	8	obl	_	_
+11	bertahun-tahun	tahun	NOUN	_	Number=Plur	8	obl:tmod	_	_
 12	setelah	telah	ADP	_	_	13	case	_	_
 13	perang	perang	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
@@ -15235,7 +15235,7 @@
 19	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	20	det	_	_
 20	negara	negara	NOUN	_	Number=Sing	17	obl	_	_
 21	pada	pada	ADP	_	_	22	case	_	_
-22	tahun	tahun	NOUN	_	Number=Sing	17	obl	_	_
+22	tahun	tahun	NOUN	_	Number=Sing	17	obl:tmod	_	_
 23	1980-an	1980	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -15506,7 +15506,7 @@
 12	That	That	PROPN	_	_	11	nmod	_	_
 13	Summer	Summer	PROPN	_	_	12	flat	_	_
 14	pada	pada	ADP	_	_	15	case	_	_
-15	tahun	tahun	NOUN	_	Number=Sing	11	nmod	_	_
+15	tahun	tahun	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 16	1979	1979	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -15602,14 +15602,14 @@
 7	pasar	pasar	NOUN	_	Number=Sing	3	obj	_	_
 8	tradisional	tradisional	ADJ	_	_	7	amod	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
-10	tahun	tahun	NOUN	_	Number=Sing	7	nmod	_	_
+10	tahun	tahun	NOUN	_	Number=Sing	7	nmod:tmod	_	_
 11	2013	2013	NUM	_	NumType=Card	10	nummod	_	_
 12	dan	dan	CCONJ	_	_	14	cc	_	_
 13	empat	empat	NUM	_	NumType=Card	14	nummod	_	_
 14	pasar	pasar	NOUN	_	Number=Sing	7	conj	_	_
 15	tradisional	tradisional	ADJ	_	_	14	amod	_	_
 16	pada	pada	ADP	_	_	17	case	_	_
-17	tahun	tahun	NOUN	_	Number=Sing	14	nmod	_	_
+17	tahun	tahun	NOUN	_	Number=Sing	14	nmod:tmod	_	_
 18	2014	2014	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -15651,7 +15651,7 @@
 12	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	bertanggung	tanggung	VERB	_	Voice=Act	4	advcl	_	_
-15	jawab	jawab	VERB	_	Voice=Act	14	compound	_	_
+15	jawab	jawab	VERB	_	Voice=Act	14	compound:v	_	_
 16	atas	atas	ADP	_	_	17	case	_	_
 17	keputusan	putus	NOUN	_	Number=Sing	14	obl	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
@@ -15773,7 +15773,7 @@
 17	selama	lama	ADP	_	_	20	case	_	_
 18	satu	satu	NUM	_	NumType=Card	20	nummod	_	_
 19	setengah	tengah	NUM	_	NumType=Card	18	flat	_	_
-20	tahun	tahun	NOUN	_	Number=Sing	16	obl	_	_
+20	tahun	tahun	NOUN	_	Number=Sing	16	obl:tmod	_	_
 21	sebagai	bagai	ADP	_	_	22	case	_	_
 22	staf	staf	NOUN	_	Number=Sing	16	obl	_	_
 23	jurnalis	jurnalis	NOUN	_	Number=Sing	22	nmod	_	_
@@ -15809,7 +15809,7 @@
 # text = Pada tahun 2009, total penjualan The Power of Now dan A New Earth di Amerika Utara diperkirakan masing-masing tiga juta dan lima juta.
 # text_en = By 2009, total sales of The Power of Now and A New Earth in North America had been estimated at three million and five million copies respectively.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	18	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	18	obl:tmod	_	_
 3	2009	2009	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	total	total	NOUN	_	Number=Sing	18	nsubj:pass	_	_
@@ -15826,8 +15826,8 @@
 16	Amerika	Amerika	PROPN	_	_	5	nmod	_	_
 17	Utara	Utara	PROPN	_	_	16	flat	_	_
 18	diperkirakan	kira	VERB	_	Voice=Pass	0	root	_	_
-19	masing-masing	masing-masing	NOUN	_	Number=Sing	20	nmod	_	_
-20	tiga	tiga	NUM	_	NumType=Card	18	obl	_	_
+19	masing-masing	masing-masing	NOUN	_	Number=Sing	18	obl	_	_
+20	tiga	tiga	NUM	_	NumType=Card	19	nmod	_	_
 21	juta	juta	NUM	_	NumType=Card	20	flat	_	_
 22	dan	dan	CCONJ	_	_	23	cc	_	_
 23	lima	lima	NUM	_	NumType=Card	20	conj	_	_
@@ -15858,7 +15858,7 @@
 # text = Antara tahun 1991 dan 1997, ia mengelola sebuah sekolah untuk anak-anak dengan ketidakmampuan belajar.
 # text_en = Between 1991 and 1997, she ran a school for children with learning disabilities.
 1	Antara	antara	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	1991	1991	NUM	_	NumType=Card	2	nummod	_	_
 4	dan	dan	CCONJ	_	_	5	cc	_	_
 5	1997	1997	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
@@ -16093,7 +16093,7 @@
 16	Los	Los	PROPN	_	_	14	obl	_	_
 17	Angeles	Angeles	PROPN	_	_	16	flat	_	_
 18	pada	pada	ADP	_	_	19	case	_	_
-19	tahun	tahun	NOUN	_	Number=Sing	14	obl	_	_
+19	tahun	tahun	NOUN	_	Number=Sing	14	obl:tmod	_	_
 20	1984	1984	NUM	_	NumType=Card	19	nummod	_	_
 21	untuk	untuk	SCONJ	_	_	22	mark	_	_
 22	fokus	fokus	VERB	_	Voice=Act	14	advcl	_	_
@@ -16209,7 +16209,7 @@
 2	Grafton	Grafton	PROPN	_	_	1	nmod	_	_
 3	pecah	pecah	VERB	_	Voice=Act	0	root	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	tahun	tahun	NOUN	_	Number=Sing	3	obl	_	_
+5	tahun	tahun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 6	1770	1770	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	memungkinkan	mungkin	VERB	_	Voice=Act	3	conj	_	_
@@ -16269,7 +16269,7 @@
 # text = Pada tahun 1770, saudara laki-lakinya Prince Henry, Duke of Cumberland and Strathearn, terungkap sebagai pezinah, dan tahun berikutnya Cumberland menikahi seorang janda muda, Anne Horton.
 # text_en = In 1770, his brother Prince Henry, Duke of Cumberland and Strathearn, was exposed as an adulterer, and the following year Cumberland married a young widow, Anne Horton.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	17	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	17	obl:tmod	_	_
 3	1770	1770	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	saudara	saudara	NOUN	_	Number=Sing	17	nsubj:pass	_	_
@@ -16312,10 +16312,10 @@
 4	milik	milik	NOUN	_	Number=Sing	1	nmod	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	1	nmod	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 8	1981	1981	NUM	_	NumType=Card	7	nummod	_	_
 9	merupakan	rupa	VERB	_	Voice=Act	0	root	_	_
-10	salah	salah	ADJ	_	_	11	compound	_	_
+10	salah	salah	ADJ	_	_	11	compound:n	_	_
 11	satu	satu	NUM	_	NumType=Card	12	nummod	_	_
 12	album	album	NOUN	_	Number=Sing	9	obl	_	_
 13-14	terlarisnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -16386,7 +16386,7 @@
 4-5	menyebutnya	_	_	_	_	_	_	_	_
 4	menyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-6	salah	salah	ADJ	_	_	7	compound	_	_
+6	salah	salah	ADJ	_	_	7	compound:n	_	_
 7	satu	satu	NUM	_	NumType=Card	8	nummod	_	_
 8	penampilan	tampil	NOUN	_	Number=Sing	4	obl	_	_
 9	terbaik	baik	ADJ	_	Degree=Sup	8	amod	_	_
@@ -16427,7 +16427,7 @@
 # text = Pada tahun 2003, ia mendominasi dalam klasemen poin dan memimpin dalam 33 dari 36 balapan dan menjadi juara NASCAR Winston Cup 2003, pembalap terakhir yang pernah memegang gelar itu.
 # text_en = In 2003, he dominated in the points standings and leading the last 33 of 36 races and became the 2003 NASCAR Winston Cup champion, the last driver to ever hold that title.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	2003	2003	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -16468,7 +16468,7 @@
 4	lagi	lagi	ADV	_	_	5	advmod	_	_
 5	album	album	NOUN	_	Number=Sing	2	obj	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	_
 8	1990-an	1990	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	yang	yang	PRON	_	PronType=Rel	12	nsubj:pass	_	_
@@ -16552,7 +16552,7 @@
 29	Decca	Decca	PROPN	_	_	26	obl	_	_
 30	Records	Records	PROPN	_	_	29	flat	_	_
 31	pada	pada	ADP	_	_	32	case	_	_
-32	tahun	tahun	NOUN	_	Number=Sing	26	obl	_	_
+32	tahun	tahun	NOUN	_	Number=Sing	26	obl:tmod	_	_
 33	1970-an	1970	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -16603,7 +16603,7 @@
 14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 15	meninggal	tinggal	VERB	_	Voice=Act	11	acl:relcl	_	_
 16	pada	pada	ADP	_	_	17	case	_	_
-17	tahun	tahun	NOUN	_	Number=Sing	15	obl	_	_
+17	tahun	tahun	NOUN	_	Number=Sing	15	obl:tmod	_	_
 18	1998	1998	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -16731,7 +16731,7 @@
 # text_en = Starlin took over as plotter the following issue, and began developing an elaborate story arc centered on the villainous Thanos, and spread across a number of Marvel titles.
 1	Starlin	Starlin	PROPN	_	_	2	nsubj	_	_
 2	mengambil	ambil	VERB	_	Voice=Act	0	root	_	_
-3	alih	alih	VERB	_	Voice=Act	2	compound	_	_
+3	alih	alih	VERB	_	Voice=Act	2	compound:v	_	_
 4	sebagai	bagai	ADP	_	_	5	case	_	_
 5	pembuat	buat	NOUN	_	Number=Sing	2	obl	_	_
 6	plot	plot	NOUN	_	Number=Sing	5	nmod	_	_
@@ -16766,8 +16766,8 @@
 1	Secara	cara	ADP	_	_	2	case:adv	_	_
 2	bersamaan	sama	VERB	_	Voice=Act	9	advcl	_	_
 3	pada	pada	ADP	_	_	5	case	_	_
-4	pertengahan	tengah	NOUN	_	Number=Sing	5	nmod	_	_
-5	tahun	tahun	NOUN	_	Number=Sing	9	obl	_	_
+4	pertengahan	tengah	NOUN	_	Number=Sing	5	nmod:npmod	_	_
+5	tahun	tahun	NOUN	_	Number=Sing	9	obl:tmod	_	_
 6	1970-an	1970	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	Starlin	Starlin	PROPN	_	_	9	nsubj	_	_
@@ -16808,7 +16808,7 @@
 # text = Pada tahun 1955, Mishima mengikuti latihan angkat berat dan olahraga rutinnya tiga sesi per minggu tidak terganggu selama 15 tahun terakhir hidupnya.
 # text_en = In 1955, Mishima took up weight training and his workout regimen of three sessions per week was not disrupted for the final 15 years of his life.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1955	1955	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Mishima	Mishima	PROPN	_	_	6	nsubj	_	_
@@ -16829,7 +16829,7 @@
 19	terganggu	ganggu	VERB	_	Voice=Pass	6	conj	_	_
 20	selama	lama	ADP	_	_	24	case	_	_
 21	15	15	NUM	_	NumType=Card	22	nummod	_	_
-22	tahun	tahun	NOUN	_	Number=Sing	24	nmod	_	_
+22	tahun	tahun	NOUN	_	Number=Sing	24	nmod:tmod	_	_
 23	terakhir	akhir	ADJ	_	Degree=Sup	22	amod	_	_
 24-25	hidupnya	_	_	_	_	_	_	_	SpaceAfter=No
 24	hidup	hidup	NOUN	_	Number=Sing	19	obl	_	_
@@ -16847,7 +16847,7 @@
 6	sangat	sangat	ADV	_	_	7	advmod	_	_
 7	individual	individual	ADJ	_	_	3	acl:relcl	_	_
 8	di	di	ADP	_	_	10	case	_	_
-9	akhir	akhir	NOUN	_	Number=Sing	10	nmod	_	_
+9	akhir	akhir	NOUN	_	Number=Sing	10	nmod:npmod	_	_
 10-11	hayatnya	_	_	_	_	_	_	_	SpaceAfter=No
 10	hayat	hayat	NOUN	_	Number=Sing	2	obl	_	_
 11	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
@@ -16857,7 +16857,7 @@
 # text = Pada tahun 2011, Blunt ditunjuk sebagai duta parfum baru Yves Saint Laurent, Opium.
 # text_en = In 2011, Blunt was named the ambassadress of the new Yves Saint Laurent fragrance, Opium.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	2011	2011	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Blunt	Blunt	PROPN	_	_	6	nsubj:pass	_	_
@@ -16911,7 +16911,7 @@
 # text = Pada tahun yang sama, ia tampil singkat dalam The Muppets dari Disney, sebagai resepsionis Miss Piggy.
 # text_en = Also that year, she briefly appeared in Disney's The Muppets, as Miss Piggy's receptionist.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj	_	_
 4	sama	sama	ADJ	_	_	2	acl:relcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -17073,7 +17073,7 @@
 # text_en = In addressing the Cabinet shortly after German forces crossed the border, Chamberlain placed blame on both Germany and Austria.
 1	Berbicara	bicara	VERB	_	Voice=Act	14	advcl	_	_
 2	di	di	ADP	_	_	4	case	_	_
-3	hadapan	hadap	NOUN	_	Number=Sing	4	nmod	_	_
+3	hadapan	hadap	NOUN	_	Number=Sing	4	nmod:npmod	_	_
 4	Kabinet	kabinet	NOUN	_	Number=Sing	1	obl	_	_
 5	tak	tak	PART	_	Polarity=Neg	6	advmod	_	_
 6	lama	lama	ADJ	_	_	10	advmod	_	_
@@ -17128,7 +17128,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Marcelle	Marcelle	PROPN	_	_	8	nsubj:pass	_	_
 6	sering	sering	ADV	_	_	8	advmod	_	_
-7	kali	kali	NOUN	_	Number=Sing	6	compound	_	_
+7	kali	kali	NOUN	_	Number=Sing	6	fixed	_	_
 8	ditinggal	tinggal	VERB	_	Voice=Pass	0	root	_	_
 9	sendiri	sendiri	ADJ	_	_	8	advmod	_	_
 10	di	di	ADP	_	_	11	case	_	_
@@ -17399,7 +17399,7 @@
 3	Gaunt	Gaunt	PROPN	_	_	1	flat	_	_
 4	meninggal	tinggal	VERB	_	Voice=Act	0	root	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+6	tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 7	1399	1399	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -17415,7 +17415,7 @@
 6	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7	dimasukkan	masuk	VERB	_	Voice=Pass	3	conj	_	_
 8	ke	ke	ADP	_	_	10	case	_	_
-9	dalam	dalam	NOUN	_	Number=Sing	10	nmod	_	_
+9	dalam	dalam	NOUN	_	Number=Sing	10	nmod:npmod	_	_
 10	Menara	menara	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -17496,7 +17496,7 @@
 1	Kampanye	kampanye	NOUN	_	Number=Sing	13	nsubj:pass	_	_
 2	presiden	presiden	NOUN	_	Number=Sing	1	nmod	_	_
 3	pada	pada	ADP	_	_	4	case	_	_
-4	tahun	tahun	NOUN	_	Number=Sing	1	nmod	_	_
+4	tahun	tahun	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 5	1980	1980	NUM	_	NumType=Card	4	nummod	_	_
 6	antara	antara	ADP	_	_	7	case	_	_
 7	Reagan	Reagan	PROPN	_	_	1	nmod	_	_
@@ -17530,7 +17530,7 @@
 6	kali	kali	NOUN	_	Number=Sing	2	obl	_	_
 7	nya	nya	DET	_	_	6	det	_	_
 8	sejak	sejak	ADP	_	_	9	case	_	_
-9	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	_
+9	tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	_
 10	1952	1952	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	dan	dan	CCONJ	_	_	13	cc	_	_
@@ -17557,7 +17557,7 @@
 5	pulang	pulang	VERB	_	Voice=Act	2	conj	_	_
 6	dari	dari	ADP	_	_	7	case	_	_
 7	rumah	rumah	NOUN	_	Number=Sing	5	obl	_	_
-8	sakit	sakit	ADJ	_	_	7	compound	_	_
+8	sakit	sakit	ADJ	_	_	7	compound:n	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
 10	tanggal	tanggal	NOUN	_	Number=Sing	5	obl	_	_
 11	11	11	NUM	_	NumType=Card	10	nummod	_	_
@@ -17660,7 +17660,7 @@
 8	Tennessee	Tennessee	PROPN	_	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	pada	pada	ADP	_	_	11	case	_	_
-11	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	_
+11	tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	_
 12	1991	1991	NUM	_	NumType=Card	11	nummod	_	_
 13	setelah	telah	SCONJ	_	_	14	mark	_	_
 14	mendapatkan	dapat	VERB	_	Voice=Act	2	advcl	_	_
@@ -17869,9 +17869,9 @@
 # sent_id = w01150045
 # text = Pada awal konferensi London pada bulan Desember 1912, duta besar keenam negara Great Powers menolak rencana mendirikan Albania yang merdeka.
 # text_en = At the beginning of the London conference in December 1912 the ambassadors of all six Great Powers rejected the plan for establishing an independent Albania.
-1	Pada	pada	ADP	_	_	2	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	16	obl	_	_
-3	konferensi	konferensi	NOUN	_	Number=Sing	2	nmod	_	_
+1	Pada	pada	ADP	_	_	3	case	_	_
+2	awal	awal	NOUN	_	Number=Sing	16	nmod:npmod	_	_
+3	konferensi	konferensi	NOUN	_	Number=Sing	16	obl	_	_
 4	London	London	PROPN	_	_	3	nmod	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
 6	bulan	bulan	NOUN	_	Number=Sing	3	nmod	_	_
@@ -17931,7 +17931,7 @@
 13-14	teritorialnya	_	_	_	_	_	_	_	_
 13	teritorial	teritorial	ADJ	_	_	12	amod	_	_
 14	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-15	dengan	dengan	ADP	_	_	12	case	_	_
+15	dengan	dengan	ADP	_	_	16	case	_	_
 16	Albania	Albania	PROPN	_	_	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	_
 18	Great	Great	PROPN	_	_	20	nsubj	_	_
@@ -18234,8 +18234,8 @@
 3	penangguhan	tangguh	NOUN	_	Number=Sing	2	obj	_	_
 4	kontrak	kontrak	NOUN	_	Number=Sing	3	nmod	_	_
 5	pada	pada	ADP	_	_	7	case	_	_
-6	awal	awal	NOUN	_	Number=Sing	7	nmod	_	_
-7	bulan	bulan	NOUN	_	Number=Sing	2	obl	_	_
+6	awal	awal	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+7	bulan	bulan	NOUN	_	Number=Sing	2	obl:tmod	_	_
 8	Oktober	Oktober	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -18271,7 +18271,7 @@
 26	dengan	dengan	ADP	_	_	27	case	_	_
 27	NATO	NATO	PROPN	_	Abbr=Yes	25	obl	_	_
 28	setelah	telah	ADP	_	_	29	case	_	_
-29	tahun	tahun	NOUN	_	Number=Sing	25	obl	_	_
+29	tahun	tahun	NOUN	_	Number=Sing	25	obl:tmod	_	_
 30	2000	2000	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	menghapus	hapus	VERB	_	Voice=Act	18	conj	_	_
@@ -18281,7 +18281,7 @@
 36	Rusia	Rusia	PROPN	_	_	34	nmod	_	_
 37	serta	serta	CCONJ	_	_	38	cc	_	_
 38	mengganti	ganti	VERB	_	Voice=Act	18	conj	_	_
-39	rugi	rugi	ADJ	_	_	38	compound	_	_
+39	rugi	rugi	ADJ	_	_	38	compound:v	_	_
 40	semua	semua	DET	_	PronType=Tot	41	det	_	_
 41	biaya	biaya	NOUN	_	Number=Sing	38	obj	_	_
 42	yang	yang	PRON	_	PronType=Rel	44	nsubj	_	_
@@ -18335,7 +18335,7 @@
 # text_en = From this point of view, stale structures and a self-satisfied elite are the reason why the health system, education and foreign trade in the USA is in such bad shape.
 1	Dari	dari	ADP	_	_	2	case	_	_
 2	sudut	sudut	NOUN	_	Number=Sing	17	nmod	_	_
-3	pandang	pandang	NOUN	_	Number=Sing	2	compound	_	_
+3	pandang	pandang	VERB	_	Voice=Act	2	acl	_	_
 4	ini	ini	DET	_	PronType=Dem	2	det	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	struktur	struktur	NOUN	_	Number=Sing	17	nsubj	_	_
@@ -18358,7 +18358,7 @@
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	dan	dan	CCONJ	_	_	25	cc	_	_
 25	perdagangan	dagang	NOUN	_	Number=Sing	20	conj	_	_
-26	luar	luar	NOUN	_	Number=Sing	27	nmod	_	_
+26	luar	luar	NOUN	_	Number=Sing	27	nmod:npmod	_	_
 27	negeri	negeri	NOUN	_	Number=Sing	25	nmod	_	_
 28	di	di	ADP	_	_	29	case	_	_
 29	AS	AS	PROPN	_	Abbr=Yes	20	nmod	_	_
@@ -18435,7 +18435,7 @@
 18	Monster	Monster	PROPN	_	_	17	nmod	_	_
 19	Mash	Mash	PROPN	_	_	18	flat	_	_
 20	pada	pada	ADP	_	_	21	case	_	_
-21	tahun	tahun	NOUN	_	Number=Sing	17	nmod	_	_
+21	tahun	tahun	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 22	60-an	60	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -18591,7 +18591,7 @@
 11	sebuah	buah	DET	_	Number=Sing|PronType=Ind	12	det	_	_
 12	tahun	tahun	NOUN	_	Number=Sing	10	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
-14	luar	luar	NOUN	_	Number=Sing	15	compound	_	_
+14	luar	luar	NOUN	_	Number=Sing	15	compound:a	_	_
 15	biasa	biasa	ADJ	_	_	12	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -18659,7 +18659,7 @@
 5	bisa	bisa	AUX	_	_	7	aux	_	_
 6	lebih	lebih	ADV	_	_	7	advmod	_	_
 7	bertanggung	tanggung	VERB	_	Voice=Act	2	advcl	_	_
-8	jawab	jawab	VERB	_	Voice=Act	7	compound	_	_
+8	jawab	jawab	VERB	_	Voice=Act	7	compound:v	_	_
 9	dalam	dalam	ADP	_	_	10	case	_	_
 10	hal	hal	NOUN	_	Number=Sing	7	obl	_	_
 11	kontrasepsi	kontrasepsi	NOUN	_	Number=Sing	10	nmod	_	SpaceAfter=No
@@ -18753,7 +18753,7 @@
 13	bahwa	bahwa	SCONJ	_	_	15	mark	_	_
 14	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	yakin	yakin	ADJ	_	_	10	ccomp	_	_
-16	salah	salah	ADJ	_	_	17	compound	_	_
+16	salah	salah	ADJ	_	_	17	compound:n	_	_
 17	satu	satu	NUM	_	NumType=Card	22	nsubj	_	_
 18	dari	dari	ADP	_	_	19	case	_	_
 19	pilot	pilot	NOUN	_	Number=Sing	17	nmod	_	_
@@ -19018,7 +19018,7 @@
 15	informasi	informasi	NOUN	_	Number=Sing	24	obl	_	_
 16	dari	dari	ADP	_	_	17	case	_	_
 17	badan	badan	NOUN	_	Number=Sing	15	nmod	_	_
-18	berita	berita	NOUN	_	Number=Sing	19	nmod	_	_
+18	berita	berita	NOUN	_	Number=Sing	17	nmod	_	_
 19	DPA	DPA	PROPN	_	Abbr=Yes	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	15	punct	_	_
 21	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	24	nsubj:pass	_	_
@@ -19027,7 +19027,7 @@
 24	diaktifkan	aktif	VERB	_	Voice=Pass	11	parataxis	_	_
 25	jika	jika	SCONJ	_	_	35	mark	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
-27	misalnya	misal	NOUN	_	Number=Sing	35	nmod	_	SpaceAfter=No
+27	misalnya	misal	NOUN	_	Number=Sing	24	obl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	sang	sang	DET	_	PronType=Dem	30	det	_	_
 30	artis	artis	NOUN	_	Number=Sing	35	nsubj	_	_
@@ -19226,7 +19226,7 @@
 11	selama	lama	ADP	_	_	14	case	_	_
 12	dua	dua	NUM	_	NumType=Card	14	nummod	_	_
 13	puluh	puluh	NUM	_	NumType=Card	12	flat	_	_
-14	tahun	tahun	NOUN	_	Number=Sing	5	nmod	_	_
+14	tahun	tahun	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 15	terakhir	akhir	ADJ	_	Degree=Sup	14	amod	_	_
 16	sangat	sangat	ADV	_	_	18	advmod	_	_
 17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
@@ -19306,7 +19306,7 @@
 23	yang	yang	PRON	_	PronType=Rel	24	nsubj:pass	_	_
 24	dibentuk	bentuk	VERB	_	Voice=Pass	22	acl:relcl	_	_
 25	pada	pada	ADP	_	_	26	case	_	_
-26	tahun	tahun	NOUN	_	Number=Sing	24	obl	_	_
+26	tahun	tahun	NOUN	_	Number=Sing	24	obl:tmod	_	_
 27	2014	2014	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -19350,7 +19350,7 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	'	'	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	Menteri	menteri	NOUN	_	Number=Sing	13	conj	_	_
-18	Dalam	dalam	NOUN	_	Number=Sing	19	nmod	_	_
+18	Dalam	dalam	NOUN	_	Number=Sing	19	nmod:npmod	_	_
 19	Negeri	negeri	NOUN	_	Number=Sing	17	nmod	_	_
 20	bodoh	bodoh	ADJ	_	_	17	amod	_	SpaceAfter=No
 21	'	'	PUNCT	_	_	17	punct	_	_
@@ -19489,7 +19489,7 @@
 3	itu	itu	DET	_	PronType=Dem	2	det	_	_
 4	mengadakan	ada	VERB	_	Voice=Act	0	root	_	_
 5	naik	naik	VERB	_	Voice=Act	4	xcomp	_	_
-6	banding	banding	NOUN	_	Number=Sing	5	compound	_	_
+6	banding	banding	VERB	_	Voice=Act	5	compound:v	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
 8	ditolak	tolak	VERB	_	Voice=Pass	5	acl:relcl	_	_
 9	oleh	oleh	ADP	_	_	10	case	_	_
@@ -19511,7 +19511,7 @@
 5	waktu	waktu	NOUN	_	Number=Sing	4	obj	_	_
 6	perjalanan	jalan	NOUN	_	Number=Sing	5	nmod	_	_
 7	ke	ke	ADP	_	_	9	case	_	_
-8	dalam	dalam	NOUN	_	Number=Sing	9	nmod	_	_
+8	dalam	dalam	NOUN	_	Number=Sing	9	nmod:npmod	_	_
 9	pertimbangan	timbang	NOUN	_	Number=Sing	4	obl	_	_
 10	setelah	telah	SCONJ	_	_	11	mark	_	_
 11-12	menguranginya	_	_	_	_	_	_	_	_
@@ -19725,7 +19725,7 @@
 7	sedikit	sedikit	ADJ	_	_	8	amod	_	_
 8	km	km	NOUN	_	Number=Sing	5	obj	_	_
 9	jalur	jalur	NOUN	_	Number=Sing	8	nmod	_	_
-10	bawah	bawah	NOUN	_	Number=Sing	11	nmod	_	_
+10	bawah	bawah	NOUN	_	Number=Sing	11	nmod:npmod	_	_
 11	tanah	tanah	NOUN	_	Number=Sing	9	nmod	_	_
 12	dibandingkan	banding	VERB	_	Voice=Pass	5	advcl	_	_
 13	dengan	dengan	ADP	_	_	14	case	_	_
@@ -19739,8 +19739,8 @@
 2	ditekankan	tekan	VERB	_	Voice=Pass	0	root	_	_
 3	bahwa	bahwa	SCONJ	_	_	9	mark	_	_
 4	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
-5	sama	sama	ADJ	_	_	6	compound	_	_
-6	sekali	kali	ADV	_	_	9	advmod	_	_
+5	sama	sama	ADJ	_	_	9	advmod	_	_
+6	sekali	kali	ADV	_	_	5	fixed	_	_
 7	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 8	bisa	bisa	AUX	_	_	9	aux	_	_
 9	lanjut	lanjut	ADJ	_	_	2	advcl	_	_
@@ -19789,7 +19789,7 @@
 1	Orang	orang	NOUN	_	Number=Sing	6	nsubj:pass	_	_
 2	yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
 3	lanjut	lanjut	ADJ	_	_	1	acl:relcl	_	_
-4	usia	usia	NOUN	_	Number=Sing	3	compound	_	_
+4	usia	usia	NOUN	_	Number=Sing	3	compound:v	_	_
 5	akan	akan	AUX	_	_	6	aux	_	_
 6	ditawari	tawar	VERB	_	Voice=Pass	0	root	_	_
 7	500	500	NUM	_	NumType=Card	8	nummod	_	_
@@ -19875,7 +19875,7 @@
 7	ini	ini	DET	_	PronType=Dem	6	det	_	_
 8	berada	ada	VERB	_	Voice=Act	2	acl:relcl	_	_
 9	di	di	ADP	_	_	12	case	_	_
-10	bagian	bagi	NOUN	_	Number=Sing	12	nmod	_	_
+10	bagian	bagi	NOUN	_	Number=Sing	12	nmod:npmod	_	_
 11	teratas	atas	ADJ	_	Degree=Sup	10	amod	_	_
 12	UE	UE	PROPN	_	Abbr=Yes	8	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -19887,14 +19887,14 @@
 2	terakhir	akhir	ADJ	_	Degree=Sup	1	amod	_	_
 3	terkait	kait	VERB	_	Voice=Pass	0	root	_	_
 4	dengan	dengan	ADP	_	_	5	case	_	_
-5	24	24	NUM	_	NumType=Card	3	obl	_	_
+5	24	24	NUM	_	NumType=Card	3	obl:tmod	_	_
 6	Oktober	Oktober	PROPN	_	_	5	flat	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	5	nmod	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 8	lalu	lalu	VERB	_	Voice=Act	7	acl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	dan	dan	CCONJ	_	_	11	cc	_	_
 11	memberi	beri	VERB	_	Voice=Act	3	conj	_	_
-12	tahu	tahu	VERB	_	Voice=Act	11	compound	_	_
+12	tahu	tahu	VERB	_	Voice=Act	11	compound:v	_	_
 13	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
 14	bahwa	bahwa	SCONJ	_	_	19	mark	_	_
 15	harga	harga	NOUN	_	Number=Sing	19	nsubj	_	_
@@ -20046,7 +20046,7 @@
 3	LUISS	LUISS	PROPN	_	Abbr=Yes	1	nmod	_	_
 4	University	University	PROPN	_	_	3	flat	_	_
 5	diberi	beri	VERB	_	Voice=Pass	0	root	_	_
-6	tahu	tahu	VERB	_	Voice=Act	5	compound	_	_
+6	tahu	tahu	VERB	_	Voice=Act	5	compound:v	_	_
 7	selama	lama	SCONJ	_	_	8	mark	_	_
 8-9	berlangsungnya	_	_	_	_	_	_	_	_
 8	berlangsung	langsung	VERB	_	Voice=Act	5	advcl	_	_
@@ -20109,7 +20109,7 @@
 # sent_id = n04009003
 # text = Salah satu contoh riset yang dijalankan berdasarkan upaya-upaya keselamatan ini juga telah memperkenalkan robot humanoid untuk berkompetisi dengan Valentino Rossi.
 # text_en = One of the examples of research applied under safety measures has also produced a humanoid robot to compete with Valentino Rossi.
-1	Salah	salah	ADJ	_	_	2	compound	_	_
+1	Salah	salah	ADJ	_	_	2	compound:n	_	_
 2	satu	satu	NUM	_	NumType=Card	3	nummod	_	_
 3	contoh	contoh	NOUN	_	Number=Sing	13	nsubj	_	_
 4	riset	riset	NOUN	_	Number=Sing	3	nmod	_	_
@@ -20286,7 +20286,7 @@
 4	nya	nya	DET	_	_	3	det	_	_
 5	dalam	dalam	ADP	_	_	7	case	_	_
 6	enam	enam	NUM	_	NumType=Card	7	nummod	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	3	nmod	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 8	terakhir	akhir	ADJ	_	Degree=Sup	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	tingkat	tingkat	NOUN	_	Number=Sing	13	nsubj	_	_
@@ -20320,8 +20320,8 @@
 3	manajemen	manajemen	NOUN	_	Number=Sing	9	nsubj	_	_
 4	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 5	belum	belum	PART	_	Polarity=Neg	9	advmod	_	_
-6	sama	sama	ADJ	_	_	7	compound	_	_
-7	sekali	kali	ADV	_	_	9	advmod	_	_
+6	sama	sama	ADJ	_	_	9	advmod	_	_
+7	sekali	kali	ADV	_	_	6	fixed	_	_
 8	tanpa	tanpa	ADP	_	_	9	case	_	_
 9	kritik	kritik	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -20406,10 +20406,10 @@
 6	bahwa	bahwa	SCONJ	_	_	12	mark	_	_
 7	hal	hal	NOUN	_	Number=Sing	12	nsubj	_	_
 8	itu	itu	DET	_	PronType=Dem	7	det	_	_
-9	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	100	100	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
-11	%	%	SYM	_	_	12	nmod	_	_
-12	Cospedal	Cospedal	PROPN	_	_	5	ccomp	_	SpaceAfter=No
+11	%	%	SYM	_	_	5	ccomp	_	_
+12	Cospedal	Cospedal	PROPN	_	_	11	nmod	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -20515,7 +20515,7 @@
 10	kemanusiaan	manusia	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12-13	demikianlah	_	_	_	_	_	_	_	_
-12	demikian	demikian	PRON	_	PronType=Dem	14	obl	_	_
+12	demikian	demikian	PRON	_	PronType=Dem	14	nmod	_	_
 13	lah	lah	PART	_	_	12	advmod:emph	_	_
 14	bayangan	bayang	NOUN	_	Number=Sing	4	parataxis	_	_
 15	bagi	bagi	ADP	_	_	16	case	_	_
@@ -20530,7 +20530,7 @@
 2	berdiri	diri	VERB	_	Voice=Act	0	root	_	_
 3	sendiri	sendiri	ADJ	_	_	2	advmod	_	_
 4	di	di	ADP	_	_	6	case	_	_
-5	depan	depan	NOUN	_	Number=Sing	6	nmod	_	_
+5	depan	depan	NOUN	_	Number=Sing	6	nmod:npmod	_	_
 6	pemirsa	pirsa	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	dan	dan	CCONJ	_	_	13	cc	_	_
@@ -20555,7 +20555,7 @@
 # text = Dalam film perang atau koboi dan India, pertempuran, perkelahian, dan pemukulannya luar biasa.
 # text_en = In the war films or cowboy and Indian films the battles, fights and beatings were out of this world.
 1	Dalam	dalam	ADP	_	_	2	case	_	_
-2	film	film	NOUN	_	Number=Sing	17	nmod	_	_
+2	film	film	NOUN	_	Number=Sing	17	obl	_	_
 3	perang	perang	NOUN	_	Number=Sing	2	nmod	_	_
 4	atau	atau	CCONJ	_	_	5	cc	_	_
 5	koboi	koboi	NOUN	_	Number=Sing	3	conj	_	_
@@ -20570,7 +20570,7 @@
 14-15	pemukulannya	_	_	_	_	_	_	_	_
 14	pemukulan	pukul	NOUN	_	Number=Sing	9	conj	_	_
 15	nya	nya	DET	_	_	9	nmod:poss	_	_
-16	luar	luar	NOUN	_	Number=Sing	17	compound	_	_
+16	luar	luar	NOUN	_	Number=Sing	17	compound:a	_	_
 17	biasa	biasa	ADJ	_	_	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -20605,7 +20605,7 @@
 26	lain	lain	NOUN	_	Number=Sing	24	nmod	_	_
 27	dan	dan	CCONJ	_	_	31	cc	_	_
 28	komedi	komedi	NOUN	_	Number=Sing	31	nsubj	_	_
-29	dagelan	dagelan	NOUN	_	Number=Sing	28	compound	_	_
+29	dagelan	dagelan	NOUN	_	Number=Sing	28	nmod	_	_
 30	tidak	tidak	PART	_	Polarity=Neg	31	advmod	_	_
 31	pas	pas	ADJ	_	_	16	conj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
@@ -20812,7 +20812,7 @@
 # text_en = Founded in 1925 as games for everyman, the open air theater on the great steps in front of St. Michael still attracts a diverse public.
 1	Didirikan	diri	VERB	_	Voice=Pass	11	acl	_	_
 2	pada	pada	ADP	_	_	3	case	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	1	obl	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	1	obl:tmod	_	_
 4	1925	1925	NUM	_	NumType=Card	3	nummod	_	_
 5	sebagai	bagai	ADP	_	_	6	case	_	_
 6	pertandingan	tanding	NOUN	_	Number=Sing	1	obl	_	_
@@ -20827,7 +20827,7 @@
 15	tangga	tangga	NOUN	_	Number=Sing	14	nmod	_	_
 16	indah	indah	ADJ	_	_	14	amod	_	_
 17	di	di	ADP	_	_	19	case	_	_
-18	depan	depan	NOUN	_	Number=Sing	19	nmod	_	_
+18	depan	depan	NOUN	_	Number=Sing	19	nmod:npmod	_	_
 19	St.	St.	PROPN	_	_	14	nmod	_	_
 20	Michael	Michael	PROPN	_	_	19	flat	_	_
 21	masih	masih	ADV	_	_	22	advmod	_	_
@@ -20853,7 +20853,7 @@
 # text = Pada tahun 1882, sistem telegraf dilengkapi dengan 34 sinyal alarm kebakaran yang beroperasi.
 # text_en = In 1882, a telegraphic system equipped with 34 fire alarm signals was put in operation.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	7	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	1882	1882	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	sistem	sistem	NOUN	_	Number=Sing	7	nsubj:pass	_	_
@@ -20872,7 +20872,7 @@
 # text = Pada tahun 1992, tanah tempat teater boneka sebelumnya berdiri, yang telah ditinggalkan untuk masyarakat, diambil alih untuk pemain dan karyawan.
 # text_en = In 1992, grounds of the former puppet theater, which had been left to the commune, were taken over by players and employees.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	18	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	18	obl:tmod	_	_
 3	1992	1992	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	tanah	tanah	NOUN	_	Number=Sing	18	nsubj:pass	_	_
@@ -20889,7 +20889,7 @@
 16	masyarakat	masyarakat	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	diambil	ambil	VERB	_	Voice=Pass	0	root	_	_
-19	alih	alih	VERB	_	Voice=Act	18	compound	_	_
+19	alih	alih	VERB	_	Voice=Act	18	compound:v	_	_
 20	untuk	untuk	ADP	_	_	21	case	_	_
 21	pemain	main	NOUN	_	Number=Sing	18	obl	_	_
 22	dan	dan	CCONJ	_	_	23	cc	_	_
@@ -20905,7 +20905,7 @@
 3	kaitan	kait	NOUN	_	Number=Sing	2	obl	_	_
 4	nya	nya	DET	_	_	3	det	_	_
 5	dengan	dengan	ADP	_	_	10	case	_	_
-6	salah	salah	ADJ	_	_	7	compound	_	_
+6	salah	salah	ADJ	_	_	7	compound:n	_	_
 7	satu	satu	NUM	_	NumType=Card	10	nummod	_	_
 8	dari	dari	ADP	_	_	10	case	_	_
 9	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	10	det	_	_
@@ -20917,7 +20917,7 @@
 15	tidak	tidak	PART	_	Polarity=Neg	16	advmod	_	_
 16	hancur	hancur	VERB	_	Voice=Act	10	acl:relcl	_	_
 17	pada	pada	ADP	_	_	19	case	_	_
-18	akhir	akhir	NOUN	_	Number=Sing	19	nmod	_	_
+18	akhir	akhir	NOUN	_	Number=Sing	19	nmod:npmod	_	_
 19	Perang	perang	NOUN	_	Number=Sing	16	obl	_	_
 20	Dunia	dunia	NOUN	_	Number=Sing	19	nmod	_	_
 21	II	ii	ADJ	_	NumType=Ord	19	amod	_	SpaceAfter=No
@@ -20927,7 +20927,7 @@
 # text = Pada tahun 1832, bekas biara ini dijual ke pengusaha produksi Georg Reichenbach oleh negara bagian Württemberg dengan ketetapan untuk mendirikan pabrik kapas di sana.
 # text_en = In 1832, the former cloister was sold to the manufacturer Georg Reichenbach by the state of Württemberg with the stipulation to establish a cotton factory there.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	1832	1832	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	bekas	bekas	ADJ	_	_	6	amod	_	_
@@ -20963,8 +20963,8 @@
 5	telah	telah	AUX	_	_	6	aux	_	_
 6	berdiam	diam	VERB	_	Voice=Act	1	acl:relcl	_	_
 7	sejak	sejak	ADP	_	_	9	case	_	_
-8	awal	awal	NOUN	_	Number=Sing	9	nmod	_	_
-9	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+8	awal	awal	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+9	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 10	1960	1960	NUM	_	NumType=Card	9	nummod	_	_
 11	sebagian	bagi	NOUN	_	Number=Sing	1	nmod	_	_
 12	besar	besar	ADJ	_	_	11	amod	_	_
@@ -20976,9 +20976,9 @@
 # sent_id = w02004008
 # text = Di antaranya adalah bekas biara dari Biara St. Peter dan Paul.
 # text_en = Among them is the former cloister from the abbey church of St. Peter and Paul.
-1	Di	di	ADP	_	_	2	case	_	_
+1	Di	di	ADP	_	_	3	case	_	_
 2-3	antaranya	_	_	_	_	_	_	_	_
-2	antara	antara	NOUN	_	Number=Sing	3	nmod	_	_
+2	antara	antara	NOUN	_	Number=Sing	3	nmod:npmod	_	_
 3	nya	nya	PRON	_	Number=Sing	6	obl	_	_
 4	adalah	adalah	AUX	_	_	6	cop	_	_
 5	bekas	bekas	ADJ	_	_	6	amod	_	_
@@ -21080,12 +21080,12 @@
 4	Garden	Garden	PROPN	_	_	1	flat	_	_
 5	dibangun	bangun	VERB	_	Voice=Pass	0	root	_	_
 6	pada	pada	ADP	_	_	8	case	_	_
-7	awal	awal	NOUN	_	Number=Sing	8	nmod	_	_
-8	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+7	awal	awal	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+8	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 9	1990-an	1990	NUM	_	NumType=Card	8	nummod	_	_
 10	di	di	ADP	_	_	12	case	_	_
-11	atap	atap	NOUN	_	Number=Sing	12	nmod	_	_
-12	Moscone	Moscone	PROPN	_	_	5	obl	_	_
+11	atap	atap	NOUN	_	Number=Sing	5	obl	_	_
+12	Moscone	Moscone	PROPN	_	_	11	nmod	_	_
 13	North	North	PROPN	_	_	12	flat	_	_
 14	Convention	Convention	PROPN	_	_	12	flat	_	_
 15	Center	Center	PROPN	_	_	12	flat	_	SpaceAfter=No
@@ -21094,9 +21094,9 @@
 # sent_id = w02005029
 # text = Di dalamnya terdapat monumen Martin Luther King, Jr.
 # text_en = It contains a monument to Martin Luther King, Jr.
-1	Di	di	ADP	_	_	2	case	_	_
+1	Di	di	ADP	_	_	3	case	_	_
 2-3	dalamnya	_	_	_	_	_	_	_	_
-2	dalam	dalam	NOUN	_	Number=Sing	3	nmod	_	_
+2	dalam	dalam	NOUN	_	Number=Sing	3	nmod:npmod	_	_
 3	nya	nya	PRON	_	Number=Sing	4	obl	_	_
 4	terdapat	dapat	VERB	_	Voice=Pass	0	root	_	_
 5	monumen	monumen	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -21110,7 +21110,7 @@
 # text = Sejak tahun 1960-an, ekonomi kota ini menurun tajam.
 # text_en = Since the 1960s, the city's economy has been in steep decline.
 1	Sejak	sejak	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	1960-an	1960	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ekonomi	ekonomi	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -21229,7 +21229,7 @@
 # text_en = In its scope it belongs to the most far-reaching cultures of the time, in which many sites are known.
 1	Dalam	dalam	ADP	_	_	2	case	_	_
 2-3	lingkupnya	_	_	_	_	_	_	_	SpaceAfter=No
-2	lingkup	lingkup	NOUN	_	Number=Sing	6	nmod	_	_
+2	lingkup	lingkup	NOUN	_	Number=Sing	6	obl	_	_
 3	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ini	ini	PRON	_	PronType=Dem	6	nsubj	_	_
@@ -21265,8 +21265,8 @@
 10	ini	ini	DET	_	PronType=Dem	9	det	_	_
 11	ditemukan	temu	VERB	_	Voice=Pass	0	root	_	_
 12	pada	pada	ADP	_	_	14	case	_	_
-13	awal	awal	NOUN	_	Number=Sing	14	nmod	_	_
-14	abad	abad	NOUN	_	Number=Sing	11	obl	_	_
+13	awal	awal	NOUN	_	Number=Sing	14	nmod:npmod	_	_
+14	abad	abad	NOUN	_	Number=Sing	11	obl:tmod	_	_
 15	ke-5	5	ADJ	_	NumType=Ord	14	amod	_	_
 16	SM	SM	NOUN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	11	punct	_	_
@@ -21480,7 +21480,7 @@
 5	Sosialis	Sosialis	PROPN	_	_	2	nmod	_	_
 6	Nasional	Nasional	PROPN	_	_	5	flat	_	_
 7	pada	pada	ADP	_	_	8	case	_	_
-8	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+8	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 9	1933	1933	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	terdapat	dapat	VERB	_	Voice=Pass	0	root	_	_
@@ -21500,7 +21500,7 @@
 2	Revolusi	revolusi	NOUN	_	Number=Sing	20	obl	_	_
 3	Rusia	Rusia	PROPN	_	_	2	nmod	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+5	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 6	1917	1917	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	9	det	_	_
@@ -21523,7 +21523,7 @@
 # sent_id = w02014013
 # text = Salah satu alat terakhirnya untuk menempatkan tekanan pada Hongaria adalah ancaman mengadakan pemilihan umum yang bebas.
 # text_en = One of his last means of placing pressure on Hungary was the threat of imposing general and free elections.
-1	Salah	salah	ADJ	_	_	2	compound	_	_
+1	Salah	salah	ADJ	_	_	2	compound:n	_	_
 2	satu	satu	NUM	_	NumType=Card	3	nummod	_	_
 3	alat	alat	NOUN	_	Number=Sing	12	nsubj	_	_
 4-5	terakhirnya	_	_	_	_	_	_	_	_
@@ -21606,7 +21606,7 @@
 7	Puluh	puluh	NUM	_	NumType=Card	5	flat	_	_
 8	Tahun	tahun	NOUN	_	Number=Sing	5	flat	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
-10	tahun	tahun	NOUN	_	Number=Sing	3	obl	_	_
+10	tahun	tahun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 11	1632	1632	NUM	_	NumType=Card	10	nummod	_	_
 12	oleh	oleh	ADP	_	_	13	case	_	_
 13	pasukan	pasuk	NOUN	_	Number=Sing	3	obl	_	_
@@ -21669,7 +21669,7 @@
 24	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 25	tinggal	tinggal	VERB	_	Voice=Act	19	acl:relcl	_	_
 26	hingga	hingga	ADP	_	_	27	case	_	_
-27	tahun	tahun	NOUN	_	Number=Sing	25	obl	_	_
+27	tahun	tahun	NOUN	_	Number=Sing	25	obl:tmod	_	_
 28	2002	2002	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -21679,7 +21679,7 @@
 1	Pada	pada	ADP	_	_	2	case	_	_
 2	Pertandingan	Pertandingan	PROPN	_	_	16	obl	_	_
 3	Olimpiade	Olimpiade	PROPN	_	_	2	flat	_	_
-4	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+4	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 5	2004	2004	NUM	_	NumType=Card	4	nummod	_	_
 6	di	di	ADP	_	_	7	case	_	_
 7	Athena	Athena	PROPN	_	_	2	nmod	_	SpaceAfter=No
@@ -21796,7 +21796,7 @@
 # text = Pada tahun berikutnya, 1977, ia menerima tanda kehormatan Medali Persahabatan Amerika untuk posisi ramah persnya terhadap AS.
 # text_en = In the following year, 1977, he received the distinction of the American Friendship Medal for the friendly position of his press toward the USA.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	berikutnya	ikut	ADJ	_	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	1977	1977	NUM	_	NumType=Card	2	appos	_	SpaceAfter=No
@@ -21871,8 +21871,8 @@
 # text = Di awal tahun 2000-an, ada lima dokter per 100.000 penduduk.
 # text_en = In the early 2000s, there were five doctors per 100,000 inhabitants.
 1	Di	di	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	3	nmod	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	awal	awal	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 4	2000-an	2000	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	ada	ada	VERB	_	Voice=Act	0	root	_	_
@@ -21892,7 +21892,7 @@
 4	artikel	artikel	NOUN	_	Number=Sing	3	obj	_	_
 5	koran	koran	NOUN	_	Number=Sing	4	nmod	_	_
 6	dari	dari	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	4	nmod	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 8	2008	2008	NUM	_	NumType=Card	7	nummod	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 10	menggambarkan	gambar	VERB	_	Voice=Act	4	acl:relcl	_	_
@@ -21914,8 +21914,8 @@
 3	melihat	lihat	VERB	_	Voice=Act	0	root	_	_
 4	Antartika	Antartika	PROPN	_	_	3	obj	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	tanggal	tanggal	NOUN	_	Number=Sing	3	obl	_	_
-7	27	27	NUM	_	NumType=Card	6	nmod:tmod	_	_
+6	tanggal	tanggal	NOUN	_	Number=Sing	3	obl:tmod	_	_
+7	27	27	NUM	_	NumType=Card	6	nmod	_	_
 8	Januari	Januari	PROPN	_	_	7	flat	_	_
 9	1820	1820	NUM	_	NumType=Card	7	flat	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -21947,7 +21947,7 @@
 2	ekspedisi	ekspedisi	NOUN	_	Number=Sing	18	obl	_	_
 3	Endurance	Endurance	PROPN	_	_	2	nmod	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+5	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 6	1914	1914	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	kapal	kapal	NOUN	_	Number=Sing	18	nsubj	_	_
@@ -22235,12 +22235,12 @@
 # text_en = In Pluviose year III (January-February 1794), easing off the pressure of the Reign of Terror, he took various measures to liberate the suspects.
 1	Dalam	dalam	ADP	_	_	2	case	_	_
 2	Pluviose	Pluviose	PROPN	_	_	19	obl	_	_
-3	tahun	tahun	NOUN	_	Number=Sing	2	nmod	_	_
+3	tahun	tahun	NOUN	_	Number=Sing	2	nmod:tmod	_	_
 4	III	iii	ADJ	_	NumType=Ord	3	amod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Januari	Januari	PROPN	_	_	2	nmod:tmod	_	SpaceAfter=No
 7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Februari	Februari	PROPN	_	_	6	flat:range	_	_
+8	Februari	Februari	PROPN	_	_	6	flat	_	_
 9	1794	1794	NUM	_	NumType=Card	6	flat	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
@@ -22274,7 +22274,7 @@
 10	ini	ini	DET	_	PronType=Dem	9	det	_	_
 11	ditutup	tutup	VERB	_	Voice=Pass	0	root	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	tahun	tahun	NOUN	_	Number=Sing	11	obl	_	_
+13	tahun	tahun	NOUN	_	Number=Sing	11	obl:tmod	_	_
 14	1994	1994	NUM	_	NumType=Card	13	nummod	_	_
 15	ketika	ketika	ADV	_	PronType=Rel	17	advmod	_	_
 16	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
@@ -22309,7 +22309,7 @@
 # text_en = To get away from it all, the Remis resided in Switzerland for most of summer 1947.
 1	Untuk	untuk	SCONJ	_	_	2	mark	_	_
 2	melarikan	lari	VERB	_	Voice=Act	10	advcl	_	_
-3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound	_	_
+3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound:v	_	_
 4	dari	dari	ADP	_	_	6	case	_	_
 5	semua	semua	DET	_	PronType=Tot	6	det	_	_
 6	itu	itu	PRON	_	PronType=Dem	2	obl	_	SpaceAfter=No
@@ -22408,11 +22408,11 @@
 18	gadis	gadis	NOUN	_	Number=Sing	15	appos	_	_
 19	berusia	usia	VERB	_	Voice=Act	18	acl	_	_
 20	18	18	NUM	_	NumType=Card	21	nummod	_	_
-21	tahun	tahun	NOUN	_	Number=Sing	19	obl	_	_
+21	tahun	tahun	NOUN	_	Number=Sing	19	obl:tmod	_	_
 22	yang	yang	PRON	_	PronType=Rel	23	nsubj	_	_
 23	merupakan	rupa	VERB	_	Voice=Act	18	acl:relcl	_	_
 24	putri	putri	NOUN	_	Number=Sing	23	obl	_	_
-25	salah	salah	ADJ	_	_	26	compound	_	_
+25	salah	salah	ADJ	_	_	26	compound:n	_	_
 26	satu	satu	NUM	_	NumType=Card	27	nummod	_	_
 27	teman	teman	NOUN	_	Number=Sing	24	nmod:poss	_	_
 28	Gerrmaine	Gerrmaine	PROPN	_	_	27	nmod:poss	_	SpaceAfter=No
@@ -22543,7 +22543,7 @@
 # text = Pada tahun 1928, sebuah lapangan golf 90 hektar dibangun di bagian timur laut taman ini, di samping gelanggang pacuan.
 # text_en = In 1928, a 90-hectare golf course was built in the north-eastern part of the park, next to the racetrack.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	10	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	10	obl:tmod	_	_
 3	1928	1928	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	sebuah	buah	DET	_	Number=Sing|PronType=Ind	6	det	_	_
@@ -22553,7 +22553,7 @@
 9	hektar	hektar	NOUN	_	Number=Sing	6	nmod	_	_
 10	dibangun	bangun	VERB	_	Voice=Pass	0	root	_	_
 11	di	di	ADP	_	_	15	case	_	_
-12	bagian	bagi	NOUN	_	Number=Sing	15	nmod	_	_
+12	bagian	bagi	NOUN	_	Number=Sing	15	nmod:npmod	_	_
 13	timur	timur	NOUN	_	Number=Sing	12	nmod	_	_
 14	laut	laut	NOUN	_	Number=Sing	13	compound	_	_
 15	taman	taman	NOUN	_	Number=Sing	10	obl	_	_
@@ -22569,7 +22569,7 @@
 # text = Pada tahun 1976, gelanggang pacuan kuda ini tidak lagi digunakan; pada tahun 1990, api menghancurkan sisa-sisa tribun yang terbuat dari kayu itu, yang kemudian dihancurkan bersama-sama dengan kandang-kandang kuda.
 # text_en = In 1976, the racecourse was no longer used; in 1990, a fire destroyed what remained of the wooden grandstands, which were later demolished along with the stables.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	11	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	11	obl:tmod	_	_
 3	1976	1976	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	gelanggang	gelanggang	NOUN	_	Number=Sing	11	nsubj:pass	_	_
@@ -22581,7 +22581,7 @@
 11	digunakan	guna	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	18	punct	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
-14	tahun	tahun	NOUN	_	Number=Sing	18	obl	_	_
+14	tahun	tahun	NOUN	_	Number=Sing	18	obl:tmod	_	_
 15	1990	1990	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	api	api	NOUN	_	Number=Sing	18	nsubj	_	_
@@ -22874,7 +22874,7 @@
 # text_en = Napoleon was confident that the clear success of Austerlitz could lead to a general peace treaty, but his hopes were soon dashed: the new British Prime Minister Lord Grenville refused any agreement, and so did Tsar Alexander.
 1	Napoleon	Napoleon	PROPN	_	_	2	nsubj	_	_
 2	percaya	percaya	VERB	_	Voice=Act	0	root	_	_
-3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound	_	_
+3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound:v	_	_
 4	bahwa	bahwa	SCONJ	_	_	9	mark	_	_
 5	keberhasilan	hasil	NOUN	_	Number=Sing	9	nsubj	_	_
 6	jelas	jelas	ADJ	_	_	5	amod	_	_
@@ -22902,12 +22902,12 @@
 27	menolak	tolak	VERB	_	Voice=Act	2	parataxis	_	_
 28	perjanjian	janji	NOUN	_	Number=Sing	27	obj	_	_
 29	apa	apa	PRON	_	PronType=Rel	28	nmod	_	_
-30	pun	pun	PART	_	_	28	advmod:emph	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	35	punct	_	_
-32	dan	dan	CCONJ	_	_	35	cc	_	_
-33	begitu	begitu	ADV	_	_	35	advmod	_	_
-34	pula	pula	ADV	_	_	33	compound	_	_
-35	Tsar	Tsar	PROPN	_	_	27	conj	_	_
+30	pun	pun	PART	_	_	29	advmod:emph	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	dan	dan	CCONJ	_	_	33	cc	_	_
+33	begitu	begitu	PRON	_	PronType=Dem	27	conj	_	_
+34	pula	pula	ADV	_	_	33	advmod	_	_
+35	Tsar	Tsar	PROPN	_	_	33	nmod	_	_
 36	Alexander	Alexander	PROPN	_	_	35	flat	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -22932,7 +22932,7 @@
 16	anggota	anggota	NOUN	_	Number=Sing	15	obl	_	_
 17	Gereja	Gereja	PROPN	_	_	16	nmod	_	_
 18	Protestan	Protestan	PROPN	_	_	17	flat	_	_
-19	sepanjang	panjang	NOUN	_	Number=Sing	20	nmod	_	_
+19	sepanjang	panjang	NOUN	_	Number=Sing	20	nmod:npmod	_	_
 20-21	hidupnya	_	_	_	_	_	_	_	SpaceAfter=No
 20	hidup	hidup	NOUN	_	Number=Sing	15	obl	_	_
 21	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
@@ -23009,8 +23009,8 @@
 # sent_id = w04010028
 # text = Di antara keduanya terbentuk hubungan profesional yang panjang dan baik yang berlangsung selama bertahun-tahun.
 # text_en = Between them bloomed a long professional and amicable relationship that lasted for years.
-1	Di	di	ADP	_	_	4	case	_	_
-2	antara	antara	NOUN	_	Number=Sing	4	nmod	_	_
+1	Di	di	ADP	_	_	3	case	_	_
+2	antara	antara	NOUN	_	Number=Sing	3	nmod:npmod	_	_
 3-4	keduanya	_	_	_	_	_	_	_	_
 3	kedua	dua	NUM	_	NumType=Card	5	obl	_	_
 4	nya	nya	DET	_	_	3	det	_	_
@@ -23126,7 +23126,7 @@
 3	20	20	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	antara	antara	ADP	_	_	6	case	_	_
-6	tahun	tahun	NOUN	_	Number=Sing	13	obl	_	_
+6	tahun	tahun	NOUN	_	Number=Sing	13	obl:tmod	_	_
 7	1904	1904	NUM	_	NumType=Card	6	nummod	_	_
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	1914	1914	NUM	_	NumType=Card	7	conj	_	SpaceAfter=No
@@ -23264,7 +23264,7 @@
 21	menggulingkan	guling	VERB	_	Voice=Act	16	acl:relcl	_	_
 22	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 23	pada	pada	ADP	_	_	24	case	_	_
-24	tahun	tahun	NOUN	_	Number=Sing	21	obl	_	_
+24	tahun	tahun	NOUN	_	Number=Sing	21	obl:tmod	_	_
 25	1879	1879	NUM	_	NumType=Card	24	nummod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -23272,7 +23272,7 @@
 # text = Di bawah pemerintahannya, suara perempuan disetujui, partai-partai politik dilegalisasi, semua orang buangan diizinkan untuk kembali dan para tahanan politik yang tersisa dibebaskan.
 # text_en = Under his administration, the female vote was approved, political parties were legalised, all of the exiled were allowed to return and the remaining political prisoners were freed.
 1	Di	di	ADP	_	_	3	case	_	_
-2	bawah	bawah	NOUN	_	Number=Sing	3	nmod	_	_
+2	bawah	bawah	NOUN	_	Number=Sing	3	nmod:npmod	_	_
 3-4	pemerintahannya	_	_	_	_	_	_	_	SpaceAfter=No
 3	pemerintahan	perintah	NOUN	_	Number=Sing	8	obl	_	_
 4	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
@@ -23430,7 +23430,7 @@
 17	para	para	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	kolonis	kolonis	NOUN	_	Number=Sing	19	nsubj	_	_
 19	mengambil	ambil	VERB	_	Voice=Act	13	advcl	_	_
-20	alih	alih	VERB	_	Voice=Act	19	compound	_	_
+20	alih	alih	VERB	_	Voice=Act	19	compound:v	_	_
 21	semakin	makin	ADV	_	_	22	advmod	_	_
 22	banyak	banyak	ADV	_	_	20	advmod	_	_
 23	dan	dan	CCONJ	_	_	24	cc	_	_
@@ -23580,7 +23580,7 @@
 4	akhirnya	akhir	ADV	_	_	5	advmod	_	_
 5	berakhir	akhir	VERB	_	Voice=Act	0	root	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	tahun	tahun	NOUN	_	Number=Sing	5	obl	_	_
+7	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 8	1415	1415	NUM	_	NumType=Card	7	nummod	_	_
 9	dan	dan	CCONJ	_	_	11	cc	_	_
 10	Enrique	Enrique	PROPN	_	_	11	nsubj	_	_
@@ -23626,7 +23626,7 @@
 # text = Pada tahun 1976, ia bertemu dengan seorang teman yang bekerja dengan label rekamannya The Rocket Record Company, Kiki Dee, untuk merekam apa yang kemudian menjadi kesuksesan luar biasa baginya: "Don't Go Breaking My Heart".
 # text_en = In 1976 he met with a friend who worked with his record label The Rocket Record Company, Kiki Dee, to record what would be another remarkable success for him: "Don't Go Breaking My Heart".
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+2	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	1976	1976	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -23656,7 +23656,7 @@
 28	kemudian	kemudian	ADV	_	_	29	advmod	_	_
 29	menjadi	jadi	VERB	_	Voice=Act	26	acl:relcl	_	_
 30	kesuksesan	sukses	NOUN	_	Number=Sing	29	obl	_	_
-31	luar	luar	NOUN	_	Number=Sing	32	compound	_	_
+31	luar	luar	NOUN	_	Number=Sing	32	compound:a	_	_
 32	biasa	biasa	ADJ	_	_	30	amod	_	_
 33-34	baginya	_	_	_	_	_	_	_	SpaceAfter=No
 33	bagi	bagi	ADP	_	_	34	case	_	_
@@ -23714,7 +23714,7 @@
 2	secara	cara	ADP	_	_	3	case	_	_
 3	pribadi	pribadi	NOUN	_	Number=Sing	4	obl	_	_
 4	diberi	beri	VERB	_	Voice=Pass	0	root	_	_
-5	tahu	tahu	VERB	_	Voice=Act	4	compound	_	_
+5	tahu	tahu	VERB	_	Voice=Act	4	compound:v	_	_
 6	oleh	oleh	ADP	_	_	7	case	_	_
 7	Curio	Curio	PROPN	_	_	4	obl	_	_
 8	tentang	tentang	ADP	_	_	9	case	_	_
