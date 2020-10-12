@@ -194,7 +194,7 @@
 # text = Di awal Oktober, tim transisi menggunakan tempat yang sama untuk bertemu dengan para pelobi teknologi, dengan mengundang perwakilan dari Uber, Motion Picture Association of America, Consumer Technology Association, dan grup lainnya.
 # text_en = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1	Di	di	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	awal	awal	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	Oktober	Oktober	PROPN	_	_	7	obl:tmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	tim	tim	NOUN	_	Number=Sing	7	nsubj	_	_
@@ -973,7 +973,7 @@
 14	maksud	maksud	NOUN	_	Number=Sing	9	conj	_	_
 15	di	di	ADP	_	_	16	case	_	_
 16-17	belakangnya	_	_	_	_	_	_	_	SpaceAfter=No
-16	belakang	belakang	NOUN	_	Number=Sing	17	nmod:npmod	_	_
+16	belakang	belakang	NOUN	_	Number=Sing	17	nmod:lmod	_	_
 17	nya	nya	PRON	_	Number=Sing	14	nmod	_	_
 18	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1157,7 +1157,7 @@
 16	suhu	suhu	NOUN	_	Number=Sing	15	nmod	_	_
 17	global	global	ADJ	_	_	16	amod	_	_
 18	di	di	ADP	_	_	21	case	_	_
-19	bawah	bawah	NOUN	_	Number=Sing	21	nmod:npmod	_	_
+19	bawah	bawah	NOUN	_	Number=Sing	21	nmod:lmod	_	_
 20	2	2	NUM	_	NumType=Card	21	nummod	_	_
 21	C	c	NOUN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
@@ -1312,7 +1312,7 @@
 23	-	-	PUNCT	_	_	22	punct	_	_
 24	masuk	masuk	VERB	_	Mood=Ind|Voice=Act	15	advcl	_	_
 25	ke	ke	ADP	_	_	27	case	_	_
-26	dalam	dalam	NOUN	_	Number=Sing	27	nmod:npmod	_	_
+26	dalam	dalam	NOUN	_	Number=Sing	27	nmod:lmod	_	_
 27	kepunahan	punah	NOUN	_	Number=Sing	24	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1364,7 +1364,7 @@
 27	dari	dari	ADP	_	_	28	case	_	_
 28	biji-biji	biji	NOUN	_	Number=Plur	26	obl	_	_
 29	dari	dari	ADP	_	_	31	case	_	_
-30	luar	luar	NOUN	_	Number=Sing	31	nmod:npmod	_	_
+30	luar	luar	NOUN	_	Number=Sing	31	nmod:lmod	_	_
 31	angkasa	angkasa	NOUN	_	Number=Sing	28	nmod	_	_
 32	-	-	PUNCT	_	_	37	punct	_	_
 33	hanya	hanya	ADV	_	_	37	advmod	_	_
@@ -1491,7 +1491,7 @@
 # sent_id = n01025045
 # text = Sepanjang sejarah, pasar rambut internasional selalu memiliki dimensi politis, ujar Tarlo.
 # text_en = Throughout history, the international hair market has always had a political dimension, says Tarlo.
-1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod:npmod	_	_
+1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod:lmod	_	_
 2	sejarah	sejarah	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	pasar	pasar	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -1723,7 +1723,7 @@
 # text = Di awal tahun ini Seagal diberi kebangsaan Serbia setelah menawarkan mendirikan sekolah bela diri di ibu kotanya, Beograd.
 # text_en = Earlier this year Seagal was given Serbian nationality after offering to set up a martial arts school in the capital Belgrade.
 1	Di	di	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	awal	awal	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 4	ini	ini	DET	_	PronType=Dem	3	det	_	_
 5	Seagal	Seagal	PROPN	_	_	6	nsubj:pass	_	_
@@ -2196,7 +2196,7 @@
 18	sel	sel	NOUN	_	Number=Sing	16	obl	_	_
 19	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
 20	di	di	ADP	_	_	22	case	_	_
-21	bawah	bawah	NOUN	_	Number=Sing	22	nmod:npmod	_	_
+21	bawah	bawah	NOUN	_	Number=Sing	22	nmod:lmod	_	_
 22	gedung	gedung	NOUN	_	Number=Sing	18	nmod	_	_
 23	pengadilan	adil	NOUN	_	Number=Sing	22	nmod	_	_
 24	untuk	untuk	SCONJ	_	_	25	mark	_	_
@@ -2370,7 +2370,7 @@
 3	bisa	bisa	AUX	_	_	4	aux	_	_
 4	menunggu	tunggu	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	hingga	hingga	ADP	_	_	7	case	_	_
-6	akhir	akhir	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	akhir	akhir	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	masa	masa	NOUN	_	Number=Sing	4	obl	_	_
 8-9	jabatannya	_	_	_	_	_	_	_	_
 8	jabatan	jabat	NOUN	_	Number=Sing	7	nmod	_	_
@@ -2613,7 +2613,7 @@
 17	seorang	orang	DET	_	Number=Sing|PronType=Ind	18	det	_	_
 18	polisi	polisi	NOUN	_	Number=Sing	15	obl	_	_
 19	di	di	ADP	_	_	22	case	_	_
-20	bagian	bagi	NOUN	_	Number=Sing	22	nmod:npmod	_	_
+20	bagian	bagi	NOUN	_	Number=Sing	22	nmod:lmod	_	_
 21	utara	utara	NOUN	_	Number=Sing	20	nmod	_	_
 22	kota	kota	NOUN	_	Number=Sing	18	nmod	_	_
 23	Ontario	Ontario	PROPN	_	_	22	nmod	_	SpaceAfter=No
@@ -2645,7 +2645,7 @@
 21	1,5	1,5	NUM	_	NumType=Card	20	nummod	_	_
 22	juta	juta	NUM	_	NumType=Card	21	flat	_	_
 23	di	di	ADP	_	_	25	case	_	_
-24	antara	antara	NOUN	_	Number=Sing	25	nmod:npmod	_	_
+24	antara	antara	NOUN	_	Number=Sing	25	nmod:lmod	_	_
 25	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	atau	atau	CCONJ	_	_	28	cc	_	_
@@ -2999,7 +2999,7 @@
 15	Anda	anda	PRON	_	Number=Sing|Person=2|PronType=Prs	14	obj	_	_
 16	tidur	tidur	VERB	_	Mood=Ind|Voice=Act	14	xcomp	_	_
 17	lelap	lelap	ADV	_	_	16	advmod	_	_
-18	sepanjang	panjang	NOUN	_	Number=Sing	19	nmod:npmod	_	_
+18	sepanjang	panjang	NOUN	_	Number=Sing	19	nmod:lmod	_	_
 19	malam	malam	NOUN	_	Number=Sing	16	obl:tmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	3	punct	_	_
@@ -3075,7 +3075,7 @@
 26	ke	ke	ADP	_	_	27	case	_	_
 27	jaringan	jaring	NOUN	_	Number=Sing	24	obl	_	_
 28	di	di	ADP	_	_	30	case	_	_
-29	dalam	dalam	NOUN	_	Number=Sing	30	nmod:npmod	_	_
+29	dalam	dalam	NOUN	_	Number=Sing	30	nmod:lmod	_	_
 30	tubuh	tubuh	NOUN	_	Number=Sing	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3455,7 +3455,7 @@
 4	sebuah	buah	DET	_	Number=Sing|PronType=Ind	5	det	_	_
 5	cincin	cincin	NOUN	_	Number=Sing	3	obj	_	_
 6	di	di	ADP	_	_	8	case	_	_
-7	sekitar	kitar	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+7	sekitar	kitar	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	khatulistiwa	khatulistiwa	NOUN	_	Number=Sing	5	nmod	_	_
 9	Bumi	Bumi	PROPN	_	_	8	nmod:poss	_	_
 10	dan	dan	CCONJ	_	_	12	cc	_	_
@@ -3491,7 +3491,7 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	tepat	tepat	ADJ	_	_	8	amod	_	_
 6	di	di	ADP	_	_	8	case	_	_
-7	luar	luar	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+7	luar	luar	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	Chapel	Chapel	PROPN	_	_	2	nmod	_	_
 9	Hill	Hill	PROPN	_	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
@@ -3551,7 +3551,7 @@
 6	umum	umum	ADJ	_	_	5	amod	_	_
 7	di	di	ADP	_	_	9	case	_	_
 8-9	sekitarnya	_	_	_	_	_	_	_	SpaceAfter=No
-8	sekitar	kitar	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	sekitar	kitar	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	dalam	dalam	ADP	_	_	12	case	_	_
@@ -4324,7 +4324,7 @@
 8	Badarpur	Badarpur	PROPN	_	_	2	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	di	di	ADP	_	_	12	case	_	_
-11	tenggara	tenggara	NOUN	_	Number=Sing	12	nmod:npmod	_	_
+11	tenggara	tenggara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12	Delhi	Delhi	PROPN	_	_	8	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	akan	akan	AUX	_	_	15	aux	_	_
@@ -4541,7 +4541,7 @@
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	belakang	belakang	NOUN	_	Number=Sing	7	conj	_	_
 10	di	di	ADP	_	_	13	case	_	_
-11	bawah	bawah	NOUN	_	Number=Sing	13	nmod:npmod	_	_
+11	bawah	bawah	NOUN	_	Number=Sing	13	nmod:lmod	_	_
 12	tiga	tiga	NUM	_	NumType=Card	13	nummod	_	_
 13	cangkir	cangkir	NOUN	_	Number=Sing	4	obl	_	_
 14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
@@ -4658,7 +4658,7 @@
 15	berjalan	jalan	VERB	_	Mood=Ind|Voice=Act	11	acl	_	_
 16	di	di	ADP	_	_	18	case	_	_
 17-18	bawahnya	_	_	_	_	_	_	_	SpaceAfter=No
-17	bawah	bawah	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+17	bawah	bawah	NOUN	_	Number=Sing	18	nmod:lmod	_	_
 18	nya	nya	PRON	_	Number=Sing	15	obl	_	_
 19	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5379,7 +5379,7 @@
 19	akan	akan	AUX	_	_	20	aux	_	_
 20	diperkenalkan	kenal	VERB	_	Mood=Ind|Voice=Pass	14	advcl	_	_
 21	di	di	ADP	_	_	23	case	_	_
-22	belakang	belakang	NOUN	_	Number=Sing	23	nmod:npmod	_	_
+22	belakang	belakang	NOUN	_	Number=Sing	23	nmod:lmod	_	_
 23	hal	hal	NOUN	_	Number=Sing	20	obl	_	_
 24	itu	itu	DET	_	PronType=Dem	23	det	_	SpaceAfter=No
 25	”	”	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -5396,7 +5396,7 @@
 5	membawa	bawa	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	nya	nya	PRON	_	Number=Sing	5	obj	_	_
 7	ke	ke	ADP	_	_	9	case	_	_
-8	dalam	dalam	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	dalam	dalam	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	konflik	konflik	NOUN	_	Number=Sing	5	obl	_	_
 10	dengan	dengan	ADP	_	_	12	case	_	_
 11	banyak	banyak	DET	_	Number=Plur|PronType=Ind	12	det	_	_
@@ -5839,7 +5839,7 @@
 14	roda	roda	NOUN	_	Number=Sing	13	nmod	_	_
 15	berjalan	jalan	VERB	_	Mood=Ind|Voice=Act	8	conj	_	_
 16	di	di	ADP	_	_	18	case	_	_
-17	sepanjang	panjang	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+17	sepanjang	panjang	NOUN	_	Number=Sing	18	nmod:lmod	_	_
 18	kereta	kereta	NOUN	_	Number=Sing	15	obl	_	_
 19	dengan	dengan	ADP	_	_	20	case	_	_
 20	palu	palu	NOUN	_	Number=Sing	15	obl	_	SpaceAfter=No
@@ -6126,7 +6126,7 @@
 3	semua	semua	DET	_	PronType=Tot	4	det	_	_
 4	nya	nya	PRON	_	Number=Sing	7	nsubj	_	_
 5	di	di	ADP	_	_	7	case	_	_
-6	luar	luar	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	luar	luar	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	keteraturan	atur	NOUN	_	Number=Sing	0	root	_	_
 8	dan	dan	CCONJ	_	_	12	cc	_	_
 9	tampaknya	_	ADV	_	_	12	advmod	_	_
@@ -6540,7 +6540,7 @@
 11	yang	yang	SCONJ	_	_	16	mark	_	_
 12	ke	ke	ADP	_	_	14	case	_	_
 13-14	dalamnya	_	_	_	_	_	_	_	_
-13	dalam	dalam	NOUN	_	Number=Sing	14	nmod:npmod	_	_
+13	dalam	dalam	NOUN	_	Number=Sing	14	nmod:lmod	_	_
 14	nya	nya	PRON	_	Number=Sing	16	obl	_	_
 15	investor	investor	NOUN	_	Number=Sing	16	nsubj	_	_
 16	memasukkan	masuk	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	_
@@ -6576,7 +6576,7 @@
 16	sterling	sterling	NOUN	_	Number=Sing	15	nmod	_	_
 17	ke	ke	ADP	_	_	18	case	_	_
 18	aset	aset	NOUN	_	Number=Sing	13	obl	_	_
-19	luar	luar	NOUN	_	Number=Sing	20	nmod:npmod	_	_
+19	luar	luar	NOUN	_	Number=Sing	20	nmod:lmod	_	_
 20	negeri	negeri	NOUN	_	Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6676,7 +6676,7 @@
 5	ini	ini	DET	_	PronType=Dem	4	det	_	_
 6	berada	ada	VERB	_	Mood=Ind|Voice=Act	1	ccomp	_	_
 7	di	di	ADP	_	_	10	case	_	_
-8	bawah	bawah	NOUN	_	Number=Sing	10	nmod:npmod	_	_
+8	bawah	bawah	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 9	“	“	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	tekanan	tekan	NOUN	_	Number=Sing	6	obl	_	_
 11	besar	besar	ADJ	_	_	10	amod	_	SpaceAfter=No
@@ -6776,7 +6776,7 @@
 5	di	di	ADP	_	_	6	case	_	_
 6	RSC	RSC	PROPN	_	Abbr=Yes	2	obl	_	_
 7	di	di	ADP	_	_	9	case	_	_
-8	pertengahan	tengah	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	pertengahan	tengah	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	_
 10	60-an	60	NUM	_	NumType=Card	9	nummod	_	_
 11	dengan	dengan	SCONJ	_	_	12	mark	_	_
@@ -7146,7 +7146,7 @@
 4	super	super	ADJ	_	_	3	amod	_	_
 5	beraksi	aksi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	di	di	ADP	_	_	8	case	_	_
-7	luar	luar	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+7	luar	luar	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	pengalaman	alam	NOUN	_	Number=Sing	5	obl	_	_
 9	manusia	manusia	NOUN	_	Number=Sing	8	nmod	_	_
 10	biasa	biasa	ADJ	_	_	9	amod	_	SpaceAfter=No
@@ -7639,7 +7639,7 @@
 22	adalah	adalah	AUX	_	_	24	cop	_	_
 23	sekitar	kitar	ADV	_	_	24	advmod	_	_
 24	16.500	16.500	NUM	_	NumType=Card	3	conj	_	_
-25	awal	awal	NOUN	_	Number=Sing	26	nmod:npmod	_	_
+25	awal	awal	NOUN	_	Number=Sing	26	nmod:lmod	_	_
 26	minggu	minggu	NOUN	_	Number=Sing	24	nmod:tmod	_	_
 27	ini	ini	DET	_	PronType=Dem	26	det	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
@@ -8202,7 +8202,7 @@
 3	terakhir	akhir	ADJ	_	Degree=Sup	2	amod	_	_
 4	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 5	ke	ke	ADP	_	_	7	case	_	_
-6	dalam	dalam	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	dalam	dalam	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	game	game	NOUN	_	Number=Sing	2	nmod	_	_
 8	obrolan	obrol	NOUN	_	Number=Sing	7	nmod	_	_
 9	tempat	tempat	NOUN	_	Number=Sing	8	nmod	_	_
@@ -8647,7 +8647,7 @@
 7	kaki	kaki	NOUN	_	Number=Sing	4	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	di	di	ADP	_	_	11	case	_	_
-10	bawah	bawah	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+10	bawah	bawah	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 11	tanah	tanah	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	Pyongyang	Pyongyang	PROPN	_	_	17	nsubj	_	_
@@ -8786,7 +8786,7 @@
 16	tetap	tetap	ADV	_	_	17	advmod	_	_
 17	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	12	advcl	_	_
 18	di	di	ADP	_	_	20	case	_	_
-19	antara	antara	NOUN	_	Number=Sing	20	nmod:npmod	_	_
+19	antara	antara	NOUN	_	Number=Sing	20	nmod:lmod	_	_
 20	yang	yang	PRON	_	PronType=Rel	17	obl	_	_
 21	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	20	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -8857,7 +8857,7 @@
 # text = Di luar ujung barat laut, taiga dominan, mencakup bagian besar dari seluruh Siberia.
 # text_en = Outside the extreme northwest, the taiga is dominant, covering a significant fraction of the entirety of Siberia.
 1	Di	di	ADP	_	_	3	case	_	_
-2	luar	luar	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	luar	luar	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	ujung	ujung	NOUN	_	Number=Sing	8	obl	_	_
 4	barat	barat	NOUN	_	Number=Sing	3	nmod	_	_
 5	laut	laut	NOUN	_	Number=Sing	4	compound	_	SpaceAfter=No
@@ -9315,7 +9315,7 @@
 # text = Di akhir abad ke-8, Kota Moravia terbentuk di tenggara Moravia sekarang ini, Záhorie di barat daya Slowakia dan bagian-bagian dari Lower Austria.
 # text_en = At the end of the 8th century, the Moravian Principality came into being in present-day south-eastern Moravia, Záhorie in south-western Slovakia and parts of Lower Austria.
 1	Di	di	ADP	_	_	3	case	_	_
-2	akhir	akhir	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	akhir	akhir	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	abad	abad	NOUN	_	Number=Sing	8	obl:tmod	_	_
 4	ke-8	8	ADJ	_	NumType=Ord	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -9323,14 +9323,14 @@
 7	Moravia	Moravia	PROPN	_	_	6	flat	_	_
 8	terbentuk	bentuk	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 9	di	di	ADP	_	_	11	case	_	_
-10	tenggara	tenggara	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+10	tenggara	tenggara	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 11	Moravia	Moravia	PROPN	_	_	8	obl	_	_
 12	sekarang	sekarang	NOUN	_	Number=Sing	11	nmod:tmod	_	_
 13	ini	ini	DET	_	PronType=Dem	12	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	Záhorie	Záhorie	PROPN	_	_	10	conj	_	_
 16	di	di	ADP	_	_	19	case	_	_
-17	barat	barat	NOUN	_	Number=Sing	19	nmod:npmod	_	_
+17	barat	barat	NOUN	_	Number=Sing	19	nmod:lmod	_	_
 18	daya	daya	NOUN	_	Number=Sing	17	compound	_	_
 19	Slowakia	Slowakia	PROPN	_	_	15	nmod	_	_
 20	dan	dan	CCONJ	_	_	21	cc	_	_
@@ -9432,7 +9432,7 @@
 3	Islandia	Islandia	PROPN	_	_	4	nsubj	_	_
 4	berada	ada	VERB	_	Mood=Ind|Voice=Act	19	advcl	_	_
 5	di	di	ADP	_	_	7	case	_	_
-6	bawah	bawah	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	bawah	bawah	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	kontrol	kontrol	NOUN	_	Number=Sing	4	obl	_	_
 8	politik	politik	NOUN	_	Number=Sing	7	nmod	_	_
 9	Denmark	Denmark	PROPN	_	_	7	nmod	_	_
@@ -9802,7 +9802,7 @@
 3	kuno	kuno	ADJ	_	_	2	amod	_	_
 4	terletak	letak	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	di	di	ADP	_	_	7	case	_	_
-6	sekitar	kitar	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	sekitar	kitar	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	pesisir	sisir	NOUN	_	Number=Sing	4	obl	_	_
 8	dan	dan	CCONJ	_	_	10	cc	_	_
 9	sangat	sangat	ADV	_	_	10	advmod	_	_
@@ -9848,7 +9848,7 @@
 25	untuk	untuk	ADP	_	_	27	case	_	_
 26	banyak	banyak	DET	_	Number=Plur|PronType=Ind	27	det	_	_
 27	masyarakat	masyarakat	NOUN	_	Number=Sing	3	obl	_	_
-28	sepanjang	panjang	NOUN	_	Number=Sing	29	nmod:npmod	_	_
+28	sepanjang	panjang	NOUN	_	Number=Sing	29	nmod:lmod	_	_
 29	masa	masa	NOUN	_	Number=Sing	3	obl:tmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10055,7 +10055,7 @@
 3	lahan	lahan	NOUN	_	Number=Sing	1	conj	_	_
 4	basah	basah	NOUN	_	Number=Sing	3	amod	_	_
 5	di	di	ADP	_	_	7	case	_	_
-6	antara	antara	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	antara	antara	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	Danevirke	Danevirke	PROPN	_	_	3	nmod	_	_
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	Husum	Husum	PROPN	_	_	7	conj	_	_
@@ -10072,7 +10072,7 @@
 20	dan	dan	CCONJ	_	_	26	cc	_	_
 21	wilayah	wilayah	NOUN	_	Number=Sing	26	nsubj:pass	_	_
 22	di	di	ADP	_	_	24	case	_	_
-23	selatan	selatan	NOUN	_	Number=Sing	24	nmod:npmod	_	_
+23	selatan	selatan	NOUN	_	Number=Sing	24	nmod:lmod	_	_
 24	Danevirke	Danevirke	PROPN	_	_	21	nmod	_	_
 25	telah	telah	AUX	_	_	26	aux	_	_
 26	ditaklukkan	takluk	VERB	_	Mood=Ind|Voice=Pass	11	conj	_	_
@@ -10409,7 +10409,7 @@
 1	Gereja-gereja	gereja	NOUN	_	Number=Plur	10	nsubj	_	_
 2	Kristen	Kristen	PROPN	_	_	1	nmod	_	_
 3	di	di	ADP	_	_	6	case	_	_
-4	barat	barat	NOUN	_	Number=Sing	6	nmod:npmod	_	_
+4	barat	barat	NOUN	_	Number=Sing	6	nmod:lmod	_	_
 5	laut	laut	NOUN	_	Number=Sing	4	compound	_	_
 6	Eropa	Eropa	PROPN	_	_	1	nmod	_	_
 7	dan	dan	CCONJ	_	_	8	cc	_	_
@@ -10802,7 +10802,7 @@
 7	lanskap	lanskap	NOUN	_	Number=Sing	6	nmod	_	_
 8	di	di	ADP	_	_	10	case	_	_
 9-10	sekitarnya	_	_	_	_	_	_	_	SpaceAfter=No
-9	sekitar	kitar	NOUN	_	Number=Sing	10	nmod:npmod	_	_
+9	sekitar	kitar	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10	nya	nya	PRON	_	Number=Sing	7	nmod	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11177,7 +11177,7 @@
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj:pass	_	_
 11	terletak	letak	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	_
 12	di	di	ADP	_	_	14	case	_	_
-13	atas	atas	NOUN	_	Number=Sing	14	nmod:npmod	_	_
+13	atas	atas	NOUN	_	Number=Sing	14	nmod:lmod	_	_
 14	tanah	tanah	NOUN	_	Number=Sing	11	obl	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 16	terbuka	buka	VERB	_	Mood=Ind|Voice=Pass	14	acl:relcl	_	_
@@ -11291,7 +11291,7 @@
 14	kota	kota	NOUN	_	Number=Sing	12	obj	_	_
 15	terbesar	besar	ADJ	_	Degree=Sup	14	amod	_	_
 16	di	di	ADP	_	_	18	case	_	_
-17	barat	barat	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+17	barat	barat	NOUN	_	Number=Sing	18	nmod:lmod	_	_
 18	Tiongkok	Tiongkok	PROPN	_	_	14	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -11309,12 +11309,12 @@
 9	memupuk	pupuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	perkembangan	kembang	NOUN	_	Number=Sing	9	obj	_	_
 11	di	di	ADP	_	_	13	case	_	_
-12	dalam	dalam	NOUN	_	Number=Sing	13	nmod:npmod	_	_
+12	dalam	dalam	NOUN	_	Number=Sing	13	nmod:lmod	_	_
 13	Pulau	Pulau	PROPN	_	_	10	nmod	_	_
 14	Gezira	Gezira	PROPN	_	_	13	flat	_	_
 15	dan	dan	CCONJ	_	_	18	cc	_	_
 16	di	di	ADP	_	_	18	case	_	_
-17	sepanjang	panjang	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+17	sepanjang	panjang	NOUN	_	Number=Sing	18	nmod:lmod	_	_
 18	tepi	tepi	NOUN	_	Number=Sing	13	conj	_	_
 19	perairan	air	NOUN	_	Number=Sing	18	nmod	_	_
 20	sungai	sungai	NOUN	_	Number=Sing	18	nmod	_	_
@@ -11373,7 +11373,7 @@
 24	orang	orang	NOUN	_	Number=Sing	22	obl	_	_
 25	Eropa	Eropa	PROPN	_	_	24	nmod	_	_
 26	selama	lama	ADP	_	_	28	case	_	_
-27	akhir	akhir	NOUN	_	Number=Sing	28	nmod:npmod	_	_
+27	akhir	akhir	NOUN	_	Number=Sing	28	nmod:lmod	_	_
 28	abad	abad	NOUN	_	Number=Sing	22	obl	_	_
 29	ke-15	15	ADJ	_	NumType=Ord	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
@@ -11624,7 +11624,7 @@
 # text = Pada pertengahan tahun 1962, Brooks dan Carson telah menyelesaikan sebagian besar penyuntingan, dan meletakkan dasar untuk mempromosikan buku tersebut dengan mengirimkan manuskripnya ke beberapa orang terpilih untuk mendapatkan saran akhir.
 # text_en = By mid-1962, Brooks and Carson had largely finished the editing, and were laying the groundwork for promoting the book by sending the manuscript out to select individuals for final suggestions.
 1	Pada	pada	ADP	_	_	3	case	_	_
-2	pertengahan	tengah	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	pertengahan	tengah	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	tahun	tahun	NOUN	_	Number=Sing	10	obl:tmod	_	_
 4	1962	1962	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -11814,7 +11814,7 @@
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	Mongolia	Mongolia	PROPN	_	_	14	nsubj	_	_
 10	di	di	ADP	_	_	12	case	_	_
-11	bawah	bawah	NOUN	_	Number=Sing	12	nmod:npmod	_	_
+11	bawah	bawah	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12	Bogd	Bogd	PROPN	_	_	9	nmod	_	_
 13	Khaan	Khaan	PROPN	_	_	12	flat	_	_
 14	mendeklarasikan	deklarasi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -12374,7 +12374,7 @@
 18	Kanal	Kanal	PROPN	_	_	13	nmod	_	_
 19	Bian	Bian	PROPN	_	_	18	flat	_	_
 20	di	di	ADP	_	_	22	case	_	_
-21	luar	luar	NOUN	_	Number=Sing	22	nmod:npmod	_	_
+21	luar	luar	NOUN	_	Number=Sing	22	nmod:lmod	_	_
 22	ibu	ibu	NOUN	_	Number=Sing	18	nmod	_	_
 23	kota	kota	NOUN	_	Number=Sing	22	compound	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
@@ -12470,7 +12470,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	khususnya	khusus	ADV	_	_	8	advmod	_	_
 6	di	di	ADP	_	_	8	case	_	_
-7	selatan	selatan	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+7	selatan	selatan	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	Italia	Italia	PROPN	_	_	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	di	di	ADP	_	_	11	case	_	_
@@ -12804,7 +12804,7 @@
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	di	di	ADP	_	_	15	case	_	_
 14-15	bawahnya	_	_	_	_	_	_	_	_
-14	bawah	bawah	NOUN	_	Number=Sing	15	nmod:npmod	_	_
+14	bawah	bawah	NOUN	_	Number=Sing	15	nmod:lmod	_	_
 15	nya	nya	PRON	_	Number=Sing	16	obl	_	_
 16	diikuti	ikut	VERB	_	Mood=Ind|Voice=Pass	8	acl	_	_
 17	dengan	dengan	ADP	_	_	18	case	_	_
@@ -13481,7 +13481,7 @@
 9	10	10	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 10	%	%	SYM	_	_	4	nmod	_	_
 11	di	di	ADP	_	_	13	case	_	_
-12	atas	atas	NOUN	_	Number=Sing	13	nmod:npmod	_	_
+12	atas	atas	NOUN	_	Number=Sing	13	nmod:lmod	_	_
 13	rata-rata	rata	NOUN	_	Number=Sing	10	nmod	_	_
 14	mengurangi	kurang	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 15	peluang	luang	NOUN	_	Number=Sing	14	obj	_	_
@@ -13779,7 +13779,7 @@
 21	namun	namun	CCONJ	_	_	29	cc	_	_
 22	pada	pada	ADP	_	_	24	case	_	_
 23-24	akhirnya	_	_	_	_	_	_	_	_
-23	akhir	akhir	NOUN	_	Number=Sing	24	nmod:npmod	_	_
+23	akhir	akhir	NOUN	_	Number=Sing	24	nmod:lmod	_	_
 24	nya	nya	PRON	_	Number=Sing	29	obl	_	_
 25	di	di	ADP	_	_	26	case	_	_
 26	sana	sana	PRON	_	PronType=Dem	29	obl	_	_
@@ -13922,7 +13922,7 @@
 # sent_id = w01082055
 # text = Sepanjang perang, Pearl Harbor sering digunakan dalam propaganda Amerika.
 # text_en = Throughout the war, Pearl Harbor was frequently used in American propaganda.
-1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod:npmod	_	_
+1	Sepanjang	panjang	NOUN	_	Number=Sing	2	nmod:lmod	_	_
 2	perang	perang	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	Pearl	Pearl	PROPN	_	_	7	nsubj:pass	_	_
@@ -14055,7 +14055,7 @@
 17	untuk	untuk	ADP	_	_	18	case	_	_
 18	konflik	konflik	NOUN	_	Number=Sing	11	nmod	_	_
 19	di	di	ADP	_	_	21	case	_	_
-20	luar	luar	NOUN	_	Number=Sing	21	nmod:npmod	_	_
+20	luar	luar	NOUN	_	Number=Sing	21	nmod:lmod	_	_
 21	negeri	negeri	NOUN	_	Number=Sing	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -14237,7 +14237,7 @@
 15	ada	ada	VERB	_	Mood=Ind|Voice=Act	12	acl:relcl	_	_
 16	di	di	ADP	_	_	18	case	_	_
 17-18	dalamnya	_	_	_	_	_	_	_	SpaceAfter=No
-17	dalam	dalam	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+17	dalam	dalam	NOUN	_	Number=Sing	18	nmod:lmod	_	_
 18	nya	nya	PRON	_	Number=Sing	15	obl	_	_
 19	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -14476,7 +14476,7 @@
 14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 15	disarankan	saran	VERB	_	Mood=Ind|Voice=Pass	6	conj	_	_
 16	di	di	ADP	_	_	18	case	_	_
-17	antara	antara	NOUN	_	Number=Sing	18	nmod:npmod	_	_
+17	antara	antara	NOUN	_	Number=Sing	18	nmod:lmod	_	_
 18	teman-teman	teman	NOUN	_	Number=Plur	15	obl	_	_
 19	untuk	untuk	SCONJ	_	_	20	mark	_	_
 20	menggunakan	guna	VERB	_	Mood=Ind|Voice=Act	15	advcl	_	_
@@ -14572,7 +14572,7 @@
 # text = Di luar Jepang, mulai dengan Kaisar Shōwa, Kaisar sering disebut dengan nama depannya, baik saat masih hidup maupun setelah wafat.
 # text_en = Outside Japan, beginning with Emperor Shōwa, the Emperors are often referred to by their given names, both whilst alive and posthumously.
 1	Di	di	ADP	_	_	3	case	_	_
-2	luar	luar	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	luar	luar	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	Jepang	Jepang	PROPN	_	_	12	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	mulai	mulai	VERB	_	Mood=Ind|Voice=Act	12	advcl	_	_
@@ -14907,7 +14907,7 @@
 12	melakukan	laku	VERB	_	Mood=Ind|Voice=Act	9	xcomp	_	_
 13	perjalanan	jalan	NOUN	_	Number=Sing	12	obj	_	_
 14	di	di	ADP	_	_	16	case	_	_
-15	dalam	dalam	NOUN	_	Number=Sing	16	nmod:npmod	_	_
+15	dalam	dalam	NOUN	_	Number=Sing	16	nmod:lmod	_	_
 16	negeri	negeri	NOUN	_	Number=Sing	13	nmod	_	_
 17	itu	itu	DET	_	PronType=Dem	16	det	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
@@ -15074,7 +15074,7 @@
 21	akibat	akibat	ADP	_	_	22	case	_	_
 22	AIDS	aids	NOUN	_	Abbr=Yes	17	nmod	_	_
 23	di	di	ADP	_	_	25	case	_	_
-24	pertengahan	tengah	NOUN	_	Number=Sing	25	nmod:npmod	_	_
+24	pertengahan	tengah	NOUN	_	Number=Sing	25	nmod:lmod	_	_
 25	tahun	tahun	NOUN	_	Number=Sing	17	nmod:tmod	_	_
 26	1980-an	1980	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct	_	_
@@ -16635,7 +16635,7 @@
 9	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 10	sendiri	sendiri	DET	_	PronType=Emp	8	nmod	_	_
 11	di	di	ADP	_	_	13	case	_	_
-12	dalam	dalam	NOUN	_	Number=Sing	13	nmod:npmod	_	_
+12	dalam	dalam	NOUN	_	Number=Sing	13	nmod:lmod	_	_
 13	MGB	MGB	PROPN	_	Abbr=Yes	7	obl	_	_
 14	untuk	untuk	SCONJ	_	_	15	mark	_	_
 15	menandingi	tanding	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
@@ -16766,7 +16766,7 @@
 1	Secara	cara	ADP	_	_	2	case:adv	_	_
 2	bersamaan	sama	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
 3	pada	pada	ADP	_	_	5	case	_	_
-4	pertengahan	tengah	NOUN	_	Number=Sing	5	nmod:npmod	_	_
+4	pertengahan	tengah	NOUN	_	Number=Sing	5	nmod:lmod	_	_
 5	tahun	tahun	NOUN	_	Number=Sing	9	obl:tmod	_	_
 6	1970-an	1970	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -16847,7 +16847,7 @@
 6	sangat	sangat	ADV	_	_	7	advmod	_	_
 7	individual	individual	ADJ	_	_	3	acl:relcl	_	_
 8	di	di	ADP	_	_	10	case	_	_
-9	akhir	akhir	NOUN	_	Number=Sing	10	nmod:npmod	_	_
+9	akhir	akhir	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10-11	hayatnya	_	_	_	_	_	_	_	SpaceAfter=No
 10	hayat	hayat	NOUN	_	Number=Sing	2	obl	_	_
 11	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
@@ -17073,7 +17073,7 @@
 # text_en = In addressing the Cabinet shortly after German forces crossed the border, Chamberlain placed blame on both Germany and Austria.
 1	Berbicara	bicara	VERB	_	Mood=Ind|Voice=Act	14	advcl	_	_
 2	di	di	ADP	_	_	4	case	_	_
-3	hadapan	hadap	NOUN	_	Number=Sing	4	nmod:npmod	_	_
+3	hadapan	hadap	NOUN	_	Number=Sing	4	nmod:lmod	_	_
 4	Kabinet	kabinet	NOUN	_	Number=Sing	1	obl	_	_
 5	tak	tak	PART	_	Polarity=Neg	6	advmod	_	_
 6	lama	lama	ADJ	_	_	10	advmod	_	_
@@ -17308,7 +17308,7 @@
 # text_en = During the 2013 off-season she appeared on CTV Montreal as a guest weather anchor.
 1	Selama	lama	ADP	_	_	4	case	_	_
 2	di	di	ADP	_	_	4	case	_	_
-3	luar	luar	NOUN	_	Number=Sing	4	nmod:npmod	_	_
+3	luar	luar	NOUN	_	Number=Sing	4	nmod:lmod	_	_
 4	musim	musim	NOUN	_	Number=Sing	8	obl	_	_
 5	tahun	tahun	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 6	2013	2013	NUM	_	NumType=Card	5	nummod	_	_
@@ -17415,7 +17415,7 @@
 6	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7	dimasukkan	masuk	VERB	_	Mood=Ind|Voice=Pass	3	conj	_	_
 8	ke	ke	ADP	_	_	10	case	_	_
-9	dalam	dalam	NOUN	_	Number=Sing	10	nmod:npmod	_	_
+9	dalam	dalam	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10	Menara	menara	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -17870,7 +17870,7 @@
 # text = Pada awal konferensi London pada bulan Desember 1912, duta besar keenam negara Great Powers menolak rencana mendirikan Albania yang merdeka.
 # text_en = At the beginning of the London conference in December 1912 the ambassadors of all six Great Powers rejected the plan for establishing an independent Albania.
 1	Pada	pada	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	16	nmod:npmod	_	_
+2	awal	awal	NOUN	_	Number=Sing	16	nmod:lmod	_	_
 3	konferensi	konferensi	NOUN	_	Number=Sing	16	obl	_	_
 4	London	London	PROPN	_	_	3	nmod	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
@@ -17902,7 +17902,7 @@
 5	akan	akan	AUX	_	_	6	aux	_	_
 6	berada	ada	VERB	_	Mood=Ind|Voice=Act	2	ccomp	_	_
 7	di	di	ADP	_	_	9	case	_	_
-8	bawah	bawah	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	bawah	bawah	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	kekuasaan	kuasa	NOUN	_	Number=Sing	6	obl	_	_
 10	raja	raja	NOUN	_	Number=Sing	9	nmod:poss	_	_
 11	Ottoman	Ottoman	PROPN	_	_	10	nmod	_	_
@@ -17976,7 +17976,7 @@
 24	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	di	di	ADP	_	_	29	case	_	_
-27	antara	antara	NOUN	_	Number=Sing	29	nmod:npmod	_	_
+27	antara	antara	NOUN	_	Number=Sing	29	nmod:lmod	_	_
 28	para	para	DET	_	Number=Plur|PronType=Ind	29	det	_	_
 29	sekutu	sekutu	NOUN	_	Number=Sing	11	obl	_	_
 30	Balkan	Balkan	PROPN	_	_	29	nmod	_	SpaceAfter=No
@@ -18156,7 +18156,7 @@
 7	sentuh	sentuh	VERB	_	Mood=Ind|Voice=Act	6	acl	_	_
 8	tipis	tipis	ADJ	_	_	5	amod	_	_
 9	di	di	ADP	_	_	11	case	_	_
-10	atas	atas	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+10	atas	atas	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 11	keyboard	keyboard	NOUN	_	Number=Sing	5	nmod	_	_
 12	yang	yang	PRON	_	PronType=Rel	14	nsubj:pass	_	_
 13	telah	telah	AUX	_	_	14	aux	_	_
@@ -18234,7 +18234,7 @@
 3	penangguhan	tangguh	NOUN	_	Number=Sing	2	obj	_	_
 4	kontrak	kontrak	NOUN	_	Number=Sing	3	nmod	_	_
 5	pada	pada	ADP	_	_	7	case	_	_
-6	awal	awal	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	awal	awal	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	bulan	bulan	NOUN	_	Number=Sing	2	obl:tmod	_	_
 8	Oktober	Oktober	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -18358,7 +18358,7 @@
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	dan	dan	CCONJ	_	_	25	cc	_	_
 25	perdagangan	dagang	NOUN	_	Number=Sing	20	conj	_	_
-26	luar	luar	NOUN	_	Number=Sing	27	nmod:npmod	_	_
+26	luar	luar	NOUN	_	Number=Sing	27	nmod:lmod	_	_
 27	negeri	negeri	NOUN	_	Number=Sing	25	nmod	_	_
 28	di	di	ADP	_	_	29	case	_	_
 29	AS	AS	PROPN	_	Abbr=Yes	20	nmod	_	_
@@ -18632,7 +18632,7 @@
 4	jelas	jelas	ADJ	_	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	di	di	ADP	_	_	8	case	_	_
-7	dalam	dalam	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+7	dalam	dalam	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	yang	yang	PRON	_	PronType=Rel	4	obl	_	_
 9	mana	mana	PRON	_	PronType=Rel	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
@@ -19350,7 +19350,7 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	'	'	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	Menteri	menteri	NOUN	_	Number=Sing	13	conj	_	_
-18	Dalam	dalam	NOUN	_	Number=Sing	19	nmod:npmod	_	_
+18	Dalam	dalam	NOUN	_	Number=Sing	19	nmod:lmod	_	_
 19	Negeri	negeri	NOUN	_	Number=Sing	17	nmod	_	_
 20	bodoh	bodoh	ADJ	_	_	17	amod	_	SpaceAfter=No
 21	'	'	PUNCT	_	_	17	punct	_	_
@@ -19511,7 +19511,7 @@
 5	waktu	waktu	NOUN	_	Number=Sing	4	obj	_	_
 6	perjalanan	jalan	NOUN	_	Number=Sing	5	nmod	_	_
 7	ke	ke	ADP	_	_	9	case	_	_
-8	dalam	dalam	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	dalam	dalam	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	pertimbangan	timbang	NOUN	_	Number=Sing	4	obl	_	_
 10	setelah	telah	SCONJ	_	_	11	mark	_	_
 11-12	menguranginya	_	_	_	_	_	_	_	_
@@ -19725,7 +19725,7 @@
 7	sedikit	sedikit	ADJ	_	_	8	amod	_	_
 8	km	km	NOUN	_	Number=Sing	5	obj	_	_
 9	jalur	jalur	NOUN	_	Number=Sing	8	nmod	_	_
-10	bawah	bawah	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+10	bawah	bawah	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 11	tanah	tanah	NOUN	_	Number=Sing	9	nmod	_	_
 12	dibandingkan	banding	VERB	_	Mood=Ind|Voice=Pass	5	advcl	_	_
 13	dengan	dengan	ADP	_	_	14	case	_	_
@@ -19875,7 +19875,7 @@
 7	ini	ini	DET	_	PronType=Dem	6	det	_	_
 8	berada	ada	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
 9	di	di	ADP	_	_	12	case	_	_
-10	bagian	bagi	NOUN	_	Number=Sing	12	nmod:npmod	_	_
+10	bagian	bagi	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 11	teratas	atas	ADJ	_	Degree=Sup	10	amod	_	_
 12	UE	UE	PROPN	_	Abbr=Yes	8	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -20294,7 +20294,7 @@
 12	telah	telah	AUX	_	_	13	aux	_	_
 13	turun	turun	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 14	di	di	ADP	_	_	17	case	_	_
-15	bawah	bawah	NOUN	_	Number=Sing	17	nmod:npmod	_	_
+15	bawah	bawah	NOUN	_	Number=Sing	17	nmod:lmod	_	_
 16	20	20	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 17	%	%	SYM	_	_	13	obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
@@ -20426,7 +20426,7 @@
 7	semua	semua	DET	_	PronType=Tot	8	det	_	_
 8	orang	orang	NOUN	_	Number=Sing	12	nsubj	_	_
 9	di	di	ADP	_	_	11	case	_	_
-10	dalam	dalam	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+10	dalam	dalam	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 11	partai	partai	NOUN	_	Number=Sing	8	nmod	_	_
 12	memahami	paham	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 13	pesan	pesan	NOUN	_	Number=Sing	12	obj	_	_
@@ -20530,7 +20530,7 @@
 2	berdiri	diri	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	sendiri	sendiri	ADJ	_	_	2	advmod	_	_
 4	di	di	ADP	_	_	6	case	_	_
-5	depan	depan	NOUN	_	Number=Sing	6	nmod:npmod	_	_
+5	depan	depan	NOUN	_	Number=Sing	6	nmod:lmod	_	_
 6	pemirsa	pirsa	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	dan	dan	CCONJ	_	_	13	cc	_	_
@@ -20827,7 +20827,7 @@
 15	tangga	tangga	NOUN	_	Number=Sing	14	nmod	_	_
 16	indah	indah	ADJ	_	_	14	amod	_	_
 17	di	di	ADP	_	_	19	case	_	_
-18	depan	depan	NOUN	_	Number=Sing	19	nmod:npmod	_	_
+18	depan	depan	NOUN	_	Number=Sing	19	nmod:lmod	_	_
 19	St.	St.	PROPN	_	_	14	nmod	_	_
 20	Michael	Michael	PROPN	_	_	19	flat	_	_
 21	masih	masih	ADV	_	_	22	advmod	_	_
@@ -20917,7 +20917,7 @@
 15	tidak	tidak	PART	_	Polarity=Neg	16	advmod	_	_
 16	hancur	hancur	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
 17	pada	pada	ADP	_	_	19	case	_	_
-18	akhir	akhir	NOUN	_	Number=Sing	19	nmod:npmod	_	_
+18	akhir	akhir	NOUN	_	Number=Sing	19	nmod:lmod	_	_
 19	Perang	perang	NOUN	_	Number=Sing	16	obl	_	_
 20	Dunia	dunia	NOUN	_	Number=Sing	19	nmod	_	_
 21	II	ii	ADJ	_	NumType=Ord	19	amod	_	SpaceAfter=No
@@ -20963,7 +20963,7 @@
 5	telah	telah	AUX	_	_	6	aux	_	_
 6	berdiam	diam	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 7	sejak	sejak	ADP	_	_	9	case	_	_
-8	awal	awal	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	awal	awal	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 10	1960	1960	NUM	_	NumType=Card	9	nummod	_	_
 11	sebagian	bagi	NOUN	_	Number=Sing	1	nmod	_	_
@@ -20978,7 +20978,7 @@
 # text_en = Among them is the former cloister from the abbey church of St. Peter and Paul.
 1	Di	di	ADP	_	_	3	case	_	_
 2-3	antaranya	_	_	_	_	_	_	_	_
-2	antara	antara	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	antara	antara	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	nya	nya	PRON	_	Number=Sing	6	obl	_	_
 4	adalah	adalah	AUX	_	_	6	cop	_	_
 5	bekas	bekas	ADJ	_	_	6	amod	_	_
@@ -21080,7 +21080,7 @@
 4	Garden	Garden	PROPN	_	_	1	flat	_	_
 5	dibangun	bangun	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	pada	pada	ADP	_	_	8	case	_	_
-7	awal	awal	NOUN	_	Number=Sing	8	nmod:npmod	_	_
+7	awal	awal	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	tahun	tahun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 9	1990-an	1990	NUM	_	NumType=Card	8	nummod	_	_
 10	di	di	ADP	_	_	12	case	_	_
@@ -21096,7 +21096,7 @@
 # text_en = It contains a monument to Martin Luther King, Jr.
 1	Di	di	ADP	_	_	3	case	_	_
 2-3	dalamnya	_	_	_	_	_	_	_	_
-2	dalam	dalam	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	dalam	dalam	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	nya	nya	PRON	_	Number=Sing	4	obl	_	_
 4	terdapat	dapat	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	monumen	monumen	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -21258,14 +21258,14 @@
 3	besar	besar	ADJ	_	_	2	amod	_	_
 4	tempat	tempat	NOUN	_	Number=Sing	2	nmod	_	_
 5	di	di	ADP	_	_	7	case	_	_
-6	selatan	selatan	NOUN	_	Number=Sing	7	nmod:npmod	_	_
+6	selatan	selatan	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	Eropa	Eropa	PROPN	_	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	temuan	temu	NOUN	_	Number=Sing	11	nsubj:pass	_	_
 10	ini	ini	DET	_	PronType=Dem	9	det	_	_
 11	ditemukan	temu	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 12	pada	pada	ADP	_	_	14	case	_	_
-13	awal	awal	NOUN	_	Number=Sing	14	nmod:npmod	_	_
+13	awal	awal	NOUN	_	Number=Sing	14	nmod:lmod	_	_
 14	abad	abad	NOUN	_	Number=Sing	11	obl:tmod	_	_
 15	ke-5	5	ADJ	_	NumType=Ord	14	amod	_	_
 16	SM	SM	NOUN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
@@ -21871,7 +21871,7 @@
 # text = Di awal tahun 2000-an, ada lima dokter per 100.000 penduduk.
 # text_en = In the early 2000s, there were five doctors per 100,000 inhabitants.
 1	Di	di	ADP	_	_	3	case	_	_
-2	awal	awal	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	awal	awal	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 4	2000-an	2000	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -22197,7 +22197,7 @@
 5	pos-pos	pos	NOUN	_	Number=Plur	4	obj	_	_
 6	terdepan	depan	ADJ	_	Degree=Sup	5	amod	_	_
 7	di	di	ADP	_	_	9	case	_	_
-8	sepanjang	panjang	NOUN	_	Number=Sing	9	nmod:npmod	_	_
+8	sepanjang	panjang	NOUN	_	Number=Sing	9	nmod:lmod	_	_
 9	Mediterania	Mediterania	PROPN	_	_	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	sebuah	buah	DET	_	Number=Sing|PronType=Ind	12	det	_	_
@@ -22429,7 +22429,7 @@
 6	hubungan	hubung	NOUN	_	Number=Sing	5	obj	_	_
 7	asmara	asmara	NOUN	_	Number=Sing	6	nmod	_	_
 8	di	di	ADP	_	_	10	case	_	_
-9	luar	luar	NOUN	_	Number=Sing	10	nmod:npmod	_	_
+9	luar	luar	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10	nikah	nikah	NOUN	_	Number=Sing	6	nmod	_	_
 11	dengan	dengan	ADP	_	_	12	case	_	_
 12	gadis	gadis	NOUN	_	Number=Sing	6	nmod	_	_
@@ -22553,14 +22553,14 @@
 9	hektar	hektar	NOUN	_	Number=Sing	6	nmod	_	_
 10	dibangun	bangun	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 11	di	di	ADP	_	_	15	case	_	_
-12	bagian	bagi	NOUN	_	Number=Sing	15	nmod:npmod	_	_
+12	bagian	bagi	NOUN	_	Number=Sing	15	nmod:lmod	_	_
 13	timur	timur	NOUN	_	Number=Sing	12	nmod	_	_
 14	laut	laut	NOUN	_	Number=Sing	13	compound	_	_
 15	taman	taman	NOUN	_	Number=Sing	10	obl	_	_
 16	ini	ini	DET	_	PronType=Dem	15	det	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	di	di	ADP	_	_	20	case	_	_
-19	samping	samping	NOUN	_	Number=Sing	20	nmod:npmod	_	_
+19	samping	samping	NOUN	_	Number=Sing	20	nmod:lmod	_	_
 20	gelanggang	gelanggang	NOUN	_	Number=Sing	10	obl	_	_
 21	pacuan	pacu	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
@@ -22922,7 +22922,7 @@
 6	Fiorello	Fiorello	PROPN	_	_	7	nsubj:pass	_	_
 7	dididik	didik	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 8	di	di	ADP	_	_	10	case	_	_
-9	dalam	dalam	NOUN	_	Number=Sing	10	nmod:npmod	_	_
+9	dalam	dalam	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10	Gereja	Gereja	PROPN	_	_	7	obl	_	_
 11	Episkopal	Episkopal	PROPN	_	_	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -22932,7 +22932,7 @@
 16	anggota	anggota	NOUN	_	Number=Sing	15	obl	_	_
 17	Gereja	Gereja	PROPN	_	_	16	nmod	_	_
 18	Protestan	Protestan	PROPN	_	_	17	flat	_	_
-19	sepanjang	panjang	NOUN	_	Number=Sing	20	nmod:npmod	_	_
+19	sepanjang	panjang	NOUN	_	Number=Sing	20	nmod:lmod	_	_
 20-21	hidupnya	_	_	_	_	_	_	_	SpaceAfter=No
 20	hidup	hidup	NOUN	_	Number=Sing	15	obl	_	_
 21	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
@@ -22950,7 +22950,7 @@
 6	bahwa	bahwa	SCONJ	_	_	14	mark	_	_
 7	perang	perang	NOUN	_	Number=Sing	14	nsubj	_	_
 8	di	di	ADP	_	_	11	case	_	_
-9	antara	antara	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+9	antara	antara	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 10	kedua	dua	NUM	_	NumType=Card	11	nummod	_	_
 11	alam	alam	NOUN	_	Number=Sing	7	nmod	_	_
 12	semesta	semesta	NOUN	_	Number=Sing	11	nmod	_	_
@@ -23010,7 +23010,7 @@
 # text = Di antara keduanya terbentuk hubungan profesional yang panjang dan baik yang berlangsung selama bertahun-tahun.
 # text_en = Between them bloomed a long professional and amicable relationship that lasted for years.
 1	Di	di	ADP	_	_	3	case	_	_
-2	antara	antara	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	antara	antara	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3-4	keduanya	_	_	_	_	_	_	_	_
 3	kedua	dua	NUM	_	NumType=Card	5	obl	_	_
 4	nya	nya	DET	_	_	3	det	_	_
@@ -23073,7 +23073,7 @@
 8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 9	resmi	resmi	ADJ	_	_	7	amod	_	_
 10	di	di	ADP	_	_	13	case	_	_
-11	antara	antara	NOUN	_	Number=Sing	12	nmod:npmod	_	_
+11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12-13	keduanya	_	_	_	_	_	_	_	SpaceAfter=No
 12	kedua	dua	NUM	_	NumType=Card	7	nmod	_	_
 13	nya	nya	DET	_	_	12	det	_	_
@@ -23099,7 +23099,7 @@
 7	jelas	jelas	ADJ	_	_	0	root	_	_
 8	siapa	siapa	PRON	_	PronType=Rel	7	nsubj	_	_
 9	di	di	ADP	_	_	11	case	_	_
-10	antara	antara	NOUN	_	Number=Sing	11	nmod:npmod	_	_
+10	antara	antara	NOUN	_	Number=Sing	11	nmod:lmod	_	_
 11	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
 12	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
 13	awalnya	awal	ADV	_	_	14	advmod	_	_
@@ -23159,7 +23159,7 @@
 11	kapel	kapel	NOUN	_	Number=Sing	12	nsubj	_	_
 12	menyamping	samping	VERB	_	Mood=Ind|Voice=Act	1	conj	_	_
 13	di	di	ADP	_	_	15	case	_	_
-14	antara	antara	NOUN	_	Number=Sing	15	nmod:npmod	_	_
+14	antara	antara	NOUN	_	Number=Sing	15	nmod:lmod	_	_
 15	dinding-dinding	dinding	NOUN	_	Number=Plur	12	obl	_	_
 16-17	penopangnya	_	_	_	_	_	_	_	SpaceAfter=No
 16	penopang	topang	NOUN	_	Number=Sing	15	nmod	_	_
@@ -23272,7 +23272,7 @@
 # text = Di bawah pemerintahannya, suara perempuan disetujui, partai-partai politik dilegalisasi, semua orang buangan diizinkan untuk kembali dan para tahanan politik yang tersisa dibebaskan.
 # text_en = Under his administration, the female vote was approved, political parties were legalised, all of the exiled were allowed to return and the remaining political prisoners were freed.
 1	Di	di	ADP	_	_	3	case	_	_
-2	bawah	bawah	NOUN	_	Number=Sing	3	nmod:npmod	_	_
+2	bawah	bawah	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3-4	pemerintahannya	_	_	_	_	_	_	_	SpaceAfter=No
 3	pemerintahan	perintah	NOUN	_	Number=Sing	8	obl	_	_
 4	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
@@ -23370,7 +23370,7 @@
 9	tentara	tentara	NOUN	_	Number=Sing	17	nsubj	_	_
 10	Inggris	Inggris	PROPN	_	_	9	nmod	_	_
 11	di	di	ADP	_	_	13	case	_	_
-12	bawah	bawah	NOUN	_	Number=Sing	13	nmod:npmod	_	_
+12	bawah	bawah	NOUN	_	Number=Sing	13	nmod:lmod	_	_
 13	komando	komando	NOUN	_	Number=Sing	9	nmod	_	_
 14	Jenderal	jenderal	NOUN	_	Number=Sing	13	nmod	_	_
 15	John	John	PROPN	_	_	14	nmod	_	_
@@ -23563,7 +23563,7 @@
 26	tahta	tahta	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	di	di	ADP	_	_	30	case	_	_
-29	atas	atas	NOUN	_	Number=Sing	30	nmod:npmod	_	_
+29	atas	atas	NOUN	_	Number=Sing	30	nmod:lmod	_	_
 30	tante	tante	NOUN	_	Number=Sing	21	obl	_	_
 31	mereka	mereka	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
 32	Isabella	Isabella	PROPN	_	_	30	appos	_	_
