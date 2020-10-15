@@ -38,7 +38,7 @@
 34	postingan	pos	NOUN	_	Number=Sing	25	obl	_	_
 35	blog	blog	NOUN	_	Number=Sing	34	nmod	_	_
 36	pada	pada	ADP	_	_	37	case	_	_
-37	hari	hari	NOUN	_	Number=Sing	25	obl	_	_
+37	hari	hari	NOUN	_	Number=Sing	25	obl:tmod	_	_
 38	Senin	Senin	PROPN	_	_	37	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	22	punct	_	_
 
@@ -398,7 +398,7 @@
 9	menyerang	serang	VERB	_	Mood=Ind|Voice=Act	3	ccomp	_	_
 10	tersangka	sangka	NOUN	_	Number=Sing	9	obj	_	_
 11	pada	pada	ADP	_	_	12	case	_	_
-12	bulan	bulan	NOUN	_	Number=Sing	9	obl	_	_
+12	bulan	bulan	NOUN	_	Number=Sing	9	obl:tmod	_	_
 13	April	April	PROPN	_	_	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -430,7 +430,7 @@
 4	naik	naik	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	stabil	stabil	ADJ	_	_	4	advmod	_	_
 6	selama	lama	ADP	_	_	7	case	_	_
-7	bertahun-tahun	tahun	NOUN	_	Number=Sing	4	obl	_	_
+7	bertahun-tahun	tahun	NOUN	_	Number=Sing	4	obl:tmod	_	_
 8	—	—	PUNCT	_	_	11	punct	_	_
 9	hanya	hanya	ADV	_	_	11	advmod	_	_
 10	11	11	NUM	_	NumType=Card	11	nummod	_	_
@@ -543,7 +543,7 @@
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
 10	berusia	usia	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 11	dua	dua	NUM	_	NumType=Card	12	nummod	_	_
-12	tahun	tahun	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
+12	tahun	tahun	NOUN	_	Number=Sing	10	obl:tmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01011011
@@ -630,7 +630,7 @@
 8	setelah	telah	SCONJ	_	_	9	mark	_	_
 9	dipecat	pecat	VERB	_	Mood=Ind|Voice=Pass	3	advcl	_	_
 10	di	di	ADP	_	_	11	case	_	_
-11	bulan	bulan	NOUN	_	Number=Sing	9	obl	_	_
+11	bulan	bulan	NOUN	_	Number=Sing	9	obl:tmod	_	_
 12	Juli	Juli	PROPN	_	_	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -656,7 +656,7 @@
 17	pekerjaan	kerja	NOUN	_	Number=Sing	15	obj	_	_
 18	terampil	terampil	ADJ	_	_	17	amod	_	_
 19	hingga	hingga	ADP	_	_	20	case	_	_
-20	2035	2035	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+20	2035	2035	NUM	_	NumType=Card	15	obl:tmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = n01014012
@@ -1278,7 +1278,7 @@
 8	Meksiko	Meksiko	PROPN	_	_	7	nmod	_	_
 9	mulai	mulai	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
 10	dari	dari	ADP	_	_	11	case	_	_
-11	bulan	bulan	NOUN	_	Number=Sing	9	obl	_	_
+11	bulan	bulan	NOUN	_	Number=Sing	9	obl:tmod	_	_
 12	April	April	PROPN	_	_	11	nmod	_	_
 13	hingga	hingga	ADP	_	_	14	case	_	_
 14	Juni	Juni	PROPN	_	_	12	nmod	_	SpaceAfter=No
@@ -1352,7 +1352,7 @@
 15	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 16	setelah	telah	ADP	_	_	18	case	_	_
 17	17	17	NUM	_	NumType=Card	18	nummod	_	_
-18	hari	hari	NOUN	_	Number=Sing	15	obl	_	_
+18	hari	hari	NOUN	_	Number=Sing	15	obl:tmod	_	_
 19	-	-	PUNCT	_	_	22	punct	_	_
 20	sedikit	sedikit	ADJ	_	_	22	advmod	_	_
 21	lebih	lebih	ADV	_	_	22	advmod	_	_
@@ -1400,7 +1400,7 @@
 21	Internasional	Internasional	PROPN	_	_	18	flat	_	_
 22	selama	lama	ADP	_	_	24	case	_	_
 23	enam	enam	NUM	_	NumType=Card	24	nummod	_	_
-24	bulan	bulan	NOUN	_	Number=Sing	16	obl	_	_
+24	bulan	bulan	NOUN	_	Number=Sing	16	obl:tmod	_	_
 25	tanpa	tanpa	SCONJ	_	_	26	mark	_	_
 26	memiliki	milik	VERB	_	Mood=Ind|Voice=Act	14	advcl	_	_
 27	dampak	dampak	NOUN	_	Number=Sing	26	obj	_	_
@@ -1715,7 +1715,7 @@
 26	dan	dan	CCONJ	_	_	27	cc	_	_
 27	Sakhalin	Sakhalin	PROPN	_	_	25	conj	_	_
 28	di	di	ADP	_	_	29	case	_	_
-29	bulan	bulan	NOUN	_	Number=Sing	24	obl	_	_
+29	bulan	bulan	NOUN	_	Number=Sing	24	obl:tmod	_	_
 30	September	September	PROPN	_	_	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -1836,7 +1836,7 @@
 25	lokasi	lokasi	NOUN	_	Number=Sing	23	obl	_	_
 26	syuting	syuting	NOUN	_	Number=Sing	25	nmod	_	_
 27	pada	pada	ADP	_	_	28	case	_	_
-28	hari	hari	NOUN	_	Number=Sing	23	obl	_	_
+28	hari	hari	NOUN	_	Number=Sing	23	obl:tmod	_	_
 29	Selasa	Selasa	PROPN	_	_	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1979,9 +1979,9 @@
 4	menerima	terima	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	pengobatan	obat	NOUN	_	Number=Sing	4	obj	_	_
 6	di	di	ADP	_	_	7	case	_	_
-7	Rumah	Rumah	PROPN	_	_	4	obl	_	_
-8	Sakit	Sakit	PROPN	_	_	7	flat	_	_
-9	Papworth	Papworth	PROPN	_	_	7	flat	_	_
+7	Rumah	Rumah	NOUN	_	_	4	obl	_	_
+8	Sakit	Sakit	NOUN	_	_	7	nmod	_	_
+9	Papworth	Papworth	PROPN	_	_	7	nmod	_	_
 10	dan	dan	CCONJ	_	_	11	cc	_	_
 11	Addenbrooke	Addenbrooke	PROPN	_	_	9	conj	_	_
 12	di	di	ADP	_	_	13	case	_	_
@@ -2603,7 +2603,7 @@
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
 8	menghasut	hasut	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 9	dari	dari	ADP	_	_	10	case	_	_
-10	bulan	bulan	NOUN	_	Number=Sing	8	obl	_	_
+10	bulan	bulan	NOUN	_	Number=Sing	8	obl:tmod	_	_
 11	September	September	PROPN	_	_	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	yang	yang	PRON	_	PronType=Rel	14	nsubj:pass	_	_
@@ -2733,7 +2733,7 @@
 16	besar	besar	ADJ	_	_	15	csubj	_	_
 17	nya	nya	DET	_	_	16	det	_	_
 18	untuk	untuk	ADP	_	_	19	case	_	_
-19	2015	2015	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+19	2015	2015	NUM	_	NumType=Card	15	obl:tmod	_	SpaceAfter=No
 20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	2016	2016	NUM	_	NumType=Card	19	flat	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
@@ -4193,7 +4193,7 @@
 14	akan	akan	AUX	_	_	15	aux	_	_
 15	bertarung	tarung	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 16	pada	pada	ADP	_	_	17	case	_	_
-17	tanggal	tanggal	NOUN	_	Number=Sing	15	obl	_	_
+17	tanggal	tanggal	NOUN	_	Number=Sing	15	obl:tmod	_	_
 18	1	1	NUM	_	NumType=Card	17	nmod:tmod	_	_
 19	Desember	Desember	PROPN	_	_	18	flat	_	_
 
@@ -4210,7 +4210,7 @@
 8	yang	yang	PRON	_	PronType=Rel	9	nsubj	_	_
 9	kaya	kaya	ADJ	_	_	6	acl:relcl	_	_
 10	hingga	hingga	ADP	_	_	11	case	_	_
-11	2010	2010	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+11	2010	2010	NUM	_	NumType=Card	5	obl:tmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	berharap	harap	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 14-15	merebutnya	_	_	_	_	_	_	_	_
@@ -4332,7 +4332,7 @@
 16	beroperasi	operasi	VERB	_	Mood=Ind|Voice=Act	15	xcomp	_	_
 17	selama	lama	ADP	_	_	19	case	_	_
 18	10	10	NUM	_	NumType=Card	19	nummod	_	_
-19	hari	hari	NOUN	_	Number=Sing	15	obl	_	SpaceAfter=No
+19	hari	hari	NOUN	_	Number=Sing	15	obl:tmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	berikut	ikut	VERB	_	Mood=Ind|Voice=Act	15	advcl	_	_
 22	generator	generator	NOUN	_	Number=Sing	21	obl	_	_
@@ -4368,7 +4368,7 @@
 4	BBC	BBC	PROPN	_	Abbr=Yes	2	obl	_	_
 5	selama	lama	ADP	_	_	7	case	_	_
 6	satu	satu	NUM	_	NumType=Card	7	nummod	_	_
-7	dekade	dekade	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
+7	dekade	dekade	NOUN	_	Number=Sing	2	obl:tmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01072021
@@ -5045,7 +5045,7 @@
 # text_en = Fast forward to 2016 and this is increasingly worthy of attention.
 1	Masuk	masuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 2	ke	ke	ADP	_	_	3	case	_	_
-3	2016	2016	NUM	_	NumType=Card	1	obl	_	_
+3	2016	2016	NUM	_	NumType=Card	1	obl:tmod	_	_
 4	dan	dan	CCONJ	_	_	8	cc	_	_
 5	hal	hal	NOUN	_	Number=Sing	8	nsubj	_	_
 6	ini	ini	DET	_	PronType=Dem	5	det	_	_
@@ -6113,7 +6113,7 @@
 13	Monte	Monte	PROPN	_	_	8	obl	_	_
 14	Carlo	Carlo	PROPN	_	_	13	flat	_	_
 15	pada	pada	ADP	_	_	16	case	_	_
-16	bulan	bulan	NOUN	_	Number=Sing	8	obl	_	_
+16	bulan	bulan	NOUN	_	Number=Sing	8	obl:tmod	_	_
 17	April	April	PROPN	_	_	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -6201,7 +6201,7 @@
 7	telah	telah	AUX	_	_	8	aux	_	_
 8	berjalan	jalan	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	_
 9	selama	lama	ADP	_	_	10	case	_	_
-10	bertahun-tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+10	bertahun-tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 11	-	-	PUNCT	_	_	8	punct	_	_
 12	merontokkan	rontok	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 13	miliaran	miliar	NUM	_	NumType=Card	14	nummod	_	_
@@ -6256,7 +6256,7 @@
 1	Penyelidikan	selidik	NOUN	_	Number=Sing	2	nsubj:pass	_	_
 2	dimulai	mulai	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 3	di	di	ADP	_	_	4	case	_	_
-4	bulan	bulan	NOUN	_	Number=Sing	2	obl	_	_
+4	bulan	bulan	NOUN	_	Number=Sing	2	obl:tmod	_	_
 5	Juni	Juni	PROPN	_	_	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	fokus	fokus	NOUN	_	Number=Sing	2	parataxis	_	_
@@ -6309,7 +6309,7 @@
 6	mulai	mulai	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 7	berkontraksi	kontraksi	VERB	_	Mood=Ind|Voice=Act	6	xcomp	_	_
 8	pada	pada	ADP	_	_	9	case	_	_
-9	bulan	bulan	NOUN	_	Number=Sing	7	obl	_	_
+9	bulan	bulan	NOUN	_	Number=Sing	7	obl:tmod	_	_
 10	July	July	PROPN	_	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	segera	segera	ADV	_	_	14	advmod	_	_
@@ -6379,7 +6379,7 @@
 3	akan	akan	AUX	_	_	4	aux	_	_
 4	berubah	ubah	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	setiap	tiap	DET	_	PronType=Tot	6	det	_	_
-6	bulan	bulan	NOUN	_	Number=Sing	4	obl	_	_
+6	bulan	bulan	NOUN	_	Number=Sing	4	obl:tmod	_	_
 7	dan	dan	CCONJ	_	_	10	cc	_	_
 8-9	harganya	_	_	_	_	_	_	_	_
 8	harga	harga	NOUN	_	Number=Sing	10	nsubj:pass	_	_
@@ -6387,7 +6387,7 @@
 10	diharapkan	harap	VERB	_	Mood=Ind|Voice=Pass	4	conj	_	_
 11	naik	naik	VERB	_	Mood=Ind|Voice=Act	10	xcomp	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	musim	musim	NOUN	_	Number=Sing	11	obl	_	_
+13	musim	musim	NOUN	_	Number=Sing	11	obl:tmod	_	_
 14	dingin	dingin	ADJ	_	_	13	amod	_	_
 15	seiring	iring	SCONJ	_	_	16	mark	_	_
 16-17	meningkatnya	_	_	_	_	_	_	_	_
@@ -6460,7 +6460,7 @@
 14	£	£	SYM	_	_	13	obj	_	_
 15	125	125	NUM	_	NumType=Card	14	nummod	_	_
 16	per	per	ADP	_	_	17	case	_	_
-17	tahun	tahun	NOUN	_	Number=Sing	13	obl	_	SpaceAfter=No
+17	tahun	tahun	NOUN	_	Number=Sing	13	obl:tmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = n01110008
@@ -6724,7 +6724,7 @@
 21	sangat	sangat	ADV	_	_	22	advmod	_	_
 22	dingin	dingin	ADJ	_	_	20	xcomp	_	_
 23	di	di	ADP	_	_	24	case	_	_
-24	musim	musim	NOUN	_	Number=Sing	22	obl	_	_
+24	musim	musim	NOUN	_	Number=Sing	22	obl:tmod	_	_
 25	dingin	dingin	ADJ	_	_	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -6735,7 +6735,7 @@
 2	akan	akan	AUX	_	_	3	aux	_	_
 3	main	main	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	hari	hari	NOUN	_	Number=Sing	3	obl	_	_
+5	hari	hari	NOUN	_	Number=Sing	3	obl:tmod	_	_
 6	Sabtu	Sabtu	PROPN	_	_	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	10	10	NUM	_	NumType=Card	5	appos	_	_
@@ -6880,7 +6880,7 @@
 11	TV	tv	NOUN	_	Abbr=Yes|Number=Sing	9	conj	_	_
 12	selama	lama	ADP	_	_	14	case	_	_
 13	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	14	det	_	_
-14	dekade	dekade	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
+14	dekade	dekade	NOUN	_	Number=Sing	2	obl:tmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n01117014
@@ -7197,7 +7197,7 @@
 1	Cotton	Cotton	PROPN	_	_	2	nsubj:pass	_	_
 2	dilahirkan	lahir	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 3	pada	pada	ADP	_	_	4	case	_	_
-4	tanggal	tanggal	NOUN	_	Number=Sing	2	obl	_	_
+4	tanggal	tanggal	NOUN	_	Number=Sing	2	obl:tmod	_	_
 5	31	31	NUM	_	NumType=Card	4	nmod	_	_
 6	Oktober	Oktober	PROPN	_	_	5	flat	_	_
 7	1832	1832	NUM	_	NumType=Card	5	flat	_	_
@@ -7538,7 +7538,7 @@
 13	menimbulkan	timbul	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 14	kekacauan	kacau	NOUN	_	Number=Sing	13	obj	_	_
 15	pada	pada	ADP	_	_	16	case	_	_
-16	hari	hari	NOUN	_	Number=Sing	13	obl	_	_
+16	hari	hari	NOUN	_	Number=Sing	13	obl:tmod	_	_
 17	pemilihan	pilih	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -7604,7 +7604,7 @@
 10	setelah	telah	ADP	_	_	13	case	_	_
 11	sekitar	kitar	ADV	_	_	13	advmod	_	_
 12	dua	dua	NUM	_	NumType=Card	13	nummod	_	_
-13	minggu	minggu	NOUN	_	Number=Sing	8	obl	_	_
+13	minggu	minggu	NOUN	_	Number=Sing	8	obl:tmod	_	_
 14	pemilihan	pilih	NOUN	_	Number=Sing	13	nmod	_	_
 15	suara	suara	NOUN	_	Number=Sing	14	nmod	_	_
 16	awal	awal	NOUN	_	Number=Sing	14	nmod	_	_
@@ -7955,7 +7955,7 @@
 13	Things	Things	PROPN	_	_	12	flat	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	12	punct	_	_
 15	di	di	ADP	_	_	16	case	_	_
-16	musim	musim	NOUN	_	Number=Sing	8	obl	_	_
+16	musim	musim	NOUN	_	Number=Sing	8	obl:tmod	_	_
 17	liburan	libur	NOUN	_	Number=Sing	16	nmod	_	_
 18	ini	ini	DET	_	PronType=Dem	16	det	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
@@ -8083,7 +8083,7 @@
 # text = Untuk sekarang, analis ragu untuk mencoret layanan untuk orang mati.
 # text_en = For now, analysts are hesitant to write off the service for dead.
 1	Untuk	untuk	ADP	_	_	2	case	_	_
-2	sekarang	sekarang	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
+2	sekarang	sekarang	NOUN	_	Number=Sing	5	obl:tmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	analis	analis	NOUN	_	Number=Sing	5	nsubj	_	_
 5	ragu	ragu	ADJ	_	_	0	root	_	_
@@ -8122,7 +8122,7 @@
 1	Microsoft	Microsoft	PROPN	_	_	2	nsubj	_	_
 2	mengumumkan	umum	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	pada	pada	ADP	_	_	4	case	_	_
-4	hari	hari	NOUN	_	Number=Sing	2	obl	_	_
+4	hari	hari	NOUN	_	Number=Sing	2	obl:tmod	_	_
 5	Rabu	Rabu	PROPN	_	_	4	nmod	_	_
 6	tentang	tentang	ADP	_	_	7	case	_	_
 7	alat	alat	NOUN	_	Number=Sing	2	obl	_	_
@@ -8431,10 +8431,10 @@
 4	yang	yang	PRON	_	PronType=Rel	5	nsubj:pass	_	_
 5	diharapkan	harap	VERB	_	Mood=Ind|Voice=Pass	3	acl:relcl	_	_
 6	Meksiko	Meksiko	PROPN	_	_	5	obl:agent	_	_
-7	pada	pada	ADP	_	_	8	case	_	_
+7	pada	pada	ADP	_	_	9	case	_	_
 8-9	akhirnya	_	_	_	_	_	_	_	_
-8	akhir	akhir	NOUN	_	Number=Sing	11	obl	_	_
-9	nya	nya	DET	_	_	8	det	_	_
+8	akhir	akhir	NOUN	_	Number=Sing	9	nmod:lmod	_	_
+9	nya	nya	PRON	_	_	11	obl	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
 11	menyaingi	saing	VERB	_	Mood=Ind|Voice=Act	5	xcomp	_	_
 12	Karnaval	Karnaval	PROPN	_	_	11	obj	_	_
@@ -8950,7 +8950,7 @@
 5	Athena	Athena	PROPN	_	_	1	appos	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	pada	pada	ADP	_	_	8	case	_	_
-8	abad	abad	NOUN	_	Number=Sing	11	obl	_	_
+8	abad	abad	NOUN	_	Number=Sing	11	obl:tmod	_	_
 9	ke-5	5	ADJ	_	NumType=Ord	8	amod	_	_
 10	SM	sm	NOUN	_	Abbr=Yes	9	nmod	_	_
 11	bergantung	gantung	VERB	_	Mood=Ind|Voice=Act	1	acl	_	_
@@ -9123,7 +9123,7 @@
 # text = Pada bulan Juli 1918, Perjanjian Franco-Monegasque ditandatangani, memberikan perlindungan terbatas dari Prancis atas Monako.
 # text_en = In July 1918, the Franco-Monegasque Treaty was signed, providing for limited French protection over Monaco.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	8	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	Juli	Juli	PROPN	_	_	2	nmod	_	_
 4	1918	1918	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -9274,7 +9274,7 @@
 6	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	_
 7	selama	lama	ADP	_	_	9	case	_	_
 8	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	9	det	_	_
-9	bulan	bulan	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+9	bulan	bulan	NOUN	_	Number=Sing	6	obl:tmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	menyambut	sambut	VERB	_	Mood=Ind|Voice=Act	6	conj	_	_
 12	musim	musim	NOUN	_	Number=Sing	11	obj	_	_
@@ -9296,7 +9296,7 @@
 8	menyeberangi	seberang	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 9	Moravia	Moravia	PROPN	_	_	8	obj	_	_
 10	selama	lama	ADP	_	_	11	case	_	_
-11	Periode	periode	NOUN	_	Number=Sing	8	obl	_	_
+11	Periode	periode	NOUN	_	Number=Sing	8	obl:tmod	_	_
 12	Migrasi	migrasi	NOUN	_	Number=Sing	11	nmod	_	_
 13	sebelum	belum	SCONJ	_	_	16	mark	_	_
 14	kaum	kaum	NOUN	_	Number=Sing	16	nsubj	_	_
@@ -9306,7 +9306,7 @@
 17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	16	obj	_	_
 18	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
 19	pada	pada	ADP	_	_	20	case	_	_
-20	abad	abad	NOUN	_	Number=Sing	16	obl	_	_
+20	abad	abad	NOUN	_	Number=Sing	16	obl:tmod	_	_
 21	ke-6	6	ADJ	_	NumType=Ord	20	amod	_	_
 22	M	M	NOUN	_	Abbr=Yes	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	8	punct	_	_
@@ -9694,7 +9694,7 @@
 # text = Pada 1 Oktober 1961, bekas Kamerun Selatan yang dikuasai Inggris bersatu dengan Kamerun Prancis untuk membentuk Republik Federal Kamerun.
 # text_en = On 1 October 1961, the formerly British Southern Cameroons united with French Cameroun to form the Federal Republic of Cameroon.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	1	1	NUM	_	NumType=Card	12	obl	_	_
+2	1	1	NUM	_	NumType=Card	12	obl:tmod	_	_
 3	Oktober	Oktober	PROPN	_	_	2	flat	_	_
 4	1961	1961	NUM	_	NumType=Card	2	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -9737,7 +9737,7 @@
 17	5	5	NUM	_	NumType=Card	20	nummod	_	_
 18	hingga	hingga	ADP	_	_	19	case	_	_
 19	14	14	NUM	_	NumType=Card	17	nmod	_	_
-20	tahun	tahun	NOUN	_	Number=Sing	16	obl	_	_
+20	tahun	tahun	NOUN	_	Number=Sing	16	obl:tmod	_	_
 21	adalah	adalah	AUX	_	_	22	cop	_	_
 22	anak-anak	anak	NOUN	_	Number=Plur	11	ccomp	_	_
 23	pekerja	kerja	NOUN	_	Number=Sing	22	nmod	_	_
@@ -9751,7 +9751,7 @@
 31	7	7	NUM	_	NumType=Card	34	nummod	_	_
 32	hingga	hingga	ADP	_	_	33	case	_	_
 33	14	14	NUM	_	NumType=Card	31	nmod	_	_
-34	tahun	tahun	NOUN	_	Number=Sing	30	obl	_	_
+34	tahun	tahun	NOUN	_	Number=Sing	30	obl:tmod	_	_
 35	bekerja	kerja	VERB	_	Mood=Ind|Voice=Act	22	conj	_	_
 36	dan	dan	CCONJ	_	_	38	cc	_	_
 37	juga	juga	ADV	_	_	38	advmod	_	_
@@ -9784,7 +9784,7 @@
 # text = Di bulan Juni hingga Agustus 2010 kelaparan melanda Sahel.
 # text_en = In June to August 2010 famine struck the Sahel.
 1	Di	di	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	8	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	Juni	Juni	PROPN	_	_	2	nmod	_	_
 4	hingga	hingga	ADP	_	_	5	case	_	_
 5	Agustus	Agustus	PROPN	_	_	3	nmod	_	_
@@ -9918,7 +9918,7 @@
 # text_en = Later, when Augustus founded the Roman Empire, the Romans referred to the Mediterranean as Mare Nostrum ("Our Sea").
 1	Di	di	ADP	_	_	3	case	_	_
 2	kemudian	kemudian	ADV	_	_	3	advmod	_	_
-3	hari	hari	NOUN	_	Number=Sing	13	obl	_	SpaceAfter=No
+3	hari	hari	NOUN	_	Number=Sing	13	obl:tmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	ketika	ketika	ADV	_	PronType=Rel	7	advmod	_	_
 6	Augustus	Augustus	PROPN	_	_	7	nsubj	_	_
@@ -10064,7 +10064,7 @@
 12	beku	beku	ADJ	_	_	11	advmod	_	_
 13	keras	keras	ADJ	_	_	12	advmod	_	_
 14	di	di	ADP	_	_	15	case	_	_
-15	musim	musim	NOUN	_	Number=Sing	11	obl	_	_
+15	musim	musim	NOUN	_	Number=Sing	11	obl:tmod	_	_
 16	dingin	dingin	ADJ	_	_	15	amod	_	_
 17	yang	yang	PRON	_	PronType=Rel	18	nsubj	_	_
 18	keras	keras	ADJ	_	_	15	acl:relcl	_	SpaceAfter=No
@@ -11002,7 +11002,7 @@
 17	atas	atas	NOUN	_	Number=Sing	18	obl	_	_
 18	beku	beku	ADJ	_	_	5	acl:relcl	_	_
 19	selama	lama	ADP	_	_	20	case	_	_
-20	bulan-bulan	bulan	NOUN	_	Number=Plur	18	obl	_	_
+20	bulan-bulan	bulan	NOUN	_	Number=Plur	18	obl:tmod	_	_
 21	musim	musim	NOUN	_	Number=Sing	20	nmod:tmod	_	_
 22	dingin	dingin	ADJ	_	_	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
@@ -11091,7 +11091,7 @@
 2	diproklamirkan	proklamasi	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 3	sebagai	bagai	ADP	_	_	5	case	_	_
 4	“	“	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Tahun	tahun	NOUN	_	Number=Sing	2	obl	_	_
+5	Tahun	tahun	NOUN	_	Number=Sing	2	obl:tmod	_	_
 6	Sungai	sungai	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	5	punct	_	_
 8	oleh	oleh	ADP	_	_	9	case	_	_
@@ -11264,7 +11264,7 @@
 8	melaporkan	lapor	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
 9	hanya	hanya	ADV	_	_	10	advmod	_	_
 10	tujuh	tujuh	NUM	_	NumType=Card	11	nummod	_	_
-11	hari	hari	NOUN	_	Number=Sing	8	obl	_	_
+11	hari	hari	NOUN	_	Number=Sing	8	obl:tmod	_	_
 12	hujan	hujan	NOUN	_	Number=Sing	8	obl	_	_
 13	badai	badai	NOUN	_	Number=Sing	12	nmod	_	_
 14	per	per	ADP	_	_	15	case	_	_
@@ -11374,7 +11374,7 @@
 25	Eropa	Eropa	PROPN	_	_	24	nmod	_	_
 26	selama	lama	ADP	_	_	28	case	_	_
 27	akhir	akhir	NOUN	_	Number=Sing	28	nmod:lmod	_	_
-28	abad	abad	NOUN	_	Number=Sing	22	obl	_	_
+28	abad	abad	NOUN	_	Number=Sing	22	obl:tmod	_	_
 29	ke-15	15	ADJ	_	NumType=Ord	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -11429,7 +11429,7 @@
 # text = Selama abad pengembangan pertama, dominasi orang Spanyol di wilayah ini tetap tak terbantahkan.
 # text_en = During the first century of development, Spanish dominance in the region remained undisputed.
 1	Selama	lama	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	14	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	14	obl:tmod	_	_
 3	pengembangan	kembang	NOUN	_	Number=Sing	2	nmod	_	_
 4	pertama	pertama	ADJ	_	NumType=Ord	2	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -11448,7 +11448,7 @@
 # text = Mulai abad ke-16, orang Eropa yang mengunjungi wilayah Karibia menyebutnya “Laut Selatan” (Samudra Pasifik, di sebelah selatan tanah genting Panama), bukan “Laut Utara” (Laut Karibia, di sebelah utara tanah genting yang sama).
 # text_en = From the 16th century, Europeans visiting the Caribbean region identified the "South Sea" (the Pacific Ocean, to the south of the isthmus of Panama) as opposed to the "North Sea" (the Caribbean Sea, to the north of the same isthmus).
 1	Mulai	mulai	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	11	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	11	obl:tmod	_	_
 3	ke-16	16	ADJ	_	NumType=Ord	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	orang	orang	NOUN	_	Number=Sing	11	nsubj	_	_
@@ -12020,7 +12020,7 @@
 28	tentara	tentara	NOUN	_	Number=Sing	25	nsubj	_	_
 29	Mesir	Mesir	PROPN	_	_	28	nmod	_	_
 30	sejak	sejak	ADP	_	_	31	case	_	_
-31	masa	masa	NOUN	_	Number=Sing	24	obl	_	_
+31	masa	masa	NOUN	_	Number=Sing	24	obl:tmod	_	_
 32	Thutmose	Thutmose	PROPN	_	_	31	nmod	_	_
 33	III	iii	ADJ	_	NumType=Ord	32	amod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
@@ -12050,7 +12050,7 @@
 15	zirah	zirah	NOUN	_	Number=Sing	14	nmod	_	_
 16	hingga	hingga	ADP	_	_	18	case	_	_
 17	dua	dua	NUM	_	NumType=Card	18	nummod	_	_
-18	jam	jam	NOUN	_	Number=Sing	13	obl	_	_
+18	jam	jam	NOUN	_	Number=Sing	13	obl:tmod	_	_
 19	setelah	telah	SCONJ	_	_	21	mark	_	_
 20	pertempuran	tempur	NOUN	_	Number=Sing	21	nsubj:pass	_	_
 21	dimulai	mulai	VERB	_	Mood=Ind|Voice=Pass	18	acl	_	SpaceAfter=No
@@ -12082,7 +12082,7 @@
 4	di	di	ADP	_	_	5	case	_	_
 5	Yerusalem	Yerusalem	PROPN	_	_	3	obl	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	waktu	waktu	NOUN	_	Number=Sing	3	obl	_	_
+7	waktu	waktu	NOUN	_	Number=Sing	3	obl:tmod	_	_
 8	itu	itu	DET	_	PronType=Dem	7	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	Pilatus	Pilatus	PROPN	_	_	11	nsubj	_	_
@@ -12131,7 +12131,7 @@
 4	bisa	bisa	AUX	_	_	5	aux	_	_
 5	jatuh	jatuh	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	hari	hari	NOUN	_	Number=Sing	5	obl	_	_
+7	hari	hari	NOUN	_	Number=Sing	5	obl:tmod	_	_
 8	Jumat	Jumat	PROPN	_	_	7	nmod:tmod	_	_
 9	jika	jika	SCONJ	_	_	16	mark	_	_
 10	bulan	bulan	NOUN	_	Number=Sing	16	nsubj:pass	_	_
@@ -12247,7 +12247,7 @@
 # text = Di masa-masa berikutnya penulis drama, sejarawan, dan para intelektual lain membuat karya-karya yang diilhami oleh Perang Troya.
 # text_en = In later ages playwrights, historians, and other intellectuals would create works inspired by the Trojan War.
 1	Di	di	ADP	_	_	2	case	_	_
-2	masa-masa	masa	NOUN	_	Number=Plur	13	obl	_	_
+2	masa-masa	masa	NOUN	_	Number=Plur	13	obl:tmod	_	_
 3	berikutnya	ikut	ADJ	_	_	2	amod	_	_
 4	penulis	tulis	NOUN	_	Number=Sing	13	nsubj	_	_
 5	drama	drama	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
@@ -12422,7 +12422,7 @@
 15	Khitan	Khitan	PROPN	_	_	14	flat	_	_
 16	Liao	Liao	PROPN	_	_	14	flat	_	_
 17	di	di	ADP	_	_	18	case	_	_
-18	musim	musim	NOUN	_	Number=Sing	10	obl	_	_
+18	musim	musim	NOUN	_	Number=Sing	10	obl:tmod	_	_
 19	panas	panas	ADJ	_	_	18	amod	_	_
 20	1075	1075	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
@@ -12754,7 +12754,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	diikuti	ikut	VERB	_	Mood=Ind|Voice=Pass	5	acl	_	_
 14	dengan	dengan	ADP	_	_	15	case	_	_
-15	hari	hari	NOUN	_	Number=Sing	13	obl	_	SpaceAfter=No
+15	hari	hari	NOUN	_	Number=Sing	13	obl:tmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	tanggal	tanggal	NOUN	_	Number=Sing	15	conj	_	_
 18	kalender	kalender	NOUN	_	Number=Sing	17	nmod	_	_
@@ -12922,7 +12922,7 @@
 # text = Pada tanggal 9 September 2002, Aldrin dibujuk ke sebuah hotel di Beverly Hills dengan dalih diwawancarai untuk sebuah acara televisi anak-anak Jepang tentang ruang angkasa.
 # text_en = On September 9, 2002, Aldrin was lured to a Beverly Hills hotel on the pretext of being interviewed for a Japanese children's television show on the subject of space.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tanggal	tanggal	NOUN	_	Number=Sing	8	obl	_	_
+2	tanggal	tanggal	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
 4	September	September	PROPN	_	_	3	flat	_	_
 5	2002	2002	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
@@ -13189,7 +13189,7 @@
 # text = Selama periode Pasca-Klasik di Yucatán, sistem ketiga digunakan.
 # text_en = During the Post-Classic period in Yucatán a third system was in use.
 1	Selama	lama	ADP	_	_	2	case	_	_
-2	periode	periode	NOUN	_	Number=Sing	9	obl	_	_
+2	periode	periode	NOUN	_	Number=Sing	9	obl:tmod	_	_
 3	Pasca-Klasik	Pasca-Klasik	PROPN	_	_	2	nmod	_	_
 4	di	di	ADP	_	_	5	case	_	_
 5	Yucatán	Yucatán	PROPN	_	_	2	nmod	_	SpaceAfter=No
@@ -13249,7 +13249,7 @@
 # text = Selama tahap-tahap awal Romanisasi, semenanjung ini dibagi dua oleh bangsa Roma untuk tujuan administratif.
 # text_en = During the first stages of Romanization, the peninsula was divided in two by the Romans for administrative purposes.
 1	Selama	lama	ADP	_	_	2	case	_	_
-2	tahap-tahap	tahap	NOUN	_	Number=Plur	8	obl	_	_
+2	tahap-tahap	tahap	NOUN	_	Number=Plur	8	obl:tmod	_	_
 3	awal	awal	NOUN	_	Number=Sing	2	nmod	_	_
 4	Romanisasi	Romanisasi	PROPN	_	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -13269,7 +13269,7 @@
 # text = Pada abad ke-3 Kaisar Caracalla membuat sebuah divisi baru yang tidak lama bertahan.
 # text_en = By the 3rd century the emperor Caracalla made a new division which lasted only a short time.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	6	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	ke-3	3	ADJ	_	NumType=Ord	2	amod	_	_
 4	Kaisar	Kaisar	PROPN	_	_	6	nsubj	_	_
 5	Caracalla	Caracalla	PROPN	_	_	4	nmod	_	_
@@ -13384,7 +13384,7 @@
 11	Surat	surat	NOUN	_	Number=Sing	9	obl	_	_
 12	Kabar	kabar	NOUN	_	Number=Sing	11	nmod	_	_
 13	antara	antara	ADP	_	_	14	case	_	_
-14	bulan	bulan	NOUN	_	Number=Sing	9	obl	_	_
+14	bulan	bulan	NOUN	_	Number=Sing	9	obl:tmod	_	_
 15	November	November	PROPN	_	_	14	nmod	_	_
 16	1886	1886	NUM	_	NumType=Card	15	flat	_	_
 17	dan	dan	CCONJ	_	_	18	cc	_	_
@@ -13583,7 +13583,7 @@
 37	akan	akan	AUX	_	_	38	aux	_	_
 38	makmur	makmur	ADJ	_	_	34	ccomp	_	_
 39	di	di	ADP	_	_	40	case	_	_
-40	masa	masa	NOUN	_	Number=Sing	38	obl	_	_
+40	masa	masa	NOUN	_	Number=Sing	38	obl:tmod	_	_
 41	depan	depan	NOUN	_	Number=Sing	40	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -13984,7 +13984,7 @@
 3	ini	ini	DET	_	PronType=Dem	1	det	_	_
 4	muncul	muncul	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	periode	periode	NOUN	_	Number=Sing	4	obl	_	_
+6	periode	periode	NOUN	_	Number=Sing	4	obl:tmod	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
 8	sama	sama	ADJ	_	_	6	acl:relcl	_	_
 9	dengan	dengan	ADP	_	_	10	case	_	_
@@ -14003,7 +14003,7 @@
 7	ke-16	16	ADJ	_	NumType=Ord	6	amod	_	_
 8	membawa	bawa	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 9	ke	ke	ADP	_	_	10	case	_	_
-10	periode	periode	NOUN	_	Number=Sing	8	obl	_	_
+10	periode	periode	NOUN	_	Number=Sing	8	obl:tmod	_	_
 11	pertumbuhan	tumbuh	NOUN	_	Number=Sing	10	nmod	_	_
 12	ekonomi	ekonomi	NOUN	_	Number=Sing	11	nmod	_	_
 13	yang	yang	PRON	_	PronType=Rel	14	nsubj	_	_
@@ -14629,7 +14629,7 @@
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	terbunuh	bunuh	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 28	selama	lama	ADP	_	_	29	case	_	_
-29	masa	masa	NOUN	_	Number=Sing	27	obl	_	_
+29	masa	masa	NOUN	_	Number=Sing	27	obl:tmod	_	_
 30	pendudukan	duduk	NOUN	_	Number=Sing	29	nmod	_	_
 31	tentara	tentara	NOUN	_	Number=Sing	30	nmod	_	_
 32	Jepang	Jepang	PROPN	_	_	31	nmod	_	SpaceAfter=No
@@ -15267,7 +15267,7 @@
 9	menangkap	tangkap	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	Lubumbashi	Lubumbashi	PROPN	_	_	9	obj	_	_
 11	di	di	ADP	_	_	12	case	_	_
-12	bulan	bulan	NOUN	_	Number=Sing	9	obl	_	_
+12	bulan	bulan	NOUN	_	Number=Sing	9	obl:tmod	_	_
 13	April	April	PROPN	_	_	12	nmod	_	_
 14	1997	1997	NUM	_	NumType=Card	13	flat	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
@@ -15307,7 +15307,7 @@
 7	Hitchcock	Hitchcock	PROPN	_	_	6	nmod:poss	_	_
 8	selama	lama	ADP	_	_	10	case	_	_
 9	dua	dua	NUM	_	NumType=Card	10	nummod	_	_
-10	dekade	dekade	NOUN	_	Number=Sing	5	obl	_	_
+10	dekade	dekade	NOUN	_	Number=Sing	5	obl:tmod	_	_
 11	terakhir	akhir	ADJ	_	Degree=Sup	10	amod	_	_
 12-13	kehidupannya	_	_	_	_	_	_	_	SpaceAfter=No
 12	kehidupan	hidup	NOUN	_	Number=Sing	10	nmod	_	_
@@ -15397,7 +15397,7 @@
 # text = Pada tanggal 10 Maret 1896, Herzl dikunjungi oleh Pendeta William Hechler, pelayan Anglican untuk Kedutaan Inggris.
 # text_en = On March 10, 1896, Herzl was visited by Reverend William Hechler, the Anglican minister to the British Embassy.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tanggal	tanggal	NOUN	_	Number=Sing	8	obl	_	_
+2	tanggal	tanggal	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	10	10	NUM	_	NumType=Card	2	nummod	_	_
 4	Maret	Maret	PROPN	_	_	3	flat	_	_
 5	1896	1896	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
@@ -15517,7 +15517,7 @@
 2	dinyatakan	nyata	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 3	bangkrut	bangkrut	VERB	_	Mood=Ind|Voice=Act	2	xcomp	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	tanggal	tanggal	NOUN	_	Number=Sing	2	obl	_	_
+5	tanggal	tanggal	NOUN	_	Number=Sing	2	obl:tmod	_	_
 6	4	4	NUM	_	NumType=Card	5	nummod	_	_
 7	Oktober	Oktober	PROPN	_	_	6	flat	_	_
 8	1988	1988	NUM	_	NumType=Card	6	flat	_	_
@@ -15745,7 +15745,7 @@
 5	gelar	gelar	NOUN	_	Number=Sing	4	obj	_	_
 6	M.A.	M.A.	PROPN	_	Abbr=Yes	5	nmod	_	_
 7	pada	pada	ADP	_	_	8	case	_	_
-8	21	21	NUM	_	NumType=Card	2	obl	_	_
+8	21	21	NUM	_	NumType=Card	2	obl:tmod	_	_
 9	April	April	PROPN	_	_	8	flat	_	_
 10	1882	1882	NUM	_	NumType=Card	8	flat	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -16042,7 +16042,7 @@
 4	You	You	PROPN	_	_	1	flat	_	_
 5	dirilis	rilis	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	bulan	bulan	NOUN	_	Number=Sing	5	obl	_	_
+7	bulan	bulan	NOUN	_	Number=Sing	5	obl:tmod	_	_
 8	Agustus	Agustus	PROPN	_	_	7	nmod	_	_
 9	dan	dan	CCONJ	_	_	10	cc	_	_
 10	mencapai	capai	VERB	_	Mood=Ind|Voice=Act	5	conj	_	_
@@ -16061,7 +16061,7 @@
 22	,	,	PUNCT	_	_	19	punct	_	_
 23	muncul	muncul	VERB	_	Mood=Ind|Voice=Act	5	parataxis	_	_
 24	pada	pada	ADP	_	_	25	case	_	_
-25	bulan	bulan	NOUN	_	Number=Sing	23	obl	_	_
+25	bulan	bulan	NOUN	_	Number=Sing	23	obl:tmod	_	_
 26	September	September	PROPN	_	_	25	nmod	_	_
 27	tapi	tapi	CCONJ	_	_	30	cc	_	_
 28	Geyer	Geyer	PROPN	_	_	30	nsubj	_	_
@@ -16139,7 +16139,7 @@
 29	lagu	lagu	NOUN	_	Number=Sing	28	nmod	_	_
 30	selama	lama	ADP	_	_	32	case	_	_
 31	dua	dua	NUM	_	NumType=Card	32	nummod	_	_
-32	minggu	minggu	NOUN	_	Number=Sing	27	obl	_	_
+32	minggu	minggu	NOUN	_	Number=Sing	27	obl:tmod	_	_
 33	di	di	ADP	_	_	34	case	_	_
 34	Inggris	Inggris	PROPN	_	_	27	obl	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	16	punct	_	_
@@ -16348,7 +16348,7 @@
 # text = Pada bulan Juni 2012, band Islandia Sigur Rós merilis sebuah video untuk lagu "Fjögur Píanó", yang dibintangi LaBeouf, di mana ia tampil telanjang.
 # text_en = In June 2012, the Icelandic band Sigur Rós released a video for the song "Fjögur Píanó", starring LaBeouf, in which he appears nude.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	10	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	10	obl:tmod	_	_
 3	Juni	Juni	PROPN	_	_	2	nmod	_	_
 4	2012	2012	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -16419,7 +16419,7 @@
 4	ayah	ayah	NOUN	_	Number=Sing	3	nmod:poss	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	hari	hari	NOUN	_	Number=Sing	2	obl	_	_
+7	hari	hari	NOUN	_	Number=Sing	2	obl:tmod	_	_
 8	balapan	balap	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -16959,7 +16959,7 @@
 # text = Pada bulan Januari 2011, Blunt mulai syuting sebuah film fiksi ilmiah Amerika, Looper, yang disutradarai oleh Rian Johnson dan yang juga dibintangi oleh Bruce Willis dan Joseph Gordon-Levitt; Film ini dirilis pada bulan September 2012.
 # text_en = In January 2011, Blunt began filming an American science-fiction film, Looper, directed by Rian Johnson and co-starring Bruce Willis and Joseph Gordon-Levitt; the film was released in September 2012.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	7	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	Januari	Januari	PROPN	_	_	2	nmod	_	_
 4	2011	2011	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -16994,7 +16994,7 @@
 34	ini	ini	DET	_	PronType=Dem	33	det	_	_
 35	dirilis	rilis	VERB	_	Mood=Ind|Voice=Pass	7	parataxis	_	_
 36	pada	pada	ADP	_	_	37	case	_	_
-37	bulan	bulan	NOUN	_	Number=Sing	35	obl	_	_
+37	bulan	bulan	NOUN	_	Number=Sing	35	obl:tmod	_	_
 38	September	September	PROPN	_	_	37	nmod	_	_
 39	2012	2012	NUM	_	NumType=Card	38	flat	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	7	punct	_	_
@@ -17054,7 +17054,7 @@
 8	Jerman	Jerman	PROPN	_	_	7	obj	_	_
 9	diam-diam	diam	ADV	_	_	7	advmod	_	_
 10	pada	pada	ADP	_	_	11	case	_	_
-11	bulan	bulan	NOUN	_	Number=Sing	7	obl	_	_
+11	bulan	bulan	NOUN	_	Number=Sing	7	obl:tmod	_	_
 12	November	November	PROPN	_	_	11	nmod	_	_
 13	dan	dan	CCONJ	_	_	14	cc	_	_
 14	bertemu	temu	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
@@ -17094,7 +17094,7 @@
 # text = Pada bulan Mei, penjaga perbatasan Ceko menembak dua petani Sudeten Jerman yang mencoba menyeberang batas ke Ceko tanpa berhenti untuk pemeriksaan di perbatasan.
 # text_en = In May, Czech border guards shot two Sudeten German farmers who were trying to cross the border into Czechoslovakia without stopping for border controls.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	8	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	Mei	Mei	PROPN	_	_	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	penjaga	jaga	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -17177,7 +17177,7 @@
 # text = Pada 1926, Meyer telah menyurati Irène Joliot-Curie menyarankan agar Rona bekerja bersamanya untuk belajar bagaimana laboratoriumnya bisa membuat sampel polonium mereka sendiri.
 # text_en = As early as 1926, Meyer had written to Irène Joliot-Curie suggesting that Rona work with her to learn how his laboratory could make their own polonium samples.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	1926	1926	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+2	1926	1926	NUM	_	NumType=Card	6	obl:tmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Meyer	Meyer	PROPN	_	_	6	nsubj	_	_
 5	telah	telah	AUX	_	_	6	aux	_	_
@@ -17309,7 +17309,7 @@
 1	Selama	lama	ADP	_	_	4	case	_	_
 2	di	di	ADP	_	_	4	case	_	_
 3	luar	luar	NOUN	_	Number=Sing	4	nmod:lmod	_	_
-4	musim	musim	NOUN	_	Number=Sing	8	obl	_	_
+4	musim	musim	NOUN	_	Number=Sing	8	obl:tmod	_	_
 5	tahun	tahun	NOUN	_	Number=Sing	4	nmod:tmod	_	_
 6	2013	2013	NUM	_	NumType=Card	5	nummod	_	_
 7	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -17559,7 +17559,7 @@
 7	rumah	rumah	NOUN	_	Number=Sing	5	obl	_	_
 8	sakit	sakit	ADJ	_	_	7	acl	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
-10	tanggal	tanggal	NOUN	_	Number=Sing	5	obl	_	_
+10	tanggal	tanggal	NOUN	_	Number=Sing	5	obl:tmod	_	_
 11	11	11	NUM	_	NumType=Card	10	nummod	_	_
 12	April	April	PROPN	_	_	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -17690,7 +17690,7 @@
 11	Kesha	Kesha	PROPN	_	_	12	nsubj	_	_
 12	berusia	usia	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
 13	16	16	NUM	_	NumType=Card	14	nummod	_	_
-14	tahun	tahun	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
+14	tahun	tahun	NOUN	_	Number=Sing	12	obl:tmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	Kesha	Kesha	PROPN	_	_	18	nsubj	_	_
 17	kemudian	kemudian	ADV	_	_	18	advmod	_	_
@@ -17719,7 +17719,7 @@
 # text = Per Agustus 2015, Kesha memberikan sedikit informasi tentang album studio ketiganya yang akan rilis.
 # text_en = As of August 2015, Kesha has released little information about her upcoming third studio album.
 1	Per	per	ADP	_	_	2	case	_	_
-2	Agustus	Agustus	PROPN	_	_	6	obl	_	_
+2	Agustus	Agustus	PROPN	_	_	6	obl:tmod	_	_
 3	2015	2015	NUM	_	NumType=Card	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Kesha	Kesha	PROPN	_	_	6	nsubj	_	_
@@ -17955,7 +17955,7 @@
 4	yang	yang	PRON	_	PronType=Rel	5	nsubj:pass	_	_
 5	ditandatangani	tanda-tangan	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
 6	pada	pada	ADP	_	_	7	case	_	_
-7	30	30	NUM	_	NumType=Card	5	obl	_	_
+7	30	30	NUM	_	NumType=Card	5	obl:tmod	_	_
 8	Mei	Mei	PROPN	_	_	7	flat	_	_
 9	1913	1913	NUM	_	NumType=Card	7	flat	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
@@ -18002,7 +18002,7 @@
 5	pria	pria	NOUN	_	Number=Sing	4	obj	_	_
 6	berusia	usia	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
 7	53	53	NUM	_	NumType=Card	8	nummod	_	_
-8	tahun	tahun	NOUN	_	Number=Sing	6	obl	_	_
+8	tahun	tahun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 9	itu	itu	DET	_	PronType=Dem	5	det	_	_
 10	pada	pada	ADP	_	_	11	case	_	_
 11	saat	saat	NOUN	_	Number=Sing	4	obl	_	_
@@ -18200,7 +18200,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	mendarat	darat	VERB	_	Mood=Ind|Voice=Act	5	ccomp	_	_
 14	setelah	telah	ADP	_	_	15	case	_	_
-15	periode	periode	NOUN	_	Number=Sing	13	obl	_	_
+15	periode	periode	NOUN	_	Number=Sing	13	obl:tmod	_	_
 16	pembiakan	biak	NOUN	_	Number=Sing	15	nmod	_	_
 17	selama	lama	ADP	_	_	19	case	_	_
 18	2	2	NUM	_	NumType=Card	19	nummod	_	_
@@ -18607,7 +18607,7 @@
 7	pemain	main	NOUN	_	Number=Sing	12	nsubj	_	_
 8	berusia	usia	VERB	_	Mood=Ind|Voice=Act	7	acl	_	_
 9	28	28	NUM	_	NumType=Card	10	nummod	_	_
-10	tahun	tahun	NOUN	_	Number=Sing	8	obl	_	_
+10	tahun	tahun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 11	itu	itu	DET	_	PronType=Dem	7	det	_	_
 12	kalah	kalah	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 13	untuk	untuk	ADP	_	_	15	case	_	_
@@ -18880,7 +18880,7 @@
 18	Rich	Rich	PROPN	_	_	17	nsubj:pass	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	pada	pada	ADP	_	_	21	case	_	_
-21	hari	hari	NOUN	_	Number=Sing	12	obl	_	_
+21	hari	hari	NOUN	_	Number=Sing	12	obl:tmod	_	_
 22	terakhir	akhir	ADJ	_	Degree=Sup	21	amod	_	_
 23-24	kepresidenannya	_	_	_	_	_	_	_	SpaceAfter=No
 23	kepresidenan	presiden	NOUN	_	Number=Sing	21	nmod	_	_
@@ -19107,7 +19107,7 @@
 26	nya	nya	PRON	_	Number=Sing	25	obj	_	_
 27	mulai	mulai	VERB	_	Mood=Ind|Voice=Act	25	advcl	_	_
 28	dari	dari	ADP	_	_	29	case	_	_
-29	2005	2005	NUM	_	NumType=Card	27	obl	_	_
+29	2005	2005	NUM	_	NumType=Card	27	obl:tmod	_	_
 30	dalam	dalam	ADP	_	_	31	case	_	_
 31	kontrak	kontrak	NOUN	_	Number=Sing	25	obl	_	_
 32	koalisi	koalisi	NOUN	_	Number=Sing	31	nmod	_	SpaceAfter=No
@@ -19119,7 +19119,7 @@
 1	Tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 2	seperti	seperti	ADP	_	_	4	case	_	_
 3	pada	pada	ADP	_	_	4	case	_	_
-4	tanggal	tanggal	NOUN	_	Number=Sing	13	obl	_	_
+4	tanggal	tanggal	NOUN	_	Number=Sing	13	obl:tmod	_	_
 5	28	28	NUM	_	NumType=Card	4	nummod	_	_
 6	Oktober	Oktober	PROPN	_	_	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
@@ -19147,7 +19147,7 @@
 11	akan	akan	AUX	_	_	13	aux	_	_
 12	'	'	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	diperiksa	periksa	VERB	_	Mood=Ind|Voice=Pass	8	ccomp	_	_
-14	bertahun-tahun	tahun	NOUN	_	Number=Plur	13	obl	_	SpaceAfter=No
+14	bertahun-tahun	tahun	NOUN	_	Number=Plur	13	obl:tmod	_	SpaceAfter=No
 15	'	'	PUNCT	_	_	13	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -19193,7 +19193,7 @@
 # text = Pada hari Selasa, Amerika Serikat bisa saja memilih presiden wanita pertama dalam sejarahnya.
 # text_en = On Tuesday, the United States of America could elect the first female president in its history.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	hari	hari	NOUN	_	Number=Sing	9	obl	_	_
+2	hari	hari	NOUN	_	Number=Sing	9	obl:tmod	_	_
 3	Selasa	Selasa	PROPN	_	_	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Amerika	Amerika	PROPN	_	_	9	nsubj	_	_
@@ -19282,7 +19282,7 @@
 # text = Pada hari Kamis, 3 November, wali kota Saint-Gaudens (di wilayah Haute-Garonne) memutuskan untuk menangguhkan pengembangan perkotaan dengan pemerintah yang dibentuk pada tahun 2014.
 # text_en = On Thursday, the 3rd of November, the mayor of Saint-Gaudens (in the Haute-Garonne region) decided to suspend the urban development agreement with the government formed in 2014.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	hari	hari	NOUN	_	Number=Sing	16	obl	_	_
+2	hari	hari	NOUN	_	Number=Sing	16	obl:tmod	_	_
 3	Kamis	Kamis	PROPN	_	_	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	3	3	NUM	_	NumType=Card	2	appos	_	_
@@ -19477,7 +19477,7 @@
 11	rumah	rumah	NOUN	_	Number=Sing	9	nmod	_	_
 12	klien	klien	NOUN	_	Number=Sing	11	nmod:poss	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
-14	jam	jam	NOUN	_	Number=Sing	8	obl	_	_
+14	jam	jam	NOUN	_	Number=Sing	8	obl:tmod	_	_
 15	kerja	kerja	VERB	_	Mood=Ind|Voice=Act	14	acl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -19496,7 +19496,7 @@
 10	Pengadilan	adil	NOUN	_	Number=Sing	8	obl	_	_
 11	Kasasi	kasasi	NOUN	_	Number=Sing	10	nmod	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	tanggal	tanggal	NOUN	_	Number=Sing	8	obl	_	_
+13	tanggal	tanggal	NOUN	_	Number=Sing	8	obl:tmod	_	_
 14	12	12	NUM	_	NumType=Card	13	nummod	_	_
 15	Oktober	Oktober	PROPN	_	_	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
@@ -19540,14 +19540,14 @@
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj:pass	_	_
 4	dijalankan	jalan	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
 5	dalam	dalam	ADP	_	_	6	case	_	_
-6	jam	jam	NOUN	_	Number=Sing	4	obl	_	_
+6	jam	jam	NOUN	_	Number=Sing	4	obl:tmod	_	_
 7	pertama	pertama	ADJ	_	NumType=Ord	6	amod	_	_
 8	kurang	kurang	ADV	_	_	10	advmod	_	_
 9	lebih	lebih	ADV	_	_	8	fixed	_	_
 10	sama	sama	ADJ	_	_	0	root	_	_
 11	dengan	dengan	ADP	_	_	13	case	_	_
 12	45	45	NUM	_	NumType=Card	13	nummod	_	_
-13	menit	menit	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
+13	menit	menit	NOUN	_	Number=Sing	10	obl:tmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = n03008011
@@ -19661,7 +19661,7 @@
 2	Anselmi	Anselmi	PROPN	_	_	1	flat	_	_
 3	lahir	lahir	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	pada	pada	ADP	_	_	5	case	_	_
-5	tanggal	tanggal	NOUN	_	Number=Sing	3	obl	_	_
+5	tanggal	tanggal	NOUN	_	Number=Sing	3	obl:tmod	_	_
 6	25	25	NUM	_	NumType=Card	5	nummod	_	_
 7	Maret	Maret	PROPN	_	_	6	flat	_	_
 8	1927	1927	NUM	_	NumType=Card	6	flat	_	_
@@ -19801,7 +19801,7 @@
 13	harus	harus	AUX	_	_	14	aux	_	_
 14	dihabiskan	habis	VERB	_	Mood=Ind|Voice=Pass	8	acl:relcl	_	_
 15	sebelum	belum	ADP	_	_	16	case	_	_
-16	31	31	NUM	_	NumType=Card	14	obl	_	_
+16	31	31	NUM	_	NumType=Card	14	obl:tmod	_	_
 17	Desember	Desember	PROPN	_	_	16	flat	_	_
 18	2017	2017	NUM	_	NumType=Card	16	flat	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
@@ -19828,7 +19828,7 @@
 # text = Mulai 1 Januari akan ada kenaikan harga bensin dan solar.
 # text_en = From the 1st of January there will be an increase in petrol and diesel.
 1	Mulai	mulai	ADP	_	_	2	case	_	_
-2	1	1	NUM	_	NumType=Card	5	obl	_	_
+2	1	1	NUM	_	NumType=Card	5	obl:tmod	_	_
 3	Januari	Januari	PROPN	_	_	2	flat	_	_
 4	akan	akan	AUX	_	_	5	aux	_	_
 5	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -19860,7 +19860,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	setidaknya	tidak	ADV	_	_	19	advmod	_	_
 18	untuk	untuk	ADP	_	_	19	case	_	_
-19	2017	2017	NUM	_	NumType=Card	12	obl	_	SpaceAfter=No
+19	2017	2017	NUM	_	NumType=Card	12	obl:tmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n04006010
@@ -20844,7 +20844,7 @@
 3	ini	ini	DET	_	PronType=Dem	1	det	_	_
 4	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	pada	pada	ADP	_	_	6	case	_	_
-6	30	30	NUM	_	NumType=Card	4	obl	_	_
+6	30	30	NUM	_	NumType=Card	4	obl:tmod	_	_
 7	April	April	PROPN	_	_	6	flat	_	_
 8	1955	1955	NUM	_	NumType=Card	6	flat	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -21156,7 +21156,7 @@
 # text = Pada bulan April 2012, Perdana Menteri Turki Presiden Erdogan mengumumkan rencana pemerintahannya untuk membebaskan Bosphorus dengan membangun Kanal Istanbul secara paralel dengannya.
 # text_en = In April 2012, the Turkish Minister President Erdogan announced his government's plans to free Bosphorus by building the Istanbul Canal parallel to it.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	11	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	11	obl:tmod	_	_
 3	April	April	PROPN	_	_	2	nmod	_	_
 4	2012	2012	NUM	_	NumType=Card	2	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -21239,7 +21239,7 @@
 9	paling	paling	ADV	_	_	10	advmod	_	_
 10	berpengaruh	pengaruh	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 11	pada	pada	ADP	_	_	12	case	_	_
-12	masa	masa	NOUN	_	Number=Sing	10	obl	_	_
+12	masa	masa	NOUN	_	Number=Sing	10	obl:tmod	_	_
 13	itu	itu	DET	_	PronType=Dem	12	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	yang	yang	SCONJ	_	_	19	mark	_	_
@@ -21290,7 +21290,7 @@
 14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 15	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	12	acl:relcl	_	_
 16	selama	lama	ADP	_	_	17	case	_	_
-17	3300	3300	NUM	_	NumType=Card	15	obl	_	_
+17	3300	3300	NUM	_	NumType=Card	15	obl:tmod	_	_
 18	BC	BC	NOUN	_	Abbr=Yes	17	flat	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -21636,7 +21636,7 @@
 4	kembali	kembali	ADV	_	_	3	advmod	_	_
 5	di	di	ADP	_	_	7	case	_	_
 6	kemudian	kemudian	ADV	_	_	7	advmod	_	_
-7	hari	hari	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
+7	hari	hari	NOUN	_	Number=Sing	3	obl:tmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w02016015
@@ -21740,7 +21740,7 @@
 10	dilaporkan	lapor	VERB	_	Mood=Ind|Voice=Pass	9	acl	_	_
 11	berita	berita	NOUN	_	Number=Sing	10	obl:agent	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	hari	hari	NOUN	_	Number=Sing	10	obl	_	_
+13	hari	hari	NOUN	_	Number=Sing	10	obl:tmod	_	_
 14	pembunuhan	bunuh	NOUN	_	Number=Sing	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -22013,7 +22013,7 @@
 # text = Pada abad 8 SM, Yunani mulai keluar dari Zaman Kegelapan yang diikuti oleh jatuhnya peradaban Mycenaean.
 # text_en = In the 8th century BC, Greece began to emerge from the Dark Ages which followed the fall of the Mycenaean civilization.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	7	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	8	8	NUM	_	NumType=Card	2	nummod	_	_
 4	SM	SM	NOUN	_	Abbr=Yes	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -22021,7 +22021,7 @@
 7	mulai	mulai	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 8	keluar	keluar	VERB	_	Mood=Ind|Voice=Act	7	xcomp	_	_
 9	dari	dari	ADP	_	_	10	case	_	_
-10	Zaman	Zaman	PROPN	_	_	8	obl	_	_
+10	Zaman	Zaman	PROPN	_	_	8	obl:tmod	_	_
 11	Kegelapan	Kegelapan	PROPN	_	_	10	flat	_	_
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj:pass	_	_
 13	diikuti	ikut	VERB	_	Mood=Ind|Voice=Pass	7	advcl	_	_
@@ -22065,7 +22065,7 @@
 # text = Dari abad 9 SM, teks Yunani pertama mulai muncul.
 # text_en = From the 9th century BC, the first Greek texts began to appear.
 1	Dari	dari	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	9	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	9	obl:tmod	_	_
 3	9	9	NUM	_	NumType=Card	2	nummod	_	_
 4	SM	SM	NOUN	_	Abbr=Yes	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -22124,7 +22124,7 @@
 # text_en = From about the 8th century BC city states began to appear: small, self-governing territories with their own political systems.
 1	Dari	dari	ADP	_	_	3	case	_	_
 2	sekitar	kitar	ADV	_	_	3	advmod	_	_
-3	abad	abad	NOUN	_	Number=Sing	9	obl	_	_
+3	abad	abad	NOUN	_	Number=Sing	9	obl:tmod	_	_
 4	8	8	NUM	_	NumType=Card	3	nummod	_	_
 5	SM	SM	NOUN	_	Abbr=Yes	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -22149,7 +22149,7 @@
 # text = Di Abad Pertengahan, sebagian besar orang Kristen tidak memiliki akses ke Alkitab dalam bahasa ibu mereka.
 # text_en = In the Middle Ages, most Christians did not have access to the Bible in their mother tongue.
 1	Di	di	ADP	_	_	2	case	_	_
-2	Abad	abad	NOUN	_	Number=Sing	10	obl	_	_
+2	Abad	abad	NOUN	_	Number=Sing	10	obl:tmod	_	_
 3	Pertengahan	tengah	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	sebagian	bagi	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -22356,7 +22356,7 @@
 # text = Di musim semi 1948, berharap mengadaptasi Tintin untuk tayangan bioskop, artis Belgia ini menulis surat ke Walt Disney, dengan sia-sia meminta dukungannya.
 # text_en = In spring 1948, in hopes of adapting Tintin for the cinema, the Belgian artist wrote a letter to Walt Disney, asking in vain for his support.
 1	Di	di	ADP	_	_	2	case	_	_
-2	musim	musim	NOUN	_	Number=Sing	16	obl	_	_
+2	musim	musim	NOUN	_	Number=Sing	16	obl:tmod	_	_
 3	semi	semi	NOUN	_	Number=Sing	2	nmod	_	_
 4	1948	1948	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -22489,7 +22489,7 @@
 10	mungkin	mungkin	AUX	_	_	11	aux	_	_
 11	terjadi	jadi	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 12	selama	lama	ADP	_	_	13	case	_	_
-13	musim	musim	NOUN	_	Number=Sing	11	obl	_	_
+13	musim	musim	NOUN	_	Number=Sing	11	obl:tmod	_	_
 14	panas	panas	ADJ	_	_	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -22607,7 +22607,7 @@
 # text = Di bulan Agustus 1969, Paus Paul VI menghapus hukuman mati dari hukum Vatikan dan mencabutnya dari semua pelanggaran.
 # text_en = In August 1969, Pope Paul VI removed the death penalty from the Vatican law and revoked it from all offences.
 1	Di	di	ADP	_	_	2	case	_	_
-2	bulan	bulan	NOUN	_	Number=Sing	9	obl	_	_
+2	bulan	bulan	NOUN	_	Number=Sing	9	obl:tmod	_	_
 3	Agustus	Agustus	PROPN	_	_	2	nmod	_	_
 4	1969	1969	NUM	_	NumType=Card	3	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -22723,7 +22723,7 @@
 # text = Selama abad ketiga belas, nama Apulia digunakan oleh beberapa penulis untuk menandakan bagian selatan semenanjung Italia.
 # text_en = During the thirteenth century, the name Apulia was used by some authors to signify the southern part of the Italian peninsula.
 1	Selama	lama	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	8	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	ketiga	tiga	ADJ	_	NumType=Ord	2	amod	_	_
 4	belas	belas	NUM	_	_	3	flat	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -22779,7 +22779,7 @@
 10	telah	telah	AUX	_	_	11	aux	_	_
 11	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
-13	masa	masa	NOUN	_	Number=Sing	11	obl	_	_
+13	masa	masa	NOUN	_	Number=Sing	11	obl:tmod	_	_
 14	Henry	Henry	PROPN	_	_	13	nmod	_	_
 15	I	i	ADJ	_	NumType=Ord	14	amod	_	_
 16	dan	dan	CCONJ	_	_	20	cc	_	_
@@ -23024,7 +23024,7 @@
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 14	selama	lama	ADP	_	_	15	case	_	_
-15	bertahun-tahun	tahun	NOUN	_	Number=Plur	13	obl	_	SpaceAfter=No
+15	bertahun-tahun	tahun	NOUN	_	Number=Plur	13	obl:tmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = w04010029
@@ -23122,7 +23122,7 @@
 # text = Pada abad 20, antara tahun 1904 dan 1914, Antonio Gaudí menghadirkan reformasi yang berlangsung selama sepuluh tahun.
 # text_en = In the 20th century, between 1904 and 1914, Antonio Gaudí brought about a reform that lasted ten years.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	abad	abad	NOUN	_	Number=Sing	13	obl	_	_
+2	abad	abad	NOUN	_	Number=Sing	13	obl:tmod	_	_
 3	20	20	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	antara	antara	ADP	_	_	6	case	_	_
@@ -23139,7 +23139,7 @@
 16	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	14	acl:relcl	_	_
 17	selama	lama	ADP	_	_	19	case	_	_
 18	sepuluh	puluh	NUM	_	NumType=Card	19	nummod	_	_
-19	tahun	tahun	NOUN	_	Number=Sing	16	obl	_	SpaceAfter=No
+19	tahun	tahun	NOUN	_	Number=Sing	16	obl:tmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = w05001036
@@ -23363,7 +23363,7 @@
 2	mulai	mulai	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	berubah	ubah	VERB	_	Mood=Ind|Voice=Act	2	xcomp	_	_
 4	di	di	ADP	_	_	5	case	_	_
-5	bulan	bulan	NOUN	_	Number=Sing	3	obl	_	_
+5	bulan	bulan	NOUN	_	Number=Sing	3	obl:tmod	_	_
 6	Oktober	Oktober	PROPN	_	_	5	nmod	_	_
 7	1777	1777	NUM	_	NumType=Card	6	flat	_	_
 8	saat	saat	ADV	_	PronType=Rel	17	advmod	_	_
@@ -23753,7 +23753,7 @@
 15	posisi	posisi	NOUN	_	Number=Sing	14	obj	_	_
 16	itu	itu	DET	_	PronType=Dem	15	det	_	_
 17	hingga	hingga	ADP	_	_	18	case	_	_
-18	Desember	Desember	PROPN	_	_	14	obl	_	SpaceAfter=No
+18	Desember	Desember	PROPN	_	_	14	obl:tmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w05010026
@@ -23817,7 +23817,7 @@
 # text = Pada tanggal 1 Januari 49 SM, Marco Antonio membaca sebuah deklarasi dari Caesar di mana sang prokonsul tersebut menyatakan dirinya sebagai teman damai.
 # text_en = On the 1st January 49 BC, Marco Antonio read a declaration from Caesar in which the proconsul declared himself a friend of peace.
 1	Pada	pada	ADP	_	_	2	case	_	_
-2	tanggal	tanggal	NOUN	_	Number=Sing	10	obl	_	_
+2	tanggal	tanggal	NOUN	_	Number=Sing	10	obl:tmod	_	_
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
 4	Januari	Januari	PROPN	_	_	3	flat	_	_
 5	49	49	NUM	_	NumType=Card	3	flat	_	_
