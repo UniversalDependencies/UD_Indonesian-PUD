@@ -256,7 +256,7 @@
 18	blok	blok	NOUN	_	Number=Sing	6	acl:relcl	_	_
 19-20	jauhnya	_	_	_	_	_	_	_	SpaceAfter=No
 19	jauh	jauh	ADJ	_	_	18	amod	_	_
-20	nya	nya	DET	_	_	19	dep	_	_
+20	nya	nya	DET	_	_	19	det	_	_
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01003013
@@ -966,7 +966,7 @@
 8	tentang	tentang	SCONJ	_	_	9	mark	_	_
 9-10	perlunya	_	_	_	_	_	_	_	_
 9	perlu	perlu	VERB	_	Mood=Ind|Voice=Act	7	acl	_	_
-10	nya	nya	DET	_	_	9	dep	_	_
+10	nya	nya	DET	_	_	9	det	_	_
 11	kursus	kursus	NOUN	_	Number=Sing	10	nsubj	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	_
 13	dan	dan	CCONJ	_	_	14	cc	_	_
@@ -1802,7 +1802,7 @@
 20	saat	saat	NOUN	_	Number=Sing	15	obl	_	_
 21-22	terjadinya	_	_	_	_	_	_	_	_
 21	terjadi	jadi	VERB	_	Mood=Ind|Voice=Pass	20	acl	_	_
-22	nya	nya	DET	_	_	21	dep	_	_
+22	nya	nya	DET	_	_	21	det	_	_
 23	insiden	insiden	NOUN	_	Number=Sing	21	nsubj:pass	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -2731,7 +2731,7 @@
 15	sama	sama	ADJ	_	_	10	parataxis	_	_
 16-17	besarnya	_	_	_	_	_	_	_	_
 16	besar	besar	ADJ	_	_	15	csubj	_	_
-17	nya	nya	DET	_	_	16	dep	_	_
+17	nya	nya	DET	_	_	16	det	_	_
 18	untuk	untuk	ADP	_	_	19	case	_	_
 19	2015	2015	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
 20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
@@ -3271,7 +3271,7 @@
 5	dan	dan	CCONJ	_	_	9	cc	_	_
 6	Bono	Bono	PROPN	_	_	9	nsubj	_	_
 7	adalah	adalah	AUX	_	_	9	cop	_	_
-8	salah	salah	ADJ	_	_	9	compound:n	_	_
+8	salah	salah	ADJ	_	_	9	advmod	_	_
 9	satu	satu	NUM	_	NumType=Card	4	conj	_	_
 10	dari	dari	ADP	_	_	11	case	_	_
 11	orang	orang	NOUN	_	Number=Sing	9	nmod	_	_
@@ -3770,7 +3770,7 @@
 1	Seiring	iring	SCONJ	_	_	2	mark	_	_
 2-3	menguatnya	_	_	_	_	_	_	_	_
 2	menguat	kuat	VERB	_	Mood=Ind|Voice=Act	15	advcl	_	_
-3	nya	nya	DET	_	_	2	dep	_	_
+3	nya	nya	DET	_	_	2	det	_	_
 4	histeria	histeria	NOUN	_	Number=Sing	2	obl	_	_
 5	pemilihan	pilih	NOUN	_	Number=Sing	4	nmod	_	_
 6	Presiden	presiden	NOUN	_	Number=Sing	5	nmod	_	_
@@ -4167,7 +4167,7 @@
 5	jawaban	jawab	NOUN	_	Number=Sing	4	obj	_	_
 6	untuk	untuk	ADP	_	_	9	case	_	_
 7	para	para	DET	_	Number=Plur|PronType=Ind	9	det	_	_
-8	wajib	wajib	ADJ	_	_	9	compound:n	_	_
+8	wajib	wajib	ADJ	_	_	9	advmod	_	_
 9	pajak	pajak	NOUN	_	Number=Sing	4	obl	_	_
 10	akan	akan	AUX	_	_	12	aux	_	_
 11	sangat	sangat	ADV	_	_	12	advmod	_	_
@@ -4374,7 +4374,7 @@
 # sent_id = n01072021
 # text = Salah satu dari banyak postingan belasungkawa di Facebook pasti akan sangat menggembirakan Chris: "Saya tidak kenal seorang pun, yang lebih Afrika dari kamu. “
 # text_en = One of their many grieving Facebook posts has a line which would have delighted Chris: “More African than you, I have not known.”
-1	Salah	salah	ADJ	_	_	2	compound:n	_	_
+1	Salah	salah	ADJ	_	_	2	advmod	_	_
 2	satu	satu	NUM	_	NumType=Card	12	nsubj	_	_
 3	dari	dari	ADP	_	_	5	case	_	_
 4	banyak	banyak	DET	_	Number=Plur|PronType=Ind	5	det	_	_
@@ -5519,7 +5519,7 @@
 13	diusulkan	usul	VERB	_	Mood=Ind|Voice=Pass	11	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	7	punct	_	_
 15	ujar	ujar	VERB	_	Mood=Ind|Voice=Act	7	parataxis	_	_
-16	salah	salah	ADJ	_	_	17	compound:n	_	_
+16	salah	salah	ADJ	_	_	17	advmod	_	_
 17	satu	satu	NUM	_	NumType=Card	18	nummod	_	_
 18	pejabat	jabat	NOUN	_	Number=Sing	15	nsubj	_	_
 19	Uni	Uni	PROPN	_	_	18	nmod	_	_
@@ -6392,7 +6392,7 @@
 15	seiring	iring	SCONJ	_	_	16	mark	_	_
 16-17	meningkatnya	_	_	_	_	_	_	_	_
 16	meningkat	tingkat	VERB	_	Mood=Ind|Voice=Act	11	advcl	_	_
-17	nya	nya	DET	_	_	16	dep	_	_
+17	nya	nya	DET	_	_	16	det	_	_
 18	penggunaan	guna	NOUN	_	Number=Sing	16	nsubj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7292,7 +7292,7 @@
 13	dengan	dengan	SCONJ	_	_	14	mark	_	_
 14-15	berkembangnya	_	_	_	_	_	_	_	_
 14	berkembang	kembang	VERB	_	Mood=Ind|Voice=Act	10	advcl	_	_
-15	nya	nya	DET	_	_	14	dep	_	_
+15	nya	nya	DET	_	_	14	det	_	_
 16	obsesi	obsesi	NOUN	_	Number=Sing	14	nsubj	_	_
 17	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
@@ -7980,7 +7980,7 @@
 # text = Sebagai salah satu orang teratas Negan (Jeffrey Dean Morgan), dia mendapatkan kebebasan tertentu.
 # text_en = As one of Negan's (Jeffrey Dean Morgan) top guys, he's afforded certain freedoms.
 1	Sebagai	bagai	ADP	_	_	4	case	_	_
-2	salah	salah	ADJ	_	_	3	compound:n	_	_
+2	salah	salah	ADJ	_	_	3	advmod	_	_
 3	satu	satu	NUM	_	NumType=Card	4	nummod	_	_
 4	orang	orang	NOUN	_	Number=Sing	14	obl	_	_
 5	teratas	atas	ADJ	_	Degree=Sup	4	amod	_	_
@@ -8002,7 +8002,7 @@
 # text_en = "Norman is one of my good buddies, so it totally sucked to see him in that emotional state."
 1	Norman	Norman	PROPN	_	_	5	nsubj	_	_
 2	adalah	adalah	AUX	_	_	5	cop	_	_
-3	salah	salah	ADJ	_	_	4	compound:n	_	_
+3	salah	salah	ADJ	_	_	4	advmod	_	_
 4	satu	satu	NUM	_	NumType=Card	5	nummod	_	_
 5	teman	teman	NOUN	_	Number=Sing	0	root	_	_
 6	baik	baik	ADJ	_	_	5	amod	_	SpaceAfter=No
@@ -8448,7 +8448,7 @@
 2	González	González	PROPN	_	_	1	flat	_	_
 3	Anaya	Anaya	PROPN	_	_	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	salah	salah	ADJ	_	_	6	compound:n	_	_
+5	salah	salah	ADJ	_	_	6	advmod	_	_
 6	seorang	orang	DET	_	Number=Sing|PronType=Ind	7	det	_	_
 7	direktur	direktur	NOUN	_	Number=Sing	1	appos	_	_
 8	kreatif	kreatif	ADJ	_	_	7	amod	_	_
@@ -8653,7 +8653,7 @@
 13	Pyongyang	Pyongyang	PROPN	_	_	17	nsubj	_	_
 14	Metro	Metro	PROPN	_	_	13	flat	_	_
 15	adalah	adalah	AUX	_	_	17	cop	_	_
-16	salah	salah	ADJ	_	_	17	compound:n	_	_
+16	salah	salah	ADJ	_	_	17	advmod	_	_
 17	satu	satu	NUM	_	NumType=Card	18	nummod	_	_
 18	sistem	sistem	NOUN	_	Number=Sing	0	root	_	_
 19	komuter	komuter	NOUN	_	Number=Sing	18	nmod	_	_
@@ -10041,7 +10041,7 @@
 9	berakhir	akhir	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	dengan	dengan	ADP	_	_	11	case	_	_
 11	kematian	mati	NOUN	_	Number=Sing	9	obl	_	_
-12	salah	salah	ADJ	_	_	13	compound:n	_	_
+12	salah	salah	ADJ	_	_	13	advmod	_	_
 13	satu	satu	NUM	_	NumType=Card	14	nummod	_	_
 14	kuda	kuda	NOUN	_	Number=Sing	11	nmod	_	_
 15	jantan	jantan	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
@@ -10112,7 +10112,7 @@
 2	mengakibatkan	akibat	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3-4	ditinggalkannya	_	_	_	_	_	_	_	_
 3	ditinggalkan	tinggal	VERB	_	Mood=Ind|Voice=Pass	2	advcl	_	_
-4	nya	nya	DET	_	_	3	dep	_	_
+4	nya	nya	DET	_	_	3	det	_	_
 5	barang-barang	barang	NOUN	_	Number=Plur	3	nsubj:pass	_	_
 6	penting	penting	ADJ	_	_	5	amod	_	_
 7	artileri	artileri	NOUN	_	Number=Sing	5	nmod	_	_
@@ -10357,7 +10357,7 @@
 10	sudah	sudah	AUX	_	_	11	aux	_	_
 11-12	terpecahnya	_	_	_	_	_	_	_	_
 11	terpecah	pecah	VERB	_	Mood=Ind|Voice=Pass	8	ccomp	_	_
-12	nya	nya	DET	_	_	11	dep	_	_
+12	nya	nya	DET	_	_	11	det	_	_
 13	negara	negara	NOUN	_	Number=Sing	11	nsubj:pass	_	_
 14	ini	ini	DET	_	PronType=Dem	13	det	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
@@ -10606,7 +10606,7 @@
 6	karena	karena	SCONJ	_	_	7	mark	_	_
 7-8	tingginya	_	_	_	_	_	_	_	_
 7	tinggi	tinggi	ADJ	_	_	5	advcl	_	_
-8	nya	nya	DET	_	_	7	dep	_	_
+8	nya	nya	DET	_	_	7	det	_	_
 9	kandungan	kandung	NOUN	_	Number=Sing	7	nsubj	_	_
 10-11	silikanya	_	_	_	_	_	_	_	SpaceAfter=No
 10	silika	silika	NOUN	_	Number=Sing	9	nmod	_	_
@@ -10779,7 +10779,7 @@
 15	peluang	luang	NOUN	_	Number=Sing	14	obj	_	_
 16-17	terjadinya	_	_	_	_	_	_	_	_
 16	terjadi	jadi	VERB	_	Mood=Ind|Voice=Pass	15	acl	_	_
-17	nya	nya	DET	_	_	16	dep	_	_
+17	nya	nya	DET	_	_	16	det	_	_
 18	peristiwa	peristiwa	NOUN	_	Number=Sing	16	nsubj:pass	_	_
 19	ini	ini	DET	_	PronType=Dem	18	det	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
@@ -11021,7 +11021,7 @@
 9	sebelum	belum	SCONJ	_	_	10	mark	_	_
 10-11	datangnya	_	_	_	_	_	_	_	_
 10	datang	datang	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
-11	nya	nya	DET	_	_	10	dep	_	_
+11	nya	nya	DET	_	_	10	det	_	_
 12	orang	orang	NOUN	_	Number=Sing	10	nsubj	_	_
 13	Eropa	Eropa	PROPN	_	_	12	nmod	_	_
 14	ke	ke	ADP	_	_	15	case	_	_
@@ -11058,7 +11058,7 @@
 1	Seiring	iring	SCONJ	_	_	2	mark	_	_
 2-3	berkembangnya	_	_	_	_	_	_	_	_
 2	berkembang	kembang	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
-3	nya	nya	DET	_	_	2	dep	_	_
+3	nya	nya	DET	_	_	2	det	_	_
 4	Brisbane	Brisbane	PROPN	_	_	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	kondisi	kondisi	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -11228,7 +11228,7 @@
 18	memulai	mulai	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
 19-20	adanya	_	_	_	_	_	_	_	_
 19	ada	ada	VERB	_	Mood=Ind|Voice=Act	18	ccomp	_	_
-20	nya	nya	DET	_	_	19	dep	_	_
+20	nya	nya	DET	_	_	19	det	_	_
 21	reaksi	reaksi	NOUN	_	Number=Sing	19	nsubj	_	_
 22	berantai	rantai	VERB	_	Mood=Ind|Voice=Act	21	acl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
@@ -11356,7 +11356,7 @@
 7	kaum	kaum	NOUN	_	Number=Sing	5	obl	_	_
 8	Carib	Carib	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	salah	salah	ADJ	_	_	11	compound:n	_	_
+10	salah	salah	ADJ	_	_	11	advmod	_	_
 11	satu	satu	NUM	_	NumType=Card	12	nummod	_	_
 12	kelompok	kelompok	NOUN	_	Number=Sing	7	appos	_	_
 13	dominan	dominan	ADJ	_	_	12	amod	_	_
@@ -12890,7 +12890,7 @@
 11	dengan	dengan	SCONJ	_	_	12	mark	_	_
 12-13	banyaknya	_	_	_	_	_	_	_	_
 12	banyak	banyak	ADJ	_	_	10	advcl	_	_
-13	nya	nya	DET	_	_	12	dep	_	_
+13	nya	nya	DET	_	_	12	det	_	_
 14	proyek	proyek	NOUN	_	Number=Sing	12	nsubj	_	_
 15-16	konstruksinya	_	_	_	_	_	_	_	_
 15	konstruksi	konstruksi	NOUN	_	Number=Sing	14	nmod	_	_
@@ -13167,7 +13167,7 @@
 2	mengukur	ukur	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3-4	lamanya	_	_	_	_	_	_	_	_
 3	lama	lama	ADJ	_	_	2	ccomp	_	_
-4	nya	nya	DET	_	_	3	dep	_	_
+4	nya	nya	DET	_	_	3	det	_	_
 5	bulan-bulan	bulan	NOUN	_	Number=Plur	4	nsubj	_	_
 6	kalender	kalender	NOUN	_	Number=Sing	5	nmod	_	_
 7	Cina	Cina	PROPN	_	_	6	nmod	_	SpaceAfter=No
@@ -14011,7 +14011,7 @@
 15	seiring	iring	SCONJ	_	_	16	mark	_	_
 16-17	dibangunnya	_	_	_	_	_	_	_	_
 16	dibangun	bangun	VERB	_	Mood=Ind|Voice=Pass	14	advcl	_	_
-17	nya	nya	DET	_	_	16	dep	_	_
+17	nya	nya	DET	_	_	16	det	_	_
 18	rute	rute	NOUN	_	Number=Sing	16	nsubj:pass	_	_
 19	perdagangan	dagang	NOUN	_	Number=Sing	18	nmod	_	_
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
@@ -14051,7 +14051,7 @@
 14	sama	sama	ADJ	_	_	4	conj	_	_
 15-16	baiknya	_	_	_	_	_	_	_	_
 15	baik	baik	ADJ	_	_	14	advcl	_	_
-16	nya	nya	DET	_	_	15	dep	_	_
+16	nya	nya	DET	_	_	15	det	_	_
 17	untuk	untuk	ADP	_	_	18	case	_	_
 18	konflik	konflik	NOUN	_	Number=Sing	11	nmod	_	_
 19	di	di	ADP	_	_	21	case	_	_
@@ -14644,7 +14644,7 @@
 4	sebelum	belum	SCONJ	_	_	5	mark	_	_
 5-6	pecahnya	_	_	_	_	_	_	_	_
 5	pecah	pecah	VERB	_	Mood=Ind|Voice=Act	10	advcl	_	_
-6	nya	nya	DET	_	_	5	dep	_	_
+6	nya	nya	DET	_	_	5	det	_	_
 7	perang	perang	NOUN	_	Number=Sing	5	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	Sekutu	sekutu	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -16026,7 +16026,7 @@
 20	setelah	telah	SCONJ	_	_	21	mark	_	_
 21-22	berakhirnya	_	_	_	_	_	_	_	_
 21	berakhir	akhir	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
-22	nya	nya	DET	_	_	21	dep	_	_
+22	nya	nya	DET	_	_	21	det	_	_
 23	pemerintahan	perintah	NOUN	_	Number=Sing	21	nsubj	_	_
 24	komunis	komunis	NOUN	_	Number=Sing	23	nmod	_	_
 25	di	di	ADP	_	_	26	case	_	_
@@ -16315,7 +16315,7 @@
 7	tahun	tahun	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 8	1981	1981	NUM	_	NumType=Card	7	nummod	_	_
 9	merupakan	rupa	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	salah	salah	ADJ	_	_	11	compound:n	_	_
+10	salah	salah	ADJ	_	_	11	advmod	_	_
 11	satu	satu	NUM	_	NumType=Card	12	nummod	_	_
 12	album	album	NOUN	_	Number=Sing	9	obl	_	_
 13-14	terlarisnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -16386,7 +16386,7 @@
 4-5	menyebutnya	_	_	_	_	_	_	_	_
 4	menyebut	sebut	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-6	salah	salah	ADJ	_	_	7	compound:n	_	_
+6	salah	salah	ADJ	_	_	7	advmod	_	_
 7	satu	satu	NUM	_	NumType=Card	8	nummod	_	_
 8	penampilan	tampil	NOUN	_	Number=Sing	4	obl	_	_
 9	terbaik	baik	ADJ	_	Degree=Sup	8	amod	_	_
@@ -17557,7 +17557,7 @@
 5	pulang	pulang	VERB	_	Mood=Ind|Voice=Act	2	conj	_	_
 6	dari	dari	ADP	_	_	7	case	_	_
 7	rumah	rumah	NOUN	_	Number=Sing	5	obl	_	_
-8	sakit	sakit	ADJ	_	_	7	compound:n	_	_
+8	sakit	sakit	ADJ	_	_	7	acl	_	_
 9	pada	pada	ADP	_	_	10	case	_	_
 10	tanggal	tanggal	NOUN	_	Number=Sing	5	obl	_	_
 11	11	11	NUM	_	NumType=Card	10	nummod	_	_
@@ -18451,7 +18451,7 @@
 7	sebagai	bagai	SCONJ	_	_	8	mark	_	_
 8-9	kurangnya	_	_	_	_	_	_	_	_
 8	kurang	kurang	ADJ	_	_	3	advcl	_	_
-9	nya	nya	DET	_	_	8	dep	_	_
+9	nya	nya	DET	_	_	8	det	_	_
 10	perencanaan	rencana	NOUN	_	Number=Sing	8	nsubj	_	_
 11	terperinci	perinci	VERB	_	Mood=Ind|Voice=Pass	10	acl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -18753,7 +18753,7 @@
 13	bahwa	bahwa	SCONJ	_	_	15	mark	_	_
 14	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	yakin	yakin	ADJ	_	_	10	ccomp	_	_
-16	salah	salah	ADJ	_	_	17	compound:n	_	_
+16	salah	salah	ADJ	_	_	17	advmod	_	_
 17	satu	satu	NUM	_	NumType=Card	22	nsubj	_	_
 18	dari	dari	ADP	_	_	19	case	_	_
 19	pilot	pilot	NOUN	_	Number=Sing	17	nmod	_	_
@@ -20050,7 +20050,7 @@
 7	selama	lama	SCONJ	_	_	8	mark	_	_
 8-9	berlangsungnya	_	_	_	_	_	_	_	_
 8	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
-9	nya	nya	DET	_	_	8	dep	_	_
+9	nya	nya	DET	_	_	8	det	_	_
 10	pertemuan	temu	NOUN	_	Number=Sing	8	nsubj	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	bertempat	tempat	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
@@ -20109,7 +20109,7 @@
 # sent_id = n04009003
 # text = Salah satu contoh riset yang dijalankan berdasarkan upaya-upaya keselamatan ini juga telah memperkenalkan robot humanoid untuk berkompetisi dengan Valentino Rossi.
 # text_en = One of the examples of research applied under safety measures has also produced a humanoid robot to compete with Valentino Rossi.
-1	Salah	salah	ADJ	_	_	2	compound:n	_	_
+1	Salah	salah	ADJ	_	_	2	advmod	_	_
 2	satu	satu	NUM	_	NumType=Card	3	nummod	_	_
 3	contoh	contoh	NOUN	_	Number=Sing	13	nsubj	_	_
 4	riset	riset	NOUN	_	Number=Sing	3	nmod	_	_
@@ -20905,7 +20905,7 @@
 3	kaitan	kait	NOUN	_	Number=Sing	2	obl	_	_
 4	nya	nya	DET	_	_	3	det	_	_
 5	dengan	dengan	ADP	_	_	10	case	_	_
-6	salah	salah	ADJ	_	_	7	compound:n	_	_
+6	salah	salah	ADJ	_	_	7	advmod	_	_
 7	satu	satu	NUM	_	NumType=Card	10	nummod	_	_
 8	dari	dari	ADP	_	_	10	case	_	_
 9	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	10	det	_	_
@@ -21361,7 +21361,7 @@
 19	serta	serta	CCONJ	_	_	20	cc	_	_
 20-21	kurangnya	_	_	_	_	_	_	_	_
 20	kurang	kurang	ADJ	_	_	14	conj	_	_
-21	nya	nya	DET	_	_	20	dep	_	_
+21	nya	nya	DET	_	_	20	det	_	_
 22	persediaan	sedia	NOUN	_	Number=Sing	20	nsubj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -21523,7 +21523,7 @@
 # sent_id = w02014013
 # text = Salah satu alat terakhirnya untuk menempatkan tekanan pada Hongaria adalah ancaman mengadakan pemilihan umum yang bebas.
 # text_en = One of his last means of placing pressure on Hungary was the threat of imposing general and free elections.
-1	Salah	salah	ADJ	_	_	2	compound:n	_	_
+1	Salah	salah	ADJ	_	_	2	advmod	_	_
 2	satu	satu	NUM	_	NumType=Card	3	nummod	_	_
 3	alat	alat	NOUN	_	Number=Sing	12	nsubj	_	_
 4-5	terakhirnya	_	_	_	_	_	_	_	_
@@ -22028,7 +22028,7 @@
 14	oleh	oleh	SCONJ	_	_	15	mark	_	_
 15-16	jatuhnya	_	_	_	_	_	_	_	_
 15	jatuh	jatuh	VERB	_	Mood=Ind|Voice=Act	13	advcl	_	_
-16	nya	nya	DET	_	_	15	dep	_	_
+16	nya	nya	DET	_	_	15	det	_	_
 17	peradaban	adab	NOUN	_	Number=Sing	15	nsubj	_	_
 18	Mycenaean	Mycenaean	PROPN	_	_	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
@@ -22412,7 +22412,7 @@
 22	yang	yang	PRON	_	PronType=Rel	23	nsubj	_	_
 23	merupakan	rupa	VERB	_	Mood=Ind|Voice=Act	18	acl:relcl	_	_
 24	putri	putri	NOUN	_	Number=Sing	23	obl	_	_
-25	salah	salah	ADJ	_	_	26	compound:n	_	_
+25	salah	salah	ADJ	_	_	26	advmod	_	_
 26	satu	satu	NUM	_	NumType=Card	27	nummod	_	_
 27	teman	teman	NOUN	_	Number=Sing	24	nmod:poss	_	_
 28	Gerrmaine	Gerrmaine	PROPN	_	_	27	nmod:poss	_	SpaceAfter=No
@@ -22481,7 +22481,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	terjadinya	_	_	_	_	_	_	_	_
 4	terjadi	jadi	VERB	_	Mood=Ind|Voice=Pass	11	csubj:pass	_	_
-5	nya	nya	DET	_	_	4	dep	_	_
+5	nya	nya	DET	_	_	4	det	_	_
 6	badai	badai	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 7	di	di	ADP	_	_	8	case	_	_
 8	pulau	pulau	NOUN	_	Number=Sing	6	nmod	_	_
@@ -22634,7 +22634,7 @@
 # text_en = The issuing of coinage is predominantly numismatic in nature, with the intention of being sold mainly to collectors.
 1-2	Diterbitkannya	_	_	_	_	_	_	_	_
 1	Diterbitkan	terbit	NOUN	_	Number=Sing	7	csubj	_	_
-2	nya	nya	DET	_	_	1	dep	_	_
+2	nya	nya	DET	_	_	1	det	_	_
 3	mata	mata	NOUN	_	Number=Sing	1	nsubj:pass	_	_
 4	uang	uang	NOUN	_	Number=Sing	3	compound	_	_
 5	sebagian	bagi	NOUN	_	Number=Sing	7	obl	_	_
@@ -22809,7 +22809,7 @@
 14	setelah	telah	SCONJ	_	_	15	mark	_	_
 15-16	terjadinya	_	_	_	_	_	_	_	_
 15	terjadi	jadi	VERB	_	Mood=Ind|Voice=Pass	11	advcl	_	_
-16	nya	nya	DET	_	_	15	dep	_	_
+16	nya	nya	DET	_	_	15	det	_	_
 17	Revolusi	revolusi	NOUN	_	Number=Sing	15	nsubj:pass	_	_
 18	Prancis	Prancis	PROPN	_	_	17	nmod	_	SpaceAfter=No
 19	:	:	PUNCT	_	_	20	punct	_	_
@@ -23180,7 +23180,7 @@
 9	karena	karena	SCONJ	_	_	10	mark	_	_
 10-11	banyaknya	_	_	_	_	_	_	_	_
 10	banyak	banyak	ADJ	_	_	6	advcl	_	_
-11	nya	nya	DET	_	_	10	dep	_	_
+11	nya	nya	DET	_	_	10	det	_	_
 12	jumlah	jumlah	NOUN	_	Number=Sing	11	nsubj	_	_
 13	orang	orang	NOUN	_	Number=Sing	12	nmod	_	_
 14	Yahudi	Yahudi	PROPN	_	_	13	nmod	_	_
@@ -23305,7 +23305,7 @@
 # text_en = The collapse of and intervention in dozens of banks lead to a flight of capital, causing businesses to go bankrupt.
 1-2	Ambruknya	_	_	_	_	_	_	_	_
 1	Ambruk	ambruk	VERB	_	Mood=Ind|Voice=Act	7	csubj	_	_
-2	nya	nya	DET	_	_	1	dep	_	_
+2	nya	nya	DET	_	_	1	det	_	_
 3	dan	dan	CCONJ	_	_	4	cc	_	_
 4	intervensi	intervensi	NOUN	_	Number=Sing	1	conj	_	_
 5	puluhan	puluh	NUM	_	NumType=Card	6	nummod	_	_
