@@ -871,7 +871,7 @@
 6	bahwa	bahwa	SCONJ	_	_	7	mark	_	_
 7	menjadi	jadi	VERB	_	Mood=Ind|Voice=Act	3	xcomp	_	_
 8	tanggung	tanggung	NOUN	_	Number=Sing	7	obl	_	_
-9	jawab	jawab	NOUN	_	Number=Sing	8	compound:v	_	_
+9	jawab	jawab	NOUN	_	Number=Sing	8	compound	_	_
 10	merek	merek	NOUN	_	Number=Sing	8	nmod	_	_
 11	maskapai	maskapai	NOUN	_	Number=Sing	10	nmod	_	_
 12	penerbangan	terbang	NOUN	_	Number=Sing	11	nmod	_	_
@@ -1298,7 +1298,7 @@
 9	lingkungan	lingkung	NOUN	_	Number=Sing	8	nmod	_	_
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 11	mengambil	ambil	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
-12	alih	alih	VERB	_	Mood=Ind|Voice=Act	11	compound:v	_	_
+12	alih	alih	VERB	_	Mood=Ind|Voice=Act	11	xcomp	_	_
 13	bumi	bumi	NOUN	_	Number=Sing	11	obj	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	mengirim	kirim	VERB	_	Mood=Ind|Voice=Act	11	conj	_	_
@@ -1659,7 +1659,7 @@
 21	“	“	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	sangat	sangat	ADV	_	_	23	advmod	_	_
 23	masuk	masuk	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
-24	akal	akal	NOUN	_	Number=Sing	23	compound:v	_	SpaceAfter=No
+24	akal	akal	NOUN	_	Number=Sing	23	obl	_	SpaceAfter=No
 25	”	”	PUNCT	_	_	23	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1759,8 +1759,8 @@
 9	bahwa	bahwa	SCONJ	_	_	10	mark	_	_
 10	terjadi	jadi	VERB	_	Mood=Ind|Voice=Pass	5	ccomp	_	_
 11	“	“	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	adu	adu	VERB	_	Mood=Ind|Voice=Act	10	nsubj:pass	_	_
-13	mulut	mulut	NOUN	_	Number=Sing	12	compound:v	_	SpaceAfter=No
+12	adu	adu	VERB	_	Mood=Ind|Voice=Act	10	xcomp	_	_
+13	mulut	mulut	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
 14	”	”	PUNCT	_	_	12	punct	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 16	diikuti	ikut	VERB	_	Mood=Ind|Voice=Pass	12	advcl	_	_
@@ -2185,7 +2185,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	tidak	tidak	PART	_	Polarity=Neg	10	advmod	_	_
 10	bekerja	kerja	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
-11	sama	sama	ADJ	_	_	10	compound:v	_	SpaceAfter=No
+11	sama	sama	ADJ	_	_	10	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	dan	dan	CCONJ	_	_	15	cc	_	_
 14	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
@@ -3068,7 +3068,7 @@
 19	merah	merah	ADJ	_	_	18	amod	_	_
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 21	bertanggung	tanggung	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	_
-22	jawab	jawab	NOUN	_	Number=Sing	21	compound:v	_	_
+22	jawab	jawab	VERB	_	Number=Sing	21	xcomp	_	_
 23	untuk	untuk	SCONJ	_	_	24	mark	_	_
 24	mengangkut	angkut	VERB	_	Mood=Ind|Voice=Act	21	advcl	_	_
 25	oksigen	oksigen	NOUN	_	Number=Sing	24	obj	_	_
@@ -3155,7 +3155,7 @@
 18	Texas	Texas	PROPN	_	_	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_
 20	diberi	beri	VERB	_	Mood=Ind|Voice=Pass	8	advcl	_	_
-21	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	20	compound:v	_	_
+21	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	20	xcomp	_	_
 22	bahwa	bahwa	SCONJ	_	_	27	mark	_	_
 23	bayi	bayi	NOUN	_	Number=Sing	27	nsubj	_	_
 24	dalam	dalam	ADP	_	_	25	case	_	_
@@ -3221,7 +3221,7 @@
 # text_en = She was 84 years old.
 1	Ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tutup	tutup	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	usia	usia	NOUN	_	Number=Sing	2	compound:v	_	_
+3	usia	usia	NOUN	_	Number=Sing	2	obl	_	_
 4	84	84	NUM	_	NumType=Card	5	nummod	_	_
 5	tahun	tahun	NOUN	_	Number=Sing	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -3380,7 +3380,7 @@
 2	dari	dari	ADP	_	_	3	case	_	_
 3	acara	acara	NOUN	_	Number=Sing	1	nmod	_	_
 4	dengar	dengar	VERB	_	Mood=Ind|Voice=Act	3	acl	_	_
-5	pendapat	dapat	NOUN	_	Number=Sing	4	compound:v	_	_
+5	pendapat	dapat	NOUN	_	Number=Sing	4	obl	_	_
 6	CRTC	CRTC	PROPN	_	Abbr=Yes	3	nmod	_	_
 7	adalah	adalah	AUX	_	_	0	root	_	_
 8	untuk	untuk	SCONJ	_	_	9	mark	_	_
@@ -4904,7 +4904,7 @@
 6	menentang	tentang	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
 7	perdagangan	dagang	NOUN	_	Number=Sing	6	obj	_	_
 8	masuk	masuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-9	akal	akal	NOUN	_	Number=Sing	8	compound:v	_	SpaceAfter=No
+9	akal	akal	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = n01084008
@@ -7819,7 +7819,7 @@
 8	Protection	Protection	PROPN	_	_	6	flat	_	_
 9	Agency	Agency	PROPN	_	_	6	flat	_	_
 10	memberi	beri	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
-11	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	10	compound:v	_	_
+11	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	10	xcomp	_	_
 12	dunia	dunia	NOUN	_	Number=Sing	10	obj	_	_
 13	tentang	tentang	ADP	_	_	14	case	_	_
 14	masalah	masalah	NOUN	_	Number=Sing	10	obl	_	_
@@ -8988,7 +8988,7 @@
 7	Megabazuz	Megabazuz	PROPN	_	_	1	appos	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	bertanggung	tanggung	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	9	compound:v	_	_
+10	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	9	xcomp	_	_
 11	untuk	untuk	SCONJ	_	_	12	mark	_	_
 12	memenuhi	penuh	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
 13	penaklukan	takluk	NOUN	_	Number=Sing	12	obj	_	_
@@ -15651,7 +15651,7 @@
 12	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	bertanggung	tanggung	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
-15	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	14	compound:v	_	_
+15	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	14	xcomp	_	_
 16	atas	atas	ADP	_	_	17	case	_	_
 17	keputusan	putus	NOUN	_	Number=Sing	14	obl	_	_
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
@@ -16731,7 +16731,7 @@
 # text_en = Starlin took over as plotter the following issue, and began developing an elaborate story arc centered on the villainous Thanos, and spread across a number of Marvel titles.
 1	Starlin	Starlin	PROPN	_	_	2	nsubj	_	_
 2	mengambil	ambil	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	alih	alih	VERB	_	Mood=Ind|Voice=Act	2	compound:v	_	_
+3	alih	alih	VERB	_	Mood=Ind|Voice=Act	2	xcomp	_	_
 4	sebagai	bagai	ADP	_	_	5	case	_	_
 5	pembuat	buat	NOUN	_	Number=Sing	2	obl	_	_
 6	plot	plot	NOUN	_	Number=Sing	5	nmod	_	_
@@ -18281,7 +18281,7 @@
 36	Rusia	Rusia	PROPN	_	_	34	nmod	_	_
 37	serta	serta	CCONJ	_	_	38	cc	_	_
 38	mengganti	ganti	VERB	_	Mood=Ind|Voice=Act	18	conj	_	_
-39	rugi	rugi	ADJ	_	_	38	compound:v	_	_
+39	rugi	rugi	ADJ	_	_	38	xcomp	_	_
 40	semua	semua	DET	_	PronType=Tot	41	det	_	_
 41	biaya	biaya	NOUN	_	Number=Sing	38	obj	_	_
 42	yang	yang	PRON	_	PronType=Rel	44	nsubj	_	_
@@ -18659,7 +18659,7 @@
 5	bisa	bisa	AUX	_	_	7	aux	_	_
 6	lebih	lebih	ADV	_	_	7	advmod	_	_
 7	bertanggung	tanggung	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
-8	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	7	compound:v	_	_
+8	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	7	xcomp	_	_
 9	dalam	dalam	ADP	_	_	10	case	_	_
 10	hal	hal	NOUN	_	Number=Sing	7	obl	_	_
 11	kontrasepsi	kontrasepsi	NOUN	_	Number=Sing	10	nmod	_	SpaceAfter=No
@@ -19489,7 +19489,7 @@
 3	itu	itu	DET	_	PronType=Dem	2	det	_	_
 4	mengadakan	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	naik	naik	VERB	_	Mood=Ind|Voice=Act	4	xcomp	_	_
-6	banding	banding	VERB	_	Mood=Ind|Voice=Act	5	compound:v	_	_
+6	banding	banding	VERB	_	Mood=Ind|Voice=Act	5	xcomp	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
 8	ditolak	tolak	VERB	_	Mood=Ind|Voice=Pass	5	acl:relcl	_	_
 9	oleh	oleh	ADP	_	_	10	case	_	_
@@ -19789,7 +19789,7 @@
 1	Orang	orang	NOUN	_	Number=Sing	6	nsubj:pass	_	_
 2	yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
 3	lanjut	lanjut	ADJ	_	_	1	acl:relcl	_	_
-4	usia	usia	NOUN	_	Number=Sing	3	compound:v	_	_
+4	usia	usia	NOUN	_	Number=Sing	3	obl	_	_
 5	akan	akan	AUX	_	_	6	aux	_	_
 6	ditawari	tawar	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 7	500	500	NUM	_	NumType=Card	8	nummod	_	_
@@ -19894,7 +19894,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	dan	dan	CCONJ	_	_	11	cc	_	_
 11	memberi	beri	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
-12	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	11	compound:v	_	_
+12	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	11	xcomp	_	_
 13	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
 14	bahwa	bahwa	SCONJ	_	_	19	mark	_	_
 15	harga	harga	NOUN	_	Number=Sing	19	nsubj	_	_
@@ -20046,7 +20046,7 @@
 3	LUISS	LUISS	PROPN	_	Abbr=Yes	1	nmod	_	_
 4	University	University	PROPN	_	_	3	flat	_	_
 5	diberi	beri	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-6	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	5	compound:v	_	_
+6	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	5	xcomp	_	_
 7	selama	lama	SCONJ	_	_	8	mark	_	_
 8-9	berlangsungnya	_	_	_	_	_	_	_	_
 8	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
@@ -20889,7 +20889,7 @@
 16	masyarakat	masyarakat	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	diambil	ambil	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-19	alih	alih	VERB	_	Mood=Ind|Voice=Act	18	compound:v	_	_
+19	alih	alih	VERB	_	Mood=Ind|Voice=Act	18	xcomp	_	_
 20	untuk	untuk	ADP	_	_	21	case	_	_
 21	pemain	main	NOUN	_	Number=Sing	18	obl	_	_
 22	dan	dan	CCONJ	_	_	23	cc	_	_
@@ -22309,7 +22309,7 @@
 # text_en = To get away from it all, the Remis resided in Switzerland for most of summer 1947.
 1	Untuk	untuk	SCONJ	_	_	2	mark	_	_
 2	melarikan	lari	VERB	_	Mood=Ind|Voice=Act	10	advcl	_	_
-3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound:v	_	_
+3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	obl	_	_
 4	dari	dari	ADP	_	_	6	case	_	_
 5	semua	semua	DET	_	PronType=Tot	6	det	_	_
 6	itu	itu	PRON	_	PronType=Dem	2	obl	_	SpaceAfter=No
@@ -22874,7 +22874,7 @@
 # text_en = Napoleon was confident that the clear success of Austerlitz could lead to a general peace treaty, but his hopes were soon dashed: the new British Prime Minister Lord Grenville refused any agreement, and so did Tsar Alexander.
 1	Napoleon	Napoleon	PROPN	_	_	2	nsubj	_	_
 2	percaya	percaya	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	compound:v	_	_
+3	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	2	obl	_	_
 4	bahwa	bahwa	SCONJ	_	_	9	mark	_	_
 5	keberhasilan	hasil	NOUN	_	Number=Sing	9	nsubj	_	_
 6	jelas	jelas	ADJ	_	_	5	amod	_	_
@@ -23430,7 +23430,7 @@
 17	para	para	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	kolonis	kolonis	NOUN	_	Number=Sing	19	nsubj	_	_
 19	mengambil	ambil	VERB	_	Mood=Ind|Voice=Act	13	advcl	_	_
-20	alih	alih	VERB	_	Mood=Ind|Voice=Act	19	compound:v	_	_
+20	alih	alih	VERB	_	Mood=Ind|Voice=Act	19	xcomp	_	_
 21	semakin	makin	ADV	_	_	22	advmod	_	_
 22	banyak	banyak	ADV	_	_	20	advmod	_	_
 23	dan	dan	CCONJ	_	_	24	cc	_	_
@@ -23714,7 +23714,7 @@
 2	secara	cara	ADP	_	_	3	case	_	_
 3	pribadi	pribadi	NOUN	_	Number=Sing	4	obl	_	_
 4	diberi	beri	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-5	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	4	compound:v	_	_
+5	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	4	xcomp	_	_
 6	oleh	oleh	ADP	_	_	7	case	_	_
 7	Curio	Curio	PROPN	_	_	4	obl	_	_
 8	tentang	tentang	ADP	_	_	9	case	_	_
