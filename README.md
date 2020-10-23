@@ -7,8 +7,7 @@ Universal Dependencies](http://universaldependencies.org/conll17/).
 
 # Introduction
 
-There are
-1000 sentences in each language, always in the same order. (The sentence
+There are 1000 sentences in each language, always in the same order. (The sentence
 alignment is 1-1 but occasionally a sentence-level segment actually consists
 of two real sentences.) The sentences are taken from the news domain (sentence
 id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’). There are
@@ -39,13 +38,7 @@ README FROM UI
 
 A reseach team from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
 
-A description of how the Indonesian PUD was manually revised by UI  in 2019 can be found in:
-
-  A Gold Standard Dependency Treebank for Indonesian
-  Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany and Heru Suhartanto
-  Proceedings of PACLIC (Pacific Asia Conference on Language, Information and Computation) 2019
-
-In 2020, the same reseach team from UI conducted the second revision and decided to share the revised treebank to UD. The short description about the annotation guidelines can be found in [Indonesian PUD Documentation](https://universaldependencies.org/id/index.html).
+A description of how the Indonesian PUD was manually revised by UI  can be found in Alfina et al. (2019) and Alfina et al. (2020) in the references section. The short description about the annotation guidelines can be found in [Indonesian Documentation](https://universaldependencies.org/id/index.html).
 
 The original repository of the revised Indonesian PUD conducted by UI can be found [here](https://github.com/ialfina/revised-id-pud).
 
@@ -95,24 +88,23 @@ We will distinguish between two portions of the data:
 
 2. The annotations -- part-of-speech tags and dependency annotations. GOOGLE MAKES THEM AVAILABLE TO YOU 'AS IS', WITHOUT ANY WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED.
 
-=======
-Contact
-=======
 
-slav@google.com
-ika.alfina@cs.ui.ac.id
+# Acknowledgments
 
-=======
-Acknowledgements
-=======
-
+## From Google:
 We are greatful to the many people who made this dataset possible:
 Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
 Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
-The contributors of the 2020 revision are:
+## From UI:
+The contributors of the revision project of Indonesian PUD by UI are:
 * Designing the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
 * Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
+
+## References
+* Ika Alfina, Daniel Zeman, Arawinda Dinakaramani, Indra Budi, and Heru Suhartanto. "**Selecting the Universal Dependencies Morphological Features for Indonesian Dependency Treebank**". In the Proceeding of The 2020 International Conference of Asian Language Processing (IALP) 2020 in Kuala Lumpur, Malaysia, 4-6 Desember 2020. (_accepted_)
+* Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany, and Heru Suhartanto. ["**A Gold Standard Dependency Treebank for Indonesian**"](https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=48059&item_no=1&attribute_id=101&file_no=1). In The 33rd PACLIC (Pacific Asia Conference on Language, Information and Computation) 2019. 
+* Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg, Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang, Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee. "**Universal Dependency Annotation for Multilingual Parsing**". In the Proceedings of ACL 2013
 
 
 # Changelog
@@ -122,6 +114,12 @@ The contributors of the 2020 revision are:
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
 
+=======
+Contact
+=======
+
+slav@google.com
+ika.alfina@cs.ui.ac.id
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.2
