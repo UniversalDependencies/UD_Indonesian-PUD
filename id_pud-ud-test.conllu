@@ -13896,7 +13896,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	Philip	Philip	PROPN	_	_	8	nsubj	_	_
 8	menghimpun	himpun	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-9	pasukan	pasuk	NOUN	_	Number=Sing	8	obj	_	_
+9	pasukan	pasukan	NOUN	_	Number=Sing	8	obj	_	_
 10	besar	besar	ADJ	_	_	9	amod	_	_
 11	Makedonia	Makedonia	PROPN	_	_	9	nmod	_	_
 12	dan	dan	CCONJ	_	_	13	cc	_	_
@@ -14689,7 +14689,7 @@
 # text = Anggota pasukan kavaleri Inggris juga menerima pelatihan kepandaian bermain pedang yang ulung.
 # text_en = British cavalry troopers also received excellent mounted swordsmanship training.
 1	Anggota	anggota	NOUN	_	Number=Sing	6	nsubj	_	_
-2	pasukan	pasuk	NOUN	_	Number=Sing	1	nmod	_	_
+2	pasukan	pasukan	NOUN	_	Number=Sing	1	nmod	_	_
 3	kavaleri	kavaleri	NOUN	_	Number=Sing	2	nmod	_	_
 4	Inggris	Inggris	PROPN	_	_	2	nmod	_	_
 5	juga	juga	ADV	_	_	6	advmod	_	_
@@ -17082,7 +17082,7 @@
 5	tak	tak	PART	_	Polarity=Neg	6	advmod	_	_
 6	lama	lama	ADJ	_	_	10	advmod	_	_
 7	setelah	telah	SCONJ	_	_	10	mark	_	_
-8	pasukan	pasuk	NOUN	_	Number=Sing	10	nsubj	_	_
+8	pasukan	pasukan	NOUN	_	Number=Sing	10	nsubj	_	_
 9	Jerman	Jerman	PROPN	_	_	8	nmod	_	_
 10	menyeberangi	seberang	VERB	_	Mood=Ind|Voice=Act	1	advcl	_	_
 11	batas	batas	NOUN	_	Number=Sing	10	obj	_	SpaceAfter=No
@@ -18266,7 +18266,7 @@
 18	menarik	tarik	VERB	_	Mood=Ind|Voice=Act	3	parataxis	_	_
 19	semua	semua	DET	_	PronType=Tot	20	det	_	_
 20-21	pasukannya	_	_	_	_	_	_	_	_
-20	pasukan	pasuk	NOUN	_	Number=Sing	18	obj	_	_
+20	pasukan	pasukan	NOUN	_	Number=Sing	18	obj	_	_
 21	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 22	dari	dari	ADP	_	_	23	case	_	_
 23	negara-negara	negara	NOUN	_	Number=Plur	18	obl	_	_
@@ -18517,7 +18517,7 @@
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	saat	saat	ADV	_	PronType=Rel	11	advmod	_	_
 8	satu	satu	NUM	_	NumType=Card	9	nummod	_	_
-9	pasukan	pasuk	NOUN	_	Number=Sing	11	nsubj	_	_
+9	pasukan	pasukan	NOUN	_	Number=Sing	11	nsubj	_	_
 10	bebek	bebek	NOUN	_	Number=Sing	9	nmod	_	_
 11	menaklukkan	takluk	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	_
 12	internet	internet	NOUN	_	Number=Sing	11	obj	_	SpaceAfter=No
@@ -21613,7 +21613,7 @@
 10	tahun	tahun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 11	1632	1632	NUM	_	NumType=Card	10	nummod	_	_
 12	oleh	oleh	ADP	_	_	13	case	_	_
-13	pasukan	pasuk	NOUN	_	Number=Sing	3	obl:agent	_	_
+13	pasukan	pasukan	NOUN	_	Number=Sing	3	obl:agent	_	_
 14	Swedia	Swedia	PROPN	_	_	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -23786,7 +23786,7 @@
 18	untuk	untuk	SCONJ	_	_	19	mark	_	_
 19	menarik	tarik	VERB	_	Mood=Ind|Voice=Act	17	acl	_	_
 20-21	pasukannya	_	_	_	_	_	_	_	_
-20	pasukan	pasuk	NOUN	_	Number=Sing	19	obj	_	_
+20	pasukan	pasukan	NOUN	_	Number=Sing	19	obj	_	_
 21	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 22	atau	atau	CCONJ	_	_	23	cc	_	_
 23	menjadi	jadi	VERB	_	Mood=Ind|Voice=Act	19	conj	_	_
