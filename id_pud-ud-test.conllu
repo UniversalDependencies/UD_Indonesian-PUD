@@ -3068,7 +3068,7 @@
 19	merah	merah	ADJ	_	_	18	amod	_	_
 20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 21	bertanggung	tanggung	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	_
-22	jawab	jawab	VERB	_	Number=Sing	21	xcomp	_	_
+22	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	21	xcomp	_	_
 23	untuk	untuk	SCONJ	_	_	24	mark	_	_
 24	mengangkut	angkut	VERB	_	Mood=Ind|Voice=Act	21	advcl	_	_
 25	oksigen	oksigen	NOUN	_	Number=Sing	24	obj	_	_
