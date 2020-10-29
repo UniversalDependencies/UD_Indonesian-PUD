@@ -98,7 +98,7 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
 ## From UI:
 We thank the contributors of the revision project of the Indonesian PUD:
-* Designing the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
+* Designers the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
 * Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
 
 ## References
