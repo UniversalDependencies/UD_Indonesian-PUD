@@ -3,48 +3,36 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Indonesian-PUD:
-commit cc878cb49990a398a82042cf88c1b7548cba8d85
+commit 1ad94c710fde6f2f3d38394bd1370cd3ccdc225f
+Merge: 41a26c6 7d17e99
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:17:38 2019 +0100
-Size: counted 19900 of 19900 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.98143946346089.
+Size: counted 19440 of 19440 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.93466559806459.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
-Universal POS tags: 15 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 334 out of 19900 total words have one or more features.
-Features: source of annotation (from README) factor is 0.8.
-Universal relations: 33 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 4359 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 19900 words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 10015 out of 19440 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 2542 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 19440 words.
 Genres: found 2 out of 17 known.
 validate.py --lang id --max-err=10 UD_Indonesian-PUD/id_pud-ud-test.conllu
-[Line 16 Sent n01001011 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADV'
-[Line 62 Sent n01001013 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADV'
-[Line 63 Sent n01001013 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADV'
-[Line 90 Sent n01002017 Node 20]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADV'
-[Line 177 Sent n01002058 Node 7]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
-[Line 191 Sent n01003007 Node 1]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'ADV'
-[Line 248 Sent n01003012 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'NOUN'
-[Line 275 Sent n01003013 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 291 Sent n01004009 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'NOUN'
-...suppressing further errors regarding Syntax
-Syntax errors: 1041
-*** FAILED *** with 1041 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.24) = 0.0184615384615385
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0.432951025469902) = 0.111013083453821
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.429565420196752) = 0.110144979537629
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.268990744372658) * (availability=1) * (validity=0.01) = 0.00268990744372658
-STARS = 0
-UD_Indonesian-PUD	0.00268990744372658	0
+(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
+(TOTAL score=0.437004871103403) * (availability=1) * (validity=1) = 0.437004871103403
+STARS = 2
+UD_Indonesian-PUD	0.437004871103403	2
