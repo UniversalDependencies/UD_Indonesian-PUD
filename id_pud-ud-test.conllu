@@ -1159,7 +1159,7 @@
 18	di	di	ADP	_	_	21	case	_	_
 19	bawah	bawah	NOUN	_	Number=Sing	21	nmod:lmod	_	_
 20	2	2	NUM	_	NumType=Card	21	nummod	_	_
-21	C	c	NOUN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
+21	C	C	PROPN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n01022005
@@ -5561,7 +5561,7 @@
 1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	konservasionis	konservasionis	NOUN	_	Number=Sing	3	nsubj	_	_
 3	menyambut	sambut	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-4	baik	baik	ADV	_	_	3	advmod	_	_
+4	baik	baik	ADJ	_	_	3	advmod	_	_
 5	pengumuman	umum	NOUN	_	Number=Sing	3	obj	_	_
 6	komisi	komisi	NOUN	_	Number=Sing	5	nmod	_	_
 7	itu	itu	DET	_	PronType=Dem	5	det	_	SpaceAfter=No
@@ -5649,7 +5649,7 @@
 6	binatang	binatang	NOUN	_	Number=Sing	4	obj	_	_
 7	dengan	dengan	ADP	_	_	9	case:adv	_	_
 8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
-9	sungguh-sungguh	sungguh	ADV	_	_	4	advmod	_	SpaceAfter=No
+9	sungguh-sungguh	sungguh	ADJ	_	_	4	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n01095019
@@ -6129,11 +6129,11 @@
 6	luar	luar	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	keteraturan	atur	NOUN	_	Number=Sing	0	root	_	_
 8	dan	dan	CCONJ	_	_	12	cc	_	_
-9	tampaknya	_	ADV	_	_	12	advmod	_	_
-10	ia	_	PRON	_	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-11	selalu	_	ADV	_	PronType=Tot	12	advmod	_	_
-12	mencari	_	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
-13	jawaban	_	NOUN	_	Number=Sing	12	obj	_	SpaceAfter=No
+9	tampaknya	tampak	ADV	_	_	12	advmod	_	_
+10	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	selalu	selalu	ADV	_	PronType=Tot	12	advmod	_	_
+12	mencari	cari	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
+13	jawaban	jawab	NOUN	_	Number=Sing	12	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01105023
@@ -6892,7 +6892,7 @@
 4	jika	jika	SCONJ	_	_	5	mark	_	_
 5	dilakukan	laku	VERB	_	Mood=Ind|Voice=Pass	11	advcl	_	_
 6	dengan	dengan	ADP	_	_	7	case:adv	_	_
-7	benar	benar	ADV	_	_	5	advmod	_	SpaceAfter=No
+7	benar	benar	ADJ	_	_	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 10	dapat	dapat	AUX	_	_	11	aux	_	_
@@ -7132,7 +7132,7 @@
 5	kedua	dua	ADJ	_	NumType=Ord	3	acl:relcl	_	_
 6	berjalan	jalan	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
-8	baik	baik	ADV	_	_	6	advmod	_	_
+8	baik	baik	ADJ	_	_	6	advmod	_	_
 9	sejauh	jauh	NOUN	_	Number=Sing	6	obl:tmod	_	_
 10	ini	ini	DET	_	PronType=Dem	9	det	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	6	punct	_	_
@@ -7437,7 +7437,7 @@
 11	mereka	mereka	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 12	dengan	dengan	ADP	_	_	14	case:adv	_	_
 13	lebih	lebih	ADV	_	_	14	advmod	_	_
-14	baik	baik	ADV	_	_	9	advmod	_	_
+14	baik	baik	ADJ	_	_	9	advmod	_	_
 15	saat	saat	NOUN	_	Number=Sing	9	obl	_	_
 16	online	online	ADJ	_	_	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
@@ -7889,7 +7889,7 @@
 2	yang	yang	PRON	_	PronType=Rel	3	nsubj:pass	_	_
 3	ditampilkan	tampil	VERB	_	Mood=Ind|Voice=Pass	18	acl	_	_
 4	dengan	dengan	ADP	_	_	5	case:adv	_	_
-5	jelas	jelas	ADV	_	_	3	advmod	_	_
+5	jelas	jelas	ADJ	_	_	3	advmod	_	_
 6	dalam	dalam	ADP	_	_	7	case	_	_
 7	film	film	NOUN	_	Number=Sing	3	obl	_	_
 8	itu	itu	DET	_	PronType=Dem	7	det	_	SpaceAfter=No
@@ -9311,7 +9311,7 @@
 19	pada	pada	ADP	_	_	20	case	_	_
 20	abad	abad	NOUN	_	Number=Sing	16	obl:tmod	_	_
 21	ke-6	6	ADJ	_	NumType=Ord	20	amod	_	_
-22	M	M	NOUN	_	Abbr=Yes	20	nmod	_	SpaceAfter=No
+22	M	M	PROPN	_	Abbr=Yes	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w01010045
@@ -9562,7 +9562,7 @@
 19	pada	pada	ADP	_	_	20	case	_	_
 20	sistem	sistem	NOUN	_	Number=Sing	14	nmod	_	_
 21	itu	itu	DET	_	PronType=Dem	20	det	_	_
-22	secara	cara	ADP	_	_	23	case:adv	_	_
+22	secara	cara	ADP	_	_	23	case	_	_
 23	keseluruhan	seluruh	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9798,7 +9798,7 @@
 10	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = w01020016
-# text = Beberapa peradaban kuno terletak di sekitar pesisir dan sangat dipengaruhi oleh posisinya yang dekat dengan laut.
+# text = Beberapa peradaban kuno terletak di sekitar pesisir Mediterania dan sangat dipengaruhi oleh posisinya yang dekat dengan laut.
 # text_en = Several ancient civilisations were located around the Mediterranean shores, and were greatly influenced by their proximity to the sea.
 1	Beberapa	berapa	DET	_	PronType=Ind	2	det	_	_
 2	peradaban	adab	NOUN	_	Number=Sing	4	nsubj:pass	_	_
@@ -9807,18 +9807,19 @@
 5	di	di	ADP	_	_	7	case	_	_
 6	sekitar	kitar	NOUN	_	Number=Sing	7	nmod:lmod	_	_
 7	pesisir	sisir	NOUN	_	Number=Sing	4	obl	_	_
-8	dan	dan	CCONJ	_	_	10	cc	_	_
-9	sangat	sangat	ADV	_	_	10	advmod	_	_
-10	dipengaruhi	pengaruh	VERB	_	Mood=Ind|Voice=Pass	4	conj	_	_
-11	oleh	oleh	ADP	_	_	12	case	_	_
-12-13	posisinya	_	_	_	_	_	_	_	_
-12	posisi	posisi	NOUN	_	Number=Sing	10	obl:agent	_	_
-13	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
-15	dekat	dekat	ADJ	_	_	12	acl:relcl	_	_
-16	dengan	dengan	ADP	_	_	17	case	_	_
-17	laut	laut	NOUN	_	Number=Sing	15	obl	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	_
+8	Mediterania	Mediterania	PROPN	_	_	7	nmod	_	_
+9	dan	dan	CCONJ	_	_	11	cc	_	_
+10	sangat	sangat	ADV	_	_	11	advmod	_	_
+11	dipengaruhi	pengaruh	VERB	_	Mood=Ind|Voice=Pass	4	conj	_	_
+12	oleh	oleh	ADP	_	_	13	case	_	_
+13-14	posisinya	_	_	_	_	_	_	_	_
+13	posisi	posisi	NOUN	_	Number=Sing	11	obl:agent	_	_
+14	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+15	yang	yang	PRON	_	PronType=Rel	16	nsubj	_	_
+16	dekat	dekat	ADJ	_	_	13	acl:relcl	_	_
+17	dengan	dengan	ADP	_	_	18	case	_	_
+18	laut	laut	NOUN	_	Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w01020017
 # text = Posisi ini menyediakan rute untuk perdagangan, kolonisasi, dan perang serta makanan (mulai dari memancing dan mengumpulkan makanan laut lainnya) untuk banyak masyarakat sepanjang masa.
@@ -13748,7 +13749,7 @@
 14	telah	telah	AUX	_	_	15	aux	_	_
 15	dibaptis	baptis	VERB	_	Mood=Ind|Voice=Pass	11	acl:relcl	_	_
 16	dengan	dengan	ADP	_	_	17	case:adv	_	_
-17	paksa	paksa	ADV	_	_	15	advmod	_	_
+17	paksa	paksa	VERB	_	_	15	advcl	_	_
 18	dapat	dapat	AUX	_	_	19	aux	_	_
 19	kembali	kembali	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 20	ke	ke	ADP	_	_	21	case	_	_
@@ -15102,7 +15103,7 @@
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	berfungsi	fungsi	VERB	_	Mood=Ind|Voice=Act	11	conj	_	_
 16	dengan	dengan	ADP	_	_	17	case:adv	_	_
-17	baik	baik	ADV	_	_	15	advmod	_	SpaceAfter=No
+17	baik	baik	ADJ	_	_	15	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	11	punct	_	_
 19	sudah	sudah	AUX	_	_	20	aux	_	_
 20	terlambat	lambat	VERB	_	Mood=Ind|Voice=Pass	2	parataxis	_	_
@@ -15203,7 +15204,7 @@
 7	dan	dan	CCONJ	_	_	8	cc	_	_
 8	berfungsi	fungsi	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 9	dengan	dengan	ADP	_	_	10	case:adv	_	_
-10	baik	baik	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	baik	baik	ADJ	_	_	8	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	bahkan	bahkan	ADP	_	_	14	case	_	_
 13	dengan	dengan	ADP	_	_	14	case	_	_
@@ -16410,7 +16411,7 @@
 7	Kenseth	Kenseth	PROPN	_	_	8	nsubj	_	_
 8	menang	menang	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 9	dengan	dengan	ADP	_	_	10	case:adv	_	_
-10	mudah	mudah	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	mudah	mudah	ADJ	_	_	8	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w01129037
@@ -17615,7 +17616,7 @@
 5	sebagai	bagai	ADP	_	_	6	case	_	_
 6	prinsip	prinsip	NOUN	_	Number=Sing	3	obl	_	_
 7	pemandu	pandu	NOUN	_	Number=Sing	6	nmod	_	_
-8	Marxisme	marxisme	PROPN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+8	Marxisme	marxisme	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	nya	nya	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 11	dan	dan	CCONJ	_	_	12	cc	_	_
@@ -18736,7 +18737,7 @@
 26	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 27	bersaudara	saudara	VERB	_	Mood=Ind|Voice=Act	18	conj	_	_
 28	secara	cara	ADP	_	_	29	case:adv	_	_
-29	intelektual	intelektual	ADV	_	_	27	advmod	_	SpaceAfter=No
+29	intelektual	intelektual	ADJ	_	_	27	advmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = n02066010
@@ -19618,7 +19619,7 @@
 18	memeriksa	periksa	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 19	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 20	dengan	dengan	ADP	_	_	21	case:adv	_	_
-21	teliti	teliti	ADV	_	_	18	advmod	_	SpaceAfter=No
+21	teliti	teliti	ADJ	_	_	18	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = n03010012
@@ -20595,7 +20596,7 @@
 12	yang	yang	PRON	_	PronType=Rel	13	nsubj:pass	_	_
 13	digunakan	guna	VERB	_	Mood=Ind|Voice=Pass	9	acl:relcl	_	_
 14	dengan	dengan	ADP	_	_	15	case:adv	_	_
-15	baik	baik	ADV	_	_	13	advmod	_	_
+15	baik	baik	ADJ	_	_	13	advmod	_	_
 16	pas	pas	ADJ	_	_	0	root	_	_
 17	dengan	dengan	ADP	_	_	18	case	_	_
 18	orasi	orasi	NOUN	_	Number=Sing	16	obl	_	_
@@ -21153,7 +21154,7 @@
 5	kejadian	jadi	NOUN	_	Number=Sing	4	nmod	_	_
 6	dibahas	bahas	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
-8	mendalam	dalam	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	mendalam	dalam	VERB	_	_	6	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w02007032
@@ -21399,7 +21400,7 @@
 2	itu	itu	DET	_	PronType=Dem	1	det	_	_
 3	diterima	terima	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 4	dengan	dengan	ADP	_	_	5	case:adv	_	_
-5	baik	baik	ADV	_	_	3	advmod	_	_
+5	baik	baik	ADJ	_	_	3	advmod	_	_
 6	dan	dan	CCONJ	_	_	8	cc	_	_
 7	penonton	tonton	NOUN	_	Number=Sing	8	nsubj	_	_
 8	meminta	minta	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
@@ -21773,7 +21774,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	Springer	Springer	PROPN	_	_	9	nsubj	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
-8	bersemangat	semangat	ADV	_	_	9	advmod	_	_
+8	bersemangat	semangat	VERB	_	_	9	advcl	_	_
 9	mengejar	kejar	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	rekonsiliasi	rekonsiliasi	NOUN	_	Number=Sing	9	obj	_	_
 11	dengan	dengan	ADP	_	_	12	case	_	_
@@ -22381,7 +22382,7 @@
 20	Disney	Disney	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	dengan	dengan	ADP	_	_	23	case:adv	_	_
-23	sia-sia	sia	ADV	_	_	24	advmod	_	_
+23	sia-sia	sia	ADJ	_	_	24	advmod	_	_
 24	meminta	minta	VERB	_	Mood=Ind|Voice=Act	16	advcl	_	_
 25-26	dukungannya	_	_	_	_	_	_	_	SpaceAfter=No
 25	dukungan	dukung	NOUN	_	Number=Sing	24	obj	_	_
@@ -22769,30 +22770,31 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w04006065
-# text = Hanya sedikit dari mereka (dengan gelar earl) telah ada pada masa Henry I dan ini sebagian besar bersifat simbolik.
+# text = Hanya segelintir dari mereka (dengan gelar earl) yang telah ada pada masa Henry I dan ini sebagian besar bersifat simbolik.
 # text_en = Only a handful of them (earldoms) had existed under Henry I and these had been largely symbolic.
 1	Hanya	hanya	ADV	_	_	2	advmod	_	_
-2	sedikit	sedikit	ADJ	_	_	4	amod	_	_
+2	segelintir	gelintir	NOUN	_	_	12	nsubj	_	_
 3	dari	dari	ADP	_	_	4	case	_	_
-4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	dengan	dengan	ADP	_	_	7	case	_	_
 7	gelar	gelar	NOUN	_	Number=Sing	4	nmod	_	_
 8	earl	earl	X	_	_	7	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	7	punct	_	_
-10	telah	telah	AUX	_	_	11	aux	_	_
-11	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-12	pada	pada	ADP	_	_	13	case	_	_
-13	masa	masa	NOUN	_	Number=Sing	11	obl:tmod	_	_
-14	Henry	Henry	PROPN	_	_	13	nmod	_	_
-15	I	i	ADJ	_	NumType=Ord	14	amod	_	_
-16	dan	dan	CCONJ	_	_	20	cc	_	_
-17	ini	ini	PRON	_	PronType=Dem	20	nsubj	_	_
-18	sebagian	bagi	NOUN	_	Number=Sing	17	nmod	_	_
-19	besar	besar	ADJ	_	_	18	amod	_	_
-20	bersifat	sifat	VERB	_	Mood=Ind|Voice=Act	11	conj	_	_
-21	simbolik	simbolik	ADJ	_	_	20	xcomp	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	11	punct	_	_
+10	yang	yang	SCONJ	_	_	12	mark	_	_
+11	telah	telah	AUX	_	_	12	aux	_	_
+12	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+13	pada	pada	ADP	_	_	14	case	_	_
+14	masa	masa	NOUN	_	Number=Sing	12	obl:tmod	_	_
+15	Henry	Henry	PROPN	_	_	14	nmod	_	_
+16	I	i	ADJ	_	NumType=Ord	15	amod	_	_
+17	dan	dan	CCONJ	_	_	21	cc	_	_
+18	ini	ini	PRON	_	PronType=Dem	21	nsubj	_	_
+19	sebagian	bagi	NOUN	_	Number=Sing	18	nmod	_	_
+20	besar	besar	ADJ	_	_	19	amod	_	_
+21	bersifat	sifat	VERB	_	Mood=Ind|Voice=Act	12	conj	_	_
+22	simbolik	simbolik	ADJ	_	_	21	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = w04007006
 # text = Selama Perang Koalisi Pertama, seorang petugas artileri Korsika mulai mendapat pencerahan, setelah terjadinya Revolusi Prancis: Napoleon Bonaparte.
@@ -22983,8 +22985,8 @@
 33	nya	nya	DET	_	PronType=Dem	31	det	_	_
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	dilatih	latih	VERB	_	Mood=Ind|Voice=Pass	3	parataxis	_	_
-36	sejak	sejak	ADP	_	_	37	case:adv	_	_
-37	kecil	kecil	ADJ	_	_	35	advmod	_	SpaceAfter=No
+36	sejak	sejak	ADP	_	_	37	mark	_	_
+37	kecil	kecil	ADJ	_	_	35	advcl	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = w04010027
@@ -23180,7 +23182,7 @@
 5	itu	itu	DET	_	PronType=Dem	4	det	_	_
 6	dipilih	pilih	VERB	_	Mood=Ind|Voice=Pass	2	advcl	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
-8	sengaja	sengaja	ADV	_	_	6	advmod	_	_
+8	sengaja	sengaja	ADJ	_	_	6	advmod	_	_
 9	karena	karena	SCONJ	_	_	10	mark	_	_
 10-11	banyaknya	_	_	_	_	_	_	_	_
 10	banyak	banyak	ADJ	_	_	6	advcl	_	_
