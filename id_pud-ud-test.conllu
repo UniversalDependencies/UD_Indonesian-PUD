@@ -12568,7 +12568,7 @@
 11	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj:pass	_	_
 12	dengan	dengan	ADP	_	_	14	case:adv	_	_
 13	sangat	sangat	ADV	_	_	14	advmod	_	_
-14	hati-hati	hati	ADV	_	_	15	advmod	_	_
+14	hati-hati	hati	ADJ	_	_	15	advmod	_	_
 15	diberi	beri	VERB	_	Mood=Ind|Voice=Pass	2	conj	_	_
 16	ritual	ritual	NOUN	_	Number=Sing	15	obl	_	_
 17	dan	dan	CCONJ	_	_	18	cc	_	_
@@ -13749,7 +13749,7 @@
 14	telah	telah	AUX	_	_	15	aux	_	_
 15	dibaptis	baptis	VERB	_	Mood=Ind|Voice=Pass	11	acl:relcl	_	_
 16	dengan	dengan	ADP	_	_	17	case:adv	_	_
-17	paksa	paksa	VERB	_	_	15	advcl	_	_
+17	paksa	paksa	VERB	_	Mood=Ind|Voice=Act	15	advcl	_	_
 18	dapat	dapat	AUX	_	_	19	aux	_	_
 19	kembali	kembali	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 20	ke	ke	ADP	_	_	21	case	_	_
@@ -21154,7 +21154,7 @@
 5	kejadian	jadi	NOUN	_	Number=Sing	4	nmod	_	_
 6	dibahas	bahas	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
-8	mendalam	dalam	VERB	_	_	6	advcl	_	SpaceAfter=No
+8	mendalam	dalam	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w02007032
@@ -21774,7 +21774,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	Springer	Springer	PROPN	_	_	9	nsubj	_	_
 7	dengan	dengan	ADP	_	_	8	case:adv	_	_
-8	bersemangat	semangat	VERB	_	_	9	advcl	_	_
+8	bersemangat	semangat	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
 9	mengejar	kejar	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	rekonsiliasi	rekonsiliasi	NOUN	_	Number=Sing	9	obj	_	_
 11	dengan	dengan	ADP	_	_	12	case	_	_
