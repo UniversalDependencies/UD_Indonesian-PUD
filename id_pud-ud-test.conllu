@@ -10735,17 +10735,17 @@
 23	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = w01035079
-# text = Kehancuran habitat meningkat tajam di area-area yang rentan bencana alam seperti banjir dan kekeringan, gagal panen, penyebaran penyakit, dan kontaminasi air.
+# text = Perusakan habitat sangat meningkatkan kerentanan suatu daerah terhadap bencana alam seperti banjir dan kekeringan, gagal panen, penyebaran penyakit, dan kontaminasi air.
 # text_en = Habitat destruction vastly increases an area's vulnerability to natural disasters like flood and drought, crop failure, spread of disease, and water contamination.
-1	Kehancuran	hancur	NOUN	_	Number=Sing	3	nsubj	_	_
+1	Perusakan	rusak	NOUN	_	Number=Sing	3	nsubj	_	_
 2	habitat	habitat	NOUN	_	Number=Sing	1	nmod	_	_
-3	meningkat	tingkat	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-4	tajam	tajam	ADJ	_	_	3	advmod	_	_
-5	di	di	ADP	_	_	6	case	_	_
-6	area-area	area	NOUN	_	Number=Plur	3	obl	_	_
-7	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
-8	rentan	rentan	ADJ	_	_	6	acl:relcl	_	_
-9	bencana	bencana	NOUN	_	Number=Sing	8	obl	_	_
+3	sangat	sangat	ADV	_	_	4	advmod	_	_
+4	meningkatkan	tingkat	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+5	kerentanan	rentan	NOUN	_	Number=Sing	4	obj	_	_
+6	suatu	suatu	DET	_	Number=Sing|PronType=Ind	7	det	_	_
+7	daerah	daerah	NOUN	_	Number=Sing	5	nmod:poss	_	_
+8	terhadap	terhadap	ADP	_	_	9	case	_	_
+9	bencana	bencana	NOUN	_	Number=Sing	5	nmod	_	_
 10	alam	alam	NOUN	_	Number=Sing	9	nmod	_	_
 11	seperti	seperti	ADP	_	_	12	case	_	_
 12	banjir	banjir	NOUN	_	Number=Sing	9	nmod	_	_
@@ -10761,7 +10761,7 @@
 22	dan	dan	CCONJ	_	_	23	cc	_	_
 23	kontaminasi	kontaminasi	NOUN	_	Number=Sing	12	conj	_	_
 24	air	air	NOUN	_	Number=Sing	23	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	3	punct	_	_
+25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w01035080
 # text = Di sisi lain, ekosistem yang sehat dengan praktik manajemen yang baik akan mengurangi peluang terjadinya peristiwa ini, atau setidaknya mengurangi dampak merugikan.
@@ -14775,7 +14775,7 @@
 # text = Di antara manusia, laki-laki maupun perempuan adalah penyanyi yang antusias dan membuat musik adalah aktivitas komunal.
 # text_en = Among humans both males and females are ardent singers, and making music is mostly a communal activity.
 1	Di	di	ADP	_	_	3	case	_	_
-2	antara	antara	NOUN	_	Number=Sing	1	fixed	_	_
+2	antara	antara	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	manusia	manusia	NOUN	_	Number=Sing	9	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	laki-laki	laki	NOUN	_	Number=Sing	3	nmod	_	_
