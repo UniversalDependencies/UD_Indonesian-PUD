@@ -34,7 +34,7 @@
     <tag name="X">41</tag><!-- estate, landmark, real, borough, bullying, chairman, chief, council, coup, de -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="26">
+  <feats unique="25">
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN">104</feat><!-- SM, AS, A.S., BBC, CNN, Nn., Tn., B.C., DNA, GCA -->
     <feat name="Clusivity" value="Ex" upos="PRON">26</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">19</feat><!-- kita -->
@@ -49,7 +49,6 @@
     <feat name="Person" value="2" upos="PRON">16</feat><!-- Anda, kalian, kamu -->
     <feat name="Person" value="3" upos="PRON">501</feat><!-- nya, ia, mereka, dia -->
     <feat name="Polarity" value="Neg" upos="PART">177</feat><!-- tidak, tak, belum, bukan -->
-    <feat name="Poss" value="Yes" upos="PRON">268</feat><!-- nya, mereka, kita, Anda, saya, kami, ku -->
     <feat name="PronType" value="Dem" upos="DET,PRON">559</feat><!-- ini, itu, nya, tersebut, sana, begitu, demikian, sang, sini, si -->
     <feat name="PronType" value="Emp" upos="DET">17</feat><!-- sendiri -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">219</feat><!-- sebuah, para, banyak, seorang, beberapa, berbagai, seseorang, suatu, kadang, sebagian -->
