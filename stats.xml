@@ -16,8 +16,8 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">1026</tag><!-- besar, baru, lain, baik, pertama, akhir, sama, banyak, salah, tinggi -->
-    <tag name="ADP">1905</tag><!-- di, pada, dari, dengan, dalam, ke, oleh, bagai, untuk, lama -->
-    <tag name="ADV">656</tag><!-- lebih, juga, sangat, namun, hanya, kitar, saat, saja, tetap, lagi -->
+    <tag name="ADP">1899</tag><!-- di, pada, dari, dengan, dalam, ke, oleh, bagai, untuk, lama -->
+    <tag name="ADV">662</tag><!-- lebih, juga, sangat, namun, hanya, kitar, saat, saja, tetap, lagi -->
     <tag name="AUX">405</tag><!-- adalah, telah, akan, bisa, sudah, dapat, harus, mungkin, sedang, boleh -->
     <tag name="CCONJ">564</tag><!-- dan, atau, tetapi, namun, tapi, serta, baik, maupun, lain, & -->
     <tag name="DET">729</tag><!-- ini, itu, nya, buah, para, banyak, sebut, orang, berapa, semua -->

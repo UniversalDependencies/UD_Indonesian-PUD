@@ -2392,7 +2392,7 @@
 # sent_id = n01039013
 # text = Sementara itu, Clinton dan sekutunya, ingin agar Trump tetap disorot, menuduh bahwa komentarnya yang meremehkan tentang perempuan dan minoritas, serta temperamennya akan membuatnya tidak layak untuk menjabat.
 # text_en = Clinton and allies, meanwhile, are seeking to keep the spotlight on Trump, charging that his disparaging comments about women and minorities, and his temperament make him unfit for office.
-1	Sementara	sementara	ADP	_	_	9	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	_	_	9	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Clinton	Clinton	PROPN	_	_	9	nsubj	_	_
@@ -4227,7 +4227,7 @@
 # sent_id = n01069014
 # text = Sementara itu, mantan istri seorang tokoh politik pemerintah telah meluncurkan kampanyenya untuk merebut kursi itu.
 # text_en = Meanwhile, the estranged wife of a government whip has launched her campaign to take the seat.
-1	Sementara	sementara	ADP	_	_	11	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	_	_	11	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	mantan	mantan	ADJ	_	_	5	amod	_	_
@@ -4935,7 +4935,7 @@
 # sent_id = n01084023
 # text = Sementara itu, nasabah Bank of Scotland mendapatkan 3% atas saldo sebesar £3.000-£5.000 saat mereka menambahkan opsi Vantage gratis ke rekening mereka.
 # text_en = Meanwhile, Bank of Scotland customers earn 3% on balances of £3,000-£5,000 when they add the free Vantage option to their account.
-1	Sementara	sementara	ADP	_	_	8	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	_	_	8	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	nasabah	nasabah	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -5998,7 +5998,7 @@
 1	Hong	Hong	PROPN	_	_	7	nsubj	_	_
 2	Kong	Kong	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	sementara	sementara	ADP	_	_	5	case	_	_
+4	sementara	sementara	ADV	_	_	5	case	_	_
 5	itu	itu	PRON	_	PronType=Dem	7	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	tampak	tampak	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -11302,7 +11302,7 @@
 # sent_id = w01043065
 # text = Sementara itu, kontrol tambahan atas Sungai Nil memupuk perkembangan di dalam Pulau Gezira dan di sepanjang tepi perairan sungai itu.
 # text_en = Meanwhile, additional controls of the Nile fostered development within Gezira Island and along the city's waterfront.
-1	Sementara	sementara	ADP	_	_	9	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	_	_	9	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	kontrol	kontrol	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -23741,7 +23741,7 @@
 # sent_id = w05010025
 # text = Sementara itu, tempatnya di tribun ditempati oleh Marco Antonio, yang memegang posisi itu hingga Desember.
 # text_en = Meanwhile, his place in tribune was occupied by Marco Antonio, who held the position until December.
-1	Sementara	sementara	ADP	_	_	8	advmod	_	MWEPOS=ADV
+1	Sementara	sementara	ADV	_	_	8	advmod	_	MWEPOS=ADV
 2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4-5	tempatnya	_	_	_	_	_	_	_	_
