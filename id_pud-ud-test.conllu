@@ -3015,7 +3015,7 @@
 31	Colorado	Colorado	PROPN	_	_	29	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	di	di	ADP	_	_	34	case	_	_
-34	mana	mana	PRON	_	PronType=Rel	36	obl	_	_
+34	mana	mana	PRON	_	PronType=Dem	36	obl	_	_
 35	ganja	ganja	NOUN	_	Number=Sing	36	nsubj:pass	_	_
 36	dijual	jual	VERB	_	Mood=Ind|Voice=Pass	29	acl:relcl	_	_
 37	secara	cara	ADP	_	_	38	case:adv	_	_
@@ -3684,8 +3684,8 @@
 7	Anda	anda	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 8	harus	harus	AUX	_	_	9	aux	_	_
 9	melihat	lihat	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	di	di	ADP	_	_	11	case	_	_
-11	mana	mana	PRON	_	PronType=Rel	13	obl	_	_
+10	di	di	ADP	_	_	13	mark	_	MWEPOS=SCONJ
+11	mana	mana	PRON	_	PronType=Dem	10	fixed	_	_
 12	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	mengatakan	kata	VERB	_	Mood=Ind|Voice=Act	9	ccomp	_	_
 14	bahwa	bahwa	SCONJ	_	_	16	mark	_	_
@@ -3705,8 +3705,8 @@
 28	baik	baik	ADJ	_	_	25	acl:relcl	_	_
 29	—	—	PUNCT	_	_	24	punct	_	_
 30	dan	dan	CCONJ	_	_	34	cc	_	_
-31	di	di	ADP	_	_	32	case	_	_
-32	mana	mana	PRON	_	PronType=Rel	34	obl	_	_
+31	di	di	ADP	_	_	34	mark	_	MWEPOS=SCONJ
+32	mana	mana	PRON	_	PronType=Dem	31	fixed	_	_
 33	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	mengungkapkan	ungkap	VERB	_	Mood=Ind|Voice=Act	13	conj	_	_
 35	penyesalan	sesal	NOUN	_	Number=Sing	34	obj	_	SpaceAfter=No
@@ -4146,7 +4146,7 @@
 8	Kesteven	Kesteven	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	di	di	ADP	_	_	11	case	_	_
-11	mana	mana	PRON	_	PronType=Rel	15	obl	_	_
+11	mana	mana	PRON	_	PronType=Dem	15	obl	_	_
 12	62	62	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 13	%	%	SYM	_	_	15	nsubj	_	_
 14	pemilih	pilih	NOUN	_	Number=Sing	13	nmod	_	_
@@ -11074,8 +11074,8 @@
 11	mencapai	capai	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
 12	titik	titik	NOUN	_	Number=Sing	11	obj	_	_
 13	terburuk	buruk	ADJ	_	Degree=Sup	12	amod	_	_
-14	di	di	ADP	_	_	15	case	_	_
-15	mana	mana	PRON	_	PronType=Rel	19	obl	_	_
+14	di	di	ADP	_	_	19	mark	_	MWEPOS=SCONJ
+15	mana	mana	PRON	_	PronType=Dem	14	fixed	_	_
 16	sungai	sungai	NOUN	_	Number=Sing	19	nsubj	_	_
 17	itu	itu	DET	_	PronType=Dem	16	det	_	_
 18	tak	tak	PART	_	Polarity=Neg	17	advmod	_	_
@@ -11126,7 +11126,7 @@
 11	wilayah	wilayah	NOUN	_	Number=Sing	9	obl	_	_
 12	kering	kering	ADJ	_	_	11	amod	_	_
 13	di	di	ADP	_	_	14	case	_	_
-14	mana	mana	PRON	_	PronType=Rel	18	obl	_	_
+14	mana	mana	PRON	_	PronType=Dem	18	obl	_	_
 15	lahan	lahan	NOUN	_	Number=Sing	18	nsubj:pass	_	_
 16	tersebut	sebut	DET	_	PronType=Dem	15	det	_	_
 17	tidak	tidak	PART	_	Polarity=Neg	18	advmod	_	_
@@ -11157,7 +11157,7 @@
 15	sendiri	sendiri	DET	_	PronType=Emp	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	24	punct	_	_
 17	di	di	ADP	_	_	18	case	_	_
-18	mana	mana	PRON	_	PronType=Rel	24	obl	_	_
+18	mana	mana	PRON	_	PronType=Dem	24	obl	_	_
 19	materi-materi	materi	NOUN	_	Number=Plur	24	nsubj:pass	_	_
 20	yang	yang	PRON	_	PronType=Rel	22	nsubj	_	_
 21	lebih	lebih	ADV	_	_	22	advmod	_	_
@@ -12014,7 +12014,7 @@
 18	Tunip	Tunip	PROPN	_	_	10	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	di	di	ADP	_	_	21	case	_	_
-21	mana	mana	PRON	_	PronType=Rel	24	obl	_	_
+21	mana	mana	PRON	_	PronType=Dem	24	obl	_	_
 22	tidak	tidak	PART	_	Polarity=Neg	24	advmod	_	_
 23	pernah	pernah	ADV	_	_	24	advmod	_	_
 24	ada	ada	VERB	_	Mood=Ind|Voice=Act	18	acl	_	_
@@ -12209,8 +12209,8 @@
 3	dasar	dasar	NOUN	_	Number=Sing	2	obj	_	_
 4	untuk	untuk	ADP	_	_	5	case	_	_
 5	integrasi	integrasi	NOUN	_	Number=Sing	3	nmod	_	_
-6	di	di	ADP	_	_	7	case	_	_
-7	mana	mana	PRON	_	PronType=Rel	15	obl	_	_
+6	di	di	ADP	_	_	15	mark	_	MWEPOS=SCONJ
+7	mana	mana	PRON	_	PronType=Dem	6	fixed	_	_
 8	mekanisme	mekanisme	NOUN	_	Number=Sing	15	nsubj:pass	_	_
 9	ekonomi	ekonomi	NOUN	_	Number=Sing	8	nmod	_	_
 10	dan	dan	CCONJ	_	_	11	cc	_	_
@@ -12478,7 +12478,7 @@
 8	Italia	Italia	PROPN	_	_	3	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	di	di	ADP	_	_	11	case	_	_
-11	mana	mana	PRON	_	PronType=Rel	14	obl	_	_
+11	mana	mana	PRON	_	PronType=Dem	14	obl	_	_
 12	kedokteran	dokter	NOUN	_	Number=Sing	14	nsubj	_	_
 13	Islam	Islam	PROPN	_	_	12	nmod	_	_
 14	mempengaruhi	pengaruh	VERB	_	Mood=Ind|Voice=Act	8	acl:relcl	_	_
@@ -13341,8 +13341,8 @@
 21	Laut	laut	NOUN	_	Number=Sing	17	obl	_	_
 22	Selatan	selatan	NOUN	_	Number=Sing	21	nmod	_	_
 23	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-24	yang	yang	SCONJ	_	_	28	mark	_	_
-25	mana	mana	PRON	_	PronType=Rel	28	obl	_	_
+24	yang	yang	PRON	_	_	28	mark	_	MWEPOS=SCONJ
+25	mana	mana	PRON	_	PronType=Dem	24	fixed	_	_
 26	Trix	Trix	PROPN	_	_	28	nsubj	_	_
 27	telah	telah	AUX	_	_	28	aux	_	_
 28	kembali	kembali	VERB	_	Mood=Ind|Voice=Act	21	acl	_	_
@@ -13654,8 +13654,8 @@
 15	Timur	Timur	PROPN	_	_	11	obl	_	_
 16	Tengah	Tengah	PROPN	_	_	15	flat:name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
-18	di	di	ADP	_	_	19	case	_	_
-19	mana	mana	PRON	_	PronType=Rel	22	obl	_	_
+18	di	di	ADP	_	_	22	case	_	_
+19	mana	mana	PRON	_	PronType=Dem	22	obl	_	_
 20	awalnya	awal	ADV	_	_	22	advmod	_	_
 21	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
 22	tampak	tampak	VERB	_	Mood=Ind|Voice=Act	8	advcl	_	_
@@ -14926,8 +14926,8 @@
 4	ke	ke	ADP	_	_	5	case	_	_
 5	pertemuan-pertemuan	temu	NOUN	_	Number=Plur	2	obl	_	_
 6	bisnis	bisnis	NOUN	_	Number=Sing	5	nmod	_	_
-7	di	di	ADP	_	_	8	case	_	_
-8	mana	mana	PRON	_	PronType=Rel	10	obl	_	_
+7	di	di	ADP	_	_	10	mark	_	MWEPOS=SCONJ
+8	mana	mana	PRON	_	PronType=Dem	7	fixed	_	_
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	berdiskusi	diskusi	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
 11	dengan	dengan	ADP	_	_	13	case	_	_
@@ -16375,8 +16375,8 @@
 21	dibintangi	bintang	VERB	_	Mood=Ind|Voice=Pass	12	acl:relcl	_	_
 22	LaBeouf	LaBeouf	PROPN	_	_	21	obl:agent	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
-24	di	di	ADP	_	_	25	case	_	_
-25	mana	mana	PRON	_	PronType=Rel	27	obl	_	_
+24	di	di	ADP	_	_	27	mark	_	MWEPOS=SCONJ
+25	mana	mana	PRON	_	PronType=Dem	24	fixed	_	_
 26	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 27	tampil	tampil	VERB	_	Mood=Ind|Voice=Act	12	acl:relcl	_	_
 28	telanjang	telanjang	VERB	_	Mood=Ind|Voice=Act	27	xcomp	_	SpaceAfter=No
@@ -18053,8 +18053,8 @@
 12	daya	daya	NOUN	_	Number=Sing	11	nmod	_	_
 13	alami	alami	ADJ	_	_	11	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
-15	di	di	ADP	_	_	16	case	_	_
-16	mana	mana	PRON	_	PronType=Rel	19	obl	_	_
+15	di	di	ADP	_	_	19	mark	_	MWEPOS=SCONJ
+16	mana	mana	PRON	_	PronType=Dem	15	fixed	_	_
 17	banyak	banyak	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	investor	investor	NOUN	_	Number=Sing	19	nsubj	_	_
 19	menginvestasikan	investasi	VERB	_	Mood=Ind|Voice=Act	11	acl	_	_
@@ -18539,8 +18539,8 @@
 9	dimiliki	milik	VERB	_	Mood=Ind|Voice=Pass	8	xcomp	_	_
 10	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl:agent	_	_
 11	,	,	PUNCT	_	_	5	punct	_	_
-12	di	di	ADP	_	_	13	case	_	_
-13	mana	mana	PRON	_	PronType=Rel	22	obl	_	SpaceAfter=No
+12	di	di	ADP	_	_	22	mark	_	MWEPOS=SCONJ
+13	mana	mana	PRON	_	PronType=Dem	12	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	dalam	dalam	ADP	_	_	16	case	_	_
 16	skenario	skenario	NOUN	_	Number=Sing	22	obl	_	_
@@ -18639,7 +18639,7 @@
 6	di	di	ADP	_	_	8	case	_	_
 7	dalam	dalam	NOUN	_	Number=Sing	8	nmod:lmod	_	_
 8	yang	yang	PRON	_	PronType=Rel	4	obl	_	_
-9	mana	mana	PRON	_	PronType=Rel	8	nmod	_	SpaceAfter=No
+9	mana	mana	PRON	_	PronType=Dem	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = n02048002
@@ -19319,13 +19319,13 @@
 # text = Yang belakangan mengawasi pemilihan pendahuluan, di mana Rachida Dati mendukung pencalonan Nicolas Sarkozy.
 # text_en = The latter is overseeing the Republican primaries, in which Rachida Dati supports Nicolas Sarkozy's candidacy.
 1	Yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
-2	belakangan	belakang	NOUN	_	Number=Sing	1	nmod:tmod	_	_
+2	belakangan	belakang	NOUN	_	Number=Sing	1	nmod	_	_
 3	mengawasi	awas	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	pemilihan	pilih	NOUN	_	Number=Sing	3	obj	_	_
 5	pendahuluan	dahulu	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
-7	di	di	ADP	_	_	8	case	_	_
-8	mana	mana	PRON	_	PronType=Rel	11	obl	_	_
+7	di	di	ADP	_	_	11	mark	_	MWEPOS=SCONJ
+8	mana	mana	PRON	_	PronType=Dem	7	fixed	_	_
 9	Rachida	Rachida	PROPN	_	_	11	nsubj	_	_
 10	Dati	Dati	PROPN	_	_	9	flat:name	_	_
 11	mendukung	dukung	VERB	_	Mood=Ind|Voice=Act	4	acl	_	_
@@ -21839,8 +21839,8 @@
 11	kota	kota	NOUN	_	Number=Sing	8	nmod:poss	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	_
-14	di	di	ADP	_	_	15	case	_	_
-15	mana	mana	PRON	_	PronType=Rel	20	obl	_	_
+14	di	di	ADP	_	_	20	mark	_	MWEPOS=SCONJ
+15	mana	mana	PRON	_	PronType=Dem	14	fixed	_	_
 16-17	populasinya	_	_	_	_	_	_	_	_
 16	populasi	populasi	NOUN	_	Number=Sing	20	nsubj:pass	_	_
 17	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	16	nmod:poss	_	_
@@ -23837,7 +23837,7 @@
 13	dari	dari	ADP	_	_	14	case	_	_
 14	Caesar	Caesar	PROPN	_	_	12	nmod	_	_
 15	di	di	ADP	_	_	16	case	_	_
-16	mana	mana	PRON	_	PronType=Rel	20	obl	_	_
+16	mana	mana	PRON	_	PronType=Dem	20	obl	_	_
 17	sang	sang	DET	_	PronType=Dem	18	det	_	_
 18	prokonsul	prokonsul	NOUN	_	Number=Sing	20	nsubj	_	_
 19	tersebut	sebut	DET	_	PronType=Dem	18	det	_	_
