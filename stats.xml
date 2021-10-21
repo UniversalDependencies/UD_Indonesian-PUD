@@ -17,9 +17,9 @@
   <tags unique="17">
     <tag name="ADJ">1026</tag><!-- besar, baru, lain, baik, pertama, akhir, sama, banyak, salah, tinggi -->
     <tag name="ADP">1905</tag><!-- di, pada, dari, dengan, dalam, ke, oleh, bagai, untuk, lama -->
-    <tag name="ADV">628</tag><!-- lebih, juga, sangat, hanya, kitar, saat, saja, tetap, lagi, kemudian -->
+    <tag name="ADV">656</tag><!-- lebih, juga, sangat, namun, hanya, kitar, saat, saja, tetap, lagi -->
     <tag name="AUX">405</tag><!-- adalah, telah, akan, bisa, sudah, dapat, harus, mungkin, sedang, boleh -->
-    <tag name="CCONJ">592</tag><!-- dan, namun, atau, tetapi, tapi, serta, baik, maupun, lain, & -->
+    <tag name="CCONJ">564</tag><!-- dan, atau, tetapi, namun, tapi, serta, baik, maupun, lain, & -->
     <tag name="DET">729</tag><!-- ini, itu, nya, buah, para, banyak, sebut, orang, berapa, semua -->
     <tag name="INTJ">4</tag><!-- hei, omong, toh, ya -->
     <tag name="NOUN">4687</tag><!-- tahun, orang, bagi, bulan, hari, negara, kota, laut, perintah, hal -->
@@ -71,14 +71,14 @@
     <dep name="acl">253</dep>
     <dep name="acl:relcl">500</dep>
     <dep name="advcl">368</dep>
-    <dep name="advmod">921</dep>
+    <dep name="advmod">955</dep>
     <dep name="advmod:emph">48</dep>
     <dep name="amod">592</dep>
     <dep name="appos">116</dep>
     <dep name="aux">309</dep>
-    <dep name="case">1829</dep>
+    <dep name="case">1823</dep>
     <dep name="case:adv">50</dep>
-    <dep name="cc">587</dep>
+    <dep name="cc">559</dep>
     <dep name="cc:preconj">5</dep>
     <dep name="ccomp">97</dep>
     <dep name="compound">25</dep>
@@ -90,7 +90,7 @@
     <dep name="det">706</dep>
     <dep name="discourse">3</dep>
     <dep name="dislocated">5</dep>
-    <dep name="fixed">40</dep>
+    <dep name="fixed">46</dep>
     <dep name="flat">116</dep>
     <dep name="flat:foreign">14</dep>
     <dep name="flat:name">607</dep>
@@ -105,7 +105,7 @@
     <dep name="nsubj:pass">403</dep>
     <dep name="nummod">359</dep>
     <dep name="obj">849</dep>
-    <dep name="obl">1055</dep>
+    <dep name="obl">1049</dep>
     <dep name="obl:agent">82</dep>
     <dep name="obl:tmod">267</dep>
     <dep name="orphan">1</dep>

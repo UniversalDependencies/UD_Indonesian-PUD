@@ -65,7 +65,7 @@
 # sent_id = n01002017
 # text = Namun tidak seperti retorikanya sebelumnya tentang pembatasan imigrasi, kandidat GOP ini menyerukan bahwa sebagai presiden ia akan mengizinkan imigran legal “dalam jumlah yang sangat besar” berdasarkan “sistem merit.”
 # text_en = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
-1	Namun	namun	CCONJ	_	_	4	cc	_	_
+1	Namun	namun	ADV	_	_	4	advmod	_	_
 2	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 3	seperti	seperti	ADP	_	_	4	case	_	_
 4-5	retorikanya	_	_	_	_	_	_	_	_
@@ -808,7 +808,7 @@
 # sent_id = n01017005
 # text = Namun, seorang ahli perjalanan mengingatkan bahwa internet di pesawat sering kali tidak dapat diandalkan dan kemungkinan tidak akan mempengaruhi pilihan maskapai penerbangan penumpang.
 # text_en = But one travel expert warned in-flight internet was often unreliable and was unlikely to influence travellers' airline choices.
-1	Namun	namun	CCONJ	_	_	6	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	seorang	orang	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	ahli	ahli	NOUN	_	Number=Sing	6	nsubj	_	_
@@ -838,7 +838,7 @@
 # text = "Namun, mungkin saja BA dan IAG sudah memecahkannya dan dapat menawarkan sesuatu yang sedikit dapat diandalkan."
 # text_en = "But it may be that BA and IAG have cracked it and can offer something vaguely reliable."
 1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-2	Namun	namun	CCONJ	_	_	10	cc	_	SpaceAfter=No
+2	Namun	namun	ADV	_	_	10	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mungkin	mungkin	ADV	_	_	10	advmod	_	_
 5	saja	saja	ADV	_	_	4	advmod	_	_
@@ -956,7 +956,7 @@
 # sent_id = n01019005
 # text = Namun, beberapa pakar keamanan mengajukan pertanyaan tentang perlunya kursus ini dan maksud di belakangnya.
 # text_en = But some security experts raised questions about the need for the course and the intent behind it.
-1	Namun	namun	CCONJ	_	_	6	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	4	det	_	_
 4	pakar	pakar	NOUN	_	Number=Sing	6	nsubj	_	_
@@ -1887,7 +1887,7 @@
 # sent_id = n01032032
 # text = Namun, ada banyak MLA yang berpegang teguh pada keyakinan agama yang menentang legislasi baru.
 # text_en = However there are many MLAs with deeply-held religious beliefs who oppose any new legislation.
-1	Namun	namun	CCONJ	_	_	3	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	banyak	banyak	DET	_	Number=Plur|PronType=Ind	5	det	_	_
@@ -1947,7 +1947,7 @@
 # sent_id = n01033021
 # text = Namun, mereka tidak bisa menemukan pola yang sama ini dalam jaringan seperti kandung kemih, yang tidak terpapar secara langsung.
 # text_en = However, they could not find this same pattern in tissues such as the bladder, which are not directly exposed.
-1	Namun	namun	CCONJ	_	_	6	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 4	tidak	tidak	PART	_	Polarity=Neg	6	advmod	_	_
@@ -1991,7 +1991,7 @@
 # sent_id = n01033031
 # text = Namun pemindaian menunjukkan tumor di paru-paru kanan Nn. Pugh berkembang, dan ia harus meninggalkan persidangan.
 # text_en = But a scan has shown the tumour in Ms Pugh's right lung is growing, and she has had to leave the trial.
-1	Namun	namun	CCONJ	_	_	3	cc	_	_
+1	Namun	namun	ADV	_	_	3	advmod	_	_
 2	pemindaian	pindai	NOUN	_	Number=Sing	3	nsubj	_	_
 3	menunjukkan	tunjuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	tumor	tumor	NOUN	_	Number=Sing	10	nsubj	_	_
@@ -2295,7 +2295,7 @@
 # sent_id = n01037020
 # text = Namun kelas menengah Tiongkok tidak biasanya telah bersikap vokal terhadap udara beracun di kota-kota seperti Beijing, yang hari demi hari menyaksikan kabut yang menyesakkan dada.
 # text_en = But China's growing middle class has been unusually vocal in its complaints about toxic air in cities like Beijing, which can see day after day of lung-choking smog.
-1	Namun	namun	CCONJ	_	_	8	cc	_	_
+1	Namun	namun	ADV	_	_	8	advmod	_	_
 2	kelas	kelas	NOUN	_	Number=Sing	8	nsubj	_	_
 3	menengah	tengah	ADJ	_	_	2	amod	_	_
 4	Tiongkok	Tiongkok	PROPN	_	_	2	nmod	_	_
@@ -2392,8 +2392,8 @@
 # sent_id = n01039013
 # text = Sementara itu, Clinton dan sekutunya, ingin agar Trump tetap disorot, menuduh bahwa komentarnya yang meremehkan tentang perempuan dan minoritas, serta temperamennya akan membuatnya tidak layak untuk menjabat.
 # text_en = Clinton and allies, meanwhile, are seeking to keep the spotlight on Trump, charging that his disparaging comments about women and minorities, and his temperament make him unfit for office.
-1	Sementara	sementara	ADP	_	_	2	case	_	_
-2	itu	itu	PRON	_	PronType=Dem	9	obl	_	SpaceAfter=No
+1	Sementara	sementara	ADP	_	_	9	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Clinton	Clinton	PROPN	_	_	9	nsubj	_	_
 5	dan	dan	CCONJ	_	_	6	cc	_	_
@@ -3025,7 +3025,7 @@
 # sent_id = n01049033
 # text = Namun tanpa kerangka legislatif, dan dengan asal-muasal ganja sebagai obat tradisional pengubah suasana hati, perusahaan-perusahaan bertanya-tanya
 # text_en = But without a legislative framework, and with the grassroots origins of pot as a mood-altering folk remedy, companies are left guessing.
-1	Namun	namun	CCONJ	_	_	18	cc	_	_
+1	Namun	namun	ADV	_	_	18	advmod	_	_
 2	tanpa	tanpa	ADP	_	_	3	case	_	_
 3	kerangka	rangka	NOUN	_	Number=Sing	18	obl	_	_
 4	legislatif	legislatif	ADJ	_	_	3	amod	_	SpaceAfter=No
@@ -3472,7 +3472,7 @@
 # sent_id = n01057036
 # text = Namun, masih ada pertanyaan yang tak terjawab.
 # text_en = Still, there are questions left unanswered.
-1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	masih	masih	ADV	_	_	4	advmod	_	_
 4	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -3857,7 +3857,7 @@
 # sent_id = n01063048
 # text = Namun tantangan, dan lagu yang memenangkan tantangan itu, menambahkan suatu sistem saraf yang terhubung ke orang-orang yang menggeliat dalam loop video yang buram.
 # text_en = But challenges, and the songs that score them, add a connective, traceable nervous system to the writhing mass of grainy video loops.
-1	Namun	namun	CCONJ	_	_	11	cc	_	_
+1	Namun	namun	ADV	_	_	11	advmod	_	_
 2	tantangan	tantang	NOUN	_	Number=Sing	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	dan	dan	CCONJ	_	_	5	cc	_	_
@@ -4227,9 +4227,9 @@
 # sent_id = n01069014
 # text = Sementara itu, mantan istri seorang tokoh politik pemerintah telah meluncurkan kampanyenya untuk merebut kursi itu.
 # text_en = Meanwhile, the estranged wife of a government whip has launched her campaign to take the seat.
-1	Sementara	sementara	ADP	_	_	2	case	_	_
-2	itu	itu	PRON	_	PronType=Dem	11	obl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+1	Sementara	sementara	ADP	_	_	11	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	mantan	mantan	ADJ	_	_	5	amod	_	_
 5	istri	istri	NOUN	_	Number=Sing	11	nsubj	_	_
 6	seorang	orang	DET	_	Definite=Ind|PronType=Art	7	det	_	_
@@ -4935,8 +4935,8 @@
 # sent_id = n01084023
 # text = Sementara itu, nasabah Bank of Scotland mendapatkan 3% atas saldo sebesar £3.000-£5.000 saat mereka menambahkan opsi Vantage gratis ke rekening mereka.
 # text_en = Meanwhile, Bank of Scotland customers earn 3% on balances of £3,000-£5,000 when they add the free Vantage option to their account.
-1	Sementara	sementara	ADP	_	_	2	case	_	_
-2	itu	itu	PRON	_	PronType=Dem	8	obl	_	SpaceAfter=No
+1	Sementara	sementara	ADP	_	_	8	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	nasabah	nasabah	NOUN	_	Number=Sing	8	nsubj	_	_
 5	Bank	Bank	PROPN	_	_	4	nmod	_	_
@@ -5529,7 +5529,7 @@
 # sent_id = n01093024
 # text = Namun pengurangan besar-besaran juga sudah dicanangkan untuk ikan kod, ikan lidah, plaice, megrim, dan pollack di Laut Celtic dan Irlandia.
 # text_en = But big reductions have also been pencilled in for cod, sole, plaice, megrim and pollack in the Celtic and Irish Seas.
-1	Namun	namun	CCONJ	_	_	6	cc	_	_
+1	Namun	namun	ADV	_	_	6	advmod	_	_
 2	pengurangan	kurang	NOUN	_	Number=Sing	6	nsubj:pass	_	_
 3	besar-besaran	besar	ADJ	_	_	2	amod	_	_
 4	juga	juga	ADV	_	_	6	advmod	_	_
@@ -6350,7 +6350,7 @@
 # sent_id = n01108015
 # text = Namun akan ada batas pada kemampuannya untuk belanja seiring Pemerintah tetap menjalankan defisit anggaran yang substansial.
 # text_en = There will be limits to his ability to spend, however, as the Government is still running a substantial budget deficit.
-1	Namun	namun	CCONJ	_	_	3	cc	_	_
+1	Namun	namun	ADV	_	_	3	advmod	_	_
 2	akan	akan	AUX	_	_	3	aux	_	_
 3	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	batas	batas	NOUN	_	Number=Sing	3	nsubj	_	_
@@ -9201,7 +9201,7 @@
 # sent_id = w01008043
 # text = Namun, ada perbedaan penting dalam hukum dan prosedur antara Irlandia Utara serta Inggris dan Wales.
 # text_en = However, there are important differences in law and procedure between Northern Ireland and England and Wales.
-1	Namun	namun	CCONJ	_	_	3	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	perbedaan	beda	NOUN	_	Number=Sing	3	nsubj	_	_
@@ -10112,7 +10112,7 @@
 # sent_id = w01025085
 # text = Namun mengakibatkan ditinggalkannya barang-barang penting artileri berat, dan tetap menjadi debat historis mengapa rel kereta ke Flensburg tidak pernah digunakan sebagaimana semestinya untuk evakuasi itu.
 # text_en = It resulted, however, in the abandonment of important pieces of heavy artillery, and it remains a matter of historical debate why the railway to Flensburg was never properly used for the evacuation.
-1	Namun	namun	CCONJ	_	_	2	cc	_	_
+1	Namun	namun	ADV	_	_	2	advmod	_	_
 2	mengakibatkan	akibat	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3-4	ditinggalkannya	_	_	_	_	_	_	_	_
 3	ditinggalkan	tinggal	VERB	_	Mood=Ind|Voice=Pass	2	advcl	_	_
@@ -11240,7 +11240,7 @@
 # sent_id = w01041046
 # text = Namun di Thailand, urbanisasi juga telah mengakibatkan peningkatan besar masalah-masalah seperti obesitas.
 # text_en = However, in Thailand, urbanization has also resulted in massive increases in problems such as obesity.
-1	Namun	namun	CCONJ	_	_	8	cc	_	_
+1	Namun	namun	ADV	_	_	8	advmod	_	_
 2	di	di	ADP	_	_	3	case	_	_
 3	Thailand	Thailand	PROPN	_	_	8	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -11302,9 +11302,9 @@
 # sent_id = w01043065
 # text = Sementara itu, kontrol tambahan atas Sungai Nil memupuk perkembangan di dalam Pulau Gezira dan di sepanjang tepi perairan sungai itu.
 # text_en = Meanwhile, additional controls of the Nile fostered development within Gezira Island and along the city's waterfront.
-1	Sementara	sementara	ADP	_	_	2	case	_	_
-2	itu	itu	PRON	_	PronType=Dem	9	obl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+1	Sementara	sementara	ADP	_	_	9	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	kontrol	kontrol	NOUN	_	Number=Sing	9	nsubj	_	_
 5	tambahan	tambah	NOUN	_	Number=Sing	4	nmod	_	_
 6	atas	atas	ADP	_	_	7	case	_	_
@@ -11828,7 +11828,7 @@
 # sent_id = w01050068
 # text = Namun, Republik Tiongkok yang baru didirikan menganggap Mongolia sebagai bagian dari wilayahnya.
 # text_en = But, the newly established Republic of China considered Mongolia to be part of its own territory.
-1	Namun	namun	CCONJ	_	_	8	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	Republik	Republik	PROPN	_	_	8	nsubj	_	_
 4	Tiongkok	Tiongkok	PROPN	_	_	3	flat:name	_	_
@@ -12303,7 +12303,7 @@
 # sent_id = w01058009
 # text = Namun, ini dimundurkan ketika Julian terbunuh dalam pertempuran pada tahun 363.
 # text_en = However this was reversed when Julian was killed in battle in 363.
-1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ini	ini	PRON	_	PronType=Dem	4	nsubj:pass	_	_
 4	dimundurkan	mundur	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
@@ -14039,7 +14039,7 @@
 # sent_id = w01085005
 # text = Namun, terlalu berorientasi pada pos-pos kecil di Barat dan persiapannya tidak sama baiknya untuk konflik di luar negeri.
 # text_en = However, it was too oriented to small posts in the West and not as well-prepared for an overseas conflict.
-1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	terlalu	lalu	ADV	_	_	4	advmod	_	_
 4	berorientasi	orientasi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -14198,7 +14198,7 @@
 # sent_id = w01088099
 # text = Namun telah ada analisis statistik yang intensif tentang data demografi dan populasi yang menyertakan perempuan, khususnya dalam peran mereka melahirkan anak.
 # text_en = There has, however, been extensive statistical analysis of demographic and population data which includes women, especially in their childbearing roles.
-1	Namun	namun	CCONJ	_	_	3	cc	_	_
+1	Namun	namun	ADV	_	_	3	advmod	_	_
 2	telah	telah	AUX	_	_	3	aux	_	_
 3	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	analisis	analisis	NOUN	_	Number=Sing	3	nsubj	_	_
@@ -15621,7 +15621,7 @@
 # sent_id = w01113058
 # text = Namun, saingannya Prabowo Subianto juga mendeklarasikan kemenangan, membuat orang Indonesia bingung.
 # text_en = However, his rival Prabowo Subianto also declared victory, leaving Indonesian citizens confused.
-1	Namun	namun	CCONJ	_	_	8	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	saingannya	_	_	_	_	_	_	_	_
 3	saingan	saing	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -16007,7 +16007,7 @@
 # sent_id = w01121052
 # text = Namun, tidak ada pengakuan publik lebih lanjut tentang daya tahannya semasa perang dan pekerjaan kemanusiaannya hingga setelah berakhirnya pemerintahan komunis di Polandia.
 # text_en = However, there was no further public recognition of her wartime resistance and humanitarian work until after the end of communist rule in Poland.
-1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tidak	tidak	PART	_	Polarity=Neg	4	advmod	_	_
 4	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -19006,9 +19006,9 @@
 # sent_id = n02081019
 # text = Oleh karena itu, tanda-tanda yang menjengkelkan itu tidak akan hilang sepenuhnya: Menurut informasi dari badan berita DPA, mereka hanya akan diaktifkan jika, misalnya, sang artis atau label rekaman bukan bagian dari GEMA dan tidak memiliki perjanjian dengan YouTube.
 # text_en = Therefore the irksome signs will not completely disappear: According to information from the news agency dpa, they will only be activated if, for instance, the artist or record label is not a member of GEMA and does not have an agreement with YouTube.
-1	Oleh	oleh	ADP	_	_	3	case	_	_
+1	Oleh	oleh	ADP	_	_	11	advmod	_	MWEPOS=ADV
 2	karena	karena	ADP	_	_	1	fixed	_	_
-3	itu	itu	PRON	_	PronType=Dem	11	obl	_	SpaceAfter=No
+3	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	tanda-tanda	tanda	NOUN	_	Number=Plur	11	nsubj	_	_
 6	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -20319,7 +20319,7 @@
 # sent_id = n05002015
 # text = Namun, manajemennya belum sama sekali tanpa kritik.
 # text_en = Its management, however, hasn't been devoid of criticism.
-1	Namun	namun	CCONJ	_	_	9	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	manajemennya	_	_	_	_	_	_	_	_
 3	manajemen	manajemen	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -21999,7 +21999,7 @@
 # sent_id = w03004107
 # text = Namun, Pyrrhus dipaksa untuk meninggalkan Sisilia untuk mengurus bisnis di Italia selatan.
 # text_en = However, Pyrrhus was forced to leave Sicily in order to attend to business in southern Italy.
-1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Pyrrhus	Pyrrhus	PROPN	_	_	4	nsubj:pass	_	_
 4	dipaksa	paksa	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
@@ -22175,7 +22175,7 @@
 # sent_id = w03007008
 # text = Namun, mereka tidak melakukan ekspansi hingga kapal yang cukup besar untuk menyeberangi lautan dibuat.
 # text_en = However, they did not expand until ships big enough to cross seas were built.
-1	Namun	namun	CCONJ	_	_	5	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 4	tidak	tidak	PART	_	Polarity=Neg	5	advmod	_	_
@@ -23069,7 +23069,7 @@
 # sent_id = w04010030
 # text = Namun, persahabatan itu hancur karena kolaborasi tidak resmi di antara keduanya, yang mengakibatkan adanya sengketa hukum.
 # text_en = However, the friendship has fallen apart due to unofficial collaborations between the two, which has given rise to legal disputes.
-1	Namun	namun	CCONJ	_	_	5	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	persahabatan	sahabat	NOUN	_	Number=Sing	5	nsubj	_	_
 4	itu	itu	DET	_	PronType=Dem	3	det	_	_
@@ -23246,7 +23246,7 @@
 # sent_id = w05003012
 # text = Namun, kerusakan hubungan antara dia dan Linares serta penghentian saluran yang progresif itu memicu Revolusi Pemulihan Nama Baik yang menggulingkannya pada tahun 1879.
 # text_en = However, the breakdown between him and Linares and the discontinuation of the progressive line provoked the Revolution of Vindication which overthrew him in 1879.
-1	Namun	namun	CCONJ	_	_	15	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	15	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	kerusakan	rusak	NOUN	_	Number=Sing	15	nsubj	_	_
 4	hubungan	hubung	NOUN	_	Number=Sing	3	nmod	_	_
@@ -23465,7 +23465,7 @@
 # sent_id = w05005087
 # text = Namun, mereka dihadang dan harus bertempur di Freeman, dekat Sungai Hudson.
 # text_en = However, they were intercepted and had to do battle in Freeman, close to the Hudson River.
-1	Namun	namun	CCONJ	_	_	4	cc	_	SpaceAfter=No
+1	Namun	namun	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
 4	dihadang	hadang	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
@@ -23741,9 +23741,9 @@
 # sent_id = w05010025
 # text = Sementara itu, tempatnya di tribun ditempati oleh Marco Antonio, yang memegang posisi itu hingga Desember.
 # text_en = Meanwhile, his place in tribune was occupied by Marco Antonio, who held the position until December.
-1	Sementara	sementara	ADP	_	_	8	case	_	_
-2	itu	itu	PRON	_	PronType=Dem	8	obl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	8	punct	_	_
+1	Sementara	sementara	ADP	_	_	8	advmod	_	MWEPOS=ADV
+2	itu	itu	PRON	_	PronType=Dem	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4-5	tempatnya	_	_	_	_	_	_	_	_
 4	tempat	tempat	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_

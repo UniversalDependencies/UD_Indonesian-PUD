@@ -112,6 +112,7 @@ We thank the contributors of the revision project of the Indonesian PUD:
   * added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
   * removed feature Poss (value: Yes)
   * changed the annotation for 'di mana', decades
+  * changed the annotation for transition words become ADV
 * 2021-05-15 v2.8 
   * fixed some udapi bugs
 * 2020-11-15 v2.7
