@@ -113,9 +113,9 @@ We thank the contributors of the revision project of the Indonesian PUD:
   * removed feature Poss (value: Yes)
   * changed the annotation for 'di mana', decades
 * 2021-05-15 v2.8 
-  * Minor corrections
+  * fixed some udapi bugs
 * 2020-11-15 v2.7
-  * Manual revision conducted by Alfina et al. from Universitas Indonesia. They conducted major revision on word segmentation, POS tagging, morphological features, and syntactic annotation.
+  * Manual revision conducted by Alfina et al. (2019) and Alfina et al. (2020). Major revision on word segmentation, POS tagging, morphological features, and syntactic annotation.
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
