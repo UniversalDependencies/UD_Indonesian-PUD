@@ -108,7 +108,12 @@ We thank the contributors of the revision project of the Indonesian PUD:
 
 
 # Changelog
-* 2021-05-15 v2.8 Minor corrections
+* 2021-11-15 v2.9
+  * added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
+  * removed feature Poss (value: Yes)
+  * changed the annotation for 'di mana', decades
+* 2021-05-15 v2.8 
+  * Minor corrections
 * 2020-11-15 v2.7
   * Manual revision conducted by Alfina et al. from Universitas Indonesia. They conducted major revision on word segmentation, POS tagging, morphological features, and syntactic annotation.
 * 2018-07-01 v2.2
