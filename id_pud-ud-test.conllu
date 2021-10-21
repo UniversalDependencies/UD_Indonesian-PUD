@@ -6860,7 +6860,7 @@
 8	siapa	siapa	PRON	_	PronType=Int	0	root	_	_
 9	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 10	bisa	bisa	AUX	_	_	11	aux	_	_
-11	menyalahkan	salah	VERB	_	Mood=Ind|Voice=Act	8	csubj	_	_
+11	menyalahkan	salah	VERB	_	Mood=Ind|Voice=Act	8	acl:relcl	_	_
 12	itu	itu	PRON	_	PronType=Dem	11	obj	_	SpaceAfter=No
 13	?	?	PUNCT	_	_	8	punct	_	_
 
@@ -7268,9 +7268,9 @@
 12	untuk	untuk	SCONJ	_	_	13	mark	_	_
 13	mendesain	desain	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
 14	apartemen	apartemen	NOUN	_	Number=Sing	13	obj	_	_
-15	yang	yang	SCONJ	_	_	17	mark	_	_
+15	yang	yang	PRON	_	PronType=Rel	14	nmod	_	_
 16	untuk	untuk	SCONJ	_	_	17	mark	_	_
-17	dipamerkan	pamer	VERB	_	Mood=Ind|Voice=Pass	14	acl:relcl	_	SpaceAfter=No
+17	dipamerkan	pamer	VERB	_	Mood=Ind|Voice=Pass	15	acl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01125030
@@ -7280,7 +7280,7 @@
 2	saja	saja	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	tren	tren	NOUN	_	Number=Sing	10	nsubj	_	_
-5	yang	yang	SCONJ	_	_	6	mark	_	_
+5	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
 6	berhubungan	hubung	VERB	_	Mood=Ind|Voice=Act	4	acl:relcl	_	_
 7	dengan	dengan	ADP	_	_	8	case	_	_
 8	sentuhan	sentuh	NOUN	_	Number=Sing	6	obl	_	_
@@ -8343,7 +8343,7 @@
 12	kembali	kembali	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 13	ke	ke	ADP	_	_	14	case	_	_
 14	properti	properti	NOUN	_	Number=Sing	12	obl	_	_
-15	yang	yang	SCONJ	_	_	19	mark	_	_
+15	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
 16-17	menurutnya	_	_	_	_	_	_	_	_
 16	menurut	turut	ADP	_	_	17	case	_	_
 17	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
@@ -10949,7 +10949,7 @@
 5-6	lokasinya	_	_	_	_	_	_	_	_
 5	lokasi	lokasi	NOUN	_	Number=Sing	3	obl	_	_
 6	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
-7	yang	yang	SCONJ	_	_	11	mark	_	_
+7	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 8	sering	sering	ADV	_	_	11	advmod	_	_
 9	kali	kali	NOUN	_	Number=Sing	8	fixed	_	_
 10	di	di	ADP	_	_	11	case	_	_
@@ -13341,7 +13341,7 @@
 21	Laut	laut	NOUN	_	Number=Sing	17	obl	_	_
 22	Selatan	selatan	NOUN	_	Number=Sing	21	nmod	_	_
 23	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-24	yang	yang	PRON	_	_	28	mark	_	MWEPOS=SCONJ
+24	yang	yang	SCONJ	_	_	28	mark	_	MWEPOS=SCONJ
 25	mana	mana	PRON	_	PronType=Dem	24	fixed	_	_
 26	Trix	Trix	PROPN	_	_	28	nsubj	_	_
 27	telah	telah	AUX	_	_	28	aux	_	_
@@ -18137,17 +18137,17 @@
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
 4	bukan	bukan	PART	_	Polarity=Neg	6	advmod	_	_
 5	lagi	lagi	ADV	_	_	6	advmod	_	_
-6	yang	yang	PRON	_	PronType=Rel	9	advcl	_	_
+6	yang	yang	PRON	_	PronType=Rel	0	root	_	_
 7	lama	lama	ADJ	_	_	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	banyak	banyak	ADJ	_	_	0	root	_	_
-10	pengguna	guna	NOUN	_	Number=Sing	9	nsubj	_	_
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	banyak	banyak	DET	_	Number=Plur	10	det	_	_
+10	pengguna	guna	NOUN	_	Number=Sing	6	advcl	_	_
 11	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 12	bisa	bisa	AUX	_	_	13	aux	_	_
 13	menghemat	hemat	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
 14	100	100	NUM	_	NumType=Card	15	nummod	_	_
 15	euro	euro	NOUN	_	Number=Sing	13	obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	9	punct	_	_
+16	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = n02017008
 # text = Foto itu jelas menunjukkan bilah tampilan sentuh tipis di atas keyboard yang telah diantisipasi dalam rumor.
@@ -19496,7 +19496,7 @@
 5	naik	naik	VERB	_	Mood=Ind|Voice=Act	4	xcomp	_	_
 6	banding	banding	VERB	_	Mood=Ind|Voice=Act	5	xcomp	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
-8	ditolak	tolak	VERB	_	Mood=Ind|Voice=Pass	5	acl:relcl	_	_
+8	ditolak	tolak	VERB	_	Mood=Ind|Voice=Pass	5	advcl	_	_
 9	oleh	oleh	ADP	_	_	10	case	_	_
 10	Pengadilan	adil	NOUN	_	Number=Sing	8	obl:agent	_	_
 11	Kasasi	kasasi	NOUN	_	Number=Sing	10	nmod	_	_
@@ -19689,7 +19689,7 @@
 25-26	ayahnya	_	_	_	_	_	_	_	_
 25	ayah	ayah	NOUN	_	Number=Sing	23	nmod	_	_
 26	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	_
-27	yang	yang	SCONJ	_	_	29	mark	_	_
+27	yang	yang	PRON	_	PronType=Rel	29	nsubj	_	_
 28	seorang	orang	DET	_	Definite=Ind|PronType=Art	29	det	_	_
 29	sosialis	sosialis	NOUN	_	Number=Sing	25	acl:relcl	_	_
 30	militan	militan	ADJ	_	_	29	amod	_	SpaceAfter=No
@@ -20017,7 +20017,7 @@
 2	lah	lah	PART	_	_	1	advmod:emph	_	_
 3	yang	yang	PRON	_	PronType=Rel	5	nsubj:pass	_	_
 4	telah	telah	AUX	_	_	5	aux	_	_
-5	ditulis	tulis	VERB	_	Mood=Ind|Voice=Pass	1	csubj	_	_
+5	ditulis	tulis	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
 6	dalam	dalam	ADP	_	_	8	case	_	_
 7	sebuah	buah	DET	_	Definite=Ind|PronType=Art	8	det	_	_
 8	catatan	catat	NOUN	_	Number=Sing	5	obl	_	_
@@ -20246,7 +20246,7 @@
 9	mewakili	wakil	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	yang	yang	PRON	_	PronType=Rel	9	obj	_	_
 11	paling	paling	ADV	_	_	12	advmod	_	_
-12	konservatif	konservatif	ADJ	_	_	10	acl:relcl	_	SpaceAfter=No
+12	konservatif	konservatif	ADJ	_	_	10	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	26	punct	_	_
 14	sementara	sementara	CCONJ	_	_	26	cc	_	_
 15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
@@ -20263,7 +20263,7 @@
 26	mewakili	wakil	VERB	_	Mood=Ind|Voice=Act	9	conj	_	_
 27	yang	yang	PRON	_	PronType=Rel	26	obj	_	_
 28	paling	paling	ADV	_	_	29	advmod	_	_
-29	progresif	progresif	ADJ	_	_	27	acl:relcl	_	SpaceAfter=No
+29	progresif	progresif	ADJ	_	_	27	amod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n05001008
@@ -20545,7 +20545,7 @@
 12	harus	harus	AUX	_	_	13	aux	_	_
 13	memberikan	beri	VERB	_	Mood=Ind|Voice=Act	2	conj	_	_
 14	yang	yang	PRON	_	PronType=Rel	13	obj	_	_
-15	terbaik	baik	ADJ	_	Degree=Sup	14	acl	_	_
+15	terbaik	baik	ADJ	_	Degree=Sup	14	amod	_	_
 16	dari	dari	ADP	_	_	17	case	_	_
 17-18	dirinya	_	_	_	_	_	_	_	_
 17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	15	nmod	_	_
@@ -21740,9 +21740,9 @@
 5	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 6	berbentuk	bentuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	sama	sama	ADJ	_	_	6	xcomp	_	_
-8	dengan	dengan	ADP	_	_	9	case	_	_
-9	yang	yang	PRON	_	PronType=Rel	7	obl	_	_
-10	dilaporkan	lapor	VERB	_	Mood=Ind|Voice=Pass	9	acl	_	_
+8	dengan	dengan	SCONJ	_	_	10	mark	_	_
+9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
+10	dilaporkan	lapor	VERB	_	Mood=Ind|Voice=Pass	7	advcl	_	_
 11	berita	berita	NOUN	_	Number=Sing	10	obl:agent	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
 13	hari	hari	NOUN	_	Number=Sing	10	obl:tmod	_	_
@@ -22773,7 +22773,7 @@
 # text = Hanya segelintir dari mereka (dengan gelar earl) yang telah ada pada masa Henry I dan ini sebagian besar bersifat simbolik.
 # text_en = Only a handful of them (earldoms) had existed under Henry I and these had been largely symbolic.
 1	Hanya	hanya	ADV	_	_	2	advmod	_	_
-2	segelintir	gelintir	NOUN	_	_	12	nsubj	_	_
+2	segelintir	gelintir	NOUN	_	_	0	root	_	_
 3	dari	dari	ADP	_	_	4	case	_	_
 4	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -22781,9 +22781,9 @@
 7	gelar	gelar	NOUN	_	Number=Sing	4	nmod	_	_
 8	earl	earl	X	_	_	7	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	7	punct	_	_
-10	yang	yang	SCONJ	_	_	12	mark	_	_
+10	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 11	telah	telah	AUX	_	_	12	aux	_	_
-12	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+12	ada	ada	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
 14	masa	masa	NOUN	_	Number=Sing	12	obl:tmod	_	_
 15	Henry	Henry	PROPN	_	_	14	nmod	_	_
@@ -22794,7 +22794,7 @@
 20	besar	besar	ADJ	_	_	19	amod	_	_
 21	bersifat	sifat	VERB	_	Mood=Ind|Voice=Act	12	conj	_	_
 22	simbolik	simbolik	ADJ	_	_	21	xcomp	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	12	punct	_	_
+23	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w04007006
 # text = Selama Perang Koalisi Pertama, seorang petugas artileri Korsika mulai mendapat pencerahan, setelah terjadinya Revolusi Prancis: Napoleon Bonaparte.
