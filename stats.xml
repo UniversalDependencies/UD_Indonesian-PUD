@@ -25,10 +25,10 @@
     <tag name="NOUN">4687</tag><!-- tahun, orang, bagi, bulan, hari, negara, kota, laut, perintah, hal -->
     <tag name="NUM">501</tag><!-- satu, dua, tiga, juta, puluh, empat, 1, 10, miliar, 3 -->
     <tag name="PART">225</tag><!-- tidak, pun, tak, belum, kah, lah, bukan -->
-    <tag name="PRON">1329</tag><!-- yang, nya, ia, mereka, saya, itu, ini, apa, kami, dia -->
+    <tag name="PRON">1355</tag><!-- yang, nya, ia, mereka, saya, itu, ini, apa, kami, dia -->
     <tag name="PROPN">2113</tag><!-- Amerika, Inggris, Eropa, of, Tiongkok, the, Prancis, Spanyol, Yunani, Oktober -->
     <tag name="PUNCT">2384</tag><!-- ,, ., ", “, ”, (, ), :, ', - -->
-    <tag name="SCONJ">440</tag><!-- untuk, bahwa, yang, telah, dengan, karena, jika, meski, belum, iring -->
+    <tag name="SCONJ">414</tag><!-- untuk, bahwa, telah, dengan, karena, jika, meski, belum, iring, agar -->
     <tag name="SYM">38</tag><!-- %, £, $, € -->
     <tag name="VERB">2395</tag><!-- ada, jadi, milik, buat, kata, mulai, guna, beri, kerja, tinggal -->
     <tag name="X">41</tag><!-- estate, landmark, real, borough, bullying, chairman, chief, council, coup, de -->
@@ -59,7 +59,7 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">129</feat><!-- para, banyak, beberapa, berbagai, seseorang, kadang, sebagian, serangkaian, sesuatu, kadang-kadang -->
     <feat name="PronType" value="Int" upos="ADV,PRON">12</feat><!-- apa, siapa, bagaimana, mana -->
     <feat name="PronType" value="Prs" upos="PRON">635</feat><!-- nya, ia, mereka, saya, kami, dia, kita, diri, Anda, Aku -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON">592</feat><!-- yang, apa, saat, ketika, mengapa, bagaimana, siapa, berapa, kapan, seberapa -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">612</feat><!-- yang, apa, saat, ketika, mengapa, bagaimana, siapa, berapa, kapan, seberapa -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">61</feat><!-- semua, seluruh, setiap, selalu, masing-masing, segala -->
     <feat name="Reflex" value="Yes" upos="PRON">15</feat><!-- diri -->
     <feat name="Typo" value="Yes" upos="NOUN">6</feat><!-- mercu, suar, Kontituensi, konsulate -->
@@ -69,8 +69,8 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="46">
     <dep name="acl">253</dep>
-    <dep name="acl:relcl">500</dep>
-    <dep name="advcl">368</dep>
+    <dep name="acl:relcl">501</dep>
+    <dep name="advcl">367</dep>
     <dep name="advmod">955</dep>
     <dep name="advmod:emph">48</dep>
     <dep name="amod">592</dep>
@@ -96,18 +96,18 @@
     <dep name="flat:name">607</dep>
     <dep name="goeswith">3</dep>
     <dep name="iobj">4</dep>
-    <dep name="mark">452</dep>
+    <dep name="mark">426</dep>
     <dep name="nmod">2147</dep>
     <dep name="nmod:lmod">107</dep>
     <dep name="nmod:poss">327</dep>
     <dep name="nmod:tmod">144</dep>
-    <dep name="nsubj">1536</dep>
-    <dep name="nsubj:pass">403</dep>
+    <dep name="nsubj">1538</dep>
+    <dep name="nsubj:pass">404</dep>
     <dep name="nummod">359</dep>
-    <dep name="obj">849</dep>
-    <dep name="obl">1049</dep>
+    <dep name="obj">860</dep>
+    <dep name="obl">1060</dep>
     <dep name="obl:agent">82</dep>
-    <dep name="obl:tmod">267</dep>
+    <dep name="obl:tmod">268</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">114</dep>
     <dep name="punct">2384</dep>

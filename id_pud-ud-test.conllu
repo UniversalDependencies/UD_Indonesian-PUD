@@ -164,12 +164,12 @@
 # text = Apa yang ia katakan dan apa yang ia lakukan — sesungguhnya, luar biasa.
 # text_en = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
 1	Apa	apa	PRON	_	PronType=Rel	14	nsubj	_	_
-2	yang	yang	SCONJ	_	_	4	mark	_	_
+2	yang	yang	PRON	_	PronType=Rel	4	obj	_	_
 3	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	katakan	kata	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 5	dan	dan	CCONJ	_	_	6	cc	_	_
 6	apa	apa	PRON	_	PronType=Rel	1	conj	_	_
-7	yang	yang	SCONJ	_	_	9	mark	_	_
+7	yang	yang	PRON	_	PronType=Rel	9	obj	_	_
 8	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	lakukan	laku	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 10	—	—	PUNCT	_	_	1	punct	_	_
@@ -1688,7 +1688,7 @@
 # text_en = Seagal, whose grandmother was from Vladivostok in Russia's far east, has made frequent trips to Russia in recent years and visited Kamchatka and Sakhalin in September.
 1	Seagal	Seagal	PROPN	_	_	15	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
-3	yang	yang	SCONJ	_	_	6	mark	_	_
+3	yang	yang	PRON	_	PronType=Rel	6	obl	_	_
 4-5	neneknya	_	_	_	_	_	_	_	_
 4	nenek	nenek	NOUN	_	Number=Sing	6	nsubj	_	_
 5	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
@@ -1781,7 +1781,7 @@
 # text_en = Cuaron, whose last film was the Oscar-winning Gravity, was reportedly not on set at the time of the incident.
 1	Cuaron	Cuaron	PROPN	_	_	13	nsubj:pass	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	8	punct	_	_
-3	yang	yang	SCONJ	_	_	8	mark	_	_
+3	yang	yang	PRON	_	PronType=Rel	8	obl	_	_
 4	film	film	NOUN	_	Number=Sing	8	nsubj	_	_
 5-6	terakhirnya	_	_	_	_	_	_	_	_
 5	terakhir	akhir	ADJ	_	Degree=Sup	4	amod	_	_
@@ -2438,7 +2438,7 @@
 # text_en = That's not what we need in our country, folks.
 1	Bukan	bukan	PART	_	Polarity=Neg	2	advmod	_	_
 2	itu	itu	PRON	_	PronType=Dem	0	root	_	_
-3	yang	yang	SCONJ	_	_	5	mark	_	_
+3	yang	yang	PRON	_	PronType=Rel	5	obj	_	_
 4	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	butuhkan	butuh	VERB	_	Mood=Ind|Voice=Act	2	csubj	_	_
 6	di	di	ADP	_	_	7	case	_	_
@@ -3939,7 +3939,7 @@
 1	Seperti	seperti	ADP	_	_	3	case	_	_
 2	banyak	banyak	DET	_	Number=Plur|PronType=Ind	3	det	_	_
 3	orang	orang	NOUN	_	Number=Sing	10	obl	_	_
-4	yang	yang	SCONJ	_	_	6	mark	_	_
+4	yang	yang	PRON	_	PronType=Rel	6	obj	_	_
 5	saya	saya	PRON	_	Number=Sing|Person=1|Polite=Form|PronType=Prs	6	nsubj	_	_
 6	kenal	kenal	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
@@ -4879,7 +4879,7 @@
 10	bagi	bagi	ADP	_	_	11	case	_	_
 11	pekerja	kerja	NOUN	_	Number=Sing	6	obl	_	_
 12	Amerika	Amerika	PROPN	_	_	11	nmod	_	_
-13	yang	yang	SCONJ	_	_	20	mark	_	_
+13	yang	yang	PRON	_	_	20	obl	_	_
 14	pekerjaan	kerja	NOUN	_	Number=Sing	20	nsubj:pass	_	_
 15	dan	dan	CCONJ	_	_	16	cc	_	_
 16	standar	standar	NOUN	_	Number=Sing	14	conj	_	_
@@ -6058,7 +6058,7 @@
 2	seri	seri	ADJ	_	_	1	advmod	_	_
 3	dalam	dalam	ADP	_	_	4	case	_	_
 4	permainan	main	NOUN	_	Number=Sing	1	obl	_	_
-5	yang	yang	SCONJ	_	_	8	mark	_	_
+5	yang	yang	PRON	_	_	8	obj	_	_
 6	telah	telah	AUX	_	_	8	aux	_	_
 7	Anda	anda	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	_
 8	dominasi	dominasi	VERB	_	Mood=Ind|Voice=Act	4	acl:relcl	_	_
@@ -6537,7 +6537,7 @@
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	Penghasilan	hasil	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	_
-11	yang	yang	SCONJ	_	_	16	mark	_	_
+11	yang	yang	PRON	_	_	16	obl	_	_
 12	ke	ke	ADP	_	_	14	case	_	_
 13-14	dalamnya	_	_	_	_	_	_	_	_
 13	dalam	dalam	NOUN	_	Number=Sing	14	nmod:lmod	_	_
@@ -7179,7 +7179,7 @@
 1	Tetapi	tetapi	CCONJ	_	_	8	cc	_	_
 2	tindak	tindak	NOUN	_	Number=Sing	8	nsubj	_	_
 3	kejahatan	jahat	NOUN	_	Number=Sing	2	nmod	_	_
-4	yang	yang	SCONJ	_	_	6	mark	_	_
+4	yang	yang	PRON	_	_	6	obj	_	_
 5	Cotton	Cotton	PROPN	_	_	6	nsubj	_	_
 6	lakukan	laku	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
 7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
@@ -7386,7 +7386,7 @@
 14	atau	atau	CCONJ	_	_	16	cc	_	_
 15	berapa	berapa	ADV	_	PronType=Rel	16	advmod	_	_
 16	aturan	atur	NOUN	_	Number=Sing	12	conj	_	_
-17	yang	yang	SCONJ	_	_	19	mark	_	_
+17	yang	yang	PRON	_	_	19	obj	_	_
 18	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 19	ikuti	ikut	VERB	_	Mood=Ind|Voice=Act	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
@@ -10271,7 +10271,7 @@
 4	barat	barat	NOUN	_	Number=Sing	3	nmod	_	_
 5	daerah	daerah	NOUN	_	Number=Sing	3	nmod	_	_
 6	itu	itu	DET	_	PronType=Dem	5	det	_	_
-7	yang	yang	SCONJ	_	_	14	mark	_	_
+7	yang	yang	PRON	_	PronType=Rel	14	obl	_	_
 8	fitur	fitur	NOUN	_	Number=Sing	14	nsubj	_	_
 9-10	topografinya	_	_	_	_	_	_	_	_
 9	topografi	topografi	NOUN	_	Number=Sing	8	nmod	_	_
@@ -10279,7 +10279,7 @@
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	menonjol	tonjol	VERB	_	Mood=Ind|Voice=Act	8	acl:relcl	_	_
 13	tidak	tidak	PART	_	Polarity=Neg	14	advmod	_	_
-14	sama	sama	ADJ	_	_	1	advcl	_	_
+14	sama	sama	ADJ	_	_	3	acl:relcl	_	_
 15	dengan	dengan	ADP	_	_	16	case	_	_
 16	pesisir	sisir	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	_
@@ -10552,7 +10552,7 @@
 18	dan	dan	CCONJ	_	_	19	cc	_	_
 19	Po	Po	PROPN	_	_	10	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	24	punct	_	_
-21	yang	yang	SCONJ	_	_	24	mark	_	_
+21	yang	yang	PRON	_	PronType=Rel	24	obl	_	_
 22-23	semuanya	_	_	_	_	_	_	_	_
 22	semua	semua	PRON	_	PronType=Tot	24	nsubj	_	_
 23	nya	nya	DET	_	Definite=Def|PronType=Art	22	det	_	_
@@ -10993,7 +10993,7 @@
 5	wilayah	wilayah	NOUN	_	Number=Sing	0	root	_	_
 6	di	di	ADP	_	_	7	case	_	_
 7	Alaska	Alaska	PROPN	_	_	5	nmod	_	_
-8	yang	yang	SCONJ	_	_	18	mark	_	_
+8	yang	yang	PRON	_	PronType=Rel	18	obl	_	_
 9	suhu	suhu	NOUN	_	Number=Sing	18	nsubj	_	_
 10	tinggi	tinggi	ADJ	_	_	9	amod	_	_
 11	rata-rata	rata	ADJ	_	_	9	amod	_	_
@@ -13341,7 +13341,7 @@
 21	Laut	laut	NOUN	_	Number=Sing	17	obl	_	_
 22	Selatan	selatan	NOUN	_	Number=Sing	21	nmod	_	_
 23	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-24	yang	yang	SCONJ	_	_	28	mark	_	MWEPOS=SCONJ
+24	yang	yang	PRON	_	PronType=Rel	28	obl	_	MWEPOS=SCONJ
 25	mana	mana	PRON	_	PronType=Dem	24	fixed	_	_
 26	Trix	Trix	PROPN	_	_	28	nsubj	_	_
 27	telah	telah	AUX	_	_	28	aux	_	_
@@ -15467,7 +15467,7 @@
 10	agen	agen	NOUN	_	Number=Sing	5	advcl	_	_
 11	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	menyamar	samar	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
-13	yang	yang	SCONJ	_	_	17	mark	_	_
+13	yang	yang	PRON	_	PronType=Rel	17	obl	_	_
 14-15	targetnya	_	_	_	_	_	_	_	_
 14	target	target	NOUN	_	Number=Sing	17	nsubj	_	_
 15	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
@@ -15647,7 +15647,7 @@
 4	meminta	minta	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	Presiden	Presiden	PROPN	_	_	4	obj	_	_
 6	Yudhoyono	Yudhoyono	PROPN	_	_	5	flat:name	_	_
-7	yang	yang	SCONJ	_	_	9	mark	_	_
+7	yang	yang	PRON	_	_	9	nsubj	_	_
 8	akan	akan	AUX	_	_	9	aux	_	_
 9	selesai	selesai	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 10	masa	masa	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -16261,7 +16261,7 @@
 3	ngeri	ngeri	ADJ	_	_	2	xcomp	_	_
 4	melihat	lihat	VERB	_	Mood=Ind|Voice=Act	3	xcomp	_	_
 5	apa	apa	PRON	_	PronType=Rel	4	obj	_	_
-6	yang	yang	SCONJ	_	_	8	mark	_	_
+6	yang	yang	PRON	_	PronType=Rel	8	obj	_	_
 7	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	lihat	lihat	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 9	sebagai	bagai	ADP	_	_	10	case	_	_
@@ -17705,7 +17705,7 @@
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	seorang	orang	DET	_	Definite=Ind|PronType=Art	23	det	_	_
 23	produser	produser	NOUN	_	Number=Sing	19	appos	_	_
-24	yang	yang	SCONJ	_	_	26	mark	_	_
+24	yang	yang	PRON	_	PronType=Rel	26	obj	_	_
 25	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 26	kagumi	kagum	VERB	_	Mood=Ind|Voice=Act	23	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	23	punct	_	_
@@ -19142,7 +19142,7 @@
 1	Jika	jika	SCONJ	_	_	5	mark	_	_
 2	lawan	lawan	NOUN	_	Number=Sing	5	nsubj	_	_
 3	Demokrat	Demokrat	PROPN	_	_	2	nmod	_	_
-4	yang	yang	SCONJ	_	_	5	mark	_	_
+4	yang	yang	PRON	_	PronType=Rel	5	nsubj:pass	_	_
 5	terpilih	pilih	VERB	_	Mood=Ind|Voice=Pass	8	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -19638,7 +19638,7 @@
 11	juta	juta	NUM	_	NumType=Card	10	flat	_	_
 12	euro	euro	NOUN	_	Number=Sing	9	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	yang	yang	SCONJ	_	_	19	mark	_	_
+14	yang	yang	PRON	_	PronType=Rel	19	obl	_	_
 15	15,5	15,5	NUM	_	NumType=Card	19	nsubj	_	_
 16-17	jutanya	_	_	_	_	_	_	_	_
 16	juta	juta	NUM	_	NumType=Card	15	flat	_	_
@@ -21037,7 +21037,7 @@
 2	Gate	Gate	PROPN	_	_	1	flat:name	_	_
 3	Park	Park	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	yang	yang	SCONJ	_	_	9	mark	_	_
+5	yang	yang	PRON	_	PronType=Rel	9	obl	_	_
 6-7	panjangnya	_	_	_	_	_	_	_	_
 6	panjang	panjang	NOUN	_	Number=Sing	9	nsubj	_	_
 7	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
@@ -21247,7 +21247,7 @@
 12	masa	masa	NOUN	_	Number=Sing	10	obl:tmod	_	_
 13	itu	itu	DET	_	PronType=Dem	12	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	yang	yang	SCONJ	_	_	19	mark	_	_
+15	yang	yang	PRON	_	PronType=Rel	19	obl	_	_
 16-17	situsnya	_	_	_	_	_	_	_	_
 16	situs	situs	NOUN	_	Number=Sing	19	nsubj:pass	_	_
 17	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	16	nmod:poss	_	_
@@ -22441,7 +22441,7 @@
 13	muda	muda	ADJ	_	_	12	amod	_	_
 14	itu	itu	DET	_	PronType=Dem	12	det	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	yang	yang	SCONJ	_	_	18	mark	_	_
+16	yang	yang	PRON	_	PronType=Rel	18	obj	_	_
 17	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	akui	aku	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 19	tak	tak	PART	_	Polarity=Neg	20	advmod	_	_
@@ -23727,9 +23727,9 @@
 9	tindakan	tindak	NOUN	_	Number=Sing	4	obl	_	_
 10	Pompey	Pompey	PROPN	_	_	9	nmod:poss	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	yang	yang	SCONJ	_	_	17	mark	_	_
+12	yang	yang	PRON	_	PronType=Rel	17	nsubj	_	_
 13	pada	pada	ADP	_	_	14	case	_	_
-14	saat	saat	NOUN	_	Number=Sing	17	obl	_	_
+14	saat	saat	NOUN	_	Number=Sing	17	obl:tmod	_	_
 15	itu	itu	DET	_	PronType=Dem	14	det	_	_
 16	telah	telah	AUX	_	_	17	aux	_	_
 17	selesai	selesai	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
@@ -23802,7 +23802,7 @@
 31	apa	apa	PRON	_	PronType=Rel	40	obl	_	_
 32	pun	pun	PART	_	_	31	advmod:emph	_	_
 33	alternatif	alternatif	NOUN	_	Number=Sing	31	nmod	_	_
-34	yang	yang	SCONJ	_	_	36	mark	_	_
+34	yang	yang	PRON	_	PronType=Rel	36	obj	_	_
 35	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	pilih	pilih	VERB	_	Mood=Ind|Voice=Act	33	acl:relcl	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	31	punct	_	_
