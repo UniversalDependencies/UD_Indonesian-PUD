@@ -1624,7 +1624,7 @@
 13	omong-omong	omong	INTJ	_	_	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	apa	apa	PRON	_	PronType=Int	17	obl	_	_
-16	kalian	kalian	PRON	_	Number=Plur|Person=2|PronType=Prs	17	nsubj	_	_
+16	kalian	kalian	PRON	_	Number=Plur|Person=2|Polite=Infm|PronType=Prs	17	nsubj	_	_
 17	melihat	lihat	VERB	_	Mood=Ind|Voice=Act	8	parataxis	_	_
 18	ini	ini	PRON	_	PronType=Dem	17	obj	_	SpaceAfter=No
 19	?	?	PUNCT	_	_	17	punct	_	_
@@ -4401,7 +4401,7 @@
 23	lebih	lebih	ADV	_	_	24	advmod	_	_
 24	Afrika	Afrika	PROPN	_	_	19	acl:relcl	_	_
 25	dari	dari	ADP	_	_	26	case	_	_
-26	kamu	kamu	PRON	_	Number=Sing|Person=2|PronType=Prs	24	nmod	_	SpaceAfter=No
+26	kamu	kamu	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	18	punct	_	_
 28	“	“	PUNCT	_	_	18	punct	_	_
 
