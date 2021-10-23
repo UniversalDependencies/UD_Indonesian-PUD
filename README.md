@@ -114,7 +114,7 @@ We thank the contributors of the revision project of the Indonesian PUD:
 * 2021-11-15 v2.9
   * added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
   * removed feature Poss (value: Yes)
-  * changed the annotation for 'di mana' (where), 'yang' (which), decades
+  * changed the annotation for 'di mana' (where), 'yang' (which), 'apa/apakah' (what, wheter, adverb in yes-no questions)
   * changed the annotation for transition words (become ADV)
 
 * 2021-05-15 v2.8 

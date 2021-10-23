@@ -880,8 +880,8 @@
 13	untuk	untuk	SCONJ	_	_	14	mark	_	_
 14	memutuskan	putus	VERB	_	Mood=Ind|Voice=Act	8	acl	_	_
 15-16	apakah	_	_	_	_	_	_	_	_
-15	apa	apa	PRON	_	PronType=Rel	18	obl	_	_
-16	kah	kah	PART	_	_	15	advmod:emph	_	_
+15	apa	apa	ADV	_	_	18	advmod	_	_
+16	kah	kah	PART	_	_	18	advmod:emph	_	_
 17	akan	akan	AUX	_	_	18	aux	_	_
 18	membebankan	beban	VERB	_	Mood=Ind|Voice=Act	14	xcomp	_	_
 19	biaya	biaya	NOUN	_	Number=Sing	18	obj	_	_
@@ -1583,8 +1583,8 @@
 5	setelah	telah	ADP	_	_	6	case	_	_
 6	itu	itu	PRON	_	PronType=Dem	2	obl	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
-7	apa	apa	PRON	_	PronType=Rel	10	obl	_	_
-8	kah	kah	PART	_	_	7	advmod:emph	_	_
+7	apa	apa	ADV	_	PronType=Int	10	advmod	_	_
+8	kah	kah	PART	_	_	10	advmod:emph	_	_
 9	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	mengerti	arti	VERB	_	Mood=Ind|Voice=Act	2	ccomp	_	_
 11	kenapa	kenapa	SCONJ	_	_	14	mark	_	_
@@ -1623,7 +1623,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	omong-omong	omong	INTJ	_	_	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	apa	apa	PRON	_	PronType=Int	17	obl	_	_
+15	apa	apa	ADV	_	PronType=Int	17	advmod	_	_
 16	kalian	kalian	PRON	_	Number=Plur|Person=2|Polite=Infm|PronType=Prs	17	nsubj	_	_
 17	melihat	lihat	VERB	_	Mood=Ind|Voice=Act	8	parataxis	_	_
 18	ini	ini	PRON	_	PronType=Dem	17	obj	_	SpaceAfter=No
@@ -4421,8 +4421,8 @@
 # text = Apakah hak ilahi mereka atas mantel sebagai yang terbaik di dunia tidak lagi dijamin?
 # text_en = Was their divine right to the mantle as the world’s best no longer warranted?
 1-2	Apakah	_	_	_	_	_	_	_	_
-1	Apa	apa	PRON	_	PronType=Int	15	obl	_	_
-2	kah	kah	PART	_	_	1	advmod:emph	_	_
+1	Apa	apa	ADV	_	PronType=Int	15	advmod	_	_
+2	kah	kah	PART	_	_	15	advmod:emph	_	_
 3	hak	hak	NOUN	_	Number=Sing	15	nsubj:pass	_	_
 4	ilahi	ilahi	NOUN	_	Number=Sing	3	nmod	_	_
 5	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	_
@@ -4881,7 +4881,7 @@
 10	bagi	bagi	ADP	_	_	11	case	_	_
 11	pekerja	kerja	NOUN	_	Number=Sing	6	obl	_	_
 12	Amerika	Amerika	PROPN	_	_	11	nmod	_	_
-13	yang	yang	PRON	_	_	20	obl	_	_
+13	yang	yang	PRON	_	PronType=Rel	20	obl	_	_
 14	pekerjaan	kerja	NOUN	_	Number=Sing	20	nsubj:pass	_	_
 15	dan	dan	CCONJ	_	_	16	cc	_	_
 16	standar	standar	NOUN	_	Number=Sing	14	conj	_	_
@@ -6060,7 +6060,7 @@
 2	seri	seri	ADJ	_	_	1	advmod	_	_
 3	dalam	dalam	ADP	_	_	4	case	_	_
 4	permainan	main	NOUN	_	Number=Sing	1	obl	_	_
-5	yang	yang	PRON	_	_	8	obj	_	_
+5	yang	yang	PRON	_	PronType=Rel	8	obj	_	_
 6	telah	telah	AUX	_	_	8	aux	_	_
 7	Anda	anda	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	_
 8	dominasi	dominasi	VERB	_	Mood=Ind|Voice=Act	4	acl:relcl	_	_
@@ -6146,8 +6146,8 @@
 3	ingin	ingin	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	tahu	tahu	VERB	_	Mood=Ind|Voice=Act	3	xcomp	_	_
 5-6	apakah	_	_	_	_	_	_	_	_
-5	apa	apa	PRON	_	PronType=Rel	9	obl	_	_
-6	kah	kah	PART	_	_	5	advmod:emph	_	_
+5	apa	apa	ADV	_	_	9	advmod	_	_
+6	kah	kah	PART	_	_	9	advmod:emph	_	_
 7	Davis	Davis	PROPN	_	_	9	nsubj	_	_
 8	Cup	Cup	PROPN	_	_	7	flat:name	_	_
 9	berperan	peran	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	SpaceAfter=No
@@ -6432,8 +6432,8 @@
 # text_en = Or is it an expensive standard or prepayment tariff?
 1	Atau	atau	CCONJ	_	_	4	cc	_	_
 2-3	apakah	_	_	_	_	_	_	_	_
-2	apa	apa	PRON	_	PronType=Int	5	nmod	_	_
-3	kah	kah	PART	_	_	2	advmod:emph	_	_
+2	apa	apa	ADV	_	PronType=Int	5	advmod	_	_
+3	kah	kah	PART	_	_	5	advmod:emph	_	_
 4	itu	itu	PRON	_	PronType=Dem	5	nsubj	_	_
 5	standar	standar	NOUN	_	Number=Sing	0	root	_	_
 6	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -6539,7 +6539,7 @@
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	Penghasilan	hasil	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	_
-11	yang	yang	PRON	_	_	16	obl	_	_
+11	yang	yang	PRON	_	PronType=Rel	16	obl	_	_
 12	ke	ke	ADP	_	_	14	case	_	_
 13-14	dalamnya	_	_	_	_	_	_	_	_
 13	dalam	dalam	NOUN	_	Number=Sing	14	nmod:lmod	_	_
@@ -7127,8 +7127,8 @@
 # text = Apakah serial yang kedua berjalan dengan baik sejauh ini?
 # text_en = Is series two working so far?
 1-2	Apakah	_	_	_	_	_	_	_	_
-1	Apa	apa	PRON	_	PronType=Int	6	obl	_	_
-2	kah	kah	PART	_	_	1	advmod:emph	_	_
+1	Apa	apa	ADV	_	PronType=Int	6	advmod	_	_
+2	kah	kah	PART	_	_	6	advmod:emph	_	_
 3	serial	serial	NOUN	_	Number=Sing	6	nsubj	_	_
 4	yang	yang	PRON	_	PronType=Rel	5	nsubj	_	_
 5	kedua	dua	ADJ	_	NumType=Ord	3	acl:relcl	_	_
@@ -7181,7 +7181,7 @@
 1	Tetapi	tetapi	CCONJ	_	_	8	cc	_	_
 2	tindak	tindak	NOUN	_	Number=Sing	8	nsubj	_	_
 3	kejahatan	jahat	NOUN	_	Number=Sing	2	nmod	_	_
-4	yang	yang	PRON	_	_	6	obj	_	_
+4	yang	yang	PRON	_	PronType=Rel	6	obj	_	_
 5	Cotton	Cotton	PROPN	_	_	6	nsubj	_	_
 6	lakukan	laku	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
 7	tidak	tidak	PART	_	Polarity=Neg	8	advmod	_	_
@@ -7388,7 +7388,7 @@
 14	atau	atau	CCONJ	_	_	16	cc	_	_
 15	berapa	berapa	ADV	_	PronType=Rel	16	advmod	_	_
 16	aturan	atur	NOUN	_	Number=Sing	12	conj	_	_
-17	yang	yang	PRON	_	_	19	obj	_	_
+17	yang	yang	PRON	_	PronType=Rel	19	obj	_	_
 18	kita	kita	PRON	_	Clusivity=In|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 19	ikuti	ikut	VERB	_	Mood=Ind|Voice=Act	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
@@ -7711,8 +7711,8 @@
 5	belum	belum	PART	_	Polarity=Neg	6	advmod	_	_
 6	memutuskan	putus	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
-7	apa	apa	PRON	_	PronType=Rel	11	obl	_	_
-8	kah	kah	PART	_	_	7	advmod:emph	_	_
+7	apa	apa	ADV	_	_	11	advmod	_	_
+8	kah	kah	PART	_	_	11	advmod:emph	_	_
 9	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
 11	mengkomersilkan	komersial	VERB	_	Mood=Ind|Voice=Act	6	ccomp	_	_
@@ -10330,8 +10330,8 @@
 5	adalah	adalah	AUX	_	_	6	cop	_	_
 6	pertanyaan	tanya	NOUN	_	Number=Sing	0	root	_	_
 7-8	apakah	_	_	_	_	_	_	_	_
-7	apa	apa	PRON	_	PronType=Rel	11	obl	_	_
-8	kah	kah	PART	_	_	7	advmod:emph	_	_
+7	apa	apa	ADV	_	_	11	advmod	_	_
+8	kah	kah	PART	_	_	11	advmod:emph	_	_
 9	Kansas	Kansas	PROPN	_	_	11	nsubj	_	_
 10	akan	akan	AUX	_	_	11	aux	_	_
 11	bergabung	gabung	VERB	_	Mood=Ind|Voice=Act	6	acl	_	_
@@ -12176,8 +12176,8 @@
 14	tapi	tapi	CCONJ	_	_	19	cc	_	_
 15	tidak	tidak	PART	_	Polarity=Neg	19	advmod	_	_
 16-17	apakah	_	_	_	_	_	_	_	_
-16	apa	apa	PRON	_	PronType=Rel	20	obl	_	_
-17	kah	kah	PART	_	_	16	advmod:emph	_	_
+16	apa	apa	ADV	_	_	20	advmod	_	_
+17	kah	kah	PART	_	_	20	advmod:emph	_	_
 18	bulan	bulan	NOUN	_	Number=Sing	20	nsubj:pass	_	_
 19	itu	itu	DET	_	PronType=Dem	18	det	_	_
 20	dihalangi	halang	VERB	_	Mood=Ind|Voice=Pass	3	conj	_	_
@@ -15649,7 +15649,7 @@
 4	meminta	minta	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	Presiden	Presiden	PROPN	_	_	4	obj	_	_
 6	Yudhoyono	Yudhoyono	PROPN	_	_	5	flat:name	_	_
-7	yang	yang	PRON	_	_	9	nsubj	_	_
+7	yang	yang	PRON	_	PronType=Rel	9	nsubj	_	_
 8	akan	akan	AUX	_	_	9	aux	_	_
 9	selesai	selesai	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 10	masa	masa	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -18647,7 +18647,7 @@
 # sent_id = n02048002
 # text = Apa Anda berselisih dengan jam alarm Anda?
 # text_en = Do you argue with your alarm clock?
-1	Apa	apa	PRON	_	PronType=Int	3	obl	_	_
+1	Apa	apa	ADV	_	PronType=Int	3	advmod	_	_
 2	Anda	anda	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
 3	berselisih	selisih	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	dengan	dengan	ADP	_	_	5	case	_	_
@@ -18724,8 +18724,8 @@
 13	bodoh	bodoh	ADJ	_	_	9	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15-16	apakah	_	_	_	_	_	_	_	_
-15	apa	apa	PRON	_	PronType=Rel	17	obl	_	_
-16	kah	kah	PART	_	_	15	advmod:emph	_	_
+15	apa	apa	ADV	_	_	17	advmod	_	_
+16	kah	kah	PART	_	_	17	advmod:emph	_	_
 17	saya	saya	PRON	_	Number=Sing|Person=1|Polite=Form|PronType=Prs	18	nsubj	_	_
 18	mengenal	kenal	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 19	penulis	tulis	NOUN	_	Number=Sing	18	obj	_	_
@@ -18734,8 +18734,8 @@
 22	Bruyn	Bruyn	PROPN	_	_	20	flat:name	_	_
 23	dan	dan	CCONJ	_	_	27	cc	_	_
 24-25	apakah	_	_	_	_	_	_	_	_
-24	apa	apa	PRON	_	PronType=Rel	27	obl	_	_
-25	kah	kah	PART	_	_	24	advmod:emph	_	_
+24	apa	apa	ADV	_	_	27	advmod	_	_
+25	kah	kah	PART	_	_	27	advmod:emph	_	_
 26	kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 27	bersaudara	saudara	VERB	_	Mood=Ind|Voice=Act	18	conj	_	_
 28	secara	cara	ADP	_	_	29	case:adv	_	_
@@ -19407,8 +19407,8 @@
 # text = Apakah pekerja diperbolehkan menaruh benda-benda keagamaan di meja mereka?
 # text_en = Are workers allowed to keep religious objects on their desks?
 1-2	Apakah	_	_	_	_	_	_	_	_
-1	Apa	apa	PRON	_	PronType=Int	4	obl	_	_
-2	kah	kah	PART	_	_	1	advmod:emph	_	_
+1	Apa	apa	ADV	_	_	4	advmod	_	_
+2	kah	kah	PART	_	_	4	advmod:emph	_	_
 3	pekerja	kerja	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 4	diperbolehkan	boleh	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	menaruh	taruh	VERB	_	Mood=Ind|Voice=Act	4	xcomp	_	_
@@ -19767,7 +19767,7 @@
 1	Kami	kami	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	akan	akan	AUX	_	_	3	aux	_	_
 3	mengevaluasi	evaluasi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-4	apa	apa	PRON	_	PronType=Rel	6	obl	_	_
+4	apa	apa	ADV	_	_	6	advmod	_	_
 5	akan	akan	AUX	_	_	6	aux	_	_
 6	lanjut	lanjut	ADJ	_	_	3	ccomp	_	_
 7	dan	dan	CCONJ	_	_	9	cc	_	_
@@ -20742,8 +20742,8 @@
 20	tidak	tidak	PART	_	Polarity=Neg	21	advmod	_	_
 21	jelas	jelas	ADJ	_	_	4	conj	_	_
 22-23	apakah	_	_	_	_	_	_	_	_
-22	apa	apa	PRON	_	PronType=Rel	27	obl	_	_
-23	kah	kah	PART	_	_	22	advmod:emph	_	_
+22	apa	apa	ADV	_	_	27	advmod	_	_
+23	kah	kah	PART	_	_	27	advmod:emph	_	_
 24	peningkatan	tingkat	NOUN	_	Number=Sing	27	nsubj	_	_
 25	ini	ini	DET	_	PronType=Dem	24	det	_	_
 26	akan	akan	AUX	_	_	27	aux	_	_
