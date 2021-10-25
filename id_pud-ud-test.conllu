@@ -1362,7 +1362,7 @@
 23	dari	dari	ADP	_	_	24	case	_	_
 24	tanaman	tanam	NOUN	_	Number=Sing	22	obl	_	_
 25	yang	yang	PRON	_	PronType=Rel	26	nsubj:pass	_	_
-26	ditumbuhkan	tumbuh	VERB	_	Mood=Ind|Voice=Pass	24	acl	_	_
+26	ditumbuhkan	tumbuh	VERB	_	Mood=Ind|Voice=Pass	24	acl:relcl	_	_
 27	dari	dari	ADP	_	_	28	case	_	_
 28	biji-biji	biji	NOUN	_	Number=Plur	26	obl	_	_
 29	dari	dari	ADP	_	_	31	case	_	_
@@ -4109,7 +4109,7 @@
 # sent_id = n01067023
 # text = Yang juga dipamerkan untuk pertama kalinya adalah peta Kementerian Pertahanan Inggris yang membayangkan perang dingin dan yang digunakan dalam ujian sekolah militer.
 # text_en = Also being exhibited for the first time are British Ministry of Defence maps which imagine cold war battles and which were used in military college exams.
-1	Yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
+1	Yang	yang	PRON	_	PronType=Rel	3	nsubj:pass	_	_
 2	juga	juga	ADV	_	_	3	advmod	_	_
 3	dipamerkan	pamer	VERB	_	Mood=Ind|Voice=Pass	9	csubj	_	_
 4	untuk	untuk	ADP	_	_	6	case	_	_
@@ -4646,7 +4646,7 @@
 1	Lalu	lalu	SCONJ	_	_	2	mark	_	_
 2	ada	ada	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	kisah-kisah	kisah	NOUN	_	Number=Plur	2	nsubj	_	_
-4	yang	yang	PRON	_	PronType=Rel	6	nsubj:pass	_	_
+4	yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
 5	disebut	sebut	VERB	_	Mood=Ind|Voice=Pass	3	acl:relcl	_	_
 6	nyata	nyata	ADJ	_	_	5	xcomp	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
@@ -4889,7 +4889,7 @@
 17	hidup	hidup	NOUN	_	Number=Sing	16	nmod	_	_
 18	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 19	mungkin	mungkin	AUX	_	_	20	aux	_	_
-20	dicederai	cedera	VERB	_	Mood=Ind|Voice=Pass	11	acl	_	_
+20	dicederai	cedera	VERB	_	Mood=Ind|Voice=Pass	11	acl:relcl	_	_
 21	oleh	oleh	ADP	_	_	22	case	_	_
 22	hal	hal	NOUN	_	Number=Sing	20	obl:agent	_	_
 23	itu	itu	DET	_	PronType=Dem	22	det	_	SpaceAfter=No
@@ -5592,7 +5592,7 @@
 8	dari	dari	ADP	_	_	9	case	_	_
 9	pasar	pasar	NOUN	_	Number=Sing	7	obl	_	_
 10	ini	ini	DET	_	PronType=Dem	9	det	_	_
-11	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
+11	yang	yang	PRON	_	PronType=Rel	13	nsubj:pass	_	_
 12	mudah	mudah	ADJ	_	_	13	advmod	_	_
 13	diakses	akses	VERB	_	Mood=Ind|Voice=Pass	7	csubj	_	_
 14	jika	jika	SCONJ	_	_	16	mark	_	_
@@ -7270,7 +7270,7 @@
 12	untuk	untuk	SCONJ	_	_	13	mark	_	_
 13	mendesain	desain	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
 14	apartemen	apartemen	NOUN	_	Number=Sing	13	obj	_	_
-15	yang	yang	PRON	_	PronType=Rel	17	nsubj	_	_
+15	yang	yang	PRON	_	PronType=Rel	17	nsubj:pass	_	_
 16	untuk	untuk	SCONJ	_	_	17	mark	_	_
 17	dipamerkan	pamer	VERB	_	Mood=Ind|Voice=Pass	14	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
@@ -7889,7 +7889,7 @@
 # text_en = As the movie makes clear, the Lovings -- and Richard in particular -- were reluctant participants in history.
 1	Seperti	seperti	SCONJ	_	_	3	mark	_	_
 2	yang	yang	PRON	_	PronType=Rel	3	nsubj:pass	_	_
-3	ditampilkan	tampil	VERB	_	Mood=Ind|Voice=Pass	18	acl	_	_
+3	ditampilkan	tampil	VERB	_	Mood=Ind|Voice=Pass	18	acl:relcl	_	_
 4	dengan	dengan	ADP	_	_	5	case:adv	_	_
 5	jelas	jelas	ADJ	_	_	3	advmod	_	_
 6	dalam	dalam	ADP	_	_	7	case	_	_
@@ -8710,7 +8710,7 @@
 5	jembatan	jembatan	NOUN	_	Number=Sing	4	obj	_	_
 6	antara	antara	SCONJ	_	_	8	mark	_	_
 7	yang	yang	PRON	_	PronType=Rel	8	nsubj	_	_
-8	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
+8	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 9	dan	dan	CCONJ	_	_	11	cc	_	_
 10	yang	yang	PRON	_	PronType=Rel	11	nsubj	_	_
 11	mati	mati	VERB	_	Mood=Ind|Voice=Act	8	conj	_	SpaceAfter=No
@@ -9895,7 +9895,7 @@
 2	dari	dari	ADP	_	_	3	case	_	_
 3	peradaban	adab	NOUN	_	Number=Sing	1	nmod	_	_
 4	Mediterania	Mediterania	PROPN	_	_	3	nmod	_	_
-5	yang	yang	PRON	_	PronType=Rel	7	nsubj:pass	_	_
+5	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
 6	paling	paling	ADV	_	_	7	advmod	_	_
 7	terkemuka	terkemuka	ADJ	_	_	3	acl:relcl	_	_
 8	di	di	ADP	_	_	9	case	_	_
@@ -11548,7 +11548,7 @@
 8	ekspansi	ekspansi	NOUN	_	Number=Sing	3	conj	_	_
 9	area	area	NOUN	_	Number=Sing	8	nmod	_	_
 10	perkotaan	kota	NOUN	_	Number=Sing	9	nmod	_	_
-11	yang	yang	PRON	_	PronType=Rel	13	nsubj:pass	_	_
+11	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 12	tak	tak	PART	_	Polarity=Neg	13	advmod	_	_
 13	terbatas	batas	ADJ	_	_	8	acl:relcl	_	_
 14	telah	telah	AUX	_	_	15	aux	_	_
@@ -11834,7 +11834,7 @@
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	Republik	Republik	PROPN	_	_	8	nsubj	_	_
 4	Tiongkok	Tiongkok	PROPN	_	_	3	flat:name	_	_
-5	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
+5	yang	yang	PRON	_	PronType=Rel	7	nsubj:pass	_	_
 6	baru	baru	ADJ	_	_	7	advmod	_	_
 7	didirikan	diri	VERB	_	Mood=Ind|Voice=Pass	3	acl:relcl	_	_
 8	menganggap	anggap	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -12225,7 +12225,7 @@
 17	seluruh	seluruh	DET	_	PronType=Tot	18	det	_	_
 18	Mediterania	Mediterania	PROPN	_	_	15	obl	_	_
 19	seperti	seperti	SCONJ	_	_	22	mark	_	_
-20	yang	yang	PRON	_	PronType=Rel	22	nsubj	_	_
+20	yang	yang	PRON	_	PronType=Rel	22	nsubj:pass	_	_
 21	pernah	pernah	ADV	_	_	22	advmod	_	_
 22	dilakukan	laku	VERB	_	Mood=Ind|Voice=Pass	15	advcl	_	_
 23	dari	dari	ADP	_	_	24	case	_	_
@@ -13347,7 +13347,7 @@
 25	mana	mana	PRON	_	PronType=Dem	24	fixed	_	_
 26	Trix	Trix	PROPN	_	_	28	nsubj	_	_
 27	telah	telah	AUX	_	_	28	aux	_	_
-28	kembali	kembali	VERB	_	Mood=Ind|Voice=Act	21	acl	_	_
+28	kembali	kembali	VERB	_	Mood=Ind|Voice=Act	21	acl:relcl	_	_
 29	ke	ke	ADP	_	_	30	case	_	_
 30	sana	sana	PRON	_	PronType=Dem	28	obl	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
@@ -17524,7 +17524,7 @@
 20	Iran	Iran	PROPN	_	_	19	nmod	_	_
 21	yang	yang	PRON	_	PronType=Rel	23	nsubj	_	_
 22	sedang	sedang	AUX	_	_	23	aux	_	_
-23	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	15	acl	_	SpaceAfter=No
+23	berlangsung	langsung	VERB	_	Mood=Ind|Voice=Act	15	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = w01144063
@@ -18260,7 +18260,7 @@
 7	jika	jika	SCONJ	_	_	8	mark	_	_
 8	dipenuhi	penuh	VERB	_	Mood=Ind|Voice=Pass	5	acl:relcl	_	_
 9	dapat	dapat	AUX	_	_	10	aux	_	_
-10	membuat	buat	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
+10	membuat	buat	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 11	perjanjian	janji	NOUN	_	Number=Sing	10	obj	_	_
 12	itu	itu	DET	_	PronType=Dem	11	det	_	_
 13	kembali	kembali	ADV	_	_	14	advmod	_	_
@@ -19687,7 +19687,7 @@
 17	Katolik	Katolik	PROPN	_	_	16	nmod	_	_
 18	anti-fascist	anti	ADJ	_	_	16	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
+20	yang	yang	PRON	_	PronType=Rel	21	nsubj:pass	_	_
 21	ditandai	tanda	VERB	_	Mood=Ind|Voice=Pass	16	acl:relcl	_	_
 22	dengan	dengan	ADP	_	_	23	case	_	_
 23	penganiayaan	aniaya	NOUN	_	Number=Sing	21	obl	_	_
@@ -20441,7 +20441,7 @@
 11	partai	partai	NOUN	_	Number=Sing	8	nmod	_	_
 12	memahami	paham	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 13	pesan	pesan	NOUN	_	Number=Sing	12	obj	_	_
-14	yang	yang	PRON	_	PronType=Rel	15	nsubj:pass	_	_
+14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
 15	coba	coba	VERB	_	Mood=Ind|Voice=Act	13	acl:relcl	_	_
 16	disampaikan	sampai	VERB	_	Mood=Ind|Voice=Pass	15	xcomp	_	_
 17	presiden	presiden	NOUN	_	Number=Sing	16	obl:agent	_	_
@@ -21747,7 +21747,7 @@
 6	berbentuk	bentuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	sama	sama	ADJ	_	_	6	xcomp	_	_
 8	dengan	dengan	SCONJ	_	_	10	mark	_	_
-9	yang	yang	PRON	_	PronType=Rel	10	nsubj	_	_
+9	yang	yang	PRON	_	PronType=Rel	10	nsubj:pass	_	_
 10	dilaporkan	lapor	VERB	_	Mood=Ind|Voice=Pass	7	advcl	_	_
 11	berita	berita	NOUN	_	Number=Sing	10	obl:agent	_	_
 12	pada	pada	ADP	_	_	13	case	_	_
