@@ -19324,7 +19324,7 @@
 # sent_id = n03005007
 # text = Yang belakangan mengawasi pemilihan pendahuluan, di mana Rachida Dati mendukung pencalonan Nicolas Sarkozy.
 # text_en = The latter is overseeing the Republican primaries, in which Rachida Dati supports Nicolas Sarkozy's candidacy.
-1	Yang	yang	DET	_	PronType=Rel	2	det	_	_
+1	Yang	yang	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	belakangan	belakang	NOUN	_	Number=Sing	3	nsubj	_	_
 3	mengawasi	awas	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	pemilihan	pilih	NOUN	_	Number=Sing	3	obj	_	_
