@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>19032</tokens><words>19444</words><fused>412</fused></total>
+    <total><sentences>1000</sentences><tokens>19034</tokens><words>19446</words><fused>412</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1000</sentences><tokens>19032</tokens><words>19444</words><fused>412</fused></test>
+    <test><sentences>1000</sentences><tokens>19034</tokens><words>19446</words><fused>412</fused></test>
   </size>
   <lemmas unique="3633" /><!-- ,, ., yang, dan, di, nya, untuk, pada, ini, dengan, itu, dari, dalam, tahun, tidak -->
   <forms unique="4706" /><!-- ,, ., yang, dan, di, nya, untuk, pada, ini, dengan, itu, dari, dalam, tahun, tidak -->
@@ -22,7 +22,7 @@
     <tag name="CCONJ">564</tag><!-- dan, atau, tetapi, namun, tapi, serta, baik, maupun, lain, & -->
     <tag name="DET">732</tag><!-- ini, itu, nya, buah, para, banyak, sebut, orang, berapa, semua -->
     <tag name="INTJ">4</tag><!-- hei, omong, toh, ya -->
-    <tag name="NOUN">4687</tag><!-- tahun, orang, bagi, bulan, hari, negara, kota, laut, perintah, hal -->
+    <tag name="NOUN">4689</tag><!-- tahun, orang, bagi, bulan, hari, negara, kota, laut, perintah, hal -->
     <tag name="NUM">501</tag><!-- satu, dua, tiga, juta, puluh, empat, 1, 10, miliar, 3 -->
     <tag name="PART">225</tag><!-- tidak, pun, tak, belum, kah, lah, bukan -->
     <tag name="PRON">1338</tag><!-- yang, nya, ia, mereka, saya, itu, ini, kami, dia, mana -->
@@ -44,7 +44,7 @@
     <feat name="Foreign" value="Yes" upos="X">32</feat><!-- estate, landmark, real, Energies, International, Investors, MultiStrategy, Organization, Renewable, Return -->
     <feat name="Mood" value="Ind" upos="VERB">2395</feat><!-- menjadi, ada, memiliki, membuat, mulai, mengatakan, merupakan, ujar, digunakan, mendapatkan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">391</feat><!-- mereka, para, banyak, beberapa, kami, kita, berbagai, orang-orang, negara-negara, anak-anak -->
-    <feat name="Number" value="Sing" upos="NOUN,PRON">4991</feat><!-- nya, tahun, ia, orang, saya, bulan, bagian, hari, negara, kota -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON">4993</feat><!-- nya, tahun, ia, orang, saya, bulan, bagian, hari, negara, kota -->
     <feat name="NumType" value="Card" upos="NUM">501</feat><!-- satu, dua, kedua, tiga, juta, empat, 1, 10, 3, puluh -->
     <feat name="NumType" value="Ord" upos="ADJ">58</feat><!-- pertama, kedua, ketiga, ke-16, ke-3, ke-5, ke-13, ke-14, ke-15, ke-20 -->
     <feat name="Person" value="1" upos="PRON">103</feat><!-- saya, kami, kita, Aku, ku -->
@@ -67,7 +67,7 @@
     <feat name="Voice" value="Pass" upos="VERB">503</feat><!-- digunakan, terjadi, termasuk, terletak, diberi, didirikan, diikuti, dikenal, diperlukan, terbuka -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="46">
+  <deps unique="47">
     <dep name="acl">253</dep>
     <dep name="acl:relcl">502</dep>
     <dep name="advcl">367</dep>
@@ -81,6 +81,7 @@
     <dep name="cc">559</dep>
     <dep name="cc:preconj">5</dep>
     <dep name="ccomp">100</dep>
+    <dep name="clf">2</dep>
     <dep name="compound">25</dep>
     <dep name="compound:a">10</dep>
     <dep name="conj">664</dep>

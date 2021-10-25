@@ -16499,7 +16499,7 @@
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01130100
-# text = On a Wing and a Prayer (1992) mempertemukannya dengan rekan Stealers Wheel-nya Egan dalam beberapa lagu.
+# text = On a Wing and a Prayer (1992) mempertemukannya dengan rekan Stealers Wheel-nya Egan dalam beberapa buah lagu.
 # text_en = On a Wing and a Prayer (1992) reunited him with his Stealers Wheel partner Egan on several tracks.
 1	On	On	PROPN	_	_	10	nsubj	_	_
 2	a	a	PROPN	_	_	1	flat:name	_	_
@@ -16521,9 +16521,10 @@
 17	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 18	Egan	Egan	PROPN	_	_	13	appos	_	_
 19	dalam	dalam	ADP	_	_	21	case	_	_
-20	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	21	det	_	_
-21	lagu	lagu	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	10	punct	_	_
+20	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	22	det	_	_
+21	buah	buah	NOUN	_	Number=Sing	22	clf	_	_
+22	lagu	lagu	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = w01130101
 # text = Album itu menyertakan tiga lagu yang ditulis bersama dengan saudara laki-laki Rafferty, Jim, yang juga seorang penyanyi dan penulis lagu, yang telah menandatangani kontrak dengan Decca Records pada tahun 1970-an.
@@ -17360,7 +17361,7 @@
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01142013
-# text = Ketika putri mereka Cecily menikahi Richard Plantagenet, Duke of York ke-3, dan melahirkan beberapa anak, termasuk Edward IV dan Richard III, Joan menjadi nenek dari dua raja Inggris dari York.
+# text = Ketika putri mereka Cecily menikahi Richard Plantagenet, Duke of York ke-3, dan melahirkan beberapa orang anak, termasuk Edward IV dan Richard III, Joan menjadi nenek dari dua raja Inggris dari York.
 # text_en = When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.
 1	Ketika	ketika	ADV	_	PronType=Rel	5	advmod	_	_
 2	putri	putri	NOUN	_	Number=Sing	5	nsubj	_	_
@@ -17377,26 +17378,27 @@
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	dan	dan	CCONJ	_	_	15	cc	_	_
 15	melahirkan	lahir	VERB	_	Mood=Ind|Voice=Act	5	conj	_	_
-16	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	17	det	_	_
-17	anak	anak	NOUN	_	Number=Sing	15	obj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	termasuk	masuk	VERB	_	Mood=Ind|Voice=Pass	17	acl	_	_
-20	Edward	Edward	PROPN	_	_	19	nsubj:pass	_	_
-21	IV	IV	PROPN	_	_	20	flat:name	_	_
-22	dan	dan	CCONJ	_	_	23	cc	_	_
-23	Richard	Richard	PROPN	_	_	20	conj	_	_
-24	III	III	PROPN	_	_	23	flat:name	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	5	punct	_	_
-26	Joan	Joan	PROPN	_	_	27	nsubj	_	_
-27	menjadi	jadi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-28	nenek	nenek	NOUN	_	Number=Sing	27	obl	_	_
-29	dari	dari	ADP	_	_	31	case	_	_
-30	dua	dua	NUM	_	NumType=Card	31	nummod	_	_
-31	raja	raja	NOUN	_	Number=Sing	28	nmod	_	_
-32	Inggris	Inggris	PROPN	_	_	31	nmod	_	_
-33	dari	dari	ADP	_	_	34	case	_	_
-34	York	York	PROPN	_	_	31	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	28	punct	_	_
+16	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	18	det	_	_
+17	orang	orang	NOUN	_	Number=Sing	18	clf	_	_
+18	anak	anak	NOUN	_	Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	termasuk	masuk	VERB	_	Mood=Ind|Voice=Pass	18	acl	_	_
+21	Edward	Edward	PROPN	_	_	20	nsubj:pass	_	_
+22	IV	IV	PROPN	_	_	21	flat:name	_	_
+23	dan	dan	CCONJ	_	_	24	cc	_	_
+24	Richard	Richard	PROPN	_	_	21	conj	_	_
+25	III	III	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	5	punct	_	_
+27	Joan	Joan	PROPN	_	_	28	nsubj	_	_
+28	menjadi	jadi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+29	nenek	nenek	NOUN	_	Number=Sing	28	obl	_	_
+30	dari	dari	ADP	_	_	32	case	_	_
+31	dua	dua	NUM	_	NumType=Card	32	nummod	_	_
+32	raja	raja	NOUN	_	Number=Sing	29	nmod	_	_
+33	Inggris	Inggris	PROPN	_	_	32	nmod	_	_
+34	dari	dari	ADP	_	_	35	case	_	_
+35	York	York	PROPN	_	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = w01142031
 # text = John of Gaunt meninggal pada tahun 1399.
