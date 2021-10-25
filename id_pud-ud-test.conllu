@@ -19322,8 +19322,8 @@
 # sent_id = n03005007
 # text = Yang belakangan mengawasi pemilihan pendahuluan, di mana Rachida Dati mendukung pencalonan Nicolas Sarkozy.
 # text_en = The latter is overseeing the Republican primaries, in which Rachida Dati supports Nicolas Sarkozy's candidacy.
-1	Yang	yang	PRON	_	PronType=Rel	3	nsubj	_	_
-2	belakangan	belakang	NOUN	_	Number=Sing	1	nmod	_	_
+1	Yang	yang	DET	_	PronType=Rel	2	det	_	_
+2	belakangan	belakang	NOUN	_	Number=Sing	3	nsubj	_	_
 3	mengawasi	awas	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	pemilihan	pilih	NOUN	_	Number=Sing	3	obj	_	_
 5	pendahuluan	dahulu	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
@@ -19374,7 +19374,7 @@
 # text = Apa batas-batas yang bisa menghambat ungkapan keyakinan agama di perusahaan swasta?
 # text_en = What are the limits that could inhibit the expression of religious beliefs in private companies?
 1	Apa	apa	PRON	_	PronType=Rel	0	root	_	_
-2	batas-batas	batas	NOUN	_	Number=Plur	1	nsubj	_	_
+2	batas-batas	batas	NOUN	_	Number=Plur	1	nmod	_	_
 3	yang	yang	PRON	_	PronType=Rel	5	nsubj	_	_
 4	bisa	bisa	AUX	_	_	5	aux	_	_
 5	menghambat	hambat	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
@@ -20248,9 +20248,9 @@
 7	Cifuentes	Cifuentes	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	mewakili	wakil	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	yang	yang	PRON	_	PronType=Rel	9	obj	_	_
+10	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
 11	paling	paling	ADV	_	_	12	advmod	_	_
-12	konservatif	konservatif	ADJ	_	_	10	amod	_	SpaceAfter=No
+12	konservatif	konservatif	ADJ	_	_	9	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	26	punct	_	_
 14	sementara	sementara	CCONJ	_	_	26	cc	_	_
 15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
@@ -20265,9 +20265,9 @@
 24	Maroto	Maroto	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	mewakili	wakil	VERB	_	Mood=Ind|Voice=Act	9	conj	_	_
-27	yang	yang	PRON	_	PronType=Rel	26	obj	_	_
+27	yang	yang	PRON	_	PronType=Rel	29	nsubj	_	_
 28	paling	paling	ADV	_	_	29	advmod	_	_
-29	progresif	progresif	ADJ	_	_	27	amod	_	SpaceAfter=No
+29	progresif	progresif	ADJ	_	_	26	ccomp	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n05001008
@@ -20548,8 +20548,8 @@
 11	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	harus	harus	AUX	_	_	13	aux	_	_
 13	memberikan	beri	VERB	_	Mood=Ind|Voice=Act	2	conj	_	_
-14	yang	yang	PRON	_	PronType=Rel	13	obj	_	_
-15	terbaik	baik	ADJ	_	Degree=Sup	14	amod	_	_
+14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
+15	terbaik	baik	ADJ	_	Degree=Sup	13	ccomp	_	_
 16	dari	dari	ADP	_	_	17	case	_	_
 17-18	dirinya	_	_	_	_	_	_	_	_
 17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	15	nmod	_	_
@@ -21854,11 +21854,11 @@
 21	dari	dari	ADP	_	_	22	case	_	_
 22	imigran	imigran	NOUN	_	Number=Sing	20	obl	_	_
 23	atau	atau	CCONJ	_	_	27	cc	_	_
-24	yang	yang	PRON	_	PronType=Rel	22	conj	_	_
+24	yang	yang	PRON	_	PronType=Rel	27	obl	_	_
 25-26	asal-muasalnya	_	_	_	_	_	_	_	_
-25	asal-muasal	asal	NOUN	_	Number=Sing	24	nmod	_	_
+25	asal-muasal	asal	NOUN	_	Number=Sing	27	nsubj	_	_
 26	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	_
-27	imigran	imigran	NOUN	_	Number=Sing	25	nmod	_	SpaceAfter=No
+27	imigran	imigran	NOUN	_	Number=Sing	22	conj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = w03001058
