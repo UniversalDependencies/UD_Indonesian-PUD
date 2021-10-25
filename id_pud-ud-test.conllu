@@ -471,7 +471,7 @@
 6	adalah	adalah	AUX	_	_	7	cop	_	_
 7	babi	babi	NOUN	_	Number=Sing	0	root	_	_
 8	yang	yang	PRON	_	PronType=Rel	9	nsubj:pass	_	_
-9	kesepian	sepi	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	SpaceAfter=No
+9	kesepian	sepi	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	tapi	tetapi	CCONJ	_	_	15	cc	_	_
 12	dia	dia	PRON	_	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
@@ -1774,8 +1774,8 @@
 22	dilaporkan	lapor	VERB	_	Mood=Ind|Voice=Pass	10	conj	_	_
 23	tidak	tidak	PART	_	Polarity=Neg	24	advmod	_	_
 24	ada	ada	VERB	_	Mood=Ind|Voice=Act	22	ccomp	_	_
-25	yang	yang	PRON	_	PronType=Rel	24	nsubj	_	_
-26	cedera	cedera	ADJ	_	_	25	amod	_	SpaceAfter=No
+25	yang	yang	PRON	_	PronType=Rel	26	nsubj	_	_
+26	cedera	cedera	ADJ	_	_	24	csubj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = n01030006
@@ -3423,8 +3423,8 @@
 18	,	,	PUNCT	_	_	25	punct	_	_
 19	dan	dan	CCONJ	_	_	25	cc	_	_
 20	mungkin	mungkin	ADV	_	_	22	advmod	_	_
-21	yang	yang	PRON	_	PronType=Rel	22	nsubj:pass	_	_
-22	terpenting	penting	ADJ	_	Degree=Sup	25	acl:relcl	_	SpaceAfter=No
+21	yang	yang	DET	_	Definite=Def|PronType=Art	22	det	_	_
+22	terpenting	penting	ADJ	_	Degree=Sup	25	advcl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	pada	pada	ADP	_	_	25	case	_	_
 25	wacana	wacana	NOUN	_	Number=Sing	13	conj	_	_
@@ -4411,7 +4411,7 @@
 1	Siapa	siapa	PRON	_	PronType=Int	0	root	_	_
 2	yang	yang	PRON	_	PronType=Rel	4	nsubj	_	_
 3	bisa	bisa	AUX	_	_	4	aux	_	_
-4	menghentikan	henti	VERB	_	Mood=Ind|Voice=Act	1	csubj	_	_
+4	menghentikan	henti	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 5	sisi	sisi	NOUN	_	Number=Sing	4	obj	_	_
 6	Australia	Australia	PROPN	_	_	5	nmod	_	_
 7	ini	ini	DET	_	PronType=Dem	5	det	_	SpaceAfter=No
@@ -4429,8 +4429,8 @@
 6	atas	atas	ADP	_	_	7	case	_	_
 7	mantel	mantel	NOUN	_	Number=Sing	3	nmod	_	_
 8	sebagai	bagai	ADP	_	_	9	case	_	_
-9	yang	yang	PRON	_	PronType=Rel	7	nsubj	_	_
-10	terbaik	baik	ADJ	_	Degree=Sup	9	amod	_	_
+9	yang	yang	DET	_	Definite=Def|PronType=Art	10	det	_	_
+10	terbaik	baik	ADJ	_	Degree=Sup	7	advcl	_	_
 11	di	di	ADP	_	_	12	case	_	_
 12	dunia	dunia	NOUN	_	Number=Sing	10	obl	_	_
 13	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
@@ -5308,7 +5308,7 @@
 18	yang	yang	PRON	_	PronType=Rel	21	nsubj	_	_
 19	seolah-olah	olah	ADV	_	_	21	advmod	_	_
 20	dari	dari	ADP	_	_	21	case	_	_
-21	tahun	tahun	NOUN	_	Number=Sing	17	nmod:tmod	_	_
+21	tahun	tahun	NOUN	_	Number=Sing	17	acl:relcl	_	_
 22	1970-an	1970	NOUN	_	Number=Plur	21	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6103,7 +6103,7 @@
 1	Itu	itu	PRON	_	PronType=Dem	0	root	_	_
 2	lah	lah	PART	_	_	1	advmod:emph	_	_
 3	yang	yang	PRON	_	PronType=Rel	4	nsubj:pass	_	_
-4	dialami	alam	VERB	_	Mood=Ind|Voice=Pass	1	csubj	_	_
+4	dialami	alam	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
 5	Andi	Andi	PROPN	_	_	4	obl:agent	_	_
 6	saat	saat	ADV	_	PronType=Rel	8	advmod	_	_
 7	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -7270,9 +7270,9 @@
 12	untuk	untuk	SCONJ	_	_	13	mark	_	_
 13	mendesain	desain	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
 14	apartemen	apartemen	NOUN	_	Number=Sing	13	obj	_	_
-15	yang	yang	PRON	_	PronType=Rel	14	nmod	_	_
+15	yang	yang	PRON	_	PronType=Rel	17	nsubj	_	_
 16	untuk	untuk	SCONJ	_	_	17	mark	_	_
-17	dipamerkan	pamer	VERB	_	Mood=Ind|Voice=Pass	15	acl	_	SpaceAfter=No
+17	dipamerkan	pamer	VERB	_	Mood=Ind|Voice=Pass	14	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n01125030
@@ -8790,10 +8790,10 @@
 15	mereka	mereka	PRON	_	Number=Plur|Person=3|PronType=Prs	14	nmod:poss	_	_
 16	tetap	tetap	ADV	_	_	17	advmod	_	_
 17	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	12	advcl	_	_
-18	di	di	ADP	_	_	20	case	_	_
-19	antara	antara	NOUN	_	Number=Sing	20	nmod:lmod	_	_
-20	yang	yang	PRON	_	PronType=Rel	17	obl	_	_
-21	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	20	acl:relcl	_	SpaceAfter=No
+18	di	di	ADP	_	_	21	case	_	_
+19	antara	antara	NOUN	_	Number=Sing	21	nmod:lmod	_	_
+20	yang	yang	DET	_	Definite=Def|PronType=Art	21	det	_	_
+21	hidup	hidup	VERB	_	Mood=Ind|Voice=Act	17	advcl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	5	punct	_	_
 24-25	ujarnya	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9643,7 +9643,7 @@
 # sent_id = w01017046
 # text = Yang terakhir juga menyebarkan Islam ke sabuk pesisir, tapi sebagian besar Bantu tidak pernah bersentuhan dengan Islam dan tetap menganut Agama Tradisional Afrika.
 # text_en = The latter also spread Islam to the coastal belt, but most Bantu never had contact with Islam and remained African Traditional Religion adherents.
-1	Yang	yang	PRON	_	PronType=Rel	2	nsubj	_	_
+1	Yang	yang	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	terakhir	akhir	ADJ	_	Degree=Sup	4	csubj	_	_
 3	juga	juga	ADV	_	_	4	advmod	_	_
 4	menyebarkan	sebar	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -9707,7 +9707,7 @@
 7	Kamerun	Kamerun	PROPN	_	_	12	nsubj	_	_
 8	Selatan	Selatan	PROPN	_	_	7	flat:name	_	_
 9	yang	yang	PRON	_	PronType=Rel	10	nsubj:pass	_	_
-10	dikuasai	kuasa	VERB	_	Mood=Ind|Voice=Pass	6	acl:relcl	_	_
+10	dikuasai	kuasa	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	_
 11	Inggris	Inggris	PROPN	_	_	10	obl	_	_
 12	bersatu	satu	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 13	dengan	dengan	ADP	_	_	14	case	_	_
@@ -10305,8 +10305,8 @@
 # sent_id = w01028004
 # text = Yang pertama dan terutama adalah Sungai Ohio, yang mengalir ke Sungai Mississippi.
 # text_en = The first and foremost was the Ohio River, which flowed into the Mississippi River.
-1	Yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
-2	pertama	pertama	ADJ	_	NumType=Ord	1	amod	_	_
+1	Yang	yang	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	pertama	pertama	ADJ	_	NumType=Ord	6	csubj	_	_
 3	dan	dan	CCONJ	_	_	4	cc	_	_
 4	terutama	utama	ADJ	_	Degree=Sup	2	conj	_	_
 5	adalah	adalah	AUX	_	_	6	cop	_	_
@@ -11782,8 +11782,8 @@
 # sent_id = w01049082
 # text = Yang pertama dan terutama adalah penyediaan ruang terbuka untuk dimanfaatkan oleh penduduk kota dan penduduk setempat di area yang sedang berkembang sangat cepat.
 # text_en = First and foremost was the provision of open space for the benefit of townspeople and local residents within an area that was being rapidly built up.
-1	Yang	yang	PRON	_	PronType=Rel	6	nsubj	_	_
-2	pertama	pertama	ADJ	_	NumType=Ord	1	amod	_	_
+1	Yang	yang	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	pertama	pertama	ADJ	_	NumType=Ord	6	csubj	_	_
 3	dan	dan	CCONJ	_	_	4	cc	_	_
 4	terutama	utama	ADJ	_	Degree=Sup	2	conj	_	_
 5	adalah	adalah	AUX	_	_	6	cop	_	_
@@ -13725,9 +13725,9 @@
 9	untuk	untuk	SCONJ	_	_	11	mark	_	_
 10	tidak	tidak	PART	_	Polarity=Neg	11	advmod	_	_
 11	mempercayai	percaya	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
-12	semua	semua	DET	_	PronType=Tot	13	det	_	_
-13	yang	yang	PRON	_	PronType=Rel	11	obj	_	_
-14	dikatakan	kata	VERB	_	Mood=Ind|Voice=Pass	13	acl:relcl	_	_
+12	semua	semua	PRON	_	PronType=Tot	11	obj	_	_
+13	yang	yang	PRON	_	PronType=Rel	14	nsubj:pass	_	_
+14	dikatakan	kata	VERB	_	Mood=Ind|Voice=Pass	12	acl:relcl	_	_
 15	oleh	oleh	ADP	_	_	16	case	_	_
 16	Malleus	Malleus	PROPN	_	_	14	obl:agent	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
@@ -16520,7 +16520,7 @@
 16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	nya	nya	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 18	Egan	Egan	PROPN	_	_	13	appos	_	_
-19	dalam	dalam	ADP	_	_	21	case	_	_
+19	dalam	dalam	ADP	_	_	22	case	_	_
 20	beberapa	berapa	DET	_	Number=Plur|PronType=Ind	22	det	_	_
 21	buah	buah	NOUN	_	Number=Sing	22	clf	_	_
 22	lagu	lagu	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
@@ -18136,22 +18136,22 @@
 # sent_id = n02016006
 # text = Karena seri 1 bukan lagi yang lama, banyak pengguna yang bisa menghemat 100 euro.
 # text_en = Because series 1 is no longer the old one, many users can save 100 euros.
-1	Karena	karena	SCONJ	_	_	6	mark	_	_
-2	seri	seri	NOUN	_	Number=Sing	6	nsubj	_	_
+1	Karena	karena	SCONJ	_	_	7	mark	_	_
+2	seri	seri	NOUN	_	Number=Sing	7	nsubj	_	_
 3	1	1	NUM	_	NumType=Card	2	nummod	_	_
-4	bukan	bukan	PART	_	Polarity=Neg	6	advmod	_	_
-5	lagi	lagi	ADV	_	_	6	advmod	_	_
-6	yang	yang	PRON	_	PronType=Rel	0	root	_	_
-7	lama	lama	ADJ	_	_	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	_
+4	bukan	bukan	PART	_	Polarity=Neg	7	advmod	_	_
+5	lagi	lagi	ADV	_	_	7	advmod	_	_
+6	yang	yang	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	lama	lama	ADJ	_	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	banyak	banyak	DET	_	Number=Plur|PronType=Ind	10	det	_	_
-10	pengguna	guna	NOUN	_	Number=Sing	6	advcl	_	_
+10	pengguna	guna	NOUN	_	Number=Sing	7	advcl	_	_
 11	yang	yang	PRON	_	PronType=Rel	13	nsubj	_	_
 12	bisa	bisa	AUX	_	_	13	aux	_	_
 13	menghemat	hemat	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
 14	100	100	NUM	_	NumType=Card	15	nummod	_	_
 15	euro	euro	NOUN	_	Number=Sing	13	obj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	6	punct	_	_
+16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = n02017008
 # text = Foto itu jelas menunjukkan bilah tampilan sentuh tipis di atas keyboard yang telah diantisipasi dalam rumor.
@@ -20250,9 +20250,9 @@
 7	Cifuentes	Cifuentes	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	mewakili	wakil	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	yang	yang	PRON	_	PronType=Rel	12	nsubj	_	_
+10	yang	yang	DET	_	Definite=Def|PronType=Art	12	det	_	_
 11	paling	paling	ADV	_	_	12	advmod	_	_
-12	konservatif	konservatif	ADJ	_	_	9	ccomp	_	SpaceAfter=No
+12	konservatif	konservatif	ADJ	_	_	9	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	26	punct	_	_
 14	sementara	sementara	CCONJ	_	_	26	cc	_	_
 15	para	para	DET	_	Number=Plur|PronType=Ind	16	det	_	_
@@ -20267,9 +20267,9 @@
 24	Maroto	Maroto	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	mewakili	wakil	VERB	_	Mood=Ind|Voice=Act	9	conj	_	_
-27	yang	yang	PRON	_	PronType=Rel	29	nsubj	_	_
+27	yang	yang	DET	_	Definite=Def|PronType=Art	29	det	_	_
 28	paling	paling	ADV	_	_	29	advmod	_	_
-29	progresif	progresif	ADJ	_	_	26	ccomp	_	SpaceAfter=No
+29	progresif	progresif	ADJ	_	_	26	xcomp	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = n05001008
@@ -20550,8 +20550,8 @@
 11	ia	ia	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	harus	harus	AUX	_	_	13	aux	_	_
 13	memberikan	beri	VERB	_	Mood=Ind|Voice=Act	2	conj	_	_
-14	yang	yang	PRON	_	PronType=Rel	15	nsubj	_	_
-15	terbaik	baik	ADJ	_	Degree=Sup	13	ccomp	_	_
+14	yang	yang	DET	_	Definite=Def|PronType=Art	15	det	_	_
+15	terbaik	baik	ADJ	_	Degree=Sup	13	xcomp	_	_
 16	dari	dari	ADP	_	_	17	case	_	_
 17-18	dirinya	_	_	_	_	_	_	_	_
 17	diri	diri	PRON	_	PronType=Prs|Reflex=Yes	15	nmod	_	_
@@ -22970,7 +22970,7 @@
 14	datang	datang	VERB	_	Mood=Ind|Voice=Act	3	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	seperti	seperti	SCONJ	_	_	19	mark	_	_
-17	yang	yang	PRON	_	PronType=Rel	19	nsubj	_	_
+17	yang	yang	PRON	_	PronType=Rel	19	nsubj:pass	_	_
 18	telah	telah	AUX	_	_	19	aux	_	_
 19	diprediksi	prediksi	VERB	_	Mood=Ind|Voice=Pass	14	advcl	_	_
 20	oleh	oleh	ADP	_	_	21	case	_	_
