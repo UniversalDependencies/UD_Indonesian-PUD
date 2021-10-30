@@ -90,16 +90,12 @@ We will distinguish between two portions of the data:
 
 # Acknowledgments
 
-## From Google:
-We are greatful to the many people who made this dataset possible:
-Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
+* The original treebank was built by Google for the CoNLL 2018 shared task in Zeman et al. (2018), based on McDonald at al (2013). We are greatful to the many people who made this dataset possible: Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
 Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
-## From UI:
-
-We thank the contributors of the revision project of the Indonesian PUD:
-* Designers of the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
-* Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
+* The treebank was revised manually by Alfina et al. (2019) and Alfina et al (2020) from Universitas Indonesia (UI). We thank the contributors of the revision project of the Indonesian PUD:
+  * Designers of the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
+  * Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
 
 ## References
 
