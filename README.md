@@ -36,11 +36,10 @@ employ ten-fold cross-validation.
 README FROM UI
 ==================
 
-A reseach team from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
+Alfina et al. (2019) and Alfina et al. (2020) from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD. The revision was conducted manually that made the current treebank a gold standard.
 
-A description of how the Indonesian PUD was manually revised by UI  can be found in Alfina et al. (2019) and Alfina et al. (2020) in the references section. The short description about the annotation guidelines can be found in [Indonesian Documentation](https://universaldependencies.org/id/index.html).
+The short description about the annotation guidelines can be found in [Indonesian Documentation](https://universaldependencies.org/id/index.html).
 
-The original repository of the revised Indonesian PUD conducted by UI can be found [here](https://github.com/ialfina/revised-id-pud).
 
 ==================
 README FROM GOOGLE
@@ -106,23 +105,21 @@ We thank the contributors of the revision project of the Indonesian PUD:
 
 * Ika Alfina, Daniel Zeman, Arawinda Dinakaramani, Indra Budi, and Heru Suhartanto. ["**Selecting the UD v2 Morphological Features for Indonesian Dependency Treebank**"](https://ieeexplore.ieee.org/document/9310513). In Proceedings of the 2020 International Conference of Asian Language Processing (IALP)  in Kuala Lumpur, Malaysia, 4-6 Desember 2020. 
 * Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany, and Heru Suhartanto. ["**A Gold Standard Dependency Treebank for Indonesian**"](https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=48059&item_no=1&attribute_id=101&file_no=1). In Proceedings of 33rd Pacific Asia Conference on Language, Information and Computation (PACLIC) 2019 in Hakodate, Japan, 13-15 September 2019. 
+* Daniel Zeman et al. (2018). CoNLL 2018 Shared Task : Multilingual Parsing from Raw Text to Universal Dependencies. In Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies.
 * Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg, Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang, Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee. "**Universal Dependency Annotation for Multilingual Parsing**". In Proceedings of ACL 2013.
 
 
 # Changelog
 
 * 2021-11-15 v2.9
-  * added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
-  * removed feature Poss (value: Yes)
-  * changed the annotation for 'di mana' (where), 'yang' (which), 'apa/apakah' (what, wheter, adverb in yes-no questions)
-  * changed the annotation for transition words (become ADV)
-
+  * Added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
+  * Removed feature Poss (value: Yes)
+  * Changed the annotation for 'di mana' (where), 'yang' (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
+  * Changed the annotation for transition words (become ADV)
 * 2021-05-15 v2.8 
-  * fixed some udapi bugs
-
+  * Fixed udapi bugs (multi-subj, multi-obj, and so on)
 * 2020-11-15 v2.7
-  * Manual revision conducted by Alfina et al. (2019) and Alfina et al. (2020). Major revision on word segmentation, POS tagging, morphological features, and syntactic annotation.
-
+  * Manual revision conducted by Alfina et al. (2019) and Alfina et al. (2020). Major revision on word segmentation, lemmatization, POS tagging, morphological features, and syntactic annotation.
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
