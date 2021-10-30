@@ -45,13 +45,7 @@ The short description about the annotation guidelines can be found in [Indonesia
 README FROM GOOGLE
 ==================
 
-A description of how the treebanks were generated can be found in:
-
-  Universal Dependency Annotation for Multilingual Parsing
-  Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg,
-  Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang,
-  Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee
-  Proceedings of ACL 2013
+A description of how the treebanks were generated can be found in McDonal et al (2013) (see References section).
 
 A more detailed description of each relation type in our harmonized scheme is
 included in the file universal-guidelines.pdf.
@@ -90,12 +84,11 @@ We will distinguish between two portions of the data:
 
 # Acknowledgments
 
-* The original treebank was built by Google for the CoNLL 2018 shared task in Zeman et al. (2018), based on McDonald at al (2013). We are greatful to the many people who made this dataset possible: Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
-Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
+* The original treebank was built by Google for the CoNLL 2018 shared task in Zeman et al. (2018), based on method proposed by McDonald et al. (2013). We are greatful to the many people who made this dataset possible: Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz, Ali Elkahky, Abhijit Barde, and Tolga Kayadelen.
 
 * The treebank was revised manually by Alfina et al. (2019) and Alfina et al (2020) from Universitas Indonesia (UI). We thank the contributors of the revision project of the Indonesian PUD:
-  * Designers of the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
-  * Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
+  * Designers of the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, and Arawinda Dinakaramani.
+  * Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, and Yogi Lesmana Sulestio.
 
 ## References
 
