@@ -36,23 +36,16 @@ employ ten-fold cross-validation.
 README FROM UI
 ==================
 
-A reseach team from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD in 2019 and 2020.
+Alfina et al. (2019) and Alfina et al. (2020) from Faculty of Computer Science, Universitas Indonesia (UI) proposed a revision to Indonesian PUD. The revision was conducted manually that made the current treebank a gold standard.
 
-A description of how the Indonesian PUD was manually revised by UI  can be found in Alfina et al. (2019) and Alfina et al. (2020) in the references section. The short description about the annotation guidelines can be found in [Indonesian Documentation](https://universaldependencies.org/id/index.html).
+The short description about the annotation guidelines can be found in [Indonesian Documentation](https://universaldependencies.org/id/index.html).
 
-The original repository of the revised Indonesian PUD conducted by UI can be found [here](https://github.com/ialfina/revised-id-pud).
 
 ==================
 README FROM GOOGLE
 ==================
 
-A description of how the treebanks were generated can be found in:
-
-  Universal Dependency Annotation for Multilingual Parsing
-  Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg,
-  Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang,
-  Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee
-  Proceedings of ACL 2013
+A description of how the treebanks were generated can be found in McDonal et al (2013) (see References section).
 
 A more detailed description of each relation type in our harmonized scheme is
 included in the file universal-guidelines.pdf.
@@ -91,26 +84,31 @@ We will distinguish between two portions of the data:
 
 # Acknowledgments
 
-## From Google:
-We are greatful to the many people who made this dataset possible:
-Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
-Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
+* The original treebank was built by Google for the CoNLL 2018 shared task in Zeman et al. (2018), based on method proposed by McDonald et al. (2013). We are greatful to the many people who made this dataset possible: Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz, Ali Elkahky, Abhijit Barde, and Tolga Kayadelen.
 
-## From UI:
-We thank the contributors of the revision project of the Indonesian PUD:
-* Designers of the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, Arawinda Dinakaramani
-* Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, Yogi Lesmana Sulestio
+* The treebank was revised manually by Alfina et al. (2019) and Alfina et al (2020) from Universitas Indonesia (UI). We thank the contributors of the revision project of the Indonesian PUD:
+  * Designers of the Indonesian annotation guidelines: Ika Alfina, Daniel Zeman, and Arawinda Dinakaramani.
+  * Annotators: Ika Alfina, Arawinda Dinakaramani, Muhammad Yudistira Hanifmuti, Jessica Naraiswari Arwidarasti, and Yogi Lesmana Sulestio.
 
 ## References
+
 * Ika Alfina, Daniel Zeman, Arawinda Dinakaramani, Indra Budi, and Heru Suhartanto. ["**Selecting the UD v2 Morphological Features for Indonesian Dependency Treebank**"](https://ieeexplore.ieee.org/document/9310513). In Proceedings of the 2020 International Conference of Asian Language Processing (IALP)  in Kuala Lumpur, Malaysia, 4-6 Desember 2020. 
 * Ika Alfina, Arawinda Dinakaramani, Mohamad Ivan Fanany, and Heru Suhartanto. ["**A Gold Standard Dependency Treebank for Indonesian**"](https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=48059&item_no=1&attribute_id=101&file_no=1). In Proceedings of 33rd Pacific Asia Conference on Language, Information and Computation (PACLIC) 2019 in Hakodate, Japan, 13-15 September 2019. 
-* Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg, Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang, Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee. "**Universal Dependency Annotation for Multilingual Parsing**". In Proceedings of ACL 2013.
+* Daniel Zeman, Jan Hajiˇc, Martin Popel, Martin Potthast, Milan Straka, Filip Ginter, Joakim Nivre, and Slav Petrov. ["**CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies**"](https://aclanthology.org/K18-2001.pdf). In Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, 2018.
+* Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg, Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang, Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee. ["**Universal Dependency Annotation for Multilingual Parsing**"](https://aclanthology.org/P13-2017.pdf). In Proceedings of ACL 2013.
 
 
 # Changelog
-* 2021-05-15 v2.8 Minor corrections
+
+* 2021-11-15 v2.9
+  * Added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
+  * Removed feature Poss (value: Yes)
+  * Changed the annotation for 'di mana' (where), 'yang' (which), 'apa/apakah' (what, whether, adverb in yes-no questions)
+  * Changed the annotation for transition words (become ADV)
+* 2021-05-15 v2.8 
+  * Fixed udapi bugs (multi-subj, multi-obj, and so on)
 * 2020-11-15 v2.7
-  * Manual revision conducted by Alfina et al. from Universitas Indonesia. They conducted major revision on word segmentation, POS tagging, morphological features, and syntactic annotation.
+  * Manual revision conducted by Alfina et al. (2019) and Alfina et al. (2020). Major revision on word segmentation, lemmatization, POS tagging, morphological features, and syntactic annotation.
 * 2018-07-01 v2.2
   * First official release after it was used as a surprise dataset in the
     CoNLL 2018 shared task.
