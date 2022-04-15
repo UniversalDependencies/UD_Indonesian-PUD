@@ -99,7 +99,8 @@ We will distinguish between two portions of the data:
 
 
 # Changelog
-
+* 2022-05-15 v2.10
+  * Fixed the annotation for 'goeswith' to adjust to the new guidelines
 * 2021-11-15 v2.9
   * Added features: Definite (values: Def, Ind) and Polite (values: Form, Infm)
   * Removed feature Poss (value: Yes)
