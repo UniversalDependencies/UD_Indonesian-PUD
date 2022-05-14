@@ -10,19 +10,19 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>19034</tokens><words>19446</words><fused>412</fused></test>
   </size>
-  <lemmas unique="3633" /><!-- ,, ., yang, dan, di, nya, untuk, pada, ini, dengan, itu, dari, dalam, tahun, tidak -->
+  <lemmas unique="3632" /><!-- ,, ., yang, dan, di, nya, untuk, pada, ini, dengan, itu, dari, dalam, tahun, tidak -->
   <forms unique="4706" /><!-- ,, ., yang, dan, di, nya, untuk, pada, ini, dengan, itu, dari, dalam, tahun, tidak -->
   <fusions unique="293" /><!-- apakah, lainnya, dirinya, kalinya, istrinya, katanya, meskipun, semuanya, hidupnya, itulah, kepadanya, menyebutnya, terakhirnya, terjadinya, ujarnya -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">1026</tag><!-- besar, baru, lain, baik, pertama, akhir, sama, banyak, salah, tinggi -->
-    <tag name="ADP">1899</tag><!-- di, pada, dari, dengan, dalam, ke, oleh, bagai, untuk, lama -->
+    <tag name="ADP">1898</tag><!-- di, pada, dari, dengan, dalam, ke, oleh, bagai, untuk, lama -->
     <tag name="ADV">678</tag><!-- lebih, juga, sangat, namun, hanya, apa, kitar, saat, saja, tetap -->
     <tag name="AUX">405</tag><!-- adalah, telah, akan, bisa, sudah, dapat, harus, mungkin, sedang, boleh -->
     <tag name="CCONJ">564</tag><!-- dan, atau, tetapi, namun, tapi, serta, baik, maupun, lain, & -->
     <tag name="DET">741</tag><!-- ini, itu, nya, buah, para, banyak, sebut, orang, berapa, semua -->
     <tag name="INTJ">4</tag><!-- hei, omong, toh, ya -->
-    <tag name="NOUN">4689</tag><!-- tahun, orang, bagi, bulan, hari, negara, kota, laut, perintah, hal -->
+    <tag name="NOUN">4687</tag><!-- tahun, orang, bagi, bulan, hari, negara, kota, laut, perintah, hal -->
     <tag name="NUM">501</tag><!-- satu, dua, tiga, juta, puluh, empat, 1, 10, miliar, 3 -->
     <tag name="PART">225</tag><!-- tidak, pun, tak, belum, kah, lah, bukan -->
     <tag name="PRON">1329</tag><!-- yang, nya, ia, mereka, saya, itu, ini, kami, dia, mana -->
@@ -31,7 +31,7 @@
     <tag name="SCONJ">414</tag><!-- untuk, bahwa, telah, dengan, karena, jika, meski, belum, iring, agar -->
     <tag name="SYM">38</tag><!-- %, £, $, € -->
     <tag name="VERB">2395</tag><!-- ada, jadi, milik, buat, kata, mulai, guna, beri, kerja, tinggal -->
-    <tag name="X">41</tag><!-- estate, landmark, real, borough, bullying, chairman, chief, council, coup, de -->
+    <tag name="X">44</tag><!-- _, estate, landmark, real, borough, bullying, chairman, chief, council, coup -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="30">
@@ -62,7 +62,7 @@
     <feat name="PronType" value="Rel" upos="ADV,PRON">597</feat><!-- yang, saat, apa, ketika, mengapa, bagaimana, siapa, berapa, kapan, seberapa -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">61</feat><!-- semua, seluruh, setiap, selalu, masing-masing, segala -->
     <feat name="Reflex" value="Yes" upos="PRON">15</feat><!-- diri -->
-    <feat name="Typo" value="Yes" upos="NOUN">6</feat><!-- mercu, suar, Kontituensi, konsulate -->
+    <feat name="Typo" value="Yes" upos="ADP,NOUN">5</feat><!-- mercu, Kontituensi, dari, konsulate -->
     <feat name="Voice" value="Act" upos="VERB">1891</feat><!-- menjadi, ada, memiliki, membuat, mulai, mengatakan, merupakan, ujar, mendapatkan, bekerja -->
     <feat name="Voice" value="Pass" upos="VERB">504</feat><!-- digunakan, terjadi, termasuk, terletak, diberi, didirikan, diikuti, dikenal, diperlukan, terbuka -->
   </feats>
