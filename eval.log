@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Indonesian-PUD:
-commit 0ff00ef74fc4c280be9638e90229b038d127e9ef
+commit 79f610018ec3b5cfd19c3840400eec41a9e10b72
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 14:35:50 2022 +0200
+Date:   Mon Nov 14 11:21:41 2022 +0100
 Size: counted 19446 of 19446 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.93528278677493.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,7 +24,7 @@ Udapi:
 Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19446 words.
 Genres: found 2 out of 17 known.
-validate.py --lang id --max-err=10 UD_Indonesian-PUD/id_pud-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-PUD/id_pud-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
