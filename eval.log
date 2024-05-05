@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Indonesian-PUD:
-commit 58031c8ba27d8a437b88f80d5f1694f6f945bdf1
+commit 601160b68ee90400efed1c2605494293a0402c1f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 10:46:58 2023 +0200
+Date:   Mon Nov 6 12:12:06 2023 +0100
 Size: counted 19446 of 19446 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.93528278677493.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,13 @@ Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19446 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang id --max-err=10 UD_Indonesian-PUD/id_pud-ud-test.conllu
+[Line 6217 Sent n01107005 Node 21]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 6216 Sent n01107005 Node 20]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 6534 Sent n01111021 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 6534 Sent n01111021 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 22002 Sent w03004037 Node 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 22001 Sent w03004037 Node 14]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 6
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
