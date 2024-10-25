@@ -11202,7 +11202,7 @@
 5	lebih	lebih	ADV	_	_	6	advmod	_	_
 6	besar	besar	ADJ	_	_	2	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	sebagian	bagi	DET	_	PronType=Ind	9	det	_	_
+8	sebagian	bagi	NOUN	_	Number=Sing	9	nmod	_	_
 9	partikel	partikel	NOUN	_	Number=Sing	10	nsubj:pass	_	_
 10	terangkat	angkat	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 11	ke	ke	ADP	_	_	12	case	_	_
