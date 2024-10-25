@@ -969,7 +969,7 @@
 9-10	perlunya	_	_	_	_	_	_	_	_
 9	perlu	perlu	VERB	_	Mood=Ind|Voice=Act	7	acl	_	_
 10	nya	nya	DET	_	Definite=Def|PronType=Art	9	det	_	_
-11	kursus	kursus	NOUN	_	Number=Sing	10	nsubj	_	_
+11	kursus	kursus	NOUN	_	Number=Sing	9	nsubj	_	_
 12	ini	ini	DET	_	PronType=Dem	11	det	_	_
 13	dan	dan	CCONJ	_	_	14	cc	_	_
 14	maksud	maksud	NOUN	_	Number=Sing	9	conj	_	_
@@ -4429,10 +4429,10 @@
 6	atas	atas	ADP	_	_	7	case	_	_
 7	mantel	mantel	NOUN	_	Number=Sing	3	nmod	_	_
 8	sebagai	bagai	ADP	_	_	9	case	_	_
-9	yang	yang	DET	_	Definite=Def|PronType=Art	10	det	_	_
-10	terbaik	baik	ADJ	_	Degree=Sup	7	advcl	_	_
+9	yang	yang	PRON	_	PronType=Rel	3	acl	_	_
+10	terbaik	baik	ADJ	_	Degree=Sup	9	amod	_	_
 11	di	di	ADP	_	_	12	case	_	_
-12	dunia	dunia	NOUN	_	Number=Sing	10	obl	_	_
+12	dunia	dunia	NOUN	_	Number=Sing	9	nmod	_	_
 13	tidak	tidak	PART	_	Polarity=Neg	15	advmod	_	_
 14	lagi	lagi	ADV	_	_	15	advmod	_	_
 15	dijamin	jamin	VERB	_	Mood=Ind|Voice=Pass	0	root	_	SpaceAfter=No
@@ -6213,8 +6213,8 @@
 17	VW	VW	PROPN	_	Abbr=Yes	16	nmod	_	_
 18	dan	dan	CCONJ	_	_	19	cc	_	_
 19	membuat	buat	VERB	_	Mood=Ind|Voice=Act	12	conj	_	_
-20	chief	chief	X	_	_	19	obj	_	_
-21	executive	executive	X	_	_	20	flat:foreign	_	_
+20	chief	chief	X	_	Foreign=Yes	19	obj	_	_
+21	executive	executive	X	_	Foreign=Yes	20	flat:foreign	_	_
 22	Martin	Martin	PROPN	_	_	20	appos	_	_
 23	Winterkorn	Winterkorn	PROPN	_	_	22	flat:name	_	_
 24	kehilangan	hilang	VERB	_	Mood=Ind|Voice=Act	19	xcomp	_	_
@@ -6532,10 +6532,10 @@
 1	Diikuti	ikut	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 2	dengan	dengan	ADP	_	_	3	case	_	_
 3	Aviva	Aviva	PROPN	_	_	1	obl	_	_
-4	Investors	investors	X	_	Foreign=Yes	3	flat	_	_
+4	Investors	investors	X	_	Foreign=Yes	3	nmod	_	_
 5	MultiStrategy	multistrategy	X	_	Foreign=Yes	4	flat:foreign	_	_
-6	Target	target	X	_	Foreign=Yes	3	flat:foreign	_	_
-7	Return	return	X	_	Foreign=Yes	3	flat:foreign	_	_
+6	Target	target	X	_	Foreign=Yes	4	flat:foreign	_	_
+7	Return	return	X	_	Foreign=Yes	4	flat:foreign	_	_
 8	dan	dan	CCONJ	_	_	9	cc	_	_
 9	Penghasilan	hasil	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	_
@@ -13175,7 +13175,7 @@
 3-4	lamanya	_	_	_	_	_	_	_	_
 3	lama	lama	ADJ	_	_	2	ccomp	_	_
 4	nya	nya	DET	_	Definite=Def|PronType=Art	3	det	_	_
-5	bulan-bulan	bulan	NOUN	_	Number=Plur	4	nsubj	_	_
+5	bulan-bulan	bulan	NOUN	_	Number=Plur	3	nsubj	_	_
 6	kalender	kalender	NOUN	_	Number=Sing	5	nmod	_	_
 7	Cina	Cina	PROPN	_	_	6	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -21998,8 +21998,8 @@
 11	Roma	Roma	PROPN	_	_	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	dan	dan	CCONJ	_	_	14	cc	_	_
-14	mos	mos	X	_	_	6	conj	_	_
-15	maiorum	maiorum	X	_	_	14	flat:foreign	_	SpaceAfter=No
+14	mos	mos	X	_	Foreign=Yes	6	conj	_	_
+15	maiorum	maiorum	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = w03004107
@@ -23084,7 +23084,7 @@
 7	kolaborasi	kolaborasi	NOUN	_	Number=Sing	5	obl	_	_
 8	tidak	tidak	PART	_	Polarity=Neg	9	advmod	_	_
 9	resmi	resmi	ADJ	_	_	7	amod	_	_
-10	di	di	ADP	_	_	13	case	_	_
+10	di	di	ADP	_	_	11	case	_	_
 11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12-13	keduanya	_	_	_	_	_	_	_	SpaceAfter=No
 12	kedua	dua	NUM	_	NumType=Card	7	nmod	_	_
@@ -23193,7 +23193,7 @@
 10-11	banyaknya	_	_	_	_	_	_	_	_
 10	banyak	banyak	ADJ	_	_	6	advcl	_	_
 11	nya	nya	DET	_	Definite=Def|PronType=Art	10	det	_	_
-12	jumlah	jumlah	NOUN	_	Number=Sing	11	nsubj	_	_
+12	jumlah	jumlah	NOUN	_	Number=Sing	10	nsubj	_	_
 13	orang	orang	NOUN	_	Number=Sing	12	nmod	_	_
 14	Yahudi	Yahudi	PROPN	_	_	13	nmod	_	_
 15	yang	yang	PRON	_	PronType=Rel	16	nsubj	_	_
