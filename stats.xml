@@ -34,13 +34,16 @@
     <tag name="X">44</tag><!-- _, estate, landmark, real, borough, bullying, chairman, chief, council, coup -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="30">
+  <feats unique="33">
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN">104</feat><!-- SM, AS, A.S., BBC, CNN, Nn., Tn., B.C., DNA, GCA -->
     <feat name="Clusivity" value="Ex" upos="PRON">26</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">19</feat><!-- kita -->
     <feat name="Definite" value="Def" upos="DET">106</feat><!-- nya, yang -->
     <feat name="Definite" value="Ind" upos="DET">90</feat><!-- sebuah, seorang, suatu -->
     <feat name="Degree" value="Sup" upos="ADJ">58</feat><!-- terakhir, terbaik, terbesar, tertinggi, terutama, teratas, terburuk, terawal, terbanyak, terbaru -->
+    <feat name="ExtPos" value="ADP" upos="ADP">2</feat><!-- antara -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV">32</feat><!-- lebih, sering, Sementara, sama, Lagi, Kadang, Oleh, kurang -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,PRON">19</feat><!-- di, yang -->
     <feat name="Foreign" value="Yes" upos="X">36</feat><!-- estate, landmark, real, Energies, International, Investors, MultiStrategy, Organization, Renewable, Return -->
     <feat name="Mood" value="Ind" upos="VERB">2395</feat><!-- menjadi, ada, memiliki, membuat, mulai, mengatakan, merupakan, ujar, digunakan, mendapatkan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">391</feat><!-- mereka, para, banyak, beberapa, kami, kita, berbagai, orang-orang, negara-negara, anak-anak -->
@@ -76,7 +79,7 @@
     <dep name="amod">585</dep>
     <dep name="appos">116</dep>
     <dep name="aux">309</dep>
-    <dep name="case">1823</dep>
+    <dep name="case">1815</dep>
     <dep name="case:adv">50</dep>
     <dep name="cc">559</dep>
     <dep name="cc:preconj">5</dep>
@@ -91,13 +94,13 @@
     <dep name="det">716</dep>
     <dep name="discourse">3</dep>
     <dep name="dislocated">5</dep>
-    <dep name="fixed">46</dep>
+    <dep name="fixed">54</dep>
     <dep name="flat">115</dep>
     <dep name="flat:foreign">14</dep>
     <dep name="flat:name">607</dep>
     <dep name="goeswith">3</dep>
     <dep name="iobj">4</dep>
-    <dep name="mark">426</dep>
+    <dep name="mark">435</dep>
     <dep name="nmod">2145</dep>
     <dep name="nmod:lmod">107</dep>
     <dep name="nmod:poss">327</dep>
@@ -106,7 +109,7 @@
     <dep name="nsubj:pass">408</dep>
     <dep name="nummod">359</dep>
     <dep name="obj">857</dep>
-    <dep name="obl">1047</dep>
+    <dep name="obl">1038</dep>
     <dep name="obl:agent">82</dep>
     <dep name="obl:tmod">268</dep>
     <dep name="orphan">1</dep>
