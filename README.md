@@ -128,6 +128,7 @@ ika.alfina@cs.ui.ac.id
 Data available since: UD v2.2
 License: CC BY-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: news wiki
 Lemmas: manual native
 UPOS: manual native
