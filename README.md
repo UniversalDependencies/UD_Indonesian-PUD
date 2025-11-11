@@ -100,6 +100,8 @@ We will distinguish between two portions of the data:
 
 # Changelog
 
+* 2025-10-13 v2.17
+  * Fixed warnings (removed Mood feature).
 * 2024-10-25 v2.15
   * Fixed errors and warnings.
 * 2022-05-15 v2.10
@@ -128,6 +130,7 @@ ika.alfina@cs.ui.ac.id
 Data available since: UD v2.2
 License: CC BY-SA 3.0
 Includes text: yes
+Parallel: pud
 Genre: news wiki
 Lemmas: manual native
 UPOS: manual native

@@ -34,7 +34,7 @@
     <tag name="X">44</tag><!-- _, estate, landmark, real, borough, bullying, chairman, chief, council, coup -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="33">
+  <feats unique="32">
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN">104</feat><!-- SM, AS, A.S., BBC, CNN, Nn., Tn., B.C., DNA, GCA -->
     <feat name="Clusivity" value="Ex" upos="PRON">26</feat><!-- kami -->
     <feat name="Clusivity" value="In" upos="PRON">19</feat><!-- kita -->
@@ -45,7 +45,6 @@
     <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV">32</feat><!-- lebih, sering, Sementara, sama, Lagi, Kadang, Oleh, kurang -->
     <feat name="ExtPos" value="SCONJ" upos="ADP,PRON">19</feat><!-- di, yang -->
     <feat name="Foreign" value="Yes" upos="X">36</feat><!-- estate, landmark, real, Energies, International, Investors, MultiStrategy, Organization, Renewable, Return -->
-    <feat name="Mood" value="Ind" upos="VERB">2395</feat><!-- menjadi, ada, memiliki, membuat, mulai, mengatakan, merupakan, ujar, digunakan, mendapatkan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">391</feat><!-- mereka, para, banyak, beberapa, kami, kita, berbagai, orang-orang, negara-negara, anak-anak -->
     <feat name="Number" value="Sing" upos="NOUN,PRON">4994</feat><!-- nya, tahun, ia, orang, saya, bulan, bagian, hari, negara, kota -->
     <feat name="NumType" value="Card" upos="NUM">501</feat><!-- satu, dua, kedua, tiga, juta, empat, 1, 10, 3, puluh -->
@@ -101,7 +100,7 @@
     <dep name="goeswith">3</dep>
     <dep name="iobj">4</dep>
     <dep name="mark">435</dep>
-    <dep name="nmod">2145</dep>
+    <dep name="nmod">2147</dep>
     <dep name="nmod:lmod">107</dep>
     <dep name="nmod:poss">327</dep>
     <dep name="nmod:tmod">143</dep>
@@ -109,7 +108,7 @@
     <dep name="nsubj:pass">408</dep>
     <dep name="nummod">359</dep>
     <dep name="obj">857</dep>
-    <dep name="obl">1038</dep>
+    <dep name="obl">1036</dep>
     <dep name="obl:agent">82</dep>
     <dep name="obl:tmod">268</dep>
     <dep name="orphan">1</dep>
