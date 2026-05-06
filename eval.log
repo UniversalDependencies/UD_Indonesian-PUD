@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Indonesian-PUD:
-commit a75bcdcafde3f61b294a7f99a831b65c39e544e2
-Merge: 5fbe02c 0b21790
+commit 765fb3fe486201f094cb177aff5aa84bc6b06800
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:47:49 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'id_pud'
 Language code (from CoNLL-U file name) = 'id'
